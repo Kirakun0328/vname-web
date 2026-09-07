@@ -16,7 +16,9 @@ class UpdateTests(unittest.TestCase):
         base = [{'source_id': 'youtube:UC1', 'display_name': '兎田ぺこら', 'reading': 'うさだぺこら'}]
         v = {'type': 'vtuber', 'uuid': 'vdb-1', 'name': {'jp': '兎田ぺこら', 'en': 'Usada Pekora', 'extra': []}, 'accounts': [{'platform': 'youtube', 'type': 'official', 'id': 'UC1'}]}
         result = u.expand(base, [], self.dataset(v), [])
-        self.assertEqual(result, [{'source_id': 'youtube:UC1', 'aliases': ['Usada Pekora']}])
+        self.assertEqual(result[0]['source_id'], 'youtube:UC1')
+        self.assertEqual(result[0]['aliases'], ['Usada Pekora'])
+        self.assertEqual(result[0]['romanized_source'], 'https://vdb.vtbs.moe/')
         self.assertEqual(base[0]['reading'], 'うさだぺこら')
         self.assertEqual(u.expand(base, result, self.dataset(v), []), result)
 

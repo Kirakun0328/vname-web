@@ -83,6 +83,12 @@ def expand(base, previous, vdb, rankings):
             merged[target] = dict(r)
             extra[target] = r
         r = merged[target]
+        if isinstance(names.get('en'), str) and names['en'].strip():
+            english = names['en'].strip()
+            patch = extra.setdefault(target, {'source_id': target})
+            if not r.get('romanized_source') or r.get('romanized_source') == 'https://vdb.vtbs.moe/':
+                patch.update(romanized_name=english, romanized_source='https://vdb.vtbs.moe/')
+                r.update(romanized_name=english, romanized_source='https://vdb.vtbs.moe/')
         aliases = list(dict.fromkeys([*r.get('aliases', []), *(x for x in variants if x != r['display_name'])]))
         if aliases != r.get('aliases', []):
             extra.setdefault(target, {'source_id': target})['aliases'] = aliases
@@ -115,6 +121,8 @@ def main():
         rankings.extend(parse_ranking(fetch(f'https://virtual-youtuber.userlocal.jp/document/ranking?page={page}')))
         time.sleep(1)
     updated = expand(base, previous, vdb, rankings)
+    from reading_sources import refresh_readings, fetch_reading
+    updated = refresh_readings(base, updated, fetch_reading)
     print(f'Extra records: {len(previous)} -> {len(updated)}')
     if args.check or updated == previous:
         return
