@@ -47,27 +47,28 @@
     "ambiguous_skipped": 0
   },
   "records": {
-    "listed": 32352,
-    "platform_records": 10866,
-    "with_primary_platforms": 1056,
-    "with_vliver_source": 1071,
+    "listed": 32880,
+    "platform_records": 11232,
+    "with_primary_platforms": 1422,
+    "with_vliver_source": 1437,
+    "with_icons": 497,
     "platform_counts": {
-      "youtube": 694,
-      "tiktok": 32,
-      "iriam": 838,
+      "youtube": 737,
+      "tiktok": 38,
+      "iriam": 1143,
       "avvy": 15,
       "reality": 211,
-      "twitch": 48,
-      "17live": 6,
+      "twitch": 51,
+      "17live": 65,
       "showroom": 6,
-      "twitcasting": 0,
+      "twitcasting": 1,
       "niconico": 4,
       "mirrativ": 0,
       "bilibili": 9519,
       "spoon": 0,
       "kick": 0,
       "soop": 0,
-      "topia": 0,
+      "topia": 2,
       "palmu": 0,
       "mixch": 0,
       "bigo": 0,
@@ -111,5 +112,43 @@
   "identity_repairs": {
     "aivnav_duplicate_stubs_merged": 1,
     "evidence": "https://www.youtube.com/@AIVtuber_Shizuku"
+  },
+  "reviewed_platforms": {
+    "source": "https://spiruna.jp/",
+    "verified_source_records": 2,
+    "new_records": 2,
+    "matched_existing": 0,
+    "ambiguous_skipped": 0
+  },
+  "ozon": {
+    "source": "https://ozon.jp/v/liver/",
+    "verified_source_records": 156,
+    "new_records": 154,
+    "matched_existing": 2,
+    "ambiguous_skipped": 0
+  },
+  "linear": {
+    "source": "https://linear-v.com/",
+    "candidate_profiles": 244,
+    "checked_profiles": 232,
+    "verified_source_records": 208,
+    "next_index": 0,
+    "retry_urls": [
+      "https://linear-v.com/talent/7172/",
+      "https://linear-v.com/talent/7169/",
+      "https://linear-v.com/talent/7167/",
+      "https://linear-v.com/talent/7165/",
+      "https://linear-v.com/talent/6803/",
+      "https://linear-v.com/talent/6800/",
+      "https://linear-v.com/talent/6675/",
+      "https://linear-v.com/talent/6773/",
+      "https://linear-v.com/talent/1101/",
+      "https://linear-v.com/talent/1116/",
+      "https://linear-v.com/talent/1345/",
+      "https://linear-v.com/talent/1351/"
+    ],
+    "new_records": 208,
+    "matched_existing": 0,
+    "ambiguous_skipped": 0
   }
 }

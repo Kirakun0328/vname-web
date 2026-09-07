@@ -113,10 +113,10 @@
     "skipped_without_activity_or_predebut": 0
   },
   "records": {
-    "stored": 32364,
-    "listed": 32346,
+    "stored": 32898,
+    "listed": 32880,
     "excluded_predebut": 18,
-    "with_activity_source": 8971
+    "with_activity_source": 9508
   },
   "vstats": {
     "new_records": 0,
@@ -129,23 +129,69 @@
     "failed_profiles": 0
   },
   "liverfun": {
-    "new_records": 0,
-    "skipped_unconfirmed_or_duplicate": 30,
     "source": "https://www.liverfun.jp/vtuber/",
-    "checked_at": "2026-09-07",
-    "next_index": 120,
-    "small_account_candidates": 702,
-    "checked_profiles": 30,
+    "checked_profiles": 581,
     "failed_profiles": 0,
-    "size_measure": "combined_social_followers_below_1000"
+    "candidate_profiles": 996,
+    "scope": "all_active_profiles",
+    "next_index": 615,
+    "size_measure": "combined_social_followers_positive",
+    "checked_at": "2026-09-07",
+    "new_records": 22,
+    "matched_existing": 17,
+    "ambiguous_skipped": 0,
+    "skipped_unconfirmed_or_duplicate": 542,
+    "small_account_candidates": 702
   },
   "expansion_2026_09_07": {
-    "vstats_new": 201,
-    "liverfun_new": 11,
-    "new_total": 212,
-    "vstats_below_10000_subscribers": 5,
-    "liverfun_below_1000_social_followers": 11,
-    "listed_after": 24797
+    "aituberlist": {
+      "new_records": 142,
+      "matched_existing": 32,
+      "ambiguous_skipped": 13
+    },
+    "liverfun": {
+      "new_records": 22,
+      "matched_existing": 17,
+      "ambiguous_skipped": 0,
+      "skipped_unconfirmed_or_duplicate": 542
+    },
+    "channel_icons_updated": 36,
+    "reviewed_platforms": {
+      "new_records": 2,
+      "matched_existing": 0,
+      "ambiguous_skipped": 0
+    },
+    "ozon": {
+      "new_records": 154,
+      "matched_existing": 2,
+      "ambiguous_skipped": 0
+    },
+    "linear": {
+      "new_records": 208,
+      "matched_existing": 0,
+      "ambiguous_skipped": 0
+    },
+    "before_listed": 32344,
+    "listed": 32880,
+    "new_records": 528,
+    "ai_before": 151,
+    "ai_after": 295,
+    "icons": 497,
+    "new_categories": {
+      "AIVTuber": 142,
+      "VTuber": 22,
+      "Vライバー": 364
+    },
+    "new_platforms": {
+      "youtube": 176,
+      "twitch": 15,
+      "tiktok": 6,
+      "iriam": 303,
+      "twitcasting": 1,
+      "topia": 2,
+      "17live": 59
+    },
+    "scheduled_records_preserved": 8
   },
   "taiwan_vtuber_data": {
     "source_records": 3055,
@@ -251,5 +297,42 @@
     "aivtuberdb_characters_added": 16,
     "target_records": 60000,
     "target_reached": false
+  },
+  "aivnav": {
+    "source": "https://aiv.nyagsicapp.com/",
+    "source_records": 135,
+    "checked_at": "2026-09-07",
+    "verified_channel_resolutions": 30
+  },
+  "aituberlist": {
+    "source": "https://aituberlist.net/",
+    "source_records": 317,
+    "verified_records": 187,
+    "checked_at": "2026-09-07",
+    "new_records": 142,
+    "matched_existing": 32,
+    "ambiguous_skipped": 13
+  },
+  "channel_icons": {
+    "checked_profiles": 51,
+    "updated_icons": 36,
+    "failed_profiles": 6,
+    "next_index": 0
+  },
+  "additional_discovery_sources": {
+    "kedamasuzume": {
+      "source": "https://x.com/kedamasuzume",
+      "used_via": "https://aiv.nyagsicapp.com/",
+      "public_characters_checked": 135
+    },
+    "aituber_schedule": {
+      "source": "https://aituber.web.fc2.com/channels.html",
+      "channel_candidates": 50,
+      "status": "discovery_only_not_used_as_ai_classification_evidence"
+    },
+    "namuwiki": {
+      "source": "https://namu.wiki/w/인공지능%20버츄얼%20유튜버",
+      "status": "unavailable_not_imported"
+    }
   }
 }

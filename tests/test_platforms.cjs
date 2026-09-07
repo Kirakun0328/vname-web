@@ -57,7 +57,7 @@ test('published data searches and renders a TikTok V-liver without requiring You
   get textContent(){return this._text+this.children.map(c=>c.textContent).join(' ');}
   append(...nodes){this.children.push(...nodes);}
   replaceChildren(...nodes){this._text='';this.children=nodes;}
-  addEventListener(){}
+  addEventListener(event,handler){(this.events||={})[event]=handler;}
   setAttribute(name,value){this[name]=value;}
  }
  const els=new Map();const get=id=>{if(!els.has(id))els.set(id,new El());return els.get(id);};
@@ -69,6 +69,9 @@ test('published data searches and renders a TikTok V-liver without requiring You
  get('query').value='マほ姉';vm.runInContext('search()',c);assert.match(get('results').textContent,/IRIAM \/ REALITY/);
  get('query').value='あいうえ おばけ';vm.runInContext('search()',c);assert.match(get('results').textContent,/確認できた媒体 Avvy/);
  get('query').value='兎田ぺこら';vm.runInContext('search()',c);assert.match(get('results').textContent,/うさだぺこら/);
+ const avatar=get('results').children[0].children.find(e=>e.className==='result-heading').children[0];
+ const profileImage=avatar.children.find(e=>e.tagName==='img');assert.ok(profileImage);assert.equal(profileImage.loading,'lazy');assert.equal(profileImage.referrerPolicy,'no-referrer');
+ profileImage.events.load();assert.equal(avatar.children[0].hidden,true);profileImage.events.error();assert.equal(profileImage.hidden,true);assert.equal(avatar.children[0].hidden,false);
  get('query').value='枯葉 楓';vm.runInContext('search()',c);assert.match(get('results').textContent,/こば かえで/);assert.match(get('results').textContent,/主な活動媒体 IRIAM/);assert.match(get('results').textContent,/Vライバー/);
  get('query').value='日暮園';vm.runInContext('search()',c);assert.match(get('results').textContent,/主な活動媒体 REALITY/);
  get('query').value='しずく';vm.runInContext('search()',c);
@@ -92,4 +95,11 @@ test('published data searches and renders a TikTok V-liver without requiring You
  // Global collision searches must not inherit a UI tag filter.
  assert.ok(vm.runInContext('find("しずく").some(x=>x.r.source_id==="youtube:UCE2SWbhR2WRHPBi-bflr0-g")',c));
  get('query').value='';get('search-tag').value='Vライバー';get('search-tag').onchange();assert.ok(vm.runInContext('hits.length>900 && hits.every(x=>categoryOf(x.r)==="Vライバー")',c));
+});
+
+test('profile icons require a credited HTTPS image on an explicit host',()=>{
+ assert.equal(p.icon({icon_url:'https://yt3.ggpht.com/avatar'}),null);
+ assert.equal(p.icon({icon_url:'https://yt3.ggpht.com.evil.test/avatar',icon_source:'https://youtube.com/@test'}),null);
+ assert.equal(p.icon({icon_url:'data:image/png;base64,test',icon_source:'https://youtube.com/@test'}),null);
+ assert.equal(p.icon({icon_url:'https://yt3.ggpht.com/avatar',icon_source:'https://youtube.com/@test'}).url,'https://yt3.ggpht.com/avatar');
 });

@@ -379,3 +379,7 @@ for(const [jp,values] of Object.entries({
  'AIと活動名を考えて、同じ名前や読みもチェック。':['Create your name with AI, then check for matching names and readings.','与AI一起构思活动名，再确认是否存在同名或同读音。','AI와 활동명을 생각하고, 같은 이름과 발음도 확인하세요.'],
  '選択したタグでは一致する名前が見つかりませんでした。':['No matching names were found within the selected tag.','所选标签中未找到匹配的名字。','선택한 태그에서는 일치하는 이름을 찾지 못했습니다.']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+translations.en['画像の出典']='Image source';
+translations.zh['画像の出典']='图片来源';
+translations.ko['画像の出典']='이미지 출처';

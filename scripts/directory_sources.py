@@ -199,4 +199,5 @@ def refresh_directories(fetch,base,previous,report,full=False):
     except (OSError,ValueError,UnicodeError) as error:
         report.setdefault('atoms',{})['last_error']=type(error).__name__
         print('Atoms unavailable; retained existing records',type(error).__name__,flush=True)
-    return updated
+    from official_rosters import refresh as refresh_official
+    return refresh_official(fetch,base,updated,report,full)

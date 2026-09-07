@@ -158,8 +158,12 @@ def main():
         updated = merge_aivtubers(base, updated, characters, vdb)
     except (OSError, ValueError, KeyError, TypeError) as error:
         print('AIV Navi unavailable; existing tags and records retained:', type(error).__name__)
+    from ai_list_sources import refresh as refresh_ai_list
+    updated = refresh_ai_list(fetch_reading, base, updated, report)
     if not args.skip_readings:
         updated = refresh_readings(base, updated, fetch_reading)
+    from icon_sources import refresh as refresh_icons
+    updated = refresh_icons(fetch_reading, base, updated, report)
     from reviewed_sources import merge_reviewed
     updated = merge_reviewed(updated)
     print(f'Extra records: {len(previous)} -> {len(updated)}')

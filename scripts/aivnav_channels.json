@@ -2,22 +2,22 @@
   "char-mgW5Z3FQ5yBd": {
     "youtube_url": "https://youtube.com/@neurosama?si=TA5Hw3J0xhwYh-yj",
     "channel_id": "UCLHmLrj4pHHg3-iBJn_CqxA",
-    "checked_at": "2026-09-07"
+    "verification_source": "https://youtube.com/@neurosama"
   },
   "char-8amIpTNmM8Pf": {
     "youtube_url": "https://www.youtube.com/@tsumuginench",
     "channel_id": "UCz3MxafXlPxGCJVpFLI7fGQ",
-    "checked_at": "2026-09-07"
+    "verification_source": "https://youtube.com/@tsumuginench"
   },
   "char-YNr70udavJg5": {
     "youtube_url": "https://www.youtube.com/@iramiYT",
     "channel_id": "UCg6UFIhlfoITa1KzGXQeN8g",
-    "checked_at": "2026-09-07"
+    "verification_source": "https://youtube.com/@iramiyt"
   },
   "char-ICRm88HF3oON": {
     "youtube_url": "http://www.youtube.com/@LunaxOniiChan",
     "channel_id": "UCJ2Lj2HePDIKNJLtB3E8L9Q",
-    "checked_at": "2026-09-07"
+    "verification_source": "https://youtube.com/@lunaxoniichan"
   },
   "char-SweVjIjGPWbi": {
     "youtube_url": "https://www.youtube.com/@%E3%82%86%E3%81%8D2026",
@@ -27,7 +27,131 @@
   "char-Ta5Ze-v2qnru": {
     "youtube_url": "https://www.youtube.com/@AIVtuber_Shizuku",
     "channel_id": "UCE2SWbhR2WRHPBi-bflr0-g",
-    "checked_at": "2026-09-08",
-    "source": "https://www.youtube.com/@AIVtuber_Shizuku"
+    "verification_source": "https://youtube.com/@aivtuber_shizuku"
+  },
+  "char-pcvRF-v-o2SY": {
+    "youtube_url": "http://www.youtube.com/@lena-ai",
+    "channel_id": "UCFAkY6WcUW_8LxiF57DxQmg",
+    "verification_source": "https://youtube.com/@lena-ai"
+  },
+  "char-93wO5xlHORS5": {
+    "youtube_url": "http://www.youtube.com/@Aruma_aicast",
+    "channel_id": "UCjk4gSWsiTGdfHbSDCq24cg",
+    "verification_source": "https://youtube.com/@Aruma_aicast"
+  },
+  "char-zZcVtsaowszj": {
+    "youtube_url": "https://www.youtube.com/@aituber-qe8vw",
+    "channel_id": "UCqzoj2O48J-prKfIA7WhnCQ",
+    "verification_source": "https://youtube.com/@aituber-qe8vw"
+  },
+  "char-1i-QXEz5UcI1": {
+    "youtube_url": "https://www.youtube.com/@nyavatar",
+    "channel_id": "UCxDFZznQPhFnW7HempQKQfQ",
+    "verification_source": "https://youtube.com/@nyavatar"
+  },
+  "char-W6CoqaGMVhjA": {
+    "youtube_url": "https://www.youtube.com/@kuboavatar",
+    "channel_id": "UCu7gX0rSlXln9UZEJ2OWJXw",
+    "verification_source": "https://youtube.com/@kuboavatar"
+  },
+  "char-xDOTP-Yd5IDR": {
+    "youtube_url": "https://www.youtube.com/@AITuberKiritan",
+    "channel_id": "UCtLdeWoetCsIY9lVmQlupPg",
+    "verification_source": "https://youtube.com/@AITuberKiritan"
+  },
+  "char-4VnjyZLcNzR7": {
+    "youtube_url": "http://www.youtube.com/@ririkasakurai",
+    "channel_id": "UCDdPW0c5lCgChhjgylaTAew",
+    "verification_source": "https://youtube.com/@ririkasakurai"
+  },
+  "char-jqGxyfBXlKa6": {
+    "youtube_url": "https://www.youtube.com/@asmr_yu_reika",
+    "channel_id": "UCwEaAY8hjV69SFy6yDFhwqQ",
+    "verification_source": "https://youtube.com/@asmr_yu_reika"
+  },
+  "char-60OcWWEZJ2pL": {
+    "youtube_url": "https://youtube.com/channel/UCUAI2yiwhi309kfRPZwKDfg?si=HuVoAOhGXIbm6VL6",
+    "channel_id": "UCUAI2yiwhi309kfRPZwKDfg",
+    "verification_source": "https://youtube.com/channel/UCUAI2yiwhi309kfRPZwKDfg"
+  },
+  "char-XYgh0C9MFqeZ": {
+    "youtube_url": "http://www.youtube.com/@AI%E3%81%9A%E3%82%93%E3%81%A0",
+    "channel_id": "UCpgesP-Gf6O07bJGaL-c2Bg",
+    "verification_source": "https://youtube.com/@AI%E3%81%9A%E3%82%93%E3%81%A0"
+  },
+  "char-a9HoxZaOt62U": {
+    "youtube_url": "https://youtube.com/@kafyaituber?si=MvW-1wIYjjBJZc3w",
+    "channel_id": "UC-dYhUY97DzWdFdipjBrfxQ",
+    "verification_source": "https://youtube.com/@kafyaituber"
+  },
+  "char-rg5cb7v1jwsw": {
+    "youtube_url": "http://www.youtube.com/@aoi-nagisa",
+    "channel_id": "UCaIWQKH_kh2DR8laP-bfkOw",
+    "verification_source": "https://youtube.com/@aoi-nagisa"
+  },
+  "char-Unf5AkmTLcGR": {
+    "youtube_url": "http://www.youtube.com/@YoruhaMirei",
+    "channel_id": "UCD1x-ORymm-TUM-_QVIiJ1w",
+    "verification_source": "https://youtube.com/@YoruhaMirei"
+  },
+  "char-Ma8KkK7FrARA": {
+    "youtube_url": "http://www.youtube.com/@Kenzo-AI",
+    "channel_id": "UCJ2gKiiE1tPhMj8GpooQIVg",
+    "verification_source": "https://youtube.com/@Kenzo-AI"
+  },
+  "char-cHwOc4lCfhPW": {
+    "youtube_url": "http://www.youtube.com/@AITuber_AutoMachi",
+    "channel_id": "UCmB7YfWMsSoihxNCNywuTUA",
+    "verification_source": "https://youtube.com/@AITuber_AutoMachi"
+  },
+  "char-JnA2Gw4BmzbR": {
+    "youtube_url": "http://www.youtube.com/@%E7%99%BD%E5%92%B2%E3%81%93%E3%81%93%E3%82%8D",
+    "channel_id": "UCo75chPXJXlCGQlIbHwSIjg",
+    "verification_source": "https://youtube.com/@%E7%99%BD%E5%92%B2%E3%81%93%E3%81%93%E3%82%8D"
+  },
+  "char-WIzBE_6WumFL": {
+    "youtube_url": "http://www.youtube.com/@AItuber-UI",
+    "channel_id": "UCOKuRXwTniuTqLaaro-8Ueg",
+    "verification_source": "https://youtube.com/@AItuber-UI"
+  },
+  "char-5ArdotKL05J7": {
+    "youtube_url": "http://www.youtube.com/@MitsueMiko_AITuber",
+    "channel_id": "UCZvXiHxvaCG7PcmRGpnP-WQ",
+    "verification_source": "https://youtube.com/@MitsueMiko_AITuber"
+  },
+  "char-2nvJ035PIC5i": {
+    "youtube_url": "http://www.youtube.com/@lacie_ai",
+    "channel_id": "UCVcT_ibbPwk1UUxxsIscmwg",
+    "verification_source": "https://youtube.com/@lacie_ai"
+  },
+  "char-yAd2nlNwTslm": {
+    "youtube_url": "http://www.youtube.com/@Ai_sane",
+    "channel_id": "UClwgDpyc4B35OHxVYzvqmvw",
+    "verification_source": "https://youtube.com/@Ai_sane"
+  },
+  "char-GOF-cr0DkEc-": {
+    "youtube_url": "http://www.youtube.com/@code385-miyako",
+    "channel_id": "UCKkLHWhU72jPF5jUnMjEA5A",
+    "verification_source": "https://youtube.com/@code385-miyako"
+  },
+  "char-sOEdpjciep-T": {
+    "youtube_url": "http://www.youtube.com/@LTChan_AI",
+    "channel_id": "UCNeeXHdpEcwZuhDeqT-K1bg",
+    "verification_source": "https://youtube.com/@LTChan_AI"
+  },
+  "char-14HAF7o3nQ7D": {
+    "youtube_url": "http://www.youtube.com/@Katakuriko_coeur",
+    "channel_id": "UCPtAJoK8ULwWSG3MfuplBmQ",
+    "verification_source": "https://youtube.com/@Katakuriko_coeur"
+  },
+  "char-0tg9XFZ5_s_O": {
+    "youtube_url": "http://www.youtube.com/@AI_Peroli",
+    "channel_id": "UCroWMj8zrPvwFMpec4EHFSA",
+    "verification_source": "https://youtube.com/@AI_Peroli"
+  },
+  "char-y-J6tX-8Tlzv": {
+    "youtube_url": "http://www.youtube.com/@KuronoAine",
+    "channel_id": "UCmnpcYCw6F5fXGEGdNSPRcw",
+    "verification_source": "https://youtube.com/@KuronoAine"
   }
 }

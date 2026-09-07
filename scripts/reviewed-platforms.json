@@ -1,0 +1,59 @@
+[
+  {
+    "source_id": "agency-spiruna:Kanade",
+    "display_name": "天依かなで",
+    "source_url": "https://spiruna.jp/creators/Kanade",
+    "activity_source": "https://x.com/amai_kanade",
+    "activity_evidence": "creator_public_tiktok_live_posts",
+    "activity_checked_at": "2026-09-07",
+    "vliver_source": "https://spiruna.jp/creators/Kanade",
+    "primary_platforms": [
+      "tiktok"
+    ],
+    "primary_platform_source": "https://lit.link/kanade0320",
+    "primary_platform_evidence": "creator_main_platform_or_official_tiktok_agency_profile",
+    "platform_accounts": [
+      {
+        "platform": "tiktok",
+        "id": "@kanade.0320",
+        "url": "https://www.tiktok.com/@kanade.0320"
+      },
+      {
+        "platform": "youtube",
+        "id": "@kanade_amai",
+        "url": "https://youtube.com/@kanade_amai"
+      },
+      {
+        "platform": "x",
+        "id": "amai_kanade",
+        "url": "https://x.com/amai_kanade"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-spiruna:tsukino_nanase",
+    "display_name": "月乃ななせ",
+    "source_url": "https://spiruna.jp/creators/tsukino_nanase",
+    "activity_source": "https://x.com/Tsukino_nanase",
+    "activity_evidence": "creator_public_tiktok_live_posts",
+    "activity_checked_at": "2026-09-07",
+    "vliver_source": "https://spiruna.jp/creators/tsukino_nanase",
+    "primary_platforms": [
+      "tiktok"
+    ],
+    "primary_platform_source": "https://spiruna.jp/creators/tsukino_nanase",
+    "primary_platform_evidence": "creator_main_platform_or_official_tiktok_agency_profile",
+    "platform_accounts": [
+      {
+        "platform": "tiktok",
+        "id": "@nanase_moon",
+        "url": "https://www.tiktok.com/@nanase_moon"
+      },
+      {
+        "platform": "x",
+        "id": "tsukino_nanase",
+        "url": "https://x.com/tsukino_nanase"
+      }
+    ]
+  }
+]

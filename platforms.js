@@ -46,5 +46,11 @@ window.VNamePlatforms = (() => {
     const groups=[...new Set(accounts.map(a=>a.platform))].map(platform=>({platform,label:labels[platform],accounts:accounts.filter(a=>a.platform===platform)}));
     return {primary:primary.map(p=>labels[p]),primarySource:primary.length?primarySource.href:'',known:[...known].map(p=>labels[p]),accounts,groups};
   }
-  return {labels,details,account,safeURL};
+  function icon(record) {
+    const url=safeURL(record.icon_url),source=safeURL(record.icon_source);
+    const allowed=['yt3.ggpht.com','yt3.googleusercontent.com','static-cdn.jtvnw.net','linear-v.com','ozon.jp'];
+    if(!url||!source||!allowed.includes(url.hostname)||url.href.length>2048)return null;
+    return {url:url.href,source:source.href};
+  }
+  return {labels,details,account,safeURL,icon};
 })();
