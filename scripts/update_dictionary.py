@@ -113,6 +113,10 @@ def main():
     from broad_sources import collect_post, merge_post
     report_path = ROOT / 'scripts/collection-report.json'
     report = json.loads(report_path.read_text()) if report_path.exists() else {}
+    from global_sources import refresh_global
+    updated = refresh_global(base, updated, vdb, report)
+    from legacy_sources import refresh_legacy
+    updated = refresh_legacy(base, updated, vdb, report)
     try:
         rows, source_report = collect_post(full=args.full, state=report.get('vtuber_post'))
         updated, counts = merge_post(base, updated, rows, vdb)

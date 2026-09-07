@@ -65,10 +65,10 @@
     "skipped_without_activity_or_predebut": 2
   },
   "records": {
-    "stored": 24830,
-    "listed": 24812,
+    "stored": 29749,
+    "listed": 29731,
     "excluded_predebut": 18,
-    "with_activity_source": 376
+    "with_activity_source": 6289
   },
   "vstats": {
     "new_records": 12,
@@ -98,5 +98,51 @@
     "vstats_below_10000_subscribers": 5,
     "liverfun_below_1000_social_followers": 11,
     "listed_after": 24797
+  },
+  "taiwan_vtuber_data": {
+    "source_records": 3055,
+    "eligible_records": 2663,
+    "excluded_unconfirmed_or_preparing": 392,
+    "source": "https://codeload.github.com/TaiwanVtuberData/TaiwanVTuberTrackingDataJson/tar.gz/refs/heads/master",
+    "source_snapshot_at": "2026-09-07T15:58:23.0000000+00:00",
+    "new_records": 2546,
+    "matched_existing_accounts": 117,
+    "new_youtube_below_1000": 922,
+    "new_twitch_below_1000": 730,
+    "checked_at": "2026-09-08"
+  },
+  "hololist_snapshot": {
+    "source": "https://github.com/xoltia/vtuber-database/releases/download/2024-09-14/vtubers-detailed-with-youtube.json",
+    "source_snapshot_at": "2024-09-14",
+    "source_records": 3853,
+    "eligible_records": 3610,
+    "excluded_unconfirmed_or_preparing": 243,
+    "new_records": 2309,
+    "matched_existing_accounts": 1301,
+    "new_youtube_below_1000": 0,
+    "new_twitch_below_1000": 0,
+    "checked_at": "2026-09-08",
+    "imported_snapshot": "2024-09-14"
+  },
+  "legacy_2019": {
+    "source": "https://raw.githubusercontent.com/Imamachi-n/Virtual-Youtuber-API/cfa62639e60af5904b4faf5ae5d9a1702a80c4a7/Batch/data/VTuber_alldata.json",
+    "source_snapshot_at": "2019-10-27",
+    "source_records": 697,
+    "eligible_records": 112,
+    "excluded_unconfirmed_or_preparing": 585,
+    "new_records": 64,
+    "matched_existing_accounts": 48,
+    "new_youtube_below_1000": 50,
+    "new_twitch_below_1000": 0,
+    "checked_at": "2026-09-08",
+    "imported_snapshot": "cfa62639e60af5904b4faf5ae5d9a1702a80c4a7"
+  },
+  "global_expansion_2026_09_07": {
+    "new_total": 4919,
+    "listed_after": 29731,
+    "target_records": 60000,
+    "target_reached": false,
+    "target_reference": "https://premium.kai-you.net/article/894",
+    "scope": "VTuber/AIVTuber activity begun, including past activity; exclude predebut; records are not a verified unique-person census"
   }
 }

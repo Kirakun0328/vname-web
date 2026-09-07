@@ -158,12 +158,12 @@ translations["ko"]["関連リンク"]="관련 링크";
 translations["en"]["開発者のX"]="Developer’s X";
 translations["zh"]["開発者のX"]="开发者的X";
 translations["ko"]["開発者のX"]="개발자의 X";
-translations["en"]["掲載対象は、実際にVTuber／AIVTuberとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。"]="Listings cover people who have started activities as VTubers or AIVTubers. Those still preparing to begin VTuber activities are outside the listing scope.";
-translations["zh"]["掲載対象は、実際にVTuber／AIVTuberとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。"]="收录对象为已正式开始以VTuber／AIVTuber身份活动的人。尚未开始活动、仅处于“VTuber准备中”阶段的人不属于收录范围。";
-translations["ko"]["掲載対象は、実際にVTuber／AIVTuberとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。"]="실제로 VTuber／AIVTuber 활동을 시작한 분을 수록 대상으로 합니다. 활동을 시작하지 않은 “VTuber 준비 중”인 분은 대상에서 제외됩니다。";
-translations["en"]["収集元：VTuber Database・VTuber Post・ユーザーローカル・AIVナビ・VSTATS・liverfun.jp。個人勢や小規模な活動者も対象です。掲載・活動状況の反映には遅れや漏れがあり、全員を網羅するものではありません。収録件数にはグループやチャンネルが含まれる場合があります。"]="Sources: VTuber Database, VTuber Post, User Local, AIV Navi, VSTATS and liverfun.jp. Independent and small creators are included. Listings and activity status may be delayed or incomplete; coverage is not exhaustive. Counts may include groups and channels.";
-translations["zh"]["収集元：VTuber Database・VTuber Post・ユーザーローカル・AIVナビ・VSTATS・liverfun.jp。個人勢や小規模な活動者も対象です。掲載・活動状況の反映には遅れや漏れがあり、全員を網羅するものではありません。収録件数にはグループやチャンネルが含まれる場合があります。"]="来源：VTuber Database、VTuber Post、User Local、AIV Navi、VSTATS、liverfun.jp。收录范围包括个人势和小规模活动者。收录与活动状态的更新可能延迟或遗漏，并非涵盖所有人。条数可能包含团体和频道。";
-translations["ko"]["収集元：VTuber Database・VTuber Post・ユーザーローカル・AIVナビ・VSTATS・liverfun.jp。個人勢や小規模な活動者も対象です。掲載・活動状況の反映には遅れや漏れがあり、全員を網羅するものではありません。収録件数にはグループやチャンネルが含まれる場合があります。"]="출처: VTuber Database, VTuber Post, User Local, AIV Navi, VSTATS, liverfun.jp. 개인 및 소규모 활동자도 대상입니다. 수록 및 활동 상태 반영에 지연이나 누락이 있을 수 있으며, 모든 활동자를 망라하지는 않습니다. 건수에는 그룹이나 채널이 포함될 수 있습니다.";
+translations["en"]["掲載対象は、実際にVTuber／AIVTuberとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。引退・休止した方も、活動実績が確認できれば対象です。"]="Listings cover people who have started activities as VTubers or AIVTubers. Those still preparing to begin VTuber activities are outside the listing scope. Retired and inactive creators are also eligible when past activity is documented.";
+translations["zh"]["掲載対象は、実際にVTuber／AIVTuberとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。引退・休止した方も、活動実績が確認できれば対象です。"]="收录对象为已正式开始以VTuber／AIVTuber身份活动的人。尚未开始活动、仅处于“VTuber准备中”阶段的人不属于收录范围。已引退或暂停活动者，如有过往活动记录，也属于收录范围。";
+translations["ko"]["掲載対象は、実際にVTuber／AIVTuberとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。引退・休止した方も、活動実績が確認できれば対象です。"]="실제로 VTuber／AIVTuber 활동을 시작한 분을 수록 대상으로 합니다. 활동을 시작하지 않은 “VTuber 준비 중”인 분은 대상에서 제외됩니다. 은퇴하거나 활동을 쉬고 있어도 과거 활동이 확인되면 대상에 포함됩니다.";
+translations["en"]["収集元：VTuber Database・VTuber Post・ユーザーローカル・AIVナビ・VSTATS・liverfun.jp・TaiwanVTuberData・HoloListの保存データ・2019年の公開チャンネルデータ。個人勢や小規模な活動者も対象です。掲載・活動状況の反映には遅れや漏れがあり、全員を網羅するものではありません。収録件数にはグループやチャンネルが含まれる場合があります。"]="Sources: VTuber Database, VTuber Post, User Local, AIV Navi, VSTATS, liverfun.jp, TaiwanVTuberData, a HoloList snapshot and a public 2019 channel snapshot. Independent and small creators are included. Listings and activity status may be delayed or incomplete; coverage is not exhaustive. Counts may include groups and channels.";
+translations["zh"]["収集元：VTuber Database・VTuber Post・ユーザーローカル・AIVナビ・VSTATS・liverfun.jp・TaiwanVTuberData・HoloListの保存データ・2019年の公開チャンネルデータ。個人勢や小規模な活動者も対象です。掲載・活動状況の反映には遅れや漏れがあり、全員を網羅するものではありません。収録件数にはグループやチャンネルが含まれる場合があります。"]="来源：VTuber Database、VTuber Post、User Local、AIV Navi、VSTATS、liverfun.jp、TaiwanVTuberData、HoloList存档及2019年公开频道存档。收录范围包括个人势和小规模活动者。收录与活动状态的更新可能延迟或遗漏，并非涵盖所有人。条数可能包含团体和频道。";
+translations["ko"]["収集元：VTuber Database・VTuber Post・ユーザーローカル・AIVナビ・VSTATS・liverfun.jp・TaiwanVTuberData・HoloListの保存データ・2019年の公開チャンネルデータ。個人勢や小規模な活動者も対象です。掲載・活動状況の反映には遅れや漏れがあり、全員を網羅するものではありません。収録件数にはグループやチャンネルが含まれる場合があります。"]="출처: VTuber Database, VTuber Post, User Local, AIV Navi, VSTATS, liverfun.jp, TaiwanVTuberData, HoloList 저장 자료 및 2019년 공개 채널 자료. 개인 및 소규모 활동자도 대상입니다. 수록 및 활동 상태 반영에 지연이나 누락이 있을 수 있으며, 모든 활동자를 망라하지는 않습니다. 건수에는 그룹이나 채널이 포함될 수 있습니다.";
 translations["en"]["掲載元"]="Listing source";
 translations["zh"]["掲載元"]="收录来源";
 translations["ko"]["掲載元"]="수록 출처";
@@ -181,3 +181,7 @@ const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let n
 for(const el of document.querySelectorAll('[aria-label],[placeholder]')){if(!originalAttributes.has(el))originalAttributes.set(el,{});const saved=originalAttributes.get(el);for(const attr of ['aria-label','placeholder'])if(el.hasAttribute(attr)){if(!(attr in saved))saved[attr]=el.getAttribute(attr);el.setAttribute(attr,translated(saved[attr]))}}
 document.getElementById('language').value=language;}
 function setLanguage(value){if(!['ja','en','zh','ko'].includes(value))return;language=value;try{localStorage.setItem('vname-language',value)}catch(e){}translateUI()}
+
+translations["en"]["過去の活動実績も対象にしています。保存データの掲載情報は、その時点の記録であり、現在の活動状況を示すものではありません。"]="Past activity is included. Archived listings describe the source at its recorded date, not the creator’s current activity status.";
+translations["zh"]["過去の活動実績も対象にしています。保存データの掲載情報は、その時点の記録であり、現在の活動状況を示すものではありません。"]="收录范围包含过往活动。存档信息仅反映记录当时的情况，并不代表目前的活动状态。";
+translations["ko"]["過去の活動実績も対象にしています。保存データの掲載情報は、その時点の記録であり、現在の活動状況を示すものではありません。"]="과거 활동도 수록 대상입니다. 저장된 자료는 기록 당시의 정보이며 현재 활동 상태를 나타내지 않습니다.";
