@@ -121,7 +121,13 @@ def main():
         rankings.extend(parse_ranking(fetch(f'https://virtual-youtuber.userlocal.jp/document/ranking?page={page}')))
         time.sleep(1)
     updated = expand(base, previous, vdb, rankings)
+    from aivtuber_sources import collect, merge_aivtubers
     from reading_sources import refresh_readings, fetch_reading
+    try:
+        characters = collect(fetch_reading)
+        updated = merge_aivtubers(base, updated, characters, vdb)
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print('AIV Navi unavailable; existing tags and records retained:', type(error).__name__)
     updated = refresh_readings(base, updated, fetch_reading)
     print(f'Extra records: {len(previous)} -> {len(updated)}')
     if args.check or updated == previous:
