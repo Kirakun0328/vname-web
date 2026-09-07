@@ -1,11 +1,13 @@
 """AIV Navi's public character listing supplies classification, names and explicit kana."""
 import json
 import re
+import datetime
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urlparse
 from reading_sources import kana
 from update_dictionary import key
+from broad_sources import preparing
 
 API = 'https://aiv-api.nyagsicapp.com/api/characters?page='
 SITE = 'https://aiv.nyagsicapp.com/characters/'
@@ -66,6 +68,10 @@ def merge_aivtubers(base, previous, characters, vdb):
     added = tagged = 0
     for character in characters:
         name = character['name'].strip()
+        description = (character.get('description') or '') + '\n' + (character.get('profile') or '')
+        if preparing(name):
+            continue
+        activity = bool(re.search(r'活動中|活動してい|配信中|配信してい|配信を行|配信しています|投稿してい|投稿しています|配信を投稿|streaming|streams on', description, re.I))
         cid = youtube_id(character.get('youtube_url'))
         known_channel = resolved.get(character['id'], {})
         if not cid and known_channel.get('youtube_url') == character.get('youtube_url') and re.fullmatch(r'UC[\w-]{22}', known_channel.get('channel_id','')):
@@ -74,6 +80,8 @@ def merge_aivtubers(base, previous, characters, vdb):
         previous_matches = {sid for sid,r in merged.items() if character['id'] in r.get('aivnav_ids',[])}
         targets = previous_matches or channels.get(cid, set())
         if not targets:
+            if not activity:
+                continue
             # A matching name is insufficient identity evidence (e.g. AIずんだもん).
             sid = 'youtube:' + cid if cid else 'aivnav:' + character['id']
             targets = {sid}
@@ -87,6 +95,8 @@ def merge_aivtubers(base, previous, characters, vdb):
             old = merged[sid]
             patch = extra.setdefault(sid, {'source_id': sid})
             patch.update(category='AIVTuber', category_source=source)
+            if activity and not old.get('activity_source'):
+                patch.update(activity_source=source, activity_evidence='directory_self_description', activity_checked_at=datetime.date.today().isoformat())
             patch['aivnav_ids'] = sorted(set(old.get('aivnav_ids', []) + patch.get('aivnav_ids', []) + [character['id']]))
             aliases = list(dict.fromkeys([*old.get('aliases', []), *patch.get('aliases', []), *([name] if name != old['display_name'] else [])]))
             if aliases:

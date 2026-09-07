@@ -7,7 +7,7 @@ from aivtuber_sources import merge_aivtubers, youtube_id, collect
 class AIVTests(unittest.TestCase):
     cid='UC'+'a'*22
     def entry(self, **kw):
-        return dict({'id':'char-test','name':'AIテスト','name_kana':'えーあいてすと','youtube_url':'https://youtube.com/channel/'+self.cid},**kw)
+        return dict({'id':'char-test','name':'AIテスト','name_kana':'えーあいてすと','description':'YouTubeで配信しています。','youtube_url':'https://youtube.com/channel/'+self.cid},**kw)
     def test_existing_channel_is_tagged_not_duplicated(self):
         base=[{'source_id':'youtube:'+self.cid,'display_name':'AIテスト','reading':''}]
         extra=merge_aivtubers(base,[],[self.entry()],{})

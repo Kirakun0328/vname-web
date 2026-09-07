@@ -22,11 +22,11 @@ class UpdateTests(unittest.TestCase):
         self.assertEqual(base[0]['reading'], 'うさだぺこら')
         self.assertEqual(u.expand(base, result, self.dataset(v), []), result)
 
-    def test_new_name_has_unknown_reading_and_old_records_survive(self):
+    def test_unverified_ranking_name_is_not_added_and_old_records_survive(self):
         old = [{'source_id': 'userlocal:old', 'display_name': 'Old Name', 'reading': ''}]
         result = u.expand([], old, self.dataset(), [('new', 'New Name')])
         self.assertEqual(result[0], old[0])
-        self.assertEqual(result[1]['reading'], '')
+        self.assertEqual(len(result), 1)
         self.assertEqual(u.expand([], result, self.dataset(), [('new', 'New Name')]), result)
 
     def test_partial_or_broken_source_is_rejected(self):

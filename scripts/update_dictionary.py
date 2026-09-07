@@ -39,7 +39,7 @@ def fetch(url):
                 raise
             time.sleep(2 ** attempt)
 
-def parse_ranking(text):
+def parse_ranking(text, page=None):
     rows = []
     for uid, block in re.findall(r'<tr data-href="/user/([\w]+)">(.*?)</tr>', text, re.S):
         match = re.search(r'<img class="thumbnail" alt="([^"]+)"', block)
@@ -49,6 +49,10 @@ def parse_ranking(text):
                 rows.append((uid, name))
     if len(rows) < 10:
         raise ValueError('Ranking unavailable or markup changed; keeping previous data')
+    if page is not None:
+        ranks = re.findall(r'<strong>([\d,]+)位</strong>', text)
+        if not ranks or int(ranks[0].replace(',', '')) != (page-1)*50+1:
+            raise ValueError('Ranking returned the wrong page')
     return rows
 
 def expand(base, previous, vdb, rankings):
@@ -59,8 +63,6 @@ def expand(base, previous, vdb, rankings):
     extra = {r['source_id']: dict(r) for r in previous}
     for r in previous:
         merged.setdefault(r['source_id'], {}).update(r)
-    # Index stable accounts for cross-source identity checks.
-    known_userlocal = set()
     for v in vtbs:
         if v.get('type') != 'vtuber':
             continue
@@ -69,7 +71,6 @@ def expand(base, previous, vdb, rankings):
         if not isinstance(sid, str) or not isinstance(names, dict):
             raise ValueError('Malformed VDB record')
         accounts = v.get('accounts', [])
-        known_userlocal.update(a['id'] for a in accounts if a.get('platform') == 'userlocal' and isinstance(a.get('id'), str))
         youtube_ids = ['youtube:' + a['id'] for a in accounts if a.get('platform') == 'youtube' and a.get('type') == 'official' and isinstance(a.get('id'), str)]
         target = sid if sid in merged else next((i for i in youtube_ids if i in merged), sid)
         variants = [x for k, x in names.items() if k not in ('default', 'extra') and isinstance(x, str)]
@@ -78,10 +79,9 @@ def expand(base, previous, vdb, rankings):
         if not variants:
             continue
         if target not in merged:
-            display = names.get('jp') or names.get(names.get('default')) or variants[0]
-            r = {'source_id': target, 'display_name': display, 'reading': '', 'romanized_name': names.get('en', ''), 'source_url': 'https://vdb.vtbs.moe/'}
-            merged[target] = dict(r)
-            extra[target] = r
+            # A directory account by itself does not establish a debut. New
+            # names enter via an activity-bearing source, then VDB enriches them.
+            continue
         r = merged[target]
         if isinstance(names.get('en'), str) and names['en'].strip():
             english = names['en'].strip()
@@ -93,18 +93,9 @@ def expand(base, previous, vdb, rankings):
         if aliases != r.get('aliases', []):
             extra.setdefault(target, {'source_id': target})['aliases'] = aliases
             r['aliases'] = aliases
-    known_names = {key(n) for r in merged.values() for n in [r['display_name'], r.get('romanized_name', ''), *r.get('aliases', [])] if n}
-    for uid, name in rankings:
-        sid = 'userlocal:' + uid
-        normalized = key(re.sub(r'\([^)]*\)', '', name))
-        if sid in merged or uid in known_userlocal or not normalized:
-            continue
-        if any(normalized == n or (min(len(normalized), len(n)) >= 4 and (normalized in n or n in normalized)) for n in known_names):
-            continue
-        row = {'source_id': sid, 'display_name': name, 'reading': '', 'romanized_name': '', 'source_url': 'https://virtual-youtuber.userlocal.jp/user/' + uid}
-        merged[sid] = row
-        extra[sid] = row
-        known_names.add(normalized)
+    # Legacy ranking tuples have no channel identity or activity evidence.
+    # Keep existing records; use the channel-linked VTuber Post collector for
+    # additions instead of excluding people by fuzzy name similarity.
     if len(merged) < len(base) or len(extra) - len(previous) > 2000:
         raise ValueError('Unexpected record count change; manual review required')
     return list(extra.values())
@@ -112,15 +103,23 @@ def expand(base, previous, vdb, rankings):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--check', action='store_true', help='Fetch and validate without writing')
+    parser.add_argument('--full', action='store_true', help='Check every VTuber Post ranking page, including small channels')
+    parser.add_argument('--skip-readings', action='store_true', help='Skip the optional reading refresh')
     args = parser.parse_args()
     base = read_js(ROOT / 'data.js', 'VTUBER_DATA')
     previous = read_js(ROOT / 'extra-data.js', 'VTUBER_EXTRA')
     vdb = json.loads(fetch('https://vdb.vtbs.moe/json/list.json'))
-    rankings = []
-    for page in range(1, 11):
-        rankings.extend(parse_ranking(fetch(f'https://virtual-youtuber.userlocal.jp/document/ranking?page={page}')))
-        time.sleep(1)
-    updated = expand(base, previous, vdb, rankings)
+    updated = expand(base, previous, vdb, [])
+    from broad_sources import collect_post, merge_post
+    report_path = ROOT / 'scripts/collection-report.json'
+    report = json.loads(report_path.read_text()) if report_path.exists() else {}
+    try:
+        rows, source_report = collect_post(full=args.full or not report.get('vtuber_post'), state=report.get('vtuber_post'))
+        updated, counts = merge_post(base, updated, rows, vdb)
+        source_report.update(counts)
+        report['vtuber_post'] = source_report
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print('VTuber Post unavailable; existing records retained:', type(error).__name__, str(error), flush=True)
     from aivtuber_sources import collect, merge_aivtubers
     from reading_sources import refresh_readings, fetch_reading
     try:
@@ -128,11 +127,15 @@ def main():
         updated = merge_aivtubers(base, updated, characters, vdb)
     except (OSError, ValueError, KeyError, TypeError) as error:
         print('AIV Navi unavailable; existing tags and records retained:', type(error).__name__)
-    updated = refresh_readings(base, updated, fetch_reading)
+    if not args.skip_readings:
+        updated = refresh_readings(base, updated, fetch_reading)
     print(f'Extra records: {len(previous)} -> {len(updated)}')
-    if args.check or updated == previous:
+    if args.check:
         return
-    content = '// Additive updates from VTuber Database and User Local rankings (pages 1–10).\nwindow.VTUBER_EXTRA = ' + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + ';\n'
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    if updated == previous:
+        return
+    content = '// Additive, source-linked VTuber/AIVTuber names and verified readings.\nwindow.VTUBER_EXTRA = ' + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + ';\n'
     target = ROOT / 'extra-data.js'
     temporary = target.with_suffix('.js.tmp')
     temporary.write_text(content, encoding='utf-8')
