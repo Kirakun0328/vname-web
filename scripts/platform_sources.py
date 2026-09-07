@@ -25,12 +25,19 @@ def canonical_account(url):
         return None
     try:
         u = urlsplit(html.unescape(url))
+        if u.scheme=='iriam' and u.netloc=='p' and u.path in ('','/'):
+            query=parse_qs(u.query);uid=query.get('uid',[''])[0]
+            if query.get('applicationModel')==['profile'] and re.fullmatch(r'(?:[0-9a-f]{32}|[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12})',uid,re.I):
+                return {'platform':'iriam','id':uid.lower(),'url':'iriam://p?applicationModel=profile&uid='+uid.lower()}
+            return None
         if u.scheme not in ('http', 'https') or u.username or u.password or u.port:
             return None
     except ValueError:
         return None
     host = (u.hostname or '').lower().removeprefix('www.')
     path = unquote(u.path).rstrip('/')
+    if host in ('x.com','twitter.com') and re.fullmatch(r'/i/user/\d+',path):
+        return {'platform':'x','id':'uid:'+path.rsplit('/',1)[-1],'url':'https://x.com'+path}
     patterns = [
         ('youtube', ('youtube.com', 'm.youtube.com'), r'/(channel/UC[\w-]{22}|@[\w.\-]+)'),
         ('tiktok', ('tiktok.com',), r'/(@[\w.\-]+)(?:/live)?'),
@@ -54,7 +61,7 @@ def canonical_account(url):
         ('bigo', ('bigo.tv',), r'/([\w-]+)'),
         ('kick', ('kick.com',), r'/([\w-]+)'),
         ('soop', ('ch.sooplive.co.kr', 'bj.afreecatv.com'), r'/([\w-]+)'),
-        ('x', ('x.com', 'twitter.com'), r'/([\w]+)'),
+        ('x', ('x.com', 'twitter.com'), r'/@?([\w]+)'),
     ]
     for platform, hosts, pattern in patterns:
         if host not in hosts:
@@ -148,7 +155,7 @@ def parse_agency_profile(document, url, agency):
     if not primary: return None
     row = {'source_id':f'agency-{agency}:'+unquote(url.rstrip('/').rsplit('/',1)[-1]),
            'display_name':name, 'source_url':url, 'category':'VTuber',
-           'activity_source':url, 'activity_evidence':evidence,
+           'activity_source':url, 'activity_evidence':evidence, 'vliver_source':url,
            'primary_platforms':primary, 'primary_platform_source':url,
            'primary_platform_evidence':'official_broadcast_destinations',
            'platform_accounts':accounts_from(main)}
@@ -172,7 +179,7 @@ def parse_avvy_interviews(document):
         name = m[2].strip()
         rows.append({'source_id':'avvy-interview:'+social['id'],'display_name':name,
                      'source_url':social['url'],'platform_accounts':a,'category':'VTuber',
-                     'activity_source':AVVY_INTERVIEW,'activity_evidence':'platform_event_winner_interview',
+                     'activity_source':AVVY_INTERVIEW,'activity_evidence':'platform_event_winner_interview','vliver_source':AVVY_INTERVIEW,
                      'activity_snapshot_at':'2026-04-27',
                      'platforms':['avvy'],'platform_sources':{'avvy':AVVY_INTERVIEW}})
     if len(rows)!=15 or len({r['source_id'] for r in rows})!=15:
@@ -224,8 +231,10 @@ skipped for review, rather than collapsing different characters.
         patch['platform_sources']={**old.get('platform_sources',{}),**row.get('platform_sources',{}),
                                    **{x['platform']:row['activity_source'] for x in a if x['platform'] in LABELS}}
         # Preserve prior identity, AI category and better readings.
-        for f in ('primary_platforms','primary_platform_source','primary_platform_evidence','activity_snapshot_at'):
+        for f in ('primary_platforms','primary_platform_source','primary_platform_evidence','activity_snapshot_at','vliver_source'):
             if row.get(f): patch[f]=row[f]
+        if row.get('reading_source') and row.get('reading_source_kind')=='official' and not old.get('reading_source'):
+            patch.update(reading=row['reading'],reading_source=row['reading_source'],reading_source_kind='official')
         if row.get('romanized_source') and not old.get('romanized_source'):
             patch.update(romanized_name=row['romanized_name'],romanized_source=row['romanized_source'])
         if not old.get('activity_source'):

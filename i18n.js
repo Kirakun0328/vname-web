@@ -278,3 +278,51 @@ for (const [jp, values] of Object.entries({
   '回答をうまく整理できませんでした。条件を短くして、もう一度相談してください。':['The response could not be parsed. Try again with a shorter description.','未能整理回答。请缩短条件后再次咨询。','답변을 정리하지 못했습니다. 조건을 짧게 해서 다시 상담해 주세요.'],
   '候補を考えました。':['Here are some ideas.','已构思一些候选。','후보를 생각해 보았습니다.']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+for (const [jp,values] of Object.entries({
+ 'ぶいネーム ホーム':['VName home','VName首页','VName 홈'],
+ 'その名前から、はじまる。':['It starts with your name.','从这个名字开始。','그 이름에서 시작됩니다.'],
+ 'あなたらしい活動名を、ここから。':['Your creator name starts here.','在这里，找到适合你的活动名。','나다운 활동명을 여기서부터.'],
+ '気になる名前をチェック':['Check a name you like','查询感兴趣的名字','마음에 드는 이름 확인'],
+ '一緒に、あなたらしい名前を。':['Let’s find a name that feels like you.','一起构思适合你的名字。','함께, 나다운 이름을.'],
+ 'PC推奨':['Desktop recommended','推荐使用电脑','PC 권장'],
+ 'インストール不要':['No installation','无需安装','설치 불필요'],
+ 'この端末で動くAI':['AI on this device','在此设备上运行的AI','이 기기에서 실행되는 AI'],
+ '手を振る名前相談ロボット':['A friendly naming robot waving hello','挥手致意的名字咨询机器人','손을 흔드는 이름 상담 로봇'],
+ '名前相談ルーム':['Naming room','名字咨询室','이름 상담실'],
+ 'AIの準備が必要です':['AI setup needed','需要准备AI','AI 준비가 필요합니다'],
+ '準備中':['Getting ready','准备中','준비 중'],
+ '相談できます':['Ready to chat','可以咨询了','상담할 수 있습니다'],
+ 'どんなあなたになりたい？':['Who would you like to become?','你想成为怎样的自己？','어떤 내가 되고 싶나요?'],
+ '好きなもの、なりたい雰囲気。小さなヒントから、一緒に考えよう。':['Things you love, a mood you like. Let’s start with a little inspiration.','喜欢的事物、想呈现的氛围。从小小的提示开始，一起想吧。','좋아하는 것, 원하는 분위기. 작은 힌트부터 함께 생각해 봐요.'],
+ 'AIの準備':['AI setup','AI准备','AI 준비'],
+ '相談を始める準備':['Get ready to chat','准备开始咨询','상담 시작 준비'],
+ '初回に約2GBを取得します。保存済みなら、次回から同じモデルを使います。':['The first download is about 2 GB. A saved model is reused on later visits.','首次下载约2GB。保存后，下次将重复使用同一模型。','처음에 약 2GB를 다운로드합니다. 저장하면 다음부터 같은 모델을 재사용합니다.'],
+ 'モデルを端末に保存':['Save model on this device','将模型保存在此设备','모델을 기기에 저장'],
+ '保存状態を確認しています…':['Checking saved model…','正在检查保存状态…','저장 상태를 확인합니다…'],
+ 'AIを準備する（初回 約2GB）':['Set up AI (first download ≈2 GB)','准备AI（首次约2GB）','AI 준비 (처음 약 2GB)'],
+ '保存済みAIを起動':['Start saved AI','启动已保存的AI','저장된 AI 시작'],
+ 'AIを準備したら、好きなモチーフを教えてください。':['Once AI is ready, tell it a theme you like.','AI准备好后，告诉它你喜欢的主题。','AI가 준비되면 좋아하는 모티프를 알려 주세요.'],
+ 'AI相談はPC推奨です':['Desktop is recommended for AI','AI咨询推荐使用电脑','AI 상담은 PC를 권장합니다'],
+ 'スマホはメモリ不足などで回答できない場合があります。名前検索と傾向分析はスマホでも使えます。':['Phones may fail to generate due to memory or other limits. Search and analysis also work on phones.','手机可能因内存等限制无法生成回答。名字查询和倾向分析也可在手机使用。','스마트폰은 메모리 등의 한계로 답변을 만들지 못할 수 있습니다. 이름 검색과 경향 분석은 스마트폰에서도 사용할 수 있습니다.'],
+ '利用条件と保存について':['Requirements and storage','使用条件与保存','이용 조건과 저장 안내'],
+ 'Gemma 4 E2Bが端末内で動く試験機能です。WebGPU対応ブラウザと十分なメモリが必要です。取得にはWi-Fiをおすすめします。':['This experimental feature runs Gemma 4 E2B on your device. A WebGPU browser and sufficient memory are required. Use Wi-Fi for the download.','此试验功能在设备上运行Gemma 4 E2B，需要支持WebGPU的浏览器及足够内存。建议使用Wi-Fi下载。','Gemma 4 E2B가 기기에서 실행되는 시험 기능입니다. WebGPU 지원 브라우저와 충분한 메모리가 필요합니다. 다운로드에는 Wi-Fi를 권장합니다.'],
+ '保存量は約2GBです。ブラウザのデータ削除などで消えた場合は、再取得が必要です。起動時は別途メモリを使います。':['The saved model uses about 2 GB. If browser data is removed, it must be downloaded again. Running it also uses memory.','模型保存占用约2GB。若浏览器数据被清除，需要重新下载。运行时还会使用内存。','저장된 모델은 약 2GB를 사용합니다. 브라우저 데이터가 삭제되면 다시 다운로드해야 합니다. 실행 중에는 별도로 메모리를 사용합니다.'],
+ '保存したAIを削除':['Delete saved AI','删除已保存的AI','저장된 AI 삭제'],
+ 'モデル保存済み：約2GB。同じモデルを再利用します。':['Model saved: about 2 GB. The same model will be reused.','模型已保存：约2GB。将重复使用同一模型。','모델 저장됨: 약 2GB. 같은 모델을 재사용합니다.'],
+ '保存済みのモデルはありません。':['No saved model.','没有已保存的模型。','저장된 모델이 없습니다.'],
+ 'このブラウザではモデルを保存できません。':['This browser cannot save the model.','此浏览器无法保存模型。','이 브라우저에서는 모델을 저장할 수 없습니다.'],
+ 'この端末でAIを起動しています…':['Starting AI on this device…','正在此设备上启动AI…','이 기기에서 AI를 시작합니다…'],
+ 'モデルを保存できませんでした。空き容量を確認するか「モデルを端末に保存」をオフにしてお試しください。':['Could not save the model. Check free storage or turn off “Save model on this device” to try without saving.','无法保存模型。请检查可用空间，或关闭“将模型保存在此设备”后重试。','모델을 저장하지 못했습니다. 여유 공간을 확인하거나 “모델을 기기에 저장”을 끄고 시도해 주세요.'],
+ 'AIを起動できませんでした。PCの対応ブラウザで、空きメモリと通信環境を確認してください。':['AI could not start. Try a supported desktop browser and check free memory and your connection.','AI启动失败。请使用支持的电脑浏览器，并检查可用内存及网络。','AI를 시작하지 못했습니다. 지원되는 PC 브라우저에서 여유 메모리와 통신 상태를 확인해 주세요.'],
+ '回答を受け取れませんでした。PCで条件を短くして、もう一度お試しください。':['No response was received. Try again on a desktop with a shorter request.','未收到回答。请在电脑上缩短条件后重试。','답변을 받지 못했습니다. PC에서 조건을 짧게 해서 다시 시도해 주세요.'],
+ '回答が途中で終わりました。条件を短くして、もう一度相談してください。':['The response ended early. Try again with a shorter request.','回答中途结束。请缩短条件后再次咨询。','답변이 도중에 끝났습니다. 조건을 짧게 해서 다시 상담해 주세요.'],
+ 'この端末では回答を生成できませんでした。PCで、条件を短くしてお試しください。':['This device could not generate a response. Try a shorter request on a desktop.','此设备未能生成回答。请在电脑上缩短条件后尝试。','이 기기에서 답변을 만들지 못했습니다. PC에서 조건을 짧게 해서 시도해 주세요.'],
+ '保存したAIモデルを削除しました。':['Saved AI model deleted.','已删除保存的AI模型。','저장된 AI 모델을 삭제했습니다.'],
+ '削除できませんでした。ブラウザのサイトデータ設定から削除できます。':['Could not delete it here. You can remove it from the browser’s site data settings.','此处删除失败，可在浏览器的网站数据设置中删除。','여기서 삭제하지 못했습니다. 브라우저의 사이트 데이터 설정에서 삭제할 수 있습니다.'],
+ 'Vライバー':['V-liver','虚拟主播','V라이버']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+for(const [jp,values] of Object.entries({
+ 'モチーフや雰囲気から、名前の候補と理由を提案します。カードに表示した候補は、辞書で自動チェック。':['Get name ideas and reasons from a theme or mood. Names shown on suggestion cards are checked against the dictionary.','根据主题或氛围提出名字与理由，卡片中显示的候选将自动在词典中查询。','모티프나 분위기에 맞는 이름과 이유를 제안합니다. 카드에 표시된 후보는 사전에서 자동 확인합니다.'],
+ '文章で回答しました。候補の名前は「名前をチェック」で確認してください。':['AI replied in text. Check any suggested names using the name search.','AI以文字形式回答了。请使用“查询名字”确认候选名称。','AI가 글로 답변했습니다. 후보 이름은 “이름 확인”에서 검색해 주세요.']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);

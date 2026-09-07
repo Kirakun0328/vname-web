@@ -17,7 +17,9 @@ test('statistics normalize width and whitespace and count Unicode code points an
  assert.equal(insight.analyze([]).averageLength,0);
 });
 test('malformed AI output is contained and valid suggestions are bounded and deduplicated',()=>{
- assert.equal(insight.parseReply('not JSON').valid,false);
+ assert.equal(insight.parseReply('普通の文章で候補を提案します。').valid,true);
+ assert.equal(insight.parseReply('{"reply":"提案があります","suggestions":[').reply,'提案があります');
+ assert.equal(insight.parseReply('').valid,false);
  assert.equal(insight.parseReply('null').valid,false);
  const parsed=plain(insight.parseReply('```json\n'+JSON.stringify({reply:'提案',suggestions:[null,{name:'星ねこ',reading:'ほしねこ'},{name:'星ねこ'},{name:'a'.repeat(41)},{name:'<img src=x>',reason:'<script>alert(1)</script>'}]})+'\n```'));
  assert.equal(parsed.valid,true);assert.equal(parsed.suggestions.length,2);
@@ -41,7 +43,7 @@ const deferred=()=>{let resolve;const promise=new Promise(r=>resolve=r);return{p
 async function harness(options={}){
  const elements=new Map(),get=id=>{if(!elements.has(id))elements.set(id,new El());return elements.get(id);};
  const tabs=['search','consult','trends'].map(name=>{const el=get('tab-'+name);el.dataset.tab=name;return el;});
- get('trend-platform').value='all';
+ get('trend-platform').value='all';get('ai-save').checked=true;
  const document={getElementById:get,querySelectorAll:selector=>selector==='[data-tab]'?tabs:[],createElement:tag=>new El(tag),createTextNode:text=>{const el=new El('#text');el.textContent=text;return el;}};
  const state={fetches:[],imports:[],engineDeletes:0,conversationDeletes:0,cancels:0,requests:[],configs:[]};
  const conversation={
@@ -59,7 +61,7 @@ async function harness(options={}){
   async delete(){state.engineDeletes++;}
  };
  const Engine={async create(config){state.engineConfig=config;if(options.engineGate)await options.engineGate.promise;return engine;}};
- const c={window:{addEventListener(){},VTUBER_DATA:[
+ const c={window:{VNameModel:{status:async()=>({supported:true,saved:false}),remove:async()=>{},obtain:async()=>{state.fetches.push('gemma-4-E2B-it-web.litertlm');if(options.failDownload)throw new Error('MODEL_DOWNLOAD');return new ReadableStream({start(c){c.close();}});}},addEventListener(){},VTUBER_DATA:[
   {source_id:'one',display_name:'星ねこ',reading:'ほしねこ',reading_source:'https://example.org',reading_source_kind:'official',platforms:['iriam'],platform_sources:{iriam:'https://example.org'}},
   {source_id:'two',display_name:'ほしねこ',platforms:['tiktok'],platform_sources:{tiktok:'https://example.org'}}
  ]},document,URL,AbortController,TransformStream,ReadableStream,TextEncoder,performance,
@@ -90,7 +92,7 @@ test('opt-in model load, actual dictionary collision checks, and follow-up conte
  assert.equal(h.state.configs[0].prefillPrefaceOnInit,true);
  assert.match(h.state.configs[0].preface.messages[0].content,/"total":2/);
  assert.match(h.get('ai-log').textContent,/同名・同じ読みの候補: 2 件/);
- const answer=h.get('ai-log').children[1];const card=answer.children[2].children[1];assert.equal(card.children[0].textContent,'<img src=x>');assert.equal(card.children[0].children.length,0);
+ const answer=h.get('ai-log').children[1].children[1];const card=answer.children[2].children[1];assert.equal(card.children[0].textContent,'<img src=x>');assert.equal(card.children[0].children.length,0);
  answer.children[2].children[0].children.at(-1).onclick();assert.equal(h.get('query').value,'星ねこ');assert.match(h.get('results').textContent,/星ねこ/);
  h.get('ai-message').value='別の名前';await h.submit();assert.match(h.state.requests[1],/matching_records":2/);
  await h.get('ai-unload').onclick();assert.equal(h.state.engineDeletes,1);assert.equal(h.state.conversationDeletes,1);assert.equal(h.get('ai-send').disabled,true);
