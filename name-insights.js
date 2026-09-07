@@ -39,7 +39,8 @@ window.VNameInsights = (() => {
       const name=item.name.trim();if(!name||[...name].length>40||/[\u0000-\u001f]/.test(name)||seen.has(name))continue;
       seen.add(name);suggestions.push({name,reading:typeof item.reading==='string'?item.reading.slice(0,60):'',reason:typeof item.reason==='string'?item.reason.slice(0,400):''});if(suggestions.length===5)break;
     }
-    return {valid:true,structured:true,reply:typeof value.reply==='string'?value.reply.slice(0,3500):'候補を考えました。',suggestions};
+    const nextPrompts=[...new Set((Array.isArray(value.next_prompts)?value.next_prompts:[]).filter(s=>typeof s==='string').map(s=>s.trim()).filter(s=>s&&[...s].length<=60&&!/[\u0000-\u001f]/.test(s)))].slice(0,3);
+    return {valid:true,structured:true,reply:typeof value.reply==='string'?value.reply.slice(0,3500):'候補を考えました。',suggestions,nextPrompts};
   }
   function prompt(stats,language='ja') {
     const languages={ja:'日本語',en:'English',zh:'简体中文',ko:'한국어'};
@@ -47,7 +48,7 @@ window.VNameInsights = (() => {
 次の辞書集計は現在の収録レコードの統計です。国・言語・収集元に偏りがあり、時系列・人気・売上・視聴者数のデータはありません。「最近流行」「人気が出る」などを統計から断定しないでください。アバター配信者以外のチャンネル・グループ名を含む場合があります。漢字集計には日本語以外も含まれます。
 辞書集計: ${JSON.stringify(stats)}
 候補の重複チェックはアプリが辞書を実際に検索します。あなた自身は候補が未使用・安全であると断定しないでください。読みは候補として提案してください。既存の有名人の名前をそのまま提案しないでください。
-回答は必ずJSONオブジェクトのみ。形式は {"reply":"短い相談への回答や傾向の説明","suggestions":[{"name":"候補名","reading":"候補の読み","reason":"その名前が希望に合う理由"}]}。名前案は3件まで、各理由は短い1文。replyは150文字程度にまとめてください。説明だけ求められたらsuggestionsを空配列にできます。マークダウンのコードフェンスは不要です。`;
+回答は必ずJSONオブジェクトのみ。形式は {"reply":"短い相談への回答や傾向の説明","suggestions":[{"name":"候補名","reading":"候補の読み","reason":"その名前が希望に合う理由"}],"next_prompts":["ユーザーが次に送れる相談文"]}。名前案は3件まで、各理由は短い1文。replyは150文字程度にまとめてください。next_promptsは今回の会話に合う、ユーザー視点の次の相談文を3件まで生成。各文は短く、日本語なら20文字程度、どの言語でも60文字以内にしてください。毎回同じ定型文にせず、希望や候補に応じて考えてください。説明だけ求められたらsuggestionsを空配列にできます。マークダウンのコードフェンスは不要です。`;
   }
   return {analyze,parseReply,prompt};
 })();

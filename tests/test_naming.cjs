@@ -34,7 +34,7 @@ class El{
  get textContent(){return this._text+this.children.map(c=>c.textContent).join(' ');}
  append(...nodes){this.children.push(...nodes);}
  replaceChildren(...nodes){this._text='';this.children=nodes;}
- addEventListener(){}
+ addEventListener(name,callback){this['on'+name]=callback;}
  setAttribute(name,value){this[name]=value;}
  removeAttribute(name){delete this[name];}
  focus(){this.focused=true;}
@@ -45,19 +45,25 @@ async function harness(options={}){
  const tabs=['search','consult','trends'].map(name=>{const el=get('tab-'+name);el.dataset.tab=name;return el;});
  get('trend-platform').value='all';get('ai-save').checked=true;
  const document={getElementById:get,querySelectorAll:selector=>selector==='[data-tab]'?tabs:[],createElement:tag=>new El(tag),createTextNode:text=>{const el=new El('#text');el.textContent=text;return el;}};
- const state={fetches:[],imports:[],engineDeletes:0,conversationDeletes:0,cancels:0,requests:[],configs:[]};
+ const state={fetches:[],imports:[],engineDeletes:0,conversationDeletes:0,starterDeletes:0,starterConfigs:[],cancels:0,requests:[],configs:[]};
  const conversation={
   async getTokenCount(){return options.tokenCount||1200;},
   async *sendMessageStreaming(input){
    state.requests.push(input);
-   const raw=JSON.stringify({reply:'猫の案です。',suggestions:[{name:'星ねこ',reading:'ほしねこ',reason:'星と猫から'},{name:'<img src=x>',reason:'<script>alert(1)</script>'}]});
-   yield{content:[{type:'text',text:raw.slice(0,30)}]};yield{content:[{type:'text',text:raw.slice(30)}]};
+   const raw=JSON.stringify({reply:'猫の案です。',suggestions:[{name:'星ねこ',reading:'ほしねこ',reason:'星と猫から'},{name:'<img src=x>',reason:'<script>alert(1)</script>'}],next_prompts:['もっと短い名前にしたい','英字での表記も考えて']});
+   yield{content:[{type:'text',text:raw.slice(0,30)}]};if(options.replyGate)await options.replyGate.promise;yield{content:[{type:'text',text:raw.slice(30)}]};
   },
   cancel(){state.cancels++;},
   async delete(){state.conversationDeletes++;}
  };
  const engine={
-  async createConversation(config){state.configs.push(config);if(options.conversationGate)await options.conversationGate.promise;return conversation;},
+  async createConversation(config){
+   if(config.sessionConfig.maxOutputTokens===256){
+    state.starterConfigs.push(config);if(options.starterGate)await options.starterGate.promise;
+    return {async *sendMessageStreaming(){yield options.badStarter?'null':JSON.stringify({next_prompts:['雨と鉱石の名前を考えたい','<img src=x>','雨と鉱石の名前を考えたい']});},async delete(){state.starterDeletes++;},cancel(){state.cancels++;}};
+   }
+   state.configs.push(config);if(options.conversationGate)await options.conversationGate.promise;return conversation;
+  },
   async delete(){state.engineDeletes++;}
  };
  const Engine={async create(config){state.engineConfig=config;if(options.engineGate)await options.engineGate.promise;return engine;}};
@@ -99,6 +105,35 @@ test('opt-in model load, actual dictionary collision checks, and follow-up conte
 });
 test('a failed download leaves the rest of the site and retry available',async()=>{
  const h=await harness({failDownload:true});await h.get('ai-start').onclick();assert.match(h.get('ai-status').textContent,/AIを起動できませんでした/);assert.equal(h.get('ai-start').disabled,false);h.tabs[2].onclick();assert.match(h.get('trend-content').textContent,/集計対象 2/);
+});
+test('conversation chips come from AI, populate the input without sending, and change with replies',async()=>{
+ const h=await harness();assert.equal(h.get('ai-prompts').children.length,0);
+ await h.get('ai-start').onclick();assert.equal(h.state.starterDeletes,1);
+ const chips=h.get('ai-prompts').children;assert.equal(chips.length,2);assert.equal(chips[0].textContent,'雨と鉱石の名前を考えたい');assert.equal(chips[1].children.length,0);
+ chips[0].onclick();assert.equal(h.get('ai-message').value,'雨と鉱石の名前を考えたい');assert.equal(h.state.requests.length,0);
+ await h.submit();assert.equal(h.get('ai-prompts').children[0].textContent,'もっと短い名前にしたい');assert.equal(h.state.starterConfigs.length,1);
+ await h.get('ai-reset').onclick();assert.equal(h.get('ai-prompts').children[0].textContent,'雨と鉱石の名前を考えたい');
+});
+test('invalid starter generation leaves manual input available without canned suggestions',async()=>{
+ const h=await harness({badStarter:true});await h.get('ai-start').onclick();
+ assert.equal(h.get('ai-prompts').children.length,0);assert.match(h.get('ai-prompts-status').textContent,/直接入力/);assert.equal(h.get('ai-send').disabled,false);
+});
+test('unloading during starter setup disposes the pending context without publishing late chips',async()=>{
+ const gate=deferred(),h=await harness({starterGate:gate});const loading=h.get('ai-start').onclick();
+ while(!h.state.starterConfigs.length)await new Promise(setImmediate);
+ const unloading=h.get('ai-unload').onclick();gate.resolve();await loading;await unloading;
+ assert.equal(h.state.starterDeletes,1);assert.equal(h.state.engineDeletes,1);assert.equal(h.get('ai-prompts').children.length,0);assert.equal(h.get('ai-send').disabled,true);
+});
+test('new replies respect readers scrolling through older messages',async()=>{
+ const gate=deferred(),h=await harness({replyGate:gate});await h.get('ai-start').onclick();
+ const history=h.get('ai-history');history.scrollHeight=1600;history.clientHeight=400;history.scrollTop=1200;
+ h.get('ai-message').value='名前を相談';const sending=h.submit();
+ while(!h.state.requests.length)await new Promise(setImmediate);
+ history.scrollTop=200;history.onscroll();gate.resolve();await sending;
+ assert.equal(history.scrollTop,200);
+ history.scrollTop=1200;history.onscroll();history.scrollHeight=2200;
+ h.get('ai-message').value='別の候補';await h.submit();assert.equal(history.scrollTop,2200);
+ await h.get('ai-reset').onclick();assert.equal(history.scrollTop,0);
 });
 test('unloading during engine initialization prevents a second model from loading and deletes the stale engine',async()=>{
  const gate=deferred(),h=await harness({engineGate:gate});const loading=h.get('ai-start').onclick();

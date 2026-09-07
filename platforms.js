@@ -8,9 +8,19 @@ window.VNamePlatforms = (() => {
   }
   function account(value) {
     const u=safeURL(value);if(!u)return null;
-    const platform=hosts[u.hostname.replace(/^www\./,'')];if(!platform)return null;
+    const host=u.hostname.replace(/^www\./,'');
+    const platform=hosts[host];if(!platform)return null;
+    let path;try{path=decodeURIComponent(u.pathname);}catch{return null;}
+    if(platform==='youtube'&&/^\/@[\p{L}\p{N}\p{M}_.·\-]+\/?$/u.test(path))u.pathname=path.toLowerCase();
+    else if(platform==='youtube'&&!/^\/channel\/UC[\w-]{22}\/?$/.test(path))return null;
     const patterns={youtube:/^\/(?:channel\/UC[\w-]{22}|@[\w.\-]+)\/?$/,tiktok:/^\/@[\w.\-]+(?:\/live)?\/?$/,twitch:/^\/[\w]+\/?$/,iriam:/^\/s\/user\/[^/]+\/?$/,reality:/^\/profile\/[^/]+\/?$/,'17live':/^\/(?:s\/u|(?:[a-z]{2}\/)?profile)\/[^/]+\/?$/,showroom:/^\/(?:r\/)?[\w-]+\/?$/,twitcasting:/^\/[\w:.-]+\/?$/,niconico:/^\/(?:user\/\d+|community\/co\d+)\/?$/,mirrativ:/^\/user\/\d+\/?$/,bilibili:/^\/\d+\/?$/,spoon:/^\/(?:[a-z]{2}\/)?(?:profile\/[^/]+|channel\/\d+(?:\/tab\/home)?)\/?$/,kick:/^\/[\w-]+\/?$/,soop:/^\/[\w-]+\/?$/,topia:/^\/[\w-]+\/?$/,palmu:/^\/users\/[^/]+\/?$/,mixch:/^\/u\/\d+\/?$/,bigo:/^\/[\w-]+\/?$/,acfun:/^\/u\/\d+\/?$/};
-    if(!patterns[platform].test(u.pathname)||/^\/(?:home|directory|explore|search|login|signup)\/?$/.test(u.pathname))return null;
+    if(platform==='iriam'&&path==='/s/user'&&/^[\w-]+$/.test(u.searchParams.get('id')||'')){
+      return {platform,url:'https://web.iriam.app/s/user?id='+encodeURIComponent(u.searchParams.get('id'))};
+    }
+    if((platform!=='youtube'&&!patterns[platform].test(u.pathname))||/^\/(?:home|directory|explore|search|login|signup)\/?$/.test(u.pathname))return null;
+    u.hostname=platform==='youtube'?'www.youtube.com':platform==='twitch'?'www.twitch.tv':platform==='tiktok'?'www.tiktok.com':platform==='soop'?'ch.sooplive.co.kr':host;
+    if(['tiktok','twitch','kick','soop','twitcasting'].includes(platform))u.pathname=u.pathname.toLowerCase();
+    if(platform==='tiktok')u.pathname=u.pathname.replace(/\/live\/?$/,'');
     u.hash='';u.search='';return {platform,url:u.href.replace(/\/$/,'')};
   }
   function details(r) {
@@ -19,15 +29,22 @@ window.VNamePlatforms = (() => {
     for(const a of r.platform_accounts||[])add(a.url);
     for(const f of ['source_url','broadcast_url','twitch_url','youtube_url'])add(r[f]);
     if(/^[a-zA-Z0-9_]+$/.test(r.twitch_login||''))add('https://www.twitch.tv/'+r.twitch_login);
-    if(/^@[\w.\-]+$/.test(r.youtube_handle||''))add('https://www.youtube.com/'+r.youtube_handle);
+    if(r.youtube_handle?.startsWith('@'))add('https://www.youtube.com/'+r.youtube_handle);
     const cid=r.youtube_channel_id||(r.source_id.startsWith('youtube:')?r.source_id.slice(8):'');
     if(/^UC[\w-]{22}$/.test(cid))add('https://www.youtube.com/channel/'+cid);
+    // These two fields are the channel/handle pair supplied by a profile source.
+    // Do not collapse arbitrary channels merely because they share a platform.
+    const handle=account('https://www.youtube.com/'+(r.youtube_handle||''));
+    const channelLinks=[...linked.values()].filter(a=>a.platform==='youtube'&&new URL(a.url).pathname.startsWith('/channel/'));
+    if(channelLinks.length===1&&/^UC[\w-]{22}$/.test(cid)&&handle)linked.delete('youtube '+handle.url);
     const known=new Set([...linked.values()].map(a=>a.platform));
     for(const p of r.platforms||[])if(labels[p]&&safeURL(r.platform_sources?.[p]))known.add(p);
     const primarySource=safeURL(r.primary_platform_source);
     const primary=primarySource&&r.primary_platform_evidence?[...new Set((r.primary_platforms||[]).filter(p=>labels[p]))]:[];
     primary.forEach(p=>known.add(p));
-    return {primary:primary.map(p=>labels[p]),primarySource:primary.length?primarySource.href:'',known:[...known].map(p=>labels[p]),accounts:[...linked.values()].map(a=>({...a,label:labels[a.platform]}))};
+    const accounts=[...linked.values()].map(a=>({...a,label:labels[a.platform]}));
+    const groups=[...new Set(accounts.map(a=>a.platform))].map(platform=>({platform,label:labels[platform],accounts:accounts.filter(a=>a.platform===platform)}));
+    return {primary:primary.map(p=>labels[p]),primarySource:primary.length?primarySource.href:'',known:[...known].map(p=>labels[p]),accounts,groups};
   }
   return {labels,details,account,safeURL};
 })();

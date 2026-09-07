@@ -326,3 +326,19 @@ for(const [jp,values] of Object.entries({
  'モチーフや雰囲気から、名前の候補と理由を提案します。カードに表示した候補は、辞書で自動チェック。':['Get name ideas and reasons from a theme or mood. Names shown on suggestion cards are checked against the dictionary.','根据主题或氛围提出名字与理由，卡片中显示的候选将自动在词典中查询。','모티프나 분위기에 맞는 이름과 이유를 제안합니다. 카드에 표시된 후보는 사전에서 자동 확인합니다.'],
  '文章で回答しました。候補の名前は「名前をチェック」で確認してください。':['AI replied in text. Check any suggested names using the name search.','AI以文字形式回答了。请使用“查询名字”确认候选名称。','AI가 글로 답변했습니다. 후보 이름은 “이름 확인”에서 검색해 주세요.']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+for(const [jp,values] of Object.entries({
+ '気になる名前を調べる。AIと新しい名前を考える。':['Look up a name. Create a new one with AI.','查询感兴趣的名字，与AI一起构思新名字。','궁금한 이름을 검색하고, AI와 새로운 이름을 생각해 보세요.'],
+ 'VTuber・AIVTuber・Vライバーに対応':['For VTubers, AIVTubers and V-livers','支持VTuber、AIVTuber和虚拟主播','VTuber·AIVTuber·V라이버 지원'],
+ 'その他のアカウント':['Other accounts','其他账号','다른 계정'],
+ '相談の会話履歴':['Conversation history','咨询记录','상담 대화 기록']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+for(const [jp,values] of Object.entries({
+ 'AIの準備後に、相談のきっかけを提案します。':['AI will suggest conversation starters once it is ready.','AI准备好后会生成咨询建议。','AI가 준비되면 상담 주제를 제안합니다.'],
+ '相談のきっかけを考えています…':['Creating conversation starters…','正在构思咨询建议…','상담 주제를 생각하고 있습니다…'],
+ 'AIからの相談ヒント':['Ideas from AI','AI的咨询建议','AI의 상담 힌트'],
+ 'AIが考えた相談候補':['AI-generated conversation ideas','AI生成的咨询建议','AI가 만든 상담 주제'],
+ '続けて、希望を自由に入力してください。':['Tell AI what you would like next.','请继续自由输入您的要求。','이어서 원하는 내용을 자유롭게 입력해 주세요.'],
+ '候補を生成できませんでした。希望を直接入力して相談できます。':['Ideas could not be generated. You can still type your request to chat.','未能生成建议，您仍可直接输入要求进行咨询。','상담 주제를 만들지 못했습니다. 원하는 내용을 직접 입력해 상담할 수 있습니다.']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);

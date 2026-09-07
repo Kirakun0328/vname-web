@@ -47,7 +47,7 @@
     "ambiguous_skipped": 0
   },
   "records": {
-    "listed": 32345,
+    "listed": 32344,
     "platform_records": 10860,
     "with_primary_platforms": 1050,
     "platform_counts": {
@@ -107,5 +107,9 @@
     "new_records": 106,
     "matched_existing": 2,
     "ambiguous_skipped": 0
+  },
+  "identity_repairs": {
+    "aivnav_duplicate_stubs_merged": 1,
+    "evidence": "https://www.youtube.com/@AIVtuber_Shizuku"
   }
 }

@@ -25,6 +25,25 @@ test('Avvy interview can establish platform without claiming it is primary',()=>
 test('existing Twitch metadata remains visible',()=>{
  assert.deepEqual(detail({twitch_login:'example'}).known,['Twitch']);
 });
+test('equivalent channel URLs and a known handle do not repeat a platform link',()=>{
+ const cid='UC'+'a'.repeat(22);
+ const d=detail({source_id:'youtube:'+cid,youtube_channel_id:cid,youtube_handle:'@Example',platform_accounts:[
+  {url:'https://youtube.com/channel/'+cid+'?feature=share'},
+  {url:'https://m.youtube.com/channel/'+cid+'/'},
+  {url:'https://www.youtube.com/@EXAMPLE'}]});
+ assert.equal(d.accounts.length,1);assert.equal(d.accounts[0].url,'https://www.youtube.com/channel/'+cid);
+ assert.equal(d.groups.length,1);
+});
+test('different accounts on one platform remain available in one group',()=>{
+ const d=detail({platform_accounts:[{url:'https://youtube.com/channel/UC'+'a'.repeat(22)},{url:'https://youtube.com/channel/UC'+'b'.repeat(22)}]});
+ assert.equal(d.accounts.length,2);assert.equal(d.groups.length,1);assert.equal(d.groups[0].accounts.length,2);
+});
+test('Unicode handles and IRIAM query identities remain usable',()=>{
+ assert.equal(p.account('https://www.youtube.com/@しずく').url,p.account('https://youtube.com/%40%E3%81%97%E3%81%9A%E3%81%8F').url);
+ assert.equal(p.account('https://web.iriam.app/s/user?id=ABC&tracking=1').url,'https://web.iriam.app/s/user?id=ABC');
+ assert.equal(p.account('https://www.youtube.com/channel/UC'+'a'.repeat(22)).url,'https://www.youtube.com/channel/UC'+'a'.repeat(22));
+ assert.equal(p.account('https://www.youtube.com/@bad%2Fhandle'),null);
+});
 test('scripts exist and load before app',()=>{
  const html=fs.readFileSync('index.html','utf8');
  const scripts=[...html.matchAll(/<script src="([^"?]+)(?:\?[^\"]*)?"/g)].map(m=>m[1]);
@@ -52,4 +71,18 @@ test('published data searches and renders a TikTok V-liver without requiring You
  get('query').value='兎田ぺこら';vm.runInContext('search()',c);assert.match(get('results').textContent,/うさだぺこら/);
  get('query').value='枯葉 楓';vm.runInContext('search()',c);assert.match(get('results').textContent,/こば かえで/);assert.match(get('results').textContent,/主な活動媒体 IRIAM/);assert.match(get('results').textContent,/Vライバー/);
  get('query').value='日暮園';vm.runInContext('search()',c);assert.match(get('results').textContent,/主な活動媒体 REALITY/);
+ get('query').value='しずく';vm.runInContext('search()',c);
+ const matches=vm.runInContext('find("しずく")',c);
+ const ai=matches.filter(x=>x.r.source_id==='youtube:UCE2SWbhR2WRHPBi-bflr0-g');
+ assert.equal(ai.length,1);assert.equal(ai[0].r.category,'AIVTuber');
+ assert.ok(!matches.some(x=>x.r.source_id==='aivnav:char-Ta5Ze-v2qnru'));
+ const aiLinks=c.window.VNamePlatforms.details(ai[0].r).accounts;
+ assert.equal(aiLinks.length,1);assert.match(aiLinks[0].url,/UCE2SWbhR2WRHPBi-bflr0-g$/);
+ const other=matches.find(x=>x.r.source_id==='youtube:UCAHQGIKolfBfoeXXMY79SBA');
+ assert.ok(other);assert.notEqual(other.r.category,'AIVTuber');
+ assert.ok(!c.window.VNamePlatforms.details(other.r).accounts.some(a=>a.url===aiLinks[0].url));
+ get('query').value='キズナアイ';vm.runInContext('search()',c);
+ const kizuna=get('results').children[0];const links=kizuna.children.find(e=>e.className==='platform-links');
+ assert.deepEqual(links.children.map(e=>e.textContent),['YouTube','bilibili']);
+ for(const q of ['キズナアイ','兎田ぺこら','星街すいせい','宝鐘マリン','葛葉','戌神ころね'])assert.ok(vm.runInContext('find('+JSON.stringify(q)+').some(x=>x.type===0)',c),q);
 });

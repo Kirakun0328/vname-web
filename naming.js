@@ -8,6 +8,15 @@
   let conversationLanguage=null;
   let modelSaved=false, cacheSupported=true;
   let mediaIndex=null, stats=null, lastChecks=[];
+  let promptConversation=null, initialPrompts=[];
+  let followConversation=true;
+  const conversationHistory=$('ai-history');
+  conversationHistory.addEventListener('scroll',()=>{
+    followConversation=conversationHistory.scrollHeight-conversationHistory.clientHeight-conversationHistory.scrollTop<=64;
+  },{passive:true});
+  function scrollConversation(force=false){
+    if(force||followConversation){conversationHistory.scrollTop=conversationHistory.scrollHeight;followConversation=true;}
+  }
   const tabs=[...document.querySelectorAll('[data-tab]')];
   const el=(tag,textValue,className)=>{const e=document.createElement(tag);if(textValue!==undefined)e.textContent=textValue;if(className)e.className=className;return e;};
   function setStatus(value,error=false){$('ai-status').textContent=value;$('ai-status').dataset.error=String(error);translateUI();}
@@ -21,8 +30,9 @@
     $('ai-delete').disabled=!modelSaved||loading||busy||unloading;
     $('ai-message').disabled=busy;
     $('ai-start').textContent=modelSaved?'保存済みAIを起動':'AIを準備する（初回 約2GB）';
-    $('ai-ready').textContent=engine?'相談できます':loading?'準備中':'AIの準備が必要です';
-    $('ai-ready').dataset.ready=String(!!engine);
+    $('ai-ready').textContent=loading?'準備中':engine?'相談できます':'AIの準備が必要です';
+    $('ai-ready').dataset.ready=String(!!engine&&!loading&&!unloading);
+    for(const button of $('ai-prompts').children)button.disabled=!engine||busy||loading||unloading;
   }
   async function refreshStorage(){
     const saved=await model.status();modelSaved=saved.saved;cacheSupported=saved.supported;
@@ -87,12 +97,37 @@
   }
   $('trend-platform').onchange=()=>{stats=null;renderTrends();};
   $('trend-consult').onclick=()=>{selectTab('consult');$('ai-message').value='収録されている名前の傾向を踏まえて、かぶりにくく覚えやすい名前の方向性を一緒に考えてください。';$('ai-message').focus();};
-  document.querySelectorAll('[data-prompt]').forEach(button=>button.onclick=()=>{$('ai-message').value=button.dataset.prompt;$('ai-message').focus();});
+  function showPrompts(prompts=[],emptyText='続けて、希望を自由に入力してください。'){
+    const box=$('ai-prompts');box.replaceChildren();
+    $('ai-prompts-status').textContent=prompts.length?'AIからの相談ヒント':emptyText;
+    for(const prompt of prompts){const button=el('button',prompt);button.type='button';button.title=prompt;button.dataset.generated='true';button.onclick=()=>{if(busy||loading||unloading)return;$('ai-message').value=prompt;$('ai-message').focus();};box.append(button);}
+    controls();translateUI();
+  }
+  async function createInitialPrompts(attempt){
+    let current;
+    showPrompts([],'相談のきっかけを考えています…');
+    try{
+      const lang=typeof language==='string'?language:'ja';
+      const instruction=`VTuber・AIVTuber・Vライバーの名前相談のきっかけになる、ユーザーが送れる短い相談文を3件生成してください。方向性は毎回あなたが考え、3件で異なる雰囲気・モチーフ・希望にしてください。言語は${lang}。各文は日本語なら20文字程度、どの言語でも60文字以内。JSONのみ: {"next_prompts":["相談文","相談文","相談文"]}。説明やコードフェンスは不要です。`;
+      current=await engine.createConversation({prefillPrefaceOnInit:true,preface:{messages:[{role:'system',content:instruction}],extra_context:{enable_thinking:false}},sessionConfig:{maxOutputTokens:256}});
+      if(attempt!==generation)return;
+      promptConversation=current;
+      let raw='';
+      for await(const chunk of current.sendMessageStreaming('名前相談のきっかけを提案してください。')){
+        if(attempt!==generation)return;
+        if(typeof chunk==='string')raw+=chunk;
+        else if(typeof chunk.content==='string')raw+=chunk.content;
+        else for(const item of chunk.content||[])if(item.type==='text')raw+=item.text||'';
+      }
+      if(attempt===generation){initialPrompts=insight.parseReply(raw).nextPrompts||[];showPrompts(initialPrompts,'候補を生成できませんでした。希望を直接入力して相談できます。');}
+    }catch{if(attempt===generation)showPrompts([],'候補を生成できませんでした。希望を直接入力して相談できます。');}
+    finally{if(promptConversation===current)promptConversation=null;if(current)try{await current.delete();}catch{}}
+  }
   function message(role,text){
     $('ai-welcome').hidden=true;
     const box=el('div',undefined,'chat-message '+role);
     if(role==='assistant'){const avatar=el('img');avatar.src='assets/naming-robot.png';avatar.alt='';avatar.className='chat-avatar';avatar.width=40;avatar.height=40;box.append(avatar);}
-    const content=el('div',undefined,'chat-message-content');content.append(el('strong',role==='user'?'あなた':'名前相談AI'));const body=el('div',text,'chat-body');content.append(body);box.append(content);$('ai-log').append(box);$('ai-log').scrollTop=$('ai-log').scrollHeight;translateUI();return {box:content,body};
+    const content=el('div',undefined,'chat-message-content');content.append(el('strong',role==='user'?'あなた':'名前相談AI'));const body=el('div',text,'chat-body');content.append(body);box.append(content);$('ai-log').append(box);translateUI();scrollConversation(role==='user');return {box:content,body};
   }
   async function resetConversation(){const old=conversation;conversation=null;conversationLanguage=null;lastChecks=[];if(old)await old.delete();}
   async function loadAI(){
@@ -112,7 +147,7 @@
       $('ai-progress').hidden=false;$('ai-progress').removeAttribute('value');setStatus('この端末でAIを起動しています…');
       const ready=await Engine.create({model:stream,mainExecutorSettings:{maxNumTokens:8192}});
       if(attempt!==generation){await ready.delete();return;}
-      engine=ready;setStatus('AIに相談できます。');
+      engine=ready;setStatus('相談のきっかけを考えています…');await createInitialPrompts(attempt);if(attempt===generation)setStatus('AIに相談できます。');
     }catch(error){if(attempt===generation)setStatus(error.message==='GPU_UNAVAILABLE'?'GPUを利用できません。ブラウザの設定や対応状況を確認してください。':/^CACHE_/.test(error.message)?'モデルを保存できませんでした。空き容量を確認するか「モデルを端末に保存」をオフにしてお試しください。':'AIを起動できませんでした。PCの対応ブラウザで、空きメモリと通信環境を確認してください。',true);}
     finally{if(attempt===generation){loading=false;aborter=null;$('ai-progress').hidden=true;await refreshStorage();}}
   }
@@ -120,11 +155,12 @@
     if(unloading)return;unloading=true;
     generation++;cancelled=true;aborter?.abort();aborter=null;
     if(conversation){try{conversation.cancel();}catch{}}
+    if(promptConversation){try{promptConversation.cancel();}catch{}}
     controls();setStatus('AIを終了しています…');
     await Promise.allSettled([activeLoad,activeSend]);
     try{await resetConversation();}catch{}
     const old=engine;engine=null;try{if(old)await old.delete();}catch{}
-    loading=false;busy=false;unloading=false;$('ai-progress').hidden=true;controls();setStatus('AIを終了しました。名前検索と傾向分析はそのまま使えます。');
+    loading=false;busy=false;unloading=false;$('ai-progress').hidden=true;initialPrompts=[];showPrompts([],'AIの準備後に、相談のきっかけを提案します。');controls();setStatus('AIを終了しました。名前検索と傾向分析はそのまま使えます。');
   }
   function showSuggestions(box,suggestions){
     lastChecks=[];if(!suggestions.length)return;
@@ -168,14 +204,14 @@
       }
       if(attempt!==generation)return;
       if(cancelled){answer.body.textContent='回答を停止しました。';await resetConversation();}
-      else{const result=insight.parseReply(raw);answer.body.textContent=result.reply;if(result.valid)answer.body.dataset.generated='true';showSuggestions(answer.box,result.suggestions);setStatus(result.valid?(result.structured?'続けて希望を伝えると、候補を絞り込めます。':'文章で回答しました。候補の名前は「名前をチェック」で確認してください。'):'回答が途中で終わりました。条件を短くして、もう一度相談してください。',!result.valid);}
+      else{const result=insight.parseReply(raw);answer.body.textContent=result.reply;if(result.valid)answer.body.dataset.generated='true';showSuggestions(answer.box,result.suggestions);showPrompts(result.nextPrompts);setStatus(result.valid?(result.structured?'続けて希望を伝えると、候補を絞り込めます。':'文章で回答しました。候補の名前は「名前をチェック」で確認してください。'):'回答が途中で終わりました。条件を短くして、もう一度相談してください。',!result.valid);}
     }catch(error){
       if(attempt===generation){const text=cancelled?'回答を停止しました。':'この端末では回答を生成できませんでした。PCで、条件を短くしてお試しください。';if(answer)answer.body.textContent=text;setStatus(text,!cancelled);try{await resetConversation();}catch{conversation=null;}}
-    }finally{if(attempt===generation){busy=false;controls();$('ai-log').scrollTop=$('ai-log').scrollHeight;translateUI();}}
+    }finally{if(attempt===generation){busy=false;controls();translateUI();scrollConversation();}}
   }
   $('ai-start').onclick=()=>activeLoad=loadAI();$('ai-unload').onclick=unloadAI;$('ai-form').onsubmit=event=>activeSend=send(event);
   $('ai-stop').onclick=()=>{cancelled=true;conversation?.cancel();};
-  $('ai-reset').onclick=async()=>{if(busy||loading||unloading)return;busy=true;controls();try{await resetConversation();$('ai-log').replaceChildren();$('ai-welcome').hidden=false;setStatus(engine?'AIに相談できます。':'AIを読み込むと相談を始められます。');}finally{busy=false;controls();}};
+  $('ai-reset').onclick=async()=>{if(busy||loading||unloading)return;busy=true;controls();try{await resetConversation();$('ai-log').replaceChildren();$('ai-welcome').hidden=false;followConversation=true;conversationHistory.scrollTop=0;showPrompts(initialPrompts);setStatus(engine?'AIに相談できます。':'AIを読み込むと相談を始められます。');}finally{busy=false;controls();}};
   $('ai-delete').onclick=async()=>{if(loading||busy||unloading)return;await unloadAI();unloading=true;controls();try{await model.remove();await refreshStorage();setStatus('保存したAIモデルを削除しました。');}catch{setStatus('削除できませんでした。ブラウザのサイトデータ設定から削除できます。',true);}finally{unloading=false;controls();}};
   selectTab(location.hash.slice(1),false);controls();translateUI();refreshStorage();
 })();

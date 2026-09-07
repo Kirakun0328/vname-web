@@ -50,14 +50,16 @@ def youtube_id(url):
     return match[1] if match else None
 
 def merge_aivtubers(base, previous, characters, vdb):
+    from platform_sources import canonical_account, record_accounts
     merged = {r['source_id']: dict(r) for r in base}
     extra = {r['source_id']: dict(r) for r in previous}
     for r in previous:
         merged.setdefault(r['source_id'], {}).update(r)
     channels = {}
-    for sid in merged:
-        if sid.startswith('youtube:'):
-            channels.setdefault(sid.split(':',1)[1], set()).add(sid)
+    for sid, row in merged.items():
+        for account in record_accounts(row):
+            if account['platform']=='youtube' and account['id'].startswith('channel/'):
+                channels.setdefault(account['id'][8:], set()).add(sid)
     for r in vdb.get('vtbs', []):
         if r.get('uuid') in merged:
             for account in r.get('accounts', []):
@@ -78,12 +80,26 @@ def merge_aivtubers(base, previous, characters, vdb):
             cid = known_channel['channel_id']
         source = SITE + character['id']
         previous_matches = {sid for sid,r in merged.items() if character['id'] in r.get('aivnav_ids',[])}
-        targets = previous_matches or channels.get(cid, set())
+        # Channel identity is necessary but not sufficient: a human host and
+        # multiple AI characters can share a broadcast. Require name agreement
+        # as well, and never merge on names without that channel evidence.
+        variants = list(dict.fromkeys([name,*[s.strip() for s in re.split(r'\s*[/／]\s*',name) if s.strip()]]))
+        name_keys = {key(s) for s in variants}
+        compatible = {sid for sid in channels.get(cid,set()) if not sid.startswith('aivnav:')
+                      and name_keys.intersection(key(s) for s in [merged[sid]['display_name'],*merged[sid].get('aliases',[])])}
+        targets = previous_matches
+        if len(compatible)==1 and all(sid in compatible or sid=='aivnav:'+character['id'] for sid in previous_matches):
+            targets = compatible
+            # Retire only this directory's duplicate stub, preserving the
+            # existing channel-backed record and its original display name.
+            for sid in previous_matches-compatible:
+                merged.pop(sid,None)
+                extra.pop(sid,None)
         if not targets:
             if not activity:
                 continue
             # A matching name is insufficient identity evidence (e.g. AIずんだもん).
-            sid = 'youtube:' + cid if cid else 'aivnav:' + character['id']
+            sid = 'youtube:' + cid if cid and not channels.get(cid) else 'aivnav:' + character['id']
             targets = {sid}
             row = {'source_id': sid, 'display_name': name, 'reading': '', 'romanized_name': '', 'source_url': source}
             merged[sid] = row
@@ -95,10 +111,23 @@ def merge_aivtubers(base, previous, characters, vdb):
             old = merged[sid]
             patch = extra.setdefault(sid, {'source_id': sid})
             patch.update(category='AIVTuber', category_source=source)
+            linked = [a for field in ('youtube_url','twitter_url','website_url')
+                      if (a:=canonical_account(character.get(field)))]
+            if cid:
+                linked.append(canonical_account('https://www.youtube.com/channel/'+cid))
+                patch['youtube_channel_id']=cid
+                handle=canonical_account(character.get('youtube_url'))
+                if handle and handle['platform']=='youtube' and handle['id'].startswith('@'):
+                    patch['youtube_handle']=handle['id']
+            accounts={(a['platform'],a['id']):a for a in record_accounts(old)}
+            accounts.update({(a['platform'],a['id']):a for a in linked})
+            if accounts:
+                patch['platform_accounts']=list(accounts.values())
+                patch['platform_sources']={**old.get('platform_sources',{}),**{a['platform']:source for a in linked}}
             if activity and not old.get('activity_source'):
                 patch.update(activity_source=source, activity_evidence='directory_self_description', activity_checked_at=datetime.date.today().isoformat())
             patch['aivnav_ids'] = sorted(set(old.get('aivnav_ids', []) + patch.get('aivnav_ids', []) + [character['id']]))
-            aliases = list(dict.fromkeys([*old.get('aliases', []), *patch.get('aliases', []), *([name] if name != old['display_name'] else [])]))
+            aliases = list(dict.fromkeys([*old.get('aliases', []), *patch.get('aliases', []), *[s for s in variants if s != old['display_name']]]))
             if aliases:
                 patch['aliases'] = aliases
             reading = kana(character.get('name_kana') or '')
