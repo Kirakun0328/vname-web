@@ -120,8 +120,18 @@ def main():
         report['vtuber_post'] = source_report
     except (OSError, ValueError, KeyError, TypeError) as error:
         print('VTuber Post unavailable; existing records retained:', type(error).__name__, str(error), flush=True)
-    from aivtuber_sources import collect, merge_aivtubers
+    from vstats_sources import refresh_vstats
     from reading_sources import refresh_readings, fetch_reading
+    try:
+        updated, report['vstats'] = refresh_vstats(base, updated, vdb, fetch_reading)
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print('VSTATS unavailable; existing records retained:', type(error).__name__, flush=True)
+    from liverfun_sources import refresh_liverfun
+    try:
+        updated, report['liverfun'] = refresh_liverfun(base, updated, vdb, fetch_reading, state=report.get('liverfun'))
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print('liverfun unavailable; existing records retained:', type(error).__name__, flush=True)
+    from aivtuber_sources import collect, merge_aivtubers
     try:
         characters = collect(fetch_reading)
         updated = merge_aivtubers(base, updated, characters, vdb)

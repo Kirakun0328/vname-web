@@ -49,9 +49,38 @@
     "skipped_without_activity_or_predebut": 2
   },
   "records": {
-    "stored": 24603,
-    "listed": 24585,
+    "stored": 24815,
+    "listed": 24797,
     "excluded_predebut": 18,
-    "with_activity_source": 149
+    "with_activity_source": 361
+  },
+  "vstats": {
+    "source": "https://www.vstats.jp/brands/1",
+    "checked_at": "2026-09-08",
+    "directory_channels": 453,
+    "checked_profiles": 217,
+    "failed_profiles": 12,
+    "new_records": 201,
+    "new_below_1000": 0,
+    "new_below_10000": 5
+  },
+  "liverfun": {
+    "new_records": 11,
+    "skipped_unconfirmed_or_duplicate": 125,
+    "source": "https://www.liverfun.jp/vtuber/",
+    "checked_at": "2026-09-08",
+    "next_index": 0,
+    "checked_profiles": 136,
+    "eligible_profiles": 12,
+    "size_measure": "combined_social_followers_below_1000",
+    "small_account_candidates": 637
+  },
+  "expansion_2026_09_07": {
+    "vstats_new": 201,
+    "liverfun_new": 11,
+    "new_total": 212,
+    "vstats_below_10000_subscribers": 5,
+    "liverfun_below_1000_social_followers": 11,
+    "listed_after": 24797
   }
 }

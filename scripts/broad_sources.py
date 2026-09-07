@@ -79,6 +79,7 @@ def collect_post(fetch=fetch_post, full=False, batch_size=90, state=None):
     # Start at the small channels, then work back toward the top over daily runs.
     cursor = min(last, max(1, state.get('next_page', last)))
     pages = list(range(last, 0, -1)) if full else list(range(cursor, max(0, cursor-batch_size), -1))
+    scan_pages = set(pages)
     next_page = min(pages)-1 if pages and min(pages)>1 else last
     pages = list(dict.fromkeys(pages + [p for p in state.get('retry_pages', [])[:20] if isinstance(p, int) and 1 <= p <= last]))
     records = list(first)
@@ -113,8 +114,9 @@ def collect_post(fetch=fetch_post, full=False, batch_size=90, state=None):
             if batch_errors >= max(3, len(batch)*0.75):
                 print('VTuber Post is unavailable on most pages; save valid results and resume later', flush=True)
                 break
-    if checked:
-        next_page = min(checked)-1 if min(checked)>1 else last
+    scan_checked = set(checked) & scan_pages
+    if scan_checked:
+        next_page = min(scan_checked)-1 if min(scan_checked)>1 else last
     unique = {r['channel_id']: r for r in records}
     if len(unique) < len(records) * 0.97:
         raise ValueError('Unexpected duplicate pages/channels; refusing import')
@@ -128,7 +130,7 @@ def collect_post(fetch=fetch_post, full=False, batch_size=90, state=None):
     return list(unique.values()), report
 
 
-def merge_post(base, previous, rows, vdb):
+def merge_post(base, previous, rows, vdb, source_name='VTuber Post'):
     merged = {r['source_id']: dict(r) for r in base}
     extra = {r['source_id']: dict(r) for r in previous}
     for r in previous:
@@ -157,9 +159,9 @@ def merge_post(base, previous, rows, vdb):
             skipped += 1
             for sid in targets:
                 if preparing(name):
-                    extra.setdefault(sid, {'source_id': sid}).update(listing_status='predebut', listing_status_source=POST_URL)
+                    extra.setdefault(sid, {'source_id': sid}).update(listing_status='predebut', listing_status_source=row.get('source_url', POST_URL))
             continue
-        source = 'https://vtuber-post.com/database_detail.html?id=' + cid
+        source = row.get('source_url') or 'https://vtuber-post.com/database_detail.html?id=' + cid
         if not targets:
             sid = 'youtube:' + cid
             rowdata = {'source_id': sid, 'display_name': name, 'reading': '', 'romanized_name': '', 'source_url': source}
@@ -168,7 +170,7 @@ def merge_post(base, previous, rows, vdb):
             targets = {sid}
             channels[cid] = targets
             added += 1
-            small += row['subscribers'] < 1000
+            small += 0 < row['subscribers'] < 1000
         for sid in sorted(targets):
             old = merged[sid]
             patch = extra.setdefault(sid, {'source_id': sid})
@@ -185,5 +187,5 @@ def merge_post(base, previous, rows, vdb):
                 patch['display_name'] = name
                 patch['aliases'] = [n for n in aliases if not preparing(n)]
             old.update(patch)
-    print(f'VTuber Post: {added} added ({small} below 1,000 subscribers), {skipped} without activity/predebut', flush=True)
+    print(f'{source_name}: {added} added ({small} below 1,000 subscribers), {skipped} without activity/predebut', flush=True)
     return list(extra.values()), {'new_records': added, 'new_below_1000': small, 'skipped_without_activity_or_predebut': skipped}
