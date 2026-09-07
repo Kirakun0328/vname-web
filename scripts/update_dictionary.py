@@ -117,6 +117,14 @@ def main():
     updated = refresh_global(base, updated, vdb, report)
     from legacy_sources import refresh_legacy
     updated = refresh_legacy(base, updated, vdb, report)
+    from regional_sources import refresh_regional
+    updated = refresh_regional(base, updated, vdb, report)
+    from scholar_sources import refresh_scholar
+    from reading_sources import fetch_reading
+    try:
+        updated, report['scholar_vtuber'] = refresh_scholar(base, updated, vdb, fetch_reading, report.get('scholar_vtuber'))
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print('Academic directory unavailable; existing records retained:', type(error).__name__, flush=True)
     try:
         rows, source_report = collect_post(full=args.full, state=report.get('vtuber_post'))
         updated, counts = merge_post(base, updated, rows, vdb)
@@ -125,7 +133,7 @@ def main():
     except (OSError, ValueError, KeyError, TypeError) as error:
         print('VTuber Post unavailable; existing records retained:', type(error).__name__, str(error), flush=True)
     from vstats_sources import refresh_vstats
-    from reading_sources import refresh_readings, fetch_reading
+    from reading_sources import refresh_readings
     try:
         updated, report['vstats'] = refresh_vstats(base, updated, vdb, fetch_reading)
     except (OSError, ValueError, KeyError, TypeError) as error:
@@ -143,6 +151,8 @@ def main():
         print('AIV Navi unavailable; existing tags and records retained:', type(error).__name__)
     if not args.skip_readings:
         updated = refresh_readings(base, updated, fetch_reading)
+    from reviewed_sources import merge_reviewed
+    updated = merge_reviewed(updated)
     print(f'Extra records: {len(previous)} -> {len(updated)}')
     if args.check:
         return

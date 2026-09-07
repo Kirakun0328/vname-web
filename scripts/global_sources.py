@@ -183,9 +183,14 @@ def merge_global(base, previous, rows, vdb):
             for field in ('youtube_channel_id','twitch_login','youtube_handle'):
                 if row.get(field):
                     patch[field]=row[field]
+            if (row.get('reading_source') and row.get('reading_source_kind')=='directory_explicit'
+                    and row.get('reading') and not old.get('reading_source')
+                    and row['display_name']==old['display_name']):
+                for field in ('reading','reading_source','reading_source_kind'):
+                    patch[field]=row[field]
             # Preserve a newer verification when importing a historical snapshot.
             if not old.get('activity_source'):
-                for field in ('activity_source','activity_evidence','debut_date','source_snapshot_at','snapshot_source','activity_status_at_source'):
+                for field in ('activity_source','activity_evidence','debut_date','source_snapshot_at','snapshot_source','activity_status_at_source','activity_published_at'):
                     if row.get(field):
                         patch[field]=row[field]
                 patch['activity_checked_at']=datetime.date.today().isoformat()

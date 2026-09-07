@@ -81,10 +81,10 @@
     "skipped_without_activity_or_predebut": 2
   },
   "records": {
-    "stored": 29752,
-    "listed": 29734,
+    "stored": 31294,
+    "listed": 31276,
     "excluded_predebut": 18,
-    "with_activity_source": 6292
+    "with_activity_source": 7900
   },
   "vstats": {
     "new_records": 0,
@@ -160,5 +160,65 @@
     "target_reached": false,
     "target_reference": "https://premium.kai-you.net/article/894",
     "scope": "VTuber/AIVTuber activity begun, including past activity; exclude predebut; records are not a verified unique-person census"
+  },
+  "thai_vtuber": {
+    "source": "https://storage.googleapis.com/thaivtuberranking.appspot.com/v2/channel_data/simple_list.json",
+    "source_records": 1335,
+    "eligible_records": 1279,
+    "excluded_unconfirmed_or_preparing": 56,
+    "new_records": 1201,
+    "matched_existing_accounts": 78,
+    "new_youtube_below_1000": 184,
+    "new_twitch_below_1000": 0,
+    "checked_at": "2026-09-07T16:53:42.162034+00:00"
+  },
+  "indonesia_snapshot": {
+    "source": "https://www.kaggle.com/datasets/ekasetyoagung/indonesian-vtuber-channel-data",
+    "source_snapshot_at": "2024-06-13",
+    "license": "Apache-2.0",
+    "source_records": 1044,
+    "eligible_records": 394,
+    "excluded_unconfirmed_or_preparing": 650,
+    "new_records": 223,
+    "matched_existing_accounts": 171,
+    "new_youtube_below_1000": 59,
+    "new_twitch_below_1000": 0,
+    "imported_version": 1,
+    "checked_at": "2026-09-07"
+  },
+  "reviewed_profiles": {
+    "source_records": 19,
+    "new_records": 19,
+    "user_requested_profiles": 3,
+    "aivtuberdb_characters_added": 16,
+    "checked_at": "2026-09-07",
+    "note": "AI characters sharing a broadcast remain separate; inactive AI DB names without account links were not added."
+  },
+  "scholar_vtuber": {
+    "new_records": 99,
+    "matched_existing_accounts": 53,
+    "new_youtube_below_1000": 0,
+    "new_twitch_below_1000": 0,
+    "source": "https://scholarvtuber.com/",
+    "source_records": 197,
+    "profiles_fetched": 185,
+    "profiles_with_featured_videos": 174,
+    "verified_profiles": 152,
+    "unverified_profiles": 45,
+    "next_index": 0,
+    "checked_at": "2026-09-07"
+  },
+  "regional_expansion_2026_09_07": {
+    "baseline_commit": "909c19cc1838447ec94ef650aa7328e159e73555",
+    "listed_before": 29734,
+    "listed_after": 31276,
+    "new_total": 1542,
+    "requested_profiles_added": 3,
+    "thai_added": 1201,
+    "indonesia_added": 223,
+    "academic_added": 99,
+    "aivtuberdb_characters_added": 16,
+    "target_records": 60000,
+    "target_reached": false
   }
 }

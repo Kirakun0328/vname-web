@@ -79,6 +79,11 @@ AIVTuberタグがないレコードは広義のVTuberとして表示します。
 
 ## 海外・過去の公開名鑑
 
+- [タイVTuberランキング](https://vtuber.chuysan.com/)のフロントエンドが利用する[公開名簿JSON](https://storage.googleapis.com/thaivtuberranking.appspot.com/v2/channel_data/simple_list.json)を毎日照合します。準備中の表記を除き、過去の動画公開日時と正の総再生回数の両方があるチャンネルを対象にします。チャンネル作成日はデビュー日として扱いません。
+- Eka Setyo Agung氏の[Indonesian Vtuber Channel Data](https://www.kaggle.com/datasets/ekasetyoagung/indonesian-vtuber-channel-data)（2024年6月13日・バージョン1、Apache-2.0）を利用します。名前・チャンネルID・活動を示す集計事実だけを取り込み、説明全文や画像は転載しません。本人のチャンネル名または説明にVTuber等の表記があり、公開動画数と総再生回数が正の項目に限定します。デビュー前の表記、切り抜き名義、タグしか根拠のない項目は除外します。
+- [学術系Vtuber名鑑](https://scholarvtuber.com/)は毎日20プロフィールずつ巡回します。本人向けのチャンネルリンクと紹介動画の投稿者が一致し、動画が過去に公開され再生記録がある場合に追加します。他人のチャンネルのコラボ動画、予告のみ、準備中は追加しません。失敗が続く場合やアクセス制限を受けた場合は停止し、既存データを保持します。
+- [AI VTuberDB](https://aivtuberdb.com/)の配信中キャラクターと個別確認した本人プロフィールは `scripts/reviewed-profiles.json` に出典付きで記録します。同じTwitch配信に登場する別キャラクターや人間の配信者を、同一人物の別名として統合しません。読みと英字表記は本人の明記があるものだけ登録します。
+
 - [TaiwanVTuberData](https://taiwanvtuberdata.github.io/) の[公開JSON](https://github.com/TaiwanVtuberData/TaiwanVTuberTrackingDataJson)を一括取得します。`active` / `graduate` のうち、過去のデビュー日または公開動画の記載があるプロフィールが対象です。`preparing`、未来のデビュー日、活動実績が未確認のプロフィールは追加しません。YouTube登録者1,000未満やTwitchフォロワー1,000未満も収集します。
 - [HoloListの2024年9月14日保存データ](https://github.com/xoltia/vtuber-database/releases/tag/2024-09-14)から、その時点ですでにデビューしていた活動者を追加します。引退・休止・活動停止も対象です。
 - [2019年10月27日の公開チャンネル保存データ](https://github.com/Imamachi-n/Virtual-Youtuber-API/tree/cfa62639e60af5904b4faf5ae5d9a1702a80c4a7/Batch/data)を、VTuber本人としての自己紹介・投稿動画数・再生回数で照合します。切り抜き、準備中、活動実績を確かめられないチャンネルは新規追加しません。チャンネル開設日はVTuberデビュー日として扱いません。

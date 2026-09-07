@@ -59,6 +59,15 @@ class GlobalSourcesTest(unittest.TestCase):
         self.assertEqual(counts['new_records'],2)
         self.assertEqual(len(extra),2)
 
+    def test_explicit_directory_reading_preserves_existing_verification(self):
+        row={'source_id':'youtube:'+CID,'display_name':'例','youtube_channel_id':CID,'source_url':'https://example.com/profile',
+             'reading':'れい','reading_source':'https://example.com/profile','reading_source_kind':'directory_explicit'}
+        extra,_=merge_global([],[],[row],{})
+        self.assertEqual(extra[0]['reading'],'れい')
+        extra[0].update(reading='ためし',reading_source='https://example.com/official')
+        updated,_=merge_global([],extra,[row],{})
+        self.assertEqual(updated[0]['reading'],'ためし')
+
     def test_legacy_requires_self_description_and_posted_videos(self):
         row={'channelId':CID,'channelTitle':'例 VTuber','videoCount':'2','viewCount':'20'}
         meta={CID:{'desc':'VTuberの例です。','source_url':'https://example.com/snapshot'}}
