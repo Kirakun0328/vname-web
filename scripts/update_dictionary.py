@@ -107,6 +107,15 @@ def main():
     parser.add_argument('--skip-readings', action='store_true', help='Skip the optional reading refresh')
     args = parser.parse_args()
     base = read_js(ROOT / 'data.js', 'VTUBER_DATA')
+    platform_path = ROOT / 'platform-data.js'
+    if platform_path.exists():
+        identities = {r['source_id']: dict(r) for r in base}
+        # Include existing extra records before applying platform metadata.
+        for row in read_js(ROOT / 'extra-data.js', 'VTUBER_EXTRA'):
+            identities.setdefault(row['source_id'], {}).update(row)
+        for row in read_js(platform_path, 'VTUBER_PLATFORMS'):
+            identities.setdefault(row['source_id'], {}).update(row)
+        base = list(identities.values())
     previous = read_js(ROOT / 'extra-data.js', 'VTUBER_EXTRA')
     vdb = json.loads(fetch('https://vdb.vtbs.moe/json/list.json'))
     updated = expand(base, previous, vdb, [])

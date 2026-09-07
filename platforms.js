@@ -1,0 +1,33 @@
+'use strict';
+// Primary platforms require an explicit source; linked accounts never imply primacy.
+window.VNamePlatforms = (() => {
+  const labels = {youtube:'YouTube', tiktok:'TikTok LIVE', iriam:'IRIAM', avvy:'Avvy', reality:'REALITY', twitch:'Twitch', '17live':'17LIVE', showroom:'SHOWROOM', twitcasting:'ツイキャス', niconico:'ニコニコ', mirrativ:'Mirrativ', bilibili:'bilibili', spoon:'Spoon', kick:'Kick', soop:'SOOP', topia:'topia', palmu:'Palmu', mixch:'ミクチャ', bigo:'BIGO LIVE', acfun:'AcFun'};
+  const hosts = {'youtube.com':'youtube','m.youtube.com':'youtube','tiktok.com':'tiktok','twitch.tv':'twitch','m.twitch.tv':'twitch','web.iriam.app':'iriam','reality.app':'reality','17.live':'17live','showroom-live.com':'showroom','twitcasting.tv':'twitcasting','nicovideo.jp':'niconico','com.nicovideo.jp':'niconico','mirrativ.com':'mirrativ','space.bilibili.com':'bilibili','spooncast.net':'spoon','kick.com':'kick','ch.sooplive.co.kr':'soop','bj.afreecatv.com':'soop','user.topia.tv':'topia','palmu.me':'palmu','mixch.tv':'mixch','bigo.tv':'bigo','acfun.cn':'acfun'};
+  function safeURL(value) {
+    try {const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port?u:null;} catch {return null;}
+  }
+  function account(value) {
+    const u=safeURL(value);if(!u)return null;
+    const platform=hosts[u.hostname.replace(/^www\./,'')];if(!platform)return null;
+    const patterns={youtube:/^\/(?:channel\/UC[\w-]{22}|@[\w.\-]+)\/?$/,tiktok:/^\/@[\w.\-]+(?:\/live)?\/?$/,twitch:/^\/[\w]+\/?$/,iriam:/^\/s\/user\/[^/]+\/?$/,reality:/^\/profile\/[^/]+\/?$/,'17live':/^\/(?:s\/u|(?:[a-z]{2}\/)?profile)\/[^/]+\/?$/,showroom:/^\/(?:r\/)?[\w-]+\/?$/,twitcasting:/^\/[\w:.-]+\/?$/,niconico:/^\/(?:user\/\d+|community\/co\d+)\/?$/,mirrativ:/^\/user\/\d+\/?$/,bilibili:/^\/\d+\/?$/,spoon:/^\/(?:[a-z]{2}\/)?(?:profile\/[^/]+|channel\/\d+(?:\/tab\/home)?)\/?$/,kick:/^\/[\w-]+\/?$/,soop:/^\/[\w-]+\/?$/,topia:/^\/[\w-]+\/?$/,palmu:/^\/users\/[^/]+\/?$/,mixch:/^\/u\/\d+\/?$/,bigo:/^\/[\w-]+\/?$/,acfun:/^\/u\/\d+\/?$/};
+    if(!patterns[platform].test(u.pathname)||/^\/(?:home|directory|explore|search|login|signup)\/?$/.test(u.pathname))return null;
+    u.hash='';u.search='';return {platform,url:u.href.replace(/\/$/,'')};
+  }
+  function details(r) {
+    const linked=new Map();
+    const add=value=>{const a=account(value);if(a)linked.set(a.platform+' '+a.url,a);};
+    for(const a of r.platform_accounts||[])add(a.url);
+    for(const f of ['source_url','broadcast_url','twitch_url','youtube_url'])add(r[f]);
+    if(/^[a-zA-Z0-9_]+$/.test(r.twitch_login||''))add('https://www.twitch.tv/'+r.twitch_login);
+    if(/^@[\w.\-]+$/.test(r.youtube_handle||''))add('https://www.youtube.com/'+r.youtube_handle);
+    const cid=r.youtube_channel_id||(r.source_id.startsWith('youtube:')?r.source_id.slice(8):'');
+    if(/^UC[\w-]{22}$/.test(cid))add('https://www.youtube.com/channel/'+cid);
+    const known=new Set([...linked.values()].map(a=>a.platform));
+    for(const p of r.platforms||[])if(labels[p]&&safeURL(r.platform_sources?.[p]))known.add(p);
+    const primarySource=safeURL(r.primary_platform_source);
+    const primary=primarySource&&r.primary_platform_evidence?[...new Set((r.primary_platforms||[]).filter(p=>labels[p]))]:[];
+    primary.forEach(p=>known.add(p));
+    return {primary:primary.map(p=>labels[p]),primarySource:primary.length?primarySource.href:'',known:[...known].map(p=>labels[p]),accounts:[...linked.values()].map(a=>({...a,label:labels[a.platform]}))};
+  }
+  return {labels,details,account,safeURL};
+})();

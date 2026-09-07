@@ -175,9 +175,11 @@ function translated(value){const jp=value.trim();if(!jp||language==='ja')return 
 if(!out){let m=jp.match(/^収録 ([\d,]+) 件$/);if(m)out={en:`${m[1]} records`,zh:`收录 ${m[1]} 条`,ko:`수록 ${m[1]}건`}[language];
 m=jp.match(/^同じ表示名が ([\d,]+) 件あります。下の結果を確認してください。$/);if(m)out={en:`${m[1]} exact display-name matches. Check the results below.`,zh:`有 ${m[1]} 条显示名称完全一致，请查看下方结果。`,ko:`표시 이름이 일치하는 결과 ${m[1]}건입니다. 아래 결과를 확인하세요.`}[language];
 m=jp.match(/^読み・英字、または名前の一部が一致する候補が ([\d,]+) 件あります。$/);if(m)out={en:`${m[1]} candidates match a reading, alias, or part of a name.`,zh:`有 ${m[1]} 条读音、别名或部分名字匹配的结果。`,ko:`발음, 다른 표기 또는 이름 일부가 일치하는 결과 ${m[1]}건입니다.`}[language];}
+if(!out){let m=jp.match(/^同名・同じ読みの候補: ([\d,]+) 件$/);if(m)out={en:`Same-name or reading matches: ${m[1]}`,zh:`同名或同读音候选：${m[1]} 条`,ko:`동일 이름·발음 후보: ${m[1]}건`}[language];
+m=jp.match(/^AIモデルを読み込み中: ([\d,]+) MB$/);if(m)out={en:`Loading AI model: ${m[1]} MB`,zh:`正在加载AI模型：${m[1]} MB`,ko:`AI 모델 불러오는 중: ${m[1]} MB`}[language];}
 return out?value.replace(jp,out):value;}
 function translateUI(){document.documentElement.lang=language==='zh'?'zh-Hans':language;document.title=translated('ぶいネーム｜VTuber名前チェック');
-const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;while(node=walker.nextNode()){if(node.parentElement.closest('script,style,.name,.fields dd,[data-query],option'))continue;if(!originalText.has(node))originalText.set(node,node.nodeValue);node.nodeValue=translated(originalText.get(node))}
+const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;while(node=walker.nextNode()){if(node.parentElement.closest('script,style,.name,.fields dd:not([data-i18n]),[data-query],option:not([data-i18n]),.chat-message.user .chat-body,[data-generated],.candidate-name,.candidate-reading,.candidate-reason,[data-word]'))continue;if(!originalText.has(node))originalText.set(node,node.nodeValue);node.nodeValue=translated(originalText.get(node))}
 for(const el of document.querySelectorAll('[aria-label],[placeholder]')){if(!originalAttributes.has(el))originalAttributes.set(el,{});const saved=originalAttributes.get(el);for(const attr of ['aria-label','placeholder'])if(el.hasAttribute(attr)){if(!(attr in saved))saved[attr]=el.getAttribute(attr);el.setAttribute(attr,translated(saved[attr]))}}
 document.getElementById('language').value=language;}
 function setLanguage(value){if(!['ja','en','zh','ko'].includes(value))return;language=value;try{localStorage.setItem('vname-language',value)}catch(e){}translateUI()}
@@ -185,3 +187,94 @@ function setLanguage(value){if(!['ja','en','zh','ko'].includes(value))return;lan
 translations["en"]["過去の活動実績も対象にしています。保存データの掲載情報は、その時点の記録であり、現在の活動状況を示すものではありません。"]="Past activity is included. Archived listings describe the source at its recorded date, not the creator’s current activity status.";
 translations["zh"]["過去の活動実績も対象にしています。保存データの掲載情報は、その時点の記録であり、現在の活動状況を示すものではありません。"]="收录范围包含过往活动。存档信息仅反映记录当时的情况，并不代表目前的活动状态。";
 translations["ko"]["過去の活動実績も対象にしています。保存データの掲載情報は、その時点の記録であり、現在の活動状況を示すものではありません。"]="과거 활동도 수록 대상입니다. 저장된 자료는 기록 당시의 정보이며 현재 활동 상태를 나타내지 않습니다.";
+
+translations["en"]["VTuber・AIVTuber・Vライバーの名前・読み・別名をチェック。"]="Check VTuber, AIVTuber, and V-liver names, readings, and aliases.";
+translations["zh"]["VTuber・AIVTuber・Vライバーの名前・読み・別名をチェック。"]="查询VTuber、AIVTuber和虚拟主播的名字、读音与别名。";
+translations["ko"]["VTuber・AIVTuber・Vライバーの名前・読み・別名をチェック。"]="VTuber·AIVTuber·V라이버의 이름, 발음, 다른 표기를 검색하세요.";
+translations["en"]["YouTube・TikTok・IRIAM・Avvyなど、配信媒体を問わず掲載対象です。"]="Creators on YouTube, TikTok, IRIAM, Avvy and other streaming platforms are eligible.";
+translations["zh"]["YouTube・TikTok・IRIAM・Avvyなど、配信媒体を問わず掲載対象です。"]="收录范围不限平台，包括YouTube、TikTok、IRIAM、Avvy等。";
+translations["ko"]["YouTube・TikTok・IRIAM・Avvyなど、配信媒体を問わず掲載対象です。"]="YouTube·TikTok·IRIAM·Avvy 등 방송 플랫폼에 관계없이 수록 대상입니다.";
+translations["en"]["主な活動媒体"]="Main platforms";
+translations["zh"]["主な活動媒体"]="主要活动平台";
+translations["ko"]["主な活動媒体"]="주요 활동 플랫폼";
+translations["en"]["確認できた媒体"]="Documented platforms";
+translations["zh"]["確認できた媒体"]="已确认的平台";
+translations["ko"]["確認できた媒体"]="확인된 플랫폼";
+translations["en"]["活動媒体の出典"]="Platform source";
+translations["zh"]["活動媒体の出典"]="活动平台来源";
+translations["ko"]["活動媒体の出典"]="활동 플랫폼 출처";
+translations["en"]["媒体別の追加収集元：321公式Vライバー一覧・Clover公式プロフィール・Avvy配信者インタビュー。主な活動媒体は本人・所属先の明記がある場合に表示し、アカウントの存在だけでは判定しません。"]="Additional platform sources: the official 321 V-liver roster, Clover profiles, and Avvy broadcaster interviews. Main platforms are displayed only when the creator or agency explicitly identifies broadcast destinations; account links alone do not establish this.";
+translations["zh"]["媒体別の追加収集元：321公式Vライバー一覧・Clover公式プロフィール・Avvy配信者インタビュー。主な活動媒体は本人・所属先の明記がある場合に表示し、アカウントの存在だけでは判定しません。"]="平台补充来源：321官方虚拟主播名册、Clover官方资料和Avvy主播访谈。仅在本人或所属机构明确列出配信平台时显示主要活动平台，不根据账号链接推断。";
+translations["ko"]["媒体別の追加収集元：321公式Vライバー一覧・Clover公式プロフィール・Avvy配信者インタビュー。主な活動媒体は本人・所属先の明記がある場合に表示し、アカウントの存在だけでは判定しません。"]="플랫폼별 추가 출처: 321 공식 V라이버 목록, Clover 공식 프로필, Avvy 방송자 인터뷰. 본인이나 소속사가 방송 플랫폼을 명시한 경우에만 주요 활동 플랫폼을 표시하며, 계정 링크만으로 판단하지 않습니다.";
+translations["en"]["掲載対象は、実際にVTuber／AIVTuber／Vライバーとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。引退・休止した方も、活動実績が確認できれば対象です。"]="Listings cover creators who have started activities as VTubers, AIVTubers, or V-livers. Creators who have not begun virtual activities are excluded. Retired and inactive creators are eligible when past activity is documented.";
+translations["zh"]["掲載対象は、実際にVTuber／AIVTuber／Vライバーとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。引退・休止した方も、活動実績が確認できれば対象です。"]="收录已开始以VTuber、AIVTuber或虚拟主播身份活动的人。尚未开始虚拟活动的准备阶段不在范围内；已引退或暂停活动者，如有活动记录，也可收录。";
+translations["ko"]["掲載対象は、実際にVTuber／AIVTuber／Vライバーとして活動を開始している方です。活動開始前の「VTuber準備中」の方は対象外です。引退・休止した方も、活動実績が確認できれば対象です。"]="VTuber·AIVTuber·V라이버로 활동을 시작한 분을 수록합니다. 아직 버추얼 활동을 시작하지 않은 준비 단계는 제외하며, 은퇴·휴식 중이어도 과거 활동이 확인되면 대상입니다.";
+
+// Naming consultation and dictionary statistics. Creator names and chat content are excluded from UI translation.
+for (const [jp, values] of Object.entries({
+  '名前のツール':['Naming tools','命名工具','이름 도구'],
+  '名前をチェック':['Check a name','查询名字','이름 확인'],
+  'AIに名前相談':['Ask AI about names','向AI咨询名字','AI에게 이름 상담'],
+  '名前の傾向':['Name patterns','名字倾向','이름 경향'],
+  'AIと、あなたらしい名前を考えよう':['Find your name with AI','与AI一起构思适合你的名字','AI와 나다운 이름을 생각해 보세요'],
+  'モチーフや雰囲気を相談すると、名前の候補と理由を提案します。候補はこの辞書で自動チェックします。':['Describe a theme or mood to get name ideas and reasons. Suggestions are automatically checked against this dictionary.','描述主题或氛围，AI将提出名字候选及理由，并自动在本词典中查询。','모티프나 분위기를 알려주면 이름 후보와 이유를 제안합니다. 후보는 이 사전에서 자동으로 확인합니다.'],
+  'Gemma 4 E2Bが、この端末のブラウザ内で動きます。モデル約2GBの取得と、WebGPU対応のブラウザ・十分なメモリが必要です。AI相談は試験機能です。':['Gemma 4 E2B runs in this device’s browser. It requires an approximately 2 GB model download, a WebGPU browser, and enough memory. AI consultation is experimental.','Gemma 4 E2B在此设备的浏览器中运行。需要下载约2GB模型、支持WebGPU的浏览器及足够内存。AI咨询为试验功能。','Gemma 4 E2B가 이 기기의 브라우저에서 실행됩니다. 약 2GB 모델 다운로드, WebGPU 지원 브라우저와 충분한 메모리가 필요합니다. AI 상담은 시험 기능입니다.'],
+  'スマホは端末・ブラウザによって動作しない場合があります。Wi-Fi環境でお試しください。名前検索と傾向分析はAIなしで使えます。':['Mobile support depends on the device and browser. Try using Wi-Fi. Name search and pattern analysis work without AI.','手机能否运行取决于设备和浏览器。建议在Wi-Fi下尝试。名字查询和倾向分析无需AI。','스마트폰은 기기와 브라우저에 따라 작동하지 않을 수 있습니다. Wi-Fi에서 시도해 주세요. 이름 검색과 경향 분석은 AI 없이 사용할 수 있습니다.'],
+  'AIを読み込む（約2GB）':['Load AI (about 2 GB)','加载AI（约2GB）','AI 불러오기 (약 2GB)'],
+  'AIを終了':['Unload AI','关闭AI','AI 종료'],
+  'AIモデルの読み込み':['AI model loading','AI模型加载','AI 모델 불러오기'],
+  '相談内容はAIサーバーへ送信されません。モデルと実行プログラムを外部から取得します。':['Your conversation is not sent to an AI server. The model and runtime are downloaded from external hosts.','咨询内容不会发送到AI服务器。模型与运行程序从外部下载。','상담 내용은 AI 서버로 전송되지 않습니다. 모델과 실행 프로그램은 외부에서 다운로드합니다.'],
+  '猫モチーフでかわいく':['Cute cat theme','可爱的猫咪主题','귀여운 고양이 모티프'],
+  '海外でも呼びやすく':['Easy to say worldwide','海外也容易称呼','해외에서도 부르기 쉽게'],
+  '夜・星のイメージ':['Night and stars','夜晚与星星的意象','밤과 별의 이미지'],
+  '名前の相談履歴':['Naming conversation','名字咨询记录','이름 상담 기록'],
+  'どんな名前にしたい？':['What kind of name would you like?','想取什么样的名字？','어떤 이름을 원하나요?'],
+  '例：猫がモチーフ。漢字の苗字＋ひらがなで、呼びやすい名前にしたい。':['Example: a cat theme, with a kanji surname and hiragana given name that is easy to say.','例如：猫咪主题，汉字姓氏加平假名，想要容易称呼的名字。','예: 고양이 모티프. 한자 성과 히라가나 이름으로 부르기 쉽게 만들고 싶어요.'],
+  '相談する':['Ask AI','开始咨询','상담하기'],
+  '回答を止める':['Stop response','停止回答','답변 중지'],
+  '相談をやり直す':['Start a new conversation','重新咨询','새로 상담하기'],
+  '候補の読みはAIによる提案です。辞書に一致がなくても、名前が未使用とは限りません。':['Suggested readings are AI-generated. No dictionary match does not mean a name is unused.','候选读音由AI提出。词典中没有匹配，并不代表名字尚未被使用。','후보 발음은 AI의 제안입니다. 사전에 일치 항목이 없어도 미사용 이름이라는 뜻은 아닙니다.'],
+  '収録されている名前の傾向':['Patterns in the dictionary','已收录名字的倾向','수록된 이름의 경향'],
+  '文字数・表記・よく使われる漢字を、現在の辞書から集計します。AIの読み込みは不要です。':['Explore name lengths, scripts and frequent kanji in the current dictionary. No AI download is needed.','根据当前词典统计字数、文字种类及常用汉字，无需加载AI。','현재 사전의 이름 길이, 문자 구성과 자주 쓰이는 한자를 집계합니다. AI를 불러올 필요가 없습니다.'],
+  '媒体で絞り込む':['Filter by platform','按平台筛选','플랫폼으로 필터'],
+  'すべての媒体':['All platforms','所有平台','모든 플랫폼'],
+  '表示名のレコード数を集計しています。空白を除いた文字数です。漢字には日本語以外の名前も含みます。収集元・言語の偏りやチャンネル名を含むため、VTuber全体の人気や最近の流行を示すものではありません。':['Statistics count display-name records and exclude spaces from lengths. Kanji counts include non-Japanese names. Sources and languages are uneven, and some records are channels; these figures do not measure overall popularity or recent trends.','统计单位为显示名称记录，字数不计空白。汉字统计包含非日语名字。数据存在来源及语言偏差，也可能含频道名，不能代表全体VTuber的人气或近期流行。','표시 이름 레코드를 집계하며 글자 수에서 공백을 제외합니다. 한자에는 일본어 이외의 이름도 포함됩니다. 출처·언어의 편중과 채널명이 포함되어 VTuber 전체의 인기나 최근 유행을 나타내지는 않습니다.'],
+  'この傾向をもとにAIに相談':['Discuss these patterns with AI','根据此倾向咨询AI','이 경향으로 AI에게 상담'],
+  '集計対象':['Records analyzed','统计对象','집계 대상'],
+  '平均文字数':['Average length','平均字数','평균 글자 수'],
+  '名前の文字数':['Name length','名字字数','이름 글자 수'],
+  '文字の構成':['Writing systems','文字构成','문자 구성'],
+  'よく使われる漢字':['Frequent kanji','常用汉字','자주 쓰이는 한자'],
+  'よく使われる漢字2文字':['Frequent kanji pairs','常用双字汉字组合','자주 쓰이는 한자 두 글자'],
+  '表記':['Text','表记','표기'],
+  '含むレコード数':['Records containing it','包含的记录数','포함하는 레코드 수'],
+  '1〜4文字':['1–4 characters','1～4字','1~4글자'],
+  '5〜8文字':['5–8 characters','5～8字','5~8글자'],
+  '9〜12文字':['9–12 characters','9～12字','9~12글자'],
+  '13文字以上':['13+ characters','13字以上','13글자 이상'],
+  '漢字':['Kanji / Han characters','汉字','한자'],
+  'ひらがな':['Hiragana','平假名','히라가나'],
+  'カタカナ':['Katakana','片假名','가타카나'],
+  '英字':['Latin letters','拉丁字母','영문'],
+  '複数の文字種':['Mixed scripts','多种文字','여러 문자 종류'],
+  '数字・その他':['Numbers / other','数字及其他','숫자·기타'],
+  'あなた':['You','你','나'],
+  '名前相談AI':['Naming AI','名字咨询AI','이름 상담 AI'],
+  'この名前を調べる':['Check this name','查询此名字','이 이름 검색'],
+  '名前を考えています…':['Thinking of names…','正在构思名字…','이름을 생각하고 있습니다…'],
+  'このブラウザではWebGPUを利用できません。対応するPC版Chromeなどでお試しください。名前検索と傾向分析はそのまま使えます。':['WebGPU is unavailable in this browser. Try a supported browser such as desktop Chrome. Search and analysis are still available.','此浏览器无法使用WebGPU。请尝试支持的浏览器，如电脑版Chrome。名字查询和倾向分析仍可使用。','이 브라우저에서 WebGPU를 사용할 수 없습니다. PC용 Chrome 등 지원 브라우저에서 시도해 주세요. 검색과 분석은 계속 이용할 수 있습니다.'],
+  'AIの動作環境を確認しています…':['Checking AI support…','正在检查AI运行环境…','AI 실행 환경을 확인하고 있습니다…'],
+  'AIモデルを読み込んでいます。約2GBの取得に時間がかかる場合があります。':['Loading the AI model. The approximately 2 GB download may take a while.','正在加载AI模型。下载约2GB可能需要一些时间。','AI 모델을 불러옵니다. 약 2GB 다운로드에 시간이 걸릴 수 있습니다.'],
+  'AIに相談できます。':['AI is ready.','可以向AI咨询了。','AI에게 상담할 수 있습니다.'],
+  'GPUを利用できません。ブラウザの設定や対応状況を確認してください。':['GPU access is unavailable. Check browser settings and compatibility.','无法使用GPU。请检查浏览器设置及兼容性。','GPU를 사용할 수 없습니다. 브라우저 설정과 지원 여부를 확인해 주세요.'],
+  'AIを起動できませんでした。対応ブラウザ・空きメモリ・通信環境を確認して、再度読み込んでください。':['AI could not start. Check browser support, available memory and your connection, then try loading it again.','AI启动失败。请检查浏览器兼容性、可用内存及网络后重新加载。','AI를 시작하지 못했습니다. 브라우저 지원, 여유 메모리와 통신 상태를 확인하고 다시 불러와 주세요.'],
+  'AIを終了しています…':['Unloading AI…','正在关闭AI…','AI를 종료하고 있습니다…'],
+  'AIを終了しました。名前検索と傾向分析はそのまま使えます。':['AI has been unloaded. Name search and analysis remain available.','AI已关闭，名字查询和倾向分析仍可使用。','AI를 종료했습니다. 이름 검색과 경향 분석은 계속 이용할 수 있습니다.'],
+  '会話が長くなりました。「相談をやり直す」で条件をまとめて相談してください。':['This conversation is near its limit. Start a new conversation with a summary of your preferences.','对话即将达到长度上限。请点击“重新咨询”，汇总条件后再次咨询。','대화가 길어졌습니다. “새로 상담하기”로 조건을 요약해 다시 상담해 주세요.'],
+  '回答を停止しました。':['Response stopped.','已停止回答。','답변을 중지했습니다.'],
+  '続けて希望を伝えると、候補を絞り込めます。':['Share more preferences to refine the suggestions.','继续补充要求，可以缩小候选范围。','원하는 조건을 더 알려주면 후보를 좁힐 수 있습니다.'],
+  '回答を作れませんでした。「相談をやり直す」か、AIを読み込み直してください。':['Could not generate a response. Start a new conversation or reload AI.','无法生成回答。请重新咨询或重新加载AI。','답변을 만들지 못했습니다. 새로 상담하거나 AI를 다시 불러와 주세요.'],
+  'AIを読み込むと相談を始められます。':['Load AI to start a conversation.','加载AI后即可开始咨询。','AI를 불러오면 상담을 시작할 수 있습니다.'],
+  '回答をうまく整理できませんでした。条件を短くして、もう一度相談してください。':['The response could not be parsed. Try again with a shorter description.','未能整理回答。请缩短条件后再次咨询。','답변을 정리하지 못했습니다. 조건을 짧게 해서 다시 상담해 주세요.'],
+  '候補を考えました。':['Here are some ideas.','已构思一些候选。','후보를 생각해 보았습니다.']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);

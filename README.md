@@ -91,3 +91,56 @@ AIVTuberタグがないレコードは広義のVTuberとして表示します。
 公開アカウントIDで照合し、同じ活動者の別名は既存レコードへ追記します。共通の一括データURLは本人識別に使いません。読みは推測せず、確認済みの読みを維持します。保存データには `source_snapshot_at` と `snapshot_source` を記録し、現在の活動状況とは区別します。人物紹介文や連絡先、画像は転載しません。
 
 [KAI-YOUの「VTuber統計レポート2024」解説](https://premium.kai-you.net/article/894)（2025年2月20日）には、Xアカウントを持つVTuberを主な調査対象として6万名以上という集計が記載されています。公開部分に全員の名簿はありません。この規模を収集目標とし、実際の掲載件数はブラウザーの辞書件数と `scripts/collection-report.json` で確認します。記事の推計値を収録件数として表示することはありません。
+
+## YouTube以外のVTuber・Vライバーと活動媒体
+
+掲載対象は配信媒体を問わず、活動開始済みのVTuber・AIVTuber・Vライバーです。
+YouTubeのチャンネルIDは必須ではありません。引退・休止者も過去の活動実績があれば対象に含み、準備中・未デビューの人は掲載しません。
+
+検索結果には以下を表示します。
+
+- **主な活動媒体**: 本人・所属先が明記した配信先。複数媒体に対応し、出典を表示します。
+- **確認できた媒体**: 主な活動媒体が不明な場合の、確認できたアカウント・活動情報。アカウントがあるだけで主な媒体とは判定しません。
+- **配信先リンク**: 個人の公開アカウントへのリンク。確認できないURLや読みは生成しません。
+
+媒体名の表示はYouTube、TikTok LIVE、IRIAM、Avvy、REALITY、Twitch、17LIVE、SHOWROOM、ツイキャス、ニコニコ、Mirrativ、bilibili、Spoon、Kick、SOOP、topia、Palmu、ミクチャ、BIGO LIVE、AcFunに対応します。表示対応と各媒体の収集完了は別です。すべての活動者を収集済みではありません。
+
+`platform-data.js` は出典を持つ媒体メタデータとYouTube以外の新規掲載を保持します。既存の `data.js` / `extra-data.js` に対して `source_id` で重ね、既存の名前・読み・AIVTuber分類を保ちます。公開アカウントが一意に一致した場合だけ既存人物を補完し、同名だけでは統合しません。同じ配信に登場する複数のAIキャラクターも統合しません。
+
+追加収集元:
+
+- [321公式Vライバー一覧](https://vliver.321.inc/liver/): 活躍中と明記された一覧から個別プロフィールを取得し、「配信アカウント」欄を主な活動媒体として取り込みます。SNS欄は別扱いです。
+- [Clover公式プロフィール](https://clover-live.com/liver-page/): 実際の配信・活動の記述と配信先を確認できたプロフィールのみ。
+- [Avvy配信者インタビュー](https://panora.tokyo/archives/137121): 2026年4月27日のイベント入賞者15名の活動記録。Avvyでの活動を確認した記録として扱い、イベント参加だけで主な媒体とは判定しません。
+- [VTuber Database](https://vdb.vtbs.moe/): 既存の掲載者についてのみ公式アカウントを補完。新規人物の活動開始判定には使用しません。
+
+```sh
+python scripts/update_platform_dictionary.py         # 各事務所40件ずつ、巡回して更新
+python scripts/update_platform_dictionary.py --full  # 一覧全件（初回収集・手動調査用）
+python -m unittest discover -s tests
+node --test tests/test_platforms.cjs
+```
+
+日次更新は既存のGitHub Actionsで実行します。取得失敗時も既存レコードを保持し、失敗URLを次回に再試行します。収集結果と次回位置は `scripts/platform-report.json` に保存します。コード更新のpushでは検証済みデータを公開し、外部サイトの全巡回は日次または手動起動で行います。
+
+今後ほかの媒体を追加するときは `scripts/platform_sources.py` と `platforms.js` の媒体対応を追加し、個人プロフィールのURLを正規化してください。アカウント作成・フォロワー数だけで活動開始や主な活動媒体を推測せず、本人や所属先の公開情報を `activity_source` / `primary_platform_source` に記録します。
+
+## AIに名前相談・名前の傾向
+
+「名前をチェック」「AIに名前相談」「名前の傾向」のタブを切り替えて使えます。スマートフォン向けの可変レイアウトを含みます。
+
+**名前の傾向**は、ブラウザが現在の辞書から文字数、文字種、漢字と隣接する漢字2文字の出現レコード数を集計します。名前内の同じ文字は1回と数え、NFKC正規化後のUnicodeコードポイント数を使い、空白を除きます。確認できた活動媒体で絞り込めます。複数媒体の掲載者は各媒体に含まれ、全媒体では1レコードです。収集元・言語の偏りがあり、グループやチャンネル名も含むため、VTuber全体の人気や時系列の流行を示す統計ではありません。検索・分析にはAIのダウンロードもWebGPUも不要です。
+
+**AI相談**は [Google LiteRT-LM Web API](https://developers.google.com/edge/litert-lm/js) と Gemma 4 E2B を使う試験機能です。モチーフや雰囲気から候補・読み・理由を提案し、各候補の表示名・読みを実際のローカル辞書で照合します。AIが考えた読みを確認済みの辞書データとして保存することはありません。読みや同名の一致がなくても、未使用の保証ではありません。
+
+- GitHub PagesはHTML・JavaScript・辞書を配信する静的ホスティングです。GitHub上でモデルを常時推論させる構成ではありません。
+- 「AIを読み込む」を押したときだけ `@litert-lm/core@0.17.0` をjsDelivrから取得し、公式ドキュメントが案内する [Gemma 4 E2B LiteRTモデル](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/tree/main) の `gemma-4-E2B-it-web.litertlm`（2,008,432,640バイト、約2GB）をHugging Faceから取得します。モデルはPagesやリポジトリに格納しません。
+- 相談内容の推論は閲覧者のブラウザ内で行います。外部AI APIの従量課金や運営者の推論用GPUは不要ですが、閲覧者のGPU・メモリ・通信・電力を使います。ダウンロード容量は実行時メモリの必要量と同じではありません。永続キャッシュを保証していないため、再読み込み時に再取得される場合があります。
+- WebGPUを利用できない環境ではAIだけ案内を表示し、検索と分析は利用できます。Androidの一部のChromeやiOS 26以降のSafariにもWebGPUがありますが、このモデルの動作・速度・必要メモリは端末ごとの実機確認が必要です。スマホではWi-Fiを案内します。ブラウザ版API自体もearly previewです。
+- 最大8,192トークンの範囲で相談し、入力は1,200文字、回答は900トークンに制限します。現在の会話長と次の入力の保守的な上限を確認し、残り容量が不足する場合は新しい相談を案内します。停止・やり直し・終了に対応し、モデルと会話の生成中に終了した場合も完了を待って破棄します。
+- JavaScriptのテストでは実際の辞書検索・統計と、SDKを差し替えた読み込み／中断／失敗／候補表示を検証します。これらのテストは実GPUによるGemmaの回答品質・速度やスマホの実機試験の代替ではありません。
+
+```sh
+python -m unittest discover -s tests
+node --experimental-vm-modules --test tests/*.cjs
+```

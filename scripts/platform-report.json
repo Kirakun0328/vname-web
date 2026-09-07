@@ -1,0 +1,86 @@
+{
+  "321": {
+    "source": "https://vliver.321.inc/liver/",
+    "candidate_profiles": 148,
+    "checked_profiles": 148,
+    "eligible_profiles": 141,
+    "failed_profiles": 3,
+    "next_index": 0,
+    "retry_urls": [
+      "https://vliver.321.inc/liver/%e3%83%ab%e3%83%95%e3%83%8a%e3%83%bb%e3%83%a2%e3%82%ab/",
+      "https://vliver.321.inc/liver/%e5%a7%ab%e8%9d%b6%e3%81%b5%e3%81%81%e3%82%80/",
+      "https://vliver.321.inc/liver/6953/"
+    ],
+    "checked_at": "2026-09-07T20:52:17.802559+00:00",
+    "new_records": 141,
+    "matched_existing": 0,
+    "ambiguous_skipped": 0
+  },
+  "clover": {
+    "source": "https://clover-live.com/liver-page/",
+    "candidate_profiles": 76,
+    "checked_profiles": 76,
+    "eligible_profiles": 6,
+    "failed_profiles": 9,
+    "next_index": 0,
+    "retry_urls": [
+      "https://clover-live.com/liver-page/charusaki/",
+      "https://clover-live.com/liver-page/furi/",
+      "https://clover-live.com/liver-page/inacho/",
+      "https://clover-live.com/liver-page/mashiro/",
+      "https://clover-live.com/liver-page/official/",
+      "https://clover-live.com/liver-page/ruku/",
+      "https://clover-live.com/liver-page/temi/",
+      "https://clover-live.com/liver-page/tomachi/",
+      "https://clover-live.com/liver-page/yukito/"
+    ],
+    "checked_at": "2026-09-07T20:56:23.078965+00:00",
+    "new_records": 6,
+    "matched_existing": 0,
+    "ambiguous_skipped": 0
+  },
+  "avvy_interviews": {
+    "source": "https://panora.tokyo/archives/137121",
+    "source_records": 15,
+    "new_records": 15,
+    "matched_existing": 0,
+    "ambiguous_skipped": 0
+  },
+  "records": {
+    "listed": 31442,
+    "new_records": 162,
+    "platform_records": 9957,
+    "with_primary_platforms": 147,
+    "platform_counts": {
+      "youtube": 694,
+      "tiktok": 32,
+      "iriam": 41,
+      "avvy": 15,
+      "reality": 105,
+      "twitch": 48,
+      "17live": 0,
+      "showroom": 6,
+      "twitcasting": 0,
+      "niconico": 4,
+      "mirrativ": 0,
+      "bilibili": 9519,
+      "spoon": 0,
+      "kick": 0,
+      "soop": 0,
+      "topia": 0,
+      "palmu": 0,
+      "mixch": 0,
+      "bigo": 0,
+      "acfun": 35
+    }
+  },
+  "vdb_accounts": {
+    "source": "https://vdb.vtbs.moe/",
+    "enriched_existing_records": 9795
+  },
+  "initial_import": {
+    "new_records": 162,
+    "matched_existing": 0,
+    "ambiguous_skipped": 0
+  }
+}

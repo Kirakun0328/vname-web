@@ -8,6 +8,11 @@ on:
     paths:
       - '.github/workflows/update-dictionary.yml'
       - 'scripts/*.py'
+      - 'scripts/*.json'
+      - 'tests/**'
+      - '*.js'
+      - '*.css'
+      - 'index.html'
 permissions:
   contents: write
   pages: write
@@ -32,25 +37,34 @@ jobs:
       - name: Test updater safeguards
         run: python -m unittest discover -s tests
       - name: Fetch and validate dictionary
+        if: github.event_name != 'push'
         run: python scripts/update_dictionary.py
+      - name: Fetch V-livers across platforms
+        if: github.event_name != 'push'
+        run: python scripts/update_platform_dictionary.py
       - name: Validate JavaScript
         run: |
           node --check extra-data.js
           node --check app.js
+          node --check platforms.js
+          node --check platform-data.js
+          node --check naming.js
+          node --check name-insights.js
+          node --experimental-vm-modules --test tests/*.cjs
           node --check i18n.js
       - name: Commit dictionary changes
         run: |
-          if ! git diff --quiet -- extra-data.js scripts/collection-report.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json)"; then
+          if ! git diff --quiet -- extra-data.js platform-data.js scripts/collection-report.json scripts/platform-report.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add extra-data.js scripts/collection-report.json
+            git add extra-data.js platform-data.js scripts/collection-report.json scripts/platform-report.json
             git commit -m 'Update dictionary from public sources'
             git push origin HEAD:main
           fi
       - name: Package public files
         run: |
           mkdir -p _site
-          cp index.html app.js data.js extra-data.js readings.js i18n.js .nojekyll _site/
+          cp index.html app.js data.js extra-data.js platform-data.js platforms.js naming.js name-insights.js naming.css readings.js i18n.js .nojekyll _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
