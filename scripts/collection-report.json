@@ -1,32 +1,48 @@
 {
   "vtuber_post": {
     "source": "https://vtuber-post.com/ranking_index.html",
-    "checked_at": "2026-09-07T17:27:04.491220+00:00",
+    "checked_at": "2026-09-07T23:32:08.902836+00:00",
     "total_pages": 850,
     "checked_pages": 1,
     "failed_pages": [
-      801,
-      800,
-      799,
-      798,
-      797,
-      796,
-      795,
-      794,
-      793,
-      792,
-      791,
-      790,
-      789,
-      788,
-      787,
-      786
+      785,
+      784,
+      783,
+      782,
+      781,
+      780,
+      779,
+      778,
+      777,
+      776,
+      775,
+      774,
+      773,
+      772,
+      771,
+      770
     ],
     "fetched_channels": 25,
     "full_scan": false,
     "scan_complete": false,
-    "next_page": 785,
+    "next_page": 769,
     "retry_pages": [
+      770,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      782,
+      783,
+      784,
+      785,
       786,
       787,
       788,
@@ -97,10 +113,10 @@
     "skipped_without_activity_or_predebut": 0
   },
   "records": {
-    "stored": 31298,
-    "listed": 31280,
+    "stored": 32364,
+    "listed": 32346,
     "excluded_predebut": 18,
-    "with_activity_source": 7904
+    "with_activity_source": 8971
   },
   "vstats": {
     "new_records": 0,
@@ -113,12 +129,12 @@
     "failed_profiles": 0
   },
   "liverfun": {
-    "new_records": 4,
-    "skipped_unconfirmed_or_duplicate": 25,
+    "new_records": 0,
+    "skipped_unconfirmed_or_duplicate": 30,
     "source": "https://www.liverfun.jp/vtuber/",
     "checked_at": "2026-09-07",
-    "next_index": 90,
-    "small_account_candidates": 701,
+    "next_index": 120,
+    "small_account_candidates": 702,
     "checked_profiles": 30,
     "failed_profiles": 0,
     "size_measure": "combined_social_followers_below_1000"
@@ -133,14 +149,14 @@
   },
   "taiwan_vtuber_data": {
     "source_records": 3055,
-    "eligible_records": 2663,
-    "excluded_unconfirmed_or_preparing": 392,
+    "eligible_records": 2665,
+    "excluded_unconfirmed_or_preparing": 390,
     "source": "https://codeload.github.com/TaiwanVtuberData/TaiwanVTuberTrackingDataJson/tar.gz/refs/heads/master",
-    "source_snapshot_at": "2026-09-07T15:58:23.0000000+00:00",
-    "new_records": 0,
+    "source_snapshot_at": "2026-09-07T23:01:12.0000000+00:00",
+    "new_records": 2,
     "matched_existing_accounts": 2663,
-    "new_youtube_below_1000": 0,
-    "new_twitch_below_1000": 0,
+    "new_youtube_below_1000": 1,
+    "new_twitch_below_1000": 1,
     "checked_at": "2026-09-07"
   },
   "hololist_snapshot": {
@@ -186,7 +202,7 @@
     "matched_existing_accounts": 1279,
     "new_youtube_below_1000": 0,
     "new_twitch_below_1000": 0,
-    "checked_at": "2026-09-07T17:24:20.149911+00:00"
+    "checked_at": "2026-09-07T23:29:06.332370+00:00"
   },
   "indonesia_snapshot": {
     "source": "https://www.kaggle.com/datasets/ekasetyoagung/indonesian-vtuber-channel-data",
@@ -220,7 +236,7 @@
     "profiles_checked": 20,
     "verified_profiles": 0,
     "failed_requests": 0,
-    "next_index": 20,
+    "next_index": 40,
     "checked_at": "2026-09-07"
   },
   "regional_expansion_2026_09_07": {

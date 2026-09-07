@@ -2,27 +2,27 @@
   "321": {
     "source": "https://vliver.321.inc/liver/",
     "candidate_profiles": 148,
-    "checked_profiles": 148,
-    "eligible_profiles": 141,
+    "checked_profiles": 42,
+    "eligible_profiles": 39,
     "failed_profiles": 3,
-    "next_index": 0,
+    "next_index": 40,
     "retry_urls": [
       "https://vliver.321.inc/liver/%e3%83%ab%e3%83%95%e3%83%8a%e3%83%bb%e3%83%a2%e3%82%ab/",
       "https://vliver.321.inc/liver/%e5%a7%ab%e8%9d%b6%e3%81%b5%e3%81%81%e3%82%80/",
       "https://vliver.321.inc/liver/6953/"
     ],
-    "checked_at": "2026-09-07T20:52:17.802559+00:00",
-    "new_records": 141,
-    "matched_existing": 0,
+    "checked_at": "2026-09-07T23:32:56.214040+00:00",
+    "new_records": 2,
+    "matched_existing": 37,
     "ambiguous_skipped": 0
   },
   "clover": {
     "source": "https://clover-live.com/liver-page/",
     "candidate_profiles": 76,
-    "checked_profiles": 76,
+    "checked_profiles": 48,
     "eligible_profiles": 6,
-    "failed_profiles": 9,
-    "next_index": 0,
+    "failed_profiles": 8,
+    "next_index": 40,
     "retry_urls": [
       "https://clover-live.com/liver-page/charusaki/",
       "https://clover-live.com/liver-page/furi/",
@@ -34,22 +34,23 @@
       "https://clover-live.com/liver-page/tomachi/",
       "https://clover-live.com/liver-page/yukito/"
     ],
-    "checked_at": "2026-09-07T20:56:23.078965+00:00",
-    "new_records": 6,
-    "matched_existing": 0,
+    "checked_at": "2026-09-07T23:33:13.303676+00:00",
+    "new_records": 4,
+    "matched_existing": 2,
     "ambiguous_skipped": 0
   },
   "avvy_interviews": {
     "source": "https://panora.tokyo/archives/137121",
     "source_records": 15,
-    "new_records": 15,
-    "matched_existing": 0,
+    "new_records": 0,
+    "matched_existing": 15,
     "ambiguous_skipped": 0
   },
   "records": {
-    "listed": 32344,
-    "platform_records": 10860,
-    "with_primary_platforms": 1050,
+    "listed": 32352,
+    "platform_records": 10866,
+    "with_primary_platforms": 1056,
+    "with_vliver_source": 1071,
     "platform_counts": {
       "youtube": 694,
       "tiktok": 32,
@@ -57,7 +58,7 @@
       "avvy": 15,
       "reality": 211,
       "twitch": 48,
-      "17live": 0,
+      "17live": 6,
       "showroom": 6,
       "twitcasting": 0,
       "niconico": 4,
@@ -71,8 +72,7 @@
       "mixch": 0,
       "bigo": 0,
       "acfun": 35
-    },
-    "with_vliver_source": 1065
+    }
   },
   "vdb_accounts": {
     "source": "https://vdb.vtbs.moe/",
@@ -86,26 +86,26 @@
   "razz": {
     "source": "https://razz.jp/liver",
     "verified_source_records": 646,
-    "new_records": 646,
-    "matched_existing": 0,
+    "new_records": 0,
+    "matched_existing": 646,
     "ambiguous_skipped": 0
   },
   "listart": {
     "source": "https://listart.jp/",
     "verified_source_records": 151,
-    "new_records": 151,
-    "matched_existing": 0,
+    "new_records": 0,
+    "matched_existing": 151,
     "ambiguous_skipped": 0
   },
   "atoms": {
     "source": "https://kyampus.me/atoms/liver",
     "candidate_profiles": 110,
-    "checked_profiles": 110,
-    "verified_source_records": 108,
-    "next_index": 0,
+    "checked_profiles": 40,
+    "verified_source_records": 39,
+    "next_index": 40,
     "retry_urls": [],
-    "new_records": 106,
-    "matched_existing": 2,
+    "new_records": 0,
+    "matched_existing": 39,
     "ambiguous_skipped": 0
   },
   "identity_repairs": {
