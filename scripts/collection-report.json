@@ -1,0 +1,57 @@
+{
+  "vtuber_post": {
+    "source": "https://vtuber-post.com/ranking_index.html",
+    "checked_at": "2026-09-07T15:45:41.697926+00:00",
+    "total_pages": 850,
+    "checked_pages": 1,
+    "failed_pages": [
+      849,
+      848,
+      847,
+      846,
+      845,
+      844,
+      843,
+      842,
+      841,
+      840,
+      839,
+      838,
+      837,
+      836,
+      835,
+      834
+    ],
+    "fetched_channels": 25,
+    "full_scan": false,
+    "scan_complete": false,
+    "next_page": 833,
+    "retry_pages": [
+      834,
+      835,
+      836,
+      837,
+      838,
+      839,
+      840,
+      841,
+      842,
+      843,
+      844,
+      845,
+      846,
+      847,
+      848,
+      849
+    ],
+    "new_records": 0,
+    "new_below_1000": 0,
+    "skipped_without_activity_or_predebut": 2
+  },
+  "records": {
+    "stored": 24603,
+    "listed": 24585,
+    "excluded_predebut": 18,
+    "with_activity_source": 149
+  }
+}
