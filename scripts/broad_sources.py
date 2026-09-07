@@ -13,7 +13,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 POST_URL = 'https://vtuber-post.com/ranking_index.html'
-PREDEBUT = re.compile(r'(?:[a-z]*v(?:irtual)?[\s-]*tuber\s*準備中|準備中\s*(?:個人勢)?\s*[a-z]*vtuber|デビュー準備中|デビュー前|未デビュー|\bpre[\s-]?debut\b)', re.I)
+PREDEBUT = re.compile(r'(?:[a-z]*v(?:irtual)?[\s-]*tuber\s*準備中|準備中\s*(?:個人勢)?\s*[a-z]*vtuber|(?<!再)デビュー準備中|(?<!再)デビュー前|未デビュー|\bpre[\s-]?debut\b)', re.I)
 
 
 def preparing(name):
@@ -79,6 +79,7 @@ def collect_post(fetch=fetch_post, full=False, batch_size=90, state=None):
     # Start at the small channels, then work back toward the top over daily runs.
     cursor = min(last, max(1, state.get('next_page', last)))
     pages = list(range(last, 0, -1)) if full else list(range(cursor, max(0, cursor-batch_size), -1))
+    next_page = min(pages)-1 if pages and min(pages)>1 else last
     pages = list(dict.fromkeys(pages + [p for p in state.get('retry_pages', [])[:20] if isinstance(p, int) and 1 <= p <= last]))
     records = list(first)
     successful = [0]
@@ -92,23 +93,36 @@ def collect_post(fetch=fetch_post, full=False, batch_size=90, state=None):
             return page, rows, None
         except (OSError, ValueError, UnicodeError) as error:
             return page, [], type(error).__name__
+    checked = []
+    # Bounded batches allow a troubled source to stop without losing valid pages.
+    # In particular, do not queue hundreds of requests after repeated failures.
     with ThreadPoolExecutor(max_workers=4) as pool:
-        for page, rows, error in pool.map(get, pages):
-            if error:
-                failures.append(page)
-                print(f'VTuber Post page {page}: {error}; previous records retained', flush=True)
-            else:
-                records.extend(rows)
-                successful.append(page)
-            if (len(successful) + len(failures)) % 50 == 0:
-                print(f'VTuber Post: checked {len(successful)+len(failures)}/{len(pages)+1} pages', flush=True)
+        for offset in range(0, len(pages), 16):
+            batch = pages[offset:offset+16]
+            batch_errors = 0
+            for page, rows, error in pool.map(get, batch):
+                checked.append(page)
+                if error:
+                    failures.append(page)
+                    batch_errors += 1
+                    print(f'VTuber Post page {page}: {error}; previous records retained', flush=True)
+                else:
+                    records.extend(rows)
+                    successful.append(page)
+            print(f'VTuber Post: checked {len(checked)+1}/{len(pages)+1} pages', flush=True)
+            if batch_errors >= max(3, len(batch)*0.75):
+                print('VTuber Post is unavailable on most pages; save valid results and resume later', flush=True)
+                break
+    if checked:
+        next_page = min(checked)-1 if min(checked)>1 else last
     unique = {r['channel_id']: r for r in records}
     if len(unique) < len(records) * 0.97:
         raise ValueError('Unexpected duplicate pages/channels; refusing import')
     report = {'source': POST_URL, 'checked_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
               'total_pages': last+1, 'checked_pages': len(successful), 'failed_pages': failures,
               'fetched_channels': len(unique), 'full_scan': full,
-              'next_page': max(1, min(pages)-1) if pages and min(pages)>1 else last}
+              'scan_complete': full and len(checked)==len(pages) and not failures,
+              'next_page': next_page}
     # Retry failed pages in future batches rather than silently forgetting them.
     report['retry_pages'] = sorted(set(failures + state.get('retry_pages', [])) - set(successful))
     return list(unique.values()), report

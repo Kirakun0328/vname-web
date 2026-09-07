@@ -34,6 +34,7 @@ class BroadSourceTests(unittest.TestCase):
         self.assertEqual(counts['skipped_without_activity_or_predebut'], 2)
         self.assertTrue(preparing('Test | pre-debut'))
         self.assertFalse(preparing('配信の機材準備中'))
+        self.assertFalse(preparing('再デビュー準備中'))
 
     def test_wrong_page_and_malformed_html_fail_closed(self):
         for document in ('<html>Service unavailable</html>', '<p>1位</p><a onclick="FormSubmit(849)">last</a>'):

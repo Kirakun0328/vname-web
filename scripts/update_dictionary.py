@@ -114,7 +114,7 @@ def main():
     report_path = ROOT / 'scripts/collection-report.json'
     report = json.loads(report_path.read_text()) if report_path.exists() else {}
     try:
-        rows, source_report = collect_post(full=args.full or not report.get('vtuber_post'), state=report.get('vtuber_post'))
+        rows, source_report = collect_post(full=args.full, state=report.get('vtuber_post'))
         updated, counts = merge_post(base, updated, rows, vdb)
         source_report.update(counts)
         report['vtuber_post'] = source_report
@@ -132,7 +132,17 @@ def main():
     print(f'Extra records: {len(previous)} -> {len(updated)}')
     if args.check:
         return
-    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    from broad_sources import preparing
+    merged = {r['source_id']: dict(r) for r in base}
+    for row in updated:
+        merged.setdefault(row['source_id'], {}).update(row)
+    eligible = [r for r in merged.values() if r.get('listing_status') != 'predebut' and not preparing(r['display_name'])]
+    report['records'] = {'stored': len(merged), 'listed': len(eligible),
+                         'excluded_predebut': len(merged)-len(eligible),
+                         'with_activity_source': sum(bool(r.get('activity_source')) for r in eligible)}
+    temporary_report = report_path.with_suffix('.json.tmp')
+    temporary_report.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    temporary_report.replace(report_path)
     if updated == previous:
         return
     content = '// Additive, source-linked VTuber/AIVTuber names and verified readings.\nwindow.VTUBER_EXTRA = ' + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + ';\n'
