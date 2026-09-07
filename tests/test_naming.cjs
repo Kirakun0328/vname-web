@@ -27,6 +27,26 @@ test('malformed AI output is contained and valid suggestions are bounded and ded
  assert.match(insight.prompt(insight.analyze([]),'en'),/English/);
  assert.match(insight.prompt(insight.analyze([])),/時系列・人気/);
 });
+test('truncated responses retain complete candidates without inventing unfinished names',()=>{
+ const result=plain(insight.parseReply('{"suggestions":[{"name":"月乃しずく","reading":"つきのしずく","reason":"優しい響き"},{"name":"未完成'));
+ assert.equal(result.incomplete,true);assert.equal(result.suggestions.length,1);assert.equal(result.suggestions[0].name,'月乃しずく');
+ const nested=plain(insight.parseReply('{"suggestions":[{"name":"星ねこ","reason":"引用: \\"ねこ\\" と {星}"}],"reply":"途中'));
+ assert.equal(nested.suggestions.length,1);
+ assert.equal(insight.parseReply('{}').valid,false);
+ const lines=insight.parseRepair('名前 | 読み | 理由\n--- | --- | ---\n1. 月乃しずく | つきのしずく | 優しい響き\n2. 陽だまりこはる | ひだまりこはる | 暖かな印象');
+ assert.equal(lines.suggestions.length,2);assert.equal(lines.suggestions[0].name,'月乃しずく');
+ assert.equal(insight.parseRepair('39くん | みくくん | 数字を使った響き').suggestions[0].name,'39くん');
+ assert.equal(insight.parseRepair('優しい名前を提案します。').suggestions.length,0);
+ assert.equal(insight.wantsNames('癒やし系、優しい響きの名前が欲しい。'),true);
+ assert.equal(insight.wantsNames('名前の傾向の分析だけお願いします。'),false);
+});
+test('name pattern statistics use code points and per-record frequencies',()=>{
+ const stats=plain(insight.analyze(['月乃しずく','月乃こはる','星乃しずく','ＡＢ','𠮷野'].map(display_name=>({display_name}))));
+ assert.equal(stats.medianLength,5);assert.equal(stats.exactLengths[2],2);
+ assert.deepEqual(stats.prefixes.find(x=>x.label==='月乃'),{label:'月乃',count:2});
+ assert.deepEqual(stats.suffixes.find(x=>x.label==='ずく'),{label:'ずく',count:2});
+ assert.equal(stats.commonLengths[0].length,5);assert.equal(insight.analyze([]).medianLength,0);
+});
 
 class El{
  constructor(tag='div'){this.tagName=tag;this.children=[];this.dataset={};this.style={};this.value='';this._text='';this.hidden=false;}
@@ -49,9 +69,10 @@ async function harness(options={}){
  const conversation={
   async getTokenCount(){return options.tokenCount||1200;},
   async *sendMessageStreaming(input){
+   const index=state.requests.length;
    state.requests.push(input);
-   const raw=JSON.stringify({reply:'猫の案です。',suggestions:[{name:'星ねこ',reading:'ほしねこ',reason:'星と猫から'},{name:'<img src=x>',reason:'<script>alert(1)</script>'}],next_prompts:['もっと短い名前にしたい','英字での表記も考えて']});
-   yield{content:[{type:'text',text:raw.slice(0,30)}]};if(options.replyGate)await options.replyGate.promise;yield{content:[{type:'text',text:raw.slice(30)}]};
+   const raw=options.responses?.[index]??JSON.stringify({reply:'猫の案です。',suggestions:[{name:'星ねこ',reading:'ほしねこ',reason:'星と猫から'},{name:'<img src=x>',reason:'<script>alert(1)</script>'}],next_prompts:['もっと短い名前にしたい','英字での表記も考えて']});
+   yield{content:[{type:'text',text:raw.slice(0,30)}]};if(options.replyGate)await options.replyGate.promise;if(index>0&&options.repairGate)await options.repairGate.promise;yield{content:[{type:'text',text:raw.slice(30)}]};
   },
   cancel(){state.cancels++;},
   async delete(){state.conversationDeletes++;}
@@ -67,7 +88,7 @@ async function harness(options={}){
   async delete(){state.engineDeletes++;}
  };
  const Engine={async create(config){state.engineConfig=config;if(options.engineGate)await options.engineGate.promise;return engine;}};
- const c={window:{VNameModel:{status:async()=>({supported:true,saved:false}),remove:async()=>{},obtain:async()=>{state.fetches.push('gemma-4-E2B-it-web.litertlm');if(options.failDownload)throw new Error('MODEL_DOWNLOAD');return new ReadableStream({start(c){c.close();}});}},addEventListener(){},VTUBER_DATA:[
+ const c={window:{VNameModel:{status:async()=>({supported:true,saved:false}),remove:async()=>{},obtain:async()=>{state.fetches.push('gemma-4-E2B-it-web.litertlm');if(options.failDownload)throw new Error('MODEL_DOWNLOAD');return new ReadableStream({start(c){c.close();}});}},addEventListener(){},VTUBER_DATA:options.rows||[
   {source_id:'one',display_name:'星ねこ',reading:'ほしねこ',reading_source:'https://example.org',reading_source_kind:'official',platforms:['iriam'],platform_sources:{iriam:'https://example.org'}},
   {source_id:'two',display_name:'ほしねこ',platforms:['tiktok'],platform_sources:{tiktok:'https://example.org'}}
  ]},document,URL,AbortController,TransformStream,ReadableStream,TextEncoder,performance,
@@ -134,6 +155,31 @@ test('new replies respect readers scrolling through older messages',async()=>{
  history.scrollTop=1200;history.onscroll();history.scrollHeight=2200;
  h.get('ai-message').value='別の候補';await h.submit();assert.equal(history.scrollTop,2200);
  await h.get('ai-reset').onclick();assert.equal(history.scrollTop,0);
+});
+test('intro-only name replies get one bounded repair and actual checked candidate cards',async()=>{
+ const h=await harness({responses:['{"reply":"癒やし系の名前を提案します。","suggestions":[','月乃しずく | つきのしずく | 優しい響き\n陽だまりこはる | ひだまりこはる | 暖かな印象']});
+ await h.get('ai-start').onclick();h.get('ai-message').value='癒やし系、優しい響きの名前が欲しい。';await h.submit();
+ assert.equal(h.state.requests.length,2);assert.equal(h.get('ai-log').children.length,2);assert.match(h.get('ai-log').textContent,/月乃しずく/);assert.match(h.get('ai-log').textContent,/傾向との比較/);assert.equal(h.get('ai-status').dataset.error,'false');
+});
+test('failed repair never reports success or loops; analysis-only requests do not force names',async()=>{
+ const h=await harness({responses:['{"reply":"提案します"}','候補を作ります']});await h.get('ai-start').onclick();h.get('ai-message').value='名前を考えて';await h.submit();
+ assert.equal(h.state.requests.length,2);assert.match(h.get('ai-log').textContent,/具体的な名前候補を生成できませんでした/);assert.equal(h.get('ai-status').dataset.error,'true');
+ const analysis=await harness({responses:['{"reply":"収録は2件です","suggestions":[]}']});await analysis.get('ai-start').onclick();analysis.get('ai-message').value='名前の傾向の分析だけお願い';await analysis.submit();assert.equal(analysis.state.requests.length,1);
+});
+test('unloading during candidate repair prevents late candidates from appearing',async()=>{
+ const gate=deferred(),h=await harness({responses:['{"reply":"提案します"}','遅い候補 | おそいこうほ | 遅延'],repairGate:gate});await h.get('ai-start').onclick();h.get('ai-message').value='名前を考えて';const sending=h.submit();
+ while(h.state.requests.length<2)await new Promise(setImmediate);
+ const unloading=h.get('ai-unload').onclick();gate.resolve();await sending;await unloading;
+ assert.doesNotMatch(h.get('ai-log').textContent,/遅い候補/);assert.equal(h.state.engineDeletes,1);
+});
+test('platform, tag and script filters determine the next conversation statistics',async()=>{
+ const h=await harness({rows:[
+  {source_id:'ai',display_name:'月乃しずく',category:'AIVTuber',platforms:['youtube'],platform_sources:{youtube:'https://example.org'}},
+  {source_id:'v',display_name:'月乃こはる',vliver_source:'https://example.org',platforms:['iriam'],platform_sources:{iriam:'https://example.org'}},
+  {source_id:'en',display_name:'Luna',category:'AIVTuber',platforms:['youtube'],platform_sources:{youtube:'https://example.org'}}]});
+ h.get('trend-tag').value='AIVTuber';h.get('trend-script').value='kana';h.get('trend-platform').value='youtube';h.tabs[2].onclick();assert.match(h.get('trend-content').textContent,/集計対象 1/);
+ await h.get('ai-start').onclick();h.get('ai-message').value='名前を考えて';await h.submit();assert.match(h.state.configs[0].preface.messages[0].content,/"total":1/);assert.match(h.state.configs[0].preface.messages[0].content,/"tag":"AIVTuber"/);
+ h.get('trend-tag').value='all';h.get('trend-script').value='all';h.get('trend-platform').value='all';h.get('trend-platform').onchange();h.get('ai-message').value='別の名前を考えて';await h.submit();assert.equal(h.state.configs.length,2);assert.match(h.state.configs[1].preface.messages[0].content,/"total":3/);
 });
 test('unloading during engine initialization prevents a second model from loading and deletes the stale engine',async()=>{
  const gate=deferred(),h=await harness({engineGate:gate});const loading=h.get('ai-start').onclick();

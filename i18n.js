@@ -177,6 +177,7 @@ m=jp.match(/^同じ表示名が ([\d,]+) 件あります。下の結果を確認
 m=jp.match(/^読み・英字、または名前の一部が一致する候補が ([\d,]+) 件あります。$/);if(m)out={en:`${m[1]} candidates match a reading, alias, or part of a name.`,zh:`有 ${m[1]} 条读音、别名或部分名字匹配的结果。`,ko:`발음, 다른 표기 또는 이름 일부가 일치하는 결과 ${m[1]}건입니다.`}[language];}
 if(!out){let m=jp.match(/^同名・同じ読みの候補: ([\d,]+) 件$/);if(m)out={en:`Same-name or reading matches: ${m[1]}`,zh:`同名或同读音候选：${m[1]} 条`,ko:`동일 이름·발음 후보: ${m[1]}건`}[language];
 m=jp.match(/^AIモデルを読み込み中: ([\d,]+) MB$/);if(m)out={en:`Loading AI model: ${m[1]} MB`,zh:`正在加载AI模型：${m[1]} MB`,ko:`AI 모델 불러오는 중: ${m[1]} MB`}[language];}
+const tagMatch=jp.match(/^タグ「(.+)」に一致する掲載が ([\d,]+) 件あります。$/);if(tagMatch)out={en:`${tagMatch[2]} records tagged ${tagMatch[1]}.`,zh:`标签“${tagMatch[1]}”有 ${tagMatch[2]} 条记录。`,ko:`${tagMatch[1]} 태그의 기록 ${tagMatch[2]}건입니다.`}[language];
 return out?value.replace(jp,out):value;}
 function translateUI(){document.documentElement.lang=language==='zh'?'zh-Hans':language;document.title=translated('ぶいネーム｜VTuber名前チェック');
 const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;while(node=walker.nextNode()){if(node.parentElement.closest('script,style,.name,.fields dd:not([data-i18n]),[data-query],option:not([data-i18n]),.chat-message.user .chat-body,[data-generated],.candidate-name,.candidate-reading,.candidate-reason,[data-word]'))continue;if(!originalText.has(node))originalText.set(node,node.nodeValue);node.nodeValue=translated(originalText.get(node))}
@@ -341,4 +342,40 @@ for(const [jp,values] of Object.entries({
  'AIが考えた相談候補':['AI-generated conversation ideas','AI生成的咨询建议','AI가 만든 상담 주제'],
  '続けて、希望を自由に入力してください。':['Tell AI what you would like next.','请继续自由输入您的要求。','이어서 원하는 내용을 자유롭게 입력해 주세요.'],
  '候補を生成できませんでした。希望を直接入力して相談できます。':['Ideas could not be generated. You can still type your request to chat.','未能生成建议，您仍可直接输入要求进行咨询。','상담 주제를 만들지 못했습니다. 원하는 내용을 직접 입력해 상담할 수 있습니다.']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+for(const [jp,values] of Object.entries({
+ 'タグで絞り込む':['Filter by tag','按标签筛选','태그로 필터링'],
+ 'すべてのタグ':['All tags','全部标签','모든 태그'],
+ 'タグだけでも検索できます。':['You can search by tag alone.','也可以只按标签搜索。','태그만으로도 검색할 수 있습니다.'],
+ 'タグが一致':['Tag match','标签匹配','태그 일치'],
+ '名前を入力するか、タグを選んで検索してください。':['Enter a name or select a tag to search.','请输入名字或选择标签进行搜索。','이름을 입력하거나 태그를 선택해 검색하세요.'],
+ '表記で絞り込む':['Filter by writing system','按文字类型筛选','문자 종류로 필터링'],
+ 'すべての表記':['All writing systems','全部文字类型','모든 문자 종류'],
+ 'かなを含む':['Contains Japanese kana','包含日语假名','일본어 가나 포함'],
+ '漢字を含む':['Contains Han characters','包含汉字','한자 포함'],
+ '英字を含む':['Contains Latin letters','包含英文字母','영문자 포함'],
+ '該当件数':['Records','记录数','해당 기록 수'],
+ '割合':['Share','比例','비율'],
+ '文字数の中央値':['Median length','字数中位数','글자 수 중앙값'],
+ 'よくある文字数':['Most common length','最常见字数','가장 흔한 글자 수'],
+ 'よく使われる先頭2文字':['Common first two characters','常见开头两字','자주 쓰이는 첫 두 글자'],
+ 'よく使われる末尾2文字':['Common last two characters','常见结尾两字','자주 쓰이는 마지막 두 글자'],
+ '条件に一致する掲載がありません。':['No records match these filters.','没有符合条件的记录。','조건에 맞는 기록이 없습니다.'],
+ '文字数・表記・よく使われる文字を、媒体やタグごとに比較できます。集計にAIの読み込みは不要です。':['Compare name lengths, writing systems and common characters by platform and tag. Analysis does not require loading AI.','按平台和标签比较名字长度、文字类型与常用文字。统计无需加载AI。','플랫폼과 태그별로 이름 길이, 문자 종류, 자주 쓰이는 글자를 비교합니다. 집계에는 AI 로딩이 필요 없습니다.'],
+ '先頭・末尾は表示名の2文字を比較しています。苗字や語源の分類ではありません。漢字は各レコードで1回だけ数え、割合は選択中の集計対象に対する値です。':['First and last pairs are the two characters at each end of a display name, not inferred surnames or etymology. Each Han character is counted once per record. Shares use the selected records as their denominator.','开头与结尾比较的是显示名的两字，并非姓氏或词源分类。每个汉字在每条记录中仅计一次，比例以当前筛选记录为分母。','처음과 끝은 표시 이름의 두 글자를 비교하며 성씨나 어원을 분류하지 않습니다. 한자는 기록마다 한 번만 세며, 비율은 현재 선택한 기록을 기준으로 합니다.'],
+ '傾向との比較':['Comparison with the data','与统计趋势比较','경향과 비교'],
+ '同じ文字数の収録名':['Listed names of the same length','相同字数的收录名字','같은 글자 수의 수록 이름'],
+ '集計対象内の件数です。名前の未使用を保証するものではありません。':['Counts within the selected records do not guarantee a name is unused.','这是筛选范围内的记录数，不保证名字未被使用。','집계 대상 내의 건수이며 이름이 사용되지 않았음을 보장하지 않습니다.'],
+ '名前の候補を補っています…':['Generating the missing name ideas…','正在补充具体名字…','빠진 이름 후보를 생성하고 있습니다…'],
+ '具体的な名前候補を生成できませんでした。希望を短くまとめて、もう一度相談してください。':['No concrete name ideas could be generated. Try again with a shorter request.','未能生成具体名字，请简要整理要求后再次咨询。','구체적인 이름 후보를 만들지 못했습니다. 원하는 내용을 짧게 정리해 다시 상담해 주세요.'],
+ '回答が途中で終わったため、読み取れた内容を表示しています。':['The response ended early. The recoverable content is shown.','回答中途结束，当前显示可恢复的内容。','답변이 도중에 끝나 읽을 수 있는 내용을 표시합니다.'],
+ '生成できた名前の候補です。':['Here are the available name ideas.','以下是已生成的名字候选。','생성된 이름 후보입니다.'],
+ '希望に合わせた名前の候補です。':['Here are name ideas based on your preferences.','以下是根据您的要求生成的名字。','원하는 조건에 맞춘 이름 후보입니다.'],
+ '回答を確認できませんでした。':['No usable answer was received.','未能取得有效回答。','사용할 수 있는 답변을 받지 못했습니다.']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+for(const [jp,values] of Object.entries({
+ 'AIと活動名を考えて、同じ名前や読みもチェック。':['Create your name with AI, then check for matching names and readings.','与AI一起构思活动名，再确认是否存在同名或同读音。','AI와 활동명을 생각하고, 같은 이름과 발음도 확인하세요.'],
+ '選択したタグでは一致する名前が見つかりませんでした。':['No matching names were found within the selected tag.','所选标签中未找到匹配的名字。','선택한 태그에서는 일치하는 이름을 찾지 못했습니다.']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);

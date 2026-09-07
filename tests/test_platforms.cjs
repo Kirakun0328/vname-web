@@ -85,4 +85,11 @@ test('published data searches and renders a TikTok V-liver without requiring You
  const kizuna=get('results').children[0];const links=kizuna.children.find(e=>e.className==='platform-links');
  assert.deepEqual(links.children.map(e=>e.textContent),['YouTube','bilibili']);
  for(const q of ['キズナアイ','兎田ぺこら','星街すいせい','宝鐘マリン','葛葉','戌神ころね'])assert.ok(vm.runInContext('find('+JSON.stringify(q)+').some(x=>x.type===0)',c),q);
+ get('query').value='';get('search-tag').value='AIVTuber';get('search-tag').onchange();
+ assert.ok(vm.runInContext('hits.length>100 && hits.every(x=>categoryOf(x.r)==="AIVTuber")',c));assert.equal(get('results').children.length,30);assert.equal(get('pages').hidden,false);
+ get('query').value='しずく';vm.runInContext('search()',c);assert.ok(vm.runInContext('hits.some(x=>x.r.source_id==="youtube:UCE2SWbhR2WRHPBi-bflr0-g") && hits.every(x=>x.r.category==="AIVTuber")',c));
+ get('search-tag').value='VTuber';get('search-tag').onchange();assert.ok(vm.runInContext('!hits.some(x=>x.r.source_id==="youtube:UCE2SWbhR2WRHPBi-bflr0-g")',c));
+ // Global collision searches must not inherit a UI tag filter.
+ assert.ok(vm.runInContext('find("しずく").some(x=>x.r.source_id==="youtube:UCE2SWbhR2WRHPBi-bflr0-g")',c));
+ get('query').value='';get('search-tag').value='Vライバー';get('search-tag').onchange();assert.ok(vm.runInContext('hits.length>900 && hits.every(x=>categoryOf(x.r)==="Vライバー")',c));
 });
