@@ -67,6 +67,21 @@ REUSABLE = {
         "license": "MIT",
         "condition": "retain copyright/license notice for substantial copies",
     },
+    "wikidata_cc0": {
+        "markers": ("wikidata.org/",),
+        "license": "CC0 1.0",
+        "condition": "structured data dedicated to the public domain; no attribution required",
+    },
+    "vtuber_1b_pddl": {
+        "markers": ("kaggle.com/datasets/uetchy/vtuber-livechat-elements", "holodata.org/vtuber-1b", "sigvt.org/vtuber-1b"),
+        "license": "ODC PDDL 1.0",
+        "condition": "dataset public-domain dedication; import only the channel index",
+    },
+    "ayousanz_hf_mit": {
+        "markers": ("huggingface.co/datasets/ayousanz/vtuber-youtube-list-dataset",),
+        "license": "MIT",
+        "condition": "retain license notice for substantial copies; high-precision self-identification filter required",
+    },
 }
 
 # These are preserved as source-linked references, not classified as reusable
