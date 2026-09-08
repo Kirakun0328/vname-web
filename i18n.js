@@ -412,6 +412,8 @@ for(const [jp,values] of Object.entries({
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
 
 for(const [jp,values] of Object.entries({
+ '検索欄に入力した名前は外部に送信されません。':['Names entered in the search box are not sent externally.','搜索框中输入的名字不会发送到外部。','검색창에 입력한 이름은 외부로 전송되지 않습니다.'],
+ '登録内容や審査で参照したチャンネルの公開情報は、AIの学習・追加学習に使用しません。':['Registration details and public channel information used for review are not used to train or fine-tune AI models.','登记内容及审核时参考的频道公开信息，不会用于AI模型的训练或微调。','등록 내용과 검토에 참조한 채널의 공개 정보는 AI 모델 학습이나 추가 학습에 사용하지 않습니다.'],
  'まだ掲載されていませんか？':['Not listed yet?','还未收录？','아직 등록되지 않았나요?'],
  '自分の名前を登録':['Register your name','登记自己的名字','내 이름 등록'],
  '無料・ログイン不要。Gemma 4 E2Bが公開情報を確認し、問題がなければ掲載します。':['Free, no login required. Gemma 4 E2B reviews public information before listing.','免费，无需登录。Gemma 4 E2B确认公开信息后，若无明显问题即可收录。','무료·로그인 불필요. Gemma 4 E2B가 공개 정보를 검토한 뒤 문제가 없으면 등록합니다.'],
