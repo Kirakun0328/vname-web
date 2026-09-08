@@ -1,7 +1,22 @@
-"""Keep individually reviewed, source-linked identities and explicit readings."""
+"""Keep individually reviewed, source-linked identities and explicit readings.
+
+Bulk roster discoveries are not approval. Only files listed in
+``reviewed_profiles`` are published through this path. Withdrawn IDs are
+removed from generated additive/platform data on the next reviewed refresh.
+"""
 import json
 from pathlib import Path
 from global_sources import valid_name
+
+
+def withdrawn_ids():
+    path = Path(__file__).with_name('withdrawn-reviewed-ids.json')
+    if not path.exists():
+        return set()
+    values = json.loads(path.read_text(encoding='utf-8'))
+    if not isinstance(values, list) or any(not isinstance(v, str) for v in values):
+        raise ValueError('Invalid withdrawn reviewed IDs')
+    return set(values)
 
 
 def reviewed_profiles():
@@ -15,18 +30,31 @@ def reviewed_profiles():
         'reviewed-platform-expansion-2026-09-09.json',
         'reviewed-platform-expansion-2026-09-09-2.json',
         'reviewed-platform-expansion-2026-09-09-3.json',
+        'reviewed-platform-expansion-2026-09-09-4.json',
         'reviewed-encyclopedia-profiles.json',
         'reviewed-web-profiles.json',
         'reviewed-deep-web-profiles.json',
     ):
         records.extend(json.loads(Path(__file__).with_name(name).read_text(encoding='utf-8')))
-    return records
+    withdrawn=withdrawn_ids()
+    return [r for r in records if r.get('source_id') not in withdrawn]
 
 
 def merge_reviewed(previous,records=None,base=None):
+    withdrawn=withdrawn_ids()
+    previous=[dict(r) for r in previous if r.get('source_id') not in withdrawn]
+    base=[r for r in (base or []) if r.get('source_id') not in withdrawn]
+    # Popularity sorting was removed. Do not keep stale audience-count payloads
+    # in generated additive data merely because an older collector added them.
+    for row in previous:
+        row.pop('audience_metrics',None)
+        row.pop('_youtube_subscribers',None)
+        row.pop('_twitch_followers',None)
     if records is None:
         records=reviewed_profiles()
-    known={r['source_id']:dict(r) for r in (base or [])}
+    else:
+        records=[r for r in records if r.get('source_id') not in withdrawn]
+    known={r['source_id']:dict(r) for r in base}
     for row in previous:
         known.setdefault(row['source_id'],{}).update(row)
     extra={r['source_id']:dict(r) for r in previous}

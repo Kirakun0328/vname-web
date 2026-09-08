@@ -1,8 +1,7 @@
 name: Update dictionary and publish
 on:
   schedule:
-    - cron: '17 */6 * * *' # Official-source discovery four times daily.
-    - cron: '7 * * * *' # Hourly primary-profile rechecks and queued Gemma readings.
+    - cron: '17 */6 * * *' # Recheck individually approved/official profiles.
   workflow_dispatch:
   push:
     branches: [main]
@@ -15,6 +14,8 @@ on:
       - '*.css'
       - 'assets/**'
       - 'index.html'
+      - 'README.md'
+      - 'DATA_SOURCES.md'
 permissions:
   contents: write
   pages: write
@@ -38,20 +39,14 @@ jobs:
           python-version: '3.12'
       - name: Test updater safeguards
         run: python -m unittest discover -s tests
-      - name: Fetch and validate dictionary
-        if: github.event_name != 'push' && github.event.schedule != '7 * * * *'
-        run: python scripts/update_dictionary.py
-      - name: Fetch V-livers across platforms
-        if: github.event_name != 'push' && github.event.schedule != '7 * * * *'
-        run: python scripts/update_platform_dictionary.py
-      - name: Apply verified community additions and renames
+      - name: Apply individually reviewed additions and corrections
         run: python scripts/update_dictionary.py --reviewed-only
       - name: Discover primary-source candidates with configured SearXNG
         if: github.event_name != 'push'
         env:
           SEARXNG_URL: ${{ vars.SEARXNG_URL }}
         run: python scripts/discover_primary_search.py --limit 4
-      - name: Recheck individual primary profiles
+      - name: Recheck individual official profiles
         run: python scripts/reverify_primary.py ${{ github.event_name == 'push' && '--offline' || '--limit 40' }}
       - uses: actions/cache@v4
         if: github.event_name != 'push'
@@ -81,7 +76,7 @@ jobs:
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
-            git commit -m 'Update dictionary from public sources'
+            git commit -m 'Update reviewed dictionary records'
             git push origin HEAD:main
           fi
       - name: Package public files

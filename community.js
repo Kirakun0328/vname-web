@@ -26,3 +26,19 @@ window.VNameCommunity = (() => {
 })();
 
 // Registration has been discontinued. No automatic network requests.
+
+document.addEventListener('DOMContentLoaded',()=>{
+  const anchor=document.querySelector('.creator-tools')||document.querySelector('#register');
+  if(!anchor||document.querySelector('.data-policy-card'))return;
+  const section=document.createElement('section');
+  section.className='community-actions data-policy-card';
+  const article=document.createElement('article');
+  article.className='community-card';
+  const kicker=document.createElement('span');kicker.className='community-kicker';kicker.textContent='データについて';
+  const title=document.createElement('h2');title.textContent='外部名簿の一括転載は行いません';
+  const body=document.createElement('div');body.className='support-message';
+  const p1=document.createElement('p');p1.textContent='一般VTuber・Vライバーの新規掲載は、本人申請や本人・配信サービス・所属先の個別公開プロフィールを確認して反映します。第三者DB・ランキング・配信者一覧をそのまま大量に公開辞書へ追加する運用は停止しています。';
+  const p2=document.createElement('p');p2.textContent='既存データには過去の公開名簿等を参考にしたレコードが含まれるため、出典を残しながら個別再確認を進めています。';
+  const link=document.createElement('a');link.className='community-button';link.href='DATA_SOURCES.md';link.textContent='取得元と確認方針を見る →';
+  body.append(p1,p2);article.append(kicker,title,body,link);section.append(article);anchor.before(section);
+});
