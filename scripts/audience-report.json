@@ -1,25 +1,5 @@
 {
-  "audience_counts": {
-    "vtuber_post": {
-      "source_records": 25,
-      "enriched_records": 25,
-      "checked_at": "2026-09-08",
-      "status": "ok"
-    },
-    "vstats": {
-      "source_records": 453,
-      "enriched_records": 441,
-      "checked_at": "2026-09-08",
-      "status": "ok"
-    }
-  },
-  "aituberlist": {
-    "source_records": 326,
-    "enriched_records": 245,
-    "status": "ok"
-  },
-  "post_rotation": {
-    "last_error": "KeyError"
-  },
-  "retrieved_at": "2026-09-08T09:11:19.948903+00:00"
+  "status": "disabled_by_request",
+  "uses_youtube_data_api": false,
+  "reason": "Subscriber counts and popularity sorting have been removed."
 }

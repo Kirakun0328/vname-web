@@ -26,6 +26,8 @@ def key(value):
     return ''.join(c for c in unicodedata.normalize('NFKC', value).lower() if c.isalnum())
 
 def fetch(url):
+    from source_policy import check_fetch
+    check_fetch(url)
     for attempt in range(3):
         try:
             request = urllib.request.Request(url, headers={'User-Agent': 'VName-dictionary-updater/1.0 (+https://github.com/Kirakun0328/vname-web)'})
@@ -138,84 +140,18 @@ def main():
     if args.reviewed_only:
         refresh_reviewed_only(base, previous, args)
         return
+    # Until directory permissions are resolved, default updates use only
+    # official readings and already reviewed additions. Legacy collectors remain
+    # available as parsers for tests, not as an ingestion path.
     if args.ai_only:
-        refresh_ai_only(base, previous, args)
-        return
-    vdb = json.loads(fetch('https://vdb.vtbs.moe/json/list.json'))
-    updated = expand(base, previous, vdb, [])
-    from broad_sources import collect_post, merge_post
-    report_path = ROOT / 'scripts/collection-report.json'
-    report = json.loads(report_path.read_text()) if report_path.exists() else {}
-    from global_sources import refresh_global
-    updated = refresh_global(base, updated, vdb, report)
-    from legacy_sources import refresh_legacy
-    updated = refresh_legacy(base, updated, vdb, report)
-    from regional_sources import refresh_regional
-    updated = refresh_regional(base, updated, vdb, report)
-    from scholar_sources import refresh_scholar
-    from reading_sources import fetch_reading
-    try:
-        updated, report['scholar_vtuber'] = refresh_scholar(base, updated, vdb, fetch_reading, report.get('scholar_vtuber'))
-    except (OSError, ValueError, KeyError, TypeError) as error:
-        print('Academic directory unavailable; existing records retained:', type(error).__name__, flush=True)
-    try:
-        rows, source_report = collect_post(full=args.full, state=report.get('vtuber_post'))
-        updated, counts = merge_post(base, updated, rows, vdb)
-        source_report.update(counts)
-        report['vtuber_post'] = source_report
-    except (OSError, ValueError, KeyError, TypeError) as error:
-        print('VTuber Post unavailable; existing records retained:', type(error).__name__, str(error), flush=True)
-    from vstats_sources import refresh_vstats
-    from reading_sources import refresh_readings
-    try:
-        updated, report['vstats'] = refresh_vstats(base, updated, vdb, fetch_reading)
-    except (OSError, ValueError, KeyError, TypeError) as error:
-        print('VSTATS unavailable; existing records retained:', type(error).__name__, flush=True)
-    from liverfun_sources import refresh_liverfun
-    try:
-        updated, report['liverfun'] = refresh_liverfun(base, updated, vdb, fetch_reading, state=report.get('liverfun'))
-    except (OSError, ValueError, KeyError, TypeError) as error:
-        print('liverfun unavailable; existing records retained:', type(error).__name__, flush=True)
-    from aivtuber_sources import collect, merge_aivtubers, resolve_channels
-    try:
-        characters = collect(fetch_reading)
-        resolved = resolve_channels(characters, fetch_reading)
-        updated = merge_aivtubers(base, updated, characters, vdb, resolved=resolved)
-        if not args.check:
-            (ROOT / 'scripts/aivnav_channels.json').write_text(json.dumps(resolved, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    except (OSError, ValueError, KeyError, TypeError) as error:
-        print('AIV Navi unavailable; existing tags and records retained:', type(error).__name__)
-    from ai_directory_sources import refresh_ai_directories
-    updated = refresh_ai_directories(base, updated, fetch_reading, report)
-    from popularity_sources import refresh as refresh_popularity
-    updated = refresh_popularity(fetch_reading, base, updated, report)
-    if not args.skip_readings:
-        updated = refresh_readings(base, updated, fetch_reading)
-    from reviewed_sources import merge_reviewed
-    updated = merge_reviewed(updated, base=base)
-    updated = consolidate_duplicates(base, updated)
-    print(f'Extra records: {len(previous)} -> {len(updated)}')
-    if args.check:
-        return
-    from broad_sources import preparing
-    merged = {r['source_id']: dict(r) for r in base}
-    for row in updated:
-        merged.setdefault(row['source_id'], {}).update(row)
-    eligible = [r for r in merged.values() if r.get('listing_status') != 'predebut' and not preparing(r['display_name'])]
-    report['records'] = {'stored': len(merged), 'listed': len(eligible),
-                         'excluded_predebut': len(merged)-len(eligible),
-                         'with_activity_source': sum(bool(r.get('activity_source')) for r in eligible)}
-    report['aivtuber_records'] = sum(r.get('category') == 'AIVTuber' for r in eligible)
-    temporary_report = report_path.with_suffix('.json.tmp')
-    temporary_report.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-    temporary_report.replace(report_path)
-    if updated == previous:
-        return
-    content = '// Additive, source-linked VTuber/AIVTuber names and verified readings.\nwindow.VTUBER_EXTRA = ' + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + ';\n'
-    target = ROOT / 'extra-data.js'
-    temporary = target.with_suffix('.js.tmp')
-    temporary.write_text(content, encoding='utf-8')
-    temporary.replace(target)
+        print('Third-party AI directory collection paused; reviewed additions only')
+    refresh_reviewed_only(base, previous, args)
+    if not args.skip_readings and not args.check:
+        from reading_sources import refresh_readings, fetch_reading
+        previous = read_js(ROOT / 'extra-data.js', 'VTUBER_EXTRA')
+        updated = refresh_readings(base, previous, fetch_reading, profile_limit=0)
+        (ROOT / 'extra-data.js').write_text('// Source-linked records.\nwindow.VTUBER_EXTRA = ' + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + ';\n', encoding='utf-8')
+
 
 def refresh_ai_only(base, previous, args):
     from aivtuber_sources import collect, merge_aivtubers, resolve_channels

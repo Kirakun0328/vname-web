@@ -11,6 +11,8 @@ from urllib.parse import urlparse
 
 
 def fetch_reading(url):
+    from source_policy import check_fetch
+    check_fetch(url)
     request = urllib.request.Request(url, headers={'User-Agent': 'VName-reading-updater/1.0 (+https://github.com/Kirakun0328/vname-web)'})
     with urllib.request.urlopen(request, timeout=15) as response:
         raw = response.read(6 * 1024 * 1024 + 1)

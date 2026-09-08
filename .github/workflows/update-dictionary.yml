@@ -1,8 +1,8 @@
 name: Update dictionary and publish
 on:
   schedule:
-    - cron: '17 */6 * * *' # Multi-source discovery four times daily.
-    - cron: '7 * * * *' # Hourly public audience snapshots and queued Gemma readings.
+    - cron: '17 */6 * * *' # Official-source discovery four times daily.
+    - cron: '7 * * * *' # Hourly primary-profile rechecks and queued Gemma readings.
   workflow_dispatch:
   push:
     branches: [main]
@@ -46,9 +46,8 @@ jobs:
         run: python scripts/update_platform_dictionary.py
       - name: Apply verified community additions and renames
         run: python scripts/update_dictionary.py --reviewed-only
-      - name: Refresh public audience counts
-        if: github.event_name != 'push'
-        run: python scripts/update_audience.py
+      - name: Recheck individual primary profiles
+        run: python scripts/reverify_primary.py ${{ github.event_name == 'push' && '--offline' || '--limit 40' }}
       - uses: actions/cache@v4
         if: github.event_name != 'push'
         with:
@@ -60,7 +59,7 @@ jobs:
       - name: Validate JavaScript
         run: |
           node --check estimated-readings.js
-          node --check audience-data.js
+          node --check primary-data.js
           node --check extra-data.js
           node --check app.js
           node --check community.js
@@ -73,17 +72,17 @@ jobs:
           node --check i18n.js
       - name: Commit dictionary changes
         run: |
-          if ! git diff --quiet -- extra-data.js platform-data.js estimated-readings.js audience-data.js audience-data.json scripts/audience-report.json scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json estimated-readings.js audience-data.js audience-data.json scripts/audience-report.json)"; then
+          if ! git diff --quiet -- primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json estimated-readings.js scripts/audience-report.json)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add extra-data.js platform-data.js estimated-readings.js audience-data.js audience-data.json scripts/audience-report.json scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
+            git add primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
             git commit -m 'Update dictionary from public sources'
             git push origin HEAD:main
           fi
       - name: Package public files
         run: |
           mkdir -p _site/assets _site/scripts
-          cp index.html app.js data.js extra-data.js estimated-readings.js audience-data.js audience-data.json platform-data.js platforms.js naming.js name-insights.js ai-model.js site.css naming.css readings.js i18n.js .nojekyll _site/
+          cp DATA_SOURCES.md primary-data.js index.html app.js data.js extra-data.js estimated-readings.js platform-data.js platforms.js naming.js name-insights.js ai-model.js site.css naming.css readings.js i18n.js .nojekyll _site/
           cp assets/naming-robot.png _site/assets/
           cp community.js _site/
           cp scripts/registration-config.json _site/scripts/

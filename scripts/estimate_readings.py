@@ -40,7 +40,7 @@ def read_object(path):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--limit',type=int,default=200);p.add_argument('--seconds',type=int,default=900);args=p.parse_args()
     merged={}
-    for file,var in [('data.js','VTUBER_DATA'),('extra-data.js','VTUBER_EXTRA'),('platform-data.js','VTUBER_PLATFORMS')]:
+    for file,var in [('data.js','VTUBER_DATA'),('extra-data.js','VTUBER_EXTRA'),('platform-data.js','VTUBER_PLATFORMS'),('primary-data.js','VTUBER_PRIMARY')]:
         for row in read_js(ROOT/file,var):merged.setdefault(row['source_id'],{}).update(row)
     corrections=read_object(ROOT/'readings.js')
     target=ROOT/'estimated-readings.js';previous=read_object(target) if target.exists() else {}

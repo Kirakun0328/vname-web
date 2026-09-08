@@ -63,7 +63,7 @@ test('published data searches and renders a TikTok V-liver without requiring You
  const els=new Map();const get=id=>{if(!els.has(id))els.set(id,new El());return els.get(id);};
  const doc={getElementById:get,createElement:tag=>new El(tag),createTextNode:value=>{const e=new El('#text');e.textContent=value;return e;},querySelectorAll:()=>[]};
  const c={window:{},document:doc,URL,translateUI:()=>{},setLanguage:()=>{}};vm.createContext(c);
- for(const file of ['data.js','extra-data.js','readings.js','platform-data.js','platforms.js','app.js'])vm.runInContext(fs.readFileSync(file,'utf8'),c);
+ for(const file of ['data.js','extra-data.js','readings.js','platform-data.js','platforms.js','primary-data.js','app.js'])vm.runInContext(fs.readFileSync(file,'utf8'),c);
  get('query').value='ルーカ・アレイス';vm.runInContext('search()',c);
  assert.match(get('results').textContent,/ルーカ・アレイス/);assert.match(get('results').textContent,/主な活動媒体 TikTok LIVE/);
  get('query').value='マほ姉';vm.runInContext('search()',c);assert.match(get('results').textContent,/IRIAM \/ REALITY/);
@@ -95,7 +95,9 @@ test('published data searches and renders a TikTok V-liver without requiring You
  const walk=e=>[e,...e.children.flatMap(walk)];
  get('query').value='';get('search-tag').value='all';get('search-platform').value='all';vm.runInContext('search()',c);
  assert.ok(vm.runInContext('hits.length>32000',c));assert.equal(get('results').children.length,30);
- assert.ok(vm.runInContext('metricFor(hits[0].r).count>1000000',c));
+ assert.ok(vm.runInContext('sortOrder==="name" && hits.every((x,i)=>i===0||compareNames(hits[i-1],x)<=0)',c));
+ assert.ok(!walk(get('results')).some(e=>e.className==='audience'));
+ assert.doesNotMatch(get('results').textContent,/YouTube登録者|Twitchフォロワー|登録者・フォロワー数の出典/);
  assert.ok(!walk(get('results')).some(e=>e.tagName==='img'));
  get('search-tag').value='AIVTuber';get('search-platform').value='youtube';vm.runInContext('search()',c);
  assert.ok(vm.runInContext('hits.length>100 && hits.every(x=>x.r.category==="AIVTuber" && x.r.media.known.includes("YouTube"))',c));

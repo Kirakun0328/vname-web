@@ -1,6 +1,6 @@
 'use strict';
 const key=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96)).replace(/[^\p{L}\p{N}]/gu,'');
-let records=[],hits=[],page=0,sortOrder='popular',randomOrder=new Map();
+let records=[],hits=[],page=0,sortOrder='name',randomOrder=new Map();
 const PAGE_SIZE=30;
 const categoryOf=r=>r.category==='AIVTuber'?'AIVTuber':r.category==='Vライバー'||/^https:\/\//.test(r.vliver_source||'')?'Vライバー':'VTuber';
 const $=id=>document.getElementById(id);
@@ -22,6 +22,8 @@ function resolveReading(r){
  return {reading:candidate,reading_inferred:!!candidate};
 }
 function load(data){
+ const primary=new Map((window.VTUBER_PRIMARY||[]).map(r=>[r.source_id,r]));
+ data=data.map(r=>primary.has(r.source_id)?{...r,...primary.get(r.source_id)}:r);
  records=data.filter(r=>r.listing_status!=='predebut'&&!preparingName(r.display_name)).map(original=>{
   const correction=corrections.get(key(original.display_name)),r={...original,...correction,corrected:!!correction};
   Object.assign(r,resolveReading(r));
@@ -34,11 +36,6 @@ function load(data){
 }
 function find(q){const k=key(q);if(!k)return [];return records.map(r=>{const type=r.keys[0]===k?0:r.keys.slice(1).includes(k)?1:r.keys.some(v=>v&&v.includes(k))?2:9;return{r,type};}).filter(x=>x.type<9).sort((a,b)=>a.type-b.type||compareNames(a,b));}
 function compareNames(a,b){return (a.r.reading||a.r.display_name).localeCompare(b.r.reading||b.r.display_name,'ja')||a.r.display_name.localeCompare(b.r.display_name,'ja')||a.r.source_id.localeCompare(b.r.source_id);}
-function metricFor(r){
- const filter=$('search-platform').value||'all';
- const metrics=(r.audience_metrics||[]).filter(m=>Number.isSafeInteger(m.count)&&m.count>=0&&sourceLink(m.source)&&['youtube','twitch'].includes(m.platform)&&(filter==='all'||filter===m.platform));
- return metrics.sort((a,b)=>b.count-a.count)[0]||null;
-}
 function shuffle(){randomOrder=new Map(records.map(r=>[r.source_id,Math.random()]));}
 function sortHits(){
  if(sortOrder==='random'&&!randomOrder.size)shuffle();
@@ -46,7 +43,6 @@ function sortHits(){
   // An exact match stays first when checking a name; sorting applies within match groups.
   if(key($('query').value)&&a.type!==b.type)return a.type-b.type;
   if(sortOrder==='random')return randomOrder.get(a.r.source_id)-randomOrder.get(b.r.source_id);
-  if(sortOrder==='popular'){const am=metricFor(a.r),bm=metricFor(b.r);const delta=(bm?.count??-1)-(am?.count??-1);if(delta)return delta;}
   return compareNames(a,b);
  });
 }
@@ -71,16 +67,12 @@ function renderCard({r,type}){
   if(group.accounts.length>1){const more=element('details','platform-more');more.append(element('summary','','その他のアカウント'));for(const account of group.accounts.slice(1)){const a=link(decodeURIComponent(new URL(account.url).pathname).replace(/^\//,''),account.url);a.setAttribute('data-generated','');more.append(a);}platformLinks.append(more);}
  }
  try{const official=new URL(r.official_website);if(['https:','http:'].includes(official.protocol)&&!official.username&&!official.password)platformLinks.append(link('公式サイト',official.href,'platform-link'));}catch{}
- const metric=metricFor(r),audience=element('p','audience');
- if(metric){const label=metric.platform==='youtube'?'YouTube登録者':'Twitchフォロワー';audience.append(element('span','',label),element('strong','',metric.count.toLocaleString()));}
  const details=element('details','record-details');details.append(element('summary','','詳細・出典'),fieldsFor(r));
  if(r.registration_status==='ai_screened')details.append(element('p','muted','Gemma 4 E2Bが登録内容を確認しました。本人確認や情報の正しさを保証するものではありません。'));
  const note=element('div','note');
- const sources=[...(r.reading&&!r.reading_inferred?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource],...(metric?[['登録者・フォロワー数の出典',metric.source]]:[])];
+ const sources=[...(r.name_source?[['名前の確認元',r.name_source]]:[]),...(r.reading&&!r.reading_inferred?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource]];
  for(const [label,url] of sources)if(sourceLink(url))note.append(link(label,url));
- if(metric?.checked_at)note.append(element('span','metric-date','確認日: '+metric.checked_at));
- if(metric?.retrieved_at){const stamp=new Date(metric.retrieved_at);if(!Number.isNaN(stamp.getTime()))audience.append(element('small','metric-date','取得: '+stamp.toLocaleString()));}
- details.append(note);article.append(top,name,reading,audience,platformLinks,details);return article;
+ details.append(note);article.append(top,name,reading,platformLinks,details);return article;
 }
 function render(){
  const box=$('results');box.replaceChildren();
@@ -88,7 +80,7 @@ function render(){
  if(!hits.length){const empty=element('div','empty');empty.append(element('strong','','条件に一致する活動者が見つかりませんでした。'),element('p','','名前やタグ・配信媒体を変えてお試しください。'));box.append(empty);}
  $('pages').hidden=hits.length<=PAGE_SIZE;$('page').textContent=`${page+1} / ${Math.max(1,Math.ceil(hits.length/PAGE_SIZE))}`;
  $('prev').disabled=page===0;$('next').disabled=(page+1)*PAGE_SIZE>=hits.length;
- $('reshuffle').hidden=sortOrder!=='random';$('sort-note').hidden=sortOrder!=='popular';
+ $('reshuffle').hidden=sortOrder!=='random';
  translateUI();
 }
 function syncFilters(){
@@ -119,7 +111,7 @@ $('reshuffle').onclick=()=>{shuffle();search();};$('clear-search').onclick=()=>{
 $('form').addEventListener('submit',e=>{e.preventDefault();search();});
 function turnPage(delta){page=Math.max(0,Math.min(Math.ceil(hits.length/PAGE_SIZE)-1,page+delta));render();$('results-heading').scrollIntoView?.({block:'start'});$('results-heading').focus?.({preventScroll:true});}
 $('prev').onclick=()=>turnPage(-1);$('next').onclick=()=>turnPage(1);
-try{load(mergeData(mergeData(mergeData(window.VTUBER_DATA,window.VTUBER_EXTRA),window.VTUBER_PLATFORMS),window.VTUBER_AUDIENCE));search();}catch(e){$('status').textContent='辞書を読み込めませんでした。ページを再読み込みしてください。';}
+try{load(mergeData(mergeData(window.VTUBER_DATA,window.VTUBER_EXTRA),window.VTUBER_PLATFORMS));search();}catch(e){$('status').textContent='辞書を読み込めませんでした。ページを再読み込みしてください。';}
 window.VNameAddCommunity=incoming=>{
  const ids=new Set(records.map(r=>r.source_id)),accounts=new Set(records.flatMap(r=>r.media.accounts.map(a=>a.url)));
  const additions=incoming.filter(r=>!ids.has(r.source_id)&&!r.platform_accounts.some(a=>accounts.has(a.url)));
@@ -129,16 +121,3 @@ window.VNameAddCommunity=incoming=>{
  load([...records,...additions]);search();page=Math.min(previousPage,Math.max(0,Math.ceil(hits.length/PAGE_SIZE)-1));render();
 };
 $('language').onchange=e=>setLanguage(e.target.value);translateUI();
-
-// Refresh the displayed source snapshots without sending names or search queries.
-async function refreshAudience(){
- try{
-  const response=await fetch('audience-data.json',{cache:'no-store',credentials:'omit',signal:AbortSignal.timeout(15000)});
-  if(!response.ok)return;
-  const rows=await response.json();if(!Array.isArray(rows)||rows.length>100000)return;
-  const counts=new Map(rows.filter(r=>typeof r.source_id==='string'&&Array.isArray(r.audience_metrics)).map(r=>[r.source_id,r.audience_metrics]));
-  for(const r of records)if(counts.has(r.source_id))r.audience_metrics=counts.get(r.source_id);
-  sortHits();render();
- }catch{}
-}
-if(typeof fetch==='function'&&typeof setInterval==='function')setInterval(()=>{if(!document.hidden)refreshAudience();},5*60*1000);

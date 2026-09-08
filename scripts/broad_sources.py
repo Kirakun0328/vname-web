@@ -57,6 +57,8 @@ def parse_post(document, page):
 
 
 def fetch_post(page):
+    from source_policy import check_fetch
+    check_fetch(POST_URL)
     payload = urllib.parse.urlencode({'page_v': page, 'pageFlg': '1'}).encode()
     request = urllib.request.Request(POST_URL, data=payload, headers={
         'User-Agent': 'VName-dictionary-updater/2.0 (+https://github.com/Kirakun0328/vname-web)'})

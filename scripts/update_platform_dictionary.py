@@ -29,13 +29,7 @@ def main():
     updated=previous
     report_path=ROOT/'scripts/platform-report.json'
     report=json.loads(report_path.read_text()) if report_path.exists() else {}
-    if not args.bulk_only:
-        try:
-            vdb=json.loads(fetch('https://vdb.vtbs.moe/json/list.json'))
-            updated,count=enrich_known_accounts(list(merged.values()),updated,vdb)
-            report['vdb_accounts']={'source':'https://vdb.vtbs.moe/','enriched_existing_records':count}
-        except (OSError,ValueError,UnicodeError) as error:
-            print('VDB platform accounts unavailable; existing metadata retained',type(error).__name__,flush=True)
+    report['vdb_accounts']={'status':'paused_pending_license_review'}
     for agency in ([] if args.bulk_only else AGENCIES):
         try:
             rows,state=refresh_agency(fetch_profile,agency,report.get(agency),limit=1500 if args.full else 40)
