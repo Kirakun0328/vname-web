@@ -1,10 +1,10 @@
 """Remove legacy third-party-directory records while preserving independently verified identities.
 
-This cleanup is intentionally conservative about protected data:
-- AIVTuber records are preserved.
-- community/manual reviewed records are preserved.
-- independently rechecked primary records are preserved.
-- person-scoped official agency records are preserved.
+Protected data:
+- AIVTuber-focused records, including records carrying AIV source provenance.
+- community/manual reviewed records.
+- independently rechecked primary records.
+- person-scoped official agency/platform records.
 
 The initial data.js corpus is historical directory-derived data. General
 VTuber/V-liver rows from that corpus are removed unless protected above.
@@ -65,14 +65,44 @@ RISKY_MARKERS = (
     "directory-published",
 )
 
-RISKY_PREFIXES = (
-    "taiwan:",
-    "liverfun:",
+RISKY_PREFIXES = ("taiwan:", "liverfun:")
+
+AIV_MARKERS = (
+    "aiv.nyagsicapp.com",
+    "aituberlist.net",
+    "aituber.web.fc2.com",
+    "kedamasuzume",
+    "aivtuber",
+    "aituber",
+    "aivnav",
 )
 
 
+def strings(value):
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, list):
+        for item in value:
+            yield from strings(item)
+    elif isinstance(value, dict):
+        for item in value.values():
+            yield from strings(item)
+
+
+def aiv_related(row):
+    if row.get("category") == "AIVTuber":
+        return True
+    values = [str(row.get("source_id", ""))]
+    for key, value in row.items():
+        if key.endswith("_source") or key.endswith("_sources") or key in (
+            "source_url", "source_profiles", "activity_source", "activity_evidence"
+        ):
+            values.extend(strings(value))
+    joined = "\n".join(values).lower()
+    return any(marker in joined for marker in AIV_MARKERS)
+
+
 def load_reviewed_ids():
-    # reviewed_sources is authoritative for currently approved additions.
     import sys
     sys.path.insert(0, str(ROOT / "scripts"))
     from reviewed_sources import reviewed_profiles
@@ -87,13 +117,14 @@ def person_scoped_official(row):
         "official" in evidence or "individual" in evidence or row.get("primary_platforms")
     ):
         return True
-    # Direct platform identities that were individually sourced, rather than
-    # imported from a third-party directory, are also retained.
-    if sid.startswith(("iriam:", "reality:", "17live:", "twitch:", "x:")):
+    if sid.startswith(("iriam:", "reality:", "17live:", "twitch:", "x:", "showroom:", "niconico:", "mirrativ:")):
         sources = [row.get("source_url"), row.get("activity_source"), row.get("primary_platform_source")]
-        if any(host(u) in {"web.iriam.app", "reality.app", "17.live", "twitch.tv", "x.com", "twitter.com"} for u in sources):
-            if not any(host(u) in RISKY_HOSTS for u in sources):
-                return True
+        official_hosts = {
+            "web.iriam.app", "reality.app", "17.live", "twitch.tv", "x.com", "twitter.com",
+            "showroom-live.com", "nicovideo.jp", "cas.nicovideo.jp", "mirrativ.com"
+        }
+        if any(host(u) in official_hosts for u in sources) and not any(host(u) in RISKY_HOSTS for u in sources):
+            return True
     return False
 
 
@@ -109,8 +140,6 @@ def risky_added_record(row):
         if isinstance(value, str):
             urls.append(value)
     urls.extend(u for u in row.get("source_profiles", []) if isinstance(u, str))
-    # raw.githubusercontent/codeload are risky here only for known historical
-    # snapshot records, indicated by snapshot/evidence fields.
     for url in urls:
         h = host(url)
         if h in RISKY_HOSTS:
@@ -139,12 +168,10 @@ def main():
 
     reviewed_ids = load_reviewed_ids()
     primary_ids = {r["source_id"] for r in primary}
-    ai_ids = {sid for sid, r in merged.items() if r.get("category") == "AIVTuber"}
+    aiv_ids = {sid for sid, r in merged.items() if aiv_related(r)}
     official_ids = {sid for sid, r in merged.items() if person_scoped_official(r)}
-    protected = reviewed_ids | primary_ids | ai_ids | official_ids
+    protected = reviewed_ids | primary_ids | aiv_ids | official_ids
 
-    # data.js is the historical seed corpus. Keep only independently protected
-    # general identities and all AIVTuber identities.
     removed_base = {r["source_id"] for r in base if r["source_id"] not in protected}
     clean_base = [r for r in base if r["source_id"] not in removed_base]
 
@@ -157,8 +184,6 @@ def main():
             removed_extra.add(sid)
     clean_extra = [r for r in extra if r["source_id"] not in removed_extra]
 
-    # A platform-only row can resurrect a deleted identity in the browser merge,
-    # so remove rows for deleted legacy identities as well.
     removed_platform = set()
     for r in platforms:
         sid = r["source_id"]
@@ -177,22 +202,23 @@ def main():
     for rows in (clean_base, clean_extra, clean_platforms):
         for r in rows:
             surviving_merged.setdefault(r["source_id"], {}).update(r)
-    ai_after = sum(r.get("category") == "AIVTuber" for r in surviving_merged.values())
-    if ai_after < len(ai_ids):
-        raise RuntimeError(f"AIVTuber count would decrease: {len(ai_ids)} -> {ai_after}")
+    aiv_after_ids = {sid for sid, r in surviving_merged.items() if aiv_related(r)}
+    if not aiv_ids <= aiv_after_ids:
+        lost = sorted(aiv_ids - aiv_after_ids)
+        raise RuntimeError(f"AIV-related identities would be lost: {lost[:20]}")
 
     report = {
+        "schema": 1,
         "policy": "remove_legacy_third_party_directory_general_records",
         "protected": {
             "reviewed": len(reviewed_ids),
             "primary_rechecked": len(primary_ids),
-            "aivtuber": len(ai_ids),
+            "aiv_related": len(aiv_ids),
             "person_scoped_official": len(official_ids),
             "unique": len(protected),
         },
         "before": {
-            "base": len(base), "extra": len(extra), "platform": len(platforms),
-            "merged": len(merged),
+            "base": len(base), "extra": len(extra), "platform": len(platforms), "merged": len(merged),
         },
         "removed": {
             "base": len(removed_base), "extra": len(removed_extra), "platform": len(removed_platform),
@@ -200,7 +226,7 @@ def main():
         },
         "after": {
             "base": len(clean_base), "extra": len(clean_extra), "platform": len(clean_platforms),
-            "merged": len(surviving_merged), "aivtuber": ai_after,
+            "merged": len(surviving_merged), "aiv_related": len(aiv_after_ids),
         },
     }
 
