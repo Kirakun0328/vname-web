@@ -108,4 +108,10 @@ test('published data searches and renders a TikTok V-liver without requiring You
  assert.ok(!walk(get('results')).some(e=>/kedamasuzume\/status/.test(e.href||'')));
  get('query').value='存在しない名前XYZ123';vm.runInContext('search()',c);assert.match(get('results').textContent,/見つかりません/);
 
+ for(const name of ['九重いのり','羽姫しおり','桃栗にに','コグレアキ','ふつうのアサリガール','もちりにゃんこ','木乃伊めんま','くれないべあ','椿季ゆず']){
+  assert.ok(vm.runInContext('find('+JSON.stringify(name)+').some(x=>x.r.display_name==='+JSON.stringify(name)+')',c),name);
+ }
+ for(const [oldName,currentName] of [['木乃伊綿巻','木乃伊めんま'],['昏內べあ','くれないべあ'],['椿ユズ','椿季ゆず']])assert.ok(vm.runInContext('find('+JSON.stringify(oldName)+').some(x=>x.r.display_name==='+JSON.stringify(currentName)+')',c),oldName);
+ assert.equal(p.account('https://s.avvy.live/u/01jqw901crpbxrmmapm20a84qa?lang=ja').platform,'avvy');
+
 });

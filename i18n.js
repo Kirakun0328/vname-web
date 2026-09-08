@@ -410,3 +410,12 @@ for(const [jp,values] of Object.entries({
  'この条件では一致する名前が見つかりませんでした。未使用を保証する結果ではありません。':['No matching names under these filters. This does not guarantee a name is unused.','当前条件下没有匹配的名字。这不代表名字尚未被使用。','현재 조건에 일치하는 이름이 없습니다. 미사용을 보장하지는 않습니다.'],
  '一覧のページ':['Creator list pages','创作者列表分页','활동자 목록 페이지']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+for(const [jp,values] of Object.entries({
+ 'まだ掲載されていませんか？':['Not listed yet?','还未收录？','아직 등록되지 않았나요?'],
+ '自分の名前を登録':['Register your name','登记自己的名字','내 이름 등록'],
+ '無料・ログイン不要。Gemma 4 E2Bが公開情報を確認し、問題がなければ掲載します。':['Free, no login required. Gemma 4 E2B reviews public information before listing.','免费，无需登录。Gemma 4 E2B确认公开信息后，若无明显问题即可收录。','무료·로그인 불필요. Gemma 4 E2B가 공개 정보를 검토한 뒤 문제가 없으면 등록합니다.'],
+ '利用者登録・AI確認':['User submission · AI screened','用户登记・AI初审','이용자 등록·AI 검토'],
+ 'Gemma 4 E2Bが登録内容を確認しました。本人確認や情報の正しさを保証するものではありません。':['Gemma 4 E2B screened this submission. This does not verify ownership or guarantee accuracy.','Gemma 4 E2B已初步审核登记内容，但不代表身份已核实或信息保证准确。','Gemma 4 E2B가 등록 내용을 검토했습니다. 본인 확인이나 정보의 정확성을 보장하지 않습니다.'],
+ '利用者登録分を読み込めませんでした。既存の辞書は検索できます。時間をおいて再読み込みしてください。':['User registrations could not be loaded. The existing dictionary is available. Please reload later.','无法加载用户登记内容。仍可搜索现有词典，请稍后刷新。','이용자 등록 내용을 불러오지 못했습니다. 기존 사전은 검색할 수 있습니다. 나중에 새로고침해 주세요.']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);

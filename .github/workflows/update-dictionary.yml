@@ -43,10 +43,13 @@ jobs:
       - name: Fetch V-livers across platforms
         if: github.event_name != 'push'
         run: python scripts/update_platform_dictionary.py
+      - name: Apply verified community additions and renames
+        run: python scripts/update_dictionary.py --reviewed-only
       - name: Validate JavaScript
         run: |
           node --check extra-data.js
           node --check app.js
+          node --check community.js
           node --check platforms.js
           node --check platform-data.js
           node --check naming.js
@@ -65,9 +68,11 @@ jobs:
           fi
       - name: Package public files
         run: |
-          mkdir -p _site/assets
+          mkdir -p _site/assets _site/scripts
           cp index.html app.js data.js extra-data.js platform-data.js platforms.js naming.js name-insights.js ai-model.js site.css naming.css readings.js i18n.js .nojekyll _site/
           cp assets/naming-robot.png _site/assets/
+          cp community.js _site/
+          cp scripts/registration-config.json _site/scripts/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

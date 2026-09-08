@@ -42,6 +42,7 @@ def canonical_account(url):
         ('youtube', ('youtube.com', 'm.youtube.com'), r'/(channel/UC[\w-]{22}|@[\w.\-]+)'),
         ('tiktok', ('tiktok.com',), r'/(@[\w.\-]+)(?:/live)?'),
         ('twitch', ('twitch.tv', 'm.twitch.tv'), r'/([\w]+)'),
+        ('avvy', ('s.avvy.live',), r'/u/([0-9a-hjkmnp-tv-z]{26})'),
         ('iriam', ('web.iriam.app',), r'/s/user/([\w-]+)'),
         ('reality', ('reality.app',), r'/profile/([\w-]+)'),
         ('17live', ('17.live',), r'/s/u/([\w-]+)'),

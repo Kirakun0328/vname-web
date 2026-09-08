@@ -1,0 +1,29 @@
+name: Registration checks
+on:
+  pull_request:
+    paths: ['.github/workflows/registration-checks.yml', 'scripts/review_registrations.py', 'community.js', 'app.js', 'tests/**', 'scripts/reviewed-community-profiles.json']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check dictionary and registration behavior
+        run: |
+          python -m unittest discover -s tests
+          python scripts/update_dictionary.py --reviewed-only
+          node --experimental-vm-modules --test tests/*.cjs
+      - uses: actions/cache@v4
+        with:
+          path: .cache/registration-review
+          key: gemma-e2b-review-b4243c1-llama-b10809-v1
+      - name: Exercise actual Gemma 4 E2B inference without publishing
+        run: python scripts/review_registrations.py --smoke-only
