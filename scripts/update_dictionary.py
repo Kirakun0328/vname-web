@@ -179,7 +179,7 @@ def refresh_ai_only(base, previous, args):
     for r in updated:
         merged.setdefault(r['source_id'], {}).update(r)
     from broad_sources import preparing
-    eligible = [r for r in merged.values() if r.get('listing_status') != 'predebut' and not preparing(r['display_name'])]
+    eligible = [r for r in merged.values() if r.get('display_name') and r.get('listing_status') != 'predebut' and not preparing(r['display_name'])]
     report['aivtuber_records'] = sum(r.get('category') == 'AIVTuber' for r in eligible)
     report['records'] = {'stored': len(merged), 'listed': len(eligible), 'excluded_predebut': len(merged) - len(eligible),
                          'with_activity_source': sum(bool(r.get('activity_source')) for r in eligible)}
@@ -213,7 +213,7 @@ def refresh_reviewed_only(base, previous, args):
     merged = {r['source_id']: dict(r) for r in base}
     for row in [*updated, *platforms]:
         merged.setdefault(row['source_id'], {}).update(row)
-    eligible = [r for r in merged.values() if r.get('listing_status') != 'predebut' and not preparing(r['display_name'])]
+    eligible = [r for r in merged.values() if r.get('display_name') and r.get('listing_status') != 'predebut' and not preparing(r['display_name'])]
     report_path = ROOT / 'scripts/collection-report.json'
     report = json.loads(report_path.read_text()) if report_path.exists() else {}
     report['records'] = {'stored': len(merged), 'listed': len(eligible),
