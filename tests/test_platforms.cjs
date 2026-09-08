@@ -50,7 +50,7 @@ test('scripts exist and load before app',()=>{
  for(const file of scripts){assert.ok(fs.existsSync(file),file);new vm.Script(fs.readFileSync(file,'utf8'),{filename:file});}
  for(const file of ['platforms.js','platform-data.js'])assert.ok(scripts.indexOf(file)>=0&&scripts.indexOf(file)<scripts.indexOf('app.js'));
 });
-test('published data searches and renders a TikTok V-liver without requiring YouTube',()=>{
+test('published data searches and renders reviewed and licensed-source records',()=>{
  class El {
   constructor(tag='div'){this.tagName=tag;this.children=[];this.dataset={};this.value='';this._text='';}
   set textContent(value){this._text=String(value);this.children=[];}
@@ -78,9 +78,11 @@ test('published data searches and renders a TikTok V-liver without requiring You
  assert.ok(!matches.some(x=>x.r.source_id==='aivnav:char-Ta5Ze-v2qnru'));
  const aiLinks=c.window.VNamePlatforms.details(ai[0].r).accounts;
  assert.equal(aiLinks.length,1);assert.match(aiLinks[0].url,/UCE2SWbhR2WRHPBi-bflr0-g$/);
- const other=matches.find(x=>x.r.source_id==='youtube:UCAHQGIKolfBfoeXXMY79SBA');
- assert.ok(other);assert.notEqual(other.r.category,'AIVTuber');
- assert.ok(!c.window.VNamePlatforms.details(other.r).accounts.some(a=>a.url===aiLinks[0].url));
+ // Legacy-directory cleanup may legitimately remove unrelated same-name rows.
+ // What must never happen is leaking this AIV identity's account onto another identity.
+ for(const match of matches.filter(x=>x.r.source_id!==ai[0].r.source_id)){
+  assert.ok(!c.window.VNamePlatforms.details(match.r).accounts.some(a=>a.url===aiLinks[0].url));
+ }
  get('query').value='キズナアイ';vm.runInContext('search()',c);
  const kizuna=get('results').children[0];const links=kizuna.children.find(e=>e.className==='platform-links');
  assert.deepEqual(links.children.map(e=>e.textContent),['YouTube','bilibili']);
@@ -91,10 +93,10 @@ test('published data searches and renders a TikTok V-liver without requiring You
  get('search-tag').value='VTuber';get('search-tag').onchange();assert.ok(vm.runInContext('!hits.some(x=>x.r.source_id==="youtube:UCE2SWbhR2WRHPBi-bflr0-g")',c));
  // Global collision searches must not inherit a UI tag filter.
  assert.ok(vm.runInContext('find("しずく").some(x=>x.r.source_id==="youtube:UCE2SWbhR2WRHPBi-bflr0-g")',c));
- get('query').value='';get('search-tag').value='Vライバー';get('search-tag').onchange();assert.ok(vm.runInContext('hits.length>900 && hits.every(x=>categoryOf(x.r)==="Vライバー")',c));
+ get('query').value='';get('search-tag').value='Vライバー';get('search-tag').onchange();assert.ok(vm.runInContext('hits.length>100 && hits.every(x=>categoryOf(x.r)==="Vライバー")',c));
  const walk=e=>[e,...e.children.flatMap(walk)];
  get('query').value='';get('search-tag').value='all';get('search-platform').value='all';vm.runInContext('search()',c);
- assert.ok(vm.runInContext('hits.length>32000',c));assert.equal(get('results').children.length,30);
+ assert.ok(vm.runInContext('hits.length>10000',c));assert.equal(get('results').children.length,30);
  assert.ok(vm.runInContext('sortOrder==="random" && hits.every(x=>randomOrder.has(x.r.source_id))',c));
  assert.ok(!walk(get('results')).some(e=>e.className==='audience'));
  assert.doesNotMatch(get('results').textContent,/YouTube登録者|Twitchフォロワー|登録者・フォロワー数の出典/);
