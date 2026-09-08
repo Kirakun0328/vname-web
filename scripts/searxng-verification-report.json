@@ -1,17 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-08T19:25:24.841213+00:00",
-  "candidates_total": 189,
-  "attempted_this_run": 57,
-  "verified_this_run": 21,
-  "new_public_records": 13,
-  "existing_records_enriched": 8,
+  "updated_at": "2026-09-08T19:27:26.523129+00:00",
+  "candidates_total": 236,
+  "attempted_this_run": 48,
+  "verified_this_run": 11,
+  "new_public_records": 7,
+  "existing_records_enriched": 4,
   "statuses": {
-    "verified": 21,
-    "no_direct_vtuber_evidence": 16,
-    "fan_or_clip_channel": 18,
-    "unavailable:HTTPError": 1,
-    "ended": 1
+    "unavailable:HTTPError": 2,
+    "verified": 11,
+    "no_direct_vtuber_evidence": 11,
+    "fan_or_clip_channel": 24
   },
   "policy": "SearXNG discovery only; publication requires direct public creator/profile verification."
 }
