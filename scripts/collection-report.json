@@ -2,10 +2,10 @@
   "status": "reviewed_only_for_general_vtuber_and_vliver",
   "updated_at": "2026-09-09",
   "records": {
-    "stored": 33597,
-    "listed": 33579,
+    "stored": 33576,
+    "listed": 33558,
     "excluded_predebut": 18,
-    "with_activity_source": 10227
+    "with_activity_source": 10206
   },
   "aivtuber_records": 322,
   "general_bulk_ingestion": {
@@ -22,5 +22,11 @@
   "notes": [
     "Historical third-party collection statistics were removed because they are no longer used by the active publishing workflow.",
     "Existing dictionary records are being rechecked against individual public profiles over time."
-  ]
+  ],
+  "platform_expansion": {
+    "source_records": 353,
+    "new_records": 0,
+    "matched_existing": 353,
+    "ambiguous_skipped": 0
+  }
 }
