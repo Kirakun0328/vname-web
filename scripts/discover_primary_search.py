@@ -8,6 +8,7 @@ import argparse
 import datetime
 import json
 import os
+import re
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -16,31 +17,46 @@ from platform_sources import canonical_account
 
 ROOT = Path(__file__).resolve().parents[1]
 
-QUERIES = [
+SPECIALTIES = [
+    # medicine / wellbeing
+    '医療', '医師', '看護師', '薬剤師', '歯科', '栄養士', '心理学', 'カウンセラー', 'メンタルヘルス',
+    # law / business / money
+    '法律', '弁護士', '行政書士', '司法書士', '税理士', '会計士', 'FP', '経営', 'マーケティング', '起業',
+    # school / scholarship
+    '教育', '教師', '数学', '物理', '化学', '生物', '地理', '日本史', '世界史', '英語', '日本語', '古典',
+    '研究者', '科学', '宇宙', '天文', '地学', '恐竜', '昆虫', '海洋', '気象',
+    # technology / making
+    'エンジニア', 'プログラミング', 'AI', '機械学習', 'データサイエンス', 'サイバーセキュリティ',
+    'Linux', 'VR', 'XR', 'Unity', 'Unreal Engine', 'Blender', '3DCG', '電子工作', 'ロボット',
+    # creative fields
+    'イラスト', '漫画', 'アニメ', '小説', '作曲', 'DTM', 'ボカロ', '音楽', 'ピアノ', 'ギター', '声優',
+    # culture / humanities
+    '美術', '博物館', '学芸員', '考古学', '民俗学', '神話', '哲学', '文学', '言語学',
+    # hobbies / industry
+    '鉄道', '航空', '船', '車', 'バイク', '旅行', '温泉', 'キャンプ', '登山', '釣り', '料理', 'お酒',
+    'コーヒー', '農業', '園芸', '競馬', '麻雀', '将棋', '囲碁', 'チェス', 'TRPG', 'ボードゲーム',
+    # games / niche fandoms
+    'レトロゲーム', '格ゲー', 'FPS', 'RTA', '音ゲー', 'カードゲーム', 'ポケモン', 'Minecraft',
+    # multilingual / regional
+    '英語学習', '中国語', '韓国語', 'スペイン語', 'フランス語', 'ドイツ語', '地方創生', 'ご当地',
+    'indie', 'science', 'history', 'programming', 'cybersecurity', 'medical', 'law', 'education', 'railway',
+]
+
+BASE_QUERIES = [
     'site:youtube.com/@ "VTuber"',
     'site:youtube.com/@ "新人VTuber"',
     'site:youtube.com/@ "個人勢VTuber"',
     'site:youtube.com/@ "Vライバー"',
     'site:youtube.com/@ "バーチャルYouTuber"',
     'site:youtube.com/@ "indie vtuber"',
-    'site:youtube.com/@ "virtual youtuber"',
-    'site:youtube.com/@ "EN VTuber"',
-    'site:youtube.com/@ "VTuber español"',
-    'site:youtube.com/@ "VTuber Indonesia"',
     'site:youtube.com/channel "VTuber"',
-    'site:youtube.com/channel "virtual youtuber"',
     'site:twitch.tv "VTuber"',
-    'site:twitch.tv "Vtuber streamer"',
-    'site:twitch.tv "個人勢VTuber"',
     'site:tiktok.com/@ "VTuber"',
-    'site:tiktok.com/@ "Vライバー"',
     'site:web.iriam.app/s/user "IRIAM"',
     'site:web.iriam.app/s/user "Vライバー"',
     'site:reality.app/profile "REALITY"',
-    'site:reality.app/profile "Vライバー"',
     'site:s.avvy.live/u "Avvy"',
     'site:showroom-live.com "VTuber"',
-    'site:showroom-live.com "Vライバー"',
     'site:17.live/profile "Vライバー"',
     'site:17.live/s/u "Vライバー"',
     'site:mirrativ.com/user "Vライバー"',
@@ -55,13 +71,40 @@ QUERIES = [
     'site:kick.com "VTuber"',
 ]
 
+# YouTube-engine searches find specialist videos better than channel-page-only
+# web queries. Each video is only a lead; the verifier resolves it to the
+# uploader channel and confirms that channel directly.
+QUERIES = BASE_QUERIES + [query for specialty in SPECIALTIES for query in (
+    f'!yt "{specialty}" VTuber',
+    f'site:youtube.com/@ "{specialty}" VTuber',
+)]
+
+VIDEO_RE = re.compile(r'^[\w-]{11}$')
+
 
 def candidate_url(value):
-    account = canonical_account(value) if isinstance(value, str) else None
+    if not isinstance(value, str):
+        return None
+    try:
+        u = urllib.parse.urlsplit(value)
+    except ValueError:
+        return None
+    host = (u.hostname or '').lower().removeprefix('www.').removeprefix('m.')
+    if u.scheme != 'https' or u.username or u.password:
+        return None
+    if host == 'youtube.com':
+        path = urllib.parse.unquote(u.path).rstrip('/')
+        if path == '/watch':
+            video = urllib.parse.parse_qs(u.query).get('v', [''])[0]
+            return 'https://www.youtube.com/watch?v=' + video if VIDEO_RE.fullmatch(video) else None
+        match = re.fullmatch(r'/shorts/([\w-]{11})', path)
+        if match:
+            return 'https://www.youtube.com/shorts/' + match.group(1)
+    account = canonical_account(value)
     if not account:
         return None
-    # X/Instagram/Facebook are useful discovery leads but are poor automated
-    # publication evidence because their public HTML is frequently unavailable.
+    # X/Instagram/Facebook are useful manual leads but weak unattended primary
+    # verification targets because their public HTML is frequently unavailable.
     if account['platform'] in {'x', 'instagram', 'facebook', 'bilibili', 'acfun'}:
         return None
     return account['url']
@@ -90,7 +133,7 @@ def extract(results, query, stamp):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--limit', type=int, default=8, help='number of query families this run')
+    parser.add_argument('--limit', type=int, default=12, help='number of query families this run')
     parser.add_argument('--pages', type=int, default=1, help='SearXNG pages per query, max 5')
     args = parser.parse_args()
     endpoint = os.environ.get('SEARXNG_URL', '').strip()
@@ -130,7 +173,7 @@ def main():
                 'safesearch': 0,
             })
             try:
-                request = urllib.request.Request(url, headers={'User-Agent': 'VName-primary-discovery/2.0'})
+                request = urllib.request.Request(url, headers={'User-Agent': 'VName-primary-discovery/3.0'})
                 with urllib.request.urlopen(request, timeout=25) as response:
                     raw = response.read(3 * 1024 * 1024 + 1)
                 if len(raw) > 3 * 1024 * 1024:
@@ -143,7 +186,6 @@ def main():
                     if row['url'] not in queue:
                         queue[row['url']] = row
                         new_count += 1
-                # Empty later pages usually mean there is nothing more to gain.
                 if not data['results']:
                     break
             except (OSError, ValueError, TypeError, json.JSONDecodeError) as error:
@@ -158,13 +200,15 @@ def main():
     report.update(
         status=status,
         updated_at=stamp,
+        query_catalog_size=len(QUERIES),
+        specialty_count=len(SPECIALTIES),
         query_requests=searched,
         query_families_attempted=limit,
         pages_per_query=pages,
         new_candidates=new_count,
         total_candidates=len(queue),
         auto_published=0,
-        scope='Search leads only; direct profile fetch and identity/activity confirmation required before publication.',
+        scope='Search/video leads only; direct creator profile fetch and identity/activity confirmation required before publication.',
     )
     for path, data in ((queue_path, list(queue.values())), (report_path, report)):
         tmp = path.with_suffix('.tmp')
