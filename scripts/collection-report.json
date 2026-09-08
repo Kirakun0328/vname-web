@@ -382,8 +382,8 @@
   },
   "platform_expansion": {
     "source_records": 353,
-    "new_records": 146,
-    "matched_existing": 207,
+    "new_records": 0,
+    "matched_existing": 353,
     "ambiguous_skipped": 0
   }
 }
