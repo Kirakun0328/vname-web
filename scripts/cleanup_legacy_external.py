@@ -6,6 +6,7 @@ Protected data:
 - independently rechecked primary records.
 - person-scoped official agency/platform records.
 - external datasets with explicit reuse licenses recorded below.
+- user-edited encyclopedia references (Pixiv Encyclopedia / Niconico Pedia).
 
 The initial data.js corpus is historical directory-derived data. General
 VTuber/V-liver rows from that corpus are removed unless protected above.
@@ -68,6 +69,15 @@ REUSABLE = {
     },
 }
 
+# These are preserved as source-linked references, not classified as reusable
+# database licenses by this cleanup rule.
+REFERENCE_PRESERVED = {
+    "user_encyclopedia": {
+        "markers": ("dic.pixiv.net", "dic.nicovideo.jp"),
+        "reason": "user-edited encyclopedia reference; preserve source-linked identity records",
+    },
+}
+
 RISKY_HOSTS = {
     "vtuber-post.com",
     "virtual-youtuber.userlocal.jp",
@@ -115,6 +125,11 @@ def reusable_family(row):
     return next((name for name, meta in REUSABLE.items() if any(m in joined for m in meta["markers"])), None)
 
 
+def reference_family(row):
+    joined = provenance_text(row)
+    return next((name for name, meta in REFERENCE_PRESERVED.items() if any(m in joined for m in meta["markers"])), None)
+
+
 def aiv_related(row):
     if row.get("category") == "AIVTuber":
         return True
@@ -145,7 +160,7 @@ def person_scoped_official(row):
 
 
 def risky_added_record(row):
-    if reusable_family(row):
+    if reusable_family(row) or reference_family(row):
         return False
     if row.get("source_id", "").startswith(RISKY_PREFIXES):
         return True
@@ -182,8 +197,9 @@ def main():
     primary_ids = {r["source_id"] for r in primary}
     aiv_ids = {sid for sid, r in merged.items() if aiv_related(r)}
     reusable_ids = {sid for sid, r in merged.items() if reusable_family(r)}
+    reference_ids = {sid for sid, r in merged.items() if reference_family(r)}
     official_ids = {sid for sid, r in merged.items() if person_scoped_official(r)}
-    protected = reviewed_ids | primary_ids | aiv_ids | reusable_ids | official_ids
+    protected = reviewed_ids | primary_ids | aiv_ids | reusable_ids | reference_ids | official_ids
     protected_preexisting = protected & preexisting_ids
 
     removed_base = {r["source_id"] for r in base if r["source_id"] not in protected}
@@ -218,18 +234,26 @@ def main():
             surviving_merged.setdefault(r["source_id"], {}).update(r)
     aiv_after_ids = {sid for sid, r in surviving_merged.items() if aiv_related(r)}
     reusable_after_ids = {sid for sid, r in surviving_merged.items() if reusable_family(r)}
+    reference_after_ids = {sid for sid, r in surviving_merged.items() if reference_family(r)}
     if not aiv_ids <= aiv_after_ids:
         raise RuntimeError(f"AIV-related identities would be lost: {sorted(aiv_ids - aiv_after_ids)[:20]}")
     if not reusable_ids <= reusable_after_ids:
         raise RuntimeError(f"Explicitly reusable dataset identities would be lost: {sorted(reusable_ids - reusable_after_ids)[:20]}")
+    if not reference_ids <= reference_after_ids:
+        raise RuntimeError(f"Encyclopedia-referenced identities would be lost: {sorted(reference_ids - reference_after_ids)[:20]}")
 
     reusable_counts = {}
     for sid in reusable_ids:
         family = reusable_family(merged[sid])
         reusable_counts[family] = reusable_counts.get(family, 0) + 1
 
+    reference_counts = {}
+    for sid in reference_ids:
+        family = reference_family(merged[sid])
+        reference_counts[family] = reference_counts.get(family, 0) + 1
+
     report = {
-        "schema": 2,
+        "schema": 3,
         "policy": "remove_only_legacy_external_data_without_clear_reuse_terms",
         "protected": {
             "reviewed": len(reviewed_ids),
@@ -238,10 +262,13 @@ def main():
             "aiv_related": len(aiv_ids),
             "explicitly_reusable_dataset": len(reusable_ids),
             "reusable_by_family": reusable_counts,
+            "user_encyclopedia_reference": len(reference_ids),
+            "reference_by_family": reference_counts,
             "person_scoped_official": len(official_ids),
             "unique_preexisting": len(protected_preexisting),
         },
         "reusable_licenses": REUSABLE,
+        "reference_preservation": REFERENCE_PRESERVED,
         "before": {"base": len(base), "extra": len(extra), "platform": len(platforms), "merged": len(merged)},
         "removed": {
             "base": len(removed_base), "extra": len(removed_extra), "platform": len(removed_platform),
@@ -251,10 +278,11 @@ def main():
             "base": len(clean_base), "extra": len(clean_extra), "platform": len(clean_platforms),
             "merged": len(surviving_merged), "aiv_related": len(aiv_after_ids),
             "explicitly_reusable_dataset": len(reusable_after_ids),
+            "user_encyclopedia_reference": len(reference_after_ids),
         },
     }
 
-    write_js(base_path, "VTUBER_DATA", clean_base, "// Retained licensed/reviewed/official identity seed records; unclear legacy directory-only rows removed.")
+    write_js(base_path, "VTUBER_DATA", clean_base, "// Retained licensed/reviewed/official/encyclopedia-referenced identity seed records; unclear legacy directory-only rows removed.")
     write_js(extra_path, "VTUBER_EXTRA", clean_extra, "// Additive source-linked records; unclear legacy directory-only rows removed.")
     if platform_path.exists():
         write_js(platform_path, "VTUBER_PLATFORMS", clean_platforms, "// Public platform metadata; unclear legacy directory-only rows removed.")
