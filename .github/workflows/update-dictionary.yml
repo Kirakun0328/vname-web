@@ -39,6 +39,8 @@ jobs:
           python-version: '3.12'
       - name: Test updater safeguards
         run: python -m unittest discover -s tests
+      - name: Audit legacy external provenance
+        run: python scripts/audit_legacy_external_data.py
       - name: Apply individually reviewed additions and corrections
         run: python scripts/update_dictionary.py --reviewed-only
       - name: Discover primary-source candidates with configured SearXNG
@@ -72,10 +74,10 @@ jobs:
           node --check i18n.js
       - name: Commit dictionary changes
         run: |
-          if ! git diff --quiet -- scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json estimated-readings.js scripts/audience-report.json)"; then
+          if ! git diff --quiet -- scripts/legacy-data-audit.json scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/legacy-data-audit.json scripts/collection-report.json estimated-readings.js scripts/audience-report.json)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
+            git add scripts/legacy-data-audit.json scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
             git commit -m 'Update reviewed dictionary records'
             git push origin HEAD:main
           fi
