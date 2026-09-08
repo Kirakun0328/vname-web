@@ -115,6 +115,8 @@ jobs:
           else
             python scripts/verify_searxng_candidates.py --limit 300 --workers 5
           fi
+      - name: Recount dictionary after imports
+        run: python scripts/recount_dictionary.py
       - name: Recheck individual official profiles
         run: python scripts/reverify_primary.py ${{ github.event_name == 'push' && '--offline' || '--limit 40' }}
       - uses: actions/cache@v4
