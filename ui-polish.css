@@ -36,21 +36,23 @@
 .tool-github-button:hover{background:#e9edf5!important;color:#32405a!important}
 
 /* Trends dashboard */
-#panel-trends.trends-panel{position:relative;overflow:hidden;padding:34px;background:linear-gradient(180deg,#fff 0,#fbfcff 100%);border-color:#dfe5f2}
+#panel-trends.trends-panel{position:relative;overflow:hidden;padding:34px;background:linear-gradient(180deg,#fff 0,#fbfcff 100%);border-color:#dfe5f2;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:24px;align-items:start}
 #panel-trends.trends-panel::before{content:"";position:absolute;inset:0 0 auto;height:5px;background:linear-gradient(90deg,#5269e8,#8c79e8,#72b9dd)}
-#panel-trends>.section-label{display:inline-flex;align-items:center;min-height:26px;margin:0 0 10px;padding:5px 10px;border-radius:999px;background:#eef1ff;color:#586cce;font-size:10px;letter-spacing:.14em}
-#panel-trends>h2{font-size:clamp(25px,3vw,34px);letter-spacing:-.04em;color:#26375d}
-#panel-trends>.lead{max-width:760px;margin-top:9px;color:#69788f;font-size:14px;line-height:1.8}
+#panel-trends>.section-label{grid-column:1;grid-row:1;display:inline-flex;align-items:center;justify-self:start;min-height:26px;margin:0 0 10px;padding:5px 10px;border-radius:999px;background:#eef1ff;color:#586cce;font-size:10px;letter-spacing:.14em}
+#panel-trends>h2{grid-column:1;grid-row:2;font-size:clamp(25px,3vw,34px);letter-spacing:-.04em;color:#26375d}
+#panel-trends>.lead{grid-column:1;grid-row:3;max-width:760px;margin-top:9px;color:#69788f;font-size:14px;line-height:1.8}
+#trend-consult{grid-column:2;grid-row:1/4;align-self:start;justify-self:end;margin:0;min-height:46px;white-space:nowrap;background:#5269e8;color:#fff;border-color:#5269e8;box-shadow:0 5px 14px #5269e81f}
+#trend-consult:hover:not(:disabled){background:#4258d4}
 
 /* Treat the two filter rows as one filter block. */
-#panel-trends .insight-toolbar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:0;padding:0 18px;background:#f5f7fc;border-left:1px solid #e1e6f0;border-right:1px solid #e1e6f0}
-#panel-trends .insight-toolbar:first-of-type{margin-top:26px;padding-top:18px;border-top:1px solid #e1e6f0;border-radius:18px 18px 0 0}
-#panel-trends .insight-toolbar:nth-of-type(2){padding-top:12px;padding-bottom:18px;border-bottom:1px solid #e1e6f0;border-radius:0 0 18px 18px}
+#panel-trends .insight-toolbar{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:0;padding:0 18px;background:#f5f7fc;border-left:1px solid #e1e6f0;border-right:1px solid #e1e6f0}
+#panel-trends .insight-toolbar:first-of-type{grid-row:4;margin-top:26px;padding-top:18px;border-top:1px solid #e1e6f0;border-radius:18px 18px 0 0}
+#panel-trends .insight-toolbar:nth-of-type(2){grid-row:5;padding-top:12px;padding-bottom:18px;border-bottom:1px solid #e1e6f0;border-radius:0 0 18px 18px}
 #panel-trends .insight-toolbar>div{min-width:0}
 #panel-trends .insight-toolbar label{margin:0 0 6px;font-size:12px;color:#657189}
 #panel-trends .insight-toolbar select,#panel-trends .insight-toolbar input{width:100%;min-height:46px;border:1px solid #d6ddeb;border-radius:11px;background:#fff;color:#35435e;padding:10px 12px}
 #panel-trends .insight-toolbar button{align-self:end;min-height:46px}
-#trend-content{margin-top:26px}
+#trend-content{grid-column:1/-1;grid-row:6;margin-top:26px}
 
 /* High-level metrics first */
 #panel-trends .insight-stats{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin-bottom:20px}
@@ -75,9 +77,8 @@
 #panel-trends .insight-card td:nth-child(n+2),#panel-trends .insight-card th:nth-child(n+2){text-align:right;font-variant-numeric:tabular-nums}
 #panel-trends .insight-card td button{padding:4px 8px;border-radius:7px;background:#f1f3fb;color:#4c62c8;font-size:12px;font-weight:700}
 #panel-trends .insight-card td button:hover{background:#e7ebfb;color:#3d52b4}
-#panel-trends>.trend-note{margin:20px 0 0;padding:14px 16px;border-radius:13px;background:#f6f7fb;color:#79859a;font-size:11px;line-height:1.8}
+#panel-trends>.trend-note{grid-column:1/-1;grid-row:7;margin:20px 0 0;padding:14px 16px;border-radius:13px;background:#f6f7fb;color:#79859a;font-size:11px;line-height:1.8}
 #trend-content>.trend-note{margin:14px 0 0;color:#7e899b;font-size:11px}
-#trend-consult{margin-top:16px}
 
 @media(max-width:980px){
   .community-card--split{grid-template-columns:minmax(0,1.45fr) minmax(280px,.85fr)}
@@ -95,8 +96,16 @@
   .tool-promo-body{padding:22px!important}
   .tool-promo-actions{flex-direction:column}
   .tool-promo-actions .community-button{width:100%}
-  #panel-trends.trends-panel{padding:22px 18px}
+  #panel-trends.trends-panel{padding:22px 18px;grid-template-columns:1fr;column-gap:0}
+  #panel-trends>.section-label{grid-column:1;grid-row:1}
+  #panel-trends>h2{grid-column:1;grid-row:2}
+  #panel-trends>.lead{grid-column:1;grid-row:3}
+  #trend-consult{grid-column:1;grid-row:4;justify-self:stretch;width:100%;margin-top:16px;white-space:normal}
   #panel-trends .insight-toolbar,#panel-trends .insight-toolbar:first-of-type,#panel-trends .insight-toolbar:nth-of-type(2){grid-template-columns:1fr;padding-left:14px;padding-right:14px}
+  #panel-trends .insight-toolbar:first-of-type{grid-row:5}
+  #panel-trends .insight-toolbar:nth-of-type(2){grid-row:6}
+  #trend-content{grid-row:7}
+  #panel-trends>.trend-note{grid-row:8}
   #panel-trends .insight-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
   #panel-trends .insight-stat{min-height:92px;padding:13px 12px}
   #panel-trends .insight-grid{grid-template-columns:1fr;gap:12px}
