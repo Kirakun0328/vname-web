@@ -113,7 +113,9 @@ def api(method='GET', payload=None):
     token_url += ('&' if '?' in token_url else '?') + 'audience=vname-registration-review'
     req = urllib.request.Request(token_url, headers={'Authorization': 'Bearer '+os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
     with urllib.request.urlopen(req, timeout=20) as response: token = json.load(response)['value']
-    req = urllib.request.Request(endpoint, method=method, data=json.dumps(payload).encode() if payload is not None else None, headers={'Authorization': 'Bearer '+token, 'Content-Type': 'application/json'})
+    # The hosting gateway reserves Authorization for its own authentication.
+    # The application independently verifies this GitHub OIDC token.
+    req = urllib.request.Request(endpoint, method=method, data=json.dumps(payload).encode() if payload is not None else None, headers={'X-VName-Review-Token': token, 'Content-Type': 'application/json'})
     with urllib.request.urlopen(req, timeout=30) as response: return json.load(response)
 
 
