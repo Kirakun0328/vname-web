@@ -97,3 +97,24 @@
 .record-details>summary{font-size:13px;min-height:40px}
 .result:has(.record-details[open]){grid-column:1/-1}
 }
+
+/* Developer tools: preserve the supplied artwork at its original aspect ratio. */
+.creator-tools{margin:32px 0}
+.creator-tools-heading{margin-bottom:18px}
+.creator-tools-heading h2{font-size:24px;line-height:1.5;margin:8px 0}
+.tool-promo{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);border:1px solid #dadfee;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 6px 24px #26325408}
+.tool-promo-image{display:flex;align-items:center;background:#070713}
+.tool-promo-image img{display:block;width:100%;height:auto}
+.tool-promo-image:focus-visible{outline:4px solid #9f88f0;outline-offset:-4px}
+.tool-promo-body{padding:28px;align-self:center;min-width:0}
+.tool-promo-body h3{font-size:27px;margin:0 0 10px;color:#27334d}
+.tool-promo-body p{font-size:15px;line-height:1.9;color:#596780}
+.tool-promo-body .tool-promo-lead{font-size:20px;font-weight:700;color:#49358c;line-height:1.5}
+.tool-promo-body .community-button{margin-top:12px;min-height:48px}
+@media(max-width:700px){
+.creator-tools-heading h2{font-size:21px}
+.tool-promo{grid-template-columns:1fr;border-radius:18px}
+.tool-promo-body{padding:22px}
+.tool-promo-body h3{font-size:24px}
+.tool-promo-body .community-button{display:flex;justify-content:center;width:100%;box-sizing:border-box}
+}

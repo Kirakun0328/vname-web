@@ -88,7 +88,7 @@ jobs:
         run: |
           mkdir -p _site/assets _site/scripts
           cp DATA_SOURCES.md primary-data.js index.html app.js data.js extra-data.js estimated-readings.js platform-data.js platforms.js naming.js name-insights.js ai-model.js site.css naming.css readings.js i18n.js .nojekyll _site/
-          cp assets/naming-robot.png _site/assets/
+          cp assets/naming-robot.png assets/text-to-vrma.png _site/assets/
           cp community.js _site/
           cp scripts/registration-config.json _site/scripts/
       - uses: actions/upload-pages-artifact@v3
