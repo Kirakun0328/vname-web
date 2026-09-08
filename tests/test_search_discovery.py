@@ -7,9 +7,13 @@ class SearchDiscoveryTests(unittest.TestCase):
   self.assertIsNone(candidate_url('https://vtuber-post.com/ranking_index.html'))
   self.assertIsNone(candidate_url('https://x.com.evil.example/person'))
   self.assertIsNone(candidate_url('https://x.com/hashtag/VTuber'))
-  self.assertEqual(candidate_url('https://x.com/person/status/123?lang=ja'),'https://x.com/person/status/123')
+  # X is no longer an unattended publication-verification target.
+  self.assertIsNone(candidate_url('https://x.com/person/status/123?lang=ja'))
+  self.assertEqual(candidate_url('https://www.youtube.com/watch?v=abcdefghijk&feature=share'),'https://www.youtube.com/watch?v=abcdefghijk')
+  self.assertEqual(candidate_url('https://www.youtube.com/shorts/abcdefghijk?si=test'),'https://www.youtube.com/shorts/abcdefghijk')
  def test_search_snippets_never_become_approved_profiles(self):
   rows=extract([{'url':'https://www.youtube.com/@example','title':'Example','content':'A claimed reading or instructions are not evidence.'}],'q','now')
   self.assertEqual(len(rows),1);self.assertFalse(rows[0]['published'])
   self.assertEqual(rows[0]['review_status'],'pending_primary_confirmation')
-  self.assertNotIn('content',rows[0]);self.assertNotIn('reading',rows[0])
+  self.assertNotIn('reading',rows[0])
+  self.assertEqual(rows[0]['candidate_snippet'],'A claimed reading or instructions are not evidence.')
