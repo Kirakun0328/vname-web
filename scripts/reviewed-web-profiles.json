@@ -1,0 +1,141 @@
+[
+  {
+    "source_id": "primary:note:merino_ora:n29a4ab858614",
+    "display_name": "芽里乃おら",
+    "category": "VTuber",
+    "source_url": "https://note.com/merino_ora/n/n29a4ab858614",
+    "name_source": "https://note.com/merino_ora/n/n29a4ab858614",
+    "activity_source": "https://note.com/merino_ora/n/n29a4ab858614",
+    "activity_evidence": "self_reported_past_vtuber_activity",
+    "last_checked": "2026-09-08",
+    "primary_platform": "twitch",
+    "platform_accounts": [
+      {
+        "platform": "twitch",
+        "id": "merino_ora",
+        "url": "https://twitch.tv/merino_ora"
+      }
+    ],
+    "reading": "めりのおら",
+    "reading_source": "https://note.com/merino_ora/n/n29a4ab858614",
+    "reading_source_kind": "profile_explicit"
+  },
+  {
+    "source_id": "primary:note:mokzcat:n7244c399f0a7",
+    "display_name": "mokz",
+    "category": "VTuber",
+    "source_url": "https://note.com/mokzcat/n/n7244c399f0a7",
+    "name_source": "https://note.com/mokzcat/n/n7244c399f0a7",
+    "activity_source": "https://note.com/mokzcat/n/n7244c399f0a7",
+    "activity_evidence": "self_reported_past_vtuber_activity",
+    "last_checked": "2026-09-08",
+    "primary_platform": "youtube",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@mokz",
+        "url": "https://youtube.com/@mokz"
+      },
+      {
+        "platform": "youtube",
+        "id": "@mokzcat",
+        "url": "https://youtube.com/@mokzcat"
+      },
+      {
+        "platform": "x",
+        "id": "mkz_cb",
+        "url": "https://x.com/mkz_cb"
+      }
+    ],
+    "reading": "もくず",
+    "reading_source": "https://note.com/mokzcat/n/n7244c399f0a7",
+    "reading_source_kind": "profile_explicit"
+  },
+  {
+    "source_id": "primary:note:rapha_reality:n4a8b4b7ba44d",
+    "display_name": "らふぁえる",
+    "category": "Vライバー",
+    "source_url": "https://note.com/rapha_reality/n/n4a8b4b7ba44d",
+    "name_source": "https://note.com/rapha_reality/n/n4a8b4b7ba44d",
+    "activity_source": "https://note.com/rapha_reality/n/n4a8b4b7ba44d",
+    "activity_evidence": "self_reported_past_vtuber_activity",
+    "last_checked": "2026-09-08",
+    "primary_platform": "colorsing",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "5ff2adfe-1908-45c2-badd-c3d2f8fcee65",
+        "url": "https://web.colorsing.com/share/user?user_id=5ff2adfe-1908-45c2-badd-c3d2f8fcee65"
+      },
+      {
+        "platform": "reality",
+        "id": "7eb7d3a5",
+        "url": "https://reality.app/profile/7eb7d3a5"
+      },
+      {
+        "platform": "x",
+        "id": "rapha_reality",
+        "url": "https://x.com/rapha_reality"
+      }
+    ],
+    "reading": "らふぁえる",
+    "reading_source": "https://note.com/rapha_reality/n/n4a8b4b7ba44d",
+    "reading_source_kind": "profile_explicit"
+  },
+  {
+    "source_id": "youtube:UCdRRIOzmYL7LHLVqHcfCN1Q",
+    "display_name": "常世モコ",
+    "category": "VTuber",
+    "source_url": "https://note.com/moko_tokoyo/n/n9e26a3ed6652",
+    "name_source": "https://note.com/moko_tokoyo/n/n9e26a3ed6652",
+    "activity_source": "https://note.com/moko_tokoyo/n/n9e26a3ed6652",
+    "activity_evidence": "self_reported_past_vtuber_activity",
+    "last_checked": "2026-09-08",
+    "primary_platform": "youtube",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCdRRIOzmYL7LHLVqHcfCN1Q",
+        "url": "https://youtube.com/channel/UCdRRIOzmYL7LHLVqHcfCN1Q"
+      },
+      {
+        "platform": "youtube",
+        "id": "@moko_tokoyo",
+        "url": "https://youtube.com/@moko_tokoyo"
+      },
+      {
+        "platform": "x",
+        "id": "moko_tokoyo",
+        "url": "https://x.com/moko_tokoyo"
+      }
+    ]
+  },
+  {
+    "source_id": "primary:note:reality_official:nd7e2312e83de",
+    "display_name": "ぷりんせす",
+    "category": "Vライバー",
+    "source_url": "https://note.com/reality_official/n/nd7e2312e83de",
+    "name_source": "https://note.com/reality_official/n/nd7e2312e83de",
+    "activity_source": "https://note.com/reality_official/n/nd7e2312e83de",
+    "activity_evidence": "official_interview_past_streaming",
+    "last_checked": "2026-09-08",
+    "primary_platform": "reality",
+    "reading": "ぷりんせす",
+    "reading_source": "https://note.com/reality_official/n/nd7e2312e83de",
+    "reading_source_kind": "profile_explicit"
+  },
+  {
+    "source_id": "primary:note:reality_official:n58034220342b",
+    "display_name": "れおにゃん",
+    "category": "Vライバー",
+    "source_url": "https://note.com/reality_official/n/n58034220342b",
+    "name_source": "https://note.com/reality_official/n/n58034220342b",
+    "activity_source": "https://note.com/reality_official/n/n58034220342b",
+    "activity_evidence": "official_interview_past_streaming",
+    "last_checked": "2026-09-08",
+    "primary_platform": "reality",
+    "reading": "れおにゃん",
+    "reading_source": "https://note.com/reality_official/n/n58034220342b",
+    "reading_source_kind": "profile_explicit"
+  }
+]
