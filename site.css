@@ -42,3 +42,5 @@
 .record-details,.record-details .fields{font-size:14px;color:#626f85}
 .text-filters button{font-size:14px}
 @media(max-width:680px){.community-actions{grid-template-columns:1fr;gap:14px}.community-card{padding:22px}.community-card h2{font-size:21px}.community-links{flex-direction:column}.community-button{width:100%}}
+
+.request-shortcut{display:inline-flex;align-items:center;justify-content:center;min-height:48px;margin-top:16px;padding:12px 22px;border:1px solid #6750b8;border-radius:12px;background:#6750b8;color:#fff;font-size:17px;font-weight:700;line-height:1.5;text-decoration:none;box-shadow:0 4px 12px #6750b824}.request-shortcut:hover{background:#56409e;border-color:#56409e}.request-shortcut:focus-visible{outline:3px solid #9b82e6;outline-offset:4px}@media(max-width:600px){.request-shortcut{width:100%;box-sizing:border-box}}
