@@ -14,6 +14,7 @@ def reviewed_profiles():
         'reviewed-community-submissions-2026-09-09-2.json',
         'reviewed-platform-expansion-2026-09-09.json',
         'reviewed-platform-expansion-2026-09-09-2.json',
+        'reviewed-platform-expansion-2026-09-09-3.json',
         'reviewed-encyclopedia-profiles.json',
         'reviewed-web-profiles.json',
         'reviewed-deep-web-profiles.json',
