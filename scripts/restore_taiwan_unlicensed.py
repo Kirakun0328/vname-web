@@ -223,9 +223,17 @@ def main():
     current_extra = read_js(extra_path, "VTUBER_EXTRA")
     by_id = {row["source_id"]: dict(row) for row in current_extra}
     added = 0
-    for sid, row in licensed_rows.items():
+    for sid, licensed_row in licensed_rows.items():
         if sid not in before_ids:
-            by_id[sid] = row
+            # Current reviewed/official fields win over the historical snapshot.
+            # The explicit license marker is then re-applied so cleanup can
+            # always recognize why this identity is retained.
+            merged = dict(licensed_row)
+            merged.update(by_id.get(sid, {}))
+            merged["licensed_dataset_source"] = licensed_row["licensed_dataset_source"]
+            merged["licensed_dataset_license"] = licensed_row["licensed_dataset_license"]
+            merged["licensed_dataset_license_url"] = licensed_row["licensed_dataset_license_url"]
+            by_id[sid] = merged
             added += 1
 
     write_js(extra_path, "VTUBER_EXTRA", list(by_id.values()))
