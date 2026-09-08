@@ -1,0 +1,216 @@
+"""Remove legacy third-party-directory records while preserving independently verified identities.
+
+This cleanup is intentionally conservative about protected data:
+- AIVTuber records are preserved.
+- community/manual reviewed records are preserved.
+- independently rechecked primary records are preserved.
+- person-scoped official agency records are preserved.
+
+The initial data.js corpus is historical directory-derived data. General
+VTuber/V-liver rows from that corpus are removed unless protected above.
+Additional rows are removed when their only provenance is a known third-party
+directory/snapshot. The script is idempotent and refuses to drop protected IDs.
+"""
+from __future__ import annotations
+
+import json
+import re
+from pathlib import Path
+from urllib.parse import urlsplit
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def read_js(path: Path, variable: str):
+    text = path.read_text(encoding="utf-8")
+    match = re.search(r"window\." + re.escape(variable) + r"\s*=\s*(\[.*\])\s*;?\s*$", text, re.S)
+    if not match:
+        raise ValueError(f"Invalid JS data: {path}")
+    return json.loads(match.group(1))
+
+
+def write_js(path: Path, variable: str, rows, comment: str):
+    text = comment + "\nwindow." + variable + " = " + json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + ";\n"
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    tmp.replace(path)
+
+
+def host(url):
+    try:
+        return (urlsplit(url or "").hostname or "").lower().removeprefix("www.")
+    except ValueError:
+        return ""
+
+
+RISKY_HOSTS = {
+    "vtuber-post.com",
+    "vdb.vtbs.moe",
+    "virtual-youtuber.userlocal.jp",
+    "vstats.jp",
+    "liverfun.jp",
+    "hololist.net",
+    "scholarvtuber.com",
+    "storage.googleapis.com",
+    "kaggle.com",
+    "codeload.github.com",
+    "raw.githubusercontent.com",
+}
+
+RISKY_MARKERS = (
+    "directory_",
+    "regional_directory_",
+    "snapshot_",
+    "directory-past",
+    "directory-published",
+)
+
+RISKY_PREFIXES = (
+    "taiwan:",
+    "liverfun:",
+)
+
+
+def load_reviewed_ids():
+    # reviewed_sources is authoritative for currently approved additions.
+    import sys
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from reviewed_sources import reviewed_profiles
+    return {r["source_id"] for r in reviewed_profiles()}
+
+
+def person_scoped_official(row):
+    sid = row.get("source_id", "")
+    evidence = " ".join(str(row.get(k, "")) for k in (
+        "activity_evidence", "primary_platform_evidence"))
+    if sid.startswith("agency-") and (
+        "official" in evidence or "individual" in evidence or row.get("primary_platforms")
+    ):
+        return True
+    # Direct platform identities that were individually sourced, rather than
+    # imported from a third-party directory, are also retained.
+    if sid.startswith(("iriam:", "reality:", "17live:", "twitch:", "x:")):
+        sources = [row.get("source_url"), row.get("activity_source"), row.get("primary_platform_source")]
+        if any(host(u) in {"web.iriam.app", "reality.app", "17.live", "twitch.tv", "x.com", "twitter.com"} for u in sources):
+            if not any(host(u) in RISKY_HOSTS for u in sources):
+                return True
+    return False
+
+
+def risky_added_record(row):
+    if row.get("source_id", "").startswith(RISKY_PREFIXES):
+        return True
+    evidence = str(row.get("activity_evidence", "")).lower()
+    if any(marker in evidence for marker in RISKY_MARKERS):
+        return True
+    urls = []
+    for key in ("source_url", "activity_source", "snapshot_source", "romanized_source", "reading_source"):
+        value = row.get(key)
+        if isinstance(value, str):
+            urls.append(value)
+    urls.extend(u for u in row.get("source_profiles", []) if isinstance(u, str))
+    # raw.githubusercontent/codeload are risky here only for known historical
+    # snapshot records, indicated by snapshot/evidence fields.
+    for url in urls:
+        h = host(url)
+        if h in RISKY_HOSTS:
+            if h not in {"raw.githubusercontent.com", "codeload.github.com"}:
+                return True
+            if row.get("snapshot_source") or "snapshot" in evidence or "taiwan" in row.get("source_id", ""):
+                return True
+    return False
+
+
+def main():
+    base_path = ROOT / "data.js"
+    extra_path = ROOT / "extra-data.js"
+    platform_path = ROOT / "platform-data.js"
+    primary_path = ROOT / "primary-data.js"
+
+    base = read_js(base_path, "VTUBER_DATA")
+    extra = read_js(extra_path, "VTUBER_EXTRA")
+    platforms = read_js(platform_path, "VTUBER_PLATFORMS") if platform_path.exists() else []
+    primary = read_js(primary_path, "VTUBER_PRIMARY") if primary_path.exists() else []
+
+    merged = {r["source_id"]: dict(r) for r in base}
+    for rows in (extra, platforms):
+        for r in rows:
+            merged.setdefault(r["source_id"], {}).update(r)
+
+    reviewed_ids = load_reviewed_ids()
+    primary_ids = {r["source_id"] for r in primary}
+    ai_ids = {sid for sid, r in merged.items() if r.get("category") == "AIVTuber"}
+    official_ids = {sid for sid, r in merged.items() if person_scoped_official(r)}
+    protected = reviewed_ids | primary_ids | ai_ids | official_ids
+
+    # data.js is the historical seed corpus. Keep only independently protected
+    # general identities and all AIVTuber identities.
+    removed_base = {r["source_id"] for r in base if r["source_id"] not in protected}
+    clean_base = [r for r in base if r["source_id"] not in removed_base]
+
+    removed_extra = set()
+    for r in extra:
+        sid = r["source_id"]
+        if sid in protected:
+            continue
+        if sid in removed_base or risky_added_record(merged.get(sid, r)):
+            removed_extra.add(sid)
+    clean_extra = [r for r in extra if r["source_id"] not in removed_extra]
+
+    # A platform-only row can resurrect a deleted identity in the browser merge,
+    # so remove rows for deleted legacy identities as well.
+    removed_platform = set()
+    for r in platforms:
+        sid = r["source_id"]
+        if sid in protected:
+            continue
+        if sid in removed_base or sid in removed_extra or risky_added_record(merged.get(sid, r)):
+            removed_platform.add(sid)
+    clean_platforms = [r for r in platforms if r["source_id"] not in removed_platform]
+
+    surviving = {r["source_id"] for r in clean_base + clean_extra + clean_platforms}
+    missing_protected = sorted(protected - surviving)
+    if missing_protected:
+        raise RuntimeError(f"Protected identities would be lost: {missing_protected[:20]}")
+
+    surviving_merged = {}
+    for rows in (clean_base, clean_extra, clean_platforms):
+        for r in rows:
+            surviving_merged.setdefault(r["source_id"], {}).update(r)
+    ai_after = sum(r.get("category") == "AIVTuber" for r in surviving_merged.values())
+    if ai_after < len(ai_ids):
+        raise RuntimeError(f"AIVTuber count would decrease: {len(ai_ids)} -> {ai_after}")
+
+    report = {
+        "policy": "remove_legacy_third_party_directory_general_records",
+        "protected": {
+            "reviewed": len(reviewed_ids),
+            "primary_rechecked": len(primary_ids),
+            "aivtuber": len(ai_ids),
+            "person_scoped_official": len(official_ids),
+            "unique": len(protected),
+        },
+        "before": {
+            "base": len(base), "extra": len(extra), "platform": len(platforms),
+            "merged": len(merged),
+        },
+        "removed": {
+            "base": len(removed_base), "extra": len(removed_extra), "platform": len(removed_platform),
+            "unique_identities": len(removed_base | removed_extra | removed_platform),
+        },
+        "after": {
+            "base": len(clean_base), "extra": len(clean_extra), "platform": len(clean_platforms),
+            "merged": len(surviving_merged), "aivtuber": ai_after,
+        },
+    }
+
+    write_js(base_path, "VTUBER_DATA", clean_base, "// Independently retained identity seed records; legacy third-party directory-only rows removed.")
+    write_js(extra_path, "VTUBER_EXTRA", clean_extra, "// Additive source-linked records; legacy third-party directory-only rows removed.")
+    if platform_path.exists():
+        write_js(platform_path, "VTUBER_PLATFORMS", clean_platforms, "// Individually/officially sourced public platform metadata; legacy directory-only rows removed.")
+    (ROOT / "scripts" / "legacy-cleanup-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(report, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()
