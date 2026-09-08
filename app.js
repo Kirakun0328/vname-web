@@ -8,10 +8,20 @@ const sourceLink=url=>/^https:\/\//.test(url||'')&&!/^https:\/\/(?:x|twitter)\.c
 const corrections=new Map(Object.entries(window.VTUBER_READINGS||{}).map(([name,value])=>[key(name),value]));
 function mergeData(base,extra){const map=new Map(base.map(r=>[r.source_id,{...r}]));for(const r of extra||[]){const old=map.get(r.source_id);map.set(r.source_id,old?{...old,...r,aliases:[...new Set([...(old.aliases||[]),...(r.aliases||[])])],platform_accounts:[...(old.platform_accounts||[]),...(r.platform_accounts||[])],platform_sources:{...(old.platform_sources||{}),...(r.platform_sources||{})}}:r)}return [...map.values()]}
 const preparingName=name=>/(?:[a-z]*v(?:irtual)?[\s-]*tuber\s*準備中|準備中\s*(?:個人勢)?\s*[a-z]*vtuber|(?<!再)デビュー準備中|(?<!再)デビュー前|(?:Vライバー|IRIAM|Avvy|REALITY)\s*準備中|準備中\s*Vライバー|未デビュー|\bpre[\s-]?debut\b)/i.test(name||'');
+function resolveReading(r){
+ const verified=r.reading_source&&['manual','official','profile_explicit','directory_explicit'].includes(r.reading_source_kind);
+ if(verified&&r.reading)return {reading:r.reading,reading_inferred:false};
+ const kana=value=>{const s=String(value||'').normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96)).replace(/[\s・･]/g,'');return /^[ぁ-ゖー]+$/.test(s)?s:'';};
+ const direct=kana(r.display_name);
+ // Only use complete kana candidates for Japanese names, never partial transliterations.
+ const japanese=/^[\p{Script=Han}ぁ-ゖァ-ヶー\s・･]+$/u.test(String(r.display_name||'').normalize('NFKC'));
+ const candidate=direct||(japanese?kana(r.reading):'');
+ return {reading:candidate,reading_inferred:!!candidate};
+}
 function load(data){
  records=data.filter(r=>r.listing_status!=='predebut'&&!preparingName(r.display_name)).map(original=>{
   const correction=corrections.get(key(original.display_name)),r={...original,...correction,corrected:!!correction};
-  r.reading=r.reading_source&&['manual','official','profile_explicit','directory_explicit'].includes(r.reading_source_kind)?r.reading:'';
+  Object.assign(r,resolveReading(r));
   r.romanized_name=r.romanized_source?r.romanized_name:'';
   const media=window.VNamePlatforms.details(r);
   return {...r,media,keys:[r.display_name,r.reading,r.romanized_name,...(r.aliases||[])].map(key)};
@@ -41,7 +51,7 @@ function element(tag,className,text){const e=document.createElement(tag);if(clas
 function link(label,url,className){const e=element('a',className,label);e.href=url;e.target='_blank';e.rel='noopener noreferrer';return e;}
 function fieldsFor(r){
  const media=r.media,fields=element('dl','fields');
- const rows=[['主な活動媒体',media.primary.join(' / ')],...(!media.primary.length?[['確認できた媒体',media.known.join(' / ')]]:[]),['読み',r.reading],...(r.romanized_name?[['英字',r.romanized_name]]:[]),...(r.aliases?.length?[['別名',r.aliases.join(' / ')]]:[])];
+ const rows=[['主な活動媒体',media.primary.join(' / ')],...(!media.primary.length?[['確認できた媒体',media.known.join(' / ')]]:[]),[r.reading_inferred?'読み（推定）':'読み',r.reading],...(r.romanized_name?[['英字',r.romanized_name]]:[]),...(r.aliases?.length?[['別名',r.aliases.join(' / ')]]:[])];
  for(const [label,value] of rows){const dd=element('dd','',value||'不明');if(!value)dd.setAttribute('data-i18n','');fields.append(element('dt','',label),dd);}
  return fields;
 }
@@ -51,6 +61,7 @@ function renderCard({r,type}){
  if(r.registration_status==='ai_screened')top.append(element('span','badge','利用者登録・AI確認'));
  if(type<3)top.append(element('span','badge'+(type===0?' exact':''),['表示名が一致','読み・英字が一致','名前の一部が一致'][type]));
  const name=element('h3','name',r.display_name),reading=element('p','card-reading',r.reading||'読み未確認');
+ if(r.reading_inferred)reading.append(element('span','reading-estimate',' （推定）'));
  const media=r.media,platformLinks=element('div','platform-links');
  for(const group of media.groups){
   platformLinks.append(link(group.label,group.accounts[0].url,'platform-link'));
@@ -62,7 +73,7 @@ function renderCard({r,type}){
  const details=element('details','record-details');details.append(element('summary','','詳細・出典'),fieldsFor(r));
  if(r.registration_status==='ai_screened')details.append(element('p','muted','Gemma 4 E2Bが登録内容を確認しました。本人確認や情報の正しさを保証するものではありません。'));
  const note=element('div','note');
- const sources=[...(r.reading?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource],...(metric?[['登録者・フォロワー数の出典',metric.source]]:[])];
+ const sources=[...(r.reading&&!r.reading_inferred?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource],...(metric?[['登録者・フォロワー数の出典',metric.source]]:[])];
  for(const [label,url] of sources)if(sourceLink(url))note.append(link(label,url));
  if(metric?.checked_at)note.append(element('span','metric-date','確認日: '+metric.checked_at));
  details.append(note);article.append(top,name,reading,audience,platformLinks,details);return article;

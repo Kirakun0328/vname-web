@@ -421,3 +421,10 @@ for (const [jp, values] of Object.entries({
  "ピクシブ百科事典": ["Pixiv Encyclopedia", "Pixiv百科事典", "픽시브 백과사전"],
  "ニコニコ大百科": ["Niconico Encyclopedia", "Niconico大百科", "니코니코 대백과"]
 })) ["en", "zh", "ko"].forEach((lang, i) => translations[lang][jp] = values[i]);
+
+for(const [jp,values] of Object.entries({
+ ' （推定）':[' (estimated)','（推测）',' (추정)'],
+ '読み（推定）':['Reading (estimated)','读音（推测）','발음 (추정)'],
+ '一致がなくても、名前が未使用とは限りません。確認済みの読みを優先し、補完した読みには「推定」と表示します。':['No match does not guarantee a name is unused. Verified readings take priority; supplemented readings are marked as estimated.','没有匹配结果不代表名字未被使用。优先使用已确认读音，补充读音标为推测。','검색 결과가 없어도 미사용을 보장하지 않습니다. 확인된 발음을 우선하며 보완한 발음에는 추정 표시가 붙습니다.'],
+ '。全件の読みの確認は完了していません。推定の読みは実際と異なる場合があります。読み候補がない場合は「読み未確認」と表示します。':['. Not all readings have been verified. Estimated readings may differ from the actual pronunciation. Names without a candidate are marked as unverified.','。尚未确认所有读音。推测读音可能与实际不同。没有候选读音时显示未确认。','. 모든 발음을 확인하지는 못했습니다. 추정 발음은 실제와 다를 수 있으며 후보가 없으면 미확인으로 표시됩니다.']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
