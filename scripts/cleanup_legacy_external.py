@@ -11,7 +11,7 @@ The initial data.js corpus is historical directory-derived data. General
 VTuber/V-liver rows from that corpus are removed unless protected above.
 Additional rows are removed when their provenance is a known third-party
 directory/snapshot whose reuse terms are not explicitly allowlisted.
-The script is idempotent and refuses to drop protected IDs.
+The script is idempotent and refuses to drop protected IDs that existed before cleanup.
 """
 from __future__ import annotations
 
@@ -45,8 +45,6 @@ def host(url):
         return ""
 
 
-# External databases/datasets whose published terms explicitly permit reuse.
-# Keep license metadata here so future cleanup does not accidentally remove them.
 REUSABLE = {
     "vdb": {
         "markers": ("vdb.vtbs.moe", "github.com/dd-center/vdb", "github.com/bilibili-dd-center/vdb"),
@@ -79,12 +77,7 @@ RISKY_HOSTS = {
     "scholarvtuber.com",
 }
 
-RISKY_MARKERS = (
-    "regional_directory_",
-    "directory-past",
-    "directory-published",
-)
-
+RISKY_MARKERS = ("regional_directory_", "directory-past", "directory-published")
 RISKY_PREFIXES = ("liverfun:",)
 
 AIV_MARKERS = (
@@ -125,8 +118,7 @@ def reusable_family(row):
 def aiv_related(row):
     if row.get("category") == "AIVTuber":
         return True
-    joined = provenance_text(row)
-    return any(marker in joined for marker in AIV_MARKERS)
+    return any(marker in provenance_text(row) for marker in AIV_MARKERS)
 
 
 def load_reviewed_ids():
@@ -185,15 +177,15 @@ def main():
         for r in rows:
             merged.setdefault(r["source_id"], {}).update(r)
 
+    preexisting_ids = set(merged)
     reviewed_ids = load_reviewed_ids()
     primary_ids = {r["source_id"] for r in primary}
     aiv_ids = {sid for sid, r in merged.items() if aiv_related(r)}
     reusable_ids = {sid for sid, r in merged.items() if reusable_family(r)}
     official_ids = {sid for sid, r in merged.items() if person_scoped_official(r)}
     protected = reviewed_ids | primary_ids | aiv_ids | reusable_ids | official_ids
+    protected_preexisting = protected & preexisting_ids
 
-    # Historical seed rows with no retained provenance are removed. Explicitly
-    # reusable dataset rows survive even when they are old.
     removed_base = {r["source_id"] for r in base if r["source_id"] not in protected}
     clean_base = [r for r in base if r["source_id"] not in removed_base]
 
@@ -216,7 +208,7 @@ def main():
     clean_platforms = [r for r in platforms if r["source_id"] not in removed_platform]
 
     surviving = {r["source_id"] for r in clean_base + clean_extra + clean_platforms}
-    missing_protected = sorted(protected - surviving)
+    missing_protected = sorted(protected_preexisting - surviving)
     if missing_protected:
         raise RuntimeError(f"Protected identities would be lost: {missing_protected[:20]}")
 
@@ -241,12 +233,13 @@ def main():
         "policy": "remove_only_legacy_external_data_without_clear_reuse_terms",
         "protected": {
             "reviewed": len(reviewed_ids),
+            "reviewed_already_materialized": len(reviewed_ids & preexisting_ids),
             "primary_rechecked": len(primary_ids),
             "aiv_related": len(aiv_ids),
             "explicitly_reusable_dataset": len(reusable_ids),
             "reusable_by_family": reusable_counts,
             "person_scoped_official": len(official_ids),
-            "unique": len(protected),
+            "unique_preexisting": len(protected_preexisting),
         },
         "reusable_licenses": REUSABLE,
         "before": {"base": len(base), "extra": len(extra), "platform": len(platforms), "merged": len(merged)},
