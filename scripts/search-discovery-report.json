@@ -1,4 +1,15 @@
 {
-  "status": "not_configured",
-  "message": "Set SEARXNG_URL to an authorized JSON-enabled instance. No search ran."
+  "status": "ok",
+  "message": "Set SEARXNG_URL to an authorized JSON-enabled instance. No search ran.",
+  "next_query": 80,
+  "updated_at": "2026-09-08T19:19:43.272756+00:00",
+  "query_catalog_size": 270,
+  "specialty_count": 122,
+  "query_requests": 85,
+  "query_families_attempted": 80,
+  "pages_per_query": 2,
+  "new_candidates": 57,
+  "total_candidates": 57,
+  "auto_published": 0,
+  "scope": "Search/video leads only; direct creator profile fetch and identity/activity confirmation required before publication."
 }

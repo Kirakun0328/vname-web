@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "scope": "audit_only_general_legacy_sources; AIVTuber sources excluded",
-  "unique_ids": 17876,
+  "unique_ids": 17891,
   "files": {
     "data.js": 9877,
-    "extra-data.js": 7190,
+    "extra-data.js": 7205,
     "platform-data.js": 11705
   },
   "reviewed_ids": 201,
   "primary_rechecked_ids": 60,
-  "aivtuber_preserved_ids": 1532,
+  "aivtuber_preserved_ids": 1547,
   "legacy_general_ids_any_evidence": 12804,
   "legacy_general_ids_also_reviewed_primary_or_aiv": 60,
   "legacy_general_ids_without_reviewed_primary_or_aiv": 12744,
@@ -114,6 +114,10 @@
       16
     ],
     [
+      "aivtuber-tv",
+      15
+    ],
+    [
       "avvy-interview",
       15
     ],
@@ -152,10 +156,6 @@
     [
       "17live",
       6
-    ],
-    [
-      "twitcasting",
-      4
     ]
   ],
   "samples": {

@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "updated_at": "2026-09-08T19:19:58.501971+00:00",
+  "candidates_total": 57,
+  "attempted_this_run": 57,
+  "verified_this_run": 30,
+  "new_public_records": 26,
+  "existing_records_enriched": 4,
+  "statuses": {
+    "fan_or_clip_channel": 19,
+    "verified": 30,
+    "no_direct_vtuber_evidence": 7,
+    "predebut": 1
+  },
+  "policy": "SearXNG discovery only; publication requires direct public creator/profile verification."
+}
