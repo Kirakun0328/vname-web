@@ -51,8 +51,8 @@ REUSABLE = {
         "license": "CC BY-NC-SA 4.0 / VDBL v1.0",
         "condition": "noncommercial; attribution; share-alike",
     },
-    "taiwan_dataset": {
-        "markers": ("taiwanvtuberdata/", "taiwanvtubertrackingdata"),
+    "taiwan_archive": {
+        "markers": ("taiwanvtuberdata/taiwanvtubertrackingdataarchive",),
         "license": "Unlicense",
         "condition": "reuse permitted",
     },
