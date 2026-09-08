@@ -100,6 +100,20 @@ def expand(base, previous, vdb, rankings):
         raise ValueError('Unexpected record count change; manual review required')
     return list(extra.values())
 
+def consolidate_duplicates(base, updated):
+    from deduplicate_sources import deduplicate
+    # `base` at this point also contains previous extras. Only on-disk base
+    # and platform rows are immutable; stale extra identities may be removed.
+    fixed = read_js(ROOT / 'data.js', 'VTUBER_DATA')
+    platform_path = ROOT / 'platform-data.js'
+    if platform_path.exists():
+        fixed += read_js(platform_path, 'VTUBER_PLATFORMS')
+    result = deduplicate(fixed, updated)
+    removed = {r['source_id'] for r in updated} - {r['source_id'] for r in result}
+    base[:] = [r for r in base if r['source_id'] not in removed]
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--check', action='store_true', help='Fetch and validate without writing')
@@ -179,6 +193,7 @@ def main():
         updated = refresh_readings(base, updated, fetch_reading)
     from reviewed_sources import merge_reviewed
     updated = merge_reviewed(updated, base=base)
+    updated = consolidate_duplicates(base, updated)
     print(f'Extra records: {len(previous)} -> {len(updated)}')
     if args.check:
         return
@@ -223,6 +238,7 @@ def refresh_ai_only(base, previous, args):
     updated = refresh_popularity(fetch_reading, base, updated, report)
     from reviewed_sources import merge_reviewed
     updated = merge_reviewed(updated, base=base)
+    updated = consolidate_duplicates(base, updated)
     merged = {r['source_id']: dict(r) for r in base}
     for r in updated:
         merged.setdefault(r['source_id'], {}).update(r)
@@ -246,6 +262,7 @@ def refresh_reviewed_only(base, previous, args):
     from broad_sources import preparing
     reviewed = reviewed_profiles()
     updated = merge_reviewed(previous, reviewed, base=base)
+    updated = consolidate_duplicates(base, updated)
     platform_path = ROOT / 'platform-data.js'
     platforms = read_js(platform_path, 'VTUBER_PLATFORMS') if platform_path.exists() else []
     platform_ids = {r['source_id'] for r in platforms}
