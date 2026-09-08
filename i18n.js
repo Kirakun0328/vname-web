@@ -1,8 +1,7 @@
 'use strict';
 const translations={
   "en": {
-    "ぶいネーム": "VName",
-    "VTuber名前チェック": "VTuber Name Checker",
+    "ぶいネーム": "ぶいネーム",
     "その名前で、はじめよう。": "Start with that name.",
     "名前・読み・英字から、同じ名前や似た名前をチェック。": "Find matching VTuber names, readings, and aliases.",
     "名前を入力": "Enter a name",
@@ -39,12 +38,10 @@ const translations={
     "検索結果": "Search results",
     "検索結果のページ": "Result pages",
     "例：兎田ぺこら": "e.g. Usada Pekora",
-    "ぶいネーム｜VTuber名前チェック": "VName | VTuber Name Checker",
     "辞書を読み込んでいます…": "Loading dictionary…"
   },
   "zh": {
-    "ぶいネーム": "VName",
-    "VTuber名前チェック": "VTuber名称查询",
+    "ぶいネーム": "ぶいネーム",
     "その名前で、はじめよう。": "就用这个名字，开始吧。",
     "名前・読み・英字から、同じ名前や似た名前をチェック。": "搜索相同或相似的名字、读音和别名。",
     "名前を入力": "输入名字",
@@ -81,12 +78,10 @@ const translations={
     "検索結果": "查询结果",
     "検索結果のページ": "结果分页",
     "例：兎田ぺこら": "例如：Usada Pekora",
-    "ぶいネーム｜VTuber名前チェック": "VName｜VTuber名称查询",
     "辞書を読み込んでいます…": "正在加载词典…"
   },
   "ko": {
-    "ぶいネーム": "VName",
-    "VTuber名前チェック": "VTuber 이름 검색",
+    "ぶいネーム": "ぶいネーム",
     "その名前で、はじめよう。": "그 이름으로, 시작해요.",
     "名前・読み・英字から、同じ名前や似た名前をチェック。": "이름, 발음, 다른 표기로 같거나 비슷한 이름을 찾아보세요.",
     "名前を入力": "이름 입력",
@@ -123,7 +118,6 @@ const translations={
     "検索結果": "검색 결과",
     "検索結果のページ": "결과 페이지",
     "例：兎田ぺこら": "예: Usada Pekora",
-    "ぶいネーム｜VTuber名前チェック": "VName | VTuber 이름 검색",
     "辞書を読み込んでいます…": "사전을 불러오는 중…"
   }
 };
@@ -181,7 +175,7 @@ const tagMatch=jp.match(/^タグ「(.+)」に一致する掲載が ([\d,]+) 件�
 const countMatch=jp.match(/^([\d,]+) 件の活動者を表示$/);if(countMatch)out={en:`${countMatch[1]} creator records`,zh:`显示 ${countMatch[1]} 条创作者记录`,ko:`활동자 기록 ${countMatch[1]}건`}[language];
 const dateMatch=jp.match(/^確認日: (.+)$/);if(dateMatch)out={en:`Checked: ${dateMatch[1]}`,zh:`确认日期: ${dateMatch[1]}`,ko:`확인일: ${dateMatch[1]}`}[language];
 return out?value.replace(jp,out):value;}
-function translateUI(){document.documentElement.lang=language==='zh'?'zh-Hans':language;document.title=translated('ぶいネーム｜VTuber名前チェック');
+function translateUI(){document.documentElement.lang=language==='zh'?'zh-Hans':language;document.title='ぶいネーム';
 const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;while(node=walker.nextNode()){if(node.parentElement.closest('script,style,.name,.fields dd:not([data-i18n]),[data-query],option:not([data-i18n]),.chat-message.user .chat-body,[data-generated],.candidate-name,.candidate-reading,.candidate-reason,[data-word]'))continue;if(!originalText.has(node))originalText.set(node,node.nodeValue);node.nodeValue=translated(originalText.get(node))}
 for(const el of document.querySelectorAll('[aria-label],[placeholder]')){if(!originalAttributes.has(el))originalAttributes.set(el,{});const saved=originalAttributes.get(el);for(const attr of ['aria-label','placeholder'])if(el.hasAttribute(attr)){if(!(attr in saved))saved[attr]=el.getAttribute(attr);el.setAttribute(attr,translated(saved[attr]))}}
 document.getElementById('language').value=language;}
@@ -283,7 +277,7 @@ for (const [jp, values] of Object.entries({
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
 
 for (const [jp,values] of Object.entries({
- 'ぶいネーム ホーム':['VName home','VName首页','VName 홈'],
+ 'ぶいネーム ホーム':['ぶいネーム home','ぶいネーム首页','ぶいネーム 홈'],
  'その名前から、はじまる。':['It starts with your name.','从这个名字开始。','그 이름에서 시작됩니다.'],
  'あなたらしい活動名を、ここから。':['Your creator name starts here.','在这里，找到适合你的活动名。','나다운 활동명을 여기서부터.'],
  '気になる名前をチェック':['Check a name you like','查询感兴趣的名字','마음에 드는 이름 확인'],
@@ -413,11 +407,17 @@ for(const [jp,values] of Object.entries({
 
 for(const [jp,values] of Object.entries({
  '検索欄に入力した名前は外部に送信されません。':['Names entered in the search box are not sent externally.','搜索框中输入的名字不会发送到外部。','검색창에 입력한 이름은 외부로 전송되지 않습니다.'],
- '登録内容や審査で参照したチャンネルの公開情報は、AIの学習・追加学習に使用しません。':['Registration details and public channel information used for review are not used to train or fine-tune AI models.','登记内容及审核时参考的频道公开信息，不会用于AI模型的训练或微调。','등록 내용과 검토에 참조한 채널의 공개 정보는 AI 모델 학습이나 추가 학습에 사용하지 않습니다.'],
+ '登録内容や確認したチャンネル情報は、AIの学習に使わず、外部の生成AIサービスにも送りません。登録内容はサーバーに保存し、承認後に活動名や公開URLなどを掲載します。':['Registration details and checked channel information are not used to train AI or sent to external generative AI services. Submissions are stored on a server; approved names and public URLs are published.','登记内容及审核时参考的频道信息不会用于AI训练，也不会发送至外部生成式AI服务。登记内容会保存在服务器上，审核通过后将公开活动名及公开链接等信息。','등록 내용과 확인한 채널 정보는 AI 학습에 사용하거나 외부 생성형 AI 서비스에 보내지 않습니다. 등록 내용은 서버에 저장되며, 승인 후 활동명과 공개 URL 등이 게시됩니다.'],
  'まだ掲載されていませんか？':['Not listed yet?','还未收录？','아직 등록되지 않았나요?'],
  '自分の名前を登録':['Register your name','登记自己的名字','내 이름 등록'],
- '無料・ログイン不要。Gemma 4 E2Bが公開情報を確認し、問題がなければ掲載します。':['Free, no login required. Gemma 4 E2B reviews public information before listing.','免费，无需登录。Gemma 4 E2B确认公开信息后，若无明显问题即可收录。','무료·로그인 불필요. Gemma 4 E2B가 공개 정보를 검토한 뒤 문제가 없으면 등록합니다.'],
+ '無料・ログイン不要。AIが公開プロフィールや活動実績を確認し、問題がなければ掲載します。':['Free, no login required. AI checks public profiles and activity before listing.','免费，无需登录。Gemma 4 E2B确认公开信息后，若无明显问题即可收录。','무료·로그인 불필요. Gemma 4 E2B가 공개 정보를 검토한 뒤 문제가 없으면 등록합니다.'],
  '利用者登録・AI確認':['User submission · AI screened','用户登记・AI初审','이용자 등록·AI 검토'],
  'Gemma 4 E2Bが登録内容を確認しました。本人確認や情報の正しさを保証するものではありません。':['Gemma 4 E2B screened this submission. This does not verify ownership or guarantee accuracy.','Gemma 4 E2B已初步审核登记内容，但不代表身份已核实或信息保证准确。','Gemma 4 E2B가 등록 내용을 검토했습니다. 본인 확인이나 정보의 정확성을 보장하지 않습니다.'],
  '利用者登録分を読み込めませんでした。既存の辞書は検索できます。時間をおいて再読み込みしてください。':['User registrations could not be loaded. The existing dictionary is available. Please reload later.','无法加载用户登记内容。仍可搜索现有词典，请稍后刷新。','이용자 등록 내용을 불러오지 못했습니다. 기존 사전은 검색할 수 있습니다. 나중에 새로고침해 주세요.']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+for (const [jp, values] of Object.entries({
+ "百科事典の出典：": ["Encyclopedia sources: ", "百科事典来源：", "백과사전 출처: "],
+ "ピクシブ百科事典": ["Pixiv Encyclopedia", "Pixiv百科事典", "픽시브 백과사전"],
+ "ニコニコ大百科": ["Niconico Encyclopedia", "Niconico大百科", "니코니코 대백과"]
+})) ["en", "zh", "ko"].forEach((lang, i) => translations[lang][jp] = values[i]);
