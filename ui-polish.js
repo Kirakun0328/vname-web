@@ -21,6 +21,41 @@
     }
   };
   const q=(s,r=document)=>r.querySelector(s);
+  const normalizeName=s=>String(s||'').normalize('NFKC').replace(/\s/g,'').toLowerCase();
+  function applyCurrentNameOverrides(){
+    if(typeof records==='undefined'||!Array.isArray(records))return;
+    const overrides=[{
+      oldNames:['木乃伊綿巻','木乃伊 綿巻'],
+      currentName:'木乃伊めんま',
+      reading:'きのいめんま',
+      sourceId:'youtube:UCsg2pWGJveeTKAGVSww05tg',
+      youtubeId:'UCsg2pWGJveeTKAGVSww05tg',
+      xHandle:'miira_mennma',
+      source:'https://www.youtube.com/@kinoi_menma'
+    }];
+    let changed=false;
+    for(const r of records){
+      for(const override of overrides){
+        const oldKeys=new Set(override.oldNames.map(normalizeName));
+        const accounts=[...(r.platform_accounts||[]),...(r.media?.accounts||[])];
+        const accountMatch=accounts.some(a=>String(a.id||a.url||'').includes(override.youtubeId)||String(a.id||a.url||'').includes(override.xHandle));
+        if(!oldKeys.has(normalizeName(r.display_name))&&r.source_id!==override.sourceId&&!accountMatch)continue;
+        const previous=r.display_name;
+        r.display_name=override.currentName;
+        r.aliases=[...new Set([...(r.aliases||[]),...(previous&&previous!==override.currentName?[previous]:[]),...override.oldNames])];
+        r.reading=override.reading;
+        r.reading_inferred=false;
+        r.name_source=override.source;
+        r.reading_source=override.source;
+        r.reading_source_kind='official';
+        r.current_name_checked_at='2026-09-08';
+        if(typeof key==='function')r.keys=[r.display_name,r.reading,r.romanized_name,...r.aliases].map(key);
+        changed=true;
+        break;
+      }
+    }
+    if(changed&&typeof search==='function')search();
+  }
   function ensureCss(){
     if(q('link[data-ui-polish]'))return;
     const link=document.createElement('link');link.rel='stylesheet';link.href='ui-polish.css?v=3';link.dataset.uiPolish='true';document.head.append(link);
@@ -62,9 +97,9 @@
   }
   function applyCopy(){
     const lang=q('#language')?.value||document.documentElement.lang||'ja',t=copy[lang]||copy.ja;
-    document.querySelectorAll('[data-polish]').forEach(node=>{const key=node.dataset.polish;if(t[key])node.textContent=t[key];});
+    document.querySelectorAll('[data-polish]').forEach(node=>{const keyName=node.dataset.polish;if(t[keyName])node.textContent=t[keyName];});
     document.querySelectorAll('[data-polish-chip]').forEach(node=>{node.textContent=t.chips[Number(node.dataset.polishChip)]||'';});
   }
-  function init(){ensureCss();mergeCommunity();enhanceTool();applyCopy();q('#language')?.addEventListener('change',()=>queueMicrotask(applyCopy));}
+  function init(){applyCurrentNameOverrides();ensureCss();mergeCommunity();enhanceTool();applyCopy();q('#language')?.addEventListener('change',()=>queueMicrotask(applyCopy));}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
