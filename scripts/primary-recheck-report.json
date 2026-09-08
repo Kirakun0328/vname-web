@@ -318,10 +318,10 @@
       "status": "verified"
     }
   },
-  "updated_at": "2026-09-08T17:29:52.792929+00:00",
-  "records_total": 33583,
+  "updated_at": "2026-09-08T17:34:19.986663+00:00",
+  "records_total": 33593,
   "individually_rechecked": 60,
-  "remaining_without_this_recheck": 33523,
+  "remaining_without_this_recheck": 33533,
   "scope": "Hololive individual official profiles; other identities remain queued. Existing independent agency verification is not counted here.",
   "status": "in_progress"
 }
