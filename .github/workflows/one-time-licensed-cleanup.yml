@@ -9,7 +9,7 @@ permissions:
   contents: write
 jobs:
   cleanup:
-    # No Pages environment dependency; final retry after nameless-row guard.
+    # No Pages environment dependency; retry with reviewed-profile rendering test.
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
