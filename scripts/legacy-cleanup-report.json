@@ -5,23 +5,23 @@
     "reviewed": 201,
     "reviewed_already_materialized": 201,
     "primary_rechecked": 60,
-    "aiv_related": 1547,
+    "aiv_related": 1549,
     "explicitly_reusable_dataset": 14250,
     "reusable_by_family": {
       "vdb": 9788,
-      "legacy_2019_dataset": 103,
       "taiwan_archive": 2661,
       "vtuber_1b_pddl": 805,
-      "wikidata_cc0": 523,
+      "indonesia_kaggle": 227,
+      "legacy_2019_dataset": 103,
       "ayousanz_hf_mit": 143,
-      "indonesia_kaggle": 227
+      "wikidata_cc0": 523
     },
     "user_encyclopedia_reference": 55,
     "reference_by_family": {
       "user_encyclopedia": 55
     },
     "person_scoped_official": 1735,
-    "unique_preexisting": 17691
+    "unique_preexisting": 17693
   },
   "reusable_licenses": {
     "vdb": {
@@ -90,9 +90,9 @@
   },
   "before": {
     "base": 9877,
-    "extra": 7205,
+    "extra": 7231,
     "platform": 11705,
-    "merged": 17891
+    "merged": 17917
   },
   "removed": {
     "base": 0,
@@ -102,10 +102,10 @@
   },
   "after": {
     "base": 9877,
-    "extra": 7205,
+    "extra": 7231,
     "platform": 11705,
-    "merged": 17891,
-    "aiv_related": 1547,
+    "merged": 17917,
+    "aiv_related": 1549,
     "explicitly_reusable_dataset": 14250,
     "user_encyclopedia_reference": 55
   }
