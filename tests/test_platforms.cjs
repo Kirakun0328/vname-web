@@ -95,7 +95,7 @@ test('published data searches and renders a TikTok V-liver without requiring You
  const walk=e=>[e,...e.children.flatMap(walk)];
  get('query').value='';get('search-tag').value='all';get('search-platform').value='all';vm.runInContext('search()',c);
  assert.ok(vm.runInContext('hits.length>32000',c));assert.equal(get('results').children.length,30);
- assert.ok(vm.runInContext('sortOrder==="name" && hits.every((x,i)=>i===0||compareNames(hits[i-1],x)<=0)',c));
+ assert.ok(vm.runInContext('sortOrder==="random" && hits.every(x=>randomOrder.has(x.r.source_id))',c));
  assert.ok(!walk(get('results')).some(e=>e.className==='audience'));
  assert.doesNotMatch(get('results').textContent,/YouTube登録者|Twitchフォロワー|登録者・フォロワー数の出典/);
  assert.ok(!walk(get('results')).some(e=>e.tagName==='img'));

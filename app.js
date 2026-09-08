@@ -1,6 +1,6 @@
 'use strict';
 const key=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96)).replace(/[^\p{L}\p{N}]/gu,'');
-let records=[],hits=[],page=0,sortOrder='name',randomOrder=new Map();
+let records=[],hits=[],page=0,sortOrder='random',randomOrder=new Map();
 const PAGE_SIZE=30;
 const categoryOf=r=>r.category==='AIVTuber'?'AIVTuber':r.category==='Vライバー'||/^https:\/\//.test(r.vliver_source||'')?'Vライバー':'VTuber';
 const $=id=>document.getElementById(id);
@@ -33,6 +33,7 @@ function load(data){
  });
  $('count').textContent=`収録 ${records.length.toLocaleString()} 件`;
  buildPlatformFilters();
+ if(sortOrder==='random')for(const r of records)if(!randomOrder.has(r.source_id))randomOrder.set(r.source_id,Math.random());
 }
 function find(q){const k=key(q);if(!k)return [];return records.map(r=>{const type=r.keys[0]===k?0:r.keys.slice(1).includes(k)?1:r.keys.some(v=>v&&v.includes(k))?2:9;return{r,type};}).filter(x=>x.type<9).sort((a,b)=>a.type-b.type||compareNames(a,b));}
 function compareNames(a,b){return (a.r.reading||a.r.display_name).localeCompare(b.r.reading||b.r.display_name,'ja')||a.r.display_name.localeCompare(b.r.display_name,'ja')||a.r.source_id.localeCompare(b.r.source_id);}
