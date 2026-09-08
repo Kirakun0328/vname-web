@@ -101,19 +101,28 @@ def host(url):
 def safe_source_url(url):
     if not isinstance(url, str) or not url.startswith("https://"):
         return False
-    h = host(url)
-    if h in RISKY_HOSTS:
-        return False
-    return True
+    return host(url) not in RISKY_HOSTS
 
 
 def sanitize(row):
     """Keep identity/platform facts while avoiding unrelated unclear DB provenance."""
     result = dict(row)
 
+    # If a value's explicit provenance points only to an unclear legacy source,
+    # do not restore that derived value merely because this identity is also in
+    # the Unlicensed Taiwan archive.
+    for field, source_field in (
+        ("reading", "reading_source"),
+        ("romanized_name", "romanized_source"),
+    ):
+        original_source = result.get(source_field)
+        if isinstance(original_source, str) and host(original_source) in RISKY_HOSTS:
+            result.pop(field, None)
+            result.pop(source_field, None)
+
     for key in list(result):
         value = result[key]
-        if key.endswith("_source") and isinstance(value, str):
+        if (key == "source_url" or key.endswith("_source")) and isinstance(value, str):
             low = value.lower()
             if not any(marker in low for marker in TAIWAN_MARKERS) and not safe_source_url(value):
                 result.pop(key, None)
@@ -148,16 +157,11 @@ def sanitize(row):
         else:
             result.pop("source_profiles", None)
 
-    for field, source_field in (("reading", "reading_source"), ("romanized_name", "romanized_source")):
-        source = result.get(source_field)
-        if isinstance(source, str) and host(source) in RISKY_HOSTS:
-            result.pop(field, None)
-            result.pop(source_field, None)
-
-    # Make the retained reuse basis explicit without copying article text or media.
+    # Make the retained reuse basis explicit without copying article text/media.
     result["licensed_dataset_source"] = "https://github.com/TaiwanVtuberData/TaiwanVTuberTrackingDataArchive"
     result["licensed_dataset_license"] = "Unlicense"
     result["licensed_dataset_license_url"] = LICENSE_URL
+    result["activity_evidence"] = result.get("activity_evidence") or "licensed_taiwan_archive_snapshot"
     return result
 
 
