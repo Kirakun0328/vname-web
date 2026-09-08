@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-09-08",
+  "profiles_reviewed": 44,
+  "added": 43,
+  "enriched": 0,
+  "held": [
+    {
+      "display_name": "アネリ・フローレンス",
+      "source_url": "https://www.circus-v.world/characters/86",
+      "reason": "identity_requires_confirmation",
+      "existing_ids": [
+        "youtube:UCs_PLB0JfJoggIDtUvw3Uig"
+      ]
+    }
+  ],
+  "archived_profiles_added": 0,
+  "archive_checks": [
+    {
+      "original_url": "https://lapis-live.com",
+      "status": "unavailable_in_web_tool",
+      "archive_content_verified": false
+    },
+    {
+      "original_url": "https://voms.net/member/",
+      "status": "unavailable_in_web_tool",
+      "archive_content_verified": false
+    },
+    {
+      "original_url": "https://www.774.ai/member",
+      "status": "unavailable_in_web_tool",
+      "archive_content_verified": false
+    },
+    {
+      "original_url": "https://fujiaoi.com/",
+      "status": "unavailable_in_web_tool",
+      "archive_content_verified": false
+    }
+  ],
+  "policy": "Only names, public creator accounts, explicit readings/romanizations and activity evidence retained. No article text, artwork or audience metrics. Archive lookup failure is not evidence that a snapshot does not exist."
+}
