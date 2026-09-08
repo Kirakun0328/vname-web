@@ -3,10 +3,15 @@ window.VNameInsights = (() => {
   const top=(map,n=10)=>[...map.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'ja')).slice(0,n).map(([label,count])=>({label,count}));
   function analyze(rows) {
     const lengths=new Map(), exactLengths=new Map(), characters=new Map(), pairs=new Map(), scripts=new Map(), prefixes=new Map(), suffixes=new Map();
-    const sizes=[];
+    const sizes=[],names=new Map(),ngrams2=new Map(),ngrams3=new Map(),kanaCharacters=new Map(),readingLengths=new Map(),readingStatus=new Map();
     let totalLength=0;
     for(const r of rows){
       const name=String(r.display_name||'').normalize('NFKC').replace(/\s/g,'');
+      const identity=name.toLocaleLowerCase();names.set(identity,{label:names.get(identity)?.label||name,count:(names.get(identity)?.count||0)+1});
+      for(const [width,map] of [[2,ngrams2],[3,ngrams3]]){const seen=new Set();const points=[...name];for(let i=0;i<=points.length-width;i++){const word=points.slice(i,i+width).join('');if(/^[\p{L}\p{N}]+$/u.test(word))seen.add(word);}for(const word of seen)map.set(word,(map.get(word)||0)+1);}
+      for(const c of new Set([...name].filter(c=>/[ぁ-ゖァ-ヶ]/u.test(c))))kanaCharacters.set(c,(kanaCharacters.get(c)||0)+1);
+      const status=r.reading?(r.reading_inferred?'推定の読み':'確認済みの読み'):'読み未確認';readingStatus.set(status,(readingStatus.get(status)||0)+1);
+      if(r.reading){const length=[...r.reading.replace(/\s/g,'')].length;const label=length<=4?'1〜4文字':length<=8?'5〜8文字':length<=12?'9〜12文字':'13文字以上';readingLengths.set(label,(readingLengths.get(label)||0)+1);}
       const chars=[...name];const size=chars.length;totalLength+=size;sizes.push(size);exactLengths.set(size,(exactLengths.get(size)||0)+1);
       if(size>=2)for(const [map,label] of [[prefixes,chars.slice(0,2).join('')],[suffixes,chars.slice(-2).join('')]])if(/^[\p{L}\p{N}]{2}$/u.test(label))map.set(label,(map.get(label)||0)+1);
       const bucket=size<=4?'1〜4文字':size<=8?'5〜8文字':size<=12?'9〜12文字':'13文字以上';
@@ -21,9 +26,15 @@ window.VNameInsights = (() => {
     sizes.sort((a,b)=>a-b);const middle=Math.floor(sizes.length/2);
     const medianLength=sizes.length?(sizes.length%2?sizes[middle]:(sizes[middle-1]+sizes[middle])/2):0;
     const commonLengths=[...exactLengths.entries()].sort((a,b)=>b[1]-a[1]||a[0]-b[0]).slice(0,5).map(([length,count])=>({length,count}));
-    return {total:rows.length,averageLength:rows.length?Number((totalLength/rows.length).toFixed(1)):0,medianLength,commonLengths,exactLengths:Object.fromEntries(exactLengths),
+    const duplicateNames=[...names.values()].filter(x=>x.count>1).sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label,'ja'));
+    return {uniqueNames:names.size,duplicateGroups:duplicateNames.length,duplicateRecords:duplicateNames.reduce((n,r)=>n+r.count,0),duplicateNames:duplicateNames.slice(0,20),ngrams2:top(ngrams2,20),ngrams3:top(ngrams3,20),kanaCharacters:top(kanaCharacters,20),readingStatus:top(readingStatus,3),readingLengths:top(readingLengths,4),readable:rows.filter(r=>r.reading).length,total:rows.length,averageLength:rows.length?Number((totalLength/rows.length).toFixed(1)):0,medianLength,commonLengths,exactLengths:Object.fromEntries(exactLengths),
       lengths:['1〜4文字','5〜8文字','9〜12文字','13文字以上'].map(label=>({label,count:lengths.get(label)||0})),
       scripts:top(scripts,6),characters:top(characters),pairs:top(pairs),prefixes:top(prefixes).filter(r=>r.count>1),suffixes:top(suffixes).filter(r=>r.count>1)};
+  }
+  function compare(rows,groups){
+    const values=new Map();
+    for(const row of rows)for(const group of new Set(groups(row))){if(!values.has(group))values.set(group,[]);values.get(group).push(row);}
+    return [...values].map(([label,items])=>{const sizes=items.map(r=>[...r.display_name.normalize('NFKC').replace(/\s/g,'')].length);return {label,count:items.length,averageLength:Number((sizes.reduce((a,b)=>a+b,0)/items.length).toFixed(1)),kanaPercent:Number((items.filter(r=>/[ぁ-ゖァ-ヶ]/u.test(r.display_name.normalize('NFKC'))).length/items.length*100).toFixed(1))};}).sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label,'ja'));
   }
   function normalizeSuggestions(items){
     const suggestions=[],seen=new Set();
@@ -91,5 +102,5 @@ window.VNameInsights = (() => {
 候補の重複チェックはアプリが辞書を実際に検索します。あなた自身は候補が未使用・安全であると断定しないでください。読みは候補として提案してください。既存の有名人の名前をそのまま提案しないでください。
 回答は必ずJSONオブジェクトのみ。名前を求められた場合、説明より先に具体的な名前をsuggestionsへ必ず入れてください。「提案します」という予告だけでは回答になりません。形式は {"suggestions":[{"name":"候補名","reading":"候補の読み","reason":"希望に合う理由を短く1文"}],"reply":"短い回答や数値に基づく傾向の説明","next_prompts":["ユーザーが次に送れる相談文"]}。名前案は3件、各理由は40文字程度。replyは100文字程度。説明・分析だけの依頼ではsuggestionsを空にできます。next_promptsは会話に合う次の相談文を2件まで、各60文字以内で生成。マークダウンのコードフェンスは不要です。`;
   }
-  return {analyze,parseReply,parseRepair,wantsNames,prompt};
+  return {analyze,compare,parseReply,parseRepair,wantsNames,prompt};
 })();

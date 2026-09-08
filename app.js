@@ -13,7 +13,8 @@ function resolveReading(r){
  if(verified&&r.reading)return {reading:r.reading,reading_inferred:false};
  const kana=value=>{const s=String(value||'').normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96)).replace(/[\s・･]/g,'');return /^[ぁ-ゖー]+$/.test(s)?s:'';};
  const estimate=(window.VTUBER_ESTIMATED_READINGS||{})[r.source_id];
- if(estimate?.display_name===r.display_name&&estimate.model==='gemma-4-E2B-it'&&estimate.kind==='inferred'&&kana(estimate.reading))return {reading:kana(estimate.reading),reading_inferred:true};
+ const spelled=String(r.display_name||'').normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96)),end=spelled.match(/[ぁ-ゖー]+$/)?.[0],start=spelled.match(/^[ぁ-ゖー]+/)?.[0],guess=kana(estimate?.reading);
+ if(estimate?.display_name===r.display_name&&estimate.model==='gemma-4-E2B-it'&&estimate.kind==='inferred'&&guess&&(!end||guess.endsWith(end))&&(!start||guess.startsWith(start)))return {reading:guess,reading_inferred:true};
  const direct=kana(r.display_name);
  // Only use complete kana candidates for Japanese names, never partial transliterations.
  const japanese=/^[\p{Script=Han}ぁ-ゖァ-ヶー\s・･]+$/u.test(String(r.display_name||'').normalize('NFKC'));

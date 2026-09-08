@@ -106,6 +106,7 @@ def parse_linear(document, url, today=None):
 def refresh(fetch, base, previous, report, full=False):
     reviewed=json.loads(Path(__file__).with_name('reviewed-platforms.json').read_text())
     reviewed += json.loads(Path(__file__).with_name('reviewed-platform-expansion.json').read_text())
+    reviewed += json.loads(Path(__file__).with_name('reviewed-agency-expansion.json').read_text())
     updated,counts=merge_platforms(base,previous,reviewed)
     report['reviewed_platforms']={'source_records':len(reviewed),**counts}
     try:

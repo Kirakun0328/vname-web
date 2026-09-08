@@ -272,6 +272,7 @@ def refresh_reviewed_only(base, previous, args):
     platforms = merge_reviewed(platforms, approved_platforms, base=base)
     from platform_sources import merge_platforms
     expansion = json.loads((ROOT / 'scripts/reviewed-platform-expansion.json').read_text())
+    expansion += json.loads((ROOT / 'scripts/reviewed-agency-expansion.json').read_text())
     platforms, expansion_counts = merge_platforms(base, platforms, expansion)
     merged = {r['source_id']: dict(r) for r in base}
     for row in [*updated, *platforms]:

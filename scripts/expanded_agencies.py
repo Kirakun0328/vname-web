@@ -1,5 +1,7 @@
 """Discover public V-liver profiles with person-scoped activity evidence."""
 import datetime
+import json
+from pathlib import Path
 import re
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin, urlparse, unquote
@@ -52,10 +54,19 @@ def parse_profile(document, url, agency):
         # Only the agency-written biography/awards; fan letters and related members are outside.
         active = bool(re.search(r'\d+位|入賞|配信中|配信してい|配信しています|毎日配信|周年',body))
         roman = next((n.content().strip() for n in root.all('div') if cls(n,'gt3_team_title_position')), '')
-        destinations = [a for a in node.all('a') if re.search('IRIAM|REALITY|TikTok|17LIVE|Mirrativ',a.content(),re.I)]
+        scope=node.parent
+        if not cls(scope,'gt3_single_team_info'):scope=node
+        def own(a):
+            parent=a.parent
+            while parent and parent is not scope:
+                if cls(parent,'fan_letter'):return False
+                parent=parent.parent
+            return True
+        links=[a for a in scope.all('a') if own(a)]
+        destinations = [a for a in links if re.search('IRIAM|REALITY|TikTok|17LIVE|Mirrativ',a.content(),re.I)]
     if not name or len(name)>80 or re.search(r'準備中|未デビュー|デビュー予定',body+name) or not active: return None
     accounts = {}
-    for a in node.all('a'):
+    for a in (list(node.all('a')) if agency=='mvirtual' else links):
         account = canonical_account(a.attrs.get('href'))
         if account: accounts[(account['platform'],account['id'])] = account
     if not accounts: return None
@@ -104,12 +115,31 @@ def collect(fetch, agency, state=None, full=False):
                  'retry_urls':[u for u,r,e in results if e],'next_index':(start+len(targets))%len(ordered),
                  'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat()}
 
+def screen_names(base,previous,rows):
+    from update_dictionary import key
+    from platform_sources import record_accounts
+    merged={r['source_id']:dict(r) for r in base}
+    for r in previous:merged.setdefault(r['source_id'],{}).update(r)
+    names={};accounts={}
+    for sid,r in merged.items():
+        names.setdefault(key(r['display_name']),set()).add(sid)
+        for a in record_accounts(r):accounts.setdefault((a['platform'],a['id']),set()).add(sid)
+    accepted=[];pending=[]
+    for row in rows:
+        matches=set().union(*(accounts.get((a['platform'],a['id']),set()) for a in record_accounts(row)))
+        if row['source_id'] not in merged and names.get(key(row['display_name'])) and not matches:
+            pending.append({'name':row['display_name'],'source_url':row['source_url'],'reason':'same_name_requires_account_confirmation'});continue
+        accepted.append(row)
+    return accepted,pending
+
 def refresh(fetch,base,previous,report,full=False):
     updated=previous
     for agency in AGENCIES:
         try:
-            rows,state=collect(fetch,agency,report.get(agency),full)
-            updated,counts=merge_platforms(base,updated,rows);report[agency]={**state,**counts}
+            seed=json.loads(Path(__file__).with_name('agency-crawl-state.json').read_text())
+            rows,state=collect(fetch,agency,report.get(agency,seed.get(agency)),full)
+            rows,pending=screen_names(base,updated,rows)
+            updated,counts=merge_platforms(base,updated,rows);report[agency]={**state,**counts,'pending_identity_checks':pending}
             print(agency,counts,'checked',state['checked_profiles'],flush=True)
         except (OSError,ValueError,UnicodeError) as e:report.setdefault(agency,{})['last_error']=type(e).__name__
     return updated

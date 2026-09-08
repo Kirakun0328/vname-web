@@ -428,3 +428,28 @@ for(const [jp,values] of Object.entries({
  '一致がなくても、名前が未使用とは限りません。確認済みの読みを優先し、補完した読みには「推定」と表示します。':['No match does not guarantee a name is unused. Verified readings take priority; supplemented readings are marked as estimated.','没有匹配结果不代表名字未被使用。优先使用已确认读音，补充读音标为推测。','검색 결과가 없어도 미사용을 보장하지 않습니다. 확인된 발음을 우선하며 보완한 발음에는 추정 표시가 붙습니다.'],
  '。全件の読みの確認は完了していません。推定の読みは実際と異なる場合があります。読み候補がない場合は「読み未確認」と表示します。':['. Not all readings have been verified. Estimated readings may differ from the actual pronunciation. Names without a candidate are marked as unverified.','。尚未确认所有读音。推测读音可能与实际不同。没有候选读音时显示未确认。','. 모든 발음을 확인하지는 못했습니다. 추정 발음은 실제와 다를 수 있으며 후보가 없으면 미확인으로 표시됩니다.']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+for(const [jp,values] of Object.entries({
+ '名前に含む文字':['Text in name','名字包含的文字','이름에 포함된 문자'],
+ '例：星、ねこ':['e.g. 星, ねこ','例：星、ねこ','예: 星, ねこ'],
+ '読みの確認状況':['Reading verification','读音确认状态','발음 확인 상태'],
+ '確認済み':['Verified','已确认','확인됨'],
+ '推定あり':['Estimated','有推测读音','추정 있음'],
+ '未確認':['Unverified','未确认','미확인'],
+ '集計をCSV保存':['Export summary CSV','导出统计CSV','통계 CSV 저장'],
+ '異なる名前表記':['Distinct name spellings','不同名字表记','서로 다른 이름 표기'],
+ '同じ名前表記のグループ':['Repeated spelling groups','相同表记的组数','동일 표기 그룹'],
+ 'よく使われるかな':['Common kana','常用假名','자주 쓰이는 가나'],
+ '文字の組み合わせ・2文字':['Two-character combinations','两字组合','두 글자 조합'],
+ '文字の組み合わせ・3文字':['Three-character combinations','三字组合','세 글자 조합'],
+ '同じ名前表記の登録':['Records sharing a spelling','同名表记的记录','같은 이름 표기 등록'],
+ '読みの登録状況':['Reading coverage','读音收录状态','발음 등록 현황'],
+ '確認済みの読み':['Verified readings','已确认读音','확인된 발음'],
+ '推定の読み':['Estimated readings','推测读音','추정 발음'],
+ '読みの文字数':['Reading character length','读音字数','발음 글자 수'],
+ '媒体ごとの比較':['Platform comparison','平台比较','플랫폼 비교'],
+ 'タグごとの比較':['Category comparison','分类比较','태그 비교'],
+ '分類':['Group','分类','분류'],
+ '件数':['Records','记录数','건수'],
+ 'かなを含む割合':['Names containing kana','包含假名的比例','가나 포함 비율'],
+ '文字の組み合わせ・名前の重複・読みの登録状況まで、媒体やタグごとに比較できます。':['Compare character combinations, repeated names and reading coverage by platform or category.','按平台或分类比较文字组合、同名和读音收录情况。','플랫폼이나 태그별로 문자 조합, 이름 중복, 발음 등록 현황을 비교합니다.']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);

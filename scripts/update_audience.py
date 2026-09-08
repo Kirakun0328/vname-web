@@ -24,7 +24,7 @@ def main():
         from broad_sources import collect_post
         channels,state=collect_post(batch_size=20,state=report.get('post_rotation'))
         stamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
-        rows=[{'platform':'youtube','account_id':'channel/'+r['channel_id'],'count':r['subscribers'],'source':r['source_url'],'checked_at':stamp[:10],'retrieved_at':stamp} for r in channels]
+        rows=[{'platform':'youtube','account_id':'channel/'+r['channel_id'],'count':r['subscribers'],'source':r.get('source_url','https://vtuber-post.com/database_detail.html?id='+r['channel_id']),'checked_at':stamp[:10],'retrieved_at':stamp} for r in channels]
         updated,count=merge_counts(base,updated,rows);report['post_rotation']={**state,'enriched_records':count}
     except (OSError,ValueError,KeyError) as e:report.setdefault('post_rotation',{})['last_error']=type(e).__name__
     stamp=datetime.datetime.now(datetime.timezone.utc).isoformat()

@@ -30,3 +30,7 @@ test('Gemma can supplement English names but never reuse a renamed identity esti
  assert.equal(resolve({source_id:'one',display_name:'Alice'}).reading,'ありす');
  assert.equal(resolve({source_id:'one',display_name:'Bob'}).reading,'');
 });
+test('Gemma cannot change a kana suffix already spelled in the name',()=>{
+ context.window.VTUBER_ESTIMATED_READINGS={one:{display_name:'灰島リウ',reading:'はいしまりゅう',model:'gemma-4-E2B-it',kind:'inferred'}};
+ assert.equal(resolve({source_id:'one',display_name:'灰島リウ'}).reading,'');
+});

@@ -21,7 +21,7 @@ permissions:
   id-token: write
 concurrency:
   group: dictionary-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -47,12 +47,15 @@ jobs:
       - name: Apply verified community additions and renames
         run: python scripts/update_dictionary.py --reviewed-only
       - name: Refresh public audience counts
+        if: github.event_name != 'push'
         run: python scripts/update_audience.py
       - uses: actions/cache@v4
+        if: github.event_name != 'push'
         with:
           path: .cache/registration-review
           key: gemma-e2b-review-b4243c1-llama-b10809-v1
       - name: Estimate queued readings with local Gemma
+        if: github.event_name != 'push'
         run: python scripts/estimate_readings.py --limit 200 --seconds 900
       - name: Validate JavaScript
         run: |

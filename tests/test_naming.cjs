@@ -197,3 +197,12 @@ test('unloading during conversation initialization cannot publish stale suggesti
 test('context capacity is checked before inference and keeps the unsent input',async()=>{
  const h=await harness({tokenCount:7900});await h.get('ai-start').onclick();h.get('ai-message').value='長い相談の続き';await h.submit();assert.equal(h.state.requests.length,0);assert.equal(h.get('ai-message').value,'長い相談の続き');assert.match(h.get('ai-status').textContent,/会話が長く/);
 });
+
+test('expanded statistics count unique record presence and distinguish reading provenance',()=>{
+ const rows=[{display_name:'星ねこ',reading:'ほしねこ',reading_inferred:false},{display_name:'星ねこ',reading:'ほしねこ',reading_inferred:true},{display_name:'ねこねこ'},{display_name:'Ａlice'},{display_name:'alice'}];
+ const s=plain(insight.analyze(rows));assert.equal(s.uniqueNames,3);assert.equal(s.duplicateGroups,2);assert.equal(s.duplicateRecords,4);
+ assert.equal(s.ngrams2.find(r=>r.label==='ねこ').count,3);assert.equal(s.ngrams3.find(r=>r.label==='星ねこ').count,2);
+ assert.equal(s.readingStatus.find(r=>r.label==='推定の読み').count,1);assert.equal(s.readable,2);
+ const c=plain(insight.compare([{display_name:'ねこ',groups:['A','A','B']},{display_name:'星月空',groups:['A']}],r=>r.groups));
+ assert.equal(c[0].count,2);assert.equal(c[0].averageLength,2.5);assert.equal(c[0].kanaPercent,50);assert.equal(c[1].count,1);
+});

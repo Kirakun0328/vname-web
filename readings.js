@@ -97,5 +97,11 @@ window.VTUBER_READINGS = {
     "reading_source_kind": "manual",
     "romanized_source": "https://www.youtube.com/channel/UChQKyaipbRo2C-M-_oOJ4_w",
     "reading_checked_at": "2026-09-08"
+  },
+  "夢空愛里鈴": {
+    "reading": "ゆめかありす",
+    "reading_source": "https://note.com/yumeka_alice/n/n0bd8066990d6",
+    "reading_source_kind": "manual",
+    "reading_checked_at": "2026-09-08"
   }
 };

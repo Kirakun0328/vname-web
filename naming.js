@@ -7,7 +7,7 @@
   let activeLoad=null, activeSend=null;
   let conversationLanguage=null, conversationScope=null;
   let modelSaved=false, cacheSupported=true;
-  let mediaIndex=null, stats=null, lastChecks=[];
+  let mediaIndex=null, mediaRecords=null, stats=null, lastChecks=[];
   let promptConversation=null, initialPrompts=[];
   let followConversation=true;
   const conversationHistory=$('ai-history');
@@ -57,8 +57,10 @@
   window.addEventListener('hashchange',()=>selectTab(location.hash.slice(1),false));
   function openSearch(name){selectTab('search');$('query').value=name;$('search-tag').value='all';$('search-platform').value='all';search();$('query').focus();}
   function prepareMedia(){
-    if(mediaIndex)return;
-    mediaIndex=new Map();
+    if(mediaIndex&&mediaRecords===records)return;
+    const selected=$('trend-platform').value||'all';
+    mediaRecords=records;mediaIndex=new Map();
+    const all=el('option','すべての媒体');all.value='all';$('trend-platform').replaceChildren(all);
     for(const r of records){
       const d=window.VNamePlatforms.details(r);
       for(const [id,label] of Object.entries(window.VNamePlatforms.labels))if(d.known.includes(label)){
@@ -68,12 +70,14 @@
     for(const [id,label] of Object.entries(window.VNamePlatforms.labels))if(mediaIndex.has(id)){
       const option=el('option',label);option.value=id;$('trend-platform').append(option);
     }
+    $('trend-platform').value=selected==='all'||mediaIndex.has(selected)?selected:'all';
   }
-  function scopeKey(){return [$('trend-platform').value||'all',$('trend-tag').value||'all',$('trend-script').value||'all'].join(':');}
+  function scopeKey(){return [records.length,$('trend-platform').value||'all',$('trend-tag').value||'all',$('trend-script').value||'all',$('trend-word').value||'',$('trend-reading').value||'all'].join(':');}
   function selectedRows(){
     prepareMedia();const media=$('trend-platform').value||'all',tag=$('trend-tag').value||'all',script=$('trend-script').value||'all';
+    const word=key($('trend-word').value),readingScope=$('trend-reading').value||'all';
     const writing={kana:/[\p{Script=Hiragana}\p{Script=Katakana}]/u,han:/\p{Script=Han}/u,latin:/[A-Za-z]/};
-    return (media==='all'?records:(mediaIndex.get(media)||[])).filter(r=>(tag==='all'||categoryOf(r)===tag)&&(!writing[script]||writing[script].test(r.display_name.normalize('NFKC'))));
+    return (media==='all'?records:(mediaIndex.get(media)||[])).filter(r=>(tag==='all'||categoryOf(r)===tag)&&(!word||key(r.display_name).includes(word))&&(readingScope==='all'||(readingScope==='verified'&&r.reading&&!r.reading_inferred)||(readingScope==='estimated'&&r.reading_inferred)||(readingScope==='missing'&&!r.reading))&&(!writing[script]||writing[script].test(r.display_name.normalize('NFKC'))));
   }
   function currentStats(){
     const scope=scopeKey();if(stats?.scope===scope)return stats;
@@ -94,19 +98,28 @@
     for(const r of rows){const row=el('tr'),cell=el('td'),b=el('button',r.label);b.type='button';b.dataset.word=r.label;b.onclick=()=>openSearch(r.label);cell.append(b);row.append(cell,el('td',r.count.toLocaleString()),el('td',(stats.total?(r.count/stats.total*100).toFixed(1):'0.0')+'%'));body.append(row);}
     table.append(head,body);box.append(table);return box;
   }
+  function comparison(title,rows){
+    const box=el('section',undefined,'insight-card');box.append(el('h3',title));
+    const table=el('table'),head=el('tr');for(const label of ['分類','件数','平均文字数','かなを含む割合'])head.append(el('th',label));table.append(head);
+    for(const r of rows){const row=el('tr');for(const value of [r.label,r.count.toLocaleString(),r.averageLength,r.kanaPercent+'%'])row.append(el('td',String(value)));table.append(row);}
+    box.append(table);return box;
+  }
   function renderTrends(){
     stats=currentStats();const box=$('trend-content');box.replaceChildren();
     const summary=el('div',undefined,'insight-stats');
-    for(const [label,value] of [['集計対象',stats.total.toLocaleString()],['平均文字数',String(stats.averageLength)],['文字数の中央値',String(stats.medianLength)],['よくある文字数',String(stats.commonLengths[0]?.length??'—')]]){
+    for(const [label,value] of [['集計対象',stats.total.toLocaleString()],['平均文字数',String(stats.averageLength)],['文字数の中央値',String(stats.medianLength)],['よくある文字数',String(stats.commonLengths[0]?.length??'—')],['異なる名前表記',stats.uniqueNames.toLocaleString()],['同じ名前表記のグループ',stats.duplicateGroups.toLocaleString()]]){
       const metric=el('div',undefined,'insight-stat');metric.append(el('span',label),el('strong',value));summary.append(metric);
     }
     const grid=el('div',undefined,'insight-grid');
     grid.append(bars('名前の文字数',stats.lengths,stats.total),bars('文字の構成',stats.scripts,stats.total),ranking('よく使われる漢字',stats.characters),ranking('よく使われる漢字2文字',stats.pairs),ranking('よく使われる先頭2文字',stats.prefixes),ranking('よく使われる末尾2文字',stats.suffixes));box.append(summary);
     if(!stats.total)box.append(el('p','条件に一致する掲載がありません。','trend-note'));
+    grid.append(ranking('よく使われるかな',stats.kanaCharacters),ranking('文字の組み合わせ・2文字',stats.ngrams2),ranking('文字の組み合わせ・3文字',stats.ngrams3),ranking('同じ名前表記の登録',stats.duplicateNames),bars('読みの登録状況',stats.readingStatus,stats.total),bars('読みの文字数',stats.readingLengths,stats.readable),comparison('媒体ごとの比較',insight.compare(selectedRows(),r=>r.media?.known||[])),comparison('タグごとの比較',insight.compare(selectedRows(),r=>[categoryOf(r)])));
     box.append(grid,el('p','先頭・末尾は表示名の2文字を比較しています。苗字や語源の分類ではありません。漢字は各レコードで1回だけ数え、割合は選択中の集計対象に対する値です。','trend-note'));translateUI();
   }
   $('trend-platform').onchange=()=>{stats=null;renderTrends();};
-  $('trend-tag').onchange=$('trend-script').onchange=$('trend-platform').onchange;
+  $('trend-tag').onchange=$('trend-script').onchange=$('trend-reading').onchange=$('trend-platform').onchange;
+  $('trend-word').oninput=()=>{stats=null;renderTrends();};
+  $('trend-export').onclick=()=>{const value=currentStats();const rows=[['分析項目','表記','件数','割合']];for(const section of ['lengths','scripts','characters','pairs','ngrams2','ngrams3','prefixes','suffixes','readingStatus','duplicateNames'])for(const r of value[section])rows.push([section,r.label,r.count,value.total?(r.count/value.total*100).toFixed(2)+'%':'0%']);const quote=x=>'"'+String(x).replace(/^[=+@-]/,'\'$&').replace(/"/g,'""')+'"';const blob=new Blob(['\ufeff'+rows.map(r=>r.map(quote).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'});const a=el('a');a.href=URL.createObjectURL(blob);a.download='vname-name-trends.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);};
   $('trend-consult').onclick=()=>{selectTab('consult');$('ai-message').value='収録されている名前の傾向を踏まえて、かぶりにくく覚えやすい名前の方向性を一緒に考えてください。';$('ai-message').focus();};
   function showPrompts(prompts=[],emptyText='続けて、希望を自由に入力してください。'){
     const box=$('ai-prompts');box.replaceChildren();
