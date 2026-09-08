@@ -27,7 +27,7 @@ window.VNameCommunity = (() => {
 
 // Registration has been discontinued. No automatic network requests.
 
-document.addEventListener('DOMContentLoaded',()=>{
+if(typeof document!=='undefined'&&typeof document.addEventListener==='function')document.addEventListener('DOMContentLoaded',()=>{
   const anchor=document.querySelector('.creator-tools')||document.querySelector('#register');
   if(!anchor||document.querySelector('.data-policy-card'))return;
   const section=document.createElement('section');
