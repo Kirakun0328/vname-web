@@ -53,15 +53,59 @@ jobs:
         run: python scripts/import_aivtuber_cc0.py
       - name: Apply individually reviewed additions and corrections
         run: python scripts/update_dictionary.py --reviewed-only
-      - name: Discover broad specialist VTuber candidates with configured SearXNG
+      - name: Prepare SearXNG endpoint for discovery
         if: github.event_name != 'push' || github.event.head_commit.message == 'Run broad specialist SearXNG discovery'
         env:
-          SEARXNG_URL: ${{ vars.SEARXNG_URL }}
+          CONFIGURED_SEARXNG_URL: ${{ vars.SEARXNG_URL }}
+        run: |
+          if [ -n "$CONFIGURED_SEARXNG_URL" ]; then
+            echo "VNAME_SEARXNG_URL=$CONFIGURED_SEARXNG_URL" >> "$GITHUB_ENV"
+            echo "Using configured SearXNG endpoint"
+            exit 0
+          fi
+          mkdir -p "$RUNNER_TEMP/vname-searxng"
+          cat > "$RUNNER_TEMP/vname-searxng/settings.yml" <<'YAML'
+          use_default_settings:
+            engines:
+              keep_only:
+                - youtube
+                - duckduckgo
+                - brave
+                - bing
+          general:
+            debug: false
+            instance_name: "vname-ci-searxng"
+          search:
+            safe_search: 0
+            formats:
+              - html
+              - json
+          server:
+            secret_key: "vname-ci-ephemeral-not-public"
+            limiter: false
+            public_instance: false
+            image_proxy: false
+          YAML
+          docker run -d --name vname-searxng \
+            -p 127.0.0.1:8080:8080 \
+            -v "$RUNNER_TEMP/vname-searxng:/etc/searxng:rw" \
+            ghcr.io/searxng/searxng:2026.9.8-3fdc6d753@sha256:8bc27439bd3e201d493d1b6668c9d67a89b1d669af4d50c6f411b06c4fbc8de2
+          for i in $(seq 1 40); do
+            if curl -fsS 'http://127.0.0.1:8080/search?q=vtuber&format=json' >/dev/null 2>&1; then
+              break
+            fi
+            sleep 1
+          done
+          curl -fsS 'http://127.0.0.1:8080/search?q=vtuber&format=json' >/dev/null
+          echo "VNAME_SEARXNG_URL=http://127.0.0.1:8080" >> "$GITHUB_ENV"
+          echo "Started ephemeral local SearXNG"
+      - name: Discover broad specialist VTuber candidates with SearXNG
+        if: github.event_name != 'push' || github.event.head_commit.message == 'Run broad specialist SearXNG discovery'
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
-            python scripts/discover_primary_search.py --limit 80 --pages 2
+            SEARXNG_URL="$VNAME_SEARXNG_URL" python scripts/discover_primary_search.py --limit 80 --pages 2
           else
-            python scripts/discover_primary_search.py --limit 24 --pages 2
+            SEARXNG_URL="$VNAME_SEARXNG_URL" python scripts/discover_primary_search.py --limit 24 --pages 2
           fi
       - name: Verify SearXNG leads against direct creator profiles
         if: github.event_name != 'push' || github.event.head_commit.message == 'Run broad specialist SearXNG discovery'
