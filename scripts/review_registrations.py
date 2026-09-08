@@ -115,8 +115,16 @@ def api(method='GET', payload=None):
     with urllib.request.urlopen(req, timeout=20) as response: token = json.load(response)['value']
     # The hosting gateway reserves Authorization for its own authentication.
     # The application independently verifies this GitHub OIDC token.
-    req = urllib.request.Request(endpoint, method=method, data=json.dumps(payload).encode() if payload is not None else None, headers={'X-VName-Review-Token': token, 'Content-Type': 'application/json'})
-    with urllib.request.urlopen(req, timeout=30) as response: return json.load(response)
+    req = urllib.request.Request(endpoint, method=method, data=json.dumps(payload).encode() if payload is not None else None, headers={'X-VName-Review-Token': token, 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': 'VName-Registration-Reviewer/1.0 (+https://github.com/Kirakun0328/vname-web)'})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as response: return json.load(response)
+    except urllib.error.HTTPError as error:
+        # Log response diagnostics only; never log the request or its OIDC token.
+        raw = error.read(4096).decode('utf-8', errors='replace')
+        title = re.search(r'<title>([^<]{1,160})</title>', raw, re.I)
+        details = {key: error.headers.get(key) for key in ['Content-Type', 'Server', 'CF-Mitigated', 'CF-Ray']}
+        details['title'] = title.group(1) if title else None
+        raise RuntimeError(f'Registration API HTTP {error.code}: {json.dumps(details)}') from None
 
 
 def download(url, path, expected):
