@@ -1,0 +1,572 @@
+[
+  {
+    "display_name": "珀世イフ",
+    "profile_url": "https://x.com/hakuseifu",
+    "activity_source": "https://x.com/hakuseifu",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "hakuseifu",
+        "url": "https://x.com/hakuseifu"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCw704jdOTfSCpb0k5r-R0lg",
+        "url": "https://youtube.com/channel/UCw704jdOTfSCpb0k5r-R0lg"
+      }
+    ],
+    "matched_source_ids": [
+      "youtube:UCw704jdOTfSCpb0k5r-R0lg"
+    ],
+    "same_name_source_ids": [
+      "youtube:UCw704jdOTfSCpb0k5r-R0lg"
+    ],
+    "discovered_at": "2026-09-08T09:58:08.488121+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "きつき",
+    "profile_url": "https://x.com/kithukiV",
+    "activity_source": "https://x.com/kithukiV",
+    "platform": "",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "kithukiv",
+        "url": "https://x.com/kithukiv"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [
+      "youtube:UC53kL4uJ-r9XZIpH_ytzN1w"
+    ],
+    "discovered_at": "2026-09-08T09:58:08.488168+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "三毛猫わらび",
+    "profile_url": "https://x.com/mikeneko_warabi",
+    "activity_source": "https://x.com/mikeneko_warabi",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "mikeneko_warabi",
+        "url": "https://x.com/mikeneko_warabi"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UC3bYL1a4b64ZYUy8Ow11H8g",
+        "url": "https://youtube.com/channel/UC3bYL1a4b64ZYUy8Ow11H8g"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488203+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "ばしぽ",
+    "profile_url": "https://x.com/basipo84",
+    "activity_source": "https://x.com/basipo84",
+    "platform": "",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "basipo84",
+        "url": "https://x.com/basipo84"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488222+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "Я",
+    "profile_url": "https://x.com/Yaadot_Rin",
+    "activity_source": "https://x.com/Yaadot_Rin",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "yaadot_rin",
+        "url": "https://x.com/yaadot_rin"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488238+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "猫乃みいころ",
+    "profile_url": "https://x.com/miikoro777",
+    "activity_source": "https://x.com/miikoro777",
+    "platform": "",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "miikoro777",
+        "url": "https://x.com/miikoro777"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488253+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "北条羽津希",
+    "profile_url": "https://x.com/HojoHaduki",
+    "activity_source": "https://x.com/HojoHaduki",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "hojohaduki",
+        "url": "https://x.com/hojohaduki"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [
+      "youtube:UCEJOq75zCDUHdtbBUdbSjwg"
+    ],
+    "discovered_at": "2026-09-08T09:58:08.488269+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "明星あかる",
+    "profile_url": "https://x.com/meiseiakaru",
+    "activity_source": "https://x.com/meiseiakaru",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "meiseiakaru",
+        "url": "https://x.com/meiseiakaru"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488284+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "主",
+    "profile_url": "https://x.com/arujisann",
+    "activity_source": "https://x.com/arujisann",
+    "platform": "",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "arujisann",
+        "url": "https://x.com/arujisann"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488300+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "天地人",
+    "profile_url": "https://x.com/tenkamusou_",
+    "activity_source": "https://x.com/tenkamusou_",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "tenkamusou_",
+        "url": "https://x.com/tenkamusou_"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488315+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "野狐さち",
+    "profile_url": "https://x.com/sacchi_games",
+    "activity_source": "https://x.com/sacchi_games",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "sacchi_games",
+        "url": "https://x.com/sacchi_games"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488329+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "蒼壱",
+    "profile_url": "https://x.com/aoichi_craft",
+    "activity_source": "https://x.com/aoichi_craft",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "aoichi_craft",
+        "url": "https://x.com/aoichi_craft"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488344+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "錦なか",
+    "profile_url": "https://x.com/nisino_naka",
+    "activity_source": "https://x.com/nisino_naka",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "nisino_naka",
+        "url": "https://x.com/nisino_naka"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488359+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "おむずし",
+    "profile_url": "https://x.com/omzushi",
+    "activity_source": "https://x.com/omzushi",
+    "platform": "youtube",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "omzushi",
+        "url": "https://x.com/omzushi"
+      }
+    ],
+    "matched_source_ids": [
+      "liverfun:omzushi"
+    ],
+    "same_name_source_ids": [
+      "youtube:UCRNKZ8S_5GJYF9MlT6QgDnA"
+    ],
+    "discovered_at": "2026-09-08T09:58:08.488376+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "幻ノノア",
+    "profile_url": "https://x.com/maboroshinonoa",
+    "activity_source": "https://x.com/maboroshinonoa",
+    "platform": "",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "maboroshinonoa",
+        "url": "https://x.com/maboroshinonoa"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488429+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "遊吹あるじ",
+    "profile_url": "https://x.com/AsobukiAruzi",
+    "activity_source": "https://x.com/AsobukiAruzi",
+    "platform": "",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "asobukiaruzi",
+        "url": "https://x.com/asobukiaruzi"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488447+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "柩メイヴちゆる",
+    "profile_url": "https://x.com/ChiyuruGhost",
+    "activity_source": "https://x.com/ChiyuruGhost",
+    "platform": "",
+    "basis": "本人プロフィールのVTuber表記と配信活動の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "x",
+        "id": "chiyurughost",
+        "url": "https://x.com/chiyurughost"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488462+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "仙喵SkyMeowu",
+    "profile_url": "https://www.youtube.com/@skyMeowu727",
+    "activity_source": "https://www.youtube.com/@skyMeowu727",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "@skymeowu727",
+        "url": "https://youtube.com/@skyMeowu727"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488479+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "藥師寺丹",
+    "profile_url": "https://www.youtube.com/@144Akira",
+    "activity_source": "https://www.youtube.com/@144Akira",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "@144akira",
+        "url": "https://youtube.com/@144Akira"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [
+      "youtube:UC3nnLh4kPjNTTyBdImaPBXg"
+    ],
+    "discovered_at": "2026-09-08T09:58:08.488495+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "劍星SwordStar",
+    "profile_url": "https://www.youtube.com/@SwordStar2024",
+    "activity_source": "https://www.youtube.com/@SwordStar2024",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "@swordstar2024",
+        "url": "https://youtube.com/@SwordStar2024"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488510+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "夢博士",
+    "profile_url": "https://www.youtube.com/@Dreamer01225",
+    "activity_source": "https://www.youtube.com/@Dreamer01225",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "@dreamer01225",
+        "url": "https://youtube.com/@Dreamer01225"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488525+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "小音朝寢",
+    "profile_url": "https://www.youtube.com/@KononeAsane0722_catvtb",
+    "activity_source": "https://www.youtube.com/@KononeAsane0722_catvtb",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "@kononeasane0722_catvtb",
+        "url": "https://youtube.com/@KononeAsane0722_catvtb"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488545+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "紗亞娜Sayana",
+    "profile_url": "https://www.youtube.com/@Sayana_109",
+    "activity_source": "https://www.youtube.com/@Sayana_109",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "@sayana_109",
+        "url": "https://youtube.com/@Sayana_109"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488560+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "黑天Kuroten",
+    "profile_url": "https://www.youtube.com/@kuroten5536",
+    "activity_source": "https://www.youtube.com/@kuroten5536",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "@kuroten5536",
+        "url": "https://youtube.com/@kuroten5536"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488574+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "綴せかい",
+    "profile_url": "https://www.youtube.com/@tsuzuru_sekai",
+    "activity_source": "https://www.youtube.com/@tsuzuru_sekai",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "@tsuzuru_sekai",
+        "url": "https://youtube.com/@tsuzuru_sekai"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488589+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  },
+  {
+    "display_name": "Kizumi Itsuki",
+    "profile_url": "https://www.youtube.com/channel/UCPOShbdmQNPm9gT34Bo83Pg",
+    "activity_source": "https://www.youtube.com/channel/UCPOShbdmQNPm9gT34Bo83Pg",
+    "platform": "youtube",
+    "basis": "本人チャンネルのVTuber表記と公開動画・配信の記載（検索インデックス）",
+    "accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCPOShbdmQNPm9gT34Bo83Pg",
+        "url": "https://youtube.com/channel/UCPOShbdmQNPm9gT34Bo83Pg"
+      }
+    ],
+    "matched_source_ids": [],
+    "same_name_source_ids": [],
+    "discovered_at": "2026-09-08T09:58:08.488604+00:00",
+    "discovery_method": "web_search_primary_index",
+    "review_status": "pending_live_primary_confirmation",
+    "live_fetch_status": "blocked_or_throttled",
+    "published": false
+  }
+]

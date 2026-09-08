@@ -46,6 +46,11 @@ jobs:
         run: python scripts/update_platform_dictionary.py
       - name: Apply verified community additions and renames
         run: python scripts/update_dictionary.py --reviewed-only
+      - name: Discover primary-source candidates with configured SearXNG
+        if: github.event_name != 'push'
+        env:
+          SEARXNG_URL: ${{ vars.SEARXNG_URL }}
+        run: python scripts/discover_primary_search.py --limit 4
       - name: Recheck individual primary profiles
         run: python scripts/reverify_primary.py ${{ github.event_name == 'push' && '--offline' || '--limit 40' }}
       - uses: actions/cache@v4
@@ -72,10 +77,10 @@ jobs:
           node --check i18n.js
       - name: Commit dictionary changes
         run: |
-          if ! git diff --quiet -- primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json estimated-readings.js scripts/audience-report.json)"; then
+          if ! git diff --quiet -- scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json estimated-readings.js scripts/audience-report.json)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
+            git add scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
             git commit -m 'Update dictionary from public sources'
             git push origin HEAD:main
           fi

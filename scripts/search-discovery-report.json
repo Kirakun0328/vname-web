@@ -1,0 +1,4 @@
+{
+  "status": "not_configured",
+  "message": "Set SEARXNG_URL to an authorized JSON-enabled instance. No search ran."
+}
