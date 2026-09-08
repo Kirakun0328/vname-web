@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "policy": "explicit_open_license_only_with_source_specific_quality_filters",
+  "before_unique_identities": 16438,
+  "after_unique_identities": 17876,
+  "net_new_unique_identities": 1438,
+  "sources": {
+    "wikidata_cc0": {
+      "status": "ok",
+      "seen": 820,
+      "new": 814,
+      "enriched": 0,
+      "invalid": 6
+    },
+    "vtuber_1b_pddl": {
+      "status": "ok",
+      "seen": 1358,
+      "new": 1357,
+      "enriched": 0,
+      "invalid": 1
+    },
+    "ayousanz_mit": {
+      "status": "ok",
+      "seen": 1762,
+      "label_vtuber": 571,
+      "rejected_policy": 419,
+      "new": 152,
+      "enriched": 0,
+      "invalid": 0
+    }
+  },
+  "retained_fields": [
+    "display_name",
+    "reading_if_explicit",
+    "youtube_channel_id",
+    "public_source_and_license"
+  ],
+  "excluded_fields": [
+    "descriptions",
+    "thumbnails",
+    "audience_metrics",
+    "chat_data"
+  ]
+}
