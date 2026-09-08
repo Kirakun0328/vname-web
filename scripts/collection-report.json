@@ -113,10 +113,10 @@
     "skipped_without_activity_or_predebut": 0
   },
   "records": {
-    "stored": 33304,
-    "listed": 33286,
+    "stored": 33450,
+    "listed": 33432,
     "excluded_predebut": 18,
-    "with_activity_source": 9925
+    "with_activity_source": 10071
   },
   "vstats": {
     "new_records": 0,
@@ -381,9 +381,9 @@
     "source": "https://x.com/Kiratchi0328/status/2096914177667567915"
   },
   "platform_expansion": {
-    "source_records": 173,
-    "new_records": 0,
-    "matched_existing": 173,
+    "source_records": 353,
+    "new_records": 146,
+    "matched_existing": 207,
     "ambiguous_skipped": 0
   }
 }
