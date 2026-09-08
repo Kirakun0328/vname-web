@@ -1,0 +1,4984 @@
+[
+  {
+    "source_id": "agency-321:あいみて",
+    "display_name": "あいみて",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%82%e3%81%84%e3%81%bf%e3%81%a6/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%82%e3%81%84%e3%81%bf%e3%81%a6/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "9b135e91",
+        "url": "https://reality.app/profile/9b135e91"
+      },
+      {
+        "platform": "x",
+        "id": "aimitemite",
+        "url": "https://x.com/aimitemite"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:あむ。",
+    "display_name": "あむ。",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%82%e3%82%80%e3%80%82/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%82%e3%82%80%e3%80%82/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "e4007741",
+        "url": "https://reality.app/profile/e4007741"
+      },
+      {
+        "platform": "x",
+        "id": "amu20230405",
+        "url": "https://x.com/amu20230405"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:かずコング",
+    "display_name": "かずコング",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%8b%e3%81%9a%e3%82%b3%e3%83%b3%e3%82%b0/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%8b%e3%81%9a%e3%82%b3%e3%83%b3%e3%82%b0/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "cacf1495",
+        "url": "https://reality.app/profile/cacf1495"
+      },
+      {
+        "platform": "x",
+        "id": "kazuking4201",
+        "url": "https://x.com/kazuking4201"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:かなる",
+    "display_name": "かなる..",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%8b%e3%81%aa%e3%82%8b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%8b%e3%81%aa%e3%82%8b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "4B6LKjd72b",
+        "url": "https://web.iriam.app/s/user/4B6LKjd72b"
+      },
+      {
+        "platform": "x",
+        "id": "kanaru_p_",
+        "url": "https://x.com/kanaru_p_"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UC6TU5JVS3i2yKOKrb8Lpeyw",
+        "url": "https://youtube.com/channel/UC6TU5JVS3i2yKOKrb8Lpeyw"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:こたつ",
+    "display_name": "こたつ",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%93%e3%81%9f%e3%81%a4/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%93%e3%81%9f%e3%81%a4/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "5f416ef6",
+        "url": "https://reality.app/profile/5f416ef6"
+      },
+      {
+        "platform": "x",
+        "id": "kotatsu_17",
+        "url": "https://x.com/kotatsu_17"
+      },
+      {
+        "platform": "instagram",
+        "id": "kotatsu_17",
+        "url": "https://instagram.com/kotatsu_17"
+      },
+      {
+        "platform": "youtube",
+        "id": "@kotatsu_17",
+        "url": "https://youtube.com/@kotatsu_17"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:たくてぃ",
+    "display_name": "たくてぃ",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%9f%e3%81%8f%e3%81%a6%e3%81%83/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%9f%e3%81%8f%e3%81%a6%e3%81%83/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "chgVBm",
+        "url": "https://web.iriam.app/s/user/chgVBm"
+      },
+      {
+        "platform": "x",
+        "id": "takuty1117",
+        "url": "https://x.com/takuty1117"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@takuty_vtuber",
+        "url": "https://www.tiktok.com/@takuty_vtuber"
+      },
+      {
+        "platform": "youtube",
+        "id": "@takuty_vtuber",
+        "url": "https://youtube.com/@takuty_vtuber"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:ちよこ",
+    "display_name": "ちよこ",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%a1%e3%82%88%e3%81%93/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%a1%e3%82%88%e3%81%93/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "78c1a496",
+        "url": "https://reality.app/profile/78c1a496"
+      },
+      {
+        "platform": "x",
+        "id": "chiyocoooto",
+        "url": "https://x.com/chiyocoooto"
+      },
+      {
+        "platform": "youtube",
+        "id": "@chiyocooooto",
+        "url": "https://youtube.com/@chiyocooooto"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:なゆか",
+    "display_name": "なゆか",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%aa%e3%82%86%e3%81%8b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%aa%e3%82%86%e3%81%8b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "45533417",
+        "url": "https://reality.app/profile/45533417"
+      },
+      {
+        "platform": "x",
+        "id": "na___yuka___",
+        "url": "https://x.com/na___yuka___"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:ぽぽち",
+    "display_name": "ぽぽち",
+    "source_url": "https://vliver.321.inc/liver/%e3%81%bd%e3%81%bd%e3%81%a1/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%81%bd%e3%81%bd%e3%81%a1/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "847728f7",
+        "url": "https://reality.app/profile/847728f7"
+      },
+      {
+        "platform": "x",
+        "id": "popochi1011",
+        "url": "https://x.com/popochi1011"
+      },
+      {
+        "platform": "instagram",
+        "id": "popochi1011",
+        "url": "https://instagram.com/popochi1011"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@popochi1011",
+        "url": "https://www.tiktok.com/@popochi1011"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:ゆんちょる",
+    "display_name": "ゆんちょる",
+    "source_url": "https://vliver.321.inc/liver/%e3%82%86%e3%82%93%e3%81%a1%e3%82%87%e3%82%8b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%82%86%e3%82%93%e3%81%a1%e3%82%87%e3%82%8b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "d2cba781",
+        "url": "https://reality.app/profile/d2cba781"
+      },
+      {
+        "platform": "x",
+        "id": "_yunchoru",
+        "url": "https://x.com/_yunchoru"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:アスハ・エステリオン",
+    "display_name": "アスハ・エステリオン",
+    "source_url": "https://vliver.321.inc/liver/%e3%82%a2%e3%82%b9%e3%83%8f%e3%83%bb%e3%82%a8%e3%82%b9%e3%83%86%e3%83%aa%e3%82%aa%e3%83%b3/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%82%a2%e3%82%b9%e3%83%8f%e3%83%bb%e3%82%a8%e3%82%b9%e3%83%86%e3%83%aa%e3%82%aa%e3%83%b3/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "ae0a3612-9a99-4ca2-8e9c-e63b9040ab04",
+        "url": "https://17.live/s/u/ae0a3612-9a99-4ca2-8e9c-e63b9040ab04"
+      },
+      {
+        "platform": "x",
+        "id": "asuha_asterion",
+        "url": "https://x.com/asuha_asterion"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:アメリー・ロゼット",
+    "display_name": "アメリー・ロゼット",
+    "source_url": "https://vliver.321.inc/liver/%e3%82%a2%e3%83%a1%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%ad%e3%82%bc%e3%83%83%e3%83%88/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%82%a2%e3%83%a1%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%ad%e3%82%bc%e3%83%83%e3%83%88/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "2Ma6smQoDk",
+        "url": "https://web.iriam.app/s/user/2Ma6smQoDk"
+      },
+      {
+        "platform": "x",
+        "id": "aroze_ame",
+        "url": "https://x.com/aroze_ame"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:エステル・シュヴァリエ",
+    "display_name": "エステル・シュヴァリエ",
+    "source_url": "https://vliver.321.inc/liver/%e3%82%a8%e3%82%b9%e3%83%86%e3%83%ab%e3%83%bb%e3%82%b7%e3%83%a5%e3%83%b4%e3%82%a1%e3%83%aa%e3%82%a8/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%82%a8%e3%82%b9%e3%83%86%e3%83%ab%e3%83%bb%e3%82%b7%e3%83%a5%e3%83%b4%e3%82%a1%e3%83%aa%e3%82%a8/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "KxHqrYDUqG",
+        "url": "https://web.iriam.app/s/user/KxHqrYDUqG"
+      },
+      {
+        "platform": "x",
+        "id": "ester__321",
+        "url": "https://x.com/ester__321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:カル☆パッチョ",
+    "display_name": "カル☆パッチョ",
+    "source_url": "https://vliver.321.inc/liver/%e3%82%ab%e3%83%ab%e2%98%86%e3%83%91%e3%83%83%e3%83%81%e3%83%a7/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%82%ab%e3%83%ab%e2%98%86%e3%83%91%e3%83%83%e3%83%81%e3%83%a7/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ca2d21d4",
+        "url": "https://reality.app/profile/ca2d21d4"
+      },
+      {
+        "platform": "x",
+        "id": "carpaccio_0812",
+        "url": "https://x.com/carpaccio_0812"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:クララ・サクラネ",
+    "display_name": "クララ・サクラネ",
+    "source_url": "https://vliver.321.inc/liver/%e3%82%af%e3%83%a9%e3%83%a9%e3%83%bb%e3%82%b5%e3%82%af%e3%83%a9%e3%83%8d/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%82%af%e3%83%a9%e3%83%a9%e3%83%bb%e3%82%b5%e3%82%af%e3%83%a9%e3%83%8d/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "qE9ZdEPp3k",
+        "url": "https://web.iriam.app/s/user/qE9ZdEPp3k"
+      },
+      {
+        "platform": "x",
+        "id": "sakuppanda",
+        "url": "https://x.com/sakuppanda"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:セリス・ダークライム",
+    "display_name": "セリス・ダークライム",
+    "source_url": "https://vliver.321.inc/liver/%e3%82%bb%e3%83%aa%e3%82%b9%e3%83%bb%e3%83%80%e3%83%bc%e3%82%af%e3%83%a9%e3%82%a4%e3%83%a0/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%82%bb%e3%83%aa%e3%82%b9%e3%83%bb%e3%83%80%e3%83%bc%e3%82%af%e3%83%a9%e3%82%a4%e3%83%a0/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "edb79efc-63c2-46a1-86e4-589e433876e4",
+        "url": "https://17.live/s/u/edb79efc-63c2-46a1-86e4-589e433876e4"
+      },
+      {
+        "platform": "x",
+        "id": "cocohadocoda_",
+        "url": "https://x.com/cocohadocoda_"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:チュンラン",
+    "display_name": "チュンラン",
+    "source_url": "https://vliver.321.inc/liver/%e3%83%81%e3%83%a5%e3%83%b3%e3%83%a9%e3%83%b3/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%83%81%e3%83%a5%e3%83%b3%e3%83%a9%e3%83%b3/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "msGWRvv6rg",
+        "url": "https://web.iriam.app/s/user/msGWRvv6rg"
+      },
+      {
+        "platform": "x",
+        "id": "chun_lan__",
+        "url": "https://x.com/chun_lan__"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:ニニカ・クラブ",
+    "display_name": "ニニカ・クラブ",
+    "source_url": "https://vliver.321.inc/liver/%e3%83%8b%e3%83%8b%e3%82%ab%e3%83%bb%e3%82%af%e3%83%a9%e3%83%96/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%83%8b%e3%83%8b%e3%82%ab%e3%83%bb%e3%82%af%e3%83%a9%e3%83%96/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "zXyqWcbGfL",
+        "url": "https://web.iriam.app/s/user/zXyqWcbGfL"
+      },
+      {
+        "platform": "x",
+        "id": "nnk_crab_",
+        "url": "https://x.com/nnk_crab_"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:ノノ・シトリン",
+    "display_name": "ノノ・シトリン",
+    "source_url": "https://vliver.321.inc/liver/%e3%83%8e%e3%83%8e%e3%83%bb%e3%82%b7%e3%83%88%e3%83%aa%e3%83%b3/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%83%8e%e3%83%8e%e3%83%bb%e3%82%b7%e3%83%88%e3%83%aa%e3%83%b3/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "jQx0HySCzy",
+        "url": "https://web.iriam.app/s/user/jQx0HySCzy"
+      },
+      {
+        "platform": "x",
+        "id": "nono_shitorin",
+        "url": "https://x.com/nono_shitorin"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:ペトラ・ノヴァ",
+    "display_name": "ペトラ・ノヴァ",
+    "source_url": "https://vliver.321.inc/liver/%e3%83%9a%e3%83%88%e3%83%a9%e3%83%bb%e3%83%8e%e3%83%b4%e3%82%a1/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%83%9a%e3%83%88%e3%83%a9%e3%83%bb%e3%83%8e%e3%83%b4%e3%82%a1/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "p1GsPDr2XI",
+        "url": "https://web.iriam.app/s/user/p1GsPDr2XI"
+      },
+      {
+        "platform": "x",
+        "id": "zkr_sou607",
+        "url": "https://x.com/zkr_sou607"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:メリア・ローズ",
+    "display_name": "メリア・ローズ",
+    "source_url": "https://vliver.321.inc/liver/%e3%83%a1%e3%83%aa%e3%82%a2%e3%83%bb%e3%83%ad%e3%83%bc%e3%82%ba/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%83%a1%e3%83%aa%e3%82%a2%e3%83%bb%e3%83%ad%e3%83%bc%e3%82%ba/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "BKCslDmWqB",
+        "url": "https://web.iriam.app/s/user/BKCslDmWqB"
+      },
+      {
+        "platform": "x",
+        "id": "_meria_rose_",
+        "url": "https://x.com/_meria_rose_"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:リオーネ・クレイオ",
+    "display_name": "リオーネ・クレイオ",
+    "source_url": "https://vliver.321.inc/liver/%e3%83%aa%e3%82%aa%e3%83%bc%e3%83%8d%e3%83%bb%e3%82%af%e3%83%ac%e3%82%a4%e3%82%aa/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%83%aa%e3%82%aa%e3%83%bc%e3%83%8d%e3%83%bb%e3%82%af%e3%83%ac%e3%82%a4%e3%82%aa/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "ZvCR80wLQA",
+        "url": "https://web.iriam.app/s/user/ZvCR80wLQA"
+      },
+      {
+        "platform": "x",
+        "id": "leone_cleio",
+        "url": "https://x.com/leone_cleio"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:リリア・ヴェール",
+    "display_name": "リリア・ヴェール",
+    "source_url": "https://vliver.321.inc/liver/%e3%83%aa%e3%83%aa%e3%82%a2%e3%83%bb%e3%83%b4%e3%82%a7%e3%83%bc%e3%83%ab/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%83%aa%e3%83%aa%e3%82%a2%e3%83%bb%e3%83%b4%e3%82%a7%e3%83%bc%e3%83%ab/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "Qrl6RMsQb2",
+        "url": "https://web.iriam.app/s/user/Qrl6RMsQb2"
+      },
+      {
+        "platform": "x",
+        "id": "lilia_veil",
+        "url": "https://x.com/lilia_veil"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:ルーカ・アレイス",
+    "display_name": "ルーカ・アレイス",
+    "source_url": "https://vliver.321.inc/liver/%e3%83%ab%e3%83%bc%e3%82%ab%e3%83%bb%e3%82%a2%e3%83%ac%e3%82%a4%e3%82%b9/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "tiktok"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e3%83%ab%e3%83%bc%e3%82%ab%e3%83%bb%e3%82%a2%e3%83%ac%e3%82%a4%e3%82%b9/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "tiktok",
+        "id": "@lucaallays",
+        "url": "https://www.tiktok.com/@lucaallays"
+      },
+      {
+        "platform": "youtube",
+        "id": "@luca_allays",
+        "url": "https://youtube.com/@Luca_Allays"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:一宮いちず",
+    "display_name": "一宮いちず",
+    "source_url": "https://vliver.321.inc/liver/%e4%b8%80%e5%ae%ae%e3%81%84%e3%81%a1%e3%81%9a/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%b8%80%e5%ae%ae%e3%81%84%e3%81%a1%e3%81%9a/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "fLx6RfsZEg",
+        "url": "https://web.iriam.app/s/user/fLx6RfsZEg"
+      },
+      {
+        "platform": "x",
+        "id": "won___i",
+        "url": "https://x.com/won___i"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:一条雅",
+    "display_name": "一条雅",
+    "source_url": "https://vliver.321.inc/liver/%e4%b8%80%e6%9d%a1%e9%9b%85/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%b8%80%e6%9d%a1%e9%9b%85/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "FaQVrFEtQ8",
+        "url": "https://web.iriam.app/s/user/FaQVrFEtQ8"
+      },
+      {
+        "platform": "x",
+        "id": "ichijo_miya",
+        "url": "https://x.com/ichijo_miya"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:一般人a",
+    "display_name": "一般人A",
+    "source_url": "https://vliver.321.inc/liver/%e4%b8%80%e8%88%ac%e4%ba%baa/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%b8%80%e8%88%ac%e4%ba%baa/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ba865472",
+        "url": "https://reality.app/profile/ba865472"
+      },
+      {
+        "platform": "x",
+        "id": "ippanpeoplea11",
+        "url": "https://x.com/ippanpeoplea11"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:七松あぼ",
+    "display_name": "七松あぼ",
+    "source_url": "https://vliver.321.inc/liver/%e4%b8%83%e6%9d%be%e3%81%82%e3%81%bc/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%b8%83%e6%9d%be%e3%81%82%e3%81%bc/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ed5112e0",
+        "url": "https://reality.app/profile/ed5112e0"
+      },
+      {
+        "platform": "x",
+        "id": "7matsuabo",
+        "url": "https://x.com/7matsuabo"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:七雪-しろせ",
+    "display_name": "七雪 しろせ",
+    "source_url": "https://vliver.321.inc/liver/%e4%b8%83%e9%9b%aa-%e3%81%97%e3%82%8d%e3%81%9b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%b8%83%e9%9b%aa-%e3%81%97%e3%82%8d%e3%81%9b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "d14d0772",
+        "url": "https://reality.app/profile/d14d0772"
+      },
+      {
+        "platform": "x",
+        "id": "yukikuma_srs",
+        "url": "https://x.com/yukikuma_srs"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:中村-ムギ",
+    "display_name": "中村 ムギ",
+    "source_url": "https://vliver.321.inc/liver/%e4%b8%ad%e6%9d%91-%e3%83%a0%e3%82%ae/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%b8%ad%e6%9d%91-%e3%83%a0%e3%82%ae/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "97e03947",
+        "url": "https://reality.app/profile/97e03947"
+      },
+      {
+        "platform": "x",
+        "id": "mugi_nakamura",
+        "url": "https://x.com/mugi_nakamura"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:九尾-こん",
+    "display_name": "九尾 こん",
+    "source_url": "https://vliver.321.inc/liver/%e4%b9%9d%e5%b0%be-%e3%81%93%e3%82%93/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%b9%9d%e5%b0%be-%e3%81%93%e3%82%93/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "6tpZCXlUx0",
+        "url": "https://web.iriam.app/s/user/6tpZCXlUx0"
+      },
+      {
+        "platform": "x",
+        "id": "tsuduraokon",
+        "url": "https://x.com/tsuduraokon"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:二宮-秋",
+    "display_name": "二宮 秋",
+    "source_url": "https://vliver.321.inc/liver/%e4%ba%8c%e5%ae%ae-%e7%a7%8b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%ba%8c%e5%ae%ae-%e7%a7%8b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "78167b32",
+        "url": "https://reality.app/profile/78167b32"
+      },
+      {
+        "platform": "x",
+        "id": "238_aki",
+        "url": "https://x.com/238_aki"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@user4619441935612",
+        "url": "https://www.tiktok.com/@user4619441935612"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCjrbaY1x7-9ulKcq9OQeDsA",
+        "url": "https://youtube.com/channel/UCjrbaY1x7-9ulKcq9OQeDsA"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:五風-晴汰",
+    "display_name": "五風 晴汰",
+    "source_url": "https://vliver.321.inc/liver/%e4%ba%94%e9%a2%a8-%e6%99%b4%e6%b1%b0/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%ba%94%e9%a2%a8-%e6%99%b4%e6%b1%b0/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "92d7ad53",
+        "url": "https://reality.app/profile/92d7ad53"
+      },
+      {
+        "platform": "x",
+        "id": "itkz_haaaaaru",
+        "url": "https://x.com/itkz_haaaaaru"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:京藤ぽんず",
+    "display_name": "京藤ぽんず",
+    "source_url": "https://vliver.321.inc/liver/%e4%ba%ac%e8%97%a4%e3%81%bd%e3%82%93%e3%81%9a/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e4%ba%ac%e8%97%a4%e3%81%bd%e3%82%93%e3%81%9a/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "45b7de05",
+        "url": "https://reality.app/profile/45b7de05"
+      },
+      {
+        "platform": "x",
+        "id": "pon_reality_23",
+        "url": "https://x.com/pon_reality_23"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:光遥　ねのあ",
+    "display_name": "光遥 ねのあ",
+    "source_url": "https://vliver.321.inc/liver/%e5%85%89%e9%81%a5%e3%80%80%e3%81%ad%e3%81%ae%e3%81%82/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%85%89%e9%81%a5%e3%80%80%e3%81%ad%e3%81%ae%e3%81%82/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "a482f6d7",
+        "url": "https://reality.app/profile/a482f6d7"
+      },
+      {
+        "platform": "x",
+        "id": "nenoa_miharu",
+        "url": "https://x.com/nenoa_miharu"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:兎ノ原-りんご",
+    "display_name": "兎ノ原 りんご",
+    "source_url": "https://vliver.321.inc/liver/%e5%85%8e%e3%83%8e%e5%8e%9f-%e3%82%8a%e3%82%93%e3%81%94/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%85%8e%e3%83%8e%e5%8e%9f-%e3%82%8a%e3%82%93%e3%81%94/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "mwNkguxk7Y",
+        "url": "https://web.iriam.app/s/user/mwNkguxk7Y"
+      },
+      {
+        "platform": "x",
+        "id": "ringo_unohara",
+        "url": "https://x.com/ringo_unohara"
+      },
+      {
+        "platform": "instagram",
+        "id": "unohara_ringo321",
+        "url": "https://instagram.com/unohara_ringo321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:冥堂リリス",
+    "display_name": "冥堂リリス",
+    "source_url": "https://vliver.321.inc/liver/%e5%86%a5%e5%a0%82%e3%83%aa%e3%83%aa%e3%82%b9/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%86%a5%e5%a0%82%e3%83%aa%e3%83%aa%e3%82%b9/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "f4e22356",
+        "url": "https://reality.app/profile/f4e22356"
+      },
+      {
+        "platform": "x",
+        "id": "maid_ririsu",
+        "url": "https://x.com/maid_ririsu"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:千景-尖里",
+    "display_name": "千景 尖里",
+    "source_url": "https://vliver.321.inc/liver/%e5%8d%83%e6%99%af-%e5%b0%96%e9%87%8c/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%8d%83%e6%99%af-%e5%b0%96%e9%87%8c/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "cca14361",
+        "url": "https://reality.app/profile/cca14361"
+      },
+      {
+        "platform": "x",
+        "id": "toga_togari",
+        "url": "https://x.com/toga_togari"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:叶愛",
+    "display_name": "叶愛",
+    "source_url": "https://vliver.321.inc/liver/%e5%8f%b6%e6%84%9b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%8f%b6%e6%84%9b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "SVAtWjNS5r",
+        "url": "https://web.iriam.app/s/user/SVAtWjNS5r"
+      },
+      {
+        "platform": "x",
+        "id": "noano_063",
+        "url": "https://x.com/noano_063"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:夏目-凛々",
+    "display_name": "夏目 凛々",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%8f%e7%9b%ae-%e5%87%9b%e3%80%85/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%8f%e7%9b%ae-%e5%87%9b%e3%80%85/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "be3b3511",
+        "url": "https://reality.app/profile/be3b3511"
+      },
+      {
+        "platform": "x",
+        "id": "naturin77",
+        "url": "https://x.com/naturin77"
+      },
+      {
+        "platform": "instagram",
+        "id": "natu_rin77",
+        "url": "https://instagram.com/natu_rin77"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@naturin728",
+        "url": "https://www.tiktok.com/@naturin728"
+      },
+      {
+        "platform": "youtube",
+        "id": "@natumerinrin",
+        "url": "https://youtube.com/@natumerinrin"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:夜天祈-よぞられい",
+    "display_name": "夜天祈-よぞられい-",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%9c%e5%a4%a9%e7%a5%88-%e3%82%88%e3%81%9e%e3%82%89%e3%82%8c%e3%81%84/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%9c%e5%a4%a9%e7%a5%88-%e3%82%88%e3%81%9e%e3%82%89%e3%82%8c%e3%81%84/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "afef49a2",
+        "url": "https://reality.app/profile/afef49a2"
+      },
+      {
+        "platform": "x",
+        "id": "yozora_rei",
+        "url": "https://x.com/yozora_rei"
+      },
+      {
+        "platform": "instagram",
+        "id": "yozora__rei",
+        "url": "https://instagram.com/yozora__rei"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@017yozora_rei",
+        "url": "https://www.tiktok.com/@017yozora_rei"
+      },
+      {
+        "platform": "youtube",
+        "id": "@yozora_rei",
+        "url": "https://youtube.com/@yozora_rei"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:夜舞ふぁら",
+    "display_name": "夜舞ふぁら",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%9c%e8%88%9e%e3%81%b5%e3%81%81%e3%82%89/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%9c%e8%88%9e%e3%81%b5%e3%81%81%e3%82%89/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "rE3yZvL3b5",
+        "url": "https://web.iriam.app/s/user/rE3yZvL3b5"
+      },
+      {
+        "platform": "x",
+        "id": "by_ur_s1de_oxo_",
+        "url": "https://x.com/by_ur_s1de_oxo_"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:夜薔薇-朔",
+    "display_name": "夜薔薇 朔",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%9c%e8%96%94%e8%96%87-%e6%9c%94/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%9c%e8%96%94%e8%96%87-%e6%9c%94/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "aecf8dd7",
+        "url": "https://reality.app/profile/aecf8dd7"
+      },
+      {
+        "platform": "x",
+        "id": "yorusaku1021",
+        "url": "https://x.com/yorusaku1021"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:夜遊-翠",
+    "display_name": "夜遊 翠",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%9c%e9%81%8a-%e7%bf%a0/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%9c%e9%81%8a-%e7%bf%a0/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "db055d90",
+        "url": "https://reality.app/profile/db055d90"
+      },
+      {
+        "platform": "x",
+        "id": "yoasobi_sui",
+        "url": "https://x.com/yoasobi_sui"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCZ8TujTPxk0Jn4LtOHQxSSA",
+        "url": "https://youtube.com/channel/UCZ8TujTPxk0Jn4LtOHQxSSA"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:天宮ゆゆ",
+    "display_name": "天宮ゆゆ",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%a9%e5%ae%ae%e3%82%86%e3%82%86/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%a9%e5%ae%ae%e3%82%86%e3%82%86/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "9f33ab26",
+        "url": "https://reality.app/profile/9f33ab26"
+      },
+      {
+        "platform": "x",
+        "id": "yuyu_amamiya_",
+        "url": "https://x.com/yuyu_amamiya_"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:天嶺-蘭",
+    "display_name": "天嶺 蘭",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%a9%e5%b6%ba-%e8%98%ad/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%a9%e5%b6%ba-%e8%98%ad/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "017d6014",
+        "url": "https://reality.app/profile/017d6014"
+      },
+      {
+        "platform": "x",
+        "id": "amane321inc",
+        "url": "https://x.com/amane321inc"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:天綺麗-耀凰",
+    "display_name": "天綺麗 耀凰",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%a9%e7%b6%ba%e9%ba%97-%e8%80%80%e5%87%b0/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%a9%e7%b6%ba%e9%ba%97-%e8%80%80%e5%87%b0/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "d1859ce2",
+        "url": "https://reality.app/profile/d1859ce2"
+      },
+      {
+        "platform": "x",
+        "id": "amakira_io",
+        "url": "https://x.com/amakira_io"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:天音ぷく",
+    "display_name": "天音ぷく",
+    "source_url": "https://vliver.321.inc/liver/%e5%a4%a9%e9%9f%b3%e3%81%b7%e3%81%8f/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a4%a9%e9%9f%b3%e3%81%b7%e3%81%8f/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "12e78d60",
+        "url": "https://reality.app/profile/12e78d60"
+      },
+      {
+        "platform": "x",
+        "id": "pukupuku_x10",
+        "url": "https://x.com/pukupuku_x10"
+      },
+      {
+        "platform": "instagram",
+        "id": "pu9_i10",
+        "url": "https://instagram.com/pu9_i10"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@pukupuku_x10",
+        "url": "https://www.tiktok.com/@pukupuku_x10"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:如月蓮",
+    "display_name": "如月蓮",
+    "source_url": "https://vliver.321.inc/liver/%e5%a6%82%e6%9c%88%e8%93%ae/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a6%82%e6%9c%88%e8%93%ae/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "0d20ab20",
+        "url": "https://reality.app/profile/0d20ab20"
+      },
+      {
+        "platform": "x",
+        "id": "321xg",
+        "url": "https://x.com/321xg"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:姫乃-愛叶",
+    "display_name": "姫乃 愛叶",
+    "source_url": "https://vliver.321.inc/liver/%e5%a7%ab%e4%b9%83-%e6%84%9b%e5%8f%b6/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%a7%ab%e4%b9%83-%e6%84%9b%e5%8f%b6/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "398bba76",
+        "url": "https://reality.app/profile/398bba76"
+      },
+      {
+        "platform": "x",
+        "id": "aikanya104",
+        "url": "https://x.com/aikanya104"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:小鳥遊-和弥",
+    "display_name": "小鳥遊 和弥",
+    "source_url": "https://vliver.321.inc/liver/%e5%b0%8f%e9%b3%a5%e9%81%8a-%e5%92%8c%e5%bc%a5/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%b0%8f%e9%b3%a5%e9%81%8a-%e5%92%8c%e5%bc%a5/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "iDbYEgIB87",
+        "url": "https://web.iriam.app/s/user/iDbYEgIB87"
+      },
+      {
+        "platform": "x",
+        "id": "5gh4x",
+        "url": "https://x.com/5gh4x"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:弥生もも",
+    "display_name": "弥生もも",
+    "source_url": "https://vliver.321.inc/liver/%e5%bc%a5%e7%94%9f%e3%82%82%e3%82%82/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e5%bc%a5%e7%94%9f%e3%82%82%e3%82%82/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "2bcd3000",
+        "url": "https://reality.app/profile/2bcd3000"
+      },
+      {
+        "platform": "x",
+        "id": "momocha_yayoi",
+        "url": "https://x.com/momocha_yayoi"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCSw1_AIpfENd1tVwWjeyOCg",
+        "url": "https://youtube.com/channel/UCSw1_AIpfENd1tVwWjeyOCg"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:星海月セリア",
+    "display_name": "星海月セリア",
+    "source_url": "https://vliver.321.inc/liver/%e6%98%9f%e6%b5%b7%e6%9c%88%e3%82%bb%e3%83%aa%e3%82%a2/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%98%9f%e6%b5%b7%e6%9c%88%e3%82%bb%e3%83%aa%e3%82%a2/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "Fu3GtjXEAK",
+        "url": "https://web.iriam.app/s/user/Fu3GtjXEAK"
+      },
+      {
+        "platform": "x",
+        "id": "h_seria321",
+        "url": "https://x.com/h_seria321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:晴乃-ユメ",
+    "display_name": "晴乃 ユメ",
+    "source_url": "https://vliver.321.inc/liver/%e6%99%b4%e4%b9%83-%e3%83%a6%e3%83%a1/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%99%b4%e4%b9%83-%e3%83%a6%e3%83%a1/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "b76073d3",
+        "url": "https://reality.app/profile/b76073d3"
+      },
+      {
+        "platform": "x",
+        "id": "haruno_yumeme",
+        "url": "https://x.com/haruno_yumeme"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:暗闇ヨル",
+    "display_name": "暗闇ヨル",
+    "source_url": "https://vliver.321.inc/liver/%e6%9a%97%e9%97%87%e3%83%a8%e3%83%ab/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9a%97%e9%97%87%e3%83%a8%e3%83%ab/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ea35f583",
+        "url": "https://reality.app/profile/ea35f583"
+      },
+      {
+        "platform": "x",
+        "id": "yoru96yami",
+        "url": "https://x.com/yoru96yami"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCez-pUsQ-syQ65n0Enk-_UA",
+        "url": "https://youtube.com/channel/UCez-pUsQ-syQ65n0Enk-_UA"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:月焔つきひ",
+    "display_name": "月焔つきひ",
+    "source_url": "https://vliver.321.inc/liver/%e6%9c%88%e7%84%94%e3%81%a4%e3%81%8d%e3%81%b2/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9c%88%e7%84%94%e3%81%a4%e3%81%8d%e3%81%b2/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "d9098954",
+        "url": "https://reality.app/profile/d9098954"
+      },
+      {
+        "platform": "x",
+        "id": "tukihidayo1109",
+        "url": "https://x.com/tukihidayo1109"
+      },
+      {
+        "platform": "youtube",
+        "id": "@tukihi1109",
+        "url": "https://youtube.com/@tukihi1109"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:月野れん",
+    "display_name": "月野れん",
+    "source_url": "https://vliver.321.inc/liver/%e6%9c%88%e9%87%8e%e3%82%8c%e3%82%93/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9c%88%e9%87%8e%e3%82%8c%e3%82%93/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "2ea2fca1",
+        "url": "https://reality.app/profile/2ea2fca1"
+      },
+      {
+        "platform": "x",
+        "id": "ren_tsukino321",
+        "url": "https://x.com/ren_tsukino321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:朝凪つむぎ",
+    "display_name": "朝凪つむぎ",
+    "source_url": "https://vliver.321.inc/liver/%e6%9c%9d%e5%87%aa%e3%81%a4%e3%82%80%e3%81%8e/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9c%9d%e5%87%aa%e3%81%a4%e3%82%80%e3%81%8e/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "626f51b0",
+        "url": "https://reality.app/profile/626f51b0"
+      },
+      {
+        "platform": "x",
+        "id": "asanagi_tsumugi",
+        "url": "https://x.com/asanagi_tsumugi"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:朝日奈あみ",
+    "display_name": "朝日奈あみ",
+    "source_url": "https://vliver.321.inc/liver/%e6%9c%9d%e6%97%a5%e5%a5%88%e3%81%82%e3%81%bf/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9c%9d%e6%97%a5%e5%a5%88%e3%81%82%e3%81%bf/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "baefd279-9bc8-4095-becc-da810a3f2dff",
+        "url": "https://17.live/s/u/baefd279-9bc8-4095-becc-da810a3f2dff"
+      },
+      {
+        "platform": "x",
+        "id": "ami_hinahina",
+        "url": "https://x.com/ami_hinahina"
+      },
+      {
+        "platform": "instagram",
+        "id": "ami_hinahina_vtuber",
+        "url": "https://instagram.com/ami_hinahina_vtuber"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@ami_asahina",
+        "url": "https://www.tiktok.com/@ami_asahina"
+      },
+      {
+        "platform": "youtube",
+        "id": "@vtuber1004",
+        "url": "https://youtube.com/@vtuber1004"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:朝日永-あくる",
+    "display_name": "朝日永 あくる",
+    "source_url": "https://vliver.321.inc/liver/%e6%9c%9d%e6%97%a5%e6%b0%b8-%e3%81%82%e3%81%8f%e3%82%8b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9c%9d%e6%97%a5%e6%b0%b8-%e3%81%82%e3%81%8f%e3%82%8b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "YPSbokL1a6",
+        "url": "https://web.iriam.app/s/user/YPSbokL1a6"
+      },
+      {
+        "platform": "x",
+        "id": "akuru_mamoru",
+        "url": "https://x.com/akuru_mamoru"
+      },
+      {
+        "platform": "youtube",
+        "id": "@akuruasahina",
+        "url": "https://youtube.com/@akuruasahina"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:朝比奈ティオ",
+    "display_name": "朝比奈ティオ",
+    "source_url": "https://vliver.321.inc/liver/%e6%9c%9d%e6%af%94%e5%a5%88%e3%83%86%e3%82%a3%e3%82%aa/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9c%9d%e6%af%94%e5%a5%88%e3%83%86%e3%82%a3%e3%82%aa/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "06d921d2",
+        "url": "https://reality.app/profile/06d921d2"
+      },
+      {
+        "platform": "x",
+        "id": "asahinatio",
+        "url": "https://x.com/asahinatio"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:東堂-シノア",
+    "display_name": "東堂 シノア",
+    "source_url": "https://vliver.321.inc/liver/%e6%9d%b1%e5%a0%82-%e3%82%b7%e3%83%8e%e3%82%a2/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9d%b1%e5%a0%82-%e3%82%b7%e3%83%8e%e3%82%a2/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "e263c207",
+        "url": "https://reality.app/profile/e263c207"
+      },
+      {
+        "platform": "x",
+        "id": "toudousinoa",
+        "url": "https://x.com/toudousinoa"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:東雲天音",
+    "display_name": "東雲天音",
+    "source_url": "https://vliver.321.inc/liver/%e6%9d%b1%e9%9b%b2%e5%a4%a9%e9%9f%b3/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9d%b1%e9%9b%b2%e5%a4%a9%e9%9f%b3/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "42a080e7",
+        "url": "https://reality.app/profile/42a080e7"
+      },
+      {
+        "platform": "x",
+        "id": "lez5f",
+        "url": "https://x.com/lez5f"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:東雲-澪ﾐｵ",
+    "display_name": "東雲 澪ﾐｵ",
+    "source_url": "https://vliver.321.inc/liver/%e6%9d%b1%e9%9b%b2-%e6%be%aa%ef%be%90%ef%bd%b5/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9d%b1%e9%9b%b2-%e6%be%aa%ef%be%90%ef%bd%b5/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "b0b83dc5",
+        "url": "https://reality.app/profile/b0b83dc5"
+      },
+      {
+        "platform": "x",
+        "id": "mio_shino_321",
+        "url": "https://x.com/mio_shino_321"
+      },
+      {
+        "platform": "youtube",
+        "id": "@shinonome_mio_0831",
+        "url": "https://youtube.com/@shinonome_mio_0831"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:枢木凛",
+    "display_name": "枢木凛",
+    "source_url": "https://vliver.321.inc/liver/%e6%9e%a2%e6%9c%a8%e5%87%9b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%9e%a2%e6%9c%a8%e5%87%9b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "hGHoIxp6BJ",
+        "url": "https://web.iriam.app/s/user/hGHoIxp6BJ"
+      },
+      {
+        "platform": "x",
+        "id": "kururugi_rin",
+        "url": "https://x.com/kururugi_rin"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:桃園ひびき",
+    "display_name": "桃園ひびき",
+    "source_url": "https://vliver.321.inc/liver/%e6%a1%83%e5%9c%92%e3%81%b2%e3%81%b3%e3%81%8d/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "tiktok"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%a1%83%e5%9c%92%e3%81%b2%e3%81%b3%e3%81%8d/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "tiktok",
+        "id": "@momozono_hibiki",
+        "url": "https://www.tiktok.com/@momozono_hibiki"
+      },
+      {
+        "platform": "x",
+        "id": "momozono_hibiki",
+        "url": "https://x.com/momozono_hibiki"
+      },
+      {
+        "platform": "instagram",
+        "id": "momozono_hibiki",
+        "url": "https://instagram.com/momozono_hibiki"
+      },
+      {
+        "platform": "youtube",
+        "id": "@momozono_hibiki",
+        "url": "https://m.youtube.com/%40momozono_hibiki"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:桃雪あおい",
+    "display_name": "桃雪あおい",
+    "source_url": "https://vliver.321.inc/liver/%e6%a1%83%e9%9b%aa%e3%81%82%e3%81%8a%e3%81%84/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%a1%83%e9%9b%aa%e3%81%82%e3%81%8a%e3%81%84/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "d60af3a6",
+        "url": "https://reality.app/profile/d60af3a6"
+      },
+      {
+        "platform": "x",
+        "id": "momoyuki__aoi",
+        "url": "https://x.com/momoyuki__aoi"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:桜庭るり",
+    "display_name": "桜庭るり",
+    "source_url": "https://vliver.321.inc/liver/%e6%a1%9c%e5%ba%ad%e3%82%8b%e3%82%8a/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%a1%9c%e5%ba%ad%e3%82%8b%e3%82%8a/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "81df77e3",
+        "url": "https://reality.app/profile/81df77e3"
+      },
+      {
+        "platform": "x",
+        "id": "sakuraba_ruriv",
+        "url": "https://x.com/sakuraba_ruriv"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:梳桜-渚月",
+    "display_name": "梳桜 渚月",
+    "source_url": "https://vliver.321.inc/liver/%e6%a2%b3%e6%a1%9c-%e6%b8%9a%e6%9c%88/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%a2%b3%e6%a1%9c-%e6%b8%9a%e6%9c%88/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "q3qtsFdgXj",
+        "url": "https://web.iriam.app/s/user/q3qtsFdgXj"
+      },
+      {
+        "platform": "x",
+        "id": "natsuki_suo",
+        "url": "https://x.com/natsuki_suo"
+      },
+      {
+        "platform": "youtube",
+        "id": "@unucho_natsuki",
+        "url": "https://youtube.com/@unucho_natsuki"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:橘-レイト",
+    "display_name": "橘 レイト",
+    "source_url": "https://vliver.321.inc/liver/%e6%a9%98-%e3%83%ac%e3%82%a4%e3%83%88/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%a9%98-%e3%83%ac%e3%82%a4%e3%83%88/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "db20d901",
+        "url": "https://reality.app/profile/db20d901"
+      },
+      {
+        "platform": "x",
+        "id": "reirei_717",
+        "url": "https://x.com/reirei_717"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:水月-周",
+    "display_name": "水月 周",
+    "source_url": "https://vliver.321.inc/liver/%e6%b0%b4%e6%9c%88-%e5%91%a8/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%b0%b4%e6%9c%88-%e5%91%a8/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "10f20c61",
+        "url": "https://reality.app/profile/10f20c61"
+      },
+      {
+        "platform": "x",
+        "id": "amane_minatuki",
+        "url": "https://x.com/amane_minatuki"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:水雲のあ",
+    "display_name": "水雲のあ",
+    "source_url": "https://vliver.321.inc/liver/%e6%b0%b4%e9%9b%b2%e3%81%ae%e3%81%82/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%b0%b4%e9%9b%b2%e3%81%ae%e3%81%82/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "OgJmEQVoYs",
+        "url": "https://web.iriam.app/s/user/OgJmEQVoYs"
+      },
+      {
+        "platform": "x",
+        "id": "mizukumonoa_321",
+        "url": "https://x.com/mizukumonoa_321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:浜凛おーひ",
+    "display_name": "浜凛おーひ",
+    "source_url": "https://vliver.321.inc/liver/%e6%b5%9c%e5%87%9b%e3%81%8a%e3%83%bc%e3%81%b2/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%b5%9c%e5%87%9b%e3%81%8a%e3%83%bc%e3%81%b2/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "67e47f66",
+        "url": "https://reality.app/profile/67e47f66"
+      },
+      {
+        "platform": "x",
+        "id": "ohiroom1412",
+        "url": "https://x.com/ohiroom1412"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:海百合ゆら",
+    "display_name": "海百合ゆら",
+    "source_url": "https://vliver.321.inc/liver/%e6%b5%b7%e7%99%be%e5%90%88%e3%82%86%e3%82%89/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%b5%b7%e7%99%be%e5%90%88%e3%82%86%e3%82%89/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "fd9b64c0",
+        "url": "https://reality.app/profile/fd9b64c0"
+      },
+      {
+        "platform": "x",
+        "id": "yuri_yura00",
+        "url": "https://x.com/yuri_yura00"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:海老原ゆいか",
+    "display_name": "海老原ゆいか",
+    "source_url": "https://vliver.321.inc/liver/%e6%b5%b7%e8%80%81%e5%8e%9f%e3%82%86%e3%81%84%e3%81%8b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e6%b5%b7%e8%80%81%e5%8e%9f%e3%82%86%e3%81%84%e3%81%8b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "5d181761",
+        "url": "https://reality.app/profile/5d181761"
+      },
+      {
+        "platform": "x",
+        "id": "yuika_ito0501",
+        "url": "https://x.com/yuika_ito0501"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:炎舞-燈弥",
+    "display_name": "炎舞 燈弥",
+    "source_url": "https://vliver.321.inc/liver/%e7%82%8e%e8%88%9e-%e7%87%88%e5%bc%a5/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%82%8e%e8%88%9e-%e7%87%88%e5%bc%a5/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "wOjjnIl5kk",
+        "url": "https://web.iriam.app/s/user/wOjjnIl5kk"
+      },
+      {
+        "platform": "x",
+        "id": "touya_cae321",
+        "url": "https://x.com/touya_cae321"
+      },
+      {
+        "platform": "youtube",
+        "id": "@enbu_touya",
+        "url": "https://youtube.com/@enbu_touya"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:焼井もこ",
+    "display_name": "焼井もこ",
+    "source_url": "https://vliver.321.inc/liver/%e7%84%bc%e4%ba%95%e3%82%82%e3%81%93/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%84%bc%e4%ba%95%e3%82%82%e3%81%93/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "c7b18771-d05a-484e-91b0-f9db095b83c8",
+        "url": "https://17.live/s/u/c7b18771-d05a-484e-91b0-f9db095b83c8"
+      },
+      {
+        "platform": "x",
+        "id": "moko_yakii",
+        "url": "https://x.com/moko_yakii"
+      },
+      {
+        "platform": "youtube",
+        "id": "@moko_yakii",
+        "url": "https://youtube.com/@moko_yakii"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:燈海-みつき",
+    "display_name": "燈海 みつき",
+    "source_url": "https://vliver.321.inc/liver/%e7%87%88%e6%b5%b7-%e3%81%bf%e3%81%a4%e3%81%8d/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%87%88%e6%b5%b7-%e3%81%bf%e3%81%a4%e3%81%8d/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "02420441",
+        "url": "https://reality.app/profile/02420441"
+      },
+      {
+        "platform": "x",
+        "id": "concon_mituki",
+        "url": "https://x.com/concon_mituki"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:猪戸れいん",
+    "display_name": "猪戸れいん",
+    "source_url": "https://vliver.321.inc/liver/%e7%8c%aa%e6%88%b8%e3%82%8c%e3%81%84%e3%82%93/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%8c%aa%e6%88%b8%e3%82%8c%e3%81%84%e3%82%93/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "23e31601",
+        "url": "https://reality.app/profile/23e31601"
+      },
+      {
+        "platform": "x",
+        "id": "shishido_rein",
+        "url": "https://x.com/shishido_rein"
+      },
+      {
+        "platform": "instagram",
+        "id": "shishido_rein",
+        "url": "https://instagram.com/shishido_rein"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@shishido_0723",
+        "url": "https://www.tiktok.com/@shishido_0723"
+      },
+      {
+        "platform": "youtube",
+        "id": "@shishido_rein",
+        "url": "https://youtube.com/@shishido_rein"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:瑠璃宮めろ",
+    "display_name": "瑠璃宮めろ",
+    "source_url": "https://vliver.321.inc/liver/%e7%91%a0%e7%92%83%e5%ae%ae%e3%82%81%e3%82%8d/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%91%a0%e7%92%83%e5%ae%ae%e3%82%81%e3%82%8d/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "284f27b4",
+        "url": "https://reality.app/profile/284f27b4"
+      },
+      {
+        "platform": "x",
+        "id": "mellow15104",
+        "url": "https://x.com/mellow15104"
+      },
+      {
+        "platform": "instagram",
+        "id": "mellow15104",
+        "url": "https://instagram.com/mellow15104"
+      },
+      {
+        "platform": "youtube",
+        "id": "@rurimiyamero",
+        "url": "https://youtube.com/@rurimiyamero"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:甘咲みあ",
+    "display_name": "甘咲みあ",
+    "source_url": "https://vliver.321.inc/liver/%e7%94%98%e5%92%b2%e3%81%bf%e3%81%82/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%94%98%e5%92%b2%e3%81%bf%e3%81%82/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "55c83617",
+        "url": "https://reality.app/profile/55c83617"
+      },
+      {
+        "platform": "x",
+        "id": "miachaaaaan_16",
+        "url": "https://x.com/miachaaaaan_16"
+      },
+      {
+        "platform": "instagram",
+        "id": "miachan_61",
+        "url": "https://instagram.com/miachan_61"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCPXEzTJTMArDggs6nAgrLWA",
+        "url": "https://youtube.com/channel/UCPXEzTJTMArDggs6nAgrLWA"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:白波冬弥",
+    "display_name": "白波冬弥",
+    "source_url": "https://vliver.321.inc/liver/%e7%99%bd%e6%b3%a2%e5%86%ac%e5%bc%a5/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%99%bd%e6%b3%a2%e5%86%ac%e5%bc%a5/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "4c96bdb2",
+        "url": "https://reality.app/profile/4c96bdb2"
+      },
+      {
+        "platform": "x",
+        "id": "shiranami_108",
+        "url": "https://x.com/shiranami_108"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:白狐-紅凪",
+    "display_name": "白狐 紅凪",
+    "source_url": "https://vliver.321.inc/liver/%e7%99%bd%e7%8b%90-%e7%b4%85%e5%87%aa/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%99%bd%e7%8b%90-%e7%b4%85%e5%87%aa/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "78863a01",
+        "url": "https://reality.app/profile/78863a01"
+      },
+      {
+        "platform": "x",
+        "id": "byakko_kurena",
+        "url": "https://x.com/byakko_kurena"
+      },
+      {
+        "platform": "youtube",
+        "id": "@kurenach-777",
+        "url": "https://youtube.com/@kurenaCH-777"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:白羽エレン",
+    "display_name": "白羽エレン",
+    "source_url": "https://vliver.321.inc/liver/%e7%99%bd%e7%be%bd%e3%82%a8%e3%83%ac%e3%83%b3/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%99%bd%e7%be%bd%e3%82%a8%e3%83%ac%e3%83%b3/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "z7bxSlRwXd",
+        "url": "https://web.iriam.app/s/user/z7bxSlRwXd"
+      },
+      {
+        "platform": "x",
+        "id": "shiraha_eren",
+        "url": "https://x.com/shiraha_eren"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:皇神",
+    "display_name": "皇神",
+    "source_url": "https://vliver.321.inc/liver/%e7%9a%87%e7%a5%9e/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%9a%87%e7%a5%9e/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "cda7d577",
+        "url": "https://reality.app/profile/cda7d577"
+      },
+      {
+        "platform": "x",
+        "id": "sumeragi__zin",
+        "url": "https://x.com/sumeragi__zin"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:睡羊むむ",
+    "display_name": "睡羊むむ",
+    "source_url": "https://vliver.321.inc/liver/%e7%9d%a1%e7%be%8a%e3%82%80%e3%82%80/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%9d%a1%e7%be%8a%e3%82%80%e3%82%80/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "229f7e10",
+        "url": "https://reality.app/profile/229f7e10"
+      },
+      {
+        "platform": "x",
+        "id": "mmsuiyou",
+        "url": "https://x.com/mmsuiyou"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:睦月レン",
+    "display_name": "睦月レン",
+    "source_url": "https://vliver.321.inc/liver/%e7%9d%a6%e6%9c%88%e3%83%ac%e3%83%b3/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%9d%a6%e6%9c%88%e3%83%ac%e3%83%b3/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "64321292",
+        "url": "https://reality.app/profile/64321292"
+      },
+      {
+        "platform": "x",
+        "id": "okitsune_kon16",
+        "url": "https://x.com/okitsune_kon16"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:紫夢ねおら",
+    "display_name": "紫夢ねおら",
+    "source_url": "https://vliver.321.inc/liver/%e7%b4%ab%e5%a4%a2%e3%81%ad%e3%81%8a%e3%82%89/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%b4%ab%e5%a4%a2%e3%81%ad%e3%81%8a%e3%82%89/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "9O4zvHbdAY",
+        "url": "https://web.iriam.app/s/user/9O4zvHbdAY"
+      },
+      {
+        "platform": "x",
+        "id": "neora_shimu",
+        "url": "https://x.com/neora_shimu"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:紫月クロエ",
+    "display_name": "紫月クロエ",
+    "source_url": "https://vliver.321.inc/liver/%e7%b4%ab%e6%9c%88%e3%82%af%e3%83%ad%e3%82%a8/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%b4%ab%e6%9c%88%e3%82%af%e3%83%ad%e3%82%a8/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "90b024d1",
+        "url": "https://reality.app/profile/90b024d1"
+      },
+      {
+        "platform": "x",
+        "id": "shizuki_321",
+        "url": "https://x.com/shizuki_321"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCsCuXEk3k78DU4AALbS2g7w",
+        "url": "https://youtube.com/channel/UCsCuXEk3k78DU4AALbS2g7w"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:紫雲-未来",
+    "display_name": "紫雲 未来",
+    "source_url": "https://vliver.321.inc/liver/%e7%b4%ab%e9%9b%b2-%e6%9c%aa%e6%9d%a5/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "17live",
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%b4%ab%e9%9b%b2-%e6%9c%aa%e6%9d%a5/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "3058c65f-2801-4b95-96d2-49877124f632",
+        "url": "https://17.live/s/u/3058c65f-2801-4b95-96d2-49877124f632"
+      },
+      {
+        "platform": "iriam",
+        "id": "fW1OZUl1hk",
+        "url": "https://web.iriam.app/s/user/fW1OZUl1hk"
+      },
+      {
+        "platform": "x",
+        "id": "shiun39_17v",
+        "url": "https://x.com/shiun39_17v"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:結城むすぶ",
+    "display_name": "結城むすぶ",
+    "source_url": "https://vliver.321.inc/liver/%e7%b5%90%e5%9f%8e%e3%82%80%e3%81%99%e3%81%b6/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%b5%90%e5%9f%8e%e3%82%80%e3%81%99%e3%81%b6/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "319d6c54",
+        "url": "https://reality.app/profile/319d6c54"
+      },
+      {
+        "platform": "x",
+        "id": "musubunnu",
+        "url": "https://x.com/musubunnu"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:緑黄むあ",
+    "display_name": "緑黄むあ",
+    "source_url": "https://vliver.321.inc/liver/%e7%b7%91%e9%bb%84%e3%82%80%e3%81%82/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e7%b7%91%e9%bb%84%e3%82%80%e3%81%82/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "3b9e1385",
+        "url": "https://reality.app/profile/3b9e1385"
+      },
+      {
+        "platform": "x",
+        "id": "mua321i",
+        "url": "https://x.com/mua321i"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:艶冥-えんま。",
+    "display_name": "艶冥 えんま。",
+    "source_url": "https://vliver.321.inc/liver/%e8%89%b6%e5%86%a5-%e3%81%88%e3%82%93%e3%81%be%e3%80%82/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e8%89%b6%e5%86%a5-%e3%81%88%e3%82%93%e3%81%be%e3%80%82/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "9a836eb0",
+        "url": "https://reality.app/profile/9a836eb0"
+      },
+      {
+        "platform": "x",
+        "id": "enma__xx",
+        "url": "https://x.com/enma__xx"
+      },
+      {
+        "platform": "youtube",
+        "id": "@emmm0819",
+        "url": "https://youtube.com/@Emmm0819"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:花乃",
+    "display_name": "花乃",
+    "source_url": "https://vliver.321.inc/liver/%e8%8a%b1%e4%b9%83/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e8%8a%b1%e4%b9%83/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "78f8c9c2",
+        "url": "https://reality.app/profile/78f8c9c2"
+      },
+      {
+        "platform": "x",
+        "id": "kan0kan0kan02",
+        "url": "https://x.com/kan0kan0kan02"
+      },
+      {
+        "platform": "instagram",
+        "id": "kan0kan0kan0",
+        "url": "https://instagram.com/kan0kan0kan0"
+      },
+      {
+        "platform": "youtube",
+        "id": "@-kano-yt2mi",
+        "url": "https://youtube.com/@-kano-yt2mi"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:花守はな",
+    "display_name": "花守はな",
+    "source_url": "https://vliver.321.inc/liver/%e8%8a%b1%e5%ae%88%e3%81%af%e3%81%aa/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e8%8a%b1%e5%ae%88%e3%81%af%e3%81%aa/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "0112d151",
+        "url": "https://reality.app/profile/0112d151"
+      },
+      {
+        "platform": "x",
+        "id": "hana_mori_hana",
+        "url": "https://x.com/hana_mori_hana"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:荒北-シエル",
+    "display_name": "荒北 シエル",
+    "source_url": "https://vliver.321.inc/liver/%e8%8d%92%e5%8c%97-%e3%82%b7%e3%82%a8%e3%83%ab/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e8%8d%92%e5%8c%97-%e3%82%b7%e3%82%a8%e3%83%ab/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "c27fa273",
+        "url": "https://reality.app/profile/c27fa273"
+      },
+      {
+        "platform": "x",
+        "id": "sieruvc",
+        "url": "https://x.com/sieruvc"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@user19394508336693",
+        "url": "https://www.tiktok.com/@user19394508336693"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCPvJYR-JUudXK2SFDqHXCGg",
+        "url": "https://youtube.com/channel/UCPvJYR-JUudXK2SFDqHXCGg"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:華恋こはな",
+    "display_name": "華恋こはな",
+    "source_url": "https://vliver.321.inc/liver/%e8%8f%af%e6%81%8b%e3%81%93%e3%81%af%e3%81%aa/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e8%8f%af%e6%81%8b%e3%81%93%e3%81%af%e3%81%aa/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "eac7b2a3",
+        "url": "https://reality.app/profile/eac7b2a3"
+      },
+      {
+        "platform": "x",
+        "id": "kohachan321",
+        "url": "https://x.com/kohachan321"
+      },
+      {
+        "platform": "instagram",
+        "id": "kohachan321",
+        "url": "https://instagram.com/kohachan321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:蒼井-音娘",
+    "display_name": "蒼井 音娘",
+    "source_url": "https://vliver.321.inc/liver/%e8%92%bc%e4%ba%95-%e9%9f%b3%e5%a8%98/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e8%92%bc%e4%ba%95-%e9%9f%b3%e5%a8%98/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ca546d95",
+        "url": "https://reality.app/profile/ca546d95"
+      },
+      {
+        "platform": "x",
+        "id": "aoi__neko__",
+        "url": "https://x.com/aoi__neko__"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:薬味からし",
+    "display_name": "薬味からし",
+    "source_url": "https://vliver.321.inc/liver/%e8%96%ac%e5%91%b3%e3%81%8b%e3%82%89%e3%81%97/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e8%96%ac%e5%91%b3%e3%81%8b%e3%82%89%e3%81%97/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "3e9b29c4",
+        "url": "https://reality.app/profile/3e9b29c4"
+      },
+      {
+        "platform": "x",
+        "id": "karashi_yakumi",
+        "url": "https://x.com/karashi_yakumi"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@karasjmkle0",
+        "url": "https://www.tiktok.com/@karasjmkle0"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCHdqaNNi-mzhUJKafLxWRMQ",
+        "url": "https://youtube.com/channel/UCHdqaNNi-mzhUJKafLxWRMQ"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:虹野ユニ子",
+    "display_name": "虹野ユニ子",
+    "source_url": "https://vliver.321.inc/liver/%e8%99%b9%e9%87%8e%e3%83%a6%e3%83%8b%e5%ad%90/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e8%99%b9%e9%87%8e%e3%83%a6%e3%83%8b%e5%ad%90/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "kTaXFaCL7v",
+        "url": "https://web.iriam.app/s/user/kTaXFaCL7v"
+      },
+      {
+        "platform": "x",
+        "id": "nijinoyuniko",
+        "url": "https://x.com/nijinoyuniko"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:酒加須ヤニー",
+    "display_name": "酒加須ヤニー",
+    "source_url": "https://vliver.321.inc/liver/%e9%85%92%e5%8a%a0%e9%a0%88%e3%83%a4%e3%83%8b%e3%83%bc/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%85%92%e5%8a%a0%e9%a0%88%e3%83%a4%e3%83%8b%e3%83%bc/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "85006b43",
+        "url": "https://reality.app/profile/85006b43"
+      },
+      {
+        "platform": "x",
+        "id": "sakeyani_umauma",
+        "url": "https://x.com/sakeyani_umauma"
+      },
+      {
+        "platform": "instagram",
+        "id": "sakeyani_umauma",
+        "url": "https://instagram.com/sakeyani_umauma"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCDrnCiXJNKDbv8-s14dauPg",
+        "url": "https://youtube.com/channel/UCDrnCiXJNKDbv8-s14dauPg"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:門出かのん",
+    "display_name": "門出かのん",
+    "source_url": "https://vliver.321.inc/liver/%e9%96%80%e5%87%ba%e3%81%8b%e3%81%ae%e3%82%93/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%96%80%e5%87%ba%e3%81%8b%e3%81%ae%e3%82%93/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "3f6f5307",
+        "url": "https://reality.app/profile/3f6f5307"
+      },
+      {
+        "platform": "x",
+        "id": "kanon_kadode",
+        "url": "https://x.com/kanon_kadode"
+      },
+      {
+        "platform": "youtube",
+        "id": "@kanon_kadode",
+        "url": "https://youtube.com/@kanon_kadode"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:闇使凛夢",
+    "display_name": "闇使凛夢",
+    "source_url": "https://vliver.321.inc/liver/%e9%97%87%e4%bd%bf%e5%87%9b%e5%a4%a2/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%97%87%e4%bd%bf%e5%87%9b%e5%a4%a2/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "Zwq7dOPBfG",
+        "url": "https://web.iriam.app/s/user/Zwq7dOPBfG"
+      },
+      {
+        "platform": "x",
+        "id": "838383rinm",
+        "url": "https://x.com/838383rinm"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:闇月リリス",
+    "display_name": "闇月リリス",
+    "source_url": "https://vliver.321.inc/liver/%e9%97%87%e6%9c%88%e3%83%aa%e3%83%aa%e3%82%b9/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%97%87%e6%9c%88%e3%83%aa%e3%83%aa%e3%82%b9/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "d5Xr0TpKaT",
+        "url": "https://web.iriam.app/s/user/d5Xr0TpKaT"
+      },
+      {
+        "platform": "x",
+        "id": "yamituki_321",
+        "url": "https://x.com/yamituki_321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:雪島がちゃ",
+    "display_name": "雪島がちゃ",
+    "source_url": "https://vliver.321.inc/liver/%e9%9b%aa%e5%b3%b6%e3%81%8c%e3%81%a1%e3%82%83/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%9b%aa%e5%b3%b6%e3%81%8c%e3%81%a1%e3%82%83/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "cd565377",
+        "url": "https://reality.app/profile/cd565377"
+      },
+      {
+        "platform": "x",
+        "id": "nico2_gqchqko",
+        "url": "https://x.com/nico2_gqchqko"
+      },
+      {
+        "platform": "instagram",
+        "id": "gqchq_yukinoshima",
+        "url": "https://instagram.com/gqchq_yukinoshima"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:雪音-あろま",
+    "display_name": "雪音 あろま",
+    "source_url": "https://vliver.321.inc/liver/%e9%9b%aa%e9%9f%b3-%e3%81%82%e3%82%8d%e3%81%be/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%9b%aa%e9%9f%b3-%e3%81%82%e3%82%8d%e3%81%be/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "aea25606",
+        "url": "https://reality.app/profile/aea25606"
+      },
+      {
+        "platform": "x",
+        "id": "aroma_yukine",
+        "url": "https://x.com/aroma_yukine"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:雲龍シルク",
+    "display_name": "雲龍シルク",
+    "source_url": "https://vliver.321.inc/liver/%e9%9b%b2%e9%be%8d%e3%82%b7%e3%83%ab%e3%82%af/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "tiktok"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%9b%b2%e9%be%8d%e3%82%b7%e3%83%ab%e3%82%af/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "tiktok",
+        "id": "@shiruku_world",
+        "url": "https://www.tiktok.com/@shiruku_world"
+      },
+      {
+        "platform": "x",
+        "id": "unryu_shiruku",
+        "url": "https://x.com/unryu_shiruku"
+      },
+      {
+        "platform": "youtube",
+        "id": "@unryu.shiruku",
+        "url": "https://youtube.com/@Unryu.Shiruku"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:高橋",
+    "display_name": "高橋",
+    "source_url": "https://vliver.321.inc/liver/%e9%ab%98%e6%a9%8b/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%ab%98%e6%a9%8b/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "643f48d3",
+        "url": "https://reality.app/profile/643f48d3"
+      },
+      {
+        "platform": "x",
+        "id": "tkhshi_aaa",
+        "url": "https://x.com/tkhshi_aaa"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCAiVwPvbPUzZ_GCykahZOrg",
+        "url": "https://youtube.com/channel/UCAiVwPvbPUzZ_GCykahZOrg"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@tkhshi_aaa",
+        "url": "https://www.tiktok.com/@tkhshi_aaa"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:魅月-ラヴィ",
+    "display_name": "魅月 ラヴィ",
+    "source_url": "https://vliver.321.inc/liver/%e9%ad%85%e6%9c%88-%e3%83%a9%e3%83%b4%e3%82%a3/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%ad%85%e6%9c%88-%e3%83%a9%e3%83%b4%e3%82%a3/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "EyoiNF1Zbt",
+        "url": "https://web.iriam.app/s/user/EyoiNF1Zbt"
+      },
+      {
+        "platform": "x",
+        "id": "mitsuki_lavie_2",
+        "url": "https://x.com/mitsuki_lavie_2"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCct8cqW9l9mUkY-AEktUoFg",
+        "url": "https://youtube.com/channel/UCct8cqW9l9mUkY-AEktUoFg"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:鯉幟-龍太郎",
+    "display_name": "鯉幟 龍太郎",
+    "source_url": "https://vliver.321.inc/liver/%e9%af%89%e5%b9%9f-%e9%be%8d%e5%a4%aa%e9%83%8e/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%af%89%e5%b9%9f-%e9%be%8d%e5%a4%aa%e9%83%8e/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "6d45efd3",
+        "url": "https://reality.app/profile/6d45efd3"
+      },
+      {
+        "platform": "x",
+        "id": "ryu_koinobori",
+        "url": "https://x.com/ryu_koinobori"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:黯瀬-御影",
+    "display_name": "黯瀬 御影",
+    "source_url": "https://vliver.321.inc/liver/%e9%bb%af%e7%80%ac-%e5%be%a1%e5%bd%b1/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%e9%bb%af%e7%80%ac-%e5%be%a1%e5%bd%b1/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "8e3cb535",
+        "url": "https://reality.app/profile/8e3cb535"
+      },
+      {
+        "platform": "x",
+        "id": "kurose_mikage",
+        "url": "https://x.com/kurose_mikage"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:🐬-✿凪桜✼ﾅｷﾞｻ✼",
+    "display_name": "🐬.*✿凪桜✼••ﾅｷﾞｻ••✼",
+    "source_url": "https://vliver.321.inc/liver/%f0%9f%90%ac-%e2%9c%bf%e5%87%aa%e6%a1%9c%e2%9c%bc%ef%be%85%ef%bd%b7%ef%be%9e%ef%bd%bb%e2%9c%bc/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/%f0%9f%90%ac-%e2%9c%bf%e5%87%aa%e6%a1%9c%e2%9c%bc%ef%be%85%ef%bd%b7%ef%be%9e%ef%bd%bb%e2%9c%bc/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "9450e1d3",
+        "url": "https://reality.app/profile/9450e1d3"
+      },
+      {
+        "platform": "x",
+        "id": "aka_genuine2022",
+        "url": "https://x.com/aka_genuine2022"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:0621",
+    "display_name": "櫻木るす",
+    "source_url": "https://vliver.321.inc/liver/0621/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/0621/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "1de15525",
+        "url": "https://reality.app/profile/1de15525"
+      },
+      {
+        "platform": "x",
+        "id": "rusu_sakuragi",
+        "url": "https://x.com/rusu_sakuragi"
+      },
+      {
+        "platform": "instagram",
+        "id": "rusu_sakuragi",
+        "url": "https://instagram.com/rusu_sakuragi"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@rusu_sakuragi",
+        "url": "https://www.tiktok.com/@rusu_sakuragi"
+      },
+      {
+        "platform": "youtube",
+        "id": "@rusu_sakuragi",
+        "url": "https://youtube.com/@rusu_sakuragi"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:2461",
+    "display_name": "マほ姉",
+    "source_url": "https://vliver.321.inc/liver/2461/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam",
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/2461/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "20477a22",
+        "url": "https://reality.app/profile/20477a22"
+      },
+      {
+        "platform": "iriam",
+        "id": "iulJITREnX",
+        "url": "https://web.iriam.app/s/user/iulJITREnX"
+      },
+      {
+        "platform": "x",
+        "id": "321_liver_maho",
+        "url": "https://x.com/321_liver_maho"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:4451",
+    "display_name": "あおくん",
+    "source_url": "https://vliver.321.inc/liver/4451/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/4451/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "c1414ef7",
+        "url": "https://reality.app/profile/c1414ef7"
+      },
+      {
+        "platform": "x",
+        "id": "ao_ohin",
+        "url": "https://x.com/ao_ohin"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:4473",
+    "display_name": "春風りるむ",
+    "source_url": "https://vliver.321.inc/liver/4473/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/4473/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "a69118f3",
+        "url": "https://reality.app/profile/a69118f3"
+      },
+      {
+        "platform": "x",
+        "id": "rilmoon_vtuber",
+        "url": "https://x.com/rilmoon_vtuber"
+      },
+      {
+        "platform": "youtube",
+        "id": "@rilmu",
+        "url": "https://youtube.com/@rilmu"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:4502",
+    "display_name": "波  誠一郎",
+    "source_url": "https://vliver.321.inc/liver/4502/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/4502/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "c1cd6ce1",
+        "url": "https://reality.app/profile/c1cd6ce1"
+      },
+      {
+        "platform": "x",
+        "id": "nami_sei_73",
+        "url": "https://x.com/nami_sei_73"
+      },
+      {
+        "platform": "youtube",
+        "id": "@nami-seiichirou",
+        "url": "https://youtube.com/@nami-seiichirou"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:5046",
+    "display_name": "はなたば",
+    "source_url": "https://vliver.321.inc/liver/5046/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/5046/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "1b0e2df3",
+        "url": "https://reality.app/profile/1b0e2df3"
+      },
+      {
+        "platform": "x",
+        "id": "hanataba0818",
+        "url": "https://x.com/hanataba0818"
+      },
+      {
+        "platform": "instagram",
+        "id": "hanataba321inc",
+        "url": "https://instagram.com/hanataba321inc"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@hanataba0818",
+        "url": "https://www.tiktok.com/@hanataba0818"
+      },
+      {
+        "platform": "youtube",
+        "id": "@hanataba0818",
+        "url": "https://youtube.com/@hanataba0818"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:5633",
+    "display_name": "新島にぃき",
+    "source_url": "https://vliver.321.inc/liver/5633/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/5633/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "88afddf5",
+        "url": "https://reality.app/profile/88afddf5"
+      },
+      {
+        "platform": "x",
+        "id": "ni_iiki_",
+        "url": "https://x.com/ni_iiki_"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:5869",
+    "display_name": "空木うのはな",
+    "source_url": "https://vliver.321.inc/liver/5869/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/5869/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ae313a46",
+        "url": "https://reality.app/profile/ae313a46"
+      },
+      {
+        "platform": "x",
+        "id": "utsurogiunohana",
+        "url": "https://x.com/utsurogiunohana"
+      },
+      {
+        "platform": "youtube",
+        "id": "@utsurogi_unohana",
+        "url": "https://youtube.com/@utsurogi_unohana"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:5928",
+    "display_name": "雅原孔",
+    "source_url": "https://vliver.321.inc/liver/5928/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/5928/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "4cf35060",
+        "url": "https://reality.app/profile/4cf35060"
+      },
+      {
+        "platform": "x",
+        "id": "rinsui0517",
+        "url": "https://x.com/rinsui0517"
+      },
+      {
+        "platform": "youtube",
+        "id": "@user-br9vr9et1h",
+        "url": "https://youtube.com/@user-br9vr9et1h"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:5982",
+    "display_name": "一篠 凛",
+    "source_url": "https://vliver.321.inc/liver/5982/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/5982/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "7c716805",
+        "url": "https://reality.app/profile/7c716805"
+      },
+      {
+        "platform": "x",
+        "id": "_rin_ichijo_",
+        "url": "https://x.com/_rin_ichijo_"
+      },
+      {
+        "platform": "youtube",
+        "id": "@_rin_ichijo_",
+        "url": "https://youtube.com/@_Rin_Ichijo_"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:6339",
+    "display_name": "音兎-OTO-",
+    "source_url": "https://vliver.321.inc/liver/6339/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/6339/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "72f173f4",
+        "url": "https://reality.app/profile/72f173f4"
+      },
+      {
+        "platform": "x",
+        "id": "reality_oto",
+        "url": "https://x.com/reality_oto"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:6661",
+    "display_name": "晴日紅妃",
+    "source_url": "https://vliver.321.inc/liver/6661/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/6661/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "1e204227",
+        "url": "https://reality.app/profile/1e204227"
+      },
+      {
+        "platform": "x",
+        "id": "harenohiaki",
+        "url": "https://x.com/harenohiaki"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:6698",
+    "display_name": "心和エルカ",
+    "source_url": "https://vliver.321.inc/liver/6698/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/6698/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ce6a0716",
+        "url": "https://reality.app/profile/ce6a0716"
+      },
+      {
+        "platform": "x",
+        "id": "kkng_rea",
+        "url": "https://x.com/kkng_rea"
+      },
+      {
+        "platform": "youtube",
+        "id": "@kokonagueruka",
+        "url": "https://youtube.com/@kokonagueruka"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:6875",
+    "display_name": "YAMI",
+    "source_url": "https://vliver.321.inc/liver/6875/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/6875/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "9a59a750",
+        "url": "https://reality.app/profile/9a59a750"
+      },
+      {
+        "platform": "instagram",
+        "id": "yami.black.king",
+        "url": "https://instagram.com/yami.black.king"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:6953",
+    "display_name": "じゃんくん",
+    "source_url": "https://vliver.321.inc/liver/6953/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/6953/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "2c725db4",
+        "url": "https://reality.app/profile/2c725db4"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7082",
+    "display_name": "涼風七星",
+    "source_url": "https://vliver.321.inc/liver/7082/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7082/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "5fc104e0",
+        "url": "https://reality.app/profile/5fc104e0"
+      },
+      {
+        "platform": "x",
+        "id": "nanaseeee__823",
+        "url": "https://x.com/nanaseeee__823"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@nanaseeee__823",
+        "url": "https://www.tiktok.com/@nanaseeee__823"
+      },
+      {
+        "platform": "youtube",
+        "id": "@nanase_suzukaze_reality",
+        "url": "https://youtube.com/@nanase_suzukaze_reality"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7128",
+    "display_name": "しろなつ",
+    "source_url": "https://vliver.321.inc/liver/7128/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7128/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ed351e45",
+        "url": "https://reality.app/profile/ed351e45"
+      },
+      {
+        "platform": "x",
+        "id": "shironxt",
+        "url": "https://x.com/shironxt"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7165",
+    "display_name": "雪白 んた",
+    "source_url": "https://vliver.321.inc/liver/7165/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7165/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "6160ef82",
+        "url": "https://reality.app/profile/6160ef82"
+      },
+      {
+        "platform": "x",
+        "id": "nta_gohan_321",
+        "url": "https://x.com/nta_gohan_321"
+      },
+      {
+        "platform": "instagram",
+        "id": "nta.gohan.321",
+        "url": "https://instagram.com/nta.gohan.321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7255",
+    "display_name": "灰島リウ",
+    "source_url": "https://vliver.321.inc/liver/7255/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7255/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "bb2c4c22",
+        "url": "https://reality.app/profile/bb2c4c22"
+      },
+      {
+        "platform": "x",
+        "id": "liuhaijima321",
+        "url": "https://x.com/liuhaijima321"
+      },
+      {
+        "platform": "instagram",
+        "id": "liuhaijima321",
+        "url": "https://instagram.com/liuhaijima321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7497",
+    "display_name": "蜂谷 円芭",
+    "source_url": "https://vliver.321.inc/liver/7497/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7497/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "feb51005",
+        "url": "https://reality.app/profile/feb51005"
+      },
+      {
+        "platform": "x",
+        "id": "beevalley_0515",
+        "url": "https://x.com/beevalley_0515"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7510",
+    "display_name": "白色 ここあ",
+    "source_url": "https://vliver.321.inc/liver/7510/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7510/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "55ec6001",
+        "url": "https://reality.app/profile/55ec6001"
+      },
+      {
+        "platform": "x",
+        "id": "siroirococoa",
+        "url": "https://x.com/siroirococoa"
+      },
+      {
+        "platform": "instagram",
+        "id": "kokoko_0920",
+        "url": "https://instagram.com/kokoko_0920"
+      },
+      {
+        "platform": "youtube",
+        "id": "@cocoayukkuri0920",
+        "url": "https://youtube.com/@COCOAyukkuri0920"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7586",
+    "display_name": "夢あんな",
+    "source_url": "https://vliver.321.inc/liver/7586/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7586/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "c9580cd6",
+        "url": "https://reality.app/profile/c9580cd6"
+      },
+      {
+        "platform": "x",
+        "id": "annahrealxxx",
+        "url": "https://x.com/annahrealxxx"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7778",
+    "display_name": "時空たいむ",
+    "source_url": "https://vliver.321.inc/liver/7778/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7778/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "2573e5e4",
+        "url": "https://reality.app/profile/2573e5e4"
+      },
+      {
+        "platform": "x",
+        "id": "tokizora_taimu",
+        "url": "https://x.com/tokizora_taimu"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:7954",
+    "display_name": "天衣とまと",
+    "source_url": "https://vliver.321.inc/liver/7954/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/7954/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "af7881c3",
+        "url": "https://reality.app/profile/af7881c3"
+      },
+      {
+        "platform": "x",
+        "id": "reality_toma",
+        "url": "https://x.com/reality_toma"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:8079",
+    "display_name": "兎月 ゑも",
+    "source_url": "https://vliver.321.inc/liver/8079/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/8079/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "fe5538c4",
+        "url": "https://reality.app/profile/fe5538c4"
+      },
+      {
+        "platform": "x",
+        "id": "ichigo_ame_nya",
+        "url": "https://x.com/ichigo_ame_nya"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:8422",
+    "display_name": "柘榴 シロ",
+    "source_url": "https://vliver.321.inc/liver/8422/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/8422/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "USZJdvUQOa",
+        "url": "https://web.iriam.app/s/user/USZJdvUQOa"
+      },
+      {
+        "platform": "x",
+        "id": "zakuro_shiro",
+        "url": "https://x.com/zakuro_shiro"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:8591",
+    "display_name": "ありしなもん",
+    "source_url": "https://vliver.321.inc/liver/8591/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/8591/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "04edff56",
+        "url": "https://reality.app/profile/04edff56"
+      },
+      {
+        "platform": "x",
+        "id": "_aricinnamon",
+        "url": "https://x.com/_aricinnamon"
+      },
+      {
+        "platform": "instagram",
+        "id": "ari.cinnamon321",
+        "url": "https://instagram.com/ari.cinnamon321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:8594",
+    "display_name": "楪カヲル",
+    "source_url": "https://vliver.321.inc/liver/8594/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/8594/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "380e6320",
+        "url": "https://reality.app/profile/380e6320"
+      },
+      {
+        "platform": "x",
+        "id": "yuzu_v5115",
+        "url": "https://x.com/yuzu_v5115"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:8753",
+    "display_name": "れおれお",
+    "source_url": "https://vliver.321.inc/liver/8753/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/8753/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "6a1b5897",
+        "url": "https://reality.app/profile/6a1b5897"
+      },
+      {
+        "platform": "x",
+        "id": "leoleo0143",
+        "url": "https://x.com/leoleo0143"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:9534",
+    "display_name": "桜歌 時雨",
+    "source_url": "https://vliver.321.inc/liver/9534/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/9534/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "d0fdca24",
+        "url": "https://reality.app/profile/d0fdca24"
+      },
+      {
+        "platform": "x",
+        "id": "shigure_321",
+        "url": "https://x.com/shigure_321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:ame",
+    "display_name": "AME",
+    "source_url": "https://vliver.321.inc/liver/ame/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/ame/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "19cf4c61",
+        "url": "https://reality.app/profile/19cf4c61"
+      },
+      {
+        "platform": "x",
+        "id": "kzqsjqebjq16999",
+        "url": "https://x.com/kzqsjqebjq16999"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:hanoi",
+    "display_name": "hanoi",
+    "source_url": "https://vliver.321.inc/liver/hanoi/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "iriam",
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/hanoi/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "74d88db1",
+        "url": "https://reality.app/profile/74d88db1"
+      },
+      {
+        "platform": "iriam",
+        "id": "B3lodOux4l",
+        "url": "https://web.iriam.app/s/user/B3lodOux4l"
+      },
+      {
+        "platform": "x",
+        "id": "mirenhanai",
+        "url": "https://x.com/mirenhanai"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@hanoi_reality",
+        "url": "https://www.tiktok.com/@hanoi_reality"
+      },
+      {
+        "platform": "youtube",
+        "id": "@未練-x8t",
+        "url": "https://youtube.com/@%E6%9C%AA%E7%B7%B4-x8t"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:himeki",
+    "display_name": "HIMEKI",
+    "source_url": "https://vliver.321.inc/liver/himeki/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/himeki/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "b3fa4407",
+        "url": "https://reality.app/profile/b3fa4407"
+      },
+      {
+        "platform": "x",
+        "id": "reality_himeki",
+        "url": "https://x.com/reality_himeki"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:lazy-レイジ",
+    "display_name": "Lazy-レイジ-",
+    "source_url": "https://vliver.321.inc/liver/lazy-%e3%83%ac%e3%82%a4%e3%82%b8/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/lazy-%e3%83%ac%e3%82%a4%e3%82%b8/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "6f0c3fc6",
+        "url": "https://reality.app/profile/6f0c3fc6"
+      },
+      {
+        "platform": "x",
+        "id": "lazyv321",
+        "url": "https://x.com/lazyv321"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:miyachan♡",
+    "display_name": "MIYAchan♡!!",
+    "source_url": "https://vliver.321.inc/liver/miyachan%e2%99%a1/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/miyachan%e2%99%a1/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "ba7022b0",
+        "url": "https://reality.app/profile/ba7022b0"
+      },
+      {
+        "platform": "x",
+        "id": "miyachan_0724",
+        "url": "https://x.com/miyachan_0724"
+      },
+      {
+        "platform": "youtube",
+        "id": "@miyachan-u8k",
+        "url": "https://youtube.com/@miyachan-u8k"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:muu",
+    "display_name": "Muu",
+    "source_url": "https://vliver.321.inc/liver/muu/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/muu/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "fc4f6fb0",
+        "url": "https://reality.app/profile/fc4f6fb0"
+      },
+      {
+        "platform": "x",
+        "id": "muu_321_",
+        "url": "https://x.com/muu_321_"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:rara",
+    "display_name": "RaRa",
+    "source_url": "https://vliver.321.inc/liver/rara/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/rara/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "412b26c5",
+        "url": "https://reality.app/profile/412b26c5"
+      },
+      {
+        "platform": "x",
+        "id": "rara0928",
+        "url": "https://x.com/rara0928"
+      }
+    ]
+  },
+  {
+    "source_id": "agency-321:rito",
+    "display_name": "Rito",
+    "source_url": "https://vliver.321.inc/liver/rito/",
+    "activity_source": "https://vliver.321.inc/liver/",
+    "activity_evidence": "official_active_vliver_roster_and_person_profile",
+    "activity_checked_at": "2026-09-08",
+    "vliver_source": "https://vliver.321.inc/liver/",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://vliver.321.inc/liver/rito/",
+    "primary_platform_evidence": "official_broadcast_destination",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "d0e9c5e7",
+        "url": "https://reality.app/profile/d0e9c5e7"
+      },
+      {
+        "platform": "x",
+        "id": "ritokoinobori",
+        "url": "https://x.com/ritokoinobori"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@rito160919",
+        "url": "https://www.tiktok.com/@rito160919"
+      },
+      {
+        "platform": "youtube",
+        "id": "@ritokoinobori",
+        "url": "https://youtube.com/@Ritokoinobori"
+      }
+    ]
+  },
+  {
+    "source_id": "mirrativ:153167281",
+    "display_name": "ｽﾔﾁｬﾝ",
+    "source_url": "https://mirrativ.com/user/153167281",
+    "activity_source": "https://note.com/otagroup/n/n75e1d440d85f",
+    "activity_evidence": "official_agency_streaming_interview_or_award",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "mirrativ",
+        "id": "153167281",
+        "url": "https://mirrativ.com/user/153167281"
+      },
+      {
+        "platform": "x",
+        "id": "suya8zzz",
+        "url": "https://x.com/suya8zzz"
+      },
+      {
+        "platform": "youtube",
+        "id": "@araray0suya",
+        "url": "https://youtube.com/@araray0suya"
+      }
+    ],
+    "platforms": [
+      "mirrativ",
+      "youtube"
+    ],
+    "platform_sources": {
+      "mirrativ": "https://note.com/otagroup/n/n75e1d440d85f",
+      "x": "https://note.com/otagroup/n/n75e1d440d85f",
+      "youtube": "https://note.com/otagroup/n/n75e1d440d85f"
+    },
+    "vliver_source": "https://note.com/otagroup/n/n75e1d440d85f",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_source": "https://note.com/otagroup/n/n75e1d440d85f",
+    "primary_platform_evidence": "official_agency_streaming_interview_or_award"
+  },
+  {
+    "source_id": "mirrativ:151164341",
+    "display_name": "よちゃ",
+    "source_url": "https://mirrativ.com/user/151164341",
+    "activity_source": "https://note.com/otagroup/n/n99bc923b2838",
+    "activity_evidence": "official_agency_streaming_interview_or_award",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "mirrativ",
+        "id": "151164341",
+        "url": "https://mirrativ.com/user/151164341"
+      },
+      {
+        "platform": "x",
+        "id": "pl42z5dtu554326",
+        "url": "https://x.com/pl42z5dtu554326"
+      }
+    ],
+    "platforms": [
+      "mirrativ"
+    ],
+    "platform_sources": {
+      "mirrativ": "https://note.com/otagroup/n/n99bc923b2838",
+      "x": "https://note.com/otagroup/n/n99bc923b2838"
+    },
+    "vliver_source": "https://note.com/otagroup/n/n99bc923b2838",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_source": "https://note.com/otagroup/n/n99bc923b2838",
+    "primary_platform_evidence": "official_agency_streaming_interview_or_award"
+  },
+  {
+    "source_id": "mirrativ:148564467",
+    "display_name": "がらご らく",
+    "source_url": "https://mirrativ.com/user/148564467",
+    "activity_source": "https://note.com/otagroup/n/nc17450178e99",
+    "activity_evidence": "official_agency_streaming_interview_or_award",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "mirrativ",
+        "id": "148564467",
+        "url": "https://mirrativ.com/user/148564467"
+      },
+      {
+        "platform": "x",
+        "id": "raku_garago",
+        "url": "https://x.com/raku_garago"
+      }
+    ],
+    "platforms": [
+      "mirrativ"
+    ],
+    "platform_sources": {
+      "mirrativ": "https://note.com/otagroup/n/nc17450178e99",
+      "x": "https://note.com/otagroup/n/nc17450178e99"
+    },
+    "vliver_source": "https://note.com/otagroup/n/nc17450178e99",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_source": "https://note.com/otagroup/n/nc17450178e99",
+    "primary_platform_evidence": "official_agency_streaming_interview_or_award"
+  },
+  {
+    "source_id": "mirrativ:148282438",
+    "display_name": "竹久レイジ",
+    "source_url": "https://mirrativ.com/user/148282438",
+    "activity_source": "https://note.com/otagroup/n/n8531055de3a7",
+    "activity_evidence": "official_agency_streaming_interview_or_award",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "mirrativ",
+        "id": "148282438",
+        "url": "https://mirrativ.com/user/148282438"
+      }
+    ],
+    "platforms": [
+      "mirrativ"
+    ],
+    "platform_sources": {
+      "mirrativ": "https://note.com/otagroup/n/n8531055de3a7"
+    },
+    "vliver_source": "https://note.com/otagroup/n/n8531055de3a7",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_source": "https://note.com/otagroup/n/n8531055de3a7",
+    "primary_platform_evidence": "official_agency_streaming_interview_or_award"
+  },
+  {
+    "source_id": "mirrativ:149261523",
+    "display_name": "宙河環",
+    "source_url": "https://mirrativ.com/user/149261523",
+    "activity_source": "https://note.com/otagroup/n/n85d6425a8bd3",
+    "activity_evidence": "official_agency_streaming_interview_or_award",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "mirrativ",
+        "id": "149261523",
+        "url": "https://mirrativ.com/user/149261523"
+      },
+      {
+        "platform": "x",
+        "id": "sorakawa_megu",
+        "url": "https://x.com/sorakawa_megu"
+      }
+    ],
+    "platforms": [
+      "mirrativ"
+    ],
+    "platform_sources": {
+      "mirrativ": "https://note.com/otagroup/n/n85d6425a8bd3",
+      "x": "https://note.com/otagroup/n/n85d6425a8bd3"
+    },
+    "vliver_source": "https://note.com/otagroup/n/n85d6425a8bd3",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_source": "https://note.com/otagroup/n/n85d6425a8bd3",
+    "primary_platform_evidence": "official_agency_streaming_interview_or_award",
+    "reading": "そらかわめぐ",
+    "reading_source": "https://note.com/otagroup/n/n85d6425a8bd3",
+    "reading_source_kind": "official"
+  },
+  {
+    "source_id": "mirrativ:148358954",
+    "display_name": "酒呑みー様",
+    "source_url": "https://mirrativ.com/user/148358954",
+    "activity_source": "https://note.com/otagroup/n/n08e024dca2b2",
+    "activity_evidence": "official_agency_streaming_interview_or_award",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "mirrativ",
+        "id": "148358954",
+        "url": "https://mirrativ.com/user/148358954"
+      },
+      {
+        "platform": "x",
+        "id": "miyavi_i",
+        "url": "https://x.com/miyavi_i"
+      },
+      {
+        "platform": "youtube",
+        "id": "@mii_sama",
+        "url": "https://youtube.com/@Mii_Sama"
+      }
+    ],
+    "platforms": [
+      "mirrativ",
+      "youtube"
+    ],
+    "platform_sources": {
+      "mirrativ": "https://note.com/otagroup/n/n08e024dca2b2",
+      "x": "https://note.com/otagroup/n/n08e024dca2b2",
+      "youtube": "https://note.com/otagroup/n/n08e024dca2b2"
+    },
+    "vliver_source": "https://note.com/otagroup/n/n08e024dca2b2",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_source": "https://note.com/otagroup/n/n08e024dca2b2",
+    "primary_platform_evidence": "official_agency_streaming_interview_or_award"
+  },
+  {
+    "source_id": "mirrativ:148825976",
+    "display_name": "もふ山ぽち子",
+    "source_url": "https://mirrativ.com/user/148825976",
+    "activity_source": "https://note.com/otagroup/n/n85d6425a8bd3",
+    "activity_evidence": "official_agency_streaming_interview_or_award",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "mirrativ",
+        "id": "148825976",
+        "url": "https://mirrativ.com/user/148825976"
+      },
+      {
+        "platform": "x",
+        "id": "mofu_pochi",
+        "url": "https://x.com/mofu_pochi"
+      }
+    ],
+    "platforms": [
+      "mirrativ"
+    ],
+    "platform_sources": {
+      "mirrativ": "https://note.com/otagroup/n/n85d6425a8bd3",
+      "x": "https://note.com/otagroup/n/n85d6425a8bd3"
+    },
+    "vliver_source": "https://note.com/otagroup/n/n85d6425a8bd3",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_source": "https://note.com/otagroup/n/n85d6425a8bd3",
+    "primary_platform_evidence": "official_agency_streaming_interview_or_award"
+  },
+  {
+    "source_id": "mirrativ:149817377",
+    "display_name": "酒田雨林",
+    "source_url": "https://mirrativ.com/user/149817377",
+    "activity_source": "https://prtimes.jp/main/html/rd/p/000000070.000034708.html",
+    "activity_evidence": "official_agency_streaming_interview_or_award",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "mirrativ",
+        "id": "149817377",
+        "url": "https://mirrativ.com/user/149817377"
+      },
+      {
+        "platform": "x",
+        "id": "sakatayurin_yay",
+        "url": "https://x.com/sakatayurin_yay"
+      },
+      {
+        "platform": "youtube",
+        "id": "@sakata_yurin",
+        "url": "https://youtube.com/@sakata_yurin"
+      }
+    ],
+    "platforms": [
+      "mirrativ",
+      "youtube"
+    ],
+    "platform_sources": {
+      "mirrativ": "https://prtimes.jp/main/html/rd/p/000000070.000034708.html",
+      "x": "https://prtimes.jp/main/html/rd/p/000000070.000034708.html",
+      "youtube": "https://prtimes.jp/main/html/rd/p/000000070.000034708.html"
+    },
+    "vliver_source": "https://prtimes.jp/main/html/rd/p/000000070.000034708.html",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_source": "https://prtimes.jp/main/html/rd/p/000000070.000034708.html",
+    "primary_platform_evidence": "official_agency_streaming_interview_or_award",
+    "reading": "さかたうりん",
+    "reading_source": "https://prtimes.jp/main/html/rd/p/000000070.000034708.html",
+    "reading_source_kind": "official"
+  },
+  {
+    "source_id": "twitcasting:sumisumimimii",
+    "display_name": "Sumi（すみ）",
+    "source_url": "https://twitcasting.tv/sumisumimimii",
+    "activity_source": "https://twitcasting.tv/search/tag/VTuber",
+    "activity_evidence": "official_vtuber_tag_and_completed_broadcast",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "sumisumimimii",
+        "url": "https://twitcasting.tv/sumisumimimii"
+      }
+    ],
+    "platforms": [
+      "twitcasting"
+    ],
+    "platform_sources": {
+      "twitcasting": "https://twitcasting.tv/search/tag/VTuber"
+    }
+  },
+  {
+    "source_id": "twitcasting:c:hitoyo_enishi",
+    "display_name": "緋十夜 縁",
+    "source_url": "https://twitcasting.tv/c:Hitoyo_Enishi",
+    "activity_source": "https://twitcasting.tv/search/tag/VTuber",
+    "activity_evidence": "official_vtuber_tag_and_completed_broadcast",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "c:hitoyo_enishi",
+        "url": "https://twitcasting.tv/c:Hitoyo_Enishi"
+      }
+    ],
+    "platforms": [
+      "twitcasting"
+    ],
+    "platform_sources": {
+      "twitcasting": "https://twitcasting.tv/search/tag/VTuber"
+    }
+  },
+  {
+    "source_id": "twitcasting:c:kititanu2525",
+    "display_name": "しゅーくん (化け狸)",
+    "source_url": "https://twitcasting.tv/c:Kititanu2525",
+    "activity_source": "https://twitcasting.tv/search/tag/VTuber",
+    "activity_evidence": "official_vtuber_tag_and_completed_broadcast",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "c:kititanu2525",
+        "url": "https://twitcasting.tv/c:Kititanu2525"
+      }
+    ],
+    "platforms": [
+      "twitcasting"
+    ],
+    "platform_sources": {
+      "twitcasting": "https://twitcasting.tv/search/tag/VTuber"
+    }
+  },
+  {
+    "source_id": "twitcasting:g:115755621078734256935",
+    "display_name": "なりや",
+    "source_url": "https://twitcasting.tv/g:115755621078734256935",
+    "activity_source": "https://twitcasting.tv/search/tag/VTuber",
+    "activity_evidence": "official_vtuber_tag_and_completed_broadcast",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "g:115755621078734256935",
+        "url": "https://twitcasting.tv/g:115755621078734256935"
+      }
+    ],
+    "platforms": [
+      "twitcasting"
+    ],
+    "platform_sources": {
+      "twitcasting": "https://twitcasting.tv/search/tag/VTuber"
+    }
+  },
+  {
+    "source_id": "niconico:124366883",
+    "display_name": "ノーア",
+    "source_url": "https://www.nicovideo.jp/user/124366883",
+    "activity_source": "https://twitcasting.tv/search/tag/VTuber",
+    "activity_evidence": "self_profile_niconico_destination_and_vtuber_broadcast",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "niconico",
+        "id": "124366883",
+        "url": "https://www.nicovideo.jp/user/124366883"
+      },
+      {
+        "platform": "twitcasting",
+        "id": "g:111989560674469267641",
+        "url": "https://twitcasting.tv/g:111989560674469267641"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCu8lsCa11kfxl8LeangMudg",
+        "url": "https://youtube.com/channel/UCu8lsCa11kfxl8LeangMudg"
+      }
+    ],
+    "platforms": [
+      "niconico",
+      "twitcasting",
+      "youtube"
+    ],
+    "platform_sources": {
+      "niconico": "https://twitcasting.tv/search/tag/VTuber",
+      "twitcasting": "https://twitcasting.tv/search/tag/VTuber",
+      "youtube": "https://twitcasting.tv/search/tag/VTuber"
+    }
+  },
+  {
+    "source_id": "17live:d6d9ce5d-080a-4b2f-b4c6-c686bec446b9",
+    "display_name": "猫羽みゆ",
+    "source_url": "https://17.live/s/u/d6d9ce5d-080a-4b2f-b4c6-c686bec446b9",
+    "activity_source": "https://jp.17.live/v-6th/",
+    "activity_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "d6d9ce5d-080a-4b2f-b4c6-c686bec446b9",
+        "url": "https://17.live/s/u/d6d9ce5d-080a-4b2f-b4c6-c686bec446b9"
+      }
+    ],
+    "platforms": [
+      "17live"
+    ],
+    "platform_sources": {
+      "17live": "https://jp.17.live/v-6th/"
+    },
+    "vliver_source": "https://jp.17.live/v-6th/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://jp.17.live/v-6th/",
+    "primary_platform_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_snapshot_at": "2024-09-07"
+  },
+  {
+    "source_id": "17live:3078b0ca-8308-440d-8a5b-12c8207d5b27",
+    "display_name": "みやおみゃー",
+    "source_url": "https://17.live/s/u/3078b0ca-8308-440d-8a5b-12c8207d5b27",
+    "activity_source": "https://jp.17.live/v-6th/",
+    "activity_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "3078b0ca-8308-440d-8a5b-12c8207d5b27",
+        "url": "https://17.live/s/u/3078b0ca-8308-440d-8a5b-12c8207d5b27"
+      }
+    ],
+    "platforms": [
+      "17live"
+    ],
+    "platform_sources": {
+      "17live": "https://jp.17.live/v-6th/"
+    },
+    "vliver_source": "https://jp.17.live/v-6th/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://jp.17.live/v-6th/",
+    "primary_platform_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_snapshot_at": "2024-09-07"
+  },
+  {
+    "source_id": "17live:da0858c4-586b-4777-8d74-c6a77fdf63fc",
+    "display_name": "月守ルナ",
+    "source_url": "https://17.live/s/u/da0858c4-586b-4777-8d74-c6a77fdf63fc",
+    "activity_source": "https://jp.17.live/v-6th/",
+    "activity_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "da0858c4-586b-4777-8d74-c6a77fdf63fc",
+        "url": "https://17.live/s/u/da0858c4-586b-4777-8d74-c6a77fdf63fc"
+      }
+    ],
+    "platforms": [
+      "17live"
+    ],
+    "platform_sources": {
+      "17live": "https://jp.17.live/v-6th/"
+    },
+    "vliver_source": "https://jp.17.live/v-6th/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://jp.17.live/v-6th/",
+    "primary_platform_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_snapshot_at": "2024-09-07"
+  },
+  {
+    "source_id": "17live:af365df6-1907-4ce7-ae2c-bc7355d47d49",
+    "display_name": "ホーリー・ドーナッツ",
+    "source_url": "https://17.live/s/u/af365df6-1907-4ce7-ae2c-bc7355d47d49",
+    "activity_source": "https://jp.17.live/v-6th/",
+    "activity_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "af365df6-1907-4ce7-ae2c-bc7355d47d49",
+        "url": "https://17.live/s/u/af365df6-1907-4ce7-ae2c-bc7355d47d49"
+      }
+    ],
+    "platforms": [
+      "17live"
+    ],
+    "platform_sources": {
+      "17live": "https://jp.17.live/v-6th/"
+    },
+    "vliver_source": "https://jp.17.live/v-6th/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://jp.17.live/v-6th/",
+    "primary_platform_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_snapshot_at": "2024-09-07"
+  },
+  {
+    "source_id": "17live:04f3ef41-3dd3-4462-9e62-f5b26b7a4eee",
+    "display_name": "棘蘭姫",
+    "source_url": "https://17.live/s/u/04f3ef41-3dd3-4462-9e62-f5b26b7a4eee",
+    "activity_source": "https://jp.17.live/v-6th/",
+    "activity_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "04f3ef41-3dd3-4462-9e62-f5b26b7a4eee",
+        "url": "https://17.live/s/u/04f3ef41-3dd3-4462-9e62-f5b26b7a4eee"
+      }
+    ],
+    "platforms": [
+      "17live"
+    ],
+    "platform_sources": {
+      "17live": "https://jp.17.live/v-6th/"
+    },
+    "vliver_source": "https://jp.17.live/v-6th/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://jp.17.live/v-6th/",
+    "primary_platform_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_snapshot_at": "2024-09-07"
+  },
+  {
+    "source_id": "17live:337f85fd-7f55-451e-8078-e75df7f0d40e",
+    "display_name": "美森ゆの",
+    "source_url": "https://17.live/s/u/337f85fd-7f55-451e-8078-e75df7f0d40e",
+    "activity_source": "https://jp.17.live/v-6th/",
+    "activity_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_checked_at": "2026-09-08",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "337f85fd-7f55-451e-8078-e75df7f0d40e",
+        "url": "https://17.live/s/u/337f85fd-7f55-451e-8078-e75df7f0d40e"
+      }
+    ],
+    "platforms": [
+      "17live"
+    ],
+    "platform_sources": {
+      "17live": "https://jp.17.live/v-6th/"
+    },
+    "vliver_source": "https://jp.17.live/v-6th/",
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://jp.17.live/v-6th/",
+    "primary_platform_evidence": "official_vliver_anniversary_broadcast_2024",
+    "activity_snapshot_at": "2024-09-07"
+  },
+  {
+    "source_id": "showroom:9ab152894879",
+    "display_name": "猫乃みぃたん♂",
+    "source_url": "https://www.showroom-live.com/r/9ab152894879",
+    "activity_source": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB",
+    "activity_evidence": "official_room_self_description_and_past_streaming",
+    "platform_accounts": [
+      {
+        "platform": "showroom",
+        "id": "9ab152894879",
+        "url": "https://showroom-live.com/r/9ab152894879"
+      }
+    ],
+    "platforms": [
+      "showroom"
+    ],
+    "platform_sources": {
+      "showroom": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB"
+    },
+    "activity_checked_at": "2026-09-08"
+  },
+  {
+    "source_id": "showroom:db8da504287",
+    "display_name": "しろねこ亭ねこすけ",
+    "source_url": "https://www.showroom-live.com/r/db8da504287",
+    "activity_source": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB",
+    "activity_evidence": "official_room_self_description_and_past_streaming",
+    "platform_accounts": [
+      {
+        "platform": "showroom",
+        "id": "db8da504287",
+        "url": "https://showroom-live.com/r/db8da504287"
+      }
+    ],
+    "platforms": [
+      "showroom"
+    ],
+    "platform_sources": {
+      "showroom": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB"
+    },
+    "activity_checked_at": "2026-09-08"
+  },
+  {
+    "source_id": "showroom:yumenekotaren",
+    "display_name": "夢猫楽恋",
+    "source_url": "https://www.showroom-live.com/r/yumenekotaren",
+    "activity_source": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB",
+    "activity_evidence": "official_room_self_description_and_past_streaming",
+    "platform_accounts": [
+      {
+        "platform": "showroom",
+        "id": "yumenekotaren",
+        "url": "https://showroom-live.com/r/yumenekotaren"
+      }
+    ],
+    "platforms": [
+      "showroom"
+    ],
+    "platform_sources": {
+      "showroom": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB"
+    },
+    "activity_checked_at": "2026-09-08",
+    "reading": "ゆめねこたれん",
+    "reading_source": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB",
+    "reading_source_kind": "official"
+  },
+  {
+    "source_id": "showroom:shirogomaseruki11",
+    "display_name": "猫宮シエナ",
+    "source_url": "https://www.showroom-live.com/r/shirogomaseruki11",
+    "activity_source": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB",
+    "activity_evidence": "official_room_self_description_and_past_streaming",
+    "platform_accounts": [
+      {
+        "platform": "showroom",
+        "id": "shirogomaseruki11",
+        "url": "https://showroom-live.com/r/shirogomaseruki11"
+      }
+    ],
+    "platforms": [
+      "showroom"
+    ],
+    "platform_sources": {
+      "showroom": "https://www.showroom-live.com/room/search?genre_id=0&keyword=%E7%8C%AB"
+    },
+    "activity_checked_at": "2026-09-08"
+  }
+]

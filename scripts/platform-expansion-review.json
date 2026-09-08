@@ -1,0 +1,36 @@
+{
+  "checked_profiles": 179,
+  "accepted_profiles": 173,
+  "pending_same_name_identity_check": [
+    {
+      "name": "ゆっきん",
+      "source_url": "https://twitcasting.tv/ykn0911v",
+      "reason": "Matching name exists; cross-platform identity needs confirmation"
+    },
+    {
+      "name": "ファンキキ",
+      "source_url": "https://twitcasting.tv/kikifunnel",
+      "reason": "Matching name exists; cross-platform identity needs confirmation"
+    },
+    {
+      "name": "星川める",
+      "source_url": "https://17.live/s/u/726d155e-958f-45cf-b31e-b6060761d1a0",
+      "reason": "Matching name exists; cross-platform identity needs confirmation"
+    },
+    {
+      "name": "清楼銘",
+      "source_url": "https://17.live/s/u/e3b5a864-fd01-4585-99fb-2503306e556e",
+      "reason": "Matching name exists; cross-platform identity needs confirmation"
+    },
+    {
+      "name": "猫原いおり",
+      "source_url": "https://www.showroom-live.com/r/311cb8926052",
+      "reason": "Matching name exists; cross-platform identity needs confirmation"
+    },
+    {
+      "name": "黒桃くるみ",
+      "source_url": "https://www.showroom-live.com/r/revorn_06_0031",
+      "reason": "Matching name exists; cross-platform identity needs confirmation"
+    }
+  ]
+}

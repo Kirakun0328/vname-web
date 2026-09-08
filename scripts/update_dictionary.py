@@ -270,6 +270,9 @@ def refresh_reviewed_only(base, previous, args):
     # there too when a platform collector has an older name for this account.
     approved_platforms = [r for r in reviewed if r['source_id'] in platform_ids]
     platforms = merge_reviewed(platforms, approved_platforms, base=base)
+    from platform_sources import merge_platforms
+    expansion = json.loads((ROOT / 'scripts/reviewed-platform-expansion.json').read_text())
+    platforms, expansion_counts = merge_platforms(base, platforms, expansion)
     merged = {r['source_id']: dict(r) for r in base}
     for row in [*updated, *platforms]:
         merged.setdefault(row['source_id'], {}).update(row)
@@ -280,6 +283,7 @@ def refresh_reviewed_only(base, previous, args):
                          'excluded_predebut': len(merged)-len(eligible),
                          'with_activity_source': sum(bool(r.get('activity_source')) for r in eligible)}
     report['aivtuber_records'] = sum(r.get('category') == 'AIVTuber' for r in eligible)
+    report['platform_expansion'] = dict(source_records=len(expansion), **expansion_counts)
     community = [r for r in reviewed if r.get('report_source')]
     report['community_profiles'] = {'reviewed_records': len(community),
                                     'checked_at': max((r['activity_checked_at'] for r in community), default=None),
