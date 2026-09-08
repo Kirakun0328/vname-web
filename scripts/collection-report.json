@@ -113,10 +113,10 @@
     "skipped_without_activity_or_predebut": 0
   },
   "records": {
-    "stored": 32926,
-    "listed": 32908,
+    "stored": 32932,
+    "listed": 32914,
     "excluded_predebut": 18,
-    "with_activity_source": 9536
+    "with_activity_source": 9545
   },
   "vstats": {
     "new_records": 0,
@@ -372,5 +372,12 @@
     },
     "records_with_counts": 691
   },
-  "aivtuber_records": 324
+  "aivtuber_records": 324,
+  "community_profiles": {
+    "reviewed_records": 9,
+    "checked_at": "2026-09-08",
+    "coverage": "publicly_accessible_quotes_and_replies_only",
+    "all_quotes_checked": false,
+    "source": "https://x.com/Kiratchi0328/status/2096914177667567915"
+  }
 }
