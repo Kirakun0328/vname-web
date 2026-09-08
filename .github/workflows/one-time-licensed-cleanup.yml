@@ -9,7 +9,7 @@ permissions:
   contents: write
 jobs:
   cleanup:
-    # No Pages environment dependency; retry with reviewed-profile rendering test.
+    # No Pages environment dependency; diagnose reviewed-profile materialization.
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -29,6 +29,16 @@ jobs:
         run: python scripts/cleanup_legacy_external.py
       - name: Re-apply reviewed records
         run: python scripts/update_dictionary.py --reviewed-only
+      - name: Diagnose reviewed materialization
+        run: |
+          echo "Luca counts after reviewed merge"
+          grep -o 'Luca黒蜜糖' data.js | wc -l || true
+          grep -o 'Luca黒蜜糖' extra-data.js | wc -l || true
+          grep -o 'Luca黒蜜糖' platform-data.js | wc -l || true
+          echo "stable source id counts"
+          grep -o 'youtube:UCDfZ7u-DMSgxoHi5Ls9nJig' data.js | wc -l || true
+          grep -o 'youtube:UCDfZ7u-DMSgxoHi5Ls9nJig' extra-data.js | wc -l || true
+          grep -o 'youtube:UCDfZ7u-DMSgxoHi5Ls9nJig' platform-data.js | wc -l || true
       - name: Validate JavaScript and source policy
         run: |
           node --check data.js
