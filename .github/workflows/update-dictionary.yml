@@ -48,6 +48,9 @@ jobs:
       - name: Import explicitly open VTuber datasets
         if: github.event_name != 'push' || github.event.head_commit.message == 'Import explicitly open VTuber datasets'
         run: python scripts/import_open_datasets.py
+      - name: Import CC0 AI VTuber dataset
+        if: github.event_name != 'push' || github.event.head_commit.message == 'Import CC0 AI VTuber dataset'
+        run: python scripts/import_aivtuber_cc0.py
       - name: Apply individually reviewed additions and corrections
         run: python scripts/update_dictionary.py --reviewed-only
       - name: Discover primary-source candidates with configured SearXNG
@@ -82,10 +85,10 @@ jobs:
           node --check i18n.js
       - name: Commit dictionary changes
         run: |
-          if ! git diff --quiet -- data.js scripts/licensed-legacy-restore-report.json scripts/open-datasets-report.json scripts/legacy-data-audit.json scripts/legacy-cleanup-report.json scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/licensed-legacy-restore-report.json scripts/open-datasets-report.json scripts/legacy-data-audit.json scripts/legacy-cleanup-report.json scripts/collection-report.json estimated-readings.js scripts/audience-report.json)"; then
+          if ! git diff --quiet -- data.js scripts/licensed-legacy-restore-report.json scripts/open-datasets-report.json scripts/aivtuber-cc0-report.json scripts/legacy-data-audit.json scripts/legacy-cleanup-report.json scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/licensed-legacy-restore-report.json scripts/open-datasets-report.json scripts/aivtuber-cc0-report.json scripts/legacy-data-audit.json scripts/legacy-cleanup-report.json scripts/collection-report.json estimated-readings.js scripts/audience-report.json)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add data.js scripts/licensed-legacy-restore-report.json scripts/open-datasets-report.json scripts/legacy-data-audit.json scripts/legacy-cleanup-report.json scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
+            git add data.js scripts/licensed-legacy-restore-report.json scripts/open-datasets-report.json scripts/aivtuber-cc0-report.json scripts/legacy-data-audit.json scripts/legacy-cleanup-report.json scripts/search-discovery-report.json scripts/searxng-candidates.json primary-data.js scripts/primary-recheck-report.json extra-data.js platform-data.js estimated-readings.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json
             git commit -m 'Update dictionary from reviewed and open licensed sources'
             git push origin HEAD:main
           fi
