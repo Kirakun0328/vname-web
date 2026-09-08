@@ -6,7 +6,6 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from ai_list_sources import parse_bundle, rows_from, merge_rows
 from official_rosters import parse_ozon, parse_linear
-from icon_sources import parse_channel_icon
 
 TODAY=datetime.date(2026,9,7)
 CID='UC'+'a'*22
@@ -58,12 +57,6 @@ class AdditionalSources(unittest.TestCase):
         row=parse_linear(html,'https://linear-v.com/talent/123/',TODAY)
         self.assertEqual(row['primary_platforms'],['iriam']);self.assertEqual(len(row['platform_accounts']),1)
         self.assertIsNone(parse_linear(html.replace('2025年','2027年'),'https://linear-v.com/talent/123/',TODAY))
-
-    def test_avatar_requires_exact_channel_and_known_image_host(self):
-        html=f'<link rel="canonical" href="https://www.youtube.com/channel/{CID}"><meta property="og:image" content="https://yt3.ggpht.com/avatar">'
-        self.assertEqual(parse_channel_icon(html,'https://www.youtube.com/channel/'+CID,CID)['icon_kind'],'channel')
-        with self.assertRaises(ValueError):parse_channel_icon(html,'https://www.youtube.com/channel/'+CID,'UC'+'b'*22)
-        self.assertIsNone(parse_channel_icon(html.replace('yt3.ggpht.com','evil.test'), 'https://youtube.com/@star',CID))
 
 
 if __name__=='__main__':unittest.main()

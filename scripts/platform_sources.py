@@ -239,9 +239,6 @@ skipped for review, rather than collapsing different characters.
             patch.update(romanized_name=row['romanized_name'],romanized_source=row['romanized_source'])
         if not old.get('activity_source'):
             patch.update(activity_source=row['activity_source'],activity_evidence=row['activity_evidence'])
-        if row.get('icon_url') and row.get('icon_source') and not old.get('icon_url'):
-            for field in ('icon_url','icon_source','icon_kind'):
-                if row.get(field): patch[field]=row[field]
         patch['platform_checked_at']=datetime.datetime.now(datetime.timezone.utc).date().isoformat()
         for x in a:
             index.setdefault((x['platform'],x['id']),set()).add(sid)

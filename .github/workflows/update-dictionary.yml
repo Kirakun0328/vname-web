@@ -56,10 +56,10 @@ jobs:
           node --check i18n.js
       - name: Commit dictionary changes
         run: |
-          if ! git diff --quiet -- extra-data.js platform-data.js scripts/collection-report.json scripts/platform-report.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json)"; then
+          if ! git diff --quiet -- extra-data.js platform-data.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json scripts/aivnav_channels.json || test -n "$(git ls-files --others --exclude-standard scripts/collection-report.json)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add extra-data.js platform-data.js scripts/collection-report.json scripts/platform-report.json
+            git add extra-data.js platform-data.js scripts/collection-report.json scripts/platform-report.json scripts/aivnav_channels.json scripts/aivnav_channels.json
             git commit -m 'Update dictionary from public sources'
             git push origin HEAD:main
           fi

@@ -149,9 +149,9 @@ translations["ko"]["。全件の読みの確認は完了していません。未
 translations["en"]["VTuber・AIVTuberの名前・読み・別名をチェック。"]="Check VTuber and AIVTuber names, readings, and aliases.";
 translations["zh"]["VTuber・AIVTuberの名前・読み・別名をチェック。"]="查询VTuber和AIVTuber的名字、读音和别名。";
 translations["ko"]["VTuber・AIVTuberの名前・読み・別名をチェック。"]="VTuber·AIVTuber의 이름, 발음, 다른 표기를 검색하세요.";
-translations["en"]["AIVTuberタグはAIVナビ・AI VTuberDBの掲載情報に基づきます。VTuberタグはAI不使用を保証するものではありません。"]="The AIVTuber tag is based on AIV Navi and AI VTuberDB listings. The VTuber tag does not confirm that AI is not used.";
-translations["zh"]["AIVTuberタグはAIVナビ・AI VTuberDBの掲載情報に基づきます。VTuberタグはAI不使用を保証するものではありません。"]="AIVTuber标签依据AIV Navi和AI VTuberDB的收录信息。VTuber标签不保证未使用AI。";
-translations["ko"]["AIVTuberタグはAIVナビ・AI VTuberDBの掲載情報に基づきます。VTuberタグはAI不使用を保証するものではありません。"]="AIVTuber 태그는 AIV Navi와 AI VTuberDB의 수록 정보를 기준으로 합니다. VTuber 태그가 AI 미사용을 보장하지는 않습니다.";
+translations["en"]["AIVTuberタグはAIVナビ・AITuberList・配信予定一覧・公開紹介情報などに基づきます。VTuberタグはAI不使用を保証するものではありません。"]="The AIVTuber tag is based on AIV Navi, AITuberList, streaming directories and public introductions. The VTuber tag does not confirm that AI is not used.";
+translations["zh"]["AIVTuberタグはAIVナビ・AITuberList・配信予定一覧・公開紹介情報などに基づきます。VTuberタグはAI不使用を保証するものではありません。"]="AIVTuber标签依据AIV Navi、AITuberList、直播目录及公开介绍信息。VTuber标签不保证未使用AI。";
+translations["ko"]["AIVTuberタグはAIVナビ・AITuberList・配信予定一覧・公開紹介情報などに基づきます。VTuberタグはAI不使用を保証するものではありません。"]="AIVTuber 태그는 AIV Navi, AITuberList, 방송 목록 및 공개 소개 정보를 기준으로 합니다. VTuber 태그가 AI 미사용을 보장하지는 않습니다.";
 translations["en"]["関連リンク"]="Related links";
 translations["zh"]["関連リンク"]="相关链接";
 translations["ko"]["関連リンク"]="관련 링크";
@@ -178,6 +178,8 @@ m=jp.match(/^読み・英字、または名前の一部が一致する候補が 
 if(!out){let m=jp.match(/^同名・同じ読みの候補: ([\d,]+) 件$/);if(m)out={en:`Same-name or reading matches: ${m[1]}`,zh:`同名或同读音候选：${m[1]} 条`,ko:`동일 이름·발음 후보: ${m[1]}건`}[language];
 m=jp.match(/^AIモデルを読み込み中: ([\d,]+) MB$/);if(m)out={en:`Loading AI model: ${m[1]} MB`,zh:`正在加载AI模型：${m[1]} MB`,ko:`AI 모델 불러오는 중: ${m[1]} MB`}[language];}
 const tagMatch=jp.match(/^タグ「(.+)」に一致する掲載が ([\d,]+) 件あります。$/);if(tagMatch)out={en:`${tagMatch[2]} records tagged ${tagMatch[1]}.`,zh:`标签“${tagMatch[1]}”有 ${tagMatch[2]} 条记录。`,ko:`${tagMatch[1]} 태그의 기록 ${tagMatch[2]}건입니다.`}[language];
+const countMatch=jp.match(/^([\d,]+) 件の活動者を表示$/);if(countMatch)out={en:`${countMatch[1]} creator records`,zh:`显示 ${countMatch[1]} 条创作者记录`,ko:`활동자 기록 ${countMatch[1]}건`}[language];
+const dateMatch=jp.match(/^確認日: (.+)$/);if(dateMatch)out={en:`Checked: ${dateMatch[1]}`,zh:`确认日期: ${dateMatch[1]}`,ko:`확인일: ${dateMatch[1]}`}[language];
 return out?value.replace(jp,out):value;}
 function translateUI(){document.documentElement.lang=language==='zh'?'zh-Hans':language;document.title=translated('ぶいネーム｜VTuber名前チェック');
 const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;while(node=walker.nextNode()){if(node.parentElement.closest('script,style,.name,.fields dd:not([data-i18n]),[data-query],option:not([data-i18n]),.chat-message.user .chat-body,[data-generated],.candidate-name,.candidate-reading,.candidate-reason,[data-word]'))continue;if(!originalText.has(node))originalText.set(node,node.nodeValue);node.nodeValue=translated(originalText.get(node))}
@@ -380,6 +382,31 @@ for(const [jp,values] of Object.entries({
  '選択したタグでは一致する名前が見つかりませんでした。':['No matching names were found within the selected tag.','所选标签中未找到匹配的名字。','선택한 태그에서는 일치하는 이름을 찾지 못했습니다.']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
 
-translations.en['画像の出典']='Image source';
-translations.zh['画像の出典']='图片来源';
-translations.ko['画像の出典']='이미지 출처';
+translations.en["公式サイト"]="Official website";
+translations.zh["公式サイト"]="官方网站";
+translations.ko["公式サイト"]="공식 사이트";
+
+for(const [jp,values] of Object.entries({
+ '名前・読み・別名で検索':['Search names, readings or aliases','搜索名字、读音或别名','이름·발음·다른 표기 검색'],
+ 'クリア':['Clear','清除','지우기'],
+ 'タグ':['Tags','标签','태그'],
+ '配信媒体':['Platforms','直播平台','방송 플랫폼'],
+ 'すべて':['All','全部','전체'],
+ '活動者一覧':['Browse creators','创作者列表','활동자 목록'],
+ '検索結果':['Search results','搜索结果','검색 결과'],
+ '並べ替え':['Sort by','排序方式','정렬'],
+ '人気順':['Popularity','人气顺序','인기순'],
+ '名前順':['Name','名字顺序','이름순'],
+ 'ランダム':['Random','随机','무작위'],
+ 'もう一度シャッフル':['Shuffle again','重新随机排列','다시 섞기'],
+ '人気順は確認できた登録者・フォロワー数が基準です。数値未確認の方は後ろに表示します。':['Popularity uses available subscriber and follower counts. Creators without counts appear afterwards.','人气顺序依据已确认的订阅者和关注者数量。未确认数量的创作者排在后面。','인기순은 확인된 구독자·팔로워 수 기준입니다. 수치가 없는 활동자는 뒤에 표시됩니다.'],
+ '読み未確認':['Reading unverified','读音未确认','발음 미확인'],
+ '詳細・出典':['Details & sources','详情与来源','상세 정보·출처'],
+ 'YouTube登録者':['YouTube subscribers','YouTube订阅者','YouTube 구독자'],
+ 'Twitchフォロワー':['Twitch followers','Twitch关注者','Twitch 팔로워'],
+ '登録者・フォロワー数の出典':['Audience count source','订阅者与关注者数量来源','구독자·팔로워 수 출처'],
+ '条件に一致する活動者が見つかりませんでした。':['No creators match these filters.','没有符合条件的创作者。','조건에 맞는 활동자를 찾지 못했습니다.'],
+ '名前やタグ・配信媒体を変えてお試しください。':['Try another name, tag or platform.','请尝试其他名字、标签或平台。','이름·태그·플랫폼을 바꿔 보세요.'],
+ 'この条件では一致する名前が見つかりませんでした。未使用を保証する結果ではありません。':['No matching names under these filters. This does not guarantee a name is unused.','当前条件下没有匹配的名字。这不代表名字尚未被使用。','현재 조건에 일치하는 이름이 없습니다. 미사용을 보장하지는 않습니다.'],
+ '一覧のページ':['Creator list pages','创作者列表分页','활동자 목록 페이지']
+})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);

@@ -61,8 +61,6 @@ def parse_ozon(document, today=None):
         if not row: continue
         readings = [kana(n.content().strip()) for n in node.all('p') if has_class(n, 'v-name-kana')]
         if len(readings) == 1 and readings[0]: row.update(reading=readings[0], reading_source=source, reading_source_kind='official')
-        icon = next((urljoin(OZON,n.attrs['src']) for n in node.all('img') if has_class(n,'plofile-img') and n.attrs.get('src')), None)
-        if icon and icon.startswith('https://ozon.jp/'): row.update(icon_url=icon, icon_source=source, icon_kind='profile')
         rows[slug] = row
     if not rows: raise ValueError('No verified OZON records')
     return list(rows.values())
@@ -102,9 +100,6 @@ def parse_linear(document, url, today=None):
     if not row: return None
     # The profile's standing image is outside the biography but inside its own
     # profile container; never borrow a related member's thumbnail.
-    icons = [n.attrs.get('src','') for n in root.all('img') if has_class(n,'talent-slider__img') and has_class(n,'wp-post-image')]
-    if len(icons)==1 and icons[0].startswith('https://linear-v.com/'):
-        row.update(icon_url=icons[0],icon_source=url,icon_kind='profile')
     return row
 
 

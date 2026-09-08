@@ -55,7 +55,7 @@
     };
   });
   window.addEventListener('hashchange',()=>selectTab(location.hash.slice(1),false));
-  function openSearch(name){selectTab('search');$('query').value=name;$('search-tag').value='all';search();$('query').focus();}
+  function openSearch(name){selectTab('search');$('query').value=name;$('search-tag').value='all';$('search-platform').value='all';search();$('query').focus();}
   function prepareMedia(){
     if(mediaIndex)return;
     mediaIndex=new Map();

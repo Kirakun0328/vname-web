@@ -49,7 +49,37 @@ def youtube_id(url):
     match = re.fullmatch(r'/channel/(UC[\w-]{22})/?', parsed.path)
     return match[1] if match else None
 
-def merge_aivtubers(base, previous, characters, vdb):
+def resolve_channels(characters, fetch, limit=30):
+    from channel_sources import youtube_profile
+    from platform_sources import canonical_account
+    path = Path(__file__).with_name('aivnav_channels.json')
+    resolved = json.loads(path.read_text()) if path.exists() else {}
+    targets = []
+    retry_before = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+    for c in characters:
+        account = canonical_account(c.get('youtube_url'))
+        cached = resolved.get(c['id'], {})
+        complete = cached.get('youtube_url') == c.get('youtube_url') and re.fullmatch(r'UC[\w-]{22}', cached.get('channel_id', ''))
+        if (account and account['platform'] == 'youtube' and account['id'].startswith('@')
+                and not complete and cached.get('checked_at', '') < retry_before):
+            targets.append((c, account))
+    targets.sort(key=lambda pair: resolved.get(pair[0]['id'], {}).get('checked_at', ''))
+    def get(pair):
+        c, account = pair
+        try:
+            profile = youtube_profile(fetch(account['url']), account['id'])
+            return c['id'], {'youtube_url': c['youtube_url'], 'channel_id': profile['channel_id'],
+                             'channel_title': profile['name'], 'verified_url': account['url'], 'checked_at': datetime.date.today().isoformat()}
+        except (OSError, ValueError, KeyError, TypeError):
+            return c['id'], {'youtube_url': c['youtube_url'], 'checked_at': datetime.date.today().isoformat()}
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        for result in pool.map(get, targets[:limit]):
+            if result:
+                resolved[result[0]] = result[1]
+    return resolved
+
+
+def merge_aivtubers(base, previous, characters, vdb, resolved=None):
     from platform_sources import canonical_account, record_accounts
     merged = {r['source_id']: dict(r) for r in base}
     extra = {r['source_id']: dict(r) for r in previous}
@@ -66,14 +96,15 @@ def merge_aivtubers(base, previous, characters, vdb):
                 if account.get('platform') == 'youtube' and account.get('type') == 'official':
                     channels.setdefault(account['id'], set()).add(r['uuid'])
     mapping_file = Path(__file__).with_name('aivnav_channels.json')
-    resolved = json.loads(mapping_file.read_text()) if mapping_file.exists() else {}
+    if resolved is None:
+        resolved = json.loads(mapping_file.read_text()) if mapping_file.exists() else {}
     added = tagged = 0
     for character in characters:
         name = character['name'].strip()
         description = (character.get('description') or '') + '\n' + (character.get('profile') or '')
         if preparing(name):
             continue
-        activity = bool(re.search(r'活動中|活動してい|配信中|配信してい|配信を行|配信しています|投稿してい|投稿しています|配信を投稿|streaming|streams on', description, re.I))
+        activity = bool(re.search(r'活動中|活動してい|配信中|配信してい|配信を行|配信しています|投稿してい|投稿しています|配信を投稿|streaming|streams on|活動停止中|活動の他にリアル出展|配信をしてい|放送され', description, re.I))
         cid = youtube_id(character.get('youtube_url'))
         known_channel = resolved.get(character['id'], {})
         if not cid and known_channel.get('youtube_url') == character.get('youtube_url') and re.fullmatch(r'UC[\w-]{22}', known_channel.get('channel_id','')):
@@ -111,6 +142,11 @@ def merge_aivtubers(base, previous, characters, vdb):
             old = merged[sid]
             patch = extra.setdefault(sid, {'source_id': sid})
             patch.update(category='AIVTuber', category_source=source)
+            website = character.get('website_url')
+            if isinstance(website, str):
+                parsed_site = urlparse(website)
+                if parsed_site.scheme in ('http', 'https') and parsed_site.hostname and not parsed_site.username and not parsed_site.password:
+                    patch.update(official_website=website, official_website_source=source)
             linked = [a for field in ('youtube_url','twitter_url','website_url')
                       if (a:=canonical_account(character.get(field)))]
             if cid:

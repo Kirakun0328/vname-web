@@ -2,22 +2,22 @@
   "char-mgW5Z3FQ5yBd": {
     "youtube_url": "https://youtube.com/@neurosama?si=TA5Hw3J0xhwYh-yj",
     "channel_id": "UCLHmLrj4pHHg3-iBJn_CqxA",
-    "verification_source": "https://youtube.com/@neurosama"
+    "checked_at": "2026-09-07"
   },
   "char-8amIpTNmM8Pf": {
     "youtube_url": "https://www.youtube.com/@tsumuginench",
     "channel_id": "UCz3MxafXlPxGCJVpFLI7fGQ",
-    "verification_source": "https://youtube.com/@tsumuginench"
+    "checked_at": "2026-09-07"
   },
   "char-YNr70udavJg5": {
     "youtube_url": "https://www.youtube.com/@iramiYT",
     "channel_id": "UCg6UFIhlfoITa1KzGXQeN8g",
-    "verification_source": "https://youtube.com/@iramiyt"
+    "checked_at": "2026-09-07"
   },
   "char-ICRm88HF3oON": {
     "youtube_url": "http://www.youtube.com/@LunaxOniiChan",
     "channel_id": "UCJ2Lj2HePDIKNJLtB3E8L9Q",
-    "verification_source": "https://youtube.com/@lunaxoniichan"
+    "checked_at": "2026-09-07"
   },
   "char-SweVjIjGPWbi": {
     "youtube_url": "https://www.youtube.com/@%E3%82%86%E3%81%8D2026",
@@ -27,131 +27,635 @@
   "char-Ta5Ze-v2qnru": {
     "youtube_url": "https://www.youtube.com/@AIVtuber_Shizuku",
     "channel_id": "UCE2SWbhR2WRHPBi-bflr0-g",
-    "verification_source": "https://youtube.com/@aivtuber_shizuku"
+    "checked_at": "2026-09-08",
+    "source": "https://www.youtube.com/@AIVtuber_Shizuku"
+  },
+  "char-vjJB2_H5GgSK": {
+    "youtube_url": "http://youtube.com/@ai_shirohana",
+    "channel_id": "UCjCt_qG80PHiVeReRI_QWEg",
+    "channel_title": "シロハナ",
+    "verified_url": "https://youtube.com/@ai_shirohana"
+  },
+  "char-yMp2BjrsrT-w": {
+    "youtube_url": "http://www.youtube.com/@sentakusound",
+    "channel_id": "UCFA_kMIhq3VpvnavOsBaKxw",
+    "channel_title": "カラフルスケッチ【AIVtuber】",
+    "verified_url": "https://youtube.com/@sentakusound"
+  },
+  "char-SCQ5DupB5PWJ": {
+    "youtube_url": "https://youtube.com/@imotoma?si=lNXOe1NfI0IKTvKT",
+    "channel_id": "UCTOvnuL0SWrRvjQp8-hyZCQ",
+    "channel_title": "【AI Vtuber】妹尾トマリ - Project TOMARI",
+    "verified_url": "https://youtube.com/@imotoma"
   },
   "char-pcvRF-v-o2SY": {
     "youtube_url": "http://www.youtube.com/@lena-ai",
     "channel_id": "UCFAkY6WcUW_8LxiF57DxQmg",
-    "verification_source": "https://youtube.com/@lena-ai"
+    "channel_title": "永藍レナ / Lena AI",
+    "verified_url": "https://youtube.com/@lena-ai"
+  },
+  "char-6TxIUciflwU9": {
+    "youtube_url": "http://www.youtube.com/@kokonoe_rinka",
+    "channel_id": "UCmevu3Zr_kJSF-5PnxtzrTA",
+    "channel_title": "九重リンカ / Kokonoe Rinka Ch.【AI VTuber】",
+    "verified_url": "https://youtube.com/@kokonoe_rinka"
   },
   "char-93wO5xlHORS5": {
     "youtube_url": "http://www.youtube.com/@Aruma_aicast",
     "channel_id": "UCjk4gSWsiTGdfHbSDCq24cg",
-    "verification_source": "https://youtube.com/@Aruma_aicast"
+    "channel_title": "月夜野 アルマ / Tsukiyono Aruma【AI CAST】",
+    "verified_url": "https://youtube.com/@Aruma_aicast"
+  },
+  "char-LKaSETTf8XAP": {
+    "youtube_url": "https://youtube.com/@soyogi-fractal?si=FcwZfer8JcL01vNP",
+    "channel_id": "UC9Ld9WwmP7598f4jRWATdFg",
+    "channel_title": "【梵そよぎ】そよぎフラクタル公式【梶裕貴 音声AIプロジェクト】",
+    "verified_url": "https://youtube.com/@soyogi-fractal"
+  },
+  "char-UYJWuHiMIVAh": {
+    "youtube_url": "http://www.youtube.com/@OzChat",
+    "channel_id": "UCkjKZCY222lrw4p1F-yI-ig",
+    "channel_title": "オズチャット -Oz Chat-【公式】",
+    "verified_url": "https://youtube.com/@OzChat"
+  },
+  "char-0N7gnsuEP9n6": {
+    "youtube_url": "http://www.youtube.com/@Hoshimeguri-Kotoha",
+    "channel_id": "UCrUC-4-I_Ofd5HQpC95JvYA",
+    "channel_title": "星巡ことは&かなで🌌📖AIVtuber",
+    "verified_url": "https://youtube.com/@Hoshimeguri-Kotoha"
+  },
+  "char-GZEGcJ0zXORI": {
+    "youtube_url": "https://youtube.com/@yumeminana?si=l39Q5A-NPnMTcqGG",
+    "channel_id": "UC-ehVkeJgpuw3cQ6yTGP37Q",
+    "channel_title": "Nana Ch.ゆめみなな",
+    "verified_url": "https://youtube.com/@yumeminana"
+  },
+  "char-6D-aCxbj0awJ": {
+    "youtube_url": "http://www.youtube.com/@hoshinosutera",
+    "channel_id": "UCDh_Ulz4UJnaxgKkpvckeyA",
+    "channel_title": "星乃ステラ@毎日07時と22時配信で会えるAIVTuber",
+    "verified_url": "https://youtube.com/@hoshinosutera"
+  },
+  "char-gJ9ZRT0YLPd2": {
+    "youtube_url": "http://www.youtube.com/@ug-isv",
+    "channel_id": "UCkf8Vb3GFOUwBxyJkNX1y6Q",
+    "channel_title": "たぬプロ┊︎競艇ch",
+    "verified_url": "https://youtube.com/@ug-isv"
   },
   "char-zZcVtsaowszj": {
     "youtube_url": "https://www.youtube.com/@aituber-qe8vw",
     "channel_id": "UCqzoj2O48J-prKfIA7WhnCQ",
-    "verification_source": "https://youtube.com/@aituber-qe8vw"
+    "channel_title": "AITuberちえり",
+    "verified_url": "https://youtube.com/@aituber-qe8vw"
+  },
+  "char-62idX47bkU9E": {
+    "youtube_url": "http://www.youtube.com/@CelestiaShadowheart",
+    "channel_id": "UCCS42yKHeXXgYlkoemN-aSw",
+    "channel_title": "セレスティアのAIゆるラボ",
+    "verified_url": "https://youtube.com/@CelestiaShadowheart"
+  },
+  "char-d2dm4LVCd0Xq": {
+    "youtube_url": "http://www.youtube.com/@Ubichan.Ubitus",
+    "channel_id": "UC8ldmN1z2EW_LnHFsJvlDsg",
+    "channel_title": "ユビちゃん Ch.Ubitus",
+    "verified_url": "https://youtube.com/@Ubichan.Ubitus"
+  },
+  "char-DAsHtGk7EWY9": {
+    "youtube_url": "http://www.youtube.com/@Raira_aicast",
+    "channel_id": "UCdWz5A1UMlaQxizlmR75khg",
+    "channel_title": "朝日奈 ライラ / Asahina Raira【AI CAST】",
+    "verified_url": "https://youtube.com/@Raira_aicast"
+  },
+  "char-hwSTu0HoYXMp": {
+    "youtube_url": "http://www.youtube.com/@ms_rinna",
+    "channel_id": "UCmhN9JRR9fcFzxgjnW3VDpw",
+    "channel_title": "りんなちゃんねる【AITuber】",
+    "verified_url": "https://youtube.com/@ms_rinna"
+  },
+  "char-3yX2dRpvm0Zr": {
+    "youtube_url": "http://www.youtube.com/@U2AI_Uni_x_Umi",
+    "channel_id": "UC8QHJFKrbXwNG4HMTOzNAXA",
+    "channel_title": "愛音ゆにx天音うみ@AIVTuber",
+    "verified_url": "https://youtube.com/@U2AI_Uni_x_Umi"
+  },
+  "char--QoL5MvSXIH0": {
+    "youtube_url": "https://www.youtube.com/@azailuhca",
+    "channel_id": "UCGRXv4ZRRqUTPg0eASMd9hA",
+    "channel_title": "あざい るぅか🔁AIVtuberをアジャイル開発で育成",
+    "verified_url": "https://youtube.com/@azailuhca"
+  },
+  "char-GktGTI1XjrBO": {
+    "youtube_url": "http://www.youtube.com/@ishitohoshi",
+    "channel_id": "UC6xVSCTija4vOsEjU1-Mk_A",
+    "channel_title": "いしとほしプロジェクト【公式】",
+    "verified_url": "https://youtube.com/@ishitohoshi"
+  },
+  "char-DO7weogMczZQ": {
+    "youtube_url": "http://www.youtube.com/@autointellimode",
+    "channel_id": "UCIeiJQd32Ho51wI-4R194IA",
+    "channel_title": "AiRT🎥生成AI動画を創る人",
+    "verified_url": "https://youtube.com/@autointellimode"
+  },
+  "char-3wKClgvBqQj-": {
+    "youtube_url": "https://youtube.com/@nikechan?si=QZb77jGFJbgdTnIn",
+    "channel_id": "UCj94TVhN0op8xZX9r-sTvSA",
+    "channel_title": "ニケちゃん",
+    "verified_url": "https://youtube.com/@nikechan"
+  },
+  "char-Fsjs4j3VDc_f": {
+    "youtube_url": "http://www.youtube.com/@AiMain_aicast",
+    "channel_id": "UCz5f-RwpzEPSB2FNqeiPaRg",
+    "channel_title": "魔法少女アイマイン【AI CAST】",
+    "verified_url": "https://youtube.com/@AiMain_aicast"
+  },
+  "char-cWwNrLrGerjb": {
+    "youtube_url": "http://www.youtube.com/@kazuya_bros",
+    "channel_id": "UCoXTRja1-6lCpgYc1SffmqA",
+    "channel_title": "カズヤ弟ゲームCH",
+    "verified_url": "https://youtube.com/@kazuya_bros"
   },
   "char-1i-QXEz5UcI1": {
     "youtube_url": "https://www.youtube.com/@nyavatar",
     "channel_id": "UCxDFZznQPhFnW7HempQKQfQ",
-    "verification_source": "https://youtube.com/@nyavatar"
+    "channel_title": "NYAVATAR | AI VTuber",
+    "verified_url": "https://youtube.com/@nyavatar"
+  },
+  "char-DGFbTBIojEQv": {
+    "youtube_url": "http://www.youtube.com/@ailice33",
+    "channel_id": "UCXeAKqzxClXGfki1cDWQPbw",
+    "channel_title": "Ailice33",
+    "verified_url": "https://youtube.com/@ailice33"
+  },
+  "char-s7OZlFrp1smY": {
+    "youtube_url": "http://www.youtube.com/@Amano_Akemi_AI",
+    "channel_id": "UCTpG6O2scvJ9z90KXwhUyOA",
+    "channel_title": "AI Vtuber 天野朱美",
+    "verified_url": "https://youtube.com/@Amano_Akemi_AI"
+  },
+  "char-ay6q3TQKMEf3": {
+    "youtube_url": "https://www.youtube.com/@hayakawasichimi",
+    "channel_id": "UC5e1uGFFZZ4xelcHUuXXUJg",
+    "channel_title": "ハヤカワマルチバース",
+    "verified_url": "https://youtube.com/@hayakawasichimi"
+  },
+  "char-vPi5uXQ3VGQW": {
+    "youtube_url": "http://www.youtube.com/@AITuber%E8%8A%BD%E5%90%B9%E3%81%AA%E3%81%AE%E3%81%AF",
+    "channel_id": "UCr2s0yPB7oXywvmSg-jnYDQ",
+    "channel_title": "AITuber芽吹なのは🌱",
+    "verified_url": "https://youtube.com/@AITuber%E8%8A%BD%E5%90%B9%E3%81%AA%E3%81%AE%E3%81%AF"
+  },
+  "char-bFtwWwcBCSAC": {
+    "youtube_url": "http://www.youtube.com/@GoRoundGame",
+    "channel_id": "UCr7VSye4WqUhgtsglSUKB9g",
+    "channel_title": "ごらんげ / 実況AI",
+    "verified_url": "https://youtube.com/@GoRoundGame"
+  },
+  "char-oLTVVWgN8uix": {
+    "youtube_url": "http://www.youtube.com/@HakaseLabs",
+    "channel_id": "UCxyEJ2PblLJDPxOkN_6ALLw",
+    "channel_title": "ハカセのAI研究開発室",
+    "verified_url": "https://youtube.com/@HakaseLabs"
+  },
+  "char-e-NXXhlWxzMe": {
+    "youtube_url": "http://www.youtube.com/@peachy_bgm",
+    "channel_id": "UCZBJfC9PD-hXOBumwiwb56A",
+    "channel_title": "音ノ瀬もも AISinger / Peachy BGM",
+    "verified_url": "https://youtube.com/@peachy_bgm"
   },
   "char-W6CoqaGMVhjA": {
     "youtube_url": "https://www.youtube.com/@kuboavatar",
     "channel_id": "UCu7gX0rSlXln9UZEJ2OWJXw",
-    "verification_source": "https://youtube.com/@kuboavatar"
+    "channel_title": "くぼあばた",
+    "verified_url": "https://youtube.com/@kuboavatar"
+  },
+  "char-pdqRsLY3g7KK": {
+    "youtube_url": "https://www.youtube.com/@ima_live",
+    "channel_id": "UCSHXPmFvDM32bLm0OgHblsA",
+    "channel_title": "Ima-chan / AI VTuber",
+    "verified_url": "https://youtube.com/@ima_live"
+  },
+  "char-FH28dTg_NeUG": {
+    "youtube_url": "https://www.youtube.com/@vtuber_tsukushi",
+    "channel_id": "UCr4W_EIxygSLONFWOCXSmtw",
+    "channel_title": "つくし",
+    "verified_url": "https://youtube.com/@vtuber_tsukushi"
+  },
+  "char-g5rPxUdp_E2B": {
+    "youtube_url": "http://www.youtube.com/@emma81152",
+    "channel_id": "UCOnKPrciK32rEp_6uNDsrYQ",
+    "channel_title": "青見エマ / Emma Aomi",
+    "verified_url": "https://youtube.com/@emma81152"
   },
   "char-xDOTP-Yd5IDR": {
     "youtube_url": "https://www.youtube.com/@AITuberKiritan",
     "channel_id": "UCtLdeWoetCsIY9lVmQlupPg",
-    "verification_source": "https://youtube.com/@AITuberKiritan"
+    "channel_title": "AITuber きりたん / AITuber Kiritan",
+    "verified_url": "https://youtube.com/@AITuberKiritan"
+  },
+  "char-_b4flg2NMVZY": {
+    "youtube_url": "https://youtube.com/@aivtuberch?si=GjcDQJ6ijBFPAZLV",
+    "channel_id": "UCe8cp90CnqzEsMpwzkRHtjg",
+    "channel_title": "AIひより日和 / AI Hiyori Biyori【AI Vtuber】",
+    "verified_url": "https://youtube.com/@aivtuberch"
+  },
+  "char-WQZD2fRDorLJ": {
+    "youtube_url": "https://www.youtube.com/@ai_manu",
+    "channel_id": "UCl4ThcrKvVKl6Q_1FXm7d5g",
+    "channel_title": "まぬ / MANU_AI 【VTuber】",
+    "verified_url": "https://youtube.com/@ai_manu"
+  },
+  "char-nXPZWjsZnprn": {
+    "youtube_url": "http://www.youtube.com/@clayman173",
+    "channel_id": "UCUkM2T5mSSqwoTzKB72V9ng",
+    "channel_title": "クレイマンの人工VTuber開発室",
+    "verified_url": "https://youtube.com/@clayman173"
   },
   "char-4VnjyZLcNzR7": {
     "youtube_url": "http://www.youtube.com/@ririkasakurai",
     "channel_id": "UCDdPW0c5lCgChhjgylaTAew",
-    "verification_source": "https://youtube.com/@ririkasakurai"
+    "channel_title": "桜井 りりか🌸AITuber / AI Vtuber",
+    "verified_url": "https://youtube.com/@ririkasakurai"
   },
   "char-jqGxyfBXlKa6": {
     "youtube_url": "https://www.youtube.com/@asmr_yu_reika",
     "channel_id": "UCwEaAY8hjV69SFy6yDFhwqQ",
-    "verification_source": "https://youtube.com/@asmr_yu_reika"
+    "channel_title": "霊花ユウ Yu Reika【ASMR AI VTuber】",
+    "verified_url": "https://youtube.com/@asmr_yu_reika"
+  },
+  "char-CuciRKI1K7LC": {
+    "youtube_url": "https://youtube.com/@feuera1225?si=gY55cxVtEzgb3YHQ",
+    "channel_id": "UCqMcBaq09JgxMj29J7EQJkQ",
+    "channel_title": "Feuera フェウエラ AI VTuber",
+    "verified_url": "https://youtube.com/@feuera1225"
+  },
+  "char-YStB12ssXqC7": {
+    "youtube_url": "https://www.youtube.com/@Holocy",
+    "channel_id": "UC0aZYpAOzEBWgwkC2UPe7uA",
+    "channel_title": "ホロシー@あなたのAIフレンド",
+    "verified_url": "https://youtube.com/@Holocy"
+  },
+  "char-Wzpg8NIGTQfv": {
+    "youtube_url": "http://www.youtube.com/@ai_vtuber_tuna",
+    "channel_id": "UC5QCYbWmHNOCH7gnBtYZKlA",
+    "channel_title": "ツナ@猫型AIVtuber",
+    "verified_url": "https://youtube.com/@ai_vtuber_tuna"
+  },
+  "char-XYgh0C9MFqeZ": {
+    "youtube_url": "http://www.youtube.com/@AI%E3%81%9A%E3%82%93%E3%81%A0",
+    "channel_id": "UCpgesP-Gf6O07bJGaL-c2Bg",
+    "channel_title": "AIずんだもん",
+    "verified_url": "https://youtube.com/@AI%E3%81%9A%E3%82%93%E3%81%A0"
+  },
+  "char-6WLVjvwqDyhF": {
+    "youtube_url": "http://www.youtube.com/@DAJI-AIMusic",
+    "channel_id": "UCyguCqb-7lMiTEyB4d2-5Sw",
+    "channel_title": "DAJI - AI Music Channel",
+    "verified_url": "https://youtube.com/@DAJI-AIMusic"
+  },
+  "char-a9HoxZaOt62U": {
+    "youtube_url": "https://youtube.com/@kafyaituber?si=MvW-1wIYjjBJZc3w",
+    "channel_id": "UC-dYhUY97DzWdFdipjBrfxQ",
+    "channel_title": "kafy【AItuber】",
+    "verified_url": "https://youtube.com/@kafyaituber"
+  },
+  "char-rg5cb7v1jwsw": {
+    "youtube_url": "http://www.youtube.com/@aoi-nagisa",
+    "channel_id": "UCaIWQKH_kh2DR8laP-bfkOw",
+    "channel_title": "碧井なぎさ 【AI VTuber / AITuber】",
+    "verified_url": "https://youtube.com/@aoi-nagisa"
+  },
+  "char-NRGlBhtjWSmN": {
+    "youtube_url": "http://www.youtube.com/@Nao_aicast",
+    "channel_id": "UC813uO7STkTBSQ52z8sT6Bw",
+    "channel_title": "早見菜央 / Hayami Nao【AI CAST】",
+    "verified_url": "https://youtube.com/@Nao_aicast"
+  },
+  "char-_Xf9J6FQCKVf": {
+    "youtube_url": "http://www.youtube.com/@jun_sans",
+    "channel_id": "UCs7vEv9ts8FJEamUkNB27xw",
+    "channel_title": "ジュンさん と AI VTuber 初祈コトハ【Re:ワイプから始める @hatukikotoha】",
+    "verified_url": "https://youtube.com/@jun_sans"
+  },
+  "char-E90NR98nI5-M": {
+    "youtube_url": "https://youtube.com/@spica_machina_ai?si=XA3gTK20Mtt1wOtg",
+    "channel_id": "UCe5wQJQ1XvR7t9CCqSg7hpQ",
+    "channel_title": "スピカ マキナ【AI Tuber】Spica Machina",
+    "verified_url": "https://youtube.com/@spica_machina_ai"
+  },
+  "char-Pi6Dc_DALTul": {
+    "youtube_url": "http://www.youtube.com/@KANIchahaan",
+    "channel_id": "UCK8WR6-QTwFc23CLwNErBtA",
+    "channel_title": "かにチャハーン",
+    "verified_url": "https://youtube.com/@KANIchahaan"
+  },
+  "char-UDDq893cvc_B": {
+    "youtube_url": "http://www.youtube.com/@Aiel_mydear",
+    "channel_id": "UCDscccGtx2Dp8kpOTkLx5jw",
+    "channel_title": "アイエル・シアーホワイト / Aiel Sheerwhite",
+    "verified_url": "https://youtube.com/@Aiel_mydear"
+  },
+  "char-ahUkB5NQulwd": {
+    "youtube_url": "http://www.youtube.com/@%E3%81%BF%E3%82%93%E3%81%A1%E3%82%83vlog",
+    "channel_id": "UCkES5UihrmiALXV0XSGiaRA",
+    "channel_title": "みんちゃvlogとAIみずき",
+    "verified_url": "https://youtube.com/@%E3%81%BF%E3%82%93%E3%81%A1%E3%82%83vlog"
+  },
+  "char-T-AcHAf4Rw1e": {
+    "youtube_url": "https://youtube.com/@sns-university?si=QJH5_QZqYpc35yy0",
+    "channel_id": "UCH04nYPQZmtWIt9LXC1gt8A",
+    "channel_title": "AI活(アイカツ)",
+    "verified_url": "https://youtube.com/@sns-university"
+  },
+  "char-UFPPeUA9r9BX": {
+    "youtube_url": "http://www.youtube.com/@FonemaAITuber",
+    "channel_id": "UCMcavLsn-FQvdiYL87QGqtw",
+    "channel_title": "Fonema Ch. (Esperanto AITuber)",
+    "verified_url": "https://youtube.com/@FonemaAITuber"
+  },
+  "char-jwvobEVQdFNR": {
+    "youtube_url": "http://www.youtube.com/@SALCH9000",
+    "channel_id": "UCdf-y5TsPjROvqrD0qMI2AA",
+    "channel_title": "【AIVTuber】さりー",
+    "verified_url": "https://youtube.com/@SALCH9000"
+  },
+  "char-Unf5AkmTLcGR": {
+    "youtube_url": "http://www.youtube.com/@YoruhaMirei",
+    "channel_id": "UCD1x-ORymm-TUM-_QVIiJ1w",
+    "channel_title": "夜羽 魅零【怪談系AITuber】",
+    "verified_url": "https://youtube.com/@YoruhaMirei"
+  },
+  "char-F-UO--3xazIn": {
+    "youtube_url": "https://www.youtube.com/@aituber_mare",
+    "channel_id": "UC386FOURTd9FoeH4ZJEE2AQ",
+    "channel_title": "司書型AIマレ📙",
+    "verified_url": "https://youtube.com/@aituber_mare"
+  },
+  "char-UhIDv9nQ6Cen": {
+    "youtube_url": "http://www.youtube.com/@currnya",
+    "channel_id": "UCXhuL2gftSw-2k2_9uh7tXA",
+    "channel_title": "星猫くるる",
+    "verified_url": "https://youtube.com/@currnya"
+  },
+  "char-Ma8KkK7FrARA": {
+    "youtube_url": "http://www.youtube.com/@Kenzo-AI",
+    "channel_id": "UCJ2gKiiE1tPhMj8GpooQIVg",
+    "channel_title": "渋井丸犬蔵 / AITuber",
+    "verified_url": "https://youtube.com/@Kenzo-AI"
+  },
+  "char-cHwOc4lCfhPW": {
+    "youtube_url": "http://www.youtube.com/@AITuber_AutoMachi",
+    "channel_id": "UCmB7YfWMsSoihxNCNywuTUA",
+    "channel_title": "王都マチ / Auto Machi 【AITuber】🐱",
+    "verified_url": "https://youtube.com/@AITuber_AutoMachi"
+  },
+  "char-JnA2Gw4BmzbR": {
+    "youtube_url": "http://www.youtube.com/@%E7%99%BD%E5%92%B2%E3%81%93%E3%81%93%E3%82%8D",
+    "channel_id": "UCo75chPXJXlCGQlIbHwSIjg",
+    "channel_title": "白咲こころ / 556ch.【AISTAGE】",
+    "verified_url": "https://youtube.com/@%E7%99%BD%E5%92%B2%E3%81%93%E3%81%93%E3%82%8D"
+  },
+  "char--NeYEJhlUDA7": {
+    "youtube_url": "http://www.youtube.com/@kokuren2828",
+    "channel_id": "UCVhioHIMTR2mH7cWeHiOzsA",
+    "channel_title": "電脳天使工業",
+    "verified_url": "https://youtube.com/@kokuren2828"
+  },
+  "char-M86xArHcib23": {
+    "youtube_url": "https://youtube.com/@queryreluch?si=z3jGLHQgkYm3uRC9",
+    "channel_id": "UCtLkGeMewUtdziQ36iYgtrA",
+    "channel_title": "Query Relu Ch. クエリ・レル",
+    "verified_url": "https://youtube.com/@queryreluch"
+  },
+  "char-bOncnyP8ly_o": {
+    "youtube_url": "http://www.youtube.com/@hazakailrea",
+    "channel_id": "UCDAa-mwa3qTHXTQrVmi27UQ",
+    "channel_title": "端境ルリア",
+    "verified_url": "https://youtube.com/@hazakailrea"
+  },
+  "char-WIzBE_6WumFL": {
+    "youtube_url": "http://www.youtube.com/@AItuber-UI",
+    "channel_id": "UCOKuRXwTniuTqLaaro-8Ueg",
+    "channel_title": "【AItuber】有為ちゃん",
+    "verified_url": "https://youtube.com/@AItuber-UI"
+  },
+  "char-9iW-QzlunGzR": {
+    "youtube_url": "http://www.youtube.com/@%E3%83%A1%E3%82%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B-u6v",
+    "channel_id": "UCvcBiZpb_wj_2O1thdI-Okg",
+    "channel_title": "メイちゃんねる",
+    "verified_url": "https://youtube.com/@%E3%83%A1%E3%82%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B-u6v"
+  },
+  "char-5ArdotKL05J7": {
+    "youtube_url": "http://www.youtube.com/@MitsueMiko_AITuber",
+    "channel_id": "UCZvXiHxvaCG7PcmRGpnP-WQ",
+    "channel_title": "御杖みこ / Mitsue Miko【AI Tuber】",
+    "verified_url": "https://youtube.com/@MitsueMiko_AITuber"
+  },
+  "char-Q7lWtsy0jL0X": {
+    "youtube_url": "http://www.youtube.com/@aivtuber1878",
+    "channel_id": "UCsoouB2ZAK7vxIKgchcTVKw",
+    "channel_title": "キュートウェア / AITuber",
+    "verified_url": "https://youtube.com/@aivtuber1878"
+  },
+  "char-bnnMfSdCeX3G": {
+    "youtube_url": "http://www.youtube.com/@shigeo1111",
+    "channel_id": "UCIqi3icVCgZKWkLRr69VYkg",
+    "channel_title": "「AI-Vtuberしげおくん」公式ページ",
+    "verified_url": "https://youtube.com/@shigeo1111"
+  },
+  "char-s3buoElf5qne": {
+    "youtube_url": "http://www.youtube.com/@sakurasan_ai",
+    "channel_id": "UClGAD6rQnYucY57OmPqxXbA",
+    "channel_title": "AIさくらさんちゃんねる",
+    "verified_url": "https://youtube.com/@sakurasan_ai"
+  },
+  "char-vLV_Axvl3ndK": {
+    "youtube_url": "http://www.youtube.com/@AItubersatou0403",
+    "channel_id": "UCnK1HrmXXZFsITIvYFOn3-A",
+    "channel_title": "AITuber佐藤シオリ",
+    "verified_url": "https://youtube.com/@AItubersatou0403"
+  },
+  "char-r6KcEHG0FR6P": {
+    "youtube_url": "http://www.youtube.com/@crimaituber",
+    "channel_id": "UCxgHiiDndVVjUrNKoG904kA",
+    "channel_title": "Crim Channel クリム【AITuber】",
+    "verified_url": "https://youtube.com/@crimaituber"
+  },
+  "char-G9Age6FgWNqK": {
+    "youtube_url": "http://www.youtube.com/@AIsakura_baby",
+    "channel_id": "UCKbLb12jp8T2SRGjxRUPXrg",
+    "channel_title": "Aituber sakura さくらちゃんねる",
+    "verified_url": "https://youtube.com/@AIsakura_baby"
+  },
+  "char-buJFEldPZoH4": {
+    "youtube_url": "http://www.youtube.com/@Vanco_AItuber",
+    "channel_id": "UChxi_qKXokwi6L_wUJlApAQ",
+    "channel_title": "ヴァン子_AItuber",
+    "verified_url": "https://youtube.com/@Vanco_AItuber"
+  },
+  "char-2nvJ035PIC5i": {
+    "youtube_url": "http://www.youtube.com/@lacie_ai",
+    "channel_id": "UCVcT_ibbPwk1UUxxsIscmwg",
+    "channel_title": "レイシー",
+    "verified_url": "https://youtube.com/@lacie_ai"
+  },
+  "char-yAd2nlNwTslm": {
+    "youtube_url": "http://www.youtube.com/@Ai_sane",
+    "channel_id": "UClwgDpyc4B35OHxVYzvqmvw",
+    "channel_title": "静葉さね 【AI Tuber】",
+    "verified_url": "https://youtube.com/@Ai_sane"
+  },
+  "char-aD7SIpggKAlP": {
+    "youtube_url": "http://www.youtube.com/@BlendAIjp",
+    "channel_id": "UCkhn6c1tq-Ls2eLvcR4iwzg",
+    "channel_title": "BlendAI",
+    "verified_url": "https://youtube.com/@BlendAIjp"
+  },
+  "char-BtJAh1kjlCmf": {
+    "youtube_url": "http://www.youtube.com/@koduki",
+    "channel_id": "UC25jWtoLv0erx4WAidUqXgQ",
+    "channel_title": "紅月(koduki) / テックポエムCh",
+    "verified_url": "https://youtube.com/@koduki"
+  },
+  "char-bPSkgcrb1Xam": {
+    "youtube_url": "http://www.youtube.com/@AI_know",
+    "channel_id": "UChJHqFOMDUGKQP6r57Jz0dw",
+    "channel_title": "known",
+    "verified_url": "https://youtube.com/@AI_know"
+  },
+  "char-AXiWT5Dnsukk": {
+    "youtube_url": "http://www.youtube.com/@Sasakaze_Rin",
+    "channel_id": "UCtenGaeWtiGyzXWS3WdEEBg",
+    "channel_title": "笹風リン - Sasakaze Rin -",
+    "verified_url": "https://youtube.com/@Sasakaze_Rin"
+  },
+  "char-EtK0OyMNGoNT": {
+    "youtube_url": "http://www.youtube.com/@safa-game",
+    "channel_id": "UC67WcMqbfg1-XUPaqOiHHKw",
+    "channel_title": "サファのゲームチャンネル (AITuber配信)",
+    "verified_url": "https://youtube.com/@safa-game"
+  },
+  "char-daNnfx0bTheB": {
+    "youtube_url": "http://www.youtube.com/@saibarimu",
+    "channel_id": "UC2HHStvjmCvpq3sQcJgnY9Q",
+    "channel_title": "才羽リム Saiba Rimu",
+    "verified_url": "https://youtube.com/@saibarimu"
+  },
+  "char-Ncbz7GE2RXDz": {
+    "youtube_url": "http://www.youtube.com/@HanagusateiRiko",
+    "channel_id": "UCqqHccttLGSDWbI-Bb6tG3Q",
+    "channel_title": "花草亭りこのお笑いチャンネル🎤 / AITuber",
+    "verified_url": "https://youtube.com/@HanagusateiRiko"
+  },
+  "char-xF4j5Gh5WxUR": {
+    "youtube_url": "http://www.youtube.com/@AITuberTV",
+    "channel_id": "UCq2-AHDVWVULN3DT7Nsr-dw",
+    "channel_title": "AITuberTV",
+    "verified_url": "https://youtube.com/@AITuberTV"
+  },
+  "char-msyWzq0VwNOA": {
+    "youtube_url": "http://www.youtube.com/@ElasticST",
+    "channel_id": "UC_S-d_6_qPGA4bnhI1pR4og",
+    "channel_title": "ElasticST",
+    "verified_url": "https://youtube.com/@ElasticST"
+  },
+  "char-xbUHOU5jSxtz": {
+    "youtube_url": "http://www.youtube.com/@ChrisTakakura",
+    "channel_id": "UCoQx2aBb_pVXSHuiVkXOAfw",
+    "channel_title": "Chris ch. 高倉クリス_AITuber",
+    "verified_url": "https://youtube.com/@ChrisTakakura"
+  },
+  "char-GOF-cr0DkEc-": {
+    "youtube_url": "http://www.youtube.com/@code385-miyako",
+    "channel_id": "UCKkLHWhU72jPF5jUnMjEA5A",
+    "channel_title": "Code.385 Miyako",
+    "verified_url": "https://youtube.com/@code385-miyako"
+  },
+  "char-sOEdpjciep-T": {
+    "youtube_url": "http://www.youtube.com/@LTChan_AI",
+    "channel_id": "UCNeeXHdpEcwZuhDeqT-K1bg",
+    "channel_title": "LTちゃん - AItuber",
+    "verified_url": "https://youtube.com/@LTChan_AI"
+  },
+  "char-gvKqQ_82MWB0": {
+    "youtube_url": "http://www.youtube.com/@AItuber-urara",
+    "channel_id": "UCah7X0lxjovjjHl-otmXzaw",
+    "channel_title": "水晶うらら🔮占星術師AItuber",
+    "verified_url": "https://youtube.com/@AItuber-urara"
+  },
+  "char-5eaH6zGBFgpf": {
+    "youtube_url": "http://www.youtube.com/@KamomeAshizawa_Ch",
+    "channel_id": "UC4o8D_oC37_Y-YMQZuAtplQ",
+    "channel_title": "葦沢かもめチャンネル",
+    "verified_url": "https://youtube.com/@KamomeAshizawa_Ch"
+  },
+  "char-0tg9XFZ5_s_O": {
+    "youtube_url": "http://www.youtube.com/@AI_Peroli",
+    "channel_id": "UCroWMj8zrPvwFMpec4EHFSA",
+    "channel_title": "ぺろり / 育成型AI Vtuber",
+    "verified_url": "https://youtube.com/@AI_Peroli"
+  },
+  "char-zN8Qn0WcLmDV": {
+    "youtube_url": "http://www.youtube.com/@kotohanakotone",
+    "channel_id": "UC0Igy54nED_xNVqDl6heqZw",
+    "channel_title": "言花ことね-KotohanaKotone-",
+    "verified_url": "https://youtube.com/@kotohanakotone"
+  },
+  "char-sIOpEitCNzbq": {
+    "youtube_url": "http://www.youtube.com/@Chikai-Mirai",
+    "channel_id": "UCr0_aM8upHQ7G7RWau_YD0g",
+    "channel_title": "”誓い未来” - Chikai Mirai - 【AI Vtuber】",
+    "verified_url": "https://youtube.com/@Chikai-Mirai"
+  },
+  "char-ZnjruyTrLSMy": {
+    "youtube_url": "http://www.youtube.com/@yumeno_laila",
+    "channel_id": "UCugEfXIoa7m5uOhGWAz_OAw",
+    "channel_title": "夢乃ライラ",
+    "verified_url": "https://youtube.com/@yumeno_laila"
+  },
+  "char-oclZdvbvf31I": {
+    "youtube_url": "http://www.youtube.com/@HakuyouYuina",
+    "channel_id": "UCt6Fn-i9hWyrwHwMYcUSTQA",
+    "channel_title": "Yuina Ch. 白耀結菜",
+    "verified_url": "https://youtube.com/@HakuyouYuina"
+  },
+  "char-y-J6tX-8Tlzv": {
+    "youtube_url": "http://www.youtube.com/@KuronoAine",
+    "channel_id": "UCmnpcYCw6F5fXGEGdNSPRcw",
+    "channel_title": "黒乃愛音.Ch【AITuber実験用】",
+    "verified_url": "https://youtube.com/@KuronoAine"
+  },
+  "char-UiDxW4w-Fthx": {
+    "youtube_url": "http://www.youtube.com/@hiroshima-limo",
+    "channel_id": "UCe9WIf91jpkLB3DNkMK6Zvg",
+    "channel_title": "りもこのリケジョと学ぶプログラミング!",
+    "verified_url": "https://youtube.com/@hiroshima-limo"
+  },
+  "char-3iNL_wrOn3DV": {
+    "youtube_url": "http://www.youtube.com/@Michikusa_Onsen",
+    "channel_id": "UCyztkSd5UKFlXbPXpHsADOA",
+    "channel_title": "架橋かなめ【AITuber】",
+    "verified_url": "https://youtube.com/@Michikusa_Onsen"
+  },
+  "char-o8NKkZ_haLyO": {
+    "youtube_url": "http://www.youtube.com/@sigsig01",
+    "channel_id": "UCIJ_SE0iKxkdO_rZ0neLbtA",
+    "channel_title": "しぐ",
+    "verified_url": "https://youtube.com/@sigsig01"
+  },
+  "char-NWaTA3MQGH4g": {
+    "youtube_url": "http://www.youtube.com/@aivtuber-droid",
+    "channel_id": "UC0DX04znk5AADLe99FPS1OQ",
+    "channel_title": "AI VTuber @人工知能同士が勝手に雑談配信",
+    "verified_url": "https://youtube.com/@aivtuber-droid"
   },
   "char-60OcWWEZJ2pL": {
     "youtube_url": "https://youtube.com/channel/UCUAI2yiwhi309kfRPZwKDfg?si=HuVoAOhGXIbm6VL6",
     "channel_id": "UCUAI2yiwhi309kfRPZwKDfg",
     "verification_source": "https://youtube.com/channel/UCUAI2yiwhi309kfRPZwKDfg"
   },
-  "char-XYgh0C9MFqeZ": {
-    "youtube_url": "http://www.youtube.com/@AI%E3%81%9A%E3%82%93%E3%81%A0",
-    "channel_id": "UCpgesP-Gf6O07bJGaL-c2Bg",
-    "verification_source": "https://youtube.com/@AI%E3%81%9A%E3%82%93%E3%81%A0"
-  },
-  "char-a9HoxZaOt62U": {
-    "youtube_url": "https://youtube.com/@kafyaituber?si=MvW-1wIYjjBJZc3w",
-    "channel_id": "UC-dYhUY97DzWdFdipjBrfxQ",
-    "verification_source": "https://youtube.com/@kafyaituber"
-  },
-  "char-rg5cb7v1jwsw": {
-    "youtube_url": "http://www.youtube.com/@aoi-nagisa",
-    "channel_id": "UCaIWQKH_kh2DR8laP-bfkOw",
-    "verification_source": "https://youtube.com/@aoi-nagisa"
-  },
-  "char-Unf5AkmTLcGR": {
-    "youtube_url": "http://www.youtube.com/@YoruhaMirei",
-    "channel_id": "UCD1x-ORymm-TUM-_QVIiJ1w",
-    "verification_source": "https://youtube.com/@YoruhaMirei"
-  },
-  "char-Ma8KkK7FrARA": {
-    "youtube_url": "http://www.youtube.com/@Kenzo-AI",
-    "channel_id": "UCJ2gKiiE1tPhMj8GpooQIVg",
-    "verification_source": "https://youtube.com/@Kenzo-AI"
-  },
-  "char-cHwOc4lCfhPW": {
-    "youtube_url": "http://www.youtube.com/@AITuber_AutoMachi",
-    "channel_id": "UCmB7YfWMsSoihxNCNywuTUA",
-    "verification_source": "https://youtube.com/@AITuber_AutoMachi"
-  },
-  "char-JnA2Gw4BmzbR": {
-    "youtube_url": "http://www.youtube.com/@%E7%99%BD%E5%92%B2%E3%81%93%E3%81%93%E3%82%8D",
-    "channel_id": "UCo75chPXJXlCGQlIbHwSIjg",
-    "verification_source": "https://youtube.com/@%E7%99%BD%E5%92%B2%E3%81%93%E3%81%93%E3%82%8D"
-  },
-  "char-WIzBE_6WumFL": {
-    "youtube_url": "http://www.youtube.com/@AItuber-UI",
-    "channel_id": "UCOKuRXwTniuTqLaaro-8Ueg",
-    "verification_source": "https://youtube.com/@AItuber-UI"
-  },
-  "char-5ArdotKL05J7": {
-    "youtube_url": "http://www.youtube.com/@MitsueMiko_AITuber",
-    "channel_id": "UCZvXiHxvaCG7PcmRGpnP-WQ",
-    "verification_source": "https://youtube.com/@MitsueMiko_AITuber"
-  },
-  "char-2nvJ035PIC5i": {
-    "youtube_url": "http://www.youtube.com/@lacie_ai",
-    "channel_id": "UCVcT_ibbPwk1UUxxsIscmwg",
-    "verification_source": "https://youtube.com/@lacie_ai"
-  },
-  "char-yAd2nlNwTslm": {
-    "youtube_url": "http://www.youtube.com/@Ai_sane",
-    "channel_id": "UClwgDpyc4B35OHxVYzvqmvw",
-    "verification_source": "https://youtube.com/@Ai_sane"
-  },
-  "char-GOF-cr0DkEc-": {
-    "youtube_url": "http://www.youtube.com/@code385-miyako",
-    "channel_id": "UCKkLHWhU72jPF5jUnMjEA5A",
-    "verification_source": "https://youtube.com/@code385-miyako"
-  },
-  "char-sOEdpjciep-T": {
-    "youtube_url": "http://www.youtube.com/@LTChan_AI",
-    "channel_id": "UCNeeXHdpEcwZuhDeqT-K1bg",
-    "verification_source": "https://youtube.com/@LTChan_AI"
-  },
   "char-14HAF7o3nQ7D": {
     "youtube_url": "http://www.youtube.com/@Katakuriko_coeur",
     "channel_id": "UCPtAJoK8ULwWSG3MfuplBmQ",
     "verification_source": "https://youtube.com/@Katakuriko_coeur"
-  },
-  "char-0tg9XFZ5_s_O": {
-    "youtube_url": "http://www.youtube.com/@AI_Peroli",
-    "channel_id": "UCroWMj8zrPvwFMpec4EHFSA",
-    "verification_source": "https://youtube.com/@AI_Peroli"
-  },
-  "char-y-J6tX-8Tlzv": {
-    "youtube_url": "http://www.youtube.com/@KuronoAine",
-    "channel_id": "UCmnpcYCw6F5fXGEGdNSPRcw",
-    "verification_source": "https://youtube.com/@KuronoAine"
   }
 }

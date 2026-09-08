@@ -7,7 +7,7 @@ Keep channel identity separate from character identity when enriching names.
 import datetime
 import json
 import re
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urljoin
 from update_dictionary import key
 from broad_sources import preparing
 from platform_sources import canonical_account, record_accounts
@@ -95,9 +95,6 @@ def rows_from(items, today=None):
                'activity_snapshot_at':max(published)[0], 'activity_content_url':max(published)[1],
                'platform_accounts':[a for a in accounts if a]}
         if channel: row['youtube_channel_id'] = cid
-        icon = item.get('imageUrl') or ''
-        if urlsplit(icon).scheme == 'https' and urlsplit(icon).hostname in ('yt3.ggpht.com', 'yt3.googleusercontent.com'):
-            row.update(icon_url=icon, icon_source=source, icon_kind='channel')
         rows.append(row)
     if len({r['source_id'] for r in rows}) != len(rows): raise ValueError('Duplicate directory identity')
     return rows
@@ -151,8 +148,6 @@ def merge_rows(base, previous, rows):
             if row.get(field): patch[field] = row[field]
         if not old.get('activity_source'):
             for field in ('activity_source','activity_evidence','activity_snapshot_at','activity_content_url'): patch[field] = row[field]
-        if row.get('icon_url') and not old.get('icon_url'):
-            for field in ('icon_url','icon_source','icon_kind'): patch[field] = row[field]
         old.update(patch)
         for a in linked:
             if a['platform'] in ('youtube', 'twitch'): index.setdefault((a['platform'], a['id']), set()).add(sid)

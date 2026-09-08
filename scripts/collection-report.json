@@ -113,10 +113,10 @@
     "skipped_without_activity_or_predebut": 0
   },
   "records": {
-    "stored": 32898,
-    "listed": 32880,
+    "stored": 32926,
+    "listed": 32908,
     "excluded_predebut": 18,
-    "with_activity_source": 9508
+    "with_activity_source": 9536
   },
   "vstats": {
     "new_records": 0,
@@ -305,19 +305,14 @@
     "verified_channel_resolutions": 30
   },
   "aituberlist": {
-    "source": "https://aituberlist.net/",
     "source_records": 317,
-    "verified_records": 187,
-    "checked_at": "2026-09-07",
-    "new_records": 142,
-    "matched_existing": 32,
-    "ambiguous_skipped": 13
-  },
-  "channel_icons": {
-    "checked_profiles": 51,
-    "updated_icons": 36,
-    "failed_profiles": 6,
-    "next_index": 0
+    "eligible_records": 187,
+    "excluded_unconfirmed_or_preparing": 130,
+    "new_records": 0,
+    "matched_records": 174,
+    "ambiguous_records": 13,
+    "mixed_or_unconfirmed_character": 0,
+    "status": "ok"
   },
   "additional_discovery_sources": {
     "kedamasuzume": {
@@ -328,11 +323,54 @@
     "aituber_schedule": {
       "source": "https://aituber.web.fc2.com/channels.html",
       "channel_candidates": 50,
-      "status": "discovery_only_not_used_as_ai_classification_evidence"
+      "status": "official_channel_identity_and_published_content_verified"
     },
     "namuwiki": {
       "source": "https://namu.wiki/w/인공지능%20버츄얼%20유튜버",
       "status": "unavailable_not_imported"
     }
-  }
+  },
+  "aituber_fc2": {
+    "source_records": 50,
+    "eligible_records": 48,
+    "new_records": 13,
+    "matched_records": 10,
+    "ambiguous_records": 5,
+    "mixed_or_unconfirmed_character": 20,
+    "status": "ok"
+  },
+  "kedamasuzume_reviewed": {
+    "source_records": 21,
+    "new_records": 17,
+    "matched_records": 4,
+    "ambiguous_records": 0,
+    "mixed_or_unconfirmed_character": 0,
+    "status": "ok"
+  },
+  "profile_icons": {
+    "collection_enabled": false,
+    "display_enabled": false,
+    "removed_existing": true
+  },
+  "audience_counts": {
+    "vtuber_post": {
+      "source_records": 25,
+      "enriched_records": 25,
+      "checked_at": "2026-09-08",
+      "status": "ok"
+    },
+    "vstats": {
+      "source_records": 453,
+      "enriched_records": 421,
+      "checked_at": "2026-09-08",
+      "status": "ok"
+    },
+    "aituberlist": {
+      "enriched_records": 247,
+      "status": "ok",
+      "checked_at": "2026-09-08"
+    },
+    "records_with_counts": 691
+  },
+  "aivtuber_records": 324
 }

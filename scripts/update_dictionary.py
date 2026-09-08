@@ -105,6 +105,7 @@ def main():
     parser.add_argument('--check', action='store_true', help='Fetch and validate without writing')
     parser.add_argument('--full', action='store_true', help='Check every VTuber Post ranking page, including small channels')
     parser.add_argument('--skip-readings', action='store_true', help='Skip the optional reading refresh')
+    parser.add_argument('--ai-only', action='store_true', help='Refresh AIVTuber sources only')
     args = parser.parse_args()
     base = read_js(ROOT / 'data.js', 'VTUBER_DATA')
     platform_path = ROOT / 'platform-data.js'
@@ -117,6 +118,9 @@ def main():
             identities.setdefault(row['source_id'], {}).update(row)
         base = list(identities.values())
     previous = read_js(ROOT / 'extra-data.js', 'VTUBER_EXTRA')
+    if args.ai_only:
+        refresh_ai_only(base, previous, args)
+        return
     vdb = json.loads(fetch('https://vdb.vtbs.moe/json/list.json'))
     updated = expand(base, previous, vdb, [])
     from broad_sources import collect_post, merge_post
@@ -152,18 +156,21 @@ def main():
         updated, report['liverfun'] = refresh_liverfun(base, updated, vdb, fetch_reading, state=report.get('liverfun'))
     except (OSError, ValueError, KeyError, TypeError) as error:
         print('liverfun unavailable; existing records retained:', type(error).__name__, flush=True)
-    from aivtuber_sources import collect, merge_aivtubers
+    from aivtuber_sources import collect, merge_aivtubers, resolve_channels
     try:
         characters = collect(fetch_reading)
-        updated = merge_aivtubers(base, updated, characters, vdb)
+        resolved = resolve_channels(characters, fetch_reading)
+        updated = merge_aivtubers(base, updated, characters, vdb, resolved=resolved)
+        if not args.check:
+            (ROOT / 'scripts/aivnav_channels.json').write_text(json.dumps(resolved, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     except (OSError, ValueError, KeyError, TypeError) as error:
         print('AIV Navi unavailable; existing tags and records retained:', type(error).__name__)
-    from ai_list_sources import refresh as refresh_ai_list
-    updated = refresh_ai_list(fetch_reading, base, updated, report)
+    from ai_directory_sources import refresh_ai_directories
+    updated = refresh_ai_directories(base, updated, fetch_reading, report)
+    from popularity_sources import refresh as refresh_popularity
+    updated = refresh_popularity(fetch_reading, base, updated, report)
     if not args.skip_readings:
         updated = refresh_readings(base, updated, fetch_reading)
-    from icon_sources import refresh as refresh_icons
-    updated = refresh_icons(fetch_reading, base, updated, report)
     from reviewed_sources import merge_reviewed
     updated = merge_reviewed(updated)
     print(f'Extra records: {len(previous)} -> {len(updated)}')
@@ -177,6 +184,7 @@ def main():
     report['records'] = {'stored': len(merged), 'listed': len(eligible),
                          'excluded_predebut': len(merged)-len(eligible),
                          'with_activity_source': sum(bool(r.get('activity_source')) for r in eligible)}
+    report['aivtuber_records'] = sum(r.get('category') == 'AIVTuber' for r in eligible)
     temporary_report = report_path.with_suffix('.json.tmp')
     temporary_report.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     temporary_report.replace(report_path)
@@ -187,6 +195,43 @@ def main():
     temporary = target.with_suffix('.js.tmp')
     temporary.write_text(content, encoding='utf-8')
     temporary.replace(target)
+
+def refresh_ai_only(base, previous, args):
+    from aivtuber_sources import collect, merge_aivtubers, resolve_channels
+    from ai_directory_sources import refresh_ai_directories
+    from reading_sources import fetch_reading
+    path = ROOT / 'scripts/collection-report.json'
+    report = json.loads(path.read_text()) if path.exists() else {}
+    updated = previous
+    try:
+        characters = collect(fetch_reading)
+        resolved = resolve_channels(characters, fetch_reading)
+        updated = merge_aivtubers(base, updated, characters, {}, resolved=resolved)
+        if not args.check:
+            (ROOT / 'scripts/aivnav_channels.json').write_text(json.dumps(resolved, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        report['aivnav'] = {'source_records': len(characters), 'status': 'ok'}
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        report['aivnav'] = {**report.get('aivnav', {}), 'status': 'unavailable', 'error': type(error).__name__}
+    updated = refresh_ai_directories(base, updated, fetch_reading, report)
+    from popularity_sources import refresh as refresh_popularity
+    updated = refresh_popularity(fetch_reading, base, updated, report)
+    merged = {r['source_id']: dict(r) for r in base}
+    for r in updated:
+        merged.setdefault(r['source_id'], {}).update(r)
+    from broad_sources import preparing
+    eligible = [r for r in merged.values() if r.get('listing_status') != 'predebut' and not preparing(r['display_name'])]
+    report['aivtuber_records'] = sum(r.get('category') == 'AIVTuber' for r in eligible)
+    report['records'] = {'stored': len(merged), 'listed': len(eligible), 'excluded_predebut': len(merged) - len(eligible),
+                         'with_activity_source': sum(bool(r.get('activity_source')) for r in eligible)}
+    print('AIVTuber records:', report['aivtuber_records'], flush=True)
+    if args.check:
+        return
+    for target, content in [(ROOT / 'extra-data.js', '// Additive, source-linked VTuber/AIVTuber names and verified readings.\nwindow.VTUBER_EXTRA = ' + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + ';\n'),
+                            (path, json.dumps(report, ensure_ascii=False, indent=2) + '\n')]:
+        temporary = target.with_suffix(target.suffix + '.tmp')
+        temporary.write_text(content, encoding='utf-8')
+        temporary.replace(target)
+
 
 if __name__ == '__main__':
     main()
