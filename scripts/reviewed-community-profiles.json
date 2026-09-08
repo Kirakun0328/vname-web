@@ -1,0 +1,338 @@
+[
+  {
+    "source_id": "youtube:UCOsWtlnZ7YAQYIKtI8B-M5A",
+    "youtube_channel_id": "UCOsWtlnZ7YAQYIKtI8B-M5A",
+    "display_name": "九重いのり",
+    "reading": "ここのえいのり",
+    "romanized_name": "",
+    "source_url": "https://www.youtube.com/channel/UCOsWtlnZ7YAQYIKtI8B-M5A",
+    "twitter_url": "https://x.com/us_drdr",
+    "category": "VTuber",
+    "aliases": [
+      "九重 いのり"
+    ],
+    "activity_source": "https://www.showroom-live.com/room/profile?room_id=279226",
+    "activity_evidence": "reviewed_public_broadcast_activity",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/us_drdr/status/2097144639275020421",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCOsWtlnZ7YAQYIKtI8B-M5A",
+        "url": "https://www.youtube.com/channel/UCOsWtlnZ7YAQYIKtI8B-M5A"
+      },
+      {
+        "platform": "x",
+        "id": "us_drdr",
+        "url": "https://x.com/us_drdr"
+      }
+    ],
+    "reading_source": "https://www.showroom-live.com/room/profile?room_id=279226",
+    "reading_source_kind": "profile_explicit"
+  },
+  {
+    "source_id": "youtube:UCPPI4pmXg0f4z2ioGkeitRA",
+    "youtube_channel_id": "UCPPI4pmXg0f4z2ioGkeitRA",
+    "display_name": "羽姫しおり",
+    "reading": "うきしおり",
+    "romanized_name": "Uki Shiori",
+    "source_url": "https://www.youtube.com/channel/UCPPI4pmXg0f4z2ioGkeitRA",
+    "twitter_url": "https://x.com/shiorin_fps",
+    "category": "VTuber",
+    "aliases": [
+      "しおりん",
+      "羽姫 しおり"
+    ],
+    "activity_source": "https://www.twitch.tv/shiorin_fps/videos",
+    "activity_evidence": "reviewed_public_broadcast_activity",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/shiorin_fps/status/2097153814474490071",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCPPI4pmXg0f4z2ioGkeitRA",
+        "url": "https://www.youtube.com/channel/UCPPI4pmXg0f4z2ioGkeitRA"
+      },
+      {
+        "platform": "x",
+        "id": "shiorin_fps",
+        "url": "https://x.com/shiorin_fps"
+      },
+      {
+        "platform": "twitch",
+        "id": "shiorin_fps",
+        "url": "https://www.twitch.tv/shiorin_fps"
+      }
+    ],
+    "youtube_handle": "@shiorin_fps",
+    "reading_source": "https://x.com/shiorin_fps/status/2097153814474490071",
+    "reading_source_kind": "profile_explicit",
+    "romanized_source": "https://lit.link/shiorinfps",
+    "primary_platforms": [
+      "twitch"
+    ],
+    "primary_platform_source": "https://x.com/shiorin_fps",
+    "primary_platform_evidence": "reviewed_explicit_broadcast_profile"
+  },
+  {
+    "source_id": "youtube:UCN8zj2jLz8jqGGhWNEBd4Ew",
+    "youtube_channel_id": "UCN8zj2jLz8jqGGhWNEBd4Ew",
+    "display_name": "桃栗にに",
+    "reading": "",
+    "romanized_name": "",
+    "source_url": "https://www.youtube.com/channel/UCN8zj2jLz8jqGGhWNEBd4Ew",
+    "twitter_url": "https://x.com/nini22mo",
+    "category": "VTuber",
+    "aliases": [
+      "桃栗 にに"
+    ],
+    "activity_source": "https://www.youtube.com/channel/UCN8zj2jLz8jqGGhWNEBd4Ew",
+    "activity_evidence": "reviewed_public_broadcast_activity",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/nini22mo/status/2097085548238402008",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCN8zj2jLz8jqGGhWNEBd4Ew",
+        "url": "https://www.youtube.com/channel/UCN8zj2jLz8jqGGhWNEBd4Ew"
+      },
+      {
+        "platform": "x",
+        "id": "nini22mo",
+        "url": "https://x.com/nini22mo"
+      }
+    ]
+  },
+  {
+    "source_id": "youtube:UCB23xS5rytMvjZXxoLQ54qA",
+    "youtube_channel_id": "UCB23xS5rytMvjZXxoLQ54qA",
+    "display_name": "コグレアキ",
+    "reading": "こぐれあき",
+    "romanized_name": "",
+    "source_url": "https://www.youtube.com/channel/UCB23xS5rytMvjZXxoLQ54qA",
+    "twitter_url": "https://x.com/aki_kogure",
+    "category": "VTuber",
+    "aliases": [],
+    "activity_source": "https://youtube.com/live/mZQKEVUCEeI?feature=share",
+    "activity_evidence": "reviewed_public_broadcast_activity",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/aki_kogure/status/2097149519188414799",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCB23xS5rytMvjZXxoLQ54qA",
+        "url": "https://www.youtube.com/channel/UCB23xS5rytMvjZXxoLQ54qA"
+      },
+      {
+        "platform": "x",
+        "id": "aki_kogure",
+        "url": "https://x.com/aki_kogure"
+      }
+    ],
+    "youtube_handle": "@aki-kogure",
+    "reading_source": "https://www.youtube.com/channel/UCB23xS5rytMvjZXxoLQ54qA",
+    "reading_source_kind": "profile_explicit"
+  },
+  {
+    "source_id": "youtube:UCv7LaQMFJLSrkGO-5RgT1AQ",
+    "youtube_channel_id": "UCv7LaQMFJLSrkGO-5RgT1AQ",
+    "display_name": "ふつうのアサリガール",
+    "reading": "ふつうのあさりがーる",
+    "romanized_name": "",
+    "source_url": "https://www.youtube.com/channel/UCv7LaQMFJLSrkGO-5RgT1AQ",
+    "twitter_url": "https://x.com/asari_girl",
+    "category": "VTuber",
+    "aliases": [
+      "あさこ",
+      "ふつうのアサリガール【あさこ】",
+      "ふつうのアサリガール(あさこ)"
+    ],
+    "activity_source": "https://www.youtube.com/channel/UCv7LaQMFJLSrkGO-5RgT1AQ",
+    "activity_evidence": "reviewed_public_broadcast_activity",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/asari_girl/status/2097078849704181888",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCv7LaQMFJLSrkGO-5RgT1AQ",
+        "url": "https://www.youtube.com/channel/UCv7LaQMFJLSrkGO-5RgT1AQ"
+      },
+      {
+        "platform": "x",
+        "id": "asari_girl",
+        "url": "https://x.com/asari_girl"
+      }
+    ],
+    "youtube_handle": "@asarigirl",
+    "reading_source": "https://www.youtube.com/channel/UCv7LaQMFJLSrkGO-5RgT1AQ",
+    "reading_source_kind": "profile_explicit"
+  },
+  {
+    "source_id": "youtube:UCsg2pWGJveeTKAGVSww05tg",
+    "youtube_channel_id": "UCsg2pWGJveeTKAGVSww05tg",
+    "display_name": "木乃伊めんま",
+    "reading": "きのいめんま",
+    "romanized_name": "Kinoi Menma",
+    "source_url": "https://www.youtube.com/channel/UCsg2pWGJveeTKAGVSww05tg",
+    "twitter_url": "https://x.com/miira_mennma",
+    "category": "VTuber",
+    "aliases": [
+      "木乃伊 めんま",
+      "木乃伊綿巻"
+    ],
+    "activity_source": "https://www.youtube.com/channel/UCsg2pWGJveeTKAGVSww05tg",
+    "activity_evidence": "reviewed_public_broadcast_activity",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/miira_mennma/status/2097156408806715868",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCsg2pWGJveeTKAGVSww05tg",
+        "url": "https://www.youtube.com/channel/UCsg2pWGJveeTKAGVSww05tg"
+      },
+      {
+        "platform": "x",
+        "id": "miira_mennma",
+        "url": "https://x.com/miira_mennma"
+      }
+    ],
+    "youtube_handle": "@kinoi_menma",
+    "reading_source": "https://x.com/miira_mennma",
+    "reading_source_kind": "profile_explicit",
+    "romanized_source": "https://www.youtube.com/@kinoi_menma"
+  },
+  {
+    "source_id": "youtube:UCFNgLyFw5Oh5icb_6_w67zw",
+    "youtube_channel_id": "UCFNgLyFw5Oh5icb_6_w67zw",
+    "display_name": "くれないべあ",
+    "reading": "くれないべあ",
+    "romanized_name": "BearKurenai",
+    "source_url": "https://www.youtube.com/channel/UCFNgLyFw5Oh5icb_6_w67zw",
+    "twitter_url": "https://x.com/KurenaiBear",
+    "category": "VTuber",
+    "aliases": [
+      "昏內べあ",
+      "Bear Ch.くれないべあ"
+    ],
+    "activity_source": "https://www.youtube.com/channel/UCFNgLyFw5Oh5icb_6_w67zw/videos",
+    "activity_evidence": "reviewed_public_broadcast_activity",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/KurenaiBear/status/2097138994761121842",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCFNgLyFw5Oh5icb_6_w67zw",
+        "url": "https://www.youtube.com/channel/UCFNgLyFw5Oh5icb_6_w67zw"
+      },
+      {
+        "platform": "x",
+        "id": "KurenaiBear",
+        "url": "https://x.com/KurenaiBear"
+      }
+    ],
+    "youtube_handle": "@KurenaiBear",
+    "reading_source": "https://x.com/KurenaiBear",
+    "reading_source_kind": "profile_explicit",
+    "romanized_source": "https://x.com/KurenaiBear"
+  },
+  {
+    "source_id": "youtube:UC9jwvSAIvmRKt4O-lEsX_eg",
+    "youtube_channel_id": "UC9jwvSAIvmRKt4O-lEsX_eg",
+    "display_name": "椿季ゆず",
+    "reading": "",
+    "romanized_name": "",
+    "source_url": "https://www.youtube.com/channel/UC9jwvSAIvmRKt4O-lEsX_eg",
+    "twitter_url": "https://x.com/uzu_topia",
+    "category": "Vライバー",
+    "aliases": [
+      "椿ユズ",
+      "椿季ゆずChannel"
+    ],
+    "activity_source": "https://x.com/uzu_topia/status/2096397280727408924",
+    "activity_evidence": "reviewed_public_broadcast_activity",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/uzu_topia/status/2097060893377094052",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UC9jwvSAIvmRKt4O-lEsX_eg",
+        "url": "https://www.youtube.com/channel/UC9jwvSAIvmRKt4O-lEsX_eg"
+      },
+      {
+        "platform": "x",
+        "id": "uzu_topia",
+        "url": "https://x.com/uzu_topia"
+      },
+      {
+        "platform": "avvy",
+        "id": "01jqw901crpbxrmmapm20a84qa",
+        "url": "https://s.avvy.live/u/01jqw901crpbxrmmapm20a84qa"
+      },
+      {
+        "platform": "tiktok",
+        "id": "@uzu5202",
+        "url": "https://www.tiktok.com/@uzu5202"
+      }
+    ],
+    "youtube_handle": "@channel-ss5pu",
+    "primary_platforms": [
+      "avvy"
+    ],
+    "primary_platform_source": "https://lit.link/yuzu1050",
+    "primary_platform_evidence": "reviewed_explicit_broadcast_profile",
+    "platforms": [
+      "youtube",
+      "avvy",
+      "tiktok"
+    ],
+    "platform_sources": {
+      "avvy": "https://lit.link/yuzu1050",
+      "tiktok": "https://lit.link/yuzu1050"
+    },
+    "official_website": "https://lit.link/yuzu1050"
+  },
+  {
+    "source_id": "showroom:730e22706324",
+    "display_name": "もちりにゃんこ",
+    "reading": "もちりにゃんこ",
+    "reading_source": "https://x.com/Mochiri_Nyanko",
+    "reading_source_kind": "profile_explicit",
+    "romanized_name": "",
+    "source_url": "https://www.showroom-live.com/r/730e22706324",
+    "twitter_url": "https://x.com/Mochiri_Nyanko",
+    "category": "Vライバー",
+    "aliases": [
+      "にゃんこにごはん"
+    ],
+    "activity_source": "https://www.showroom-live.com/room/profile?room_id=222958",
+    "activity_evidence": "reviewed_virtual_character_broadcast_profile",
+    "activity_checked_at": "2026-09-08",
+    "report_source": "https://x.com/Mochiri_Nyanko/status/2097177345446850629",
+    "reported_post": "https://x.com/Kiratchi0328/status/2096914177667567915",
+    "platform_accounts": [
+      {
+        "platform": "showroom",
+        "id": "730e22706324",
+        "url": "https://www.showroom-live.com/r/730e22706324"
+      },
+      {
+        "platform": "x",
+        "id": "Mochiri_Nyanko",
+        "url": "https://x.com/Mochiri_Nyanko"
+      }
+    ],
+    "primary_platforms": [
+      "showroom"
+    ],
+    "primary_platform_source": "https://www.showroom-live.com/room/profile?room_id=222958",
+    "primary_platform_evidence": "reviewed_explicit_broadcast_profile"
+  }
+]

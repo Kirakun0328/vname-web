@@ -48,6 +48,7 @@ function fieldsFor(r){
 function renderCard({r,type}){
  const article=element('article','result'),top=element('div','card-tags');
  top.append(element('span','category'+(r.category==='AIVTuber'?' ai':''),categoryOf(r)));
+ if(r.registration_status==='ai_screened')top.append(element('span','badge','利用者登録・AI確認'));
  if(type<3)top.append(element('span','badge'+(type===0?' exact':''),['表示名が一致','読み・英字が一致','名前の一部が一致'][type]));
  const name=element('h3','name',r.display_name),reading=element('p','card-reading',r.reading||'読み未確認');
  const media=r.media,platformLinks=element('div','platform-links');
@@ -59,6 +60,7 @@ function renderCard({r,type}){
  const metric=metricFor(r),audience=element('p','audience');
  if(metric){const label=metric.platform==='youtube'?'YouTube登録者':'Twitchフォロワー';audience.append(element('span','',label),element('strong','',metric.count.toLocaleString()));}
  const details=element('details','record-details');details.append(element('summary','','詳細・出典'),fieldsFor(r));
+ if(r.registration_status==='ai_screened')details.append(element('p','muted','Gemma 4 E2Bが登録内容を確認しました。本人確認や情報の正しさを保証するものではありません。'));
  const note=element('div','note');
  const sources=[...(r.reading?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource],...(metric?[['登録者・フォロワー数の出典',metric.source]]:[])];
  for(const [label,url] of sources)if(sourceLink(url))note.append(link(label,url));
@@ -103,4 +105,12 @@ $('form').addEventListener('submit',e=>{e.preventDefault();search();});
 function turnPage(delta){page=Math.max(0,Math.min(Math.ceil(hits.length/PAGE_SIZE)-1,page+delta));render();$('results-heading').scrollIntoView?.({block:'start'});$('results-heading').focus?.({preventScroll:true});}
 $('prev').onclick=()=>turnPage(-1);$('next').onclick=()=>turnPage(1);
 try{load(mergeData(mergeData(window.VTUBER_DATA,window.VTUBER_EXTRA),window.VTUBER_PLATFORMS));search();}catch(e){$('status').textContent='辞書を読み込めませんでした。ページを再読み込みしてください。';}
+window.VNameAddCommunity=incoming=>{
+ const ids=new Set(records.map(r=>r.source_id)),accounts=new Set(records.flatMap(r=>r.media.accounts.map(a=>a.url)));
+ const additions=incoming.filter(r=>!ids.has(r.source_id)&&!r.platform_accounts.some(a=>accounts.has(a.url)));
+ if(!additions.length)return;
+ const previousPage=page;
+ for(const row of additions)if(!randomOrder.has(row.source_id))randomOrder.set(row.source_id,Math.random());
+ load([...records,...additions]);search();page=Math.min(previousPage,Math.max(0,Math.ceil(hits.length/PAGE_SIZE)-1));render();
+};
 $('language').onchange=e=>setLanguage(e.target.value);translateUI();

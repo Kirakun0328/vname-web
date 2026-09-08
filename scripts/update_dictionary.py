@@ -106,7 +106,10 @@ def main():
     parser.add_argument('--full', action='store_true', help='Check every VTuber Post ranking page, including small channels')
     parser.add_argument('--skip-readings', action='store_true', help='Skip the optional reading refresh')
     parser.add_argument('--ai-only', action='store_true', help='Refresh AIVTuber sources only')
+    parser.add_argument('--reviewed-only', action='store_true', help='Apply verified profiles and renames without network access')
     args = parser.parse_args()
+    if args.ai_only and args.reviewed_only:
+        parser.error('--ai-only and --reviewed-only cannot be combined')
     base = read_js(ROOT / 'data.js', 'VTUBER_DATA')
     platform_path = ROOT / 'platform-data.js'
     if platform_path.exists():
@@ -118,6 +121,9 @@ def main():
             identities.setdefault(row['source_id'], {}).update(row)
         base = list(identities.values())
     previous = read_js(ROOT / 'extra-data.js', 'VTUBER_EXTRA')
+    if args.reviewed_only:
+        refresh_reviewed_only(base, previous, args)
+        return
     if args.ai_only:
         refresh_ai_only(base, previous, args)
         return
@@ -172,7 +178,7 @@ def main():
     if not args.skip_readings:
         updated = refresh_readings(base, updated, fetch_reading)
     from reviewed_sources import merge_reviewed
-    updated = merge_reviewed(updated)
+    updated = merge_reviewed(updated, base=base)
     print(f'Extra records: {len(previous)} -> {len(updated)}')
     if args.check:
         return
@@ -215,6 +221,8 @@ def refresh_ai_only(base, previous, args):
     updated = refresh_ai_directories(base, updated, fetch_reading, report)
     from popularity_sources import refresh as refresh_popularity
     updated = refresh_popularity(fetch_reading, base, updated, report)
+    from reviewed_sources import merge_reviewed
+    updated = merge_reviewed(updated, base=base)
     merged = {r['source_id']: dict(r) for r in base}
     for r in updated:
         merged.setdefault(r['source_id'], {}).update(r)
@@ -231,6 +239,49 @@ def refresh_ai_only(base, previous, args):
         temporary = target.with_suffix(target.suffix + '.tmp')
         temporary.write_text(content, encoding='utf-8')
         temporary.replace(target)
+
+
+def refresh_reviewed_only(base, previous, args):
+    from reviewed_sources import merge_reviewed, reviewed_profiles
+    from broad_sources import preparing
+    reviewed = reviewed_profiles()
+    updated = merge_reviewed(previous, reviewed, base=base)
+    platform_path = ROOT / 'platform-data.js'
+    platforms = read_js(platform_path, 'VTUBER_PLATFORMS') if platform_path.exists() else []
+    platform_ids = {r['source_id'] for r in platforms}
+    # The browser applies platform-data last. Reapply approved identity fields
+    # there too when a platform collector has an older name for this account.
+    approved_platforms = [r for r in reviewed if r['source_id'] in platform_ids]
+    platforms = merge_reviewed(platforms, approved_platforms, base=base)
+    merged = {r['source_id']: dict(r) for r in base}
+    for row in [*updated, *platforms]:
+        merged.setdefault(row['source_id'], {}).update(row)
+    eligible = [r for r in merged.values() if r.get('listing_status') != 'predebut' and not preparing(r['display_name'])]
+    report_path = ROOT / 'scripts/collection-report.json'
+    report = json.loads(report_path.read_text()) if report_path.exists() else {}
+    report['records'] = {'stored': len(merged), 'listed': len(eligible),
+                         'excluded_predebut': len(merged)-len(eligible),
+                         'with_activity_source': sum(bool(r.get('activity_source')) for r in eligible)}
+    report['aivtuber_records'] = sum(r.get('category') == 'AIVTuber' for r in eligible)
+    community = [r for r in reviewed if r.get('report_source')]
+    report['community_profiles'] = {'reviewed_records': len(community),
+                                    'checked_at': max((r['activity_checked_at'] for r in community), default=None),
+                                    'coverage': 'publicly_accessible_quotes_and_replies_only',
+                                    'all_quotes_checked': False,
+                                    'source': 'https://x.com/Kiratchi0328/status/2096914177667567915'}
+    print(f'Reviewed profiles: {len(reviewed)}; community profiles: {len(community)}; listed: {len(eligible)}')
+    if args.check:
+        return
+    writes = [(ROOT / 'extra-data.js', '// Additive, source-linked VTuber/AIVTuber names and verified readings.\nwindow.VTUBER_EXTRA = ' + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + ';\n'),
+              (report_path, json.dumps(report, ensure_ascii=False, indent=2)+'\n')]
+    if platform_path.exists():
+        writes.append((platform_path, '// Public V-liver identities and source-linked platform metadata.\nwindow.VTUBER_PLATFORMS = ' + json.dumps(platforms, ensure_ascii=False, separators=(',', ':')) + ';\n'))
+    for path, content in writes:
+        if path.exists() and path.read_text(encoding='utf-8') == content:
+            continue
+        temporary = path.with_suffix(path.suffix+'.tmp')
+        temporary.write_text(content, encoding='utf-8')
+        temporary.replace(path)
 
 
 if __name__ == '__main__':
