@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "scope": "audit_only_general_legacy_sources; AIVTuber sources excluded",
-  "unique_ids": 16438,
+  "unique_ids": 17876,
   "files": {
     "data.js": 9877,
-    "extra-data.js": 5699,
+    "extra-data.js": 7190,
     "platform-data.js": 11705
   },
   "reviewed_ids": 201,
@@ -13,7 +13,7 @@
   "legacy_general_ids_any_evidence": 12804,
   "legacy_general_ids_also_reviewed_primary_or_aiv": 60,
   "legacy_general_ids_without_reviewed_primary_or_aiv": 12744,
-  "ids_without_source_fields": 9004,
+  "ids_without_source_fields": 8917,
   "legacy_families": {
     "hololist": 313,
     "indonesia_kaggle": 227,
@@ -43,7 +43,7 @@
     ],
     [
       "youtube",
-      4264
+      5702
     ],
     [
       "agency-razz",
