@@ -1,0 +1,2661 @@
+{
+  "checked_at": "2026-09-08",
+  "new_people": 292,
+  "enriched_existing": 19,
+  "platforms": {
+    "youtube": {
+      "before": 738,
+      "after": 768,
+      "new_people": 22
+    },
+    "tiktok": {
+      "before": 39,
+      "after": 57,
+      "new_people": 13
+    },
+    "iriam": {
+      "before": 1143,
+      "after": 1149,
+      "new_people": 6
+    },
+    "avvy": {
+      "before": 16,
+      "after": 16,
+      "new_people": 0
+    },
+    "reality": {
+      "before": 211,
+      "after": 378,
+      "new_people": 167
+    },
+    "twitch": {
+      "before": 51,
+      "after": 55,
+      "new_people": 3
+    },
+    "17live": {
+      "before": 65,
+      "after": 70,
+      "new_people": 4
+    },
+    "showroom": {
+      "before": 6,
+      "after": 7,
+      "new_people": 1
+    },
+    "twitcasting": {
+      "before": 1,
+      "after": 6,
+      "new_people": 3
+    },
+    "niconico": {
+      "before": 4,
+      "after": 105,
+      "new_people": 96
+    },
+    "mirrativ": {
+      "before": 0,
+      "after": 6,
+      "new_people": 6
+    },
+    "bilibili": {
+      "before": 9519,
+      "after": 9519,
+      "new_people": 0
+    },
+    "spoon": {
+      "before": 0,
+      "after": 1,
+      "new_people": 1
+    },
+    "kick": {
+      "before": 0,
+      "after": 1,
+      "new_people": 1
+    },
+    "soop": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "topia": {
+      "before": 2,
+      "after": 6,
+      "new_people": 4
+    },
+    "palmu": {
+      "before": 0,
+      "after": 1,
+      "new_people": 1
+    },
+    "mixch": {
+      "before": 0,
+      "after": 3,
+      "new_people": 2
+    },
+    "bigo": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "acfun": {
+      "before": 35,
+      "after": 35,
+      "new_people": 0
+    },
+    "whowatch": {
+      "before": 0,
+      "after": 1,
+      "new_people": 1
+    },
+    "pococha": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "colorsing": {
+      "before": 0,
+      "after": 1,
+      "new_people": 1
+    },
+    "pikapika": {
+      "before": 0,
+      "after": 1,
+      "new_people": 0
+    },
+    "everylive": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "standfm": {
+      "before": 0,
+      "after": 1,
+      "new_people": 0
+    },
+    "radiotalk": {
+      "before": 0,
+      "after": 1,
+      "new_people": 1
+    },
+    "openrec": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "pokekara": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "instagram": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "facebook": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "chzzk": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    },
+    "rplay": {
+      "before": 0,
+      "after": 0,
+      "new_people": 0
+    }
+  },
+  "new_records": [
+    {
+      "source_id": "agency-321:朝日奈あみ",
+      "display_name": "朝日奈あみ",
+      "platforms": [
+        "17live",
+        "tiktok",
+        "youtube"
+      ],
+      "source_url": "https://vliver.321.inc/liver/%e6%9c%9d%e6%97%a5%e5%a5%88%e3%81%82%e3%81%bf/"
+    },
+    {
+      "source_id": "agency-321:焼井もこ",
+      "display_name": "焼井もこ",
+      "platforms": [
+        "17live",
+        "youtube"
+      ],
+      "source_url": "https://vliver.321.inc/liver/%e7%84%bc%e4%ba%95%e3%82%82%e3%81%93/"
+    },
+    {
+      "source_id": "agency-linear:1101",
+      "display_name": "愛結羽とわ",
+      "platforms": [
+        "iriam"
+      ],
+      "source_url": "https://linear-v.com/talent/1101/"
+    },
+    {
+      "source_id": "agency-linear:1116",
+      "display_name": "大刀川士紋",
+      "platforms": [
+        "iriam"
+      ],
+      "source_url": "https://linear-v.com/talent/1116/"
+    },
+    {
+      "source_id": "agency-mvirtual:aimiya-hayate",
+      "display_name": "相宮颯",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/aimiya-hayate/"
+    },
+    {
+      "source_id": "agency-mvirtual:akabane-omochi",
+      "display_name": "赤羽おもち",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/akabane-omochi/"
+    },
+    {
+      "source_id": "agency-mvirtual:akane-hibiki",
+      "display_name": "明音 ひびき",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/akane-hibiki/"
+    },
+    {
+      "source_id": "agency-mvirtual:akanezakuro",
+      "display_name": "朱音 ザクロ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/akanezakuro/"
+    },
+    {
+      "source_id": "agency-mvirtual:akeboshi-reito",
+      "display_name": "明星零斗",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/akeboshi-reito/"
+    },
+    {
+      "source_id": "agency-mvirtual:akino-otoha",
+      "display_name": "秋野 音羽。",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/akino-otoha/"
+    },
+    {
+      "source_id": "agency-mvirtual:amakumofuwaru",
+      "display_name": "甘雲ふわる。",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/amakumofuwaru/"
+    },
+    {
+      "source_id": "agency-mvirtual:amaneryaa",
+      "display_name": "天音りゃあ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/amaneryaa/"
+    },
+    {
+      "source_id": "agency-mvirtual:amanogawa-rikuto",
+      "display_name": "天川陸斗",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/amanogawa-rikuto/"
+    },
+    {
+      "source_id": "agency-mvirtual:amatuki-seito",
+      "display_name": "天月星斗",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/amatuki-seito/"
+    },
+    {
+      "source_id": "agency-mvirtual:amemiyaluca",
+      "display_name": "雨宮ルカ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/amemiyaluca/"
+    },
+    {
+      "source_id": "agency-mvirtual:ani",
+      "display_name": "あに",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ani/"
+    },
+    {
+      "source_id": "agency-mvirtual:aoilemon",
+      "display_name": "あおい檸檬",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/aoilemon/"
+    },
+    {
+      "source_id": "agency-mvirtual:aoiumi",
+      "display_name": "碧うみ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/aoiumi/"
+    },
+    {
+      "source_id": "agency-mvirtual:aoshi-kanon",
+      "display_name": "青紫かのん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/aoshi-kanon/"
+    },
+    {
+      "source_id": "agency-mvirtual:aotsuki-rumi",
+      "display_name": "蒼月ルミ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/aotsuki-rumi/"
+    },
+    {
+      "source_id": "agency-mvirtual:aotsuki-subaru",
+      "display_name": "蒼月すばる",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/aotsuki-subaru/"
+    },
+    {
+      "source_id": "agency-mvirtual:aresu",
+      "display_name": "あれす",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/aresu/"
+    },
+    {
+      "source_id": "agency-mvirtual:aruse-rui",
+      "display_name": "或瀬 ルイ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/aruse-rui/"
+    },
+    {
+      "source_id": "agency-mvirtual:ayamurasaki-kenpi",
+      "display_name": "彩紫けんぴ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ayamurasaki-kenpi/"
+    },
+    {
+      "source_id": "agency-mvirtual:ayanyan",
+      "display_name": "あやにゃん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ayanyan/"
+    },
+    {
+      "source_id": "agency-mvirtual:daidai-daiya",
+      "display_name": "橙ダイヤ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/daidai-daiya/"
+    },
+    {
+      "source_id": "agency-mvirtual:dankadou-honpo",
+      "display_name": "譚哥堂本舗",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/dankadou-honpo/"
+    },
+    {
+      "source_id": "agency-mvirtual:dj-atlas",
+      "display_name": "DJ Atlas",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/dj-atlas/"
+    },
+    {
+      "source_id": "agency-mvirtual:haji",
+      "display_name": "ハジ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/haji/"
+    },
+    {
+      "source_id": "agency-mvirtual:hanasaki-nozomi",
+      "display_name": "花咲のぞみ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hanasaki-nozomi/"
+    },
+    {
+      "source_id": "agency-mvirtual:hao",
+      "display_name": "白音。",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hao/"
+    },
+    {
+      "source_id": "agency-mvirtual:haoto-sana",
+      "display_name": "羽音さな",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/haoto-sana/"
+    },
+    {
+      "source_id": "agency-mvirtual:harumachi-ei",
+      "display_name": "春待 叡",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/harumachi-ei/"
+    },
+    {
+      "source_id": "agency-mvirtual:harutokoi",
+      "display_name": "春叶 恋(はると こい）",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/harutokoi/"
+    },
+    {
+      "source_id": "agency-mvirtual:hayama-shion",
+      "display_name": "葉山シオン",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hayama-shion/"
+    },
+    {
+      "source_id": "agency-mvirtual:higasi-kogure",
+      "display_name": "東 小暮",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/higasi-kogure/"
+    },
+    {
+      "source_id": "agency-mvirtual:hinata-koharu",
+      "display_name": "陽向こはる",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hinata-koharu/"
+    },
+    {
+      "source_id": "agency-mvirtual:hino-hinode",
+      "display_name": "陽乃ひので",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hino-hinode/"
+    },
+    {
+      "source_id": "agency-mvirtual:hisakaki-kai",
+      "display_name": "姫榊 かい",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hisakaki-kai/"
+    },
+    {
+      "source_id": "agency-mvirtual:hisame-kaya",
+      "display_name": "氷雨加夜",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hisame-kaya/"
+    },
+    {
+      "source_id": "agency-mvirtual:hoshinagihinata",
+      "display_name": "星凪 ひなた",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hoshinagihinata/"
+    },
+    {
+      "source_id": "agency-mvirtual:hyozaki-runa",
+      "display_name": "豹咲 るな",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/hyozaki-runa/"
+    },
+    {
+      "source_id": "agency-mvirtual:ibika",
+      "display_name": "イビカ",
+      "platforms": [
+        "reality",
+        "youtube"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ibika/"
+    },
+    {
+      "source_id": "agency-mvirtual:ichinose-ao",
+      "display_name": "一ノ瀬あお",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ichinose-ao/"
+    },
+    {
+      "source_id": "agency-mvirtual:ichinose-jin",
+      "display_name": "一ノ瀬 迅",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ichinose-jin/"
+    },
+    {
+      "source_id": "agency-mvirtual:ichiyaboshi-hokke",
+      "display_name": "一夜星ホッケ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ichiyaboshi-hokke/"
+    },
+    {
+      "source_id": "agency-mvirtual:itadakimogumo",
+      "display_name": "頂もぐも",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/itadakimogumo/"
+    },
+    {
+      "source_id": "agency-mvirtual:kagura-reito",
+      "display_name": "神楽 零斗",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kagura-reito/"
+    },
+    {
+      "source_id": "agency-mvirtual:kagura-saki",
+      "display_name": "神楽 紗耀",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kagura-saki/"
+    },
+    {
+      "source_id": "agency-mvirtual:kaira-kei",
+      "display_name": "海雷鯨",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kaira-kei/"
+    },
+    {
+      "source_id": "agency-mvirtual:kamiya-arann",
+      "display_name": "神夜 亜藍",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kamiya-arann/"
+    },
+    {
+      "source_id": "agency-mvirtual:kanade-ren",
+      "display_name": "叶奏れん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kanade-ren/"
+    },
+    {
+      "source_id": "agency-mvirtual:kanade-yuzuru",
+      "display_name": "奏 遊弦",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kanade-yuzuru/"
+    },
+    {
+      "source_id": "agency-mvirtual:kapuchimei",
+      "display_name": "椛淵(かぷち)めい",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kapuchimei/"
+    },
+    {
+      "source_id": "agency-mvirtual:kemukemuramu",
+      "display_name": "けむけむ　らむ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kemukemuramu/"
+    },
+    {
+      "source_id": "agency-mvirtual:kiryu",
+      "display_name": "希龍",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kiryu/"
+    },
+    {
+      "source_id": "agency-mvirtual:kohaku-ayase",
+      "display_name": "心白あやせ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kohaku-ayase/"
+    },
+    {
+      "source_id": "agency-mvirtual:kokono-reno",
+      "display_name": "九尾れの",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kokono-reno/"
+    },
+    {
+      "source_id": "agency-mvirtual:kokuba-jun",
+      "display_name": "黒馬ジュン",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kokuba-jun/"
+    },
+    {
+      "source_id": "agency-mvirtual:kokushi-nero",
+      "display_name": "黒紫 ねろ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kokushi-nero/"
+    },
+    {
+      "source_id": "agency-mvirtual:komori-ren",
+      "display_name": "狐森れん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/komori-ren/"
+    },
+    {
+      "source_id": "agency-mvirtual:konekomilk",
+      "display_name": "こねこみるく",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/konekomilk/"
+    },
+    {
+      "source_id": "agency-mvirtual:kotomiya-porun",
+      "display_name": "琴宮 ぽるん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kotomiya-porun/"
+    },
+    {
+      "source_id": "agency-mvirtual:kotoribuntaicho",
+      "display_name": "ことり分隊長",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kotoribuntaicho/"
+    },
+    {
+      "source_id": "agency-mvirtual:kuroro-kitora",
+      "display_name": "黒呂 キトラ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kuroro-kitora/"
+    },
+    {
+      "source_id": "agency-mvirtual:kurosaki-kohaku",
+      "display_name": "黒崎 琥珀",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kurosaki-kohaku/"
+    },
+    {
+      "source_id": "agency-mvirtual:kurosaki-shiba",
+      "display_name": "黒咲 柴",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kurosaki-shiba/"
+    },
+    {
+      "source_id": "agency-mvirtual:kurumi-haru",
+      "display_name": "胡桃はる",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kurumi-haru/"
+    },
+    {
+      "source_id": "agency-mvirtual:kurusumoka",
+      "display_name": "来栖モカ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kurusumoka/"
+    },
+    {
+      "source_id": "agency-mvirtual:kuzuno-taro",
+      "display_name": "屑野たろー。",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/kuzuno-taro/"
+    },
+    {
+      "source_id": "agency-mvirtual:mamemaru-mameta",
+      "display_name": "豆丸まめ太",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/mamemaru-mameta/"
+    },
+    {
+      "source_id": "agency-mvirtual:mamon-kuroro",
+      "display_name": "魔門クロロ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/mamon-kuroro/"
+    },
+    {
+      "source_id": "agency-mvirtual:marcus",
+      "display_name": "MARCUS(マーカス)",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/marcus/"
+    },
+    {
+      "source_id": "agency-mvirtual:matukityatya",
+      "display_name": "抹月 茶々",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/matukityatya/"
+    },
+    {
+      "source_id": "agency-mvirtual:meno-rabuka",
+      "display_name": "メノ･ラブカ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/meno-rabuka/"
+    },
+    {
+      "source_id": "agency-mvirtual:michikusa-ohagi",
+      "display_name": "道草 おはぎ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/michikusa-ohagi/"
+    },
+    {
+      "source_id": "agency-mvirtual:minagi-kanata",
+      "display_name": "海凪カナタ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/minagi-kanata/"
+    },
+    {
+      "source_id": "agency-mvirtual:minase-yuuki",
+      "display_name": "水瀬 夕希",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/minase-yuuki/"
+    },
+    {
+      "source_id": "agency-mvirtual:mitei",
+      "display_name": "未定",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/mitei/"
+    },
+    {
+      "source_id": "agency-mvirtual:mitsuougi-chamo",
+      "display_name": "三ツ扇ちゃも",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/mitsuougi-chamo/"
+    },
+    {
+      "source_id": "agency-mvirtual:mizuki-ritsu",
+      "display_name": "瑞城 律",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/mizuki-ritsu/"
+    },
+    {
+      "source_id": "agency-mvirtual:mofuyun",
+      "display_name": "鈴海音 もふゆん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/mofuyun/"
+    },
+    {
+      "source_id": "agency-mvirtual:momokabibi",
+      "display_name": "桃花びび",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/momokabibi/"
+    },
+    {
+      "source_id": "agency-mvirtual:muizumiruna",
+      "display_name": "夢泉るな",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/muizumiruna/"
+    },
+    {
+      "source_id": "agency-mvirtual:mutsuki-yukito",
+      "display_name": "紫月ゆきと",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/mutsuki-yukito/"
+    },
+    {
+      "source_id": "agency-mvirtual:nagisa-hodaka",
+      "display_name": "渚砂 ほだか",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nagisa-hodaka/"
+    },
+    {
+      "source_id": "agency-mvirtual:natsuki-mero",
+      "display_name": "菜月めろ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/natsuki-mero/"
+    },
+    {
+      "source_id": "agency-mvirtual:natugumo-natumo",
+      "display_name": "夏雲なつも(なつくもなつも)",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/natugumo-natumo/"
+    },
+    {
+      "source_id": "agency-mvirtual:nazuki-sui",
+      "display_name": "凪月 翠",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nazuki-sui/"
+    },
+    {
+      "source_id": "agency-mvirtual:nekomaki-saku",
+      "display_name": "猫巻さく",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nekomaki-saku/"
+    },
+    {
+      "source_id": "agency-mvirtual:nekomameu",
+      "display_name": "猫間めう",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nekomameu/"
+    },
+    {
+      "source_id": "agency-mvirtual:nekosuki-emiri",
+      "display_name": "猫犁咲凛(ねこすきえみり)",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nekosuki-emiri/"
+    },
+    {
+      "source_id": "agency-mvirtual:nekoya-kirito",
+      "display_name": "ネコヤ・キリト",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nekoya-kirito/"
+    },
+    {
+      "source_id": "agency-mvirtual:nekuro-rei",
+      "display_name": "音黒 レイ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nekuro-rei/"
+    },
+    {
+      "source_id": "agency-mvirtual:nicotaru",
+      "display_name": "にこたる",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nicotaru/"
+    },
+    {
+      "source_id": "agency-mvirtual:nona-chan",
+      "display_name": "のなちゃん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/nona-chan/"
+    },
+    {
+      "source_id": "agency-mvirtual:onituri-rod",
+      "display_name": "鬼釣 ロッド",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/onituri-rod/"
+    },
+    {
+      "source_id": "agency-mvirtual:ookiba-pome",
+      "display_name": "大牙ぽめ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ookiba-pome/"
+    },
+    {
+      "source_id": "agency-mvirtual:oshibai-enge",
+      "display_name": "尾柴井 えんげ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/oshibai-enge/"
+    },
+    {
+      "source_id": "agency-mvirtual:otogi",
+      "display_name": "おとぎ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/otogi/"
+    },
+    {
+      "source_id": "agency-mvirtual:otohime-kurage",
+      "display_name": "乙姫くらげ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/otohime-kurage/"
+    },
+    {
+      "source_id": "agency-mvirtual:otomaru",
+      "display_name": "おとまる",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/otomaru/"
+    },
+    {
+      "source_id": "agency-mvirtual:otomusubi-miyu",
+      "display_name": "音結 みゆ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/otomusubi-miyu/"
+    },
+    {
+      "source_id": "agency-mvirtual:otori-kaede",
+      "display_name": "鳳カエデ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/otori-kaede/"
+    },
+    {
+      "source_id": "agency-mvirtual:ototuki-yumeka",
+      "display_name": "音月 夢叶",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ototuki-yumeka/"
+    },
+    {
+      "source_id": "agency-mvirtual:ponkochan",
+      "display_name": "ポン子ﾁｬﾝ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ponkochan/"
+    },
+    {
+      "source_id": "agency-mvirtual:reo-nova",
+      "display_name": "レオ・ノヴァ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/reo-nova/"
+    },
+    {
+      "source_id": "agency-mvirtual:reon",
+      "display_name": "雨音-reon-",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/reon/"
+    },
+    {
+      "source_id": "agency-mvirtual:rinne-ema",
+      "display_name": "輪廻エマ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/rinne-ema/"
+    },
+    {
+      "source_id": "agency-mvirtual:rio",
+      "display_name": "莉桜-Rio-",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/rio/"
+    },
+    {
+      "source_id": "agency-mvirtual:rokujyou-kiyoharu",
+      "display_name": "六條 清春",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/rokujyou-kiyoharu/"
+    },
+    {
+      "source_id": "agency-mvirtual:roll",
+      "display_name": "ろうる",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/roll/"
+    },
+    {
+      "source_id": "agency-mvirtual:rubetto",
+      "display_name": "わがひめ るべっと",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/rubetto/"
+    },
+    {
+      "source_id": "agency-mvirtual:rurikawa-gaku",
+      "display_name": "瑠璃川ガク",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/rurikawa-gaku/"
+    },
+    {
+      "source_id": "agency-mvirtual:ryugu-ren",
+      "display_name": "琉宮レン",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/ryugu-ren/"
+    },
+    {
+      "source_id": "agency-mvirtual:sakeyui-nouki",
+      "display_name": "酒結のうき",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sakeyui-nouki/"
+    },
+    {
+      "source_id": "agency-mvirtual:sakezukiaru",
+      "display_name": "酒月アル",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sakezukiaru/"
+    },
+    {
+      "source_id": "agency-mvirtual:sakura-mion",
+      "display_name": "桜良みおん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sakura-mion/"
+    },
+    {
+      "source_id": "agency-mvirtual:sakurami-karin",
+      "display_name": "桜深カリン",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sakurami-karin/"
+    },
+    {
+      "source_id": "agency-mvirtual:sakuraotoha",
+      "display_name": "桜 おとは",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sakuraotoha/"
+    },
+    {
+      "source_id": "agency-mvirtual:sametsukimaru",
+      "display_name": "鮫月まる",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sametsukimaru/"
+    },
+    {
+      "source_id": "agency-mvirtual:sawa",
+      "display_name": "サワー",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sawa/"
+    },
+    {
+      "source_id": "agency-mvirtual:seguroito",
+      "display_name": "瀬黒絃(せぐろいと)",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/seguroito/"
+    },
+    {
+      "source_id": "agency-mvirtual:senkyu-hajime",
+      "display_name": "千休　一",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/senkyu-hajime/"
+    },
+    {
+      "source_id": "agency-mvirtual:shidou-koneko",
+      "display_name": "紫藤 狐猫",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shidou-koneko/"
+    },
+    {
+      "source_id": "agency-mvirtual:shigaku-mikoto",
+      "display_name": "詩学みこと",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shigaku-mikoto/"
+    },
+    {
+      "source_id": "agency-mvirtual:shimenoochazuke",
+      "display_name": "〆のお茶漬け",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shimenoochazuke/"
+    },
+    {
+      "source_id": "agency-mvirtual:shinohara-kou",
+      "display_name": "篠原 煌",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shinohara-kou/"
+    },
+    {
+      "source_id": "agency-mvirtual:shinonome-ten",
+      "display_name": "東雲 天",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shinonome-ten/"
+    },
+    {
+      "source_id": "agency-mvirtual:shion-ritsu",
+      "display_name": "紫苑 律",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shion-ritsu/"
+    },
+    {
+      "source_id": "agency-mvirtual:shirafuji-kume",
+      "display_name": "白藤くめ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shirafuji-kume/"
+    },
+    {
+      "source_id": "agency-mvirtual:shirakawa-sora",
+      "display_name": "白川蒼空",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shirakawa-sora/"
+    },
+    {
+      "source_id": "agency-mvirtual:shirogane-wataru",
+      "display_name": "白金 渉",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shirogane-wataru/"
+    },
+    {
+      "source_id": "agency-mvirtual:shirokihon",
+      "display_name": "白記本",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shirokihon/"
+    },
+    {
+      "source_id": "agency-mvirtual:shizukuishi-tuyu",
+      "display_name": "雫石つゆ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shizukuishi-tuyu/"
+    },
+    {
+      "source_id": "agency-mvirtual:shizumiuren",
+      "display_name": "紫澄 うれん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/shizumiuren/"
+    },
+    {
+      "source_id": "agency-mvirtual:sirakami",
+      "display_name": "白神",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sirakami/"
+    },
+    {
+      "source_id": "agency-mvirtual:sorahate-banri",
+      "display_name": "空果 卍璃",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sorahate-banri/"
+    },
+    {
+      "source_id": "agency-mvirtual:sorakawamui",
+      "display_name": "空川夢依",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sorakawamui/"
+    },
+    {
+      "source_id": "agency-mvirtual:sorane",
+      "display_name": "空音",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/sorane/"
+    },
+    {
+      "source_id": "agency-mvirtual:suikazura-gin",
+      "display_name": "忍冬　銀",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/suikazura-gin/"
+    },
+    {
+      "source_id": "agency-mvirtual:suzuki-mone",
+      "display_name": "鈴木モネ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/suzuki-mone/"
+    },
+    {
+      "source_id": "agency-mvirtual:tachibana-tsunagu",
+      "display_name": "立花 結",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/tachibana-tsunagu/"
+    },
+    {
+      "source_id": "agency-mvirtual:takanashi-noa",
+      "display_name": "小鳥遊ノア",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/takanashi-noa/"
+    },
+    {
+      "source_id": "agency-mvirtual:takumi",
+      "display_name": "檜垣 匠海",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/takumi/"
+    },
+    {
+      "source_id": "agency-mvirtual:tania-raspberry",
+      "display_name": "タニア・ラズベリー",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/tania-raspberry/"
+    },
+    {
+      "source_id": "agency-mvirtual:tatibana-mikan",
+      "display_name": "橘みかん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/tatibana-mikan/"
+    },
+    {
+      "source_id": "agency-mvirtual:teria",
+      "display_name": "テリア",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/teria/"
+    },
+    {
+      "source_id": "agency-mvirtual:tsukino-manamin",
+      "display_name": "月野まなみん",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/tsukino-manamin/"
+    },
+    {
+      "source_id": "agency-mvirtual:tsukushi-kei",
+      "display_name": "月紫 景",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/tsukushi-kei/"
+    },
+    {
+      "source_id": "agency-mvirtual:tsumugi-nina",
+      "display_name": "紡木ニナ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/tsumugi-nina/"
+    },
+    {
+      "source_id": "agency-mvirtual:tsuna",
+      "display_name": "緤",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/tsuna/"
+    },
+    {
+      "source_id": "agency-mvirtual:tuyuri-kedaru",
+      "display_name": "五月七日けだる",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/tuyuri-kedaru/"
+    },
+    {
+      "source_id": "agency-mvirtual:usui-haku",
+      "display_name": "雨水ハク",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/usui-haku/"
+    },
+    {
+      "source_id": "agency-mvirtual:uzuki-jin",
+      "display_name": "宇月仁",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/uzuki-jin/"
+    },
+    {
+      "source_id": "agency-mvirtual:waon-2",
+      "display_name": "和音",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/waon-2/"
+    },
+    {
+      "source_id": "agency-mvirtual:watarasuzuho",
+      "display_name": "渡蘭 珠壽穂",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/watarasuzuho/"
+    },
+    {
+      "source_id": "agency-mvirtual:watashiba-rimu",
+      "display_name": "わたしば りむ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/watashiba-rimu/"
+    },
+    {
+      "source_id": "agency-mvirtual:wayanoeru",
+      "display_name": "鷲矢ノエル",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/wayanoeru/"
+    },
+    {
+      "source_id": "agency-mvirtual:yamabuki-wakana",
+      "display_name": "山吹わかな",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yamabuki-wakana/"
+    },
+    {
+      "source_id": "agency-mvirtual:yamabukishiki",
+      "display_name": "山吹 シキ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yamabukishiki/"
+    },
+    {
+      "source_id": "agency-mvirtual:yoiduki-ren",
+      "display_name": "宵月レン",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yoiduki-ren/"
+    },
+    {
+      "source_id": "agency-mvirtual:yoimiya-gato",
+      "display_name": "宵宮ガト",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yoimiya-gato/"
+    },
+    {
+      "source_id": "agency-mvirtual:yonagi-kia",
+      "display_name": "夜凪キア",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yonagi-kia/"
+    },
+    {
+      "source_id": "agency-mvirtual:yuki-mikoto",
+      "display_name": "雪みこと",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yuki-mikoto/"
+    },
+    {
+      "source_id": "agency-mvirtual:yukimiya-momo",
+      "display_name": "雪宮桃",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yukimiya-momo/"
+    },
+    {
+      "source_id": "agency-mvirtual:yumemi-koko",
+      "display_name": "夢美ココ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yumemi-koko/"
+    },
+    {
+      "source_id": "agency-mvirtual:yumemisui",
+      "display_name": "夢未すい",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yumemisui/"
+    },
+    {
+      "source_id": "agency-mvirtual:yunagi-site",
+      "display_name": "夕凪シテ",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yunagi-site/"
+    },
+    {
+      "source_id": "agency-mvirtual:yurui-suu",
+      "display_name": "緩井 澄羽(ゆるい すう)",
+      "platforms": [
+        "reality"
+      ],
+      "source_url": "https://m-virtual.jp/liver/yurui-suu/"
+    },
+    {
+      "source_id": "agency-spiruna:MizutaMari",
+      "display_name": "みずたまり",
+      "platforms": [
+        "iriam",
+        "tiktok"
+      ],
+      "source_url": "https://spiruna.jp/creators/MizutaMari"
+    },
+    {
+      "source_id": "agency-spiruna:asagi_runa",
+      "display_name": "浅葱月狼",
+      "platforms": [
+        "tiktok"
+      ],
+      "source_url": "https://spiruna.jp/creators/asagi_runa"
+    },
+    {
+      "source_id": "agency-spiruna:kurageshiro",
+      "display_name": "海月 しろ",
+      "platforms": [
+        "tiktok"
+      ],
+      "source_url": "https://spiruna.jp/creators/kurageshiro"
+    },
+    {
+      "source_id": "agency-spiruna:niainia",
+      "display_name": "仁愛にあ",
+      "platforms": [
+        "tiktok"
+      ],
+      "source_url": "https://spiruna.jp/creators/niainia"
+    },
+    {
+      "source_id": "creator-litlink:3nmma",
+      "display_name": "3nmma",
+      "platforms": [
+        "mirrativ",
+        "twitch",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/3nmma"
+    },
+    {
+      "source_id": "creator-litlink:Riira306",
+      "display_name": "柏樹 璃依楽",
+      "platforms": [
+        "mirrativ",
+        "twitcasting"
+      ],
+      "source_url": "https://lit.link/Riira306"
+    },
+    {
+      "source_id": "creator-litlink:Tenshogimadoka",
+      "display_name": "天象儀まどか",
+      "platforms": [
+        "17live",
+        "tiktok",
+        "topia"
+      ],
+      "source_url": "https://lit.link/Tenshogimadoka"
+    },
+    {
+      "source_id": "creator-litlink:azu29",
+      "display_name": "猫渡ぼく",
+      "platforms": [
+        "whowatch",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/azu29"
+    },
+    {
+      "source_id": "creator-litlink:mamorinobara",
+      "display_name": "魔森のばら",
+      "platforms": [
+        "palmu",
+        "tiktok"
+      ],
+      "source_url": "https://lit.link/mamorinobara"
+    },
+    {
+      "source_id": "creator-litlink:oisuuuuu",
+      "display_name": "うみちゃろ",
+      "platforms": [
+        "twitch",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/oisuuuuu"
+    },
+    {
+      "source_id": "creator-litlink:roi1027",
+      "display_name": "ろあ",
+      "platforms": [
+        "iriam",
+        "mirrativ",
+        "topia"
+      ],
+      "source_url": "https://lit.link/roi1027"
+    },
+    {
+      "source_id": "creator-litlink:shikibusakazaki",
+      "display_name": "酒咲しきぶ",
+      "platforms": [
+        "mixch",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/shikibusakazaki"
+    },
+    {
+      "source_id": "creator-litlink:syutenmisama",
+      "display_name": "酒吞 みー様",
+      "platforms": [
+        "mirrativ",
+        "topia",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/syutenmisama"
+    },
+    {
+      "source_id": "creator-litlink:tamashi_ome",
+      "display_name": "魂おめ",
+      "platforms": [
+        "mirrativ"
+      ],
+      "source_url": "https://lit.link/tamashi_ome"
+    },
+    {
+      "source_id": "creator-litlink:yukawkwk",
+      "display_name": "絢芽 ゆうか",
+      "platforms": [
+        "mixch",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/yukawkwk"
+    },
+    {
+      "source_id": "creator-litlink:yumemiyayuria",
+      "display_name": "夢宮ゆりあ",
+      "platforms": [
+        "mirrativ",
+        "topia",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/yumemiyayuria"
+    },
+    {
+      "source_id": "creator-litlink:yunomi0606",
+      "display_name": "茶柱ゆのみ",
+      "platforms": [
+        "colorsing",
+        "reality",
+        "tiktok",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/yunomi0606"
+    },
+    {
+      "source_id": "iriam:24731caa-e7c7-4b5e-bd16-7301bf7cf3e7",
+      "display_name": "涼風ブラス@9/8ﾊﾞﾅｲﾍﾞ",
+      "platforms": [
+        "iriam"
+      ],
+      "source_url": "https://listart.jp/"
+    },
+    {
+      "source_id": "iriam:2c393a38-c4a2-42ce-99fc-cf3a5aab381c",
+      "display_name": "甘癒あまる🦄🍬💖",
+      "platforms": [
+        "iriam"
+      ],
+      "source_url": "https://listart.jp/"
+    },
+    {
+      "source_id": "kick:leaflit",
+      "display_name": "Leaflit",
+      "platforms": [
+        "kick"
+      ],
+      "source_url": "https://kick.com/leaflit"
+    },
+    {
+      "source_id": "niconico:100894",
+      "display_name": "姉妹愛",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/100894"
+    },
+    {
+      "source_id": "niconico:1039696",
+      "display_name": "かえる",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/1039696"
+    },
+    {
+      "source_id": "niconico:10433947",
+      "display_name": "竜胆咲ニュラ（りんどうざき）",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/10433947"
+    },
+    {
+      "source_id": "niconico:110971",
+      "display_name": "くまさん",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/110971"
+    },
+    {
+      "source_id": "niconico:1127518",
+      "display_name": "KU＠筋トレetc",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/1127518"
+    },
+    {
+      "source_id": "niconico:118847258",
+      "display_name": "しじみくん",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/118847258"
+    },
+    {
+      "source_id": "niconico:119948",
+      "display_name": "夢魘めあ【酒飲み雑談ゲーム配信】",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/119948"
+    },
+    {
+      "source_id": "niconico:120863383",
+      "display_name": "棺ハドVOL.03",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/120863383"
+    },
+    {
+      "source_id": "niconico:120945971",
+      "display_name": "灯子（とーこ）",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/120945971"
+    },
+    {
+      "source_id": "niconico:121388753",
+      "display_name": "御多福神社",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/121388753"
+    },
+    {
+      "source_id": "niconico:122031868",
+      "display_name": "桃色 なこ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/122031868"
+    },
+    {
+      "source_id": "niconico:123939295",
+      "display_name": "ほかほかおぱんちゅ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/123939295"
+    },
+    {
+      "source_id": "niconico:124527864",
+      "display_name": "テンタクル七海",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/124527864"
+    },
+    {
+      "source_id": "niconico:12521313",
+      "display_name": "_(_ﾟヮﾟ)_Ar浜松春香",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/12521313"
+    },
+    {
+      "source_id": "niconico:125241800",
+      "display_name": "いーく せなこ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/125241800"
+    },
+    {
+      "source_id": "niconico:125382489",
+      "display_name": "16",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/125382489"
+    },
+    {
+      "source_id": "niconico:125407984",
+      "display_name": "うゆ♡",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/125407984"
+    },
+    {
+      "source_id": "niconico:125881295",
+      "display_name": "阿頼耶シキ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/125881295"
+    },
+    {
+      "source_id": "niconico:128498470",
+      "display_name": "神風ミオ アイドル？VTuber",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/128498470"
+    },
+    {
+      "source_id": "niconico:128655747",
+      "display_name": "めぐるん (めぐる)",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/128655747"
+    },
+    {
+      "source_id": "niconico:12943162",
+      "display_name": "うなまりあ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/12943162"
+    },
+    {
+      "source_id": "niconico:13069387",
+      "display_name": "sollamimi",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/13069387"
+    },
+    {
+      "source_id": "niconico:131550143",
+      "display_name": "フレア⭐️イナリス32",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/131550143"
+    },
+    {
+      "source_id": "niconico:132797005",
+      "display_name": "月宮いちか",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/132797005"
+    },
+    {
+      "source_id": "niconico:13407637",
+      "display_name": "りゆうた（半Vtuber）",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/13407637"
+    },
+    {
+      "source_id": "niconico:134976310",
+      "display_name": "菊光アイト",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/134976310"
+    },
+    {
+      "source_id": "niconico:138308434",
+      "display_name": "せい",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/138308434"
+    },
+    {
+      "source_id": "niconico:138863428",
+      "display_name": "まぶち",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/138863428"
+    },
+    {
+      "source_id": "niconico:139653691",
+      "display_name": "ククルアクレイユ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/139653691"
+    },
+    {
+      "source_id": "niconico:140597862",
+      "display_name": "ぽりちゃん",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/140597862"
+    },
+    {
+      "source_id": "niconico:141254164",
+      "display_name": "草ばやし",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/141254164"
+    },
+    {
+      "source_id": "niconico:14861723",
+      "display_name": "天丼仮面たらこ天使ちゃん:。*。",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/14861723"
+    },
+    {
+      "source_id": "niconico:15916008",
+      "display_name": "星影キノコ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/15916008"
+    },
+    {
+      "source_id": "niconico:17167825",
+      "display_name": "カワウソ☆ひろし",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/17167825"
+    },
+    {
+      "source_id": "niconico:17206074",
+      "display_name": "レイリ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/17206074"
+    },
+    {
+      "source_id": "niconico:1765545",
+      "display_name": "紅乃 翠 Kureno Sui",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/1765545"
+    },
+    {
+      "source_id": "niconico:187083",
+      "display_name": "アル",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/187083"
+    },
+    {
+      "source_id": "niconico:205589",
+      "display_name": "parton(七七七まぐの)",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/205589"
+    },
+    {
+      "source_id": "niconico:21812186",
+      "display_name": "みーたそ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/21812186"
+    },
+    {
+      "source_id": "niconico:22359",
+      "display_name": "まさ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/22359"
+    },
+    {
+      "source_id": "niconico:22837097",
+      "display_name": "むっさん",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/22837097"
+    },
+    {
+      "source_id": "niconico:2386392",
+      "display_name": "星菓子あめ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/2386392"
+    },
+    {
+      "source_id": "niconico:24126719",
+      "display_name": "白居まる",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/24126719"
+    },
+    {
+      "source_id": "niconico:25017548",
+      "display_name": "@RO_KU_6_",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/25017548"
+    },
+    {
+      "source_id": "niconico:2661185",
+      "display_name": "☆+*きりん*+☆",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/2661185"
+    },
+    {
+      "source_id": "niconico:2741675",
+      "display_name": "新ダイ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/2741675"
+    },
+    {
+      "source_id": "niconico:27438608",
+      "display_name": "家猫つぼみ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/27438608"
+    },
+    {
+      "source_id": "niconico:277711",
+      "display_name": "ずぼら",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/277711"
+    },
+    {
+      "source_id": "niconico:2800838",
+      "display_name": "そし*ネコ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/2800838"
+    },
+    {
+      "source_id": "niconico:2863714",
+      "display_name": "豆腐",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/2863714"
+    },
+    {
+      "source_id": "niconico:2879217",
+      "display_name": "overeater",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/2879217"
+    },
+    {
+      "source_id": "niconico:29904036",
+      "display_name": "60@かんれきマーメイド",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/29904036"
+    },
+    {
+      "source_id": "niconico:300532",
+      "display_name": "竹ちくわ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/300532"
+    },
+    {
+      "source_id": "niconico:3067092",
+      "display_name": "マニーちゃん",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/3067092"
+    },
+    {
+      "source_id": "niconico:3108866",
+      "display_name": "シャンパーニュ・ロゼ・ロワイヤル",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/3108866"
+    },
+    {
+      "source_id": "niconico:326475",
+      "display_name": "藜",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/326475"
+    },
+    {
+      "source_id": "niconico:32779609",
+      "display_name": "Tousou",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/32779609"
+    },
+    {
+      "source_id": "niconico:33212176",
+      "display_name": "ああつ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/33212176"
+    },
+    {
+      "source_id": "niconico:33590984",
+      "display_name": "ばけ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/33590984"
+    },
+    {
+      "source_id": "niconico:33872141",
+      "display_name": "はげしみ〜",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/33872141"
+    },
+    {
+      "source_id": "niconico:34230442",
+      "display_name": "二家 葵 (ニカ　アオイ)",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/34230442"
+    },
+    {
+      "source_id": "niconico:37479043",
+      "display_name": "あづづm",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/37479043"
+    },
+    {
+      "source_id": "niconico:37861517",
+      "display_name": "姫野紫陽花",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/37861517"
+    },
+    {
+      "source_id": "niconico:4172526",
+      "display_name": "えにし",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/4172526"
+    },
+    {
+      "source_id": "niconico:47393771",
+      "display_name": "巻野石リア",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/47393771"
+    },
+    {
+      "source_id": "niconico:482183",
+      "display_name": "あまさひかえめちゃん",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/482183"
+    },
+    {
+      "source_id": "niconico:4880528",
+      "display_name": "ろっかまん",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/4880528"
+    },
+    {
+      "source_id": "niconico:50659328",
+      "display_name": "雪待月",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/50659328"
+    },
+    {
+      "source_id": "niconico:513789",
+      "display_name": "佐久ハラミ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/513789"
+    },
+    {
+      "source_id": "niconico:5196362",
+      "display_name": "かざのあず",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/5196362"
+    },
+    {
+      "source_id": "niconico:5301152",
+      "display_name": "森乃 いぺ熊",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/5301152"
+    },
+    {
+      "source_id": "niconico:547255",
+      "display_name": "ささぼん。",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/547255"
+    },
+    {
+      "source_id": "niconico:56609795",
+      "display_name": "んぱっ♡",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/56609795"
+    },
+    {
+      "source_id": "niconico:592838",
+      "display_name": "奏月 ここ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/592838"
+    },
+    {
+      "source_id": "niconico:59359575",
+      "display_name": "ごりら。(ex：ゆんゆん。。)",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/59359575"
+    },
+    {
+      "source_id": "niconico:597144",
+      "display_name": "yasu",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/597144"
+    },
+    {
+      "source_id": "niconico:603275",
+      "display_name": "roadrunner",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/603275"
+    },
+    {
+      "source_id": "niconico:6525087",
+      "display_name": "平仮名",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/6525087"
+    },
+    {
+      "source_id": "niconico:71231948",
+      "display_name": "ためいきしちゃうよ。",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/71231948"
+    },
+    {
+      "source_id": "niconico:7487409",
+      "display_name": "むじな伊藤",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/7487409"
+    },
+    {
+      "source_id": "niconico:75408276",
+      "display_name": "どんぐりコロコロ　　　　(^^)",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/75408276"
+    },
+    {
+      "source_id": "niconico:7837418",
+      "display_name": "めんみ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/7837418"
+    },
+    {
+      "source_id": "niconico:810592",
+      "display_name": "無責任",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/810592"
+    },
+    {
+      "source_id": "niconico:85402465",
+      "display_name": "サーラちゃんさま小公国",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/85402465"
+    },
+    {
+      "source_id": "niconico:90508201",
+      "display_name": "レビニア",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/90508201"
+    },
+    {
+      "source_id": "niconico:94594825",
+      "display_name": "姪っ子",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/94594825"
+    },
+    {
+      "source_id": "niconico:96099947",
+      "display_name": "ただのかむだ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/96099947"
+    },
+    {
+      "source_id": "niconico:96276222",
+      "display_name": "アメミヤチカ",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/96276222"
+    },
+    {
+      "source_id": "niconico:99244922",
+      "display_name": "純粋なあいかちゃん",
+      "platforms": [
+        "niconico"
+      ],
+      "source_url": "https://www.nicovideo.jp/user/99244922"
+    },
+    {
+      "source_id": "radiotalk:65414",
+      "display_name": "フランミルク",
+      "platforms": [
+        "radiotalk",
+        "youtube"
+      ],
+      "source_url": "https://radiotalk.jp/program/65414"
+    },
+    {
+      "source_id": "reviewed-platform:Poachi",
+      "display_name": "ぽわり♡ぽあち",
+      "platforms": [
+        "niconico",
+        "twitcasting",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/Poachi"
+    },
+    {
+      "source_id": "reviewed-platform:akkiiuta",
+      "display_name": "あっきー",
+      "platforms": [
+        "niconico",
+        "tiktok",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/akkiiuta"
+    },
+    {
+      "source_id": "reviewed-platform:genmaichasilitai",
+      "display_name": "玄米茶 好ノ助",
+      "platforms": [
+        "niconico",
+        "twitcasting",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/genmaichasilitai"
+    },
+    {
+      "source_id": "reviewed-platform:ishihaishin",
+      "display_name": "石田イシ",
+      "platforms": [
+        "niconico",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/ishihaishin"
+    },
+    {
+      "source_id": "reviewed-platform:koyari",
+      "display_name": "漣こやり",
+      "platforms": [
+        "showroom"
+      ],
+      "source_url": "https://lit.link/koyari"
+    },
+    {
+      "source_id": "reviewed-platform:nanasen3",
+      "display_name": "漆閃",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/nanasen3"
+    },
+    {
+      "source_id": "reviewed-platform:nekonov",
+      "display_name": "猫乃",
+      "platforms": [
+        "niconico",
+        "tiktok",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/nekonov"
+    },
+    {
+      "source_id": "reviewed-platform:rana66",
+      "display_name": "RaNa",
+      "platforms": [
+        "niconico",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/rana66"
+    },
+    {
+      "source_id": "reviewed-platform:sayutasu",
+      "display_name": "Sayutasu",
+      "platforms": [
+        "17live",
+        "tiktok",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/sayutasu"
+    },
+    {
+      "source_id": "reviewed-platform:tamayura10",
+      "display_name": "玉藻ゆら",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/tamayura10"
+    },
+    {
+      "source_id": "reviewed-platform:uriri0",
+      "display_name": "うりり",
+      "platforms": [
+        "niconico",
+        "twitch",
+        "youtube"
+      ],
+      "source_url": "https://lit.link/uriri0"
+    },
+    {
+      "source_id": "spoon:311691082",
+      "display_name": "ねむりめ",
+      "platforms": [
+        "spoon"
+      ],
+      "source_url": "https://www.spooncast.net/jp/channel/311691082/tab/home"
+    }
+  ],
+  "held_for_identity_review": [
+    {
+      "source_id": "agency-spiruna:hazikimirai",
+      "display_name": "羽月みらい",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://spiruna.jp/creators/hazikimirai"
+    },
+    {
+      "source_id": "reviewed-platform:masyumon8",
+      "display_name": "マシュもん☆",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://lit.link/masyumon8"
+    },
+    {
+      "source_id": "niconico:126711082",
+      "display_name": "黒沼衛人",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://www.nicovideo.jp/user/126711082"
+    },
+    {
+      "source_id": "niconico:89380065",
+      "display_name": "文月卯月",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://www.nicovideo.jp/user/89380065"
+    },
+    {
+      "source_id": "niconico:5244990",
+      "display_name": "ミドリノハサミ",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://www.nicovideo.jp/user/5244990"
+    },
+    {
+      "source_id": "niconico:88524598",
+      "display_name": "里見アイボ",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://www.nicovideo.jp/user/88524598"
+    },
+    {
+      "source_id": "niconico:4571725",
+      "display_name": "Makuras",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://www.nicovideo.jp/user/4571725"
+    },
+    {
+      "source_id": "niconico:8728168",
+      "display_name": "赤石みあ",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://www.nicovideo.jp/user/8728168"
+    },
+    {
+      "source_id": "agency-mvirtual:haruchan",
+      "display_name": "はるちゃん",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://m-virtual.jp/liver/haruchan/"
+    },
+    {
+      "source_id": "agency-mvirtual:nia",
+      "display_name": "にあ",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://m-virtual.jp/liver/nia/"
+    },
+    {
+      "source_id": "agency-mvirtual:titatapu",
+      "display_name": "ちたたぷ",
+      "reason": "same_name_without_confirmed_shared_account",
+      "source_url": "https://m-virtual.jp/liver/titatapu/"
+    }
+  ],
+  "notes": [
+    "Official Nico VTuber-only finished event: positive scores required; guest/placeholder identities excluded.",
+    "Creator biographies and images are not copied into published records.",
+    "Same-name records without a confirmed shared account are held rather than fuzzy-merged.",
+    "Counts per platform overlap for multi-platform creators."
+  ],
+  "existing_records_refreshed": 1213,
+  "supported_platforms": [
+    "youtube",
+    "tiktok",
+    "iriam",
+    "avvy",
+    "reality",
+    "twitch",
+    "17live",
+    "showroom",
+    "twitcasting",
+    "niconico",
+    "mirrativ",
+    "bilibili",
+    "spoon",
+    "kick",
+    "soop",
+    "topia",
+    "palmu",
+    "mixch",
+    "bigo",
+    "acfun",
+    "whowatch",
+    "pococha",
+    "colorsing",
+    "pikapika",
+    "everylive",
+    "standfm",
+    "radiotalk",
+    "openrec",
+    "pokekara",
+    "instagram",
+    "facebook",
+    "chzzk",
+    "rplay"
+  ]
+}

@@ -47,32 +47,44 @@
     "ambiguous_skipped": 0
   },
   "records": {
-    "listed": 32880,
-    "platform_records": 11232,
-    "with_primary_platforms": 1422,
-    "with_vliver_source": 1437,
-    "with_icons": 497,
+    "listed": 33279,
+    "platform_records": 11531,
+    "with_primary_platforms": 1615,
+    "with_vliver_source": 1718,
     "platform_counts": {
-      "youtube": 737,
-      "tiktok": 38,
-      "iriam": 1143,
-      "avvy": 15,
-      "reality": 211,
-      "twitch": 51,
-      "17live": 65,
-      "showroom": 6,
-      "twitcasting": 1,
-      "niconico": 4,
-      "mirrativ": 0,
+      "youtube": 768,
+      "tiktok": 57,
+      "iriam": 1149,
+      "avvy": 16,
+      "reality": 378,
+      "twitch": 55,
+      "17live": 70,
+      "showroom": 7,
+      "twitcasting": 6,
+      "niconico": 105,
+      "mirrativ": 6,
       "bilibili": 9519,
-      "spoon": 0,
-      "kick": 0,
+      "spoon": 1,
+      "kick": 1,
       "soop": 0,
-      "topia": 2,
-      "palmu": 0,
-      "mixch": 0,
+      "topia": 6,
+      "palmu": 1,
+      "mixch": 3,
       "bigo": 0,
-      "acfun": 35
+      "acfun": 35,
+      "whowatch": 1,
+      "pococha": 0,
+      "colorsing": 1,
+      "pikapika": 1,
+      "everylive": 0,
+      "standfm": 1,
+      "radiotalk": 1,
+      "openrec": 0,
+      "pokekara": 0,
+      "instagram": 0,
+      "facebook": 0,
+      "chzzk": 0,
+      "rplay": 0
     }
   },
   "vdb_accounts": {
@@ -93,20 +105,32 @@
   },
   "listart": {
     "source": "https://listart.jp/",
-    "verified_source_records": 151,
-    "new_records": 0,
+    "verified_source_records": 153,
+    "new_records": 2,
     "matched_existing": 151,
     "ambiguous_skipped": 0
   },
   "atoms": {
     "source": "https://kyampus.me/atoms/liver",
     "candidate_profiles": 110,
-    "checked_profiles": 40,
-    "verified_source_records": 39,
-    "next_index": 40,
-    "retry_urls": [],
+    "checked_profiles": 110,
+    "verified_source_records": 97,
+    "next_index": 0,
+    "retry_urls": [
+      "https://kyampus.me/atoms/liver/E15LZTMF",
+      "https://kyampus.me/atoms/liver/HeartLuv",
+      "https://kyampus.me/atoms/liver/HibariEnzi",
+      "https://kyampus.me/atoms/liver/HikaYumegaoka",
+      "https://kyampus.me/atoms/liver/Ltdw-PAS",
+      "https://kyampus.me/atoms/liver/SoraAmatuka",
+      "https://kyampus.me/atoms/liver/UtakataWaltz",
+      "https://kyampus.me/atoms/liver/chikyuumahiro",
+      "https://kyampus.me/atoms/liver/izunaYaeduka",
+      "https://kyampus.me/atoms/liver/jSEPyMZH",
+      "https://kyampus.me/atoms/liver/kanatamashiro"
+    ],
     "new_records": 0,
-    "matched_existing": 39,
+    "matched_existing": 97,
     "ambiguous_skipped": 0
   },
   "identity_repairs": {
@@ -114,17 +138,17 @@
     "evidence": "https://www.youtube.com/@AIVtuber_Shizuku"
   },
   "reviewed_platforms": {
-    "source": "https://spiruna.jp/",
-    "verified_source_records": 2,
-    "new_records": 2,
-    "matched_existing": 0,
+    "source_records": 448,
+    "checked_at": "2026-09-08",
+    "new_records": 272,
+    "matched_existing": 157,
     "ambiguous_skipped": 0
   },
   "ozon": {
     "source": "https://ozon.jp/v/liver/",
     "verified_source_records": 156,
-    "new_records": 154,
-    "matched_existing": 2,
+    "new_records": 0,
+    "matched_existing": 156,
     "ambiguous_skipped": 0
   },
   "linear": {
@@ -150,5 +174,11 @@
     "new_records": 208,
     "matched_existing": 0,
     "ambiguous_skipped": 0
+  },
+  "manual_expansion": {
+    "checked_at": "2026-09-08",
+    "report": "scripts/non-youtube-expansion-report.json",
+    "new_people": 292,
+    "linear_verified_cached_profiles": 14
   }
 }

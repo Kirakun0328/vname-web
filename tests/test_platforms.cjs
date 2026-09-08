@@ -115,3 +115,22 @@ test('published data searches and renders a TikTok V-liver without requiring You
  assert.equal(p.account('https://s.avvy.live/u/01jqw901crpbxrmmapm20a84qa?lang=ja').platform,'avvy');
 
 });
+test('major-service profile links survive rendering with identity query parameters',()=>{
+ for(const [platform,url] of [
+  ['mirrativ','https://mirrativ.page.link/?link=https%3A%2F%2Fwww.mirrativ.com%2Fuser%2F151711048'],
+  ['topia','https://topia.tv/p/uM7HG'],['palmu','https://app.palmu.jp/users/a7413a8b12624c308fa8'],
+  ['whowatch','https://whowatch.tv/profile/w%3Abokukun2323'],
+  ['colorsing','https://web.colorsing.com/share/user?user_id=729e55d8-4775-4560-b549-ffa3d9dbd881&utm_source=test'],
+  ['pikapika','https://pikapika.live/index/roomuser/uid/4101478625323'],
+  ['pococha','https://www.pococha.com/app/users/1e273cf1-4810-4f8d-afe8-7154d4e5d3be'],
+  ['standfm','https://stand.fm/channels/61225fd77de6f0a0e0827095'],
+  ['radiotalk','https://radiotalk.jp/program/65414'],['openrec','https://www.openrec.tv/m/user/raiju68'],
+  ['chzzk','https://chzzk.naver.com/'+'a'.repeat(32)],['rplay','https://rplay.live/c/mahina']
+ ]) {
+  const d=detail({platform_accounts:[{url}]});assert.equal(d.accounts[0]?.platform,platform,url);
+  assert.deepEqual(d.primary,[]);assert.equal(p.account(d.accounts[0].url)?.platform,platform);
+  if(platform==='colorsing')assert.match(d.accounts[0].url,/user_id=729e55d8/);
+ }
+ assert.equal(p.account('https://mirrativ.page.link/?link=https://evil.example/user/151711048'),null);
+ assert.equal(p.account('https://web.colorsing.com/share/user?user_id=bad'),null);
+});

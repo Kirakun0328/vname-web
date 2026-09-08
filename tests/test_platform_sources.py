@@ -14,6 +14,28 @@ def row(name='テスト',url='https://www.tiktok.com/@example'):
 
 
 class PlatformTests(unittest.TestCase):
+    def test_shared_profile_urls_preserve_identity_without_following_redirects(self):
+        direct = canonical_account('https://www.mirrativ.com/user/151711048')
+        self.assertEqual(canonical_account('https://mirrativ.page.link/?link=https%3A%2F%2Fwww.mirrativ.com%2Fuser%2F151711048'), direct)
+        self.assertIsNone(canonical_account('https://mirrativ.page.link/?link=https://evil.example/user/151711048'))
+        uid = '729e55d8-4775-4560-b549-ffa3d9dbd881'
+        a = canonical_account('https://web.colorsing.com/share/user?user_id='+uid+'&utm_source=test')
+        self.assertEqual(a['id'], uid)
+        self.assertIn('user_id='+uid, a['url'])
+        self.assertEqual(canonical_account('https://whowatch.tv/profile/w%3Abokukun2323')['id'], 'w:bokukun2323')
+        self.assertEqual(canonical_account('https://app.palmu.jp/users/a7413a8b12624c308fa8')['platform'], 'palmu')
+
+    def test_niconico_mobile_links_merge_into_existing_identity(self):
+        base = [{'source_id': 'existing', 'display_name': '既存名',
+                 'source_url': 'https://www.nicovideo.jp/user/12345'}]
+        for host in ('sp.nicovideo.jp', 'cas.nicovideo.jp'):
+            url = 'https://' + host + '/user/12345?ref=share'
+            self.assertEqual(canonical_account(url)['url'], base[0]['source_url'])
+            result, counts = merge_platforms(base, [], [row(url=url)])
+            self.assertEqual(counts['new_records'], 0)
+            self.assertEqual(counts['matched_existing'], 1)
+            self.assertEqual(result[0]['source_id'], 'existing')
+
     def test_platform_identity_and_tracking_parameters(self):
         a=canonical_account('https://web.iriam.app/s/user/ABCdef?uuid=123')
         self.assertEqual(a['id'],'ABCdef')

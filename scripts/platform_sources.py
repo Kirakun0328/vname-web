@@ -13,7 +13,7 @@ from broad_sources import preparing, text
 LABELS = {'youtube':'YouTube', 'tiktok':'TikTok LIVE', 'iriam':'IRIAM', 'avvy':'Avvy',
           'reality':'REALITY', 'twitch':'Twitch', '17live':'17LIVE', 'showroom':'SHOWROOM',
           'twitcasting':'ツイキャス', 'niconico':'ニコニコ', 'mirrativ':'Mirrativ',
-          'bilibili':'bilibili', 'spoon':'Spoon', 'kick':'Kick', 'soop':'SOOP', 'topia':'topia', 'palmu':'Palmu', 'mixch':'ミクチャ', 'bigo':'BIGO LIVE', 'acfun':'AcFun'}
+          'bilibili':'bilibili', 'spoon':'Spoon', 'kick':'Kick', 'soop':'SOOP', 'topia':'topia', 'palmu':'Palmu', 'mixch':'ミクチャ', 'bigo':'BIGO LIVE', 'acfun':'AcFun', 'whowatch':'ふわっち', 'pococha':'Pococha', 'colorsing':'ColorSing', 'pikapika':'ピカピカ', 'everylive':'everylive', 'standfm':'stand.fm', 'radiotalk':'Radiotalk', 'openrec':'mellow-fan（旧OPENREC.tv）', 'pokekara':'Pokekara', 'instagram':'Instagram Live', 'facebook':'Facebook Live', 'chzzk':'CHZZK', 'rplay':'RPLAY'}
 AGENCIES = {'321': 'https://vliver.321.inc/liver/', 'clover': 'https://clover-live.com/liver-page/'}
 AVVY_INTERVIEW = 'https://panora.tokyo/archives/137121'
 ACTIVE = re.compile(r'配信(?:中(?!心|止|断)|(?:を)?(?:して(?:る|いる|います|おります|ます)|しております))|(?:雑談|歌|ゲーム)枠をしています|初配信を終|活動を始めた|活動中|デビュー済', re.I)
@@ -38,6 +38,17 @@ def canonical_account(url):
     path = unquote(u.path).rstrip('/')
     if host in ('x.com','twitter.com') and re.fullmatch(r'/i/user/\d+',path):
         return {'platform':'x','id':'uid:'+path.rsplit('/',1)[-1],'url':'https://x.com'+path}
+    if host == 'mirrativ.page.link':
+        target = parse_qs(u.query).get('link', [''])[0]
+        parsed = urlsplit(target)
+        if parsed.hostname in ('www.mirrativ.com', 'mirrativ.com'):
+            return canonical_account(target)
+        return None
+    if host == 'web.colorsing.com' and path == '/share/user':
+        uid = parse_qs(u.query).get('user_id', [''])[0]
+        if re.fullmatch(r'[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}', uid):
+            return {'platform':'colorsing','id':uid,'url':'https://web.colorsing.com/share/user?user_id='+uid}
+        return None
     patterns = [
         ('youtube', ('youtube.com', 'm.youtube.com'), r'/(channel/UC[\w-]{22}|@[\w.\-]+)'),
         ('tiktok', ('tiktok.com',), r'/(@[\w.\-]+)(?:/live)?'),
@@ -49,19 +60,31 @@ def canonical_account(url):
         ('17live', ('17.live',), r'/(?:[a-z]{2}/)?profile/([\w-]+)'),
         ('showroom', ('showroom-live.com',), r'/(?:r/)?([\w-]+)'),
         ('twitcasting', ('twitcasting.tv',), r'/([\w:.-]+)'),
-        ('niconico', ('nicovideo.jp',), r'/user/(\d+)'),
+        ('niconico', ('nicovideo.jp', 'sp.nicovideo.jp', 'cas.nicovideo.jp'), r'/user/(\d+)'),
         ('niconico', ('com.nicovideo.jp',), r'/community/(co\d+)'),
         ('mirrativ', ('mirrativ.com',), r'/user/(\d+)'),
         ('acfun', ('acfun.cn',), r'/u/(\d+)'),
         ('bilibili', ('space.bilibili.com',), r'/(\d+)'),
         ('spoon', ('spooncast.net',), r'/(?:[a-z]{2}/)?profile/([\w-]+)'),
         ('spoon', ('spooncast.net',), r'/(?:[a-z]{2}/)?channel/(\d+)(?:/tab/home)?'),
+        ('whowatch', ('whowatch.tv',), r'/profile/(w:[\w.-]+)'),
+        ('pococha', ('pococha.com',), r'/app/users/([\w-]+)'),
+        ('pikapika', ('pikapika.live',), r'/index/roomuser/uid/(\d+)'),
+        ('standfm', ('stand.fm',), r'/channels/([a-f0-9]{24})'),
+        ('radiotalk', ('radiotalk.jp',), r'/program/(\d+)'),
+        ('openrec', ('openrec.tv', 'mellow-fan.com'), r'/(?:m/)?user/([\w-]+)'),
+        ('pokekara', ('u.pokekara.com',), r'/user/(\d+)'),
+        ('instagram', ('instagram.com',), r'/([\w.]+)'),
+        ('facebook', ('facebook.com',), r'/([\w.]+)'),
+        ('topia', ('topia.tv',), r'/p/([\w-]+)'),
         ('topia', ('user.topia.tv',), r'/([\w-]+)'),
-        ('palmu', ('palmu.me',), r'/users/([\w-]+)'),
+        ('palmu', ('palmu.me', 'app.palmu.jp'), r'/users/([\w-]+)'),
         ('mixch', ('mixch.tv',), r'/u/(\d+)'),
         ('bigo', ('bigo.tv',), r'/([\w-]+)'),
         ('kick', ('kick.com',), r'/([\w-]+)'),
         ('soop', ('ch.sooplive.co.kr', 'bj.afreecatv.com'), r'/([\w-]+)'),
+        ('chzzk', ('chzzk.naver.com', 'm.chzzk.naver.com'), r'/([a-f0-9]{32})'),
+        ('rplay', ('rplay.live',), r'/(c/[\w.-]+|creatorhome/[a-f0-9]{24})'),
         ('x', ('x.com', 'twitter.com'), r'/@?([\w]+)'),
     ]
     for platform, hosts, pattern in patterns:
@@ -76,8 +99,10 @@ def canonical_account(url):
         if platform in ('tiktok','twitch','twitcasting','kick','x','soop') or (platform=='youtube' and ident.startswith('@')):
             ident = ident.lower()
         clean = urlunsplit(('https',host,u.path.rstrip('/'),'',''))
+        if platform == 'whowatch': clean = 'https://whowatch.tv/profile/'+ident
         if platform == 'x': clean = 'https://x.com/'+ident
         if platform == 'tiktok': clean = 'https://www.tiktok.com/'+ident
+        if platform == 'niconico' and ident.isdigit(): clean = 'https://www.nicovideo.jp/user/'+ident
         return {'platform':platform, 'id':ident, 'url':clean}
     # The source sometimes uses IRIAM's official deep link instead of /s/user/.
     if host == 'web.iriam.app' and path == '/s/user':

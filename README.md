@@ -252,3 +252,15 @@ python scripts/update_dictionary.py --reviewed-only
 ```
 
 添付本文には2018～2021年の一覧記事へのリンクだけがあり、そのリンク先の本文は含まれていません。今回のPixiv側の対象は提供された本文に直接掲載された項目です。全活動者の網羅や現在の活動継続を保証するものではありません。
+
+2026-09-08の媒体拡張では、主要33媒体の名称・出典付き媒体情報を扱います。YouTubeの登録は不要です。
+
+- 国内の動画・ゲーム・V配信：YouTube、TikTok LIVE、IRIAM、REALITY、Mirrativ、Avvy、17LIVE、SHOWROOM、ツイキャス、ニコニコ、topia、ミクチャ、Palmu、ふわっち、Pococha、BIGO LIVE、everylive。
+- 音声・歌配信：Spoon、ピカピカ、ColorSing、stand.fm、Radiotalk、Pokekara。
+- 海外サービス・その他：Twitch、Kick、SOOP、CHZZK、bilibili、AcFun、RPLAY、Instagram Live、Facebook Live、mellow-fan（旧OPENREC.tv）。
+
+これは対応する媒体の範囲で、各媒体の全活動者を収録済みという意味ではありません。`scripts/non-youtube-expansion-report.json` に今回の追加人数、媒体別件数、本人同定待ちを記録しています。出典付き媒体情報は33媒体で表示でき、公開個人URLの形式を確認できた媒体には直接リンクできます。everyliveは本人・所属先の出典による媒体表示に対応し、未確認の個人URL形式や失効した短縮URLは推測して生成しません。Instagram/Facebook等のアカウントリンクだけでライブ活動や主な配信先とは判定しません。
+
+Mirrativの共有URLは埋め込まれた公式プロフィールURLを取り出し、ColorSingは本人を指定する`user_id`を保持します。topiaの旧・新URL、Palmuの`app.palmu.jp`、ニコニコのモバイルURLも扱います。活動の確認には本人プロフィール、所属先の配信時間、配信アーカイブ、終了済みイベントの配信実績を使い、未配信の準備中アカウントや氏名しか一致しない候補は追加しません。
+
+サービスの終了・移行も確認対象です。[Voice Pocochaは2025-12-15終了](https://report.pococha.com/n/n7db68943b696)、[OPENREC.tvはmellow-fanへ移行](https://www.openrec.tv/)しているため、旧名称だけから現在の配信先を推測しません。

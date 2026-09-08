@@ -1,26 +1,30 @@
 'use strict';
 // Primary platforms require an explicit source; linked accounts never imply primacy.
 window.VNamePlatforms = (() => {
-  const labels = {youtube:'YouTube', tiktok:'TikTok LIVE', iriam:'IRIAM', avvy:'Avvy', reality:'REALITY', twitch:'Twitch', '17live':'17LIVE', showroom:'SHOWROOM', twitcasting:'ツイキャス', niconico:'ニコニコ', mirrativ:'Mirrativ', bilibili:'bilibili', spoon:'Spoon', kick:'Kick', soop:'SOOP', topia:'topia', palmu:'Palmu', mixch:'ミクチャ', bigo:'BIGO LIVE', acfun:'AcFun'};
-  const hosts = {'youtube.com':'youtube','m.youtube.com':'youtube','tiktok.com':'tiktok','twitch.tv':'twitch','m.twitch.tv':'twitch','s.avvy.live':'avvy','web.iriam.app':'iriam','reality.app':'reality','17.live':'17live','showroom-live.com':'showroom','twitcasting.tv':'twitcasting','nicovideo.jp':'niconico','com.nicovideo.jp':'niconico','mirrativ.com':'mirrativ','space.bilibili.com':'bilibili','spooncast.net':'spoon','kick.com':'kick','ch.sooplive.co.kr':'soop','bj.afreecatv.com':'soop','user.topia.tv':'topia','palmu.me':'palmu','mixch.tv':'mixch','bigo.tv':'bigo','acfun.cn':'acfun'};
+  const labels = {youtube:'YouTube', tiktok:'TikTok LIVE', iriam:'IRIAM', avvy:'Avvy', reality:'REALITY', twitch:'Twitch', '17live':'17LIVE', showroom:'SHOWROOM', twitcasting:'ツイキャス', niconico:'ニコニコ', mirrativ:'Mirrativ', bilibili:'bilibili', spoon:'Spoon', kick:'Kick', soop:'SOOP', topia:'topia', palmu:'Palmu', mixch:'ミクチャ', bigo:'BIGO LIVE', acfun:'AcFun', whowatch:'ふわっち', pococha:'Pococha', colorsing:'ColorSing', pikapika:'ピカピカ', everylive:'everylive', standfm:'stand.fm', radiotalk:'Radiotalk', openrec:'mellow-fan（旧OPENREC.tv）', pokekara:'Pokekara', instagram:'Instagram Live', facebook:'Facebook Live', chzzk:'CHZZK', rplay:'RPLAY'};
+  const hosts = {'youtube.com':'youtube','m.youtube.com':'youtube','tiktok.com':'tiktok','twitch.tv':'twitch','m.twitch.tv':'twitch','s.avvy.live':'avvy','web.iriam.app':'iriam','reality.app':'reality','17.live':'17live','showroom-live.com':'showroom','twitcasting.tv':'twitcasting','nicovideo.jp':'niconico','com.nicovideo.jp':'niconico','mirrativ.com':'mirrativ','space.bilibili.com':'bilibili','spooncast.net':'spoon','kick.com':'kick','ch.sooplive.co.kr':'soop','bj.afreecatv.com':'soop','user.topia.tv':'topia','palmu.me':'palmu','mixch.tv':'mixch','bigo.tv':'bigo','acfun.cn':'acfun','topia.tv':'topia','whowatch.tv':'whowatch','pococha.com':'pococha','web.colorsing.com':'colorsing','pikapika.live':'pikapika','stand.fm':'standfm','radiotalk.jp':'radiotalk','openrec.tv':'openrec','mellow-fan.com':'openrec','u.pokekara.com':'pokekara','instagram.com':'instagram','facebook.com':'facebook','sp.nicovideo.jp':'niconico','cas.nicovideo.jp':'niconico','app.palmu.jp':'palmu','chzzk.naver.com':'chzzk','m.chzzk.naver.com':'chzzk','rplay.live':'rplay'};
   function safeURL(value) {
     try {const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port?u:null;} catch {return null;}
   }
   function account(value) {
     const u=safeURL(value);if(!u)return null;
     const host=u.hostname.replace(/^www\./,'');
+    if(host==='mirrativ.page.link'){const target=safeURL(u.searchParams.get('link'));return target&&['mirrativ.com','www.mirrativ.com'].includes(target.hostname)?account(target.href):null;}
     const platform=hosts[host];if(!platform)return null;
     let path;try{path=decodeURIComponent(u.pathname);}catch{return null;}
     if(platform==='youtube'&&/^\/@[\p{L}\p{N}\p{M}_.·\-]+\/?$/u.test(path))u.pathname=path.toLowerCase();
     else if(platform==='youtube'&&!/^\/channel\/UC[\w-]{22}\/?$/.test(path))return null;
-    const patterns={youtube:/^\/(?:channel\/UC[\w-]{22}|@[\w.\-]+)\/?$/,tiktok:/^\/@[\w.\-]+(?:\/live)?\/?$/,twitch:/^\/[\w]+\/?$/,avvy:/^\/u\/[0-9a-hjkmnp-tv-z]{26}\/?$/,iriam:/^\/s\/user\/[^/]+\/?$/,reality:/^\/profile\/[^/]+\/?$/,'17live':/^\/(?:s\/u|(?:[a-z]{2}\/)?profile)\/[^/]+\/?$/,showroom:/^\/(?:r\/)?[\w-]+\/?$/,twitcasting:/^\/[\w:.-]+\/?$/,niconico:/^\/(?:user\/\d+|community\/co\d+)\/?$/,mirrativ:/^\/user\/\d+\/?$/,bilibili:/^\/\d+\/?$/,spoon:/^\/(?:[a-z]{2}\/)?(?:profile\/[^/]+|channel\/\d+(?:\/tab\/home)?)\/?$/,kick:/^\/[\w-]+\/?$/,soop:/^\/[\w-]+\/?$/,topia:/^\/[\w-]+\/?$/,palmu:/^\/users\/[^/]+\/?$/,mixch:/^\/u\/\d+\/?$/,bigo:/^\/[\w-]+\/?$/,acfun:/^\/u\/\d+\/?$/};
+    const patterns={youtube:/^\/(?:channel\/UC[\w-]{22}|@[\w.\-]+)\/?$/,tiktok:/^\/@[\w.\-]+(?:\/live)?\/?$/,twitch:/^\/[\w]+\/?$/,avvy:/^\/u\/[0-9a-hjkmnp-tv-z]{26}\/?$/,iriam:/^\/s\/user\/[^/]+\/?$/,reality:/^\/profile\/[^/]+\/?$/,'17live':/^\/(?:s\/u|(?:[a-z]{2}\/)?profile)\/[^/]+\/?$/,showroom:/^\/(?:r\/)?[\w-]+\/?$/,twitcasting:/^\/[\w:.-]+\/?$/,niconico:/^\/(?:user\/\d+|community\/co\d+)\/?$/,mirrativ:/^\/user\/\d+\/?$/,bilibili:/^\/\d+\/?$/,spoon:/^\/(?:[a-z]{2}\/)?(?:profile\/[^/]+|channel\/\d+(?:\/tab\/home)?)\/?$/,kick:/^\/[\w-]+\/?$/,soop:/^\/[\w-]+\/?$/,topia:/^\/(?:p\/)?[\w-]+\/?$/,palmu:/^\/users\/[^/]+\/?$/,mixch:/^\/u\/\d+\/?$/,bigo:/^\/[\w-]+\/?$/,acfun:/^\/u\/\d+\/?$/,whowatch:/^\/profile\/w:[\w.-]+\/?$/,pococha:/^\/app\/users\/[\w-]+\/?$/,pikapika:/^\/index\/roomuser\/uid\/\d+\/?$/,standfm:/^\/channels\/[a-f0-9]{24}\/?$/,radiotalk:/^\/program\/\d+\/?$/,openrec:/^\/(?:m\/)?user\/[\w-]+\/?$/,pokekara:/^\/user\/\d+\/?$/,instagram:/^\/[\w.]+\/?$/,facebook:/^\/[\w.]+\/?$/,chzzk:/^\/[a-f0-9]{32}\/?$/,rplay:/^\/(?:c\/[\w.-]+|creatorhome\/[a-f0-9]{24})\/?$/};
+    if(platform==='colorsing'){const id=u.searchParams.get('user_id')||'';return path==='/share/user'&&/^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/.test(id)?{platform,url:'https://web.colorsing.com/share/user?user_id='+id}:null;}
+    if(platform==='topia'&&!(host==='topia.tv'?/^\/p\/[\w-]+\/?$/:/^\/[\w-]+\/?$/).test(path))return null;
     if(platform==='iriam'&&path==='/s/user'&&/^[\w-]+$/.test(u.searchParams.get('id')||'')){
       return {platform,url:'https://web.iriam.app/s/user?id='+encodeURIComponent(u.searchParams.get('id'))};
     }
-    if((platform!=='youtube'&&!patterns[platform].test(u.pathname))||/^\/(?:home|directory|explore|search|login|signup)\/?$/.test(u.pathname))return null;
+    if((platform!=='youtube'&&!patterns[platform]?.test(path))||/^\/(?:home|directory|explore|search|login|signup)\/?$/.test(u.pathname))return null;
     u.hostname=platform==='youtube'?'www.youtube.com':platform==='twitch'?'www.twitch.tv':platform==='tiktok'?'www.tiktok.com':platform==='soop'?'ch.sooplive.co.kr':host;
     if(['tiktok','twitch','kick','soop','twitcasting'].includes(platform))u.pathname=u.pathname.toLowerCase();
     if(platform==='tiktok')u.pathname=u.pathname.replace(/\/live\/?$/,'');
+    if(platform==='niconico'&&/^\/user\//.test(path))u.hostname='www.nicovideo.jp';
     u.hash='';u.search='';return {platform,url:u.href.replace(/\/$/,'')};
   }
   function details(r) {
