@@ -1,0 +1,84 @@
+{
+  "schema": 3,
+  "policy": "remove_only_legacy_external_data_without_clear_reuse_terms",
+  "protected": {
+    "reviewed": 201,
+    "reviewed_already_materialized": 199,
+    "primary_rechecked": 60,
+    "aiv_related": 1532,
+    "explicitly_reusable_dataset": 10118,
+    "reusable_by_family": {
+      "vdb": 9788,
+      "legacy_2019_dataset": 103,
+      "indonesia_kaggle": 227
+    },
+    "user_encyclopedia_reference": 55,
+    "reference_by_family": {
+      "user_encyclopedia": 55
+    },
+    "person_scoped_official": 1733,
+    "unique_preexisting": 13577
+  },
+  "reusable_licenses": {
+    "vdb": {
+      "markers": [
+        "vdb.vtbs.moe",
+        "github.com/dd-center/vdb",
+        "github.com/bilibili-dd-center/vdb"
+      ],
+      "license": "CC BY-NC-SA 4.0 / VDBL v1.0",
+      "condition": "noncommercial; attribution; share-alike"
+    },
+    "taiwan_archive": {
+      "markers": [
+        "taiwanvtuberdata/taiwanvtubertrackingdataarchive"
+      ],
+      "license": "Unlicense",
+      "condition": "reuse permitted"
+    },
+    "indonesia_kaggle": {
+      "markers": [
+        "ekasetyoagung/indonesian-vtuber-channel-data"
+      ],
+      "license": "Apache-2.0",
+      "condition": "reuse permitted subject to license/notice terms"
+    },
+    "legacy_2019_dataset": {
+      "markers": [
+        "imamachi-n/virtual-youtuber-api"
+      ],
+      "license": "MIT",
+      "condition": "retain copyright/license notice for substantial copies"
+    }
+  },
+  "reference_preservation": {
+    "user_encyclopedia": {
+      "markers": [
+        "dic.pixiv.net",
+        "dic.nicovideo.jp"
+      ],
+      "reason": "user-edited encyclopedia reference; preserve source-linked identity records"
+    }
+  },
+  "before": {
+    "base": 24266,
+    "extra": 9320,
+    "platform": 11722,
+    "merged": 33576
+  },
+  "removed": {
+    "base": 14389,
+    "extra": 4066,
+    "platform": 17,
+    "unique_identities": 17583
+  },
+  "after": {
+    "base": 9877,
+    "extra": 5254,
+    "platform": 11705,
+    "merged": 15993,
+    "aiv_related": 1532,
+    "explicitly_reusable_dataset": 10118,
+    "user_encyclopedia_reference": 55
+  }
+}
