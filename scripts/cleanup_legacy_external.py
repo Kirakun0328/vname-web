@@ -53,7 +53,7 @@ REUSABLE = {
         "condition": "noncommercial; attribution; share-alike",
     },
     "taiwan_archive": {
-        "markers": ("taiwanvtuberdata/taiwanvtubertrackingdataarchive",),
+        "markers": ("taiwanvtuberdata/", "taiwanvtubertrackingdataarchive"),
         "license": "Unlicense",
         "condition": "reuse permitted",
     },
