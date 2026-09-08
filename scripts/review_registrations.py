@@ -8,6 +8,8 @@ import argparse
 import datetime
 import hashlib
 import json
+import ipaddress
+import socket
 import os
 import pathlib
 import re
@@ -45,9 +47,23 @@ def safe_source(url):
     return url
 
 
+def public_source(url):
+    safe_source(url)
+    host = urllib.parse.urlsplit(url).hostname
+    addresses = socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)
+    if not addresses or any(not ipaddress.ip_address(item[4][0]).is_global for item in addresses):
+        raise ValueError('Source must resolve to a public address')
+    return url
+
+
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        raise ValueError('Authenticated endpoint redirects are disabled')
+
+
 class SourceRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
-        safe_source(newurl)
+        public_source(newurl)
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
@@ -76,6 +92,7 @@ class VisibleText(HTMLParser):
 def evidence(url):
     safe_source(url)
     try:
+        public_source(url)
         opener = urllib.request.build_opener(SourceRedirect())
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; VName-registration-review/1.0)'})
         with opener.open(req, timeout=20) as response:
@@ -112,12 +129,12 @@ def api(method='GET', payload=None):
     if parsed.scheme != 'https' or not parsed.hostname.endswith('.actions.githubusercontent.com'): raise ValueError('Invalid OIDC issuer endpoint')
     token_url += ('&' if '?' in token_url else '?') + 'audience=vname-registration-review'
     req = urllib.request.Request(token_url, headers={'Authorization': 'Bearer '+os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
-    with urllib.request.urlopen(req, timeout=20) as response: token = json.load(response)['value']
+    with urllib.request.build_opener(NoRedirect()).open(req, timeout=20) as response: token = json.load(response)['value']
     # The hosting gateway reserves Authorization for its own authentication.
     # The application independently verifies this GitHub OIDC token.
     req = urllib.request.Request(endpoint, method=method, data=json.dumps(payload).encode() if payload is not None else None, headers={'X-VName-Review-Token': token, 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': 'VName-Registration-Reviewer/1.0 (+https://github.com/Kirakun0328/vname-web)'})
     try:
-        with urllib.request.urlopen(req, timeout=30) as response: return json.load(response)
+        with urllib.request.build_opener(NoRedirect()).open(req, timeout=30) as response: return json.load(response)
     except urllib.error.HTTPError as error:
         # Log response diagnostics only; never log the request or its OIDC token.
         raw = error.read(4096).decode('utf-8', errors='replace')
@@ -171,7 +188,7 @@ def main():
         with tarfile.open(archive) as tar: tar.extractall(binary_dir, filter='data')
     binary = next(binary_dir.rglob('llama-server'))
     with tempfile.TemporaryFile() as log:
-        process = subprocess.Popen([str(binary), '-m', str(model), '-c', '8192', '-ngl', '0', '--host', '127.0.0.1', '--port', '8080', '--jinja', '--parallel', '1', '--threads', '4'], stdout=log, stderr=log)
+        process = subprocess.Popen([str(binary), '-m', str(model), '-c', '8192', '-ngl', '0', '--host', '127.0.0.1', '--port', '8080', '--jinja', '--parallel', '1', '--threads', '4'], stdout=log, stderr=log, env={key: value for key, value in os.environ.items() if key in {'PATH', 'LANG', 'LC_ALL', 'LD_LIBRARY_PATH', 'TMPDIR', 'OMP_NUM_THREADS'}})
         try:
             deadline = time.monotonic()+180
             while time.monotonic() < deadline:
