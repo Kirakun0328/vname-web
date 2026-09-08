@@ -8,7 +8,6 @@
     "activity_source": "https://note.com/merino_ora/n/n29a4ab858614",
     "activity_evidence": "self_reported_past_vtuber_activity",
     "last_checked": "2026-09-08",
-    "primary_platform": "twitch",
     "platform_accounts": [
       {
         "platform": "twitch",
@@ -18,7 +17,12 @@
     ],
     "reading": "めりのおら",
     "reading_source": "https://note.com/merino_ora/n/n29a4ab858614",
-    "reading_source_kind": "profile_explicit"
+    "reading_source_kind": "profile_explicit",
+    "primary_platforms": [
+      "twitch"
+    ],
+    "primary_platform_source": "https://note.com/merino_ora/n/n29a4ab858614",
+    "primary_platform_evidence": "explicit_streaming_platform_in_primary_profile"
   },
   {
     "source_id": "primary:note:mokzcat:n7244c399f0a7",
@@ -29,7 +33,6 @@
     "activity_source": "https://note.com/mokzcat/n/n7244c399f0a7",
     "activity_evidence": "self_reported_past_vtuber_activity",
     "last_checked": "2026-09-08",
-    "primary_platform": "youtube",
     "platform_accounts": [
       {
         "platform": "youtube",
@@ -49,7 +52,12 @@
     ],
     "reading": "もくず",
     "reading_source": "https://note.com/mokzcat/n/n7244c399f0a7",
-    "reading_source_kind": "profile_explicit"
+    "reading_source_kind": "profile_explicit",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "primary_platform_source": "https://note.com/mokzcat/n/n7244c399f0a7",
+    "primary_platform_evidence": "explicit_streaming_platform_in_primary_profile"
   },
   {
     "source_id": "primary:note:rapha_reality:n4a8b4b7ba44d",
@@ -60,7 +68,6 @@
     "activity_source": "https://note.com/rapha_reality/n/n4a8b4b7ba44d",
     "activity_evidence": "self_reported_past_vtuber_activity",
     "last_checked": "2026-09-08",
-    "primary_platform": "colorsing",
     "platform_accounts": [
       {
         "platform": "colorsing",
@@ -80,7 +87,12 @@
     ],
     "reading": "らふぁえる",
     "reading_source": "https://note.com/rapha_reality/n/n4a8b4b7ba44d",
-    "reading_source_kind": "profile_explicit"
+    "reading_source_kind": "profile_explicit",
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://note.com/rapha_reality/n/n4a8b4b7ba44d",
+    "primary_platform_evidence": "explicit_streaming_platform_in_primary_profile"
   },
   {
     "source_id": "youtube:UCdRRIOzmYL7LHLVqHcfCN1Q",
@@ -91,7 +103,6 @@
     "activity_source": "https://note.com/moko_tokoyo/n/n9e26a3ed6652",
     "activity_evidence": "self_reported_past_vtuber_activity",
     "last_checked": "2026-09-08",
-    "primary_platform": "youtube",
     "platform_accounts": [
       {
         "platform": "youtube",
@@ -108,7 +119,12 @@
         "id": "moko_tokoyo",
         "url": "https://x.com/moko_tokoyo"
       }
-    ]
+    ],
+    "primary_platforms": [
+      "youtube"
+    ],
+    "primary_platform_source": "https://note.com/moko_tokoyo/n/n9e26a3ed6652",
+    "primary_platform_evidence": "explicit_streaming_platform_in_primary_profile"
   },
   {
     "source_id": "primary:note:reality_official:nd7e2312e83de",
@@ -119,10 +135,14 @@
     "activity_source": "https://note.com/reality_official/n/nd7e2312e83de",
     "activity_evidence": "official_interview_past_streaming",
     "last_checked": "2026-09-08",
-    "primary_platform": "reality",
     "reading": "ぷりんせす",
     "reading_source": "https://note.com/reality_official/n/nd7e2312e83de",
-    "reading_source_kind": "profile_explicit"
+    "reading_source_kind": "profile_explicit",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://note.com/reality_official/n/nd7e2312e83de",
+    "primary_platform_evidence": "explicit_streaming_platform_in_primary_profile"
   },
   {
     "source_id": "primary:note:reality_official:n58034220342b",
@@ -133,9 +153,13 @@
     "activity_source": "https://note.com/reality_official/n/n58034220342b",
     "activity_evidence": "official_interview_past_streaming",
     "last_checked": "2026-09-08",
-    "primary_platform": "reality",
     "reading": "れおにゃん",
     "reading_source": "https://note.com/reality_official/n/n58034220342b",
-    "reading_source_kind": "profile_explicit"
+    "reading_source_kind": "profile_explicit",
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://note.com/reality_official/n/n58034220342b",
+    "primary_platform_evidence": "explicit_streaming_platform_in_primary_profile"
   }
 ]
