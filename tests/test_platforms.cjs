@@ -64,8 +64,8 @@ test('published data searches and renders reviewed and licensed-source records',
  const doc={getElementById:get,createElement:tag=>new El(tag),createTextNode:value=>{const e=new El('#text');e.textContent=value;return e;},querySelectorAll:()=>[]};
  const c={window:{},document:doc,URL,translateUI:()=>{},setLanguage:()=>{}};vm.createContext(c);
  for(const file of ['data.js','extra-data.js','readings.js','platform-data.js','platforms.js','primary-data.js','app.js'])vm.runInContext(fs.readFileSync(file,'utf8'),c);
- get('query').value='ルーカ・アレイス';vm.runInContext('search()',c);
- assert.match(get('results').textContent,/ルーカ・アレイス/);assert.match(get('results').textContent,/主な活動媒体 TikTok LIVE/);
+ get('query').value='Luca黒蜜糖';vm.runInContext('search()',c);
+ assert.match(get('results').textContent,/Luca黒蜜糖/);assert.match(get('results').textContent,/YouTube \/ Twitch/);
  get('query').value='マほ姉';vm.runInContext('search()',c);assert.match(get('results').textContent,/IRIAM \/ REALITY/);
  get('query').value='あいうえ おばけ';vm.runInContext('search()',c);assert.match(get('results').textContent,/確認できた媒体 Avvy/);
  get('query').value='兎田ぺこら';vm.runInContext('search()',c);assert.match(get('results').textContent,/うさだぺこら/);
