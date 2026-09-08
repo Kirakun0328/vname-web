@@ -18,7 +18,7 @@ class PopularityTests(unittest.TestCase):
     def test_list_counts_do_not_copy_content_or_invent_missing_counts(self):
         item={'youtubeChannelID':'UC'+'a'*22,'youtubeSubscribers':42,'description':'Creative profile','imageUrl':'https://example.com/image'}
         rows=list_counts([item]);self.assertEqual(len(rows),1);self.assertEqual(rows[0]['count'],42)
-        self.assertEqual(set(rows[0]),{'platform','account_id','count','source','checked_at'})
+        self.assertEqual(set(rows[0]),{'platform','account_id','count','source','checked_at','retrieved_at'})
         self.assertEqual(list_counts([dict(item,youtubeSubscribers=None)]),[])
 
 if __name__=='__main__':unittest.main()

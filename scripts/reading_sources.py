@@ -70,7 +70,7 @@ def official_reading(document, expected_name):
     return value, record.get('enName', '')
 
 
-def refresh_readings(base, previous, fetch, official_limit=20, profile_limit=30):
+def refresh_readings(base, previous, fetch, official_limit=40, profile_limit=120):
     from update_dictionary import key
     today = datetime.date.today().isoformat()
     extra = {r['source_id']: dict(r) for r in previous}

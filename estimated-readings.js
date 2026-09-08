@@ -1,0 +1,1 @@
+window.VTUBER_ESTIMATED_READINGS = {};

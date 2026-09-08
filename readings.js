@@ -1,4 +1,3 @@
-'use strict';
 // Curated readings override automatic updates. Each entry retains its source.
 window.VTUBER_READINGS = {
   "兎田ぺこら": {
@@ -90,5 +89,13 @@ window.VTUBER_READINGS = {
     "romanized_name": "",
     "reading_source": "https://note.com/ishiki_emo/n/n86e46e0ba925",
     "reading_source_kind": "manual"
+  },
+  "花野彩晴": {
+    "reading": "はなのいろは",
+    "romanized_name": "Hanano Iroha",
+    "reading_source": "https://www.youtube.com/channel/UChQKyaipbRo2C-M-_oOJ4_w",
+    "reading_source_kind": "manual",
+    "romanized_source": "https://www.youtube.com/channel/UChQKyaipbRo2C-M-_oOJ4_w",
+    "reading_checked_at": "2026-09-08"
   }
 };

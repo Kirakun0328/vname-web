@@ -200,4 +200,6 @@ def refresh_directories(fetch,base,previous,report,full=False):
         report.setdefault('atoms',{})['last_error']=type(error).__name__
         print('Atoms unavailable; retained existing records',type(error).__name__,flush=True)
     from official_rosters import refresh as refresh_official
-    return refresh_official(fetch,base,updated,report,full)
+    updated=refresh_official(fetch,base,updated,report,full)
+    from expanded_agencies import refresh as refresh_expanded
+    return refresh_expanded(fetch,base,updated,report,full)

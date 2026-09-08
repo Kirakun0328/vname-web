@@ -37,7 +37,7 @@ def list_counts(items):
             account = canonical_account(url)
             if account and type(count) is int and count >= 0:
                 rows.append({'platform': platform, 'account_id': account['id'], 'count': count,
-                             'source': 'https://aituberlist.net/', 'checked_at': today})
+                             'source': 'https://aituberlist.net/', 'checked_at': today, 'retrieved_at': datetime.datetime.now(datetime.timezone.utc).isoformat()})
     return rows
 
 
@@ -49,7 +49,7 @@ def refresh(fetch, base, previous, report):
     for name, url, parse in [('vtuber_post', POST_URL, lambda s: parse_post(s, 0)[0]), ('vstats', DIRECTORY, parse_directory)]:
         try:
             rows = [{'platform': 'youtube', 'account_id': 'channel/'+r['channel_id'], 'count': r['subscribers'],
-                     'source': r.get('source_url', url), 'checked_at': today} for r in parse(fetch(url))]
+                     'source': r.get('source_url', url), 'checked_at': today, 'retrieved_at': datetime.datetime.now(datetime.timezone.utc).isoformat()} for r in parse(fetch(url))]
             updated, count = merge_counts(base, updated, rows)
             report.setdefault('audience_counts', {})[name] = {'source_records': len(rows), 'enriched_records': count, 'checked_at': today, 'status': 'ok'}
         except (OSError, ValueError, KeyError, TypeError) as error:

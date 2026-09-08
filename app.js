@@ -12,6 +12,8 @@ function resolveReading(r){
  const verified=r.reading_source&&['manual','official','profile_explicit','directory_explicit'].includes(r.reading_source_kind);
  if(verified&&r.reading)return {reading:r.reading,reading_inferred:false};
  const kana=value=>{const s=String(value||'').normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96)).replace(/[\s・･]/g,'');return /^[ぁ-ゖー]+$/.test(s)?s:'';};
+ const estimate=(window.VTUBER_ESTIMATED_READINGS||{})[r.source_id];
+ if(estimate?.display_name===r.display_name&&estimate.model==='gemma-4-E2B-it'&&estimate.kind==='inferred'&&kana(estimate.reading))return {reading:kana(estimate.reading),reading_inferred:true};
  const direct=kana(r.display_name);
  // Only use complete kana candidates for Japanese names, never partial transliterations.
  const japanese=/^[\p{Script=Han}ぁ-ゖァ-ヶー\s・･]+$/u.test(String(r.display_name||'').normalize('NFKC'));
@@ -76,6 +78,7 @@ function renderCard({r,type}){
  const sources=[...(r.reading&&!r.reading_inferred?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource],...(metric?[['登録者・フォロワー数の出典',metric.source]]:[])];
  for(const [label,url] of sources)if(sourceLink(url))note.append(link(label,url));
  if(metric?.checked_at)note.append(element('span','metric-date','確認日: '+metric.checked_at));
+ if(metric?.retrieved_at){const stamp=new Date(metric.retrieved_at);if(!Number.isNaN(stamp.getTime()))audience.append(element('small','metric-date','取得: '+stamp.toLocaleString()));}
  details.append(note);article.append(top,name,reading,audience,platformLinks,details);return article;
 }
 function render(){
@@ -115,7 +118,7 @@ $('reshuffle').onclick=()=>{shuffle();search();};$('clear-search').onclick=()=>{
 $('form').addEventListener('submit',e=>{e.preventDefault();search();});
 function turnPage(delta){page=Math.max(0,Math.min(Math.ceil(hits.length/PAGE_SIZE)-1,page+delta));render();$('results-heading').scrollIntoView?.({block:'start'});$('results-heading').focus?.({preventScroll:true});}
 $('prev').onclick=()=>turnPage(-1);$('next').onclick=()=>turnPage(1);
-try{load(mergeData(mergeData(window.VTUBER_DATA,window.VTUBER_EXTRA),window.VTUBER_PLATFORMS));search();}catch(e){$('status').textContent='辞書を読み込めませんでした。ページを再読み込みしてください。';}
+try{load(mergeData(mergeData(mergeData(window.VTUBER_DATA,window.VTUBER_EXTRA),window.VTUBER_PLATFORMS),window.VTUBER_AUDIENCE));search();}catch(e){$('status').textContent='辞書を読み込めませんでした。ページを再読み込みしてください。';}
 window.VNameAddCommunity=incoming=>{
  const ids=new Set(records.map(r=>r.source_id)),accounts=new Set(records.flatMap(r=>r.media.accounts.map(a=>a.url)));
  const additions=incoming.filter(r=>!ids.has(r.source_id)&&!r.platform_accounts.some(a=>accounts.has(a.url)));
@@ -125,3 +128,16 @@ window.VNameAddCommunity=incoming=>{
  load([...records,...additions]);search();page=Math.min(previousPage,Math.max(0,Math.ceil(hits.length/PAGE_SIZE)-1));render();
 };
 $('language').onchange=e=>setLanguage(e.target.value);translateUI();
+
+// Refresh the displayed source snapshots without sending names or search queries.
+async function refreshAudience(){
+ try{
+  const response=await fetch('audience-data.json',{cache:'no-store',credentials:'omit',signal:AbortSignal.timeout(15000)});
+  if(!response.ok)return;
+  const rows=await response.json();if(!Array.isArray(rows)||rows.length>100000)return;
+  const counts=new Map(rows.filter(r=>typeof r.source_id==='string'&&Array.isArray(r.audience_metrics)).map(r=>[r.source_id,r.audience_metrics]));
+  for(const r of records)if(counts.has(r.source_id))r.audience_metrics=counts.get(r.source_id);
+  sortHits();render();
+ }catch{}
+}
+if(typeof fetch==='function'&&typeof setInterval==='function')setInterval(()=>{if(!document.hidden)refreshAudience();},5*60*1000);
