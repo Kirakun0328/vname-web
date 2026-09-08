@@ -161,5 +161,34 @@
     ],
     "primary_platform_source": "https://note.com/reality_official/n/n58034220342b",
     "primary_platform_evidence": "explicit_streaming_platform_in_primary_profile"
+  },
+  {
+    "source_id": "aivnav:char-e-NXXhlWxzMe",
+    "display_name": "peachy BGM",
+    "reading": "",
+    "romanized_name": "peachy BGM",
+    "aliases": [
+      "ももさん/クレイジーもも/モカさん",
+      "ももさん",
+      "クレイジーもも",
+      "モカさん"
+    ],
+    "category": "AIVTuber",
+    "category_source": "https://www.youtube.com/watch?v=WLztNisZxtw",
+    "source_url": "https://www.youtube.com/@peachy_bgm",
+    "activity_source": "https://www.youtube.com/watch?v=WLztNisZxtw",
+    "activity_evidence": "official_channel_ai_singer_stream",
+    "youtube_channel_id": "UCZBJfC9PD-hXOBumwiwb56A",
+    "youtube_handle": "@peachy_bgm",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCZBJfC9PD-hXOBumwiwb56A"
+      },
+      {
+        "platform": "x",
+        "url": "https://x.com/Peachy_Nectar"
+      }
+    ]
   }
 ]
