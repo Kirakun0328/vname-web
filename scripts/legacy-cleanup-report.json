@@ -6,18 +6,19 @@
     "reviewed_already_materialized": 201,
     "primary_rechecked": 60,
     "aiv_related": 1532,
-    "explicitly_reusable_dataset": 10118,
+    "explicitly_reusable_dataset": 12779,
     "reusable_by_family": {
       "vdb": 9788,
-      "indonesia_kaggle": 227,
-      "legacy_2019_dataset": 103
+      "taiwan_archive": 2661,
+      "legacy_2019_dataset": 103,
+      "indonesia_kaggle": 227
     },
     "user_encyclopedia_reference": 55,
     "reference_by_family": {
       "user_encyclopedia": 55
     },
     "person_scoped_official": 1735,
-    "unique_preexisting": 13579
+    "unique_preexisting": 16238
   },
   "reusable_licenses": {
     "vdb": {
@@ -31,7 +32,8 @@
     },
     "taiwan_archive": {
       "markers": [
-        "taiwanvtuberdata/taiwanvtubertrackingdataarchive"
+        "taiwanvtuberdata/",
+        "taiwanvtubertrackingdataarchive"
       ],
       "license": "Unlicense",
       "condition": "reuse permitted"
@@ -62,9 +64,9 @@
   },
   "before": {
     "base": 9877,
-    "extra": 5256,
+    "extra": 5699,
     "platform": 11705,
-    "merged": 15995
+    "merged": 16438
   },
   "removed": {
     "base": 0,
@@ -74,11 +76,11 @@
   },
   "after": {
     "base": 9877,
-    "extra": 5256,
+    "extra": 5699,
     "platform": 11705,
-    "merged": 15995,
+    "merged": 16438,
     "aiv_related": 1532,
-    "explicitly_reusable_dataset": 10118,
+    "explicitly_reusable_dataset": 12779,
     "user_encyclopedia_reference": 55
   }
 }
