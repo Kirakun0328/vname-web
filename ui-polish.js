@@ -4,7 +4,7 @@
   const GITHUB_URL='https://github.com/Kirakun0328/text-to-vrma';
   const copy={
     ja:{
-      supportKicker:'応援',supportTitle:'ぶいネームを応援してね！',supportText:'フォロー・RP・いいねで応援してもらえると、今後の更新の励みになります。',supportLink:'きらっちのXへ ↗',supportNote:'応援は任意です。申請・掲載の条件ではありません。',
+      supportKicker:'応援',supportTitle:'フォロー・RP・いいねしてくれたらめちゃくちゃ嬉しいです！',supportText:'ぶいネームが役立ったら、フォロー・RP・いいねで応援してもらえると嬉しいです！ 今後もVTuber・AIVTuber・Vライバーや配信者向けの便利なものをいろいろ作っていく予定です。',supportLink:'きらっちのXへ ↗',supportNote:'応援は任意です。申請・掲載の条件ではありません。',
       toolKicker:'開発者のツール紹介',toolHeading:'Text-To-VRMA',toolCardHeading:'文章から、VRMモーションを自動生成。',toolLead:'「手を振る」「ジャンプする」など、欲しい動きをテキストで入力するだけ。',toolBody:'AIがキャラクターの動きを考え、VRM向けアニメーションとして生成します。VRMA形式で保存して、配信・動画・ゲーム制作などに使えます。',booth:'BOOTH版を使う（おすすめ） ↗',github:'GitHubを見る ↗',chips:['文章 → モーション','VRMAで保存','VRM向け']
     },
     en:{
@@ -22,6 +22,52 @@
   };
   const q=(s,r=document)=>r.querySelector(s);
   const normalizeName=s=>String(s||'').normalize('NFKC').replace(/\s/g,'').toLowerCase();
+  const normalizeAccountUrl=value=>{
+    try{
+      const u=new URL(value);let host=u.hostname.toLowerCase().replace(/^www\./,'');if(host==='twitter.com')host='x.com';
+      let path;try{path=decodeURIComponent(u.pathname);}catch{path=u.pathname;}
+      return host+path.replace(/\/+$/,'').toLowerCase();
+    }catch{return String(value||'').trim().toLowerCase();}
+  };
+  const MANUAL_APPLICATIONS=[
+    {source_id:'manual:youtube:are_studio',display_name:'荊伽鬼 アール',category:'VTuber',reading:'ばらかおり あーる',aliases:[],source_url:'https://www.youtube.com/@Are_Studio',activity_source:'https://www.youtube.com/@Are_Studio',name_source:'https://www.youtube.com/@Are_Studio',platform_accounts:[{platform:'youtube',id:'@Are_Studio',url:'https://www.youtube.com/@Are_Studio'}]},
+    {source_id:'manual:youtube:maruri_games',display_name:'マルガリータ',category:'VTuber',reading:'まるがりーた',aliases:[],source_url:'https://www.youtube.com/@maruri_games',activity_source:'https://www.youtube.com/@maruri_games',name_source:'https://www.youtube.com/@maruri_games',platform_accounts:[{platform:'youtube',id:'@maruri_games',url:'https://www.youtube.com/@maruri_games'}]},
+    {source_id:'manual:youtube:shiroganemoka',display_name:'白銀モカ',category:'VTuber',reading:'しろがねもか',aliases:[],source_url:'https://www.youtube.com/@shiroganemoka',activity_source:'https://www.youtube.com/@shiroganemoka',name_source:'https://www.youtube.com/@shiroganemoka',platform_accounts:[{platform:'youtube',id:'@shiroganemoka',url:'https://www.youtube.com/@shiroganemoka'}]},
+    {source_id:'youtube:UClQ_JfAZ2h7rfXSZh3Z6uPA',display_name:'宵月 灯',category:'VTuber',reading:'よいつき ともり',aliases:[],source_url:'https://www.youtube.com/channel/UClQ_JfAZ2h7rfXSZh3Z6uPA',activity_source:'https://www.youtube.com/channel/UClQ_JfAZ2h7rfXSZh3Z6uPA',name_source:'https://www.youtube.com/channel/UClQ_JfAZ2h7rfXSZh3Z6uPA',platform_accounts:[{platform:'youtube',id:'channel/UClQ_JfAZ2h7rfXSZh3Z6uPA',url:'https://www.youtube.com/channel/UClQ_JfAZ2h7rfXSZh3Z6uPA'}]},
+    {source_id:'manual:youtube:tkinoworks',display_name:'ときの喜乃',category:'VTuber',reading:'ときのきの',aliases:[],source_url:'https://www.youtube.com/@tkinoworks',activity_source:'https://www.youtube.com/@tkinoworks',name_source:'https://www.youtube.com/@tkinoworks',platform_accounts:[{platform:'youtube',id:'@tkinoworks',url:'https://www.youtube.com/@tkinoworks'}]},
+    {source_id:'manual:twitch:aoto_hiiragi',display_name:'柊木蒼桜音',category:'VTuber',reading:'ひいらぎあおと',aliases:[],source_url:'https://www.twitch.tv/aoto_hiiragi',activity_source:'https://www.twitch.tv/aoto_hiiragi',name_source:'https://www.twitch.tv/aoto_hiiragi',platform_accounts:[{platform:'twitch',id:'aoto_hiiragi',url:'https://www.twitch.tv/aoto_hiiragi'}]},
+    {source_id:'manual:youtube:hoshitsukinyao',display_name:'星槻にゃお',category:'VTuber',reading:'ほしつきにゃお',aliases:[],source_url:'https://www.youtube.com/@%E6%98%9F%E6%A7%BB%E3%81%AB%E3%82%83%E3%81%8A_Ch',activity_source:'https://www.youtube.com/@%E6%98%9F%E6%A7%BB%E3%81%AB%E3%82%83%E3%81%8A_Ch',name_source:'https://www.youtube.com/@%E6%98%9F%E6%A7%BB%E3%81%AB%E3%82%83%E3%81%8A_Ch',platform_accounts:[{platform:'youtube',id:'@星槻にゃお_Ch',url:'https://www.youtube.com/@%E6%98%9F%E6%A7%BB%E3%81%AB%E3%82%83%E3%81%8A_Ch'}]},
+    {source_id:'manual:youtube:renitigoc',display_name:'れん いちご🍓🥛',category:'VTuber',reading:'れん いちご',aliases:[],source_url:'https://www.youtube.com/@RenItigochannel',activity_source:'https://www.youtube.com/@RenItigochannel',name_source:'https://www.youtube.com/@RenItigochannel',platform_accounts:[{platform:'youtube',id:'@RenItigochannel',url:'https://www.youtube.com/@RenItigochannel'}]},
+    {source_id:'youtube:UCBlg-qFBr6TYP0rcWuNSpNg',display_name:'ADらこん',category:'VTuber',reading:'えーでぃーらこん',aliases:[],source_url:'https://www.youtube.com/channel/UCBlg-qFBr6TYP0rcWuNSpNg',activity_source:'https://www.youtube.com/channel/UCBlg-qFBr6TYP0rcWuNSpNg',name_source:'https://www.youtube.com/channel/UCBlg-qFBr6TYP0rcWuNSpNg',platform_accounts:[{platform:'youtube',id:'channel/UCBlg-qFBr6TYP0rcWuNSpNg',url:'https://www.youtube.com/channel/UCBlg-qFBr6TYP0rcWuNSpNg'}]},
+    {source_id:'manual:x:prairialvtuber',display_name:'萱草プレリアル',category:'VTuber',reading:'かやぐさぷれりある',aliases:['萱草プレリアル＠ボードゲーム系Vtuber🌿♟️📕（惨劇推し）'],source_url:'https://x.com/PrairialVtuber',activity_source:'https://x.com/PrairialVtuber',name_source:'https://x.com/PrairialVtuber',platform_accounts:[{platform:'x',id:'PrairialVtuber',url:'https://x.com/PrairialVtuber'}]},
+    {source_id:'manual:youtube:asuka_omoci',display_name:'おもちのASUKAさん',category:'VTuber',reading:'おもちのあすかさん',aliases:[],source_url:'https://www.youtube.com/@asuka_omoci',activity_source:'https://www.youtube.com/@asuka_omoci',name_source:'https://www.youtube.com/@asuka_omoci',platform_accounts:[{platform:'youtube',id:'@asuka_omoci',url:'https://www.youtube.com/@asuka_omoci'}]},
+    {source_id:'manual:youtube:forestwingskftw',display_name:'森ﾂﾊﾞｻ',category:'VTuber',reading:'もりつばさ',aliases:[],source_url:'https://www.youtube.com/@ForestWingsKFtW',activity_source:'https://www.youtube.com/@ForestWingsKFtW',name_source:'https://www.youtube.com/@ForestWingsKFtW',platform_accounts:[{platform:'youtube',id:'@ForestWingsKFtW',url:'https://www.youtube.com/@ForestWingsKFtW'}]},
+    {source_id:'manual:youtube:kagurasakitanio',display_name:'神楽裂タニオ',category:'VTuber',reading:'かぐらさきたにお',aliases:[],source_url:'https://www.youtube.com/@kagurasakitanio',activity_source:'https://www.youtube.com/@kagurasakitanio',name_source:'https://www.youtube.com/@kagurasakitanio',platform_accounts:[{platform:'youtube',id:'@kagurasakitanio',url:'https://www.youtube.com/@kagurasakitanio'}]}
+  ].map(r=>({...r,reading_source:'manual:application',reading_source_kind:'manual',manual_submitted_at:'2026-09-08'}));
+  function accountKeys(r){return [r.source_url,r.activity_source,r.official_website,...(r.platform_accounts||[]).map(a=>a.url),...(r.media?.accounts||[]).map(a=>a.url)].filter(Boolean).map(normalizeAccountUrl);}
+  function applyManualFields(target,app){
+    const previous=target.display_name;
+    target.display_name=app.display_name;target.category=app.category;target.reading=app.reading;target.reading_source='manual:application';target.reading_source_kind='manual';target.reading_inferred=false;target.manual_submitted_at=app.manual_submitted_at;target.name_source=app.name_source;
+    if(!target.source_url)target.source_url=app.source_url;if(!target.activity_source)target.activity_source=app.activity_source;
+    target.aliases=[...new Set([...(target.aliases||[]),...(app.aliases||[]),...(previous&&previous!==app.display_name?[previous]:[])])];
+    const accounts=[...(target.platform_accounts||[])];const seen=new Set(accounts.map(a=>normalizeAccountUrl(a.url)));
+    for(const a of app.platform_accounts||[])if(!seen.has(normalizeAccountUrl(a.url))){accounts.push(a);seen.add(normalizeAccountUrl(a.url));}target.platform_accounts=accounts;
+    if(typeof key==='function')target.keys=[target.display_name,target.reading,target.romanized_name,...target.aliases].map(key);
+  }
+  function findManualTarget(app){
+    if(typeof records==='undefined'||!Array.isArray(records))return null;
+    const appKeys=new Set(accountKeys(app));let target=records.find(r=>r.source_id===app.source_id||accountKeys(r).some(k=>appKeys.has(k)));
+    if(target)return target;
+    const sameName=records.filter(r=>normalizeName(r.display_name)===normalizeName(app.display_name));return sameName.length===1?sameName[0]:null;
+  }
+  function applyManualApplications(){
+    if(typeof records==='undefined'||!Array.isArray(records)||typeof window.VNameAddCommunity!=='function')return;
+    const additions=[];let changed=false;
+    for(const app of MANUAL_APPLICATIONS){const target=findManualTarget(app);if(target){applyManualFields(target,app);changed=true;}else additions.push({...app});}
+    if(additions.length)window.VNameAddCommunity(additions);
+    for(const app of MANUAL_APPLICATIONS){const target=findManualTarget(app);if(target){applyManualFields(target,app);changed=true;}}
+    if(changed&&typeof search==='function')search();
+  }
   function applyCurrentNameOverrides(){
     if(typeof records==='undefined'||!Array.isArray(records))return;
     const overrides=[{
@@ -100,6 +146,6 @@
     document.querySelectorAll('[data-polish]').forEach(node=>{const keyName=node.dataset.polish;if(t[keyName])node.textContent=t[keyName];});
     document.querySelectorAll('[data-polish-chip]').forEach(node=>{node.textContent=t.chips[Number(node.dataset.polishChip)]||'';});
   }
-  function init(){applyCurrentNameOverrides();ensureCss();mergeCommunity();enhanceTool();applyCopy();q('#language')?.addEventListener('change',()=>queueMicrotask(applyCopy));}
+  function init(){applyManualApplications();applyCurrentNameOverrides();ensureCss();mergeCommunity();enhanceTool();applyCopy();q('#language')?.addEventListener('change',()=>queueMicrotask(applyCopy));}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
