@@ -10,6 +10,7 @@ def reviewed_profiles():
         'reviewed-profiles.json',
         'reviewed-community-profiles.json',
         'reviewed-community-submissions-2026-09-08.json',
+        'reviewed-community-submissions-2026-09-09.json',
         'reviewed-encyclopedia-profiles.json',
         'reviewed-web-profiles.json',
         'reviewed-deep-web-profiles.json',
