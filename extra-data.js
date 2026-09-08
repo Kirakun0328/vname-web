@@ -111,5 +111,81 @@ window.VTUBER_EXTRA = [
     primary_platforms: ["iriam"],
     primary_platform_source: "https://live-haishin-navi.com/tenjyonoao",
     primary_platform_evidence: "profile_and_interview"
+  },
+  {
+    source_id: "youtube:@denpa_is_crazy",
+    display_name: "咲文でんこ",
+    category: "VTuber",
+    reading: "さきふみでんこ",
+    reading_source: "https://www.youtube.com/@denpa_is_crazy",
+    reading_source_kind: "manual",
+    reading_checked_at: "2026-09-09",
+    source_url: "https://www.youtube.com/@denpa_is_crazy",
+    name_source: "https://www.youtube.com/@denpa_is_crazy",
+    activity_source: "https://www.youtube.com/@denpa_is_crazy",
+    youtube_handle: "@denpa_is_crazy",
+    platform_accounts: [
+      { platform: "youtube", id: "denpa_is_crazy", url: "https://www.youtube.com/@denpa_is_crazy" }
+    ],
+    primary_platforms: ["youtube"],
+    primary_platform_source: "https://www.youtube.com/@denpa_is_crazy",
+    primary_platform_evidence: "self_submitted_profile"
+  },
+  {
+    source_id: "youtube:UCdb_HJOs1omZFwGKE4i3Zng",
+    display_name: "求名ゆくる",
+    category: "VTuber",
+    reading: "ぐみょうゆくる",
+    reading_source: "https://www.youtube.com/channel/UCdb_HJOs1omZFwGKE4i3Zng",
+    reading_source_kind: "manual",
+    reading_checked_at: "2026-09-09",
+    source_url: "https://www.youtube.com/channel/UCdb_HJOs1omZFwGKE4i3Zng",
+    name_source: "https://www.youtube.com/channel/UCdb_HJOs1omZFwGKE4i3Zng",
+    activity_source: "https://www.youtube.com/channel/UCdb_HJOs1omZFwGKE4i3Zng",
+    youtube_channel_id: "UCdb_HJOs1omZFwGKE4i3Zng",
+    platform_accounts: [
+      { platform: "youtube", id: "UCdb_HJOs1omZFwGKE4i3Zng", url: "https://www.youtube.com/channel/UCdb_HJOs1omZFwGKE4i3Zng" }
+    ],
+    primary_platforms: ["youtube"],
+    primary_platform_source: "https://www.youtube.com/channel/UCdb_HJOs1omZFwGKE4i3Zng",
+    primary_platform_evidence: "self_submitted_profile"
+  },
+  {
+    source_id: "youtube:@yosida_rei_ch",
+    display_name: "吉田零唯",
+    category: "VTuber",
+    reading: "よしだ れい",
+    reading_source: "https://www.youtube.com/@Yosida_Rei_CH",
+    reading_source_kind: "manual",
+    reading_checked_at: "2026-09-09",
+    source_url: "https://www.youtube.com/@Yosida_Rei_CH",
+    name_source: "https://www.youtube.com/@Yosida_Rei_CH",
+    activity_source: "https://www.youtube.com/@Yosida_Rei_CH",
+    youtube_handle: "@Yosida_Rei_CH",
+    platform_accounts: [
+      { platform: "youtube", id: "Yosida_Rei_CH", url: "https://www.youtube.com/@Yosida_Rei_CH" }
+    ],
+    primary_platforms: ["youtube"],
+    primary_platform_source: "https://www.youtube.com/@Yosida_Rei_CH",
+    primary_platform_evidence: "self_submitted_profile"
+  },
+  {
+    source_id: "youtube:UCAGmMideQ9nMVguYdzyJG9g",
+    display_name: "ヴガラギィ",
+    category: "VTuber",
+    reading: "う\"がらぎぃ",
+    reading_source: "https://www.youtube.com/channel/UCAGmMideQ9nMVguYdzyJG9g",
+    reading_source_kind: "manual",
+    reading_checked_at: "2026-09-09",
+    source_url: "https://www.youtube.com/channel/UCAGmMideQ9nMVguYdzyJG9g",
+    name_source: "https://www.youtube.com/channel/UCAGmMideQ9nMVguYdzyJG9g",
+    activity_source: "https://www.youtube.com/channel/UCAGmMideQ9nMVguYdzyJG9g",
+    youtube_channel_id: "UCAGmMideQ9nMVguYdzyJG9g",
+    platform_accounts: [
+      { platform: "youtube", id: "UCAGmMideQ9nMVguYdzyJG9g", url: "https://www.youtube.com/channel/UCAGmMideQ9nMVguYdzyJG9g" }
+    ],
+    primary_platforms: ["youtube"],
+    primary_platform_source: "https://www.youtube.com/channel/UCAGmMideQ9nMVguYdzyJG9g",
+    primary_platform_evidence: "self_submitted_profile"
   }
 ];
