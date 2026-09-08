@@ -334,5 +334,545 @@
     ],
     "primary_platform_source": "https://www.showroom-live.com/room/profile?room_id=222958",
     "primary_platform_evidence": "reviewed_explicit_broadcast_profile"
+  },
+  {
+    "activity_source": "https://www.twitch.tv/sorachannnm",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "sorachannnm",
+    "platform_accounts": [
+      {
+        "platform": "twitch",
+        "url": "https://www.twitch.tv/sorachannnm"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:309478d733c78728756f5e2e31074d75519400e4cc64473188e2876ca82291f2",
+    "source_url": "https://www.twitch.tv/sorachannnm",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtube.com/shorts/SZ3d0bNH4pk",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "いちげきざこ",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@ichigekizako"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:67d6dd35c36c2bf4df2668e4459f6179ead3828b700d16b901a199201ff7fe62",
+    "source_url": "https://www.youtube.com/@ichigekizako",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/live/FgPaWGSd5XQ",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "夕星紡記",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@tsumugi_yuzutsu"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:a2e7350287f465c8dcdbe29f6d1c6e0e10b97448a694ae36419bd31314ffc399",
+    "source_url": "https://www.youtube.com/@tsumugi_yuzutsu",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/Vu5F_YHev4E",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "あほみ",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@ahomichannel"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:68f185a9c03b1eb55a0e3502b42eef05786627c7b124902720c30ede3be3a2a4",
+    "source_url": "https://www.youtube.com/@ahomichannel",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtube.com/shorts/0ea-Lc9-k2g",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "りまきゅ",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@r1m01_oq"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:6acd5ed2f1ee8d4e04471c821691d31dfec5569b7ba2b2fed372d59fc648afb7",
+    "source_url": "https://www.youtube.com/@r1m01_oq",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/Y0b5e4ij4W0",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "狐波 楓",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@kitunami_kaede"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:0858e138ec1372596630dac52e7bb41b06eae542c2c8f381dcd955152a6eeac9",
+    "source_url": "https://www.youtube.com/@kitunami_kaede",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/wlMAnkBKdwQ",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "虹星ラガーLX",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCsQDVyQnOm1V3YU01dQxmxQ"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:b2defbe44a05b05c0b9402812d7ebd683e34974f7e939333f11b64a1d93df34d",
+    "source_url": "https://www.youtube.com/channel/UCsQDVyQnOm1V3YU01dQxmxQ",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/W4teDIqZSLA",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "天魔ゆづき",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@yuduki_tenma"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:b4045240412514ef6c125a15239fdcd120f0e2517f8b96f994c6c78b16e2d2f8",
+    "source_url": "https://www.youtube.com/@yuduki_tenma",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/SkwRgL7qVYY",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "神亥ネウ",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@kamui-neuch.6457"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:757acc3f8faf821e51e1808f8bdd56ec863a0de0c0730bec4bb51b27d461cbaa",
+    "source_url": "https://www.youtube.com/@kamui-neuch.6457",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.nicovideo.jp/user/36903527",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "音々愛メウ",
+    "platform_accounts": [
+      {
+        "platform": "twitch",
+        "url": "https://www.twitch.tv/memememeudjv"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:ab942ea0c68f6c250a31e75ba98d3b03d18b1b67100fcba8180555e4cc136925",
+    "source_url": "https://www.twitch.tv/memememeudjv",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/qEojfezaqUA",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "老松悠時",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@oimatsucreatechannel1679"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:484d2a930993b18426cbdab3d6af943bffc58f0abae0295f4df395ac099ea93a",
+    "source_url": "https://www.youtube.com/@oimatsucreatechannel1679",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/CH69KS6myZQ",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "唯月りょう",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@%E5%94%AF%E6%9C%88%E3%82%8A%E3%82%87%E3%81%86"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:b73b91c86bd61d4f6d3206faf31c2f9bdd5bcad4887137335fbf2e2d4347dc12",
+    "source_url": "https://www.youtube.com/@%E5%94%AF%E6%9C%88%E3%82%8A%E3%82%87%E3%81%86",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtube.com/@dsimshys",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "Dsimshys",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@dsimshys"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:d08dbdcc31faadbef77a627d726b7466c212f68e0789d3590844934f60feaf61",
+    "source_url": "https://www.youtube.com/@dsimshys",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.twitch.tv/videos/2826891546",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "猫野てぶくろ",
+    "platform_accounts": [
+      {
+        "platform": "twitch",
+        "url": "https://www.twitch.tv/nekonotebukuro"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:8376e07b420f0c7e4695b8ecceb7c2d8b6317e3c491b8463811bbd0fc028609e",
+    "source_url": "https://www.twitch.tv/nekonotebukuro",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/xmAcpwZd9eQ",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "宵闇灯",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@yoiyami_tomoru"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:fc7838ee4f32c3e649e8d9da9be0c19888ad872c6093f14ea5847de89f43de40",
+    "source_url": "https://www.youtube.com/@yoiyami_tomoru",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/Xzc1U2grrew",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "KURONE UNNIE",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@kurone_unnie"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:c4a1888d7de86d301fbbff3f6e499d27cdc0042cdf4db67dfb9ca757d2543855",
+    "source_url": "https://www.youtube.com/@kurone_unnie",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/live/d5PpsZ4FeBM",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "一条なつき",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCLOoltOo3JhUd1CAf3X92_A"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:defac877a886d480e6773864327c7aa448e9dec5988e6d646c04146dcdfdbe7a",
+    "source_url": "https://www.youtube.com/channel/UCLOoltOo3JhUd1CAf3X92_A",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/@user-Lycoris.C",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "リコリス・クリムゾン",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "url": "https://web.iriam.app/s/user/4FJWOxHVZa"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:cefd6d57c55277639467de1d78fd857e11f897b45dad8d9c0516834e8dfbbea4",
+    "source_url": "https://web.iriam.app/s/user/4FJWOxHVZa",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtube.com/playlist?list=PLKcd9d4eZ7yRjajKtl-JkG97gv_W25Dnx",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "黒電とぅるる",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@tulul_gaming"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:a79cf0dd44138ae836287b3d2f56c551281dbc5015a911fc94634f571296d9a6",
+    "source_url": "https://www.youtube.com/@tulul_gaming",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/INYtZeF_Iq0",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "脳破戒ゆるす",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@nouhakaiyurusu"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:5f4ade7e0399e082fe963514547944e654223d58d6bc0e3a9171247d5754ad80",
+    "source_url": "https://www.youtube.com/@nouhakaiyurusu",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/xJgDBKY3TWY",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "出雲れね",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@izumorene_asmr"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:637afd71e88c5331f95b7f8cb40f474b06187bfbf81fbfe0eb1f724cefa92576",
+    "source_url": "https://www.youtube.com/@izumorene_asmr",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/watch?v=F3WO9_CbHzA",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "きゅーたん",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UC9_L8AEbEbBIGfXVSEHlOhQ"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:c724bbf16d0af738a7bcc84154651da17ba968edb303a0c4d41b68c3b5facb31",
+    "source_url": "https://www.youtube.com/channel/UC9_L8AEbEbBIGfXVSEHlOhQ",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.twitch.tv/videos/2673212313",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "伏屋ななし",
+    "platform_accounts": [
+      {
+        "platform": "twitch",
+        "url": "https://www.twitch.tv/248774"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:87b19a43802b6dcd396f0a7d2cea19c10a2ba72ef8f551069206f11cce376309",
+    "source_url": "https://www.twitch.tv/248774",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/@imasara0nagara",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "今永さらら",
+    "official_website": "https://x.com/imasara0nagara",
+    "platform_accounts": [],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:27ae54aeb6c217664fc92b566cf04f9ea56c8836f8710db6a17be9609a3f01c3",
+    "source_url": "https://x.com/imasara0nagara",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/live/_5rZq5ZX9zQ",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "宇星タト",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCB8dWAxLD1IgP-fys7Obttg"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:d0bc6acb3a943455fb2f9f23c40e56f543b9e8aeeb7c5bbced342852b9586bd2",
+    "source_url": "https://www.youtube.com/channel/UCB8dWAxLD1IgP-fys7Obttg",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/live/COVZANfN09Y",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "雪音 ここ",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@yukine_coco-nrd"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:edd672e600e9d889d93c06265eb61392938add27dddf81009882932f31d9118b",
+    "source_url": "https://www.youtube.com/@yukine_coco-nrd",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/8FJexYc6Yw4",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "かねき。",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@kaneki0405"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:5cf4da374d6917a2a990b489a64e8022cb4d804719aa4a1410da1f95b2f4f7a2",
+    "source_url": "https://www.youtube.com/@kaneki0405",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/OWonRf2vCKA",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "天紫月華",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@104_ruruka"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:db21d53a07a139f021e8434c423374a0cfa09c6d79a41a01583fb5b1506b8aef",
+    "source_url": "https://www.youtube.com/@104_ruruka",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/watch?v=ZPDKZTYjrhk",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "えちこ",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@echico0715"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:f5f8ce2ba48c49811db4cd3efaaaf4e15e0a9f35e1f85910cb3477e22bed2cfe",
+    "source_url": "https://www.youtube.com/@echico0715",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://www.youtube.com/watch?v=nJXNrw-hmjo",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "弥神奏羽",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@kanaha_y"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:d794d05635688d58c63dfd5eb9552bfd0eb865329b918e7cd7fdf357e2f3fb74",
+    "source_url": "https://www.youtube.com/@kanaha_y",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtube.com/shorts/n4Y5Z-4QpDw",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "熊野友二",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@kumano_yuzi"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:3044b26710ba349b11bf7031b0dc76d2fd755a3279b13a11a3f42556078c2114",
+    "source_url": "https://www.youtube.com/@kumano_yuzi",
+    "activity_evidence": "previously_published_registration"
+  },
+  {
+    "activity_source": "https://youtu.be/7nCuiCmD3e0",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "しらぐう",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@shiragu"
+      }
+    ],
+    "reading": "",
+    "romanized_name": "",
+    "source_id": "community:3018c16beac8ea88f61890e621b2bb604ba4b14c7be052ca6c1d18f2a0e0dd1b",
+    "source_url": "https://www.youtube.com/@shiragu",
+    "activity_evidence": "previously_published_registration"
   }
 ]
