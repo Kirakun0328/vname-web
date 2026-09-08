@@ -3,21 +3,21 @@
   "policy": "remove_only_legacy_external_data_without_clear_reuse_terms",
   "protected": {
     "reviewed": 201,
-    "reviewed_already_materialized": 199,
+    "reviewed_already_materialized": 201,
     "primary_rechecked": 60,
     "aiv_related": 1532,
     "explicitly_reusable_dataset": 10118,
     "reusable_by_family": {
       "vdb": 9788,
-      "legacy_2019_dataset": 103,
-      "indonesia_kaggle": 227
+      "indonesia_kaggle": 227,
+      "legacy_2019_dataset": 103
     },
     "user_encyclopedia_reference": 55,
     "reference_by_family": {
       "user_encyclopedia": 55
     },
-    "person_scoped_official": 1733,
-    "unique_preexisting": 13577
+    "person_scoped_official": 1735,
+    "unique_preexisting": 13579
   },
   "reusable_licenses": {
     "vdb": {
@@ -61,22 +61,22 @@
     }
   },
   "before": {
-    "base": 24266,
-    "extra": 9320,
-    "platform": 11722,
-    "merged": 33576
+    "base": 9877,
+    "extra": 5256,
+    "platform": 11705,
+    "merged": 15995
   },
   "removed": {
-    "base": 14389,
-    "extra": 4066,
-    "platform": 17,
-    "unique_identities": 17583
+    "base": 0,
+    "extra": 0,
+    "platform": 0,
+    "unique_identities": 0
   },
   "after": {
     "base": 9877,
-    "extra": 5254,
+    "extra": 5256,
     "platform": 11705,
-    "merged": 15993,
+    "merged": 15995,
     "aiv_related": 1532,
     "explicitly_reusable_dataset": 10118,
     "user_encyclopedia_reference": 55
