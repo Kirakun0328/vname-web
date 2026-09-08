@@ -25,7 +25,8 @@ function load(data){
  const primary=new Map((window.VTUBER_PRIMARY||[]).map(r=>[r.source_id,r]));
  data=data.map(r=>primary.has(r.source_id)?{...r,...primary.get(r.source_id)}:r);
  records=data.filter(r=>r.listing_status!=='predebut'&&!preparingName(r.display_name)).map(original=>{
-  const correction=corrections.get(key(original.display_name)),r={...original,...correction,corrected:!!correction};
+  const hasOwnReading=original.reading&&original.reading_source&&['official','profile_explicit'].includes(original.reading_source_kind);
+  const correction=hasOwnReading?undefined:corrections.get(key(original.display_name)),r={...original,...correction,corrected:!!correction};
   Object.assign(r,resolveReading(r));
   r.romanized_name=r.romanized_source?r.romanized_name:'';
   const media=window.VNamePlatforms.details(r);
