@@ -9,7 +9,7 @@ permissions:
   contents: write
 jobs:
   cleanup:
-    # No Pages environment dependency; diagnose reviewed-profile materialization.
+    # No Pages environment dependency; final verification after public-loader fix.
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -35,15 +35,12 @@ jobs:
           grep -o 'Luca黒蜜糖' data.js | wc -l || true
           grep -o 'Luca黒蜜糖' extra-data.js | wc -l || true
           grep -o 'Luca黒蜜糖' platform-data.js | wc -l || true
-          echo "stable source id counts"
-          grep -o 'youtube:UCDfZ7u-DMSgxoHi5Ls9nJig' data.js | wc -l || true
-          grep -o 'youtube:UCDfZ7u-DMSgxoHi5Ls9nJig' extra-data.js | wc -l || true
-          grep -o 'youtube:UCDfZ7u-DMSgxoHi5Ls9nJig' platform-data.js | wc -l || true
       - name: Validate JavaScript and source policy
         run: |
           node --check data.js
           node --check extra-data.js
           node --check platform-data.js
+          node --check app.js
           node --experimental-vm-modules --test tests/*.cjs
           python -m unittest discover -s tests
       - name: Commit cleaned data and reports
