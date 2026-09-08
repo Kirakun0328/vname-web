@@ -24,7 +24,5 @@ window.VNameCommunity = (() => {
   }
   return {clean,loadAll};
 })();
-const communityStatus=document.getElementById('community-status');
-if(communityStatus){
- fetch('scripts/registration-config.json',{credentials:'omit'}).then(response=>{if(!response.ok)throw new Error('Configuration unavailable');return response.json();}).then(config=>window.VNameCommunity.loadAll(config.origin)).then(rows=>window.VNameAddCommunity(rows)).catch(()=>{communityStatus.hidden=false;communityStatus.textContent='利用者登録分を読み込めませんでした。既存の辞書は検索できます。時間をおいて再読み込みしてください。';translateUI();});
-}
+
+// Registration has been discontinued. No automatic network requests.

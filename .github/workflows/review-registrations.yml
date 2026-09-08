@@ -1,37 +1,10 @@
 name: Review registrations with Gemma
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/review-registrations.yml', 'scripts/review_registrations.py', 'scripts/registration-config.json']
-permissions:
-  contents: read
-  id-token: write
-concurrency:
-  group: registration-review
-  cancel-in-progress: false
+permissions: {}
 jobs:
-  review:
+  discontinued:
+    if: ${{ false }}
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-          persist-credentials: false
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Check pending registrations
-        id: queue
-        run: python scripts/review_registrations.py --check-queue
-      - uses: actions/cache@v4
-        if: steps.queue.outputs.count != '0' || github.event_name != 'schedule'
-        with:
-          path: .cache/registration-review
-          key: gemma-e2b-review-b4243c1-llama-b10809-v1
-      - name: Run Gemma 4 E2B review
-        if: steps.queue.outputs.count != '0' || github.event_name != 'schedule'
-        run: python scripts/review_registrations.py --smoke-test
+      - run: echo 'Registration has been discontinued.'
