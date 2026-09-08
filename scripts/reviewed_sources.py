@@ -6,7 +6,14 @@ from global_sources import valid_name
 
 def reviewed_profiles():
     records=[]
-    for name in ('reviewed-profiles.json', 'reviewed-community-profiles.json', 'reviewed-encyclopedia-profiles.json', 'reviewed-web-profiles.json', 'reviewed-deep-web-profiles.json'):
+    for name in (
+        'reviewed-profiles.json',
+        'reviewed-community-profiles.json',
+        'reviewed-community-submissions-2026-09-08.json',
+        'reviewed-encyclopedia-profiles.json',
+        'reviewed-web-profiles.json',
+        'reviewed-deep-web-profiles.json',
+    ):
         records.extend(json.loads(Path(__file__).with_name(name).read_text(encoding='utf-8')))
     return records
 
