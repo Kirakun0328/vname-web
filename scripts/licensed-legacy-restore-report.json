@@ -1,13 +1,10 @@
 {
   "schema": 1,
-  "status": "restored",
+  "status": "already_complete",
   "family": "TaiwanVTuberTrackingDataArchive",
   "license": "Unlicense",
-  "license_url": "https://github.com/TaiwanVtuberData/TaiwanVTuberTrackingDataArchive/blob/master/LICENSE",
   "expected": 2664,
-  "before": 2223,
-  "after": 2666,
-  "added": 443,
-  "source_commit": "45d1f07e6d90d2c9bff0d1f62f552eb5b8ef76ac",
-  "source_file": "extra-data.js"
+  "present": 2666,
+  "added": 0,
+  "source_commit": "45d1f07e6d90d2c9bff0d1f62f552eb5b8ef76ac"
 }
