@@ -453,3 +453,6 @@ for(const [jp,values] of Object.entries({
  'かなを含む割合':['Names containing kana','包含假名的比例','가나 포함 비율'],
  '文字の組み合わせ・名前の重複・読みの登録状況まで、媒体やタグごとに比較できます。':['Compare character combinations, repeated names and reading coverage by platform or category.','按平台或分类比较文字组合、同名和读音收录情况。','플랫폼이나 태그별로 문자 조합, 이름 중복, 발음 등록 현황을 비교합니다.']
 })) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
+
+// Public reply-based listing requests.
+for(const [jp,values] of Object.entries({"名前の掲載・修正を希望する方へ":["Request a listing or correction","申请收录或更正名字","이름 등재·수정 신청"],"Xの募集ポストへの返信で、①活動名 ②読み ③活動プラットフォームのURLをお知らせください。":["Reply to the recruitment post on X with: ① Activity name ② Name pronunciation ③ Activity platform URL.","请回复X上的征集帖，提供：①活动名 ②读音 ③活动平台URL。","X 모집 게시물에 ①활동명 ②읽는 법 ③활동 플랫폼 URL을 답글로 보내 주세요."],"返信内容は公開されます。公開してよい活動情報だけをお送りください。":["Replies are public. Send only activity information you are comfortable making public.","回复内容会公开。请只发送可以公开的活动信息。","답글은 공개됩니다. 공개해도 되는 활동 정보만 보내 주세요."],"内容を確認してから反映します。返信による自動登録は行いません。":["Requests are reviewed before being reflected. Replies are not registered automatically.","确认内容后再予以反映，回复不会自动登记。","내용 확인 후 반영합니다. 답글만으로 자동 등록되지는 않습니다."],"Xのリプ欄で申請する":["Apply in the X replies","前往X回复申请","X 답글로 신청"]})) ['en','zh','ko'].forEach((lang,i)=>translations[lang][jp]=values[i]);
