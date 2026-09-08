@@ -23,7 +23,7 @@
   const q=(s,r=document)=>r.querySelector(s);
   function ensureCss(){
     if(q('link[data-ui-polish]'))return;
-    const link=document.createElement('link');link.rel='stylesheet';link.href='ui-polish.css?v=2';link.dataset.uiPolish='true';document.head.append(link);
+    const link=document.createElement('link');link.rel='stylesheet';link.href='ui-polish.css?v=3';link.dataset.uiPolish='true';document.head.append(link);
   }
   function mergeCommunity(){
     const register=q('#register');if(!register||register.dataset.unified==='true')return;
@@ -32,6 +32,12 @@
 
     const requestPane=document.createElement('div');requestPane.className='community-request-pane';
     while(request.firstChild)requestPane.append(request.firstChild);
+
+    const requestCopy=document.createElement('div');requestCopy.className='community-request-copy';
+    const requestActions=document.createElement('div');requestActions.className='community-request-actions';
+    for(const node of [q('.community-kicker',requestPane),q('h2',requestPane),q('.request-fields',requestPane)])if(node)requestCopy.append(node);
+    for(const node of [q('.primary-action',requestPane),q('.community-notes',requestPane)])if(node)requestActions.append(node);
+    requestPane.replaceChildren(requestCopy,requestActions);
 
     const supportPane=document.createElement('aside');supportPane.className='community-support-inline community-support-pane';
     const copyBox=document.createElement('div');copyBox.className='community-support-copy';
