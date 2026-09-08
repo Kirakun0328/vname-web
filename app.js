@@ -71,7 +71,7 @@ function renderCard({r,type}){
  const details=element('details','record-details');details.append(element('summary','','詳細・出典'),fieldsFor(r));
  if(r.registration_status==='ai_screened')details.append(element('p','muted','Gemma 4 E2Bが登録内容を確認しました。本人確認や情報の正しさを保証するものではありません。'));
  const note=element('div','note');
- const sources=[...(r.name_source?[['名前の確認元',r.name_source]]:[]),...(r.reading&&!r.reading_inferred?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource]];
+ const sources=[...(r.platform_accounts||[]).filter(a=>a.platform==='x'&&/^https:\/\/(?:x|twitter)\.com\/[A-Za-z0-9_]{1,15}$/.test(a.url||'')).map(a=>['本人のX',a.url]),...(r.name_source?[['名前の確認元',r.name_source]]:[]),...(r.reading&&!r.reading_inferred?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource]];
  for(const [label,url] of sources)if(sourceLink(url))note.append(link(label,url));
  details.append(note);article.append(top,name,reading,platformLinks,details);return article;
 }
