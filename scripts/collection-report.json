@@ -113,10 +113,10 @@
     "skipped_without_activity_or_predebut": 0
   },
   "records": {
-    "stored": 33566,
-    "listed": 33548,
+    "stored": 33583,
+    "listed": 33565,
     "excluded_predebut": 18,
-    "with_activity_source": 10194
+    "with_activity_source": 10213
   },
   "vstats": {
     "new_records": 0,
