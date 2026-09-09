@@ -3,11 +3,11 @@
   "status": "running",
   "requested_query_families": 1800,
   "pages_per_query": 3,
-  "query_families_attempted": 960,
-  "query_requests": 1320,
-  "new_candidates": 2163,
-  "new_public_records": 110,
-  "existing_records_enriched": 43,
+  "query_families_attempted": 1080,
+  "query_requests": 1483,
+  "new_candidates": 2375,
+  "new_public_records": 123,
+  "existing_records_enriched": 45,
   "batches": [
     {
       "number": 1,
@@ -481,8 +481,67 @@
           "verified_direct_profile": 454
         }
       }
+    },
+    {
+      "number": 9,
+      "search": {
+        "status": "ok",
+        "next_query": 1080,
+        "updated_at": "2026-09-09T06:44:59.091435+00:00",
+        "query_catalog_size": 5851,
+        "specialty_count": 122,
+        "query_requests": 163,
+        "query_families_attempted": 120,
+        "pages_per_query": 3,
+        "new_candidates": 212,
+        "total_candidates": 4357,
+        "auto_published": 0,
+        "scope": "Search leads only; direct creator identity and activity confirmation required.",
+        "catalogue_id": "6618275ffa41b20c",
+        "catalogue_cursors": {
+          "6618275ffa41b20c": 1080
+        },
+        "query_families_requested": 120,
+        "unresponsive_engines": {
+          "brave": 75,
+          "duckduckgo": 75,
+          "google cse": 75,
+          "startpage": 75,
+          "wikidata": 5,
+          "wikipedia": 75
+        }
+      },
+      "verification": {
+        "schema": 2,
+        "updated_at": "2026-09-09T06:44:59.232185+00:00",
+        "candidates_total": 4357,
+        "attempted_this_run": 227,
+        "verified_this_run": 30,
+        "verified_unique_profiles": 15,
+        "new_public_records": 13,
+        "existing_records_enriched": 2,
+        "statuses": {
+          "activity_unconfirmed": 53,
+          "no_direct_vtuber_evidence": 94,
+          "verified": 30,
+          "fan_or_clip_channel": 50
+        },
+        "policy": "SearXNG discovery only; publication requires direct public creator/profile verification.",
+        "cumulative_since_checkpoint_fix": {
+          "attempted_this_run": 2029,
+          "verified_this_run": 253,
+          "new_public_records": 123,
+          "existing_records_enriched": 45
+        },
+        "queue_statuses": {
+          "not_confirmed": 2140,
+          "pending_primary_confirmation": 346,
+          "unavailable": 1387,
+          "verified_direct_profile": 484
+        }
+      }
     }
   ],
   "started_at": "2026-09-09T05:18:30.777566+00:00",
-  "updated_at": "2026-09-09T06:40:59.548339+00:00"
+  "updated_at": "2026-09-09T06:51:05.258554+00:00"
 }

@@ -45868,8 +45868,10 @@
     "query": "!yt \"Portugal VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=1EY2wArJa4U",
@@ -45878,8 +45880,10 @@
     "query": "!yt \"Portugal VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=LwMhbrdRu0E",
@@ -45888,8 +45892,10 @@
     "query": "!yt \"Portugal VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=0Zyp54xLQBY",
@@ -45898,8 +45904,11 @@
     "query": "!yt \"会計\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCGWwpR6swC6LVyABcQwPFpQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=MXZiAIoGW68",
@@ -45908,8 +45917,10 @@
     "query": "!yt \"会計\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=-gvJ6ZsSbEY",
@@ -45918,8 +45929,10 @@
     "query": "!yt \"会計\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=GsbDoaLsso0",
@@ -45928,8 +45941,10 @@
     "query": "!yt \"Italy VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=58EriW4ULXY",
@@ -45938,8 +45953,10 @@
     "query": "!yt \"Italy VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=scPNkDWE1pg",
@@ -45948,8 +45965,10 @@
     "query": "!yt \"Italy VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=u13Pcy9MU8I",
@@ -45958,8 +45977,10 @@
     "query": "!yt \"Italy VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=vtExWPxxM4I",
@@ -45968,8 +45989,10 @@
     "query": "!yt \"Italy VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=K8pedLmv5m8",
@@ -45978,8 +46001,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=JGXIB-dJCMM",
@@ -45988,8 +46013,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=Ky4QnBFlESM",
@@ -45998,8 +46025,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=HBf4LUCXF1g",
@@ -46008,8 +46037,11 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCCfDOnXkLCH8QoEurhywZ8g"
   },
   {
     "url": "https://www.youtube.com/watch?v=jTJVdgErCN8",
@@ -46018,8 +46050,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=a0DcXfURN_o",
@@ -46028,8 +46062,11 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCCfDOnXkLCH8QoEurhywZ8g"
   },
   {
     "url": "https://www.youtube.com/watch?v=zCksM6PJK3c",
@@ -46038,8 +46075,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=xC0baDAbgTM",
@@ -46048,8 +46087,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=NcOkeeRCdvQ",
@@ -46058,8 +46099,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=-ZrL519TbI4",
@@ -46068,8 +46111,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=6Rc8IBF3z4g",
@@ -46078,8 +46123,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=fyrFCqph_Uw",
@@ -46088,8 +46135,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=iQnrX7RkxQI",
@@ -46098,8 +46147,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=B0bVe3GOORQ",
@@ -46108,8 +46159,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=ktpBeTwNqfE",
@@ -46118,8 +46171,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=NXj4xlBcmMA",
@@ -46128,8 +46183,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=jA3nV4ZI63E",
@@ -46138,8 +46195,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=_-nM6qUsei4",
@@ -46148,8 +46207,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=OG-Q4dyrrlg",
@@ -46158,8 +46219,10 @@
     "query": "!yt \"簿記\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=SbTcXbhoP6Q",
@@ -46168,8 +46231,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=rbmA1tZFbp8",
@@ -46178,8 +46243,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=sPgMzz2kJ_8",
@@ -46188,8 +46256,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=ZsiDPYsR2y4",
@@ -46198,8 +46269,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=0nfP4Qr9rxk",
@@ -46208,8 +46281,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=lwSyN12NOf0",
@@ -46218,8 +46293,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=v-7jFj4a2no",
@@ -46228,8 +46305,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=08HN67AuLtI",
@@ -46238,8 +46317,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=uSIOTJLqPLg",
@@ -46248,8 +46329,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=f3Pu9CriQRc",
@@ -46258,8 +46341,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=gX4Vau9Q0jc",
@@ -46268,8 +46353,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=LduB3_pThOM",
@@ -46278,8 +46365,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=xT1IRdr_K2c",
@@ -46288,8 +46377,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=HN1cF__3kWM",
@@ -46298,8 +46389,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=YxGTv9JPiuQ",
@@ -46308,8 +46401,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=yUJa7qRsXd0",
@@ -46318,8 +46414,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=0vGJ0ywUW-8",
@@ -46328,8 +46427,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=W_OffL7_KmA",
@@ -46338,8 +46440,10 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=I5Y4Nvby7yc",
@@ -46348,8 +46452,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=X4fQzZZXRho",
@@ -46358,8 +46465,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=spLQw8Qkje4",
@@ -46368,8 +46478,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=H_uM2A_OvfU",
@@ -46378,8 +46491,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=EdmirmELLBk",
@@ -46388,8 +46504,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=s9qYWicjaKY",
@@ -46398,8 +46517,11 @@
     "query": "!yt \"Italian VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCfdF96prvBt7_N28veNdVkA"
   },
   {
     "url": "https://www.youtube.com/watch?v=O1asjlWJbRA",
@@ -46408,8 +46530,10 @@
     "query": "!yt \"Netherlands VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=tJNcMcjJgZ4",
@@ -46418,8 +46542,10 @@
     "query": "!yt \"Netherlands VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=ddVmVqxxaa0",
@@ -46428,8 +46554,10 @@
     "query": "!yt \"Netherlands VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=gZRpztimFlM",
@@ -46438,8 +46566,10 @@
     "query": "!yt \"Netherlands VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=XNf3J-ZzBlg",
@@ -46448,8 +46578,10 @@
     "query": "!yt \"Netherlands VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=yDBEnZN4dso",
@@ -46458,8 +46590,10 @@
     "query": "!yt \"Netherlands VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=xztDWB3qxww",
@@ -46468,8 +46602,10 @@
     "query": "!yt \"Dutch VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=xhM0YSd7dhI",
@@ -46478,8 +46614,10 @@
     "query": "!yt \"Dutch VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=Sy9vIg-xung",
@@ -46488,8 +46626,10 @@
     "query": "!yt \"Dutch VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=Lkz8psO2Ez0",
@@ -46498,8 +46638,11 @@
     "query": "!yt \"Dutch VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC2j6zQOX-IrBWWZWM-QtvQQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=umZWVtO9QhM",
@@ -46508,8 +46651,10 @@
     "query": "!yt \"Dutch VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=FxoA5M1iOrc",
@@ -46518,8 +46663,11 @@
     "query": "!yt \"Dutch VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC2j6zQOX-IrBWWZWM-QtvQQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=7-TBYooOFVU",
@@ -46528,8 +46676,10 @@
     "query": "!yt \"Dutch VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=QMx-ubgnlMg",
@@ -46538,8 +46688,10 @@
     "query": "!yt \"Dutch VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=sHtL3AwMzqI",
@@ -46548,8 +46700,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=qYOnviAuHdY",
@@ -46558,8 +46712,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=K14ubVsrRcI",
@@ -46568,8 +46724,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=OrQsBJNR6bc",
@@ -46578,8 +46736,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=T_h4HZmJUYc",
@@ -46588,8 +46748,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=1rNJMhINCR4",
@@ -46598,8 +46760,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=g92TU2dF2W0",
@@ -46608,8 +46772,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=nvktshEzLMw",
@@ -46618,8 +46784,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=ugg1noczYBc",
@@ -46628,8 +46796,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=sNdfZl0sGAE",
@@ -46638,8 +46808,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=cG7eWcocXlY",
@@ -46648,8 +46820,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=vOtAIyWEAQg",
@@ -46658,8 +46832,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=UjRDP4pDDJo",
@@ -46668,8 +46844,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=nARva3YCV_0",
@@ -46678,8 +46856,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=WjKlp6_Z49g",
@@ -46688,8 +46868,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=_rHaLyza4Qg",
@@ -46698,8 +46880,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=yZkc5yYHJCI",
@@ -46708,8 +46892,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=TKiMurDRNPU",
@@ -46718,8 +46904,10 @@
     "query": "!yt \"FP\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=jnZBT2P13NQ",
@@ -46728,8 +46916,10 @@
     "query": "!yt \"Sweden VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=lWSaCJ5ANZo",
@@ -46738,8 +46928,10 @@
     "query": "!yt \"Sweden VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=WXw1YO2TDxA",
@@ -46748,8 +46940,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=M8go3hn846c",
@@ -46758,8 +46952,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=CcarVJhKnHA",
@@ -46768,8 +46964,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=35EIQ_fnyFo",
@@ -46778,8 +46976,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=vhIguvrtrMU",
@@ -46788,8 +46988,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=3Z6qUI4Nk98",
@@ -46798,8 +47000,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=zGdCRvta4j4",
@@ -46808,8 +47012,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=UXaeghqwUew",
@@ -46818,8 +47024,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=clMtXxj0MCI",
@@ -46828,8 +47036,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=P-A1repqs1w",
@@ -46838,8 +47048,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=VJhKsZbil70",
@@ -46848,8 +47060,10 @@
     "query": "!yt \"金融\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=rvpV5ZL5Hdc",
@@ -46858,8 +47072,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=9t6_HWJGcDI",
@@ -46868,8 +47084,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=3h47Shq8sUc",
@@ -46878,8 +47096,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=DauUXQD6PFE",
@@ -46888,8 +47108,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=v1k_zDjcO0E",
@@ -46898,8 +47120,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=HKy4lXaQdNM",
@@ -46908,8 +47132,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=5hJ8FudlrE0",
@@ -46918,8 +47144,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=1EAoR03UI0w",
@@ -46928,8 +47156,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=XkFS2TMdpC0",
@@ -46938,8 +47168,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=e1o1o2LHFsw",
@@ -46948,8 +47180,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=wTs4qoahzU4",
@@ -46958,8 +47192,10 @@
     "query": "!yt \"金融\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=8CWOOK1c8jU",
@@ -46968,8 +47204,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=H_W9NZUpvQI",
@@ -46978,8 +47216,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=xM1ZQXsPCJY",
@@ -46988,8 +47228,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=ZB63yk7rCmU",
@@ -46998,8 +47240,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=Euvimxyk3Lg",
@@ -47008,8 +47252,11 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC6J6XV3HQkawjCiT8zms7Mg"
   },
   {
     "url": "https://www.youtube.com/watch?v=8jYIGd6XQhA",
@@ -47018,8 +47265,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=IVFFuWzAJTs",
@@ -47028,8 +47277,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=LLPlqq-9xyI",
@@ -47038,8 +47289,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=YFyR7QZRk8o",
@@ -47048,8 +47301,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=7uEWYzAlWk4",
@@ -47058,8 +47313,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=1GFdvCE_0oE",
@@ -47068,8 +47325,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=l4SJFm4PaN4",
@@ -47078,8 +47337,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=KHXayDNe2zU",
@@ -47088,8 +47349,11 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCImIvvLJ4HUmeRKar7DmeCw"
   },
   {
     "url": "https://www.youtube.com/watch?v=UqAWa3jepVM",
@@ -47098,8 +47362,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=CH99f8-_Ws8",
@@ -47108,8 +47374,11 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCXzg-c6uSA0lEohSou0C-gA"
   },
   {
     "url": "https://www.youtube.com/watch?v=qiAWlgKrP-o",
@@ -47118,8 +47387,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=Q6asQ58BUno",
@@ -47128,8 +47399,10 @@
     "query": "!yt \"Finland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=pSKEEj9fKGQ",
@@ -47138,8 +47411,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=cEeMXtUOsJU",
@@ -47148,8 +47423,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=WEz2t5hq7Vk",
@@ -47158,8 +47435,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=xFrWR4-lico",
@@ -47168,8 +47447,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=IGcpH-9nXWs",
@@ -47178,8 +47459,11 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCl8bSkB41JhyziKIcFmVYOQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=HZDGclcBfBw",
@@ -47188,8 +47472,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=bcez4WbHJbQ",
@@ -47198,8 +47484,11 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC2pkN4LuNo0Uhgo31zeWalg"
   },
   {
     "url": "https://www.youtube.com/watch?v=vbARjLj-0-w",
@@ -47208,8 +47497,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=gf92FZUyYfE",
@@ -47218,8 +47509,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=IznJ3pu6bkA",
@@ -47228,8 +47521,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=7xZatXQeoI4",
@@ -47238,8 +47533,10 @@
     "query": "!yt \"投資\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=dIeBFCd_T74",
@@ -47248,8 +47545,10 @@
     "query": "!yt \"Denmark VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=JhyRVf8ACAY",
@@ -47258,8 +47557,10 @@
     "query": "!yt \"Poland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=hDNO72qEvIs",
@@ -47268,8 +47569,10 @@
     "query": "!yt \"Poland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=MNA-GK7kKDM",
@@ -47278,8 +47581,10 @@
     "query": "!yt \"Poland VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=VxYPhcwHENs",
@@ -47288,8 +47593,11 @@
     "query": "!yt \"Czech VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCnY7l8KoxPMZdXvAztYgZug"
   },
   {
     "url": "https://www.youtube.com/watch?v=Oq0XNK3Dw50",
@@ -47298,8 +47606,10 @@
     "query": "!yt \"Czech VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=3To2ygoyg1A",
@@ -47308,8 +47618,10 @@
     "query": "!yt \"Czech VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=obaR2zrODeM",
@@ -47318,8 +47630,11 @@
     "query": "!yt \"Czech VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCnY7l8KoxPMZdXvAztYgZug"
   },
   {
     "url": "https://www.youtube.com/watch?v=ZzwcMVCWHa8",
@@ -47328,8 +47643,10 @@
     "query": "!yt \"Czech VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=KgbtxWPbPpo",
@@ -47338,8 +47655,10 @@
     "query": "!yt \"Czech VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=npCtX2dmKqE",
@@ -47348,8 +47667,10 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=65oWeeiRwTY",
@@ -47358,8 +47679,10 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=SdW97PvBqt8",
@@ -47368,8 +47691,10 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=AWoWmczpV8c",
@@ -47378,8 +47703,10 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=E4GhcuEVnY8",
@@ -47388,8 +47715,11 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC52Cp7FiX_xHEhF21u601fQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=33O5PdZBwsU",
@@ -47398,8 +47728,10 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=dEWHR6RKq6M",
@@ -47408,8 +47740,11 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC52Cp7FiX_xHEhF21u601fQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=PvBn02Q6KWQ",
@@ -47418,8 +47753,10 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=P64gWqSWCJ4",
@@ -47428,8 +47765,10 @@
     "query": "!yt \"経済\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=ok-ASUOrGQ0",
@@ -47438,8 +47777,11 @@
     "query": "!yt \"Hungary VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC55-kgjCcQEi9cWmPNEjHhA"
   },
   {
     "url": "https://www.youtube.com/watch?v=Gilakteohec",
@@ -47448,8 +47790,10 @@
     "query": "!yt \"Hungary VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=JP-Z47x1jjc",
@@ -47458,8 +47802,10 @@
     "query": "!yt \"Hungary VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=BPWmEtv8GU4",
@@ -47468,8 +47814,10 @@
     "query": "!yt \"Hungary VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=8n7Pm7ILH6E",
@@ -47478,8 +47826,10 @@
     "query": "!yt \"Hungary VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=G_-aeP6xOKE",
@@ -47488,8 +47838,10 @@
     "query": "!yt \"Hungary VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=B1tt8OmH4nw",
@@ -47498,8 +47850,10 @@
     "query": "!yt \"Hungary VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=JHjglx5z9eE",
@@ -47508,8 +47862,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=7qRfRYR_Lj4",
@@ -47518,8 +47874,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=kohz3lStXDg",
@@ -47528,8 +47886,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=4QK710P_w_g",
@@ -47538,8 +47898,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=pJ9ojDuEhNY",
@@ -47548,8 +47910,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=9wtgQ9ij9Dk",
@@ -47558,8 +47922,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=GaEFaePnmI8",
@@ -47568,8 +47934,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=N0tPOHWZF5I",
@@ -47578,8 +47946,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=ynFCGGq6kuo",
@@ -47588,8 +47958,11 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCj594_IrZdw6aP_Cisxygeg"
   },
   {
     "url": "https://www.youtube.com/watch?v=JhAIL4lv2ng",
@@ -47598,8 +47971,11 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UCj594_IrZdw6aP_Cisxygeg"
   },
   {
     "url": "https://www.youtube.com/watch?v=n-VsfPGhZhw",
@@ -47608,8 +47984,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=jL_tRDcvn1M",
@@ -47618,8 +47996,10 @@
     "query": "!yt \"経営\" VTuber",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=2kYQghj93Ss",
@@ -47628,8 +48008,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=ku7PC4sJC_U",
@@ -47638,8 +48020,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=Xs2hJ7suwNE",
@@ -47648,8 +48032,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=kLlVIdAxAoM",
@@ -47658,8 +48044,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=U34EF7zruII",
@@ -47668,8 +48056,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=cM89QtqXgbw",
@@ -47678,8 +48068,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=0wV0vKvhBWI",
@@ -47688,8 +48080,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=C1aQ7vbiNdE",
@@ -47698,8 +48092,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=Gcdoa1O2qL0",
@@ -47708,8 +48104,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=lLinIUiXkJ4",
@@ -47718,8 +48116,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=I40oxYt5az0",
@@ -47728,8 +48128,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=4vSZGfBeBWo",
@@ -47738,8 +48140,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=xIautWLq6-k",
@@ -47748,8 +48152,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=wZ2jN-n8-gk",
@@ -47758,8 +48164,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=iepo18LAGJE",
@@ -47768,8 +48176,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=4FSjYp7BMWQ",
@@ -47778,8 +48188,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=ClK-OmH37Dg",
@@ -47788,8 +48200,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=3O-Xd4u2gb8",
@@ -47798,8 +48212,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=dKHxXK3Lh1I",
@@ -47808,8 +48224,10 @@
     "query": "!yt \"Greece VTuber\"",
     "discovered_at": "2026-09-09T06:20:39.350138+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=yp8xnNZkL0A",
@@ -47818,8 +48236,10 @@
     "query": "!yt \"Ukraine VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=cljz56Fdl1g",
@@ -47828,8 +48248,10 @@
     "query": "!yt \"Ukraine VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=3xxAzyXv7Aw",
@@ -47838,8 +48260,10 @@
     "query": "!yt \"Ukraine VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=y7t3HePOj8I",
@@ -47848,8 +48272,10 @@
     "query": "!yt \"Ukraine VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=IsvB0nhseec",
@@ -47858,8 +48284,10 @@
     "query": "!yt \"Ukraine VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=dh004giSh7o",
@@ -47868,8 +48296,10 @@
     "query": "!yt \"Ukraine VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=u3OESVB0thY",
@@ -47878,8 +48308,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=6RZBZDqUof8",
@@ -47888,8 +48320,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=yOZRriDxUc8",
@@ -47898,8 +48332,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=Eqaakdb6Gtk",
@@ -47908,8 +48344,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=reKHxbjCKbY",
@@ -47918,8 +48356,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=98Wawn8mSYs",
@@ -47928,8 +48368,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=-hN7RgV0KCs",
@@ -47938,8 +48380,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=eHNwR4XIe_Y",
@@ -47948,8 +48392,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=798E2fia-CU",
@@ -47958,8 +48404,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=xHqysx_eAmM",
@@ -47968,8 +48416,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=p_EHC9u0hlw",
@@ -47978,8 +48428,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=emuLyaUEwFA",
@@ -47988,8 +48440,10 @@
     "query": "!yt \"起業\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=SXJbDl4cZqc",
@@ -47998,8 +48452,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=pxMP9JElJq0",
@@ -48008,8 +48464,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=9oTJq9pzPGc",
@@ -48018,8 +48476,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=-xxWl_oCZ9g",
@@ -48028,8 +48488,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=EvyLh3DKZHg",
@@ -48038,8 +48500,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=o3qMBXrFLmM",
@@ -48048,8 +48512,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=HXBeaF1ihto",
@@ -48058,8 +48524,11 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC5eMgpgwXb5Xhq0Yx6nvcYw"
   },
   {
     "url": "https://www.youtube.com/watch?v=MRauE6q4rJc",
@@ -48068,8 +48537,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=rx3fv20uGh4",
@@ -48078,8 +48549,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=33dXAY6O7M0",
@@ -48088,8 +48561,10 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=pm8-qA9-zkI",
@@ -48098,8 +48573,11 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "verified",
+    "verified_source_id": "youtube:UC3LNIWKm02XTKxjprrQJ19w"
   },
   {
     "url": "https://www.youtube.com/watch?v=Ns9QDQg8b9Y",
@@ -48108,8 +48586,10 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "activity_unconfirmed"
   },
   {
     "url": "https://www.youtube.com/watch?v=W5oEdSWNC5A",
@@ -48118,8 +48598,10 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "no_direct_vtuber_evidence"
   },
   {
     "url": "https://www.youtube.com/watch?v=8jZdoW-hDnM",
@@ -48128,8 +48610,10 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false
+    "review_status": "not_confirmed",
+    "published": false,
+    "verified_at": "2026-09-09T06:44:59.232185+00:00",
+    "verification_status": "fan_or_clip_channel"
   },
   {
     "url": "https://www.youtube.com/watch?v=YdSr5TBWF9s",
@@ -49467,6 +49951,2126 @@
     "candidate_snippet": "",
     "query": "!yt \"銀行\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ut_zpbKl6D0",
+    "candidate_title": "Pippa's talking about Philippines",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=b0IERyPt2Wk",
+    "candidate_title": "𝐎𝐮𝐫𝐨 𝐊𝐫𝐨𝐧𝐢𝐢 𝐡𝐚𝐬 𝐚 𝐅𝐢𝐥𝐢𝐩𝐢𝐧𝐨 𝐟𝐫𝐢𝐞𝐧𝐝 『 | Hololive』",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=2B-0Eqk6tRk",
+    "candidate_title": "Jurard and Ironmouse cursed out each other with their native language",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=NQuFaMUs69I",
+    "candidate_title": "Polka's Filipino Food Choice Caught IRyS Off-Guard...【Hololive】",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Vxv90aRt7Cs",
+    "candidate_title": "Suisei Can Cook This Filipino Dish",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=o5KWyB3U5mY",
+    "candidate_title": "chat broke when Luca did the Filipino accent...",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Xc4zVCShFZ4",
+    "candidate_title": "FuwaMoco are so excited when they're spotted on TV in the philippines",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=2Cj9SWaAKI8",
+    "candidate_title": "Jurard and Rosco's Cultural Exchange Gone Wrong",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=2N_i866Bk7Q",
+    "candidate_title": "𝙆𝙧𝙤𝙣𝙞𝙞'𝙨 𝘾𝙝𝙖𝙩 𝙂𝙤𝙩 𝙁𝙡𝙤𝙤𝙙𝙚𝙙 𝙒𝙞𝙩𝙝 𝙎𝙬𝙖𝙜𝙖𝙥𝙞𝙣𝙤𝙨 𝘼𝙨 𝙎𝙝𝙚 𝙍𝙚𝙖𝙙 𝘼 𝙁𝙞𝙡𝙞𝙥𝙞𝙣𝙤 𝙂𝙧𝙚𝙚𝙩𝙞𝙣𝙜!",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=F8UIvfQg8U0",
+    "candidate_title": "Biboo Talks About Her Jollibee Experience",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Hbv8R2o4_Rg",
+    "candidate_title": "Elizabeth imitates a Filipino meme",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Nc6zkt6SU5A",
+    "candidate_title": "𝐇𝐚𝐤𝐨𝐬 𝐁𝐚𝐞 𝐥𝐨𝐯𝐞 𝐏𝐡𝐢𝐥𝐢𝐩𝐩𝐢𝐧𝐞 𝐜𝐮𝐢𝐬𝐢𝐧𝐞",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=S7ehxXHwaD0",
+    "candidate_title": "Ame Talks About Her Filipino Noodle Dream",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=XMm3fEdbDOk",
+    "candidate_title": "𝑰𝑹𝒚𝑺 𝑰𝒎𝒎𝒆𝒅𝒊𝒂𝒕𝒆𝒍𝒚 𝑹𝒆𝒄𝒐𝒈𝒏𝒊𝒛𝒆𝒅 𝑱𝒐𝒍𝒍𝒊𝒃𝒆𝒆, 𝑩𝒖𝒕 𝑹𝒆𝒂𝒍𝒊𝒛𝒆𝒅 𝑺𝒐𝒎𝒆𝒕𝒉𝒊𝒏𝒈 𝑰𝒔 𝑾𝒓𝒐𝒏𝒈...",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_j2RTPyB4HM",
+    "candidate_title": "Japanese Vtuber with Bisaya Accent",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7nZgG3w_6Sg",
+    "candidate_title": "This Game Broke 8 Filipino VTubers (Meccha Chameleon) | ENG SUB",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FxDBp6_2oX0",
+    "candidate_title": "OLLIE AND JURARD ARGUING IN TAGALOG [HOLOLIVE-ID | HOLOSTARS-EN]",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Jwz0UYa_H58",
+    "candidate_title": "This is Why Filipino VTubers SHOULD NOT Play Golf",
+    "candidate_snippet": "",
+    "query": "!yt \"Philippines VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=SJjsCVNKv9M",
+    "candidate_title": "【VCR GTA2 神回】脱出不可能と思われたパシフィック銀行に一筋の道を切り拓く小森めと【お肉の組 葛葉 かるび ノリアキ 叶 sasatikk 釈迦 天月 ぶいすぽ 切り抜き】",
+    "candidate_snippet": "",
+    "query": "!yt \"銀行\" Vライバー",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=amBoUPimsUY",
+    "candidate_title": "【VCRGTA2切り抜き】根っからの善人すぎて銀行強盗で焦りまくり四歳児になる夕刻ロベルを見て爆笑する橘ひなのとわきを【夕刻ロベル/ホロスターズ】",
+    "candidate_snippet": "",
+    "query": "!yt \"銀行\" Vライバー",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=w6ym39my6o0",
+    "candidate_title": "【VCRGTA】初の銀行強盗が大事件に発展してスクリムにすり替える葛葉達ｗｗｗｗ【にじさんじ/切り抜き/Vtuber/だるまいずごっど/じゃすぱー/ローレン/アルスアルマル/釈迦/叶/しんじ】",
+    "candidate_snippet": "",
+    "query": "!yt \"銀行\" Vライバー",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=K_v3_QO2HB0",
+    "candidate_title": "【#いちから中央銀行】ついに最終回、国税との戦いそして・・・【にじさんじ/鷹宮リオン】",
+    "candidate_snippet": "",
+    "query": "!yt \"銀行\" Vライバー",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=vdpHEH8ZWhQ",
+    "candidate_title": "【ストグラ】息をするように銀行強盗をする無馬かなに引き気味の愛弟子【にじさんじ/叶/切り抜き】",
+    "candidate_snippet": "",
+    "query": "!yt \"銀行\" Vライバー",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ifnk-Je0Bik",
+    "candidate_title": "【#VCR GTA3】【複数視点】ストレスが溜まり過ぎて初級銀行強盗を全力で挑むBBB（魔界ノりりむ/だるまいずごっど/ボドカ/なるせ/バニラ/アルスアルマル/ローレンイロアス/ぐちつぼ/にじさんじ）",
+    "candidate_snippet": "",
+    "query": "!yt \"銀行\" Vライバー",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5cPr60Lsps0",
+    "candidate_title": "【#いちから中央銀行】フレン、アルス、長尾の整地中フワフワ会話まとめ【にじさんじ/切り抜き】",
+    "candidate_snippet": "",
+    "query": "!yt \"銀行\" Vライバー",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dbLhIDIOX58",
+    "candidate_title": "暇すぎる警察のために銀行強盗をやる警察官ボドカ【GTA5】",
+    "candidate_snippet": "",
+    "query": "!yt \"銀行\" Vライバー",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=oywbEZv7_ps",
+    "candidate_title": "[A total of 5 million yen earned through fan activities!?] A man who fell head over heels for a V...",
+    "candidate_snippet": "",
+    "query": "!yt \"証券\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=r9HaWzO3S8I",
+    "candidate_title": "株とお金の話についてゆるく答える個人勢Vtuber【豹矢りいす切り抜き】",
+    "candidate_snippet": "",
+    "query": "!yt \"証券\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=AstnITP-3no",
+    "candidate_title": "【9/9】 あばねちゃんの日本株実況中継 【配信544回目】",
+    "candidate_snippet": "",
+    "query": "!yt \"証券\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=1AsLNjtqdQo",
+    "candidate_title": "【収支報告】2025年株の運用結果発表！",
+    "candidate_snippet": "",
+    "query": "!yt \"証券\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=u83ecKihX90",
+    "candidate_title": "🚆🚆無理無理無理🚴‍♀️auカブコム証券x🏍️スルガ銀行Gポイントクラブ🙆‍♀️レバナスポイ活は完全終了🦢ポイ投資おすすめ 投資信託",
+    "candidate_snippet": "",
+    "query": "!yt \"証券\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=mzxBVWabtdU",
+    "candidate_title": "Kson Shares Her First Experience \"Traveling to Thailand\"!! [ VTuber Sub Thai ]",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bsdoASPPqUw",
+    "candidate_title": "Klara's thai caught Enna offguard 【NIJISANJI EN】",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=fbfgWFHs9-s",
+    "candidate_title": "Chat Finally Broke Biboo and Made Her RAGE in Thai 【Hololive】",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=KGDYn83nK8E",
+    "candidate_title": "Calli Experienced CULTURE SHOCK in Thailand with Biboo, Gigi and Cecilia 【Mori Calliope HololiveEN】",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_53YZK6w1LE",
+    "candidate_title": "[ENG SUB/Hololive] Even Thai people Called Biboo \"Child\"",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8ns_6kWdYN0",
+    "candidate_title": "Thai Vtuber Reacts To Uncle Roger In Thailand",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=uuI6pjX21Uk",
+    "candidate_title": "Bijou Surprised Herself When She Can Read Thai 【HololiveEN】",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=jh9IR1u15ds",
+    "candidate_title": "【Thai Vtuber】Top40 Thailand Vtuber Members Subscriber Count Comparison (7/22 Edition)",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=uhqr2_JDjPU",
+    "candidate_title": "THAI VTUBER REACT TO GARNT SAYING BANGKOK FULLNAME",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=jUPBELSJqYw",
+    "candidate_title": "(Thai version) Saja Boys - Soda Pop (Graviton’s cover)",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=EDyUD7HT_hI",
+    "candidate_title": "ภาษาไทย ที่เหมือน ภาษาญี่ปุ่น จนพวก โคฮาคุ รุกิ มาโอ แยกไม่ออก !! [ Vtuber ซับไทย ]",
+    "candidate_snippet": "",
+    "query": "!yt \"Thailand VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gQwM6jaAu7o",
+    "candidate_title": "Musician Reacts to Solar (ARP) - Dawn, Jiangshi & Thanks | Thai VTuber Original Songs!",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=HQK4ZpNR9kI",
+    "candidate_title": "【Thai Class】Let's Learn Thai and Talk! Special Night With Aisha【hololiveID】",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=c7r8BKGqfnY",
+    "candidate_title": "Biboo Shares Thai Nickname Trivia With FuwaMoco",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=qOLypG0zWL0",
+    "candidate_title": "【ASMR】คืนนี้ก็มานอนหนุนตักเราได้นะคะ [FOR SLLEEPING]",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=1ptRgGNWqro",
+    "candidate_title": "【ASMR】พี่สาวที่อยากแกล้งคุณ ! (NO BGM)🌸",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pnZ2Qw1Nfbk",
+    "candidate_title": "I brought my younger brother to live! But he can't speak Thai...",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5vTvI5M1BUY",
+    "candidate_title": "ลาฟี่เป็นคนใสๆ [Vtuber thai pixela]",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FbtxTBWkD-U",
+    "candidate_title": "【Thai Vtuber】เจ้าโดเนทตัวร้ายกับเหล่าวีสายฮา [Khaojao l Akilah l Zekai l Ramirez l Schneider] EP.1",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=LsfxJj6rRbE",
+    "candidate_title": "Thai Vtuber Reacts to Funny Thai Commercials",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=kuajK98Ib30",
+    "candidate_title": "Thai Vtuber “Siam” Self-introduction (JP Sub ENG)(Vtuber Q&A self introduction) / 자기소개 / 自我介绍",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ROSx6hlFsUw",
+    "candidate_title": "Thai Vtuber greets Filipinos in Tagalog [Eng Sub]",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ZBOczJfpwEU",
+    "candidate_title": "@PyorkThePork sings so well that he was paid \"40,000 baht\"!? [Thai Vtuber]",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=LwDTXml2tXg",
+    "candidate_title": "Native Thai Vtuber Confirming Thailand's Absurdity | Kuukiyomi World Thailand Ver.",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=U6BqYsGp3Uc",
+    "candidate_title": "【Thai Vtuber】Top20 Thailand Vtuber Members Subscriber Count Comparison (1/22 Edition)",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pB39q4LvFSg",
+    "candidate_title": "Thai vtuber farts",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=RPFwZ9L3BlE",
+    "candidate_title": "【Thai Vtuber ENG Sub】Draki Kona accidentally said \"A\" and chat go crazy",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=GXfyz9H2H5s",
+    "candidate_title": "Bijou Realized How Thai She Actually Is 【HololiveEN】",
+    "candidate_snippet": "",
+    "query": "!yt \"Thai VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=eioyppFYmQc",
+    "candidate_title": "Vtuber experiences Vietnam War",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=p5hmMFagvR0",
+    "candidate_title": "【Debut Highlights】 Thanh Loc va chuong ngua 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=O5HbzN_ivBI",
+    "candidate_title": "【Debut Highlights】 Hai ba ngôi sao đang rơi, có con chằn tinh đang bơi 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bDe5S2YPY7Y",
+    "candidate_title": "【Debut Highlights】 Vici mở cửa phòng làm việc 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dMnyIUwUEFU",
+    "candidate_title": "【Debut Highlights】 Bạn nữ xinh xắn và bạn cùng lớp may mắn 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=cNwK7_Sl3Yk",
+    "candidate_title": "【 COVER 】What Could Have Been? - ARCANE / League of Legends【 Vietnam VTuber 】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=nAQDibijADY",
+    "candidate_title": "#funny #pippa #vietnam #vtuber #fyp",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=msP-OxrD25s",
+    "candidate_title": "【 COVER 】KING - Kanaria / Aion Dualis【 Vietnam VTuber 】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=jj5WEUYmt1I",
+    "candidate_title": "Jortun Leventor đi tù không hồi kết 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=EMtCY4h6z1M",
+    "candidate_title": "【Debut Highlights】 Jortun Leventor xưng bá 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=oFFs6Z9cV0U",
+    "candidate_title": "【Debut Highlights】 Marcheline trốn nhiệm vụ 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Qe1MNu0k_Vg",
+    "candidate_title": "HÀNH TRÌNH ĐÁNH BẠI MA THẦN TOKI CÙNG EM TÔ KỲ !!| VIETNAM VTUBER VERSE",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tUjN8dZ49P0",
+    "candidate_title": "[Vtuber Vietnam] Ban Mai có muốn cưới bạn không?",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=fmhNbE-7zVU",
+    "candidate_title": "[ENVtuber / PHVtuber] PTSD Cowabunga! (Rising Storm 2: Vietnam) #Vtuber #ENVtuber #PHVtuber",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Rq3gTzlZLTI",
+    "candidate_title": "【歌ってみた】 KING - Kanaria / covered by Jortun Leventor 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=eV-3PkX4ewg",
+    "candidate_title": "【Marshmallow - Q&A】 Mả mả lâu tu nai 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=73ECyvqBj-M",
+    "candidate_title": "【Debut Highlights】 Drudrusilla khai trương tiệm may Purple 【3Di Project Vietnam Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tgdtc4dAtqU",
+    "candidate_title": "KEY VISUAL ANNOUNCEMENT @Vici-3Di 【3Di Project Vietnam VTuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Vietnam VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-nZfNoaP6wc",
+    "candidate_title": "【ご協力自治体発表！】#さぬきVフェス 2026 （パトセさんver.） #香川県 #ご当地vtuber",
+    "candidate_snippet": "",
+    "query": "!yt \"自治体\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=lD5UvGNj0dg",
+    "candidate_title": "とある自治体の地域振興[レポートしてみた]",
+    "candidate_snippet": "",
+    "query": "!yt \"自治体\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=XnsSYGAJk3s",
+    "candidate_title": "【ひきこもりから社会へ】“VTuber”と“駄菓子屋”!？…自治体が取り組むユニークなひきこもり支援とは？『おはトク』",
+    "candidate_snippet": "",
+    "query": "!yt \"自治体\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=rAMZOYHAWt4",
+    "candidate_title": "【ご報告】地元の自治体とコラボ決定！オリジナル富山弁ボイスの内容を考えたい✨【VTuber/裟々羅冥】",
+    "candidate_snippet": "",
+    "query": "!yt \"自治体\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=LyEqTrYYm_c",
+    "candidate_title": "桜井日奈子のHINAKO(ご当地Vtuber)と自治体公式Vtuberの課題",
+    "candidate_snippet": "",
+    "query": "!yt \"自治体\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yZ5cQjEFJCA",
+    "candidate_title": "【#まちスパチャプロジェクト】とある自治体さんからのお仕事いただきましたっ！！#PR【明戸えな/EnaMeido】",
+    "candidate_snippet": "",
+    "query": "!yt \"自治体\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0LagxD7OoIE",
+    "candidate_title": "Narak ka safar #chainedtogethergame || Gyokuto Michiko - Waconne India Vtuber",
+    "candidate_snippet": "",
+    "query": "!yt \"India VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=WKeFCdnEKuU",
+    "candidate_title": "India- EU trade Deal explained by an India Vtuber",
+    "candidate_snippet": "",
+    "query": "!yt \"India VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=h77_OPocGTU",
+    "candidate_title": "Reacting to Hoshimi Miyabi backstory & trailer| Xeno Matters - Waconne India Vtuber",
+    "candidate_snippet": "",
+    "query": "!yt \"India VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=oTzuO8OYVM4",
+    "candidate_title": "【初めての不動産投資】インタビュー動画のご紹介！【Vtuber／現役公務員】",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=b07F_PsV8WA",
+    "candidate_title": "ユニ労ちゃんねる、発足【公務員組合系Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=X6ztnKTdRoE",
+    "candidate_title": "[Huge Disaster] I got yelled at by a government official over my My Number card renewal and start...",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=nfccpToAS1k",
+    "candidate_title": "【 碧輝りお視点 】#ストグラ公務員PUBG 🔥1キルするのが目標です！！【 個人勢VTuber 】",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=CCZ_2AtYrLc",
+    "candidate_title": "【Vtuber自己紹介】会社員も公務員も経験したVtuber爆誕！【雪乃ゆきね】",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Wpvil_u6VBs",
+    "candidate_title": "【にゃんグラ】GTA　公務員からの転落人生　【】１日目",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dGoA04Vm2i8",
+    "candidate_title": "【にゃんグラ】GTA　公務員からの転落人生　【】2日目",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gRjGtgnLAL0",
+    "candidate_title": "【ラジオ感覚】AIのんたとVALORANT配信　チャンネル登録宜しくお願いします！ #AI #Vtuber #valorant #雑談配信",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=nJPE35421zw",
+    "candidate_title": "【GTAV】「今は公務員なので悪いことはしませんよ？？」",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=mcK-5-45Qpo",
+    "candidate_title": "AIのんたとVALORANT配信　チャンネル登録宜しくお願いします！ #AI #Vtuber #valorant #雑談配信",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bBTxP5AlgyQ",
+    "candidate_title": "【REPO】ぶいぐらコラボ:全員公務員！(1匹除く)",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FbTe58841Ao",
+    "candidate_title": "【NEWTOWN】驚異の資金力でガチャを回しまくる警察官を見て驚くおなつのにびたし【小柳ロウ/花ノ木まる/リモーネ先生/Day1/エクス・アルビオ/潤♥喫茶にびたし/個人勢VTuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Dn0YlolUxtM",
+    "candidate_title": "新人Vtuber MarvelRivals配信　チャンネル登録宜しくお願いします！",
+    "candidate_snippet": "",
+    "query": "!yt \"公務員\" \"個人勢VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=HPeuPQHoXi4",
+    "candidate_title": "[The Truth About Regional Revitalization] This might cause controversy, but those involved will d...",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=PulPWVTsDdo",
+    "candidate_title": "【いきなりストロベリー】福島在住の東北の地方創生VTuberが福島県農林水産部農作物流通課が作ったふくしまいちご系恋愛シミュレーションゲームをやってみる！【せんのいのり】",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=GYctZ0OwLcg",
+    "candidate_title": "【 偏見図鑑 】 メンバーの図鑑をつくる！ #ご当地VTuber",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=P2JrmrPYPeo",
+    "candidate_title": "That Controversial Work Is Getting an Anime Adaptation: A VTuber Who Studied Community Welfare Sh...",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=DGJDWmnW3dk",
+    "candidate_title": "【CM】地方創生バーチャルタレントグループVRegion",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bUHdfrshWF4",
+    "candidate_title": "[Announcement!!] A VTuber who is serious about urban development talks about \"station front redev...",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=DQudSAebi5s",
+    "candidate_title": "地方創生の力になりたい企画「あなたはどんなお正月をしましたか？」地方のお正月クイズ #社長vtuber #ネットカフェ #vtuber #方言",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=RIjakBNmpPg",
+    "candidate_title": "地方創生の力になりたい企画！「なんでやらんと？ふるさと納税」#vtuber #ネットカフェ #v社長 #宮崎弁 #ふるさと納税",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Yk-lHbVOD30",
+    "candidate_title": "地方創生×Vtuverプロジェクトオーディション開始",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Ivbq57u54NE",
+    "candidate_title": "【OpenTTD】#3 鉄道・経営ガチエアプの地方創生ごっこ【個人VTuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Acw-TQugSHw",
+    "candidate_title": "なぜVTuberで地方の街に人が集まるのか｜人口5万の市で起きた奇跡の裏側",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4_JzzxalZ_M",
+    "candidate_title": "【静岡VTuber革命】ご当地VTuberで地域活性化！木乃華サクヤ・新番組・VTuberサミット最新情報まとめ【2026】 | 楽天国",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=3IqRCh1mZi8",
+    "candidate_title": "【デビュー配信】静岡バーチャルタレント・富神風デビュー！",
+    "candidate_snippet": "",
+    "query": "!yt \"地方創生\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=SHLv5xYLSNA",
+    "candidate_title": "[Momosuzu Nene] Thank you Nepal Nikki!",
+    "candidate_snippet": "",
+    "query": "!yt \"Nepal VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ukF-Xta9GYc",
+    "candidate_title": "Bengali and Hindi#foryou #viralvideo #nepal#vtuber #stripe my channel please#",
+    "candidate_snippet": "",
+    "query": "!yt \"Nepal VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=3Daa_-hsHyo",
+    "candidate_title": "【台灣7天Vlog🔹】馬來西亞Vtuber出圈啦 居然去到台灣拍節目!? - 悠蜜Yomiii #馬來西亞vtuber #马来西亚vtuber #vlog",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=sqqZV1H03OM",
+    "candidate_title": "With glasses or not...Nemesis is elegant anyways! [Taiwan Vtuber Clips]",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_avPpsNkxU0",
+    "candidate_title": "柚實吵 !【Taiwan Vtuber Animation｜yuzzmi Ch. 有・柚実】",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=9e6X5-TstxU",
+    "candidate_title": "【Taiwan VTuber】HorusChan Self Introduction! The world first virtual electronic sales representative!",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Yt_BapnGo4Q",
+    "candidate_title": "【 12 DAYS OF CHRISTMAS 】Taiwan Vtuber Edition 2025",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=G2Bkmw1Llkw",
+    "candidate_title": "Taiwan Vtuber 資訊交流站 - @miniature_MH今年もアイスが美味しい🍦これは本当に涼しい作品です！🎐",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=m8245tAwvD4",
+    "candidate_title": "【50-41名】台灣 Vtuber 歌曲觀看數排行榜 | Taiwan Vtuber Cover & Original Songs",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ldStAe0Q51E",
+    "candidate_title": "Taiwan Vtuber 資訊交流站 - @kagura_moimoivr好き嫌いするマヌカちゃん🧀🥦🧀",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=VZZq4HlUwOw",
+    "candidate_title": "Taiwan Vtuber 資訊交流站 - @ONizi18O- ̗̀ 💡 ̖́- かわいい立ち姿のコツ",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gvF_1EF3q9k",
+    "candidate_title": "【浠/Mizuki】Falling in love with the wonderful voice of Jazz song《KEEP COLD》【Taiwan Vtuber Clip/SUB】",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=UL-d80ZhS3E",
+    "candidate_title": "Taiwan Vtuber 資訊交流站 - @Cermrnl 🎨",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dgAPHpAjJyA",
+    "candidate_title": "Taiwan Vtuber 資訊交流站 - @whiaka！！！！！！！！！！！！！！！！！！！！も！！！！！！！！！！！！！！！！！！！！！！！",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=n8ySv4MVoGk",
+    "candidate_title": "Taiwan Vtuber 資訊交流站 - @bikininanikibi超人気vのクソみたいなモノマネからこの体の“秘密”まで全て答えてやったze☆",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=BALJYeVdVOQ",
+    "candidate_title": "Taiwan Vtuber 資訊交流站 - @MarinasuChannel🙌☎️#まりなすクラファン🤢⚠️",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7Z5CO3R7Eak",
+    "candidate_title": "Taiwan Vtuber 資訊交流站 - @sunani_umatteローマは全てに通ずる",
+    "candidate_snippet": "",
+    "query": "!yt \"Taiwan VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8334kjz_Tgc",
+    "candidate_title": "リスナーの理解力が低すぎて、数学ヤクザと化してしまうVtuberさん",
+    "candidate_snippet": "",
+    "query": "!yt \"数学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=2AO8fcpTFeM",
+    "candidate_title": "数学が苦手になる原因と成績を上げる対策【水無瀬りか/京大生VTuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"数学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=QFpSyK55dBU",
+    "candidate_title": "【ホロライブ切り抜き/獅白ぼたん】高校の数学と化学の問題を突発で解くもさすしし過ぎる結果を出すししろん",
+    "candidate_snippet": "",
+    "query": "!yt \"数学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gkol9OiJnts",
+    "candidate_title": "【数学】グウェル先生とりりむのゼロから始める微分積分【魔界ノりりむ / グウェル・オス・ガール】【にじさんじ / 公式切り抜き / VTuber 】",
+    "candidate_snippet": "",
+    "query": "!yt \"数学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=liAn5WOij9c",
+    "candidate_title": "Taiwanese VTuber Disses Fan and Gets Roasted? Netizens Uncover Scandals and Leak Real Identity? \"...",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=D9NwKcC50AY",
+    "candidate_title": "[XiuXiuXiu] 2026 Latest! Top 10 Most Subscribed Taiwan VTubers of H1 2026! Come see if your favor...",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yCDp_4yz6Rw",
+    "candidate_title": "#台灣Vtuber 不被疫情打敗！一起虛擬歡唱 feat.雲之上夢見【KITSUNEKON】Optitrack",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=R4xTLa23ggM",
+    "candidate_title": "Xiu Xiu Xiu 2026 Latest! Top 10 Taiwanese VTubers by Subscription Count for the Second Half of 20...",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=XdpxfArTo7M",
+    "candidate_title": "Another major incident has occurred in the Taiwanese VTUBER community? A collective backlash – wa...",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=JYosxBRm2SY",
+    "candidate_title": "【迷子羽根四周年】インスタントヘヴン【台灣Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Di-C84R83IA",
+    "candidate_title": "Taiwanese VTuber veteran Almond Miru sparks controversy by badmouthing her teammates during a com...",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=h0ahpsBcprI",
+    "candidate_title": "フォニイ / phony【Covered by Vtuber Ikusen】台灣Vtuber (台V)",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=rEL9AuWwPAU",
+    "candidate_title": "【請叫我小千！】日本企業勢所屬台灣Vtuber初配信精華 T♡Dea テディア【Vtuberいくせん(小千)】｜ 台灣Vtuber (台V)",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-pDS_1StBY8",
+    "candidate_title": "2026.09.11｜21:11-✧Let yourself go...#台灣vtuber #歌ってみた #VTuber #擴散希望",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=9xvrjFbYKHk",
+    "candidate_title": "DECO*27 - アニマル【Covered by Vtuber Ikusen】台灣Vtuber (台V)",
+    "candidate_snippet": "",
+    "query": "!yt \"台灣Vtuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dLVT9W507BA",
+    "candidate_title": "【全職Vtuber的一天】超宅生活🤣全職五年的香港Vtuber🐼工作環境大公開✨【米亞Mya】",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=kVsPW2EYfjc",
+    "candidate_title": "【香港 Vtuber 訪談】🧐💡香港做 Vtuber 真的可行??~ |【全字幕】 | #Vtuber #香港vtuber #港V",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=NF81_lJm_Sk",
+    "candidate_title": "【HKVTUBER】おちゃめ機能 【48人で歌ってみた】",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dsMhxbN6niw",
+    "candidate_title": "【推坑&分析】香港VTuber文化的問題/困難與來自台日VTuber文化的啓發【ACGSphere】",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7Vw7sdkQ8LI",
+    "candidate_title": "真人偶像已過氣？香港虛擬偶像日賺一萬！ 誠實點評8位香港VTuber🔥🇭🇰 (如月瑠美, 米亞MYA, 小林あいす…) | Plong",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=VFpTpGVKFMc",
+    "candidate_title": "【香港Vtuber原創曲】煙（Official Music Video）【小林冰Aisu】",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Ad6ifeIoZ_4",
+    "candidate_title": "【HKDDVFES-十分糖表演片段】ハイド・アンド・シーク【真黑/香港Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=klyryJxlQCM",
+    "candidate_title": "【HK Vtubers】Mr. Schadenfreude 🃏",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8D7iXtd0-pg",
+    "candidate_title": "【月島クロス】secret base ～君がくれたもの～ 【香港VTuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Oc3HTEtA3BQ",
+    "candidate_title": "中之人暴露危機😰【香港Vtuber精華】",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=l9uSKx3BnCI",
+    "candidate_title": "【AB!次回予告パロ】台詞回預告【亞實 みのる/香港Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=y1vzQu3nXUE",
+    "candidate_title": "【月島クロス| 香港vtuber| 港V精華 】可愛くてごめん/月島クロス",
+    "candidate_snippet": "",
+    "query": "!yt \"香港 VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=r7OtYtUcJzI",
+    "candidate_title": "Hong Kong Vtuber Moist Cr1TiKaL",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pVBa7p0V4T8",
+    "candidate_title": "I want this [Hong Kong VTuber] [Ryoko Kanzaki]",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=fPwyu7odU48",
+    "candidate_title": "人生に拍手喝采を 【24 Hong Kong Vtuber / cover】",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4J9qLw5g7_4",
+    "candidate_title": "【伊織なお/伊織奈櫻】Today is Friday in Hong Kong【香港VTuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=PPmN7noh9gQ",
+    "candidate_title": "Hong Kong VTuber Festival Volume one - Link Reality - PV",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=r9Z6m-uyw5U",
+    "candidate_title": "Hong Kong VTuber Reacts To Sora The Troll's Video Live!",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=WIeOeBzUBpA",
+    "candidate_title": "I Tried Making Hong Kong Food",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=uR97qEvjN2g",
+    "candidate_title": "VTubers' first experience with Omega【EN subs】",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=js6uDhvOskE",
+    "candidate_title": "[No Microphone] Work With Me! | Hong Kong Vtuber | Spirit City Lofi Session",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=YbxAdgpfwBo",
+    "candidate_title": "[Original Song] Run Tonight by 【Next Ch.】(Official Music Video) MoonRiver Hong Kong VTuber, City Pop",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=O7ISfjVf7RE",
+    "candidate_title": "Grimshire Demo | Hong Kong Vtuber Zane Dase",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pA4YWfSXzjY",
+    "candidate_title": "TYPING IS HARD!! | Hong Kong Vtuber",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=RLOYcjAZi34",
+    "candidate_title": "【Link Reality】【後日談】澄澄、動力、後日感【香港VTUBER】",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=soH_YdoP8m8",
+    "candidate_title": "Lethal Company v50 | Hong Kong Vtuber and Friends Play",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=9nRlE36zRZ8",
+    "candidate_title": "🔴 Mooncake Time! EXCEPT THEY'RE ICECREAM!! | Hong Kong Vtuber",
+    "candidate_snippet": "",
+    "query": "!yt \"Hong Kong VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bSY3mkheZyc",
+    "candidate_title": "Do you know how to read chemistry? [V-ium/Komainuume]",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=M93xyWHzXT4",
+    "candidate_title": "Vtuberの化学(ばけがく)発言を馬鹿にしてしまい視聴者にボロクソ言われてしまうおおえのたかゆき【2023/08/10】",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=l6lygZlMHRg",
+    "candidate_title": "【VTuber】現役化学教師が2026化学共通テスト解いてみた！【去年のリベンジ🔥】",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gibj9-JLbOA",
+    "candidate_title": "Vの視聴者が化学(ばけがく)を知らなかった件に触れるもこう【2023/08/11】",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=jD4T6vKe8uc",
+    "candidate_title": "【飲酒雑談】SNSで話題の「化学」の読み方について話すボドカ",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=KyrtGBz2jOM",
+    "candidate_title": "【VTuber】現役化学教師が2025化学共通テスト解いてみた！【ほんとすいません】",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=DixQSeL_RqA",
+    "candidate_title": "[ 共通テスト 化学 ] 語りてぇ……化学系Vtuberだから共テを語りてぇ…… [ #人間GCクラブ ]",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=oQWs7emyadU",
+    "candidate_title": "化学のコツと成績を上げる方法【水無瀬りか/京大生VTuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=O3amBp-_oos",
+    "candidate_title": "【⭐️化学実験VTuber🧪】VTuber一問一答自己紹介【星夜もる】",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=2ETzYgJjHcM",
+    "candidate_title": "「化学」を「ばけがく」と呼んでしまったVtuberのコメント欄に一同驚愕【狛犬うめ/5ch/反応集】",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8sCfLaA4PRM",
+    "candidate_title": "[Bakegaku] Chemistry Vtuber Komainu Ume is born [V-Alium! / Vtuber clipping]",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Jd10vp6QZcM",
+    "candidate_title": "【有機化学解説】Vtuberと学ぶはじめての有機化学 第一回 原子のしくみ #有機化学",
+    "candidate_snippet": "",
+    "query": "!yt \"化学\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yIpG8lZI9S8",
+    "candidate_title": "Nerissa Towering Over Other Korean Vtuber Girls is Hilarious~ (Hololive)",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Kag4cvaluJk",
+    "candidate_title": "Korean Speakers In Hololive",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5REAHSW03ok",
+    "candidate_title": "Kpop Demon Hunters was Driving Kronii Insane While in Korea",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tNN1SdtClS4",
+    "candidate_title": "Korean VTuber Watch Party #19 | Reacting to Korean VTuber Songs & Clips!",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4-i9kizW-Zs",
+    "candidate_title": "Noel Finds Out After More Than a Year That Kanade Is Korean【Hololive】",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=WiV_1OZ7rtY",
+    "candidate_title": "How a Vtuber got Fired for a Dad Joke She Made 5 years ago - Ouro Kronii VS South Korea",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=9WAb14u1X-E",
+    "candidate_title": "Everyone Thought Bae Was Japanese",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=unxMXEAjQUk",
+    "candidate_title": "Iofi Bahasa Sunda Logat Korea (Korea Kidul)",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=WxwRvn40gYg",
+    "candidate_title": "Friendtaro Started Speaking in Korean and It's SO CUTE!!!",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=9pc_LVJzGnk",
+    "candidate_title": "Korean Vtuber Reacts to: Northernlion is NOT White",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=lzTTzf94R6Q",
+    "candidate_title": "Korean Vtuber does a lecture on Black Holes..",
+    "candidate_snippet": "",
+    "query": "!yt \"Korea VTuber\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=71OiX45IEcE",
+    "candidate_title": "버튜버 팬들은 대체 왜 이렇게 싸우는 걸까?",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=IFCbY2_AWl0",
+    "candidate_title": "버튜버가 유튜브하기 힘든 이유",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=JBtDJC_4IdM",
+    "candidate_title": "교수와 딸",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=oAzOtaWV0Ik",
+    "candidate_title": "The Reality of Being a VTuber Mom of Two",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=rYLU5aYQQS8",
+    "candidate_title": "I showed CiNo.1000 Numerounius Numeronia to a Japanese VTuber",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zVfpxs7nbQo",
+    "candidate_title": "A real British law student makes his debut as a VTuber.",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=amppSvXLgWc",
+    "candidate_title": "[버튜버총회 버보라편]인형탈쓰고 김봉준 스튜디오에 난입한 버튜버들ㅋㅋㅋ[26.09.05 #2]",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_mzayciJpVE",
+    "candidate_title": "생일 방송하다가 실명 유출한 버튜버",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Lf_DmjAVfEo",
+    "candidate_title": "버튜버가 정털리는 순간을 설문 한 결과.. (매운맛 주의)",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4hzMeME1qMw",
+    "candidate_title": "버튜버 기업 대표의 최종 면접 후기",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=lFk8UJW3vb8",
+    "candidate_title": "The reason the casual-talking VTuber's real-life identity became town gossip [Choroki Hot Clip]",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=OipD0syva1I",
+    "candidate_title": "방송 접는 날, 단 1명의 팬이 한 행동",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=kuu_zHHmPIM",
+    "candidate_title": "내가 보는 버튜버가 결혼하면 벌어지는 일",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Wjyvs_9voaw",
+    "candidate_title": "지가 예쁘다던 남자의 얼공",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=oEIeX30x8es",
+    "candidate_title": "역대급 새벽 감성을 보여준 국악 버튜버의 라이브",
+    "candidate_snippet": "",
+    "query": "!yt \"버튜버\"",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=X8QVPPaOweU",
+    "candidate_title": "「VTuberのモチーフになってない生物などこの世に存在しない説」に対するみんなの反応集",
+    "candidate_snippet": "",
+    "query": "!yt \"生物\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4xXwGvv0vUo",
+    "candidate_title": "【上位生物Vtuber】愚かな人類の皆様へ自己紹介をするよ【新人Vtuber】",
+    "candidate_snippet": "",
+    "query": "!yt \"生物\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
+    "discovery_method": "searxng",
+    "review_status": "pending_primary_confirmation",
+    "published": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Ebx685Ds2rg",
+    "candidate_title": "【上位生物Vtuber】一問一答自己紹介したよ【鉄乃クサリ】",
+    "candidate_snippet": "",
+    "query": "!yt \"生物\" VTuber",
+    "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
     "review_status": "pending_primary_confirmation",
     "published": false
