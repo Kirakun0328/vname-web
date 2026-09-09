@@ -1,32 +1,32 @@
 {
   "schema": 2,
   "verifier_version": 2,
-  "updated_at": "2026-09-09T09:31:43.684668+00:00",
+  "updated_at": "2026-09-09T11:20:19.612508+00:00",
   "candidates_total": 8437,
-  "attempted_this_run": 162,
+  "attempted_this_run": 300,
   "deferred_host_backoff": 0,
   "recovered_backoff_candidates": 0,
-  "verified_this_run": 12,
-  "verified_unique_profiles": 7,
-  "new_public_records": 4,
-  "existing_records_enriched": 3,
+  "verified_this_run": 59,
+  "verified_unique_profiles": 41,
+  "new_public_records": 27,
+  "existing_records_enriched": 14,
   "statuses": {
-    "no_direct_vtuber_evidence": 119,
-    "fan_or_clip_channel": 19,
-    "activity_unconfirmed": 12,
-    "verified": 12
+    "activity_unconfirmed": 43,
+    "fan_or_clip_channel": 52,
+    "no_direct_vtuber_evidence": 146,
+    "verified": 59
   },
   "policy": "SearXNG discovery only; publication requires direct public creator/profile verification.",
   "cumulative_since_checkpoint_fix": {
-    "attempted_this_run": 5952,
-    "verified_this_run": 481,
-    "new_public_records": 218,
-    "existing_records_enriched": 83
+    "attempted_this_run": 6252,
+    "verified_this_run": 540,
+    "new_public_records": 245,
+    "existing_records_enriched": 97
   },
   "queue_statuses": {
-    "not_confirmed": 1974,
-    "pending_primary_confirmation": 4364,
+    "not_confirmed": 2215,
+    "pending_primary_confirmation": 4064,
     "unavailable": 1387,
-    "verified_direct_profile": 712
+    "verified_direct_profile": 771
   }
 }

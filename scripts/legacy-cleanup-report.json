@@ -11,9 +11,9 @@
       "vdb": 9788,
       "taiwan_archive": 2661,
       "vtuber_1b_pddl": 805,
-      "wikidata_cc0": 523,
-      "indonesia_kaggle": 227,
       "ayousanz_hf_mit": 143,
+      "indonesia_kaggle": 227,
+      "wikidata_cc0": 523,
       "legacy_2019_dataset": 103
     },
     "user_encyclopedia_reference": 55,
@@ -90,9 +90,9 @@
   },
   "before": {
     "base": 9877,
-    "extra": 7556,
+    "extra": 7578,
     "platform": 11705,
-    "merged": 18242
+    "merged": 18264
   },
   "removed": {
     "base": 0,
@@ -102,9 +102,9 @@
   },
   "after": {
     "base": 9877,
-    "extra": 7556,
+    "extra": 7578,
     "platform": 11705,
-    "merged": 18242,
+    "merged": 18264,
     "aiv_related": 1550,
     "explicitly_reusable_dataset": 14250,
     "user_encyclopedia_reference": 55

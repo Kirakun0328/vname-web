@@ -50387,10 +50387,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -50400,10 +50400,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50413,10 +50413,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50426,10 +50426,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50452,10 +50452,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50465,10 +50465,10 @@
     "query": "!yt \"Russia VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50478,10 +50478,10 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50516,10 +50516,10 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50529,10 +50529,10 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50542,10 +50542,10 @@
     "query": "!yt \"Turkey VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50568,10 +50568,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50594,10 +50594,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50607,10 +50607,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50620,10 +50620,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50633,10 +50633,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50646,10 +50646,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50659,11 +50659,12 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCimAQhDvCtJCr-van6AwWGQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=rEb6vuIP3co",
@@ -50672,10 +50673,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50698,10 +50699,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50711,10 +50712,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -50724,10 +50725,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50737,10 +50738,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50750,10 +50751,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50775,10 +50776,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50788,10 +50789,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50814,10 +50815,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50827,10 +50828,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50840,10 +50841,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50853,10 +50854,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50866,10 +50867,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50879,10 +50880,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50892,10 +50893,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50905,10 +50906,10 @@
     "query": "!yt \"VTuber Brasil\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -50930,10 +50931,10 @@
     "query": "!yt \"広告\" Vライバー",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50943,10 +50944,10 @@
     "query": "!yt \"広告\" Vライバー",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50968,10 +50969,10 @@
     "query": "!yt \"広告\" Vライバー",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50981,10 +50982,10 @@
     "query": "!yt \"広告\" Vライバー",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -50994,10 +50995,10 @@
     "query": "!yt \"広告\" Vライバー",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51007,10 +51008,10 @@
     "query": "!yt \"広告\" Vライバー",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51020,10 +51021,10 @@
     "query": "!yt \"広告\" Vライバー",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51033,11 +51034,12 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCkSJ2qrA1QZGWv-JbFp_bRg"
   },
   {
     "url": "https://www.youtube.com/watch?v=vzGLNFj6gRw",
@@ -51071,10 +51073,10 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51084,10 +51086,10 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -51097,11 +51099,12 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCkSJ2qrA1QZGWv-JbFp_bRg"
   },
   {
     "url": "https://www.youtube.com/watch?v=PP5-ojEZZbU",
@@ -51110,11 +51113,12 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCkSJ2qrA1QZGWv-JbFp_bRg"
   },
   {
     "url": "https://www.youtube.com/watch?v=gVTcjKdxPAI",
@@ -51123,10 +51127,10 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51136,10 +51140,10 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -51149,10 +51153,10 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51162,10 +51166,10 @@
     "query": "!yt \"VTuber México\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -51225,10 +51229,10 @@
     "query": "!yt \"Argentina VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51274,10 +51278,10 @@
     "query": "!yt \"採用\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -51300,10 +51304,10 @@
     "query": "!yt \"採用\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -51313,10 +51317,10 @@
     "query": "!yt \"採用\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -51338,10 +51342,10 @@
     "query": "!yt \"採用\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51351,10 +51355,10 @@
     "query": "!yt \"採用\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -51377,10 +51381,10 @@
     "query": "!yt \"採用\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51390,10 +51394,10 @@
     "query": "!yt \"採用\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51403,10 +51407,10 @@
     "query": "!yt \"採用\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51416,10 +51420,10 @@
     "query": "!yt \"採用\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51429,10 +51433,10 @@
     "query": "!yt \"採用\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -51454,10 +51458,10 @@
     "query": "!yt \"採用\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51467,10 +51471,10 @@
     "query": "!yt \"採用\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51493,10 +51497,10 @@
     "query": "!yt \"採用\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51506,10 +51510,10 @@
     "query": "!yt \"採用\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51519,10 +51523,10 @@
     "query": "!yt \"Peru VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51532,10 +51536,10 @@
     "query": "!yt \"Peru VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51545,10 +51549,10 @@
     "query": "!yt \"Peru VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51558,10 +51562,10 @@
     "query": "!yt \"Latam VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51571,11 +51575,12 @@
     "query": "!yt \"Latam VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCMu0kCEd-pXGOHJi1hL3Vyg"
   },
   {
     "url": "https://www.youtube.com/watch?v=H50NL_E6WKw",
@@ -51584,10 +51589,10 @@
     "query": "!yt \"Latam VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51609,11 +51614,12 @@
     "query": "!yt \"広報\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCVSo57Qzt2JtuTqE-pLBHCA"
   },
   {
     "url": "https://www.youtube.com/watch?v=XNtCM8qNEMA",
@@ -51622,10 +51628,10 @@
     "query": "!yt \"広報\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51635,10 +51641,10 @@
     "query": "!yt \"広報\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51713,10 +51719,10 @@
     "query": "!yt \"広報\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51726,10 +51732,10 @@
     "query": "!yt \"広報\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -51739,10 +51745,10 @@
     "query": "!yt \"VTuber latino\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51776,10 +51782,10 @@
     "query": "!yt \"VTuber latino\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51789,10 +51795,10 @@
     "query": "!yt \"VTuber latino\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51802,10 +51808,10 @@
     "query": "!yt \"VTuber latino\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51828,10 +51834,10 @@
     "query": "!yt \"不動産\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51841,10 +51847,10 @@
     "query": "!yt \"不動産\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51866,11 +51872,12 @@
     "query": "!yt \"VTuber español\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCkSJ2qrA1QZGWv-JbFp_bRg"
   },
   {
     "url": "https://www.youtube.com/watch?v=y0qU6GHgNeA",
@@ -51879,10 +51886,10 @@
     "query": "!yt \"VTuber español\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51892,10 +51899,10 @@
     "query": "!yt \"VTuber español\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51905,10 +51912,10 @@
     "query": "!yt \"VTuber español\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51918,10 +51925,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51944,10 +51951,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51957,10 +51964,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51970,10 +51977,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -51983,10 +51990,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52022,10 +52029,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52035,10 +52042,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52086,10 +52093,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52099,10 +52106,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52112,10 +52119,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52125,10 +52132,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52151,11 +52158,12 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC9QnAjC7mT4ggHuedr1_kqQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=AEGnsoDUBcw",
@@ -52164,10 +52172,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52177,10 +52185,10 @@
     "query": "!yt \"VTuber Indonesia\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52190,10 +52198,10 @@
     "query": "!yt \"Singapore VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52203,10 +52211,10 @@
     "query": "!yt \"Singapore VTuber\"",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52254,11 +52262,12 @@
     "query": "!yt \"銀行\" VTuber",
     "discovered_at": "2026-09-09T06:30:54.052410+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC6z4V55e99A79mxNCZ5XiCg"
   },
   {
     "url": "https://www.youtube.com/watch?v=ut_zpbKl6D0",
@@ -52280,10 +52289,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52293,10 +52302,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52306,10 +52315,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52319,10 +52328,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52332,10 +52341,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52345,10 +52354,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52358,10 +52367,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52384,10 +52393,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52409,10 +52418,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52422,10 +52431,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52435,10 +52444,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52448,10 +52457,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52461,10 +52470,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52474,10 +52483,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52487,10 +52496,10 @@
     "query": "!yt \"Philippines VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52500,10 +52509,10 @@
     "query": "!yt \"銀行\" Vライバー",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52513,10 +52522,10 @@
     "query": "!yt \"銀行\" Vライバー",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52526,10 +52535,10 @@
     "query": "!yt \"銀行\" Vライバー",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52539,11 +52548,12 @@
     "query": "!yt \"銀行\" Vライバー",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCV5ZZlLjk5MKGg3L0n0vbzw"
   },
   {
     "url": "https://www.youtube.com/watch?v=vdpHEH8ZWhQ",
@@ -52552,10 +52562,10 @@
     "query": "!yt \"銀行\" Vライバー",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52565,10 +52575,10 @@
     "query": "!yt \"銀行\" Vライバー",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52578,10 +52588,10 @@
     "query": "!yt \"銀行\" Vライバー",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52591,10 +52601,10 @@
     "query": "!yt \"銀行\" Vライバー",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52604,10 +52614,10 @@
     "query": "!yt \"証券\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52617,10 +52627,10 @@
     "query": "!yt \"証券\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52630,10 +52640,10 @@
     "query": "!yt \"証券\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52680,10 +52690,10 @@
     "query": "!yt \"Thailand VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -52693,10 +52703,10 @@
     "query": "!yt \"Thailand VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52706,10 +52716,10 @@
     "query": "!yt \"Thailand VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52719,10 +52729,10 @@
     "query": "!yt \"Thailand VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52732,11 +52742,12 @@
     "query": "!yt \"Thailand VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCHqSOO_qMJl8J8rwOGc0UMg"
   },
   {
     "url": "https://www.youtube.com/watch?v=uuI6pjX21Uk",
@@ -52745,10 +52756,10 @@
     "query": "!yt \"Thailand VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52758,10 +52769,10 @@
     "query": "!yt \"Thailand VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52771,10 +52782,10 @@
     "query": "!yt \"Thailand VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52810,11 +52821,12 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UChc76D7x_mbLNoaCHJAOOyQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=HQK4ZpNR9kI",
@@ -52823,10 +52835,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52836,10 +52848,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52886,10 +52898,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52899,10 +52911,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -52925,10 +52937,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52938,10 +52950,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -52976,10 +52988,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -52989,10 +53001,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -53002,10 +53014,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53015,10 +53027,10 @@
     "query": "!yt \"Thai VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -53028,10 +53040,10 @@
     "query": "!yt \"Vietnam VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53106,10 +53118,10 @@
     "query": "!yt \"Vietnam VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53171,11 +53183,12 @@
     "query": "!yt \"Vietnam VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCGAFA1wiOnXwRsFlh38FuiQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=tUjN8dZ49P0",
@@ -53184,10 +53197,10 @@
     "query": "!yt \"Vietnam VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53197,10 +53210,10 @@
     "query": "!yt \"Vietnam VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53210,11 +53223,12 @@
     "query": "!yt \"Vietnam VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCAb1SKunWFxdqHaSGyEcylw"
   },
   {
     "url": "https://www.youtube.com/watch?v=eV-3PkX4ewg",
@@ -53223,11 +53237,12 @@
     "query": "!yt \"Vietnam VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCAb1SKunWFxdqHaSGyEcylw"
   },
   {
     "url": "https://www.youtube.com/watch?v=73ECyvqBj-M",
@@ -53286,10 +53301,10 @@
     "query": "!yt \"自治体\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53299,10 +53314,10 @@
     "query": "!yt \"自治体\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53324,11 +53339,12 @@
     "query": "!yt \"自治体\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCnZNKk1M91e4XIFRd0ExOOQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=0LagxD7OoIE",
@@ -53337,11 +53353,12 @@
     "query": "!yt \"India VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC9G2DsRUnoSZcUNkr0ULF2A"
   },
   {
     "url": "https://www.youtube.com/watch?v=WKeFCdnEKuU",
@@ -53350,11 +53367,12 @@
     "query": "!yt \"India VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCZpvU4QtI5btqDrJEG6Zraw"
   },
   {
     "url": "https://www.youtube.com/watch?v=h77_OPocGTU",
@@ -53363,11 +53381,12 @@
     "query": "!yt \"India VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCZpvU4QtI5btqDrJEG6Zraw"
   },
   {
     "url": "https://www.youtube.com/watch?v=oTzuO8OYVM4",
@@ -53400,10 +53419,10 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53413,11 +53432,12 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCaPiH3TM542cSCxH5K995DQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=CCZ_2AtYrLc",
@@ -53426,10 +53446,10 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53439,11 +53459,12 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCHEZPqYtDI8OPTeYvSBvSbg"
   },
   {
     "url": "https://www.youtube.com/watch?v=dGoA04Vm2i8",
@@ -53452,11 +53473,12 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCHEZPqYtDI8OPTeYvSBvSbg"
   },
   {
     "url": "https://www.youtube.com/watch?v=gRjGtgnLAL0",
@@ -53465,10 +53487,10 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53478,11 +53500,12 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCeAjjWUxhVPNkjRhPd2Zxnw"
   },
   {
     "url": "https://www.youtube.com/watch?v=mcK-5-45Qpo",
@@ -53491,10 +53514,10 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53504,11 +53527,12 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCisn8Bft-vl24GIVJHUspdQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=FbTe58841Ao",
@@ -53517,11 +53541,12 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCasKmptouCrwWLl8SlQU2tQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=Dn0YlolUxtM",
@@ -53530,10 +53555,10 @@
     "query": "!yt \"公務員\" \"個人勢VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53543,10 +53568,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53556,10 +53581,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53569,10 +53594,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53582,10 +53607,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53595,11 +53620,12 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCtWShYSBBNDVg-NnkmVwzVw"
   },
   {
     "url": "https://www.youtube.com/watch?v=bUHdfrshWF4",
@@ -53608,10 +53634,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53621,10 +53647,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53634,10 +53660,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53647,10 +53673,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53660,10 +53686,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53673,10 +53699,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53686,10 +53712,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53699,10 +53725,10 @@
     "query": "!yt \"地方創生\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53712,10 +53738,10 @@
     "query": "!yt \"Nepal VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53725,10 +53751,10 @@
     "query": "!yt \"Nepal VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53738,11 +53764,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCwgRGWqB2VP5kYDTMDiMrdA"
   },
   {
     "url": "https://www.youtube.com/watch?v=sqqZV1H03OM",
@@ -53751,10 +53778,10 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -53764,10 +53791,10 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53777,11 +53804,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCKd9_y8TRhiP0lxhXI-pGag"
   },
   {
     "url": "https://www.youtube.com/watch?v=Yt_BapnGo4Q",
@@ -53790,10 +53818,10 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53803,11 +53831,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCTgA5y3nQt3Uza04CKspmkw"
   },
   {
     "url": "https://www.youtube.com/watch?v=m8245tAwvD4",
@@ -53816,10 +53845,10 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53829,11 +53858,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCTgA5y3nQt3Uza04CKspmkw"
   },
   {
     "url": "https://www.youtube.com/watch?v=VZZq4HlUwOw",
@@ -53842,11 +53872,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCTgA5y3nQt3Uza04CKspmkw"
   },
   {
     "url": "https://www.youtube.com/watch?v=gvF_1EF3q9k",
@@ -53855,10 +53886,10 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53868,11 +53899,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCTgA5y3nQt3Uza04CKspmkw"
   },
   {
     "url": "https://www.youtube.com/watch?v=dgAPHpAjJyA",
@@ -53881,11 +53913,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCTgA5y3nQt3Uza04CKspmkw"
   },
   {
     "url": "https://www.youtube.com/watch?v=n8ySv4MVoGk",
@@ -53894,11 +53927,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCTgA5y3nQt3Uza04CKspmkw"
   },
   {
     "url": "https://www.youtube.com/watch?v=BALJYeVdVOQ",
@@ -53907,11 +53941,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCTgA5y3nQt3Uza04CKspmkw"
   },
   {
     "url": "https://www.youtube.com/watch?v=7Z5CO3R7Eak",
@@ -53920,11 +53955,12 @@
     "query": "!yt \"Taiwan VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCTgA5y3nQt3Uza04CKspmkw"
   },
   {
     "url": "https://www.youtube.com/watch?v=8334kjz_Tgc",
@@ -53933,11 +53969,12 @@
     "query": "!yt \"数学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCvjg5HAmpA5tiZyWCOo43HA"
   },
   {
     "url": "https://www.youtube.com/watch?v=2AO8fcpTFeM",
@@ -53946,10 +53983,10 @@
     "query": "!yt \"数学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -53959,10 +53996,10 @@
     "query": "!yt \"数学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -53972,10 +54009,10 @@
     "query": "!yt \"数学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -53985,10 +54022,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -53998,10 +54035,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54011,11 +54048,12 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCyZZMKRn-mUEkPzaqa9b6bg"
   },
   {
     "url": "https://www.youtube.com/watch?v=R4xTLa23ggM",
@@ -54024,10 +54062,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54037,10 +54075,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54050,10 +54088,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54063,10 +54101,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54076,10 +54114,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54089,11 +54127,12 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCKazkVudNQs8ZhwfXj_RNPw"
   },
   {
     "url": "https://www.youtube.com/watch?v=-pDS_1StBY8",
@@ -54102,10 +54141,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54115,10 +54154,10 @@
     "query": "!yt \"台灣Vtuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54128,11 +54167,12 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCVDrzfo7NnOvNx8dU-Ebitg"
   },
   {
     "url": "https://www.youtube.com/watch?v=kVsPW2EYfjc",
@@ -54141,10 +54181,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54154,10 +54194,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54167,10 +54207,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54180,10 +54220,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54193,10 +54233,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54206,10 +54246,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54219,11 +54259,12 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC_Z1V8uaDMfwYQeIz8Keaxw"
   },
   {
     "url": "https://www.youtube.com/watch?v=8D7iXtd0-pg",
@@ -54232,10 +54273,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54245,10 +54286,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54258,10 +54299,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54271,10 +54312,10 @@
     "query": "!yt \"香港 VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54284,10 +54325,10 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54297,10 +54338,10 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54310,11 +54351,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCcyhk3nucWWuLs45Iatndyg"
   },
   {
     "url": "https://www.youtube.com/watch?v=4J9qLw5g7_4",
@@ -54323,10 +54365,10 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54336,10 +54378,10 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54349,10 +54391,10 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54362,11 +54404,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC97JZwjhKFJ3HwrGkcJekSw"
   },
   {
     "url": "https://www.youtube.com/watch?v=uR97qEvjN2g",
@@ -54375,10 +54418,10 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54388,11 +54431,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCd803MISIi1IeBc3uKqbwaA"
   },
   {
     "url": "https://www.youtube.com/watch?v=YbxAdgpfwBo",
@@ -54401,11 +54445,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCUoxyUU0ikJ3a_Mi_elYAIQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=O7ISfjVf7RE",
@@ -54414,11 +54459,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCd803MISIi1IeBc3uKqbwaA"
   },
   {
     "url": "https://www.youtube.com/watch?v=pA4YWfSXzjY",
@@ -54427,11 +54473,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCd803MISIi1IeBc3uKqbwaA"
   },
   {
     "url": "https://www.youtube.com/watch?v=RLOYcjAZi34",
@@ -54440,11 +54487,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC-N4iv29wulN7lQ5i58wKZg"
   },
   {
     "url": "https://www.youtube.com/watch?v=soH_YdoP8m8",
@@ -54453,11 +54501,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCd803MISIi1IeBc3uKqbwaA"
   },
   {
     "url": "https://www.youtube.com/watch?v=9nRlE36zRZ8",
@@ -54466,11 +54515,12 @@
     "query": "!yt \"Hong Kong VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCd803MISIi1IeBc3uKqbwaA"
   },
   {
     "url": "https://www.youtube.com/watch?v=bSY3mkheZyc",
@@ -54479,10 +54529,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -54492,10 +54542,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54505,10 +54555,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54518,10 +54568,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -54531,10 +54581,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54544,10 +54594,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54557,10 +54607,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54570,10 +54620,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54583,10 +54633,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54596,10 +54646,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54609,10 +54659,10 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "fan_or_clip_channel",
     "verifier_version": 2
   },
   {
@@ -54622,11 +54672,12 @@
     "query": "!yt \"化学\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCtc_S15N0FLnsWdWqXNzhIA"
   },
   {
     "url": "https://www.youtube.com/watch?v=yIpG8lZI9S8",
@@ -54635,11 +54686,12 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCAnUBKzIF_oR4yNUfqIkCqw"
   },
   {
     "url": "https://www.youtube.com/watch?v=Kag4cvaluJk",
@@ -54648,10 +54700,10 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54661,10 +54713,10 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54674,11 +54726,12 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCDa6EFlZxRj7mcJrkzVzaTg"
   },
   {
     "url": "https://www.youtube.com/watch?v=4-i9kizW-Zs",
@@ -54687,10 +54740,10 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54700,10 +54753,10 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54713,10 +54766,10 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54726,10 +54779,10 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54739,10 +54792,10 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54752,11 +54805,12 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCDWhFCMkNFqGorfFPYmJRRA"
   },
   {
     "url": "https://www.youtube.com/watch?v=lzTTzf94R6Q",
@@ -54765,10 +54819,10 @@
     "query": "!yt \"Korea VTuber\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -54778,10 +54832,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54791,10 +54845,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54804,11 +54858,12 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCLlI7CaFNWMu7shwBP5DH0g"
   },
   {
     "url": "https://www.youtube.com/watch?v=oAzOtaWV0Ik",
@@ -54817,10 +54872,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54830,10 +54885,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54843,10 +54898,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54856,10 +54911,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54869,10 +54924,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54882,10 +54937,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54895,10 +54950,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54908,10 +54963,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54921,10 +54976,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54934,10 +54989,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54947,10 +55002,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54960,10 +55015,10 @@
     "query": "!yt \"버튜버\"",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54973,10 +55028,10 @@
     "query": "!yt \"生物\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -54986,11 +55041,12 @@
     "query": "!yt \"生物\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCE8uTXBRrRmmnRqo87EMlFw"
   },
   {
     "url": "https://www.youtube.com/watch?v=Ebx685Ds2rg",
@@ -54999,11 +55055,12 @@
     "query": "!yt \"生物\" VTuber",
     "discovered_at": "2026-09-09T06:41:01.777148+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCE8uTXBRrRmmnRqo87EMlFw"
   },
   {
     "url": "https://www.youtube.com/watch?v=81O94_HLvug",
@@ -55012,10 +55069,10 @@
     "query": "!yt \"중소 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -55025,11 +55082,12 @@
     "query": "!yt \"중소 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCUabLHvc9nSaRnjppK5zepg"
   },
   {
     "url": "https://www.youtube.com/watch?v=LJTWmZCC87w",
@@ -55038,11 +55096,12 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
-    "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
-    "verifier_version": 2
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCcB1872crLI_i6HfZV5Cp9w"
   },
   {
     "url": "https://www.youtube.com/watch?v=KxL2N4etWeo",
@@ -55051,10 +55110,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "activity_unconfirmed",
     "verifier_version": 2
   },
   {
@@ -55064,10 +55123,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55077,10 +55136,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55090,10 +55149,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55103,10 +55162,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55116,10 +55175,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55129,10 +55188,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55142,10 +55201,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55155,10 +55214,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55168,10 +55227,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55181,10 +55240,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55194,10 +55253,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {
@@ -55207,10 +55266,10 @@
     "query": "!yt \"개인 버튜버\"",
     "discovered_at": "2026-09-09T06:53:18.242394+00:00",
     "discovery_method": "searxng",
-    "review_status": "pending_primary_confirmation",
+    "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-09T07:52:59.475735+00:00",
-    "verification_status": "deferred_host_backoff",
+    "verified_at": "2026-09-09T11:20:19.612508+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
     "verifier_version": 2
   },
   {

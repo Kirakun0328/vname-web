@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "policy": "explicit_open_license_only_with_source_specific_quality_filters",
-  "before_unique_identities": 16438,
-  "after_unique_identities": 17876,
-  "net_new_unique_identities": 1438,
+  "before_unique_identities": 18264,
+  "after_unique_identities": 18264,
+  "net_new_unique_identities": 0,
   "sources": {
     "wikidata_cc0": {
       "status": "ok",

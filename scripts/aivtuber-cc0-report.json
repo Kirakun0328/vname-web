@@ -6,9 +6,9 @@
   "dataset_rows": 15,
   "accepted_active_ai_characters": 15,
   "skipped": 0,
-  "extra_rows_before": 7190,
-  "extra_rows_after": 7205,
-  "net_new_extra_rows": 15,
+  "extra_rows_before": 7578,
+  "extra_rows_after": 7578,
+  "net_new_extra_rows": 0,
   "identity_policy": "character_specific; shared developer/broadcast accounts never imply identity merge",
   "excluded_fields": [
     "description",
