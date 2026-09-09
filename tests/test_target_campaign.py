@@ -15,6 +15,16 @@ import verify_searxng_candidates as verifier
 
 
 class TargetCampaignTests(unittest.TestCase):
+    def test_agency_official_profiles_are_not_individual_creators(self):
+        def document(description):
+            return '<meta property="og:title" content="Example VTuber">' + \
+                   '<meta name="description" content="' + description + '">' + \
+                   '<script>{"externalId":"UC' + 'b' * 22 + '","videoRenderer":{}}</script>'
+        with patch.object(verifier, 'fetch_page', return_value=document('VTuber事務所「例」の公式アカウントです。')):
+            self.assertEqual(verifier.verify_one({'url':'https://youtube.com/@example'})[2], 'organization_channel')
+        with patch.object(verifier, 'fetch_page', return_value=document('VTuber事務所「例」所属のVTuberです。配信しています。')):
+            self.assertEqual(verifier.verify_one({'url':'https://youtube.com/@example'})[2], 'verified')
+
     def test_current_youtube_header_count_proves_activity_without_recommendation_counts(self):
         def document(count):
             metadata = {'contentMetadataViewModel': {'metadataRows': [

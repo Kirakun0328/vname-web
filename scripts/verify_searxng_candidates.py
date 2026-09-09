@@ -29,6 +29,8 @@ ROOT = Path(__file__).resolve().parents[1]
 QUEUE = ROOT / 'scripts' / 'searxng-candidates.json'
 REPORT = ROOT / 'scripts' / 'searxng-verification-report.json'
 EXTRA = ROOT / 'extra-data.js'
+EXCLUSIONS_PATH = ROOT / 'scripts/searxng-profile-exclusions.json'
+PROFILE_EXCLUSIONS = json.loads(EXCLUSIONS_PATH.read_text()) if EXCLUSIONS_PATH.exists() else {}
 
 VTUBER = re.compile(r'\bvtuber\b|v[- ]?tuber|virtual\s+youtuber|バーチャル\s*youtuber|バーチャルYouTuber|ＶＴｕｂｅｒ|Vライバー|Ｖライバー|バーチャルライバー|vliver|v-liver|aivtuber|ai\s*vtuber|AIライバー', re.I)
 VTUBER = re.compile(VTUBER.pattern + r'|\bvsinger\b|バーチャルシンガー|virtual\s+(?:streamer|singer)|虚拟(?:主播|UP主)|虛擬(?:主播|實況主|YouTuber)|버튜버|버츄얼\s*(?:유튜버|스트리머)|버추얼\s*(?:유튜버|스트리머)', re.I)
@@ -276,6 +278,11 @@ def verify_one(candidate):
         return candidate, None, 'fan_or_clip_channel'
 
     platform = account['platform']
+    cid = youtube_channel_id(document) if platform == 'youtube' else None
+    if cid and 'youtube:' + cid in PROFILE_EXCLUSIONS:
+        return candidate, None, PROFILE_EXCLUSIONS['youtube:' + cid]['reason']
+    if re.search(r'(?:VTuber|Vライバー)(?:事務所|プロダクション)[^。\n]{0,60}(?:の公式アカウント|の公式チャンネル)', description, re.I):
+        return candidate, None, 'organization_channel'
     if platform not in NATIVE_V and not (VTUBER.search(searchable) or AIV.search(searchable)):
         return candidate, None, 'no_direct_vtuber_evidence'
     activity = activity_evidence(document, description, platform)

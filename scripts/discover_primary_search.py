@@ -150,6 +150,22 @@ def extract(results, query, stamp):
     return output
 
 
+def additional_candidates(root):
+    """Load saved SearXNG research batches as unapproved search leads only."""
+    for path in sorted((root / 'scripts').glob('searxng-additional-leads-*.json')):
+        for row in json.loads(path.read_text(encoding='utf-8')):
+            if not isinstance(row, dict) or row.get('discovery_method') != 'searxng':
+                continue
+            url = candidate_url(row.get('url'))
+            if not url:
+                continue
+            yield {'url': url,
+                   **{key: str(row.get(key) or '')[:500] for key in
+                      ('candidate_title', 'candidate_author', 'candidate_snippet', 'query', 'discovered_at')},
+                   'discovery_method': 'searxng',
+                   'review_status': 'pending_primary_confirmation', 'published': False}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--limit', type=int, default=12, help='number of query families this run')
@@ -176,6 +192,11 @@ def main():
     queue_path = ROOT / 'scripts/searxng-candidates.json'
     previous = json.loads(queue_path.read_text(encoding='utf-8')) if queue_path.exists() else []
     queue = {r['url']: r for r in previous if isinstance(r, dict) and r.get('url')}
+    imported = 0
+    for row in additional_candidates(ROOT):
+        if row['url'] not in queue:
+            queue[row['url']] = row
+            imported += 1
     cursors = report.get('catalogue_cursors', {})
     catalogue, cursor, predecessor_id = catalogue_cursor(QUERIES, cursors, PREDECESSOR_QUERIES)
     if predecessor_id:
@@ -197,7 +218,8 @@ def main():
             catalogue_id=catalogue, catalogue_cursors=cursors, query_catalog_size=len(QUERIES),
             specialty_count=len(SPECIALTIES), query_requests=searched,
             query_families_attempted=attempted, query_families_requested=limit,
-            pages_per_query=pages, new_candidates=new_count, total_candidates=len(queue),
+            pages_per_query=pages, new_candidates=new_count, imported_research_candidates=imported,
+            total_candidates=len(queue),
             unresponsive_engines=unresponsive, auto_published=0,
             scope='Search leads only; direct creator identity and activity confirmation required.')
         for path, data in ((queue_path, list(queue.values())), (report_path, report)):

@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "baseline_listed_records": 18323,
+  "new_unique_search_candidates": 194,
+  "verification": {
+    "schema": 2,
+    "verifier_version": 2,
+    "updated_at": "2026-09-09T13:28:13.024300+00:00",
+    "candidates_total": 9942,
+    "attempted_this_run": 278,
+    "deferred_host_backoff": 0,
+    "recovered_backoff_candidates": 0,
+    "verified_this_run": 67,
+    "verified_unique_profiles": 23,
+    "new_public_records": 15,
+    "existing_records_enriched": 8,
+    "statuses": {
+      "unavailable:URLError": 22,
+      "verified": 67,
+      "activity_unconfirmed": 94,
+      "no_direct_vtuber_evidence": 91,
+      "fan_or_clip_channel": 4
+    },
+    "policy": "SearXNG discovery only; publication requires direct public creator/profile verification.",
+    "cumulative_since_checkpoint_fix": {
+      "attempted_this_run": 7910,
+      "verified_this_run": 975,
+      "new_public_records": 370,
+      "existing_records_enriched": 157
+    },
+    "queue_statuses": {
+      "not_confirmed": 3416,
+      "pending_primary_confirmation": 3911,
+      "unavailable": 1409,
+      "verified_direct_profile": 1206
+    }
+  },
+  "added_creators": [
+    {
+      "source_id": "youtube:UCFSKMxErKM089i-BPddNjKw",
+      "display_name": "Aikuma Ch. 藍熊べある",
+      "activity_source": "https://www.youtube.com/channel/UCFSKMxErKM089i-BPddNjKw"
+    },
+    {
+      "source_id": "youtube:UCNPSJy0wBXZtOCFHA-kBMUQ",
+      "display_name": "RisaSaneku",
+      "activity_source": "https://www.youtube.com/channel/UCNPSJy0wBXZtOCFHA-kBMUQ"
+    },
+    {
+      "source_id": "youtube:UC3K4qRW5qk_p-0b3cApvh1A",
+      "display_name": "彷徨灰記. 白路キコ",
+      "activity_source": "https://www.youtube.com/channel/UC3K4qRW5qk_p-0b3cApvh1A"
+    },
+    {
+      "source_id": "youtube:UCV9aCi5Gz-5Cb5eTQj_5RSQ",
+      "display_name": "メグリウム",
+      "activity_source": "https://www.youtube.com/channel/UCV9aCi5Gz-5Cb5eTQj_5RSQ"
+    },
+    {
+      "source_id": "youtube:UCVmiZituUBkzWGitBZkru4Q",
+      "display_name": "BlueBeary0 {Vtuber}",
+      "activity_source": "https://www.youtube.com/channel/UCVmiZituUBkzWGitBZkru4Q"
+    },
+    {
+      "source_id": "youtube:UC5gLaUV0z1cwDzNEyFHJbNA",
+      "display_name": "KAZUNE ch.",
+      "activity_source": "https://www.youtube.com/channel/UC5gLaUV0z1cwDzNEyFHJbNA"
+    },
+    {
+      "source_id": "youtube:UCyJ4GonA7LCTcdhbeEIc0tw",
+      "display_name": "Noko ch.桜音のこ🎀🔍",
+      "activity_source": "https://www.youtube.com/channel/UCyJ4GonA7LCTcdhbeEIc0tw"
+    },
+    {
+      "source_id": "youtube:UCLpSSw-OLQM9xCEbyEmFstw",
+      "display_name": "梨乃みゃお -Myao Nashino-",
+      "activity_source": "https://www.youtube.com/channel/UCLpSSw-OLQM9xCEbyEmFstw"
+    },
+    {
+      "source_id": "youtube:UCcrkYKl4OHqU2PAcB3Le2bQ",
+      "display_name": "屍野シノネ - Shino Shinone",
+      "activity_source": "https://www.youtube.com/channel/UCcrkYKl4OHqU2PAcB3Le2bQ"
+    },
+    {
+      "source_id": "youtube:UCFUwj1vuMm0YSETUJKK9N9Q",
+      "display_name": "天秤ひなみ",
+      "activity_source": "https://www.youtube.com/channel/UCFUwj1vuMm0YSETUJKK9N9Q"
+    },
+    {
+      "source_id": "youtube:UCpFPeyEAkUzFAawuFHWk9Ww",
+      "display_name": "御手洗こもる Komoru Ch.",
+      "activity_source": "https://www.youtube.com/channel/UCpFPeyEAkUzFAawuFHWk9Ww"
+    },
+    {
+      "source_id": "youtube:UCB8DR-ao7ZfoAwoYRXE3VJw",
+      "display_name": "すち",
+      "activity_source": "https://www.youtube.com/channel/UCB8DR-ao7ZfoAwoYRXE3VJw"
+    }
+  ],
+  "held_after_final_review": [
+    {
+      "source_id": "youtube:UCpsWjZV-E2WHt1LbUOSy71Q",
+      "display_name": "ぶいのこ公式チャンネル",
+      "activity_source": "https://www.youtube.com/channel/UCpsWjZV-E2WHt1LbUOSy71Q"
+    },
+    {
+      "source_id": "youtube:UCyCJxWHkHi7jYmEYhErqCUw",
+      "display_name": "ガチぶいパーティー",
+      "activity_source": "https://www.youtube.com/channel/UCyCJxWHkHi7jYmEYhErqCUw"
+    },
+    {
+      "source_id": "youtube:UCCWtY3x0amciTonTS5j2MhQ",
+      "display_name": "Vtuber Sensei",
+      "activity_source": "https://www.youtube.com/channel/UCCWtY3x0amciTonTS5j2MhQ"
+    }
+  ],
+  "published_new_creators": 12
+}
