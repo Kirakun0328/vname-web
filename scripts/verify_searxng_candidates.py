@@ -22,6 +22,7 @@ from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from platform_sources import canonical_account
+import profile_backoff as backoff
 from update_dictionary import read_js
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -84,14 +85,16 @@ def fetch_profile(url):
 
 
 def throttle(url):
-    host = urllib.parse.urlsplit(url).hostname
+    host = backoff.host_key(url)
     with HOST_LOCK:
-        if host in HOST_BLOCKED:
-            raise ValueError('host paused after rate limit or access denial')
+        if host in HOST_BLOCKED or backoff.blocked(url):
+            raise backoff.DeferredHost('host cooldown remains active')
         now = time.monotonic()
         due = max(now, HOST_NEXT.get(host, now))
         HOST_NEXT[host] = due + 0.8
     time.sleep(max(0, due - now))
+    if backoff.blocked(url):
+        raise backoff.DeferredHost('host paused while this request was waiting')
 
 
 def activity_evidence(document, description, platform):
@@ -158,7 +161,8 @@ def fetch_page(url):
     except urllib.error.HTTPError as error:
         if error.code in (403, 429):
             with HOST_LOCK:
-                HOST_BLOCKED.add(urllib.parse.urlsplit(url).hostname)
+                HOST_BLOCKED.add(backoff.host_key(url))
+                backoff.pause(url, error.code, error.headers.get('Retry-After') if error.headers else None)
         raise
     if len(raw) > 4 * 1024 * 1024:
         raise ValueError('profile page too large')
@@ -239,7 +243,11 @@ def verify_one(candidate):
         if not account:
             return candidate, None, 'invalid_profile_url'
         document = fetch_profile(url)
+    except backoff.DeferredHost:
+        return candidate, None, 'deferred_host_backoff'
     except urllib.error.HTTPError as error:
+        if error.code in (403, 429):
+            return candidate, None, 'deferred_host_backoff'
         return candidate, None, 'unavailable:HTTP' + str(error.code)
     except (OSError, ValueError, UnicodeError) as error:
         return candidate, None, 'unavailable:' + type(error).__name__
@@ -407,7 +415,10 @@ def main():
     parser.add_argument('--retry-unavailable', action='store_true', help='Retry profiles that previously failed with a temporary HTTP/network error')
     parser.add_argument('--recheck-classification', action='store_true', help='Recheck old fan/language exclusions once with the corrected classifier')
     args = parser.parse_args()
+    backoff.load()
+    HOST_BLOCKED.clear()
     queue = json.loads(QUEUE.read_text(encoding='utf-8')) if QUEUE.exists() else []
+    recovered = sum(backoff.recover_legacy_candidate(row) for row in queue)
     allowed_statuses = {'pending_primary_confirmation'}
     if args.retry_unavailable:
         allowed_statuses.add('unavailable')
@@ -417,6 +428,8 @@ def main():
                 r.get('verification_status') in {'fan_or_clip_channel', 'no_direct_vtuber_evidence'}))
                and r.get('verification_status') not in {'unavailable:HTTP404', 'unavailable:HTTP410'}]
     targets.sort(key=lambda r: r.get('verified_at') or r.get('discovered_at') or '')
+    deferred_hosts = sum(backoff.blocked(row['url']) for row in targets)
+    targets = [row for row in targets if not backoff.blocked(row['url'])]
     targets = targets[:max(0, min(args.limit, 5000))]
     verified = []
     statuses = {}
@@ -434,6 +447,10 @@ def main():
         for future in as_completed(futures):
             candidate, record, status = future.result()
             if status == 'deferred_time_budget':
+                continue
+            if status == 'deferred_host_backoff':
+                candidate.update(review_status='pending_primary_confirmation', verification_status=status)
+                deferred_hosts += 1
                 continue
             attempted += 1
             statuses[status] = statuses.get(status, 0) + 1
@@ -453,12 +470,15 @@ def main():
 
     added, enriched, unique_profiles = merge_verified(verified) if verified else (0, 0, 0)
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    backoff.save()
     report = {
         'schema': 2,
         'verifier_version': VERIFIER_VERSION,
         'updated_at': stamp,
         'candidates_total': len(queue),
         'attempted_this_run': attempted,
+        'deferred_host_backoff': deferred_hosts,
+        'recovered_backoff_candidates': recovered,
         'verified_this_run': len(verified),
         'verified_unique_profiles': unique_profiles,
         'new_public_records': added,

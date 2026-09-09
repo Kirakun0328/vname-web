@@ -1,0 +1,10 @@
+{
+  "youtube.com": {
+    "reason": "HTTP429",
+    "observed_at": "2026-09-09T07:54:47.821379+00:00",
+    "until": "2026-09-09T08:54:47.821379+00:00",
+    "retry_after_provided": false,
+    "legacy_verification_batch": "2026-09-09T07:52:59.475735+00:00",
+    "evidence": "scripts/searxng-verification-report.json: HTTP429 and subsequent deferred requests in the same batch."
+  }
+}

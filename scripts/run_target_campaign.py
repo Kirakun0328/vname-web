@@ -13,7 +13,8 @@ CONFIG = ROOT / 'scripts/collection-goal.json'
 STATE = ROOT / 'scripts/target-campaign-report.json'
 OUTPUTS = ['extra-data.js', 'platform-data.js', 'scripts/searxng-candidates.json',
            'scripts/search-discovery-report.json', 'scripts/searxng-verification-report.json',
-           'scripts/collection-report.json', 'scripts/target-campaign-report.json']
+           'scripts/collection-report.json', 'scripts/target-campaign-report.json',
+           'scripts/profile-fetch-backoff.json']
 TERMINAL = {'target_reached', 'query_budget_reached', 'deadline_reached',
             'paused_no_growth', 'paused_search_unavailable', 'disabled'}
 
@@ -99,6 +100,7 @@ def record_batch(state, search, verification, current_count):
         'profiles_checked': verification.get('attempted_this_run', 0),
         'new_public_records': verification.get('new_public_records', 0),
         'verification_statuses': verification.get('statuses', {}),
+        'deferred_host_backoff': verification.get('deferred_host_backoff', 0),
         'queue_statuses': verification.get('queue_statuses', {}),
     }
 

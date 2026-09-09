@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/collect-to-target.yml'
       - 'scripts/collection-goal.json'
+      - 'scripts/profile_backoff.py'
       - 'scripts/reviewed-community-submissions-2026-09-09-4.json'
   schedule:
     - cron: '13 */2 * * *'
@@ -92,6 +93,7 @@ jobs:
             scripts/searxng-verification-report.json
             scripts/searxng-candidates.json
             scripts/collection-report.json
+            scripts/profile-fetch-backoff.json
           retention-days: 14
       - name: Write collection summary
         if: always()
