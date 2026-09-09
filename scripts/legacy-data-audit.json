@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "scope": "audit_only_general_legacy_sources; AIVTuber sources excluded",
-  "unique_ids": 17950,
+  "unique_ids": 18242,
   "files": {
     "data.js": 9877,
-    "extra-data.js": 7264,
+    "extra-data.js": 7556,
     "platform-data.js": 11705
   },
-  "reviewed_ids": 201,
+  "reviewed_ids": 226,
   "primary_rechecked_ids": 60,
-  "aivtuber_preserved_ids": 1549,
+  "aivtuber_preserved_ids": 1550,
   "legacy_general_ids_any_evidence": 12804,
   "legacy_general_ids_also_reviewed_primary_or_aiv": 60,
   "legacy_general_ids_without_reviewed_primary_or_aiv": 12744,
@@ -43,7 +43,7 @@
     ],
     [
       "youtube",
-      5761
+      6043
     ],
     [
       "agency-razz",
@@ -59,7 +59,7 @@
     ],
     [
       "iriam",
-      159
+      165
     ],
     [
       "agency-ozon",
@@ -135,7 +135,7 @@
     ],
     [
       "mirrativ",
-      7
+      8
     ],
     [
       "agency-tolico",
