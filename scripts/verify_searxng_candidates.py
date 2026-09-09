@@ -164,7 +164,6 @@ def verify_one(candidate):
 
     title = title_of(document)
     description = description_of(document)
-    # Body is used only for classification/evidence; it is never stored.
     searchable = clean_text(title + ' ' + description + ' ' + re.sub(r'<[^>]+>', ' ', document[:700000]))
     if PREDEBUT.search(searchable):
         return candidate, None, 'predebut'
@@ -216,53 +215,116 @@ def verify_one(candidate):
     return candidate, row, 'verified'
 
 
+def canonical_accounts(*groups):
+    """Deduplicate platform accounts by canonical platform/account identity."""
+    output = []
+    seen = set()
+    for group in groups:
+        if not isinstance(group, list):
+            continue
+        for item in group:
+            if not isinstance(item, dict):
+                continue
+            canonical = canonical_account(item.get('url'))
+            if canonical:
+                identity = (canonical['platform'], canonical['id'])
+                normalized = canonical
+            else:
+                platform = item.get('platform')
+                account_id = item.get('id')
+                url = item.get('url')
+                if not all(isinstance(v, str) and v for v in (platform, account_id, url)):
+                    continue
+                identity = (platform, account_id)
+                normalized = {'platform': platform, 'id': account_id, 'url': url}
+            if identity in seen:
+                continue
+            seen.add(identity)
+            output.append(normalized)
+    return output
+
+
 def merge_verified(rows):
     extra = read_js(EXTRA, 'VTUBER_EXTRA')
+    original_size = EXTRA.stat().st_size
     by_id = {row['source_id']: dict(row) for row in extra}
     merged, account_index = existing_indexes()
-    added = enriched = 0
+
+    grouped = {}
     for row in rows:
         account = row['platform_accounts'][0]
         target = account_index.get((account['platform'], account['id']), row['source_id'])
+        grouped.setdefault(target, []).append(row)
+
+    added = enriched = 0
+    for target, group in grouped.items():
+        row = group[0]
         old = merged.get(target, {})
         patch = dict(by_id.get(target, {}))
+        discovered_accounts = [item for candidate in group for item in candidate.get('platform_accounts', [])]
+
         if old:
             aliases = list(dict.fromkeys([*old.get('aliases', []), *patch.get('aliases', [])]))
-            if row['display_name'] != old.get('display_name') and row['display_name'] not in aliases:
-                aliases.append(row['display_name'])
+            for candidate in group:
+                name = candidate.get('display_name')
+                if name and name != old.get('display_name') and name not in aliases:
+                    aliases.append(name)
             if aliases:
                 patch['aliases'] = aliases
             patch.setdefault('source_id', target)
             patch.setdefault('category', old.get('category') or row['category'])
-            accounts = [*old.get('platform_accounts', []), *patch.get('platform_accounts', [])]
-            if account not in accounts:
-                accounts.append(account)
-            patch['platform_accounts'] = accounts
-            for field in ('activity_source', 'activity_evidence', 'activity_checked_at', 'primary_platforms', 'primary_platform_source', 'primary_platform_evidence', 'youtube_channel_id', 'twitch_login'):
+            accounts = canonical_accounts(old.get('platform_accounts', []), patch.get('platform_accounts', []), discovered_accounts)
+            if accounts:
+                patch['platform_accounts'] = accounts
+            for field in (
+                'activity_source', 'activity_evidence', 'activity_checked_at',
+                'primary_platforms', 'primary_platform_source',
+                'primary_platform_evidence', 'youtube_channel_id', 'twitch_login',
+            ):
                 if row.get(field) and not old.get(field):
                     patch[field] = row[field]
             enriched += 1
         else:
             patch.update(row)
+            patch['platform_accounts'] = canonical_accounts(discovered_accounts)
+            aliases = []
+            for candidate in group[1:]:
+                name = candidate.get('display_name')
+                if name and name != row.get('display_name') and name not in aliases:
+                    aliases.append(name)
+            if aliases:
+                patch['aliases'] = aliases
             added += 1
+
         by_id[target] = patch
         merged.setdefault(target, {}).update(patch)
-        account_index[(account['platform'], account['id'])] = target
+        for account in patch.get('platform_accounts', []):
+            account_index[(account['platform'], account['id'])] = target
 
     content = '// Additive, source-linked VTuber/AIVTuber names and verified readings.\nwindow.VTUBER_EXTRA = ' + json.dumps(list(by_id.values()), ensure_ascii=False, separators=(',', ':')) + ';\n'
+    encoded_size = len(content.encode('utf-8'))
+    github_safe_limit = 90 * 1024 * 1024
+    growth_limit = max(original_size * 2, original_size + 16 * 1024 * 1024)
+    if encoded_size > github_safe_limit or encoded_size > growth_limit:
+        raise ValueError(f'Refusing unexpected extra-data.js growth: {original_size} -> {encoded_size} bytes')
+
     tmp = EXTRA.with_suffix('.js.tmp')
     tmp.write_text(content, encoding='utf-8')
     tmp.replace(EXTRA)
-    return added, enriched
+    return added, enriched, len(grouped)
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--limit', type=int, default=200)
     parser.add_argument('--workers', type=int, default=5)
+    parser.add_argument('--retry-unavailable', action='store_true', help='Retry profiles that previously failed with a temporary HTTP/network error')
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding='utf-8')) if QUEUE.exists() else []
-    targets = [r for r in queue if r.get('review_status') in ('pending_primary_confirmation', 'unavailable')]
+    allowed_statuses = {'pending_primary_confirmation'}
+    if args.retry_unavailable:
+        allowed_statuses.add('unavailable')
+    targets = [r for r in queue if r.get('review_status') in allowed_statuses]
     targets.sort(key=lambda r: r.get('verified_at') or r.get('discovered_at') or '')
     targets = targets[:max(0, min(args.limit, 1500))]
     verified = []
@@ -287,14 +349,15 @@ def main():
                 candidate['review_status'] = 'not_confirmed'
                 candidate['published'] = False
 
-    added, enriched = merge_verified(verified) if verified else (0, 0)
+    added, enriched, unique_profiles = merge_verified(verified) if verified else (0, 0, 0)
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     report = {
-        'schema': 1,
+        'schema': 2,
         'updated_at': stamp,
         'candidates_total': len(queue),
         'attempted_this_run': len(targets),
         'verified_this_run': len(verified),
+        'verified_unique_profiles': unique_profiles,
         'new_public_records': added,
         'existing_records_enriched': enriched,
         'statuses': statuses,
