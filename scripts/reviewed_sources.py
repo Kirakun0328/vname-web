@@ -29,6 +29,7 @@ def reviewed_profiles():
         'reviewed-community-submissions-2026-09-09-2.json',
         'reviewed-community-submissions-2026-09-09-3.json',
         'reviewed-community-submissions-2026-09-09-4.json',
+        'reviewed-community-submissions-2026-09-09-5.json',
         'reviewed-platform-expansion-2026-09-09.json',
         'reviewed-platform-expansion-2026-09-09-2.json',
         'reviewed-platform-expansion-2026-09-09-3.json',

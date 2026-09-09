@@ -1,0 +1,531 @@
+[
+  {
+    "source_id": "youtube:UCrzO_hsFW8vLLy8xFBADfqQ",
+    "display_name": "千秋あき",
+    "reading": "ちあきあき",
+    "aliases": [],
+    "category": "VTuber",
+    "source_url": "https://www.youtube.com/@Aki_Chiaki",
+    "name_source": "https://www.youtube.com/@Aki_Chiaki",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCrzO_hsFW8vLLy8xFBADfqQ",
+        "url": "https://youtube.com/channel/UCrzO_hsFW8vLLy8xFBADfqQ"
+      },
+      {
+        "platform": "youtube",
+        "id": "@aki_chiaki",
+        "url": "https://youtube.com/@Aki_Chiaki"
+      }
+    ],
+    "primary_platforms": [
+      "youtube"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://www.youtube.com/@Aki_Chiaki",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://www.youtube.com/@Aki_Chiaki"
+    ],
+    "youtube_channel_id": "UCrzO_hsFW8vLLy8xFBADfqQ",
+    "youtube_handle": "@Aki_Chiaki"
+  },
+  {
+    "source_id": "iriam:gWTbjr",
+    "display_name": "巽 零祇",
+    "reading": "たつみ れいぎ",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/gWTbjr",
+    "name_source": "https://lit.link/mgmr69",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "gWTbjr",
+        "url": "https://web.iriam.app/s/user/gWTbjr"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://lit.link/mgmr69",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/Tmbz7JiDG4"
+    ],
+    "profile_url_source": "https://t.co/Tmbz7JiDG4",
+    "profile_url_evidence": "submitted_short_url_http_redirect",
+    "debut_date": "2021-02-25"
+  },
+  {
+    "source_id": "iriam:Y1FqgJECYb",
+    "display_name": "猫音しずく",
+    "reading": "ねこねしずく",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/Y1FqgJECYb",
+    "name_source": "https://x.com/nekone_sizuku_2",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "Y1FqgJECYb",
+        "url": "https://web.iriam.app/s/user/Y1FqgJECYb"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://x.com/nekone_sizuku_2/status/2057663199961653401",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/y7fhT7AIMJ"
+    ],
+    "profile_url_source": "https://t.co/y7fhT7AIMJ",
+    "profile_url_evidence": "submitted_short_url_http_redirect"
+  },
+  {
+    "source_id": "iriam:7M6XwkNJ5n",
+    "display_name": "天宮いと",
+    "reading": "あまみやいと",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/7M6XwkNJ5n",
+    "name_source": "https://lit.link/itoamamiya",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCWC8CxTjL9PlE6s8rOeGHLw",
+        "url": "https://youtube.com/channel/UCWC8CxTjL9PlE6s8rOeGHLw"
+      },
+      {
+        "platform": "iriam",
+        "id": "7M6XwkNJ5n",
+        "url": "https://web.iriam.app/s/user/7M6XwkNJ5n"
+      },
+      {
+        "platform": "youtube",
+        "id": "@itotonagi",
+        "url": "https://youtube.com/@itotonagi"
+      }
+    ],
+    "primary_platforms": [
+      "iriam",
+      "youtube"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://lit.link/itoamamiya",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/gLvyVBhMAA",
+      "https://www.youtube.com/@itotonagi"
+    ],
+    "youtube_channel_id": "UCWC8CxTjL9PlE6s8rOeGHLw",
+    "youtube_handle": "@itotonagi",
+    "profile_url_source": "https://t.co/gLvyVBhMAA",
+    "profile_url_evidence": "submitted_short_url_http_redirect"
+  },
+  {
+    "source_id": "iriam:wEVjNe11r0",
+    "display_name": "ひゆに",
+    "reading": "ひゆに",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/wEVjNe11r0",
+    "name_source": "https://lit.link/hiyuni0813",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "wEVjNe11r0",
+        "url": "https://web.iriam.app/s/user/wEVjNe11r0"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://lit.link/hiyuni0813",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/cmd1jBWUAU"
+    ],
+    "profile_url_source": "https://t.co/cmd1jBWUAU",
+    "profile_url_evidence": "submitted_short_url_http_redirect",
+    "debut_date": "2026-07-18"
+  },
+  {
+    "source_id": "iriam:p1U6foGk0L",
+    "display_name": "夏樺",
+    "reading": "なつか",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/p1U6foGk0L",
+    "name_source": "https://lit.link/01_na2ka",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "p1U6foGk0L",
+        "url": "https://web.iriam.app/s/user/p1U6foGk0L"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://lit.link/01_na2ka",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://x.gd/NrIxqS"
+    ],
+    "profile_url_source": "https://lit.link/01_na2ka",
+    "profile_url_evidence": "creator_profile_link"
+  },
+  {
+    "source_id": "iriam:S7NXLx",
+    "display_name": "夏月時雨",
+    "reading": "なつきしぐれ",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/S7NXLx",
+    "name_source": "https://lit.link/natsukishigure",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "S7NXLx",
+        "url": "https://web.iriam.app/s/user/S7NXLx"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://lit.link/natsukishigure",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/N1JY7ZKalY"
+    ],
+    "profile_url_source": "https://t.co/N1JY7ZKalY",
+    "profile_url_evidence": "submitted_short_url_http_redirect",
+    "debut_date": "2021-11-25"
+  },
+  {
+    "source_id": "iriam:KYyYDgAPQy",
+    "display_name": "七世㌨ヵ",
+    "reading": "ななせなのか",
+    "aliases": [
+      "七世ナノカ"
+    ],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/KYyYDgAPQy",
+    "name_source": "https://x.com/nanase_nanoka_",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "KYyYDgAPQy",
+        "url": "https://web.iriam.app/s/user/KYyYDgAPQy"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://x.com/nanase_nanoka_/status/2097348932838039631",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/vHg3sE5nT5"
+    ],
+    "profile_url_source": "https://t.co/vHg3sE5nT5",
+    "profile_url_evidence": "submitted_short_url_http_redirect"
+  },
+  {
+    "source_id": "youtube:UCU7a8OoIRcxI04VcjCaklIg",
+    "display_name": "亡ニ喪 ナイ",
+    "reading": "なにも ない",
+    "aliases": [
+      "亡二喪 ナイ"
+    ],
+    "category": "VTuber",
+    "source_url": "https://www.youtube.com/@亡ニ喪ナイ",
+    "name_source": "https://www.youtube.com/@亡ニ喪ナイ",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCU7a8OoIRcxI04VcjCaklIg",
+        "url": "https://youtube.com/channel/UCU7a8OoIRcxI04VcjCaklIg"
+      },
+      {
+        "platform": "youtube",
+        "id": "@亡ニ喪ナイ",
+        "url": "https://youtube.com/@亡ニ喪ナイ"
+      }
+    ],
+    "primary_platforms": [
+      "youtube"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://www.youtube.com/@%E4%BA%A1%E3%83%8B%E5%96%AA%E3%83%8A%E3%82%A4",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://www.youtube.com/@%E4%BA%A1%E3%83%8B%E5%96%AA%E3%83%8A%E3%82%A4"
+    ],
+    "youtube_channel_id": "UCU7a8OoIRcxI04VcjCaklIg",
+    "youtube_handle": "@亡ニ喪ナイ",
+    "submitted_display_name": "亡二喪 ナイ",
+    "name_evidence": "Creator channel spells the second character as katakana ニ; retain submitted kanji 二 spelling as a search alias."
+  },
+  {
+    "source_id": "iriam:XMm1n7LllD",
+    "display_name": "莉雨",
+    "reading": "りう",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/XMm1n7LllD",
+    "name_source": "https://lit.link/riu_10_",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "XMm1n7LllD",
+        "url": "https://web.iriam.app/s/user/XMm1n7LllD"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://lit.link/riu_10_",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/NIHQ5GRXZg"
+    ],
+    "profile_url_source": "https://t.co/NIHQ5GRXZg",
+    "profile_url_evidence": "submitted_short_url_http_redirect",
+    "debut_date": "2026-04-21"
+  },
+  {
+    "source_id": "iriam:QkuIVdG0nW",
+    "display_name": "夢宵ネイア",
+    "reading": "ゆめよいねいあ",
+    "aliases": [
+      "夢宵 ネイア"
+    ],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/QkuIVdG0nW",
+    "name_source": "https://x.com/yumeyoi_neia",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "QkuIVdG0nW",
+        "url": "https://web.iriam.app/s/user/QkuIVdG0nW"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://x.com/yumeyoi_neia/status/2097657173346275760",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/m7QSA1cpfj"
+    ],
+    "profile_url_source": "https://t.co/m7QSA1cpfj",
+    "profile_url_evidence": "submitted_short_url_http_redirect"
+  },
+  {
+    "source_id": "twitcasting:21_fweeei",
+    "display_name": "21。",
+    "reading": "ふい",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://twitcasting.tv/21_fweeei",
+    "name_source": "https://twitcasting.tv/21_fweeei",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "21_fweeei",
+        "url": "https://twitcasting.tv/21_fweeei"
+      }
+    ],
+    "primary_platforms": [
+      "twitcasting"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://twitcasting.tv/21_fweeei/movie/837414619",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://twitcasting.tv/21_fweeei"
+    ]
+  },
+  {
+    "source_id": "iriam:iRVJR0qTiC",
+    "display_name": "虹香らむね",
+    "reading": "にじからむね",
+    "aliases": [],
+    "category": "Vライバー",
+    "source_url": "https://web.iriam.app/s/user/iRVJR0qTiC",
+    "name_source": "https://x.com/cider__flavor",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "iRVJR0qTiC",
+        "url": "https://web.iriam.app/s/user/iRVJR0qTiC"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://x.com/cider__flavor/status/2095815175140233371",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://t.co/btGC0ryuS1"
+    ],
+    "profile_url_source": "https://t.co/btGC0ryuS1",
+    "profile_url_evidence": "submitted_short_url_http_redirect"
+  },
+  {
+    "source_id": "youtube:UCjAsSkiUerKhnP7nLP5ouhA",
+    "display_name": "萱草プレリアル",
+    "reading": "かやぐさぷれりある",
+    "aliases": [],
+    "category": "VTuber",
+    "source_url": "https://www.youtube.com/@KayagusaPrairial",
+    "name_source": "https://www.youtube.com/@KayagusaPrairial",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCjAsSkiUerKhnP7nLP5ouhA",
+        "url": "https://youtube.com/channel/UCjAsSkiUerKhnP7nLP5ouhA"
+      },
+      {
+        "platform": "youtube",
+        "id": "@kayagusaprairial",
+        "url": "https://youtube.com/@KayagusaPrairial"
+      }
+    ],
+    "primary_platforms": [
+      "youtube"
+    ],
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "primary_platform_evidence": "explicit_user_forwarded_self_submission",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "reading_source_kind": "manual",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "activity_source": "https://www.youtube.com/@KayagusaPrairial",
+    "activity_evidence": "individual_creator_profile_or_past_broadcast_and_user_submission",
+    "activity_checked_at": "2026-09-09",
+    "listing_status": "active",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-5.json",
+    "submitted_urls": [
+      "https://www.youtube.com/@KayagusaPrairial"
+    ],
+    "youtube_channel_id": "UCjAsSkiUerKhnP7nLP5ouhA",
+    "youtube_handle": "@KayagusaPrairial"
+  }
+]
