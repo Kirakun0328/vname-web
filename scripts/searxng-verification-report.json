@@ -1,10 +1,10 @@
 {
   "schema": 2,
   "verifier_version": 2,
-  "updated_at": "2026-09-09T08:36:14.905670+00:00",
-  "candidates_total": 6418,
+  "updated_at": "2026-09-09T08:51:21.057415+00:00",
+  "candidates_total": 7191,
   "attempted_this_run": 0,
-  "deferred_host_backoff": 2932,
+  "deferred_host_backoff": 3705,
   "recovered_backoff_candidates": 0,
   "verified_this_run": 0,
   "verified_unique_profiles": 0,
@@ -20,7 +20,7 @@
   },
   "queue_statuses": {
     "not_confirmed": 1439,
-    "pending_primary_confirmation": 2932,
+    "pending_primary_confirmation": 3705,
     "unavailable": 1387,
     "verified_direct_profile": 660
   }
