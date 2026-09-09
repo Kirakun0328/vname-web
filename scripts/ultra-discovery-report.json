@@ -1,6 +1,6 @@
 {
   "run_id": "34321086993",
-  "status": "running",
+  "status": "continued_in_target_campaign",
   "requested_query_families": 1800,
   "pages_per_query": 3,
   "query_families_attempted": 1200,
@@ -609,5 +609,6 @@
       "at_query": 1080,
       "resumed_at": "2026-09-09T06:53:14.500763+00:00"
     }
-  ]
+  ],
+  "continuation_report": "scripts/target-campaign-report.json"
 }

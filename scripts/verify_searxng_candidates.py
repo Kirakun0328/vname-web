@@ -8,6 +8,7 @@ evidence (or is an avatar-first platform profile such as IRIAM/REALITY/Avvy).
 from __future__ import annotations
 
 import argparse
+import contextlib
 import datetime
 import html
 import json
@@ -17,7 +18,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from platform_sources import canonical_account
@@ -29,9 +30,12 @@ REPORT = ROOT / 'scripts' / 'searxng-verification-report.json'
 EXTRA = ROOT / 'extra-data.js'
 
 VTUBER = re.compile(r'\bvtuber\b|v[- ]?tuber|virtual\s+youtuber|バーチャル\s*youtuber|バーチャルYouTuber|ＶＴｕｂｅｒ|Vライバー|Ｖライバー|バーチャルライバー|vliver|v-liver|aivtuber|ai\s*vtuber|AIライバー', re.I)
-AIV = re.compile(r'aivtuber|aituber|ai\s*vtuber|ai\s*v[- ]?tuber|AIライバー|AI\s*Vライバー', re.I)
+VTUBER = re.compile(VTUBER.pattern + r'|\bvsinger\b|バーチャルシンガー|virtual\s+(?:streamer|singer)|虚拟(?:主播|UP主)|虛擬(?:主播|實況主|YouTuber)|버튜버|버츄얼\s*(?:유튜버|스트리머)|버추얼\s*(?:유튜버|스트리머)', re.I)
+AIV = re.compile(r'aivtuber|aituber|ai\s*vtuber|ai\s*v[- ]?tuber|AIライバー|AI\s*Vライバー|\bAI\s+(?:virtual\s+)?streamer\b', re.I)
 VLIVER = re.compile(r'Vライバー|Ｖライバー|バーチャルライバー|vliver|v-liver', re.I)
-REJECT = re.compile(r'切り抜き|切抜|クリップ|まとめ|翻訳|非公式|ファン(?:チャンネル|ch)?|応援ch|clips?|clipping|highlights?|compilat(?:ion|ions)|reaction|reacts?|fan\s*(?:channel|ch)?|archive|vod\s*channel|eng\s*sub|subbed', re.I)
+REJECT = re.compile(r'切り抜き|切抜|クリップ|まとめ|翻訳|非公式|ファン(?:チャンネル|ch)|応援ch|\b(?:clips?|clipping|highlights?|compilations?|reactions?|reacts?|archive|subbed)\b|\bfan\s+(?:channel|ch)\b|\bvod\s*channel\b|\beng\s*sub\b', re.I)
+FAN_PROFILE = re.compile(r'切り抜き(?:チャンネル|ch|動画を(?:投稿|紹介|制作|作成))|切抜き?(?:チャンネル|ch)|非公式(?:チャンネル|ch)|ファン(?:チャンネル|ch)|応援(?:チャンネル|ch)|\bfan\s+channel\b|\b(?:clips?|clipping|compilation|highlights?|reaction|vod|archive|translation)\s+channel\b|\b(?:post|make|upload|share|translate)\s+(?:(?:short|funny|vtuber|translated)\s+)*(?:clips|compilations|highlights)\b', re.I)
+VERIFIER_VERSION = 2
 PREDEBUT = re.compile(r'VTuber\s*準備中|Vライバー\s*準備中|デビュー準備中|初配信予定|デビュー予定|pre[- ]?debut', re.I)
 ENDED = re.compile(r'活動終了|活動を終了|引退しました|卒業しました|配信活動を終了', re.I)
 NATIVE_V = {'iriam', 'reality', 'avvy'}
@@ -40,6 +44,43 @@ CHANNEL_RE = re.compile(r'^UC[\w-]{22}$')
 HOST_LOCK = threading.Lock()
 HOST_NEXT = {}
 HOST_BLOCKED = set()
+PROFILE_CACHE_LOCK = threading.Lock()
+PROFILE_CACHE = {}
+PROFILE_CACHE_ENABLED = False
+
+
+@contextlib.contextmanager
+def profile_cache():
+    global PROFILE_CACHE_ENABLED
+    PROFILE_CACHE.clear()
+    PROFILE_CACHE_ENABLED = True
+    try:
+        yield
+    finally:
+        PROFILE_CACHE_ENABLED = False
+        PROFILE_CACHE.clear()
+
+
+def fan_channel(title, description):
+    # A creator's fan-art tags, clip permissions, translated subtitles and VOD
+    # archive links do not describe the channel as a fan-operated account.
+    return bool(REJECT.search(title) or FAN_PROFILE.search(description))
+
+
+def fetch_profile(url):
+    # Several discovered videos can belong to one uploader. Fetch that public
+    # profile once per verifier process, retaining the existing host rate limit.
+    if not PROFILE_CACHE_ENABLED:
+        return fetch_page(url)
+    with PROFILE_CACHE_LOCK:
+        owner = url not in PROFILE_CACHE
+        future = PROFILE_CACHE.setdefault(url, Future())
+    if owner:
+        try:
+            future.set_result(fetch_page(url))
+        except Exception as error:
+            future.set_exception(error)
+    return future.result()
 
 
 def throttle(url):
@@ -197,7 +238,7 @@ def verify_one(candidate):
         account = canonical_account(url)
         if not account:
             return candidate, None, 'invalid_profile_url'
-        document = fetch_page(url)
+        document = fetch_profile(url)
     except urllib.error.HTTPError as error:
         return candidate, None, 'unavailable:HTTP' + str(error.code)
     except (OSError, ValueError, UnicodeError) as error:
@@ -209,7 +250,7 @@ def verify_one(candidate):
     searchable = clean_text(title + ' ' + description)
     if PREDEBUT.search(searchable):
         return candidate, None, 'predebut'
-    if REJECT.search(title + ' ' + description):
+    if fan_channel(title, description):
         return candidate, None, 'fan_or_clip_channel'
 
     platform = account['platform']
@@ -364,15 +405,19 @@ def main():
     parser.add_argument('--workers', type=int, default=5)
     parser.add_argument('--seconds', type=int, default=1200)
     parser.add_argument('--retry-unavailable', action='store_true', help='Retry profiles that previously failed with a temporary HTTP/network error')
+    parser.add_argument('--recheck-classification', action='store_true', help='Recheck old fan/language exclusions once with the corrected classifier')
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding='utf-8')) if QUEUE.exists() else []
     allowed_statuses = {'pending_primary_confirmation'}
     if args.retry_unavailable:
         allowed_statuses.add('unavailable')
-    targets = [r for r in queue if r.get('review_status') in allowed_statuses
+    PROFILE_CACHE.clear()
+    targets = [r for r in queue if (r.get('review_status') in allowed_statuses or
+               (args.recheck_classification and r.get('verifier_version', 1) < VERIFIER_VERSION and
+                r.get('verification_status') in {'fan_or_clip_channel', 'no_direct_vtuber_evidence'}))
                and r.get('verification_status') not in {'unavailable:HTTP404', 'unavailable:HTTP410'}]
     targets.sort(key=lambda r: r.get('verified_at') or r.get('discovered_at') or '')
-    targets = targets[:max(0, min(args.limit, 1500))]
+    targets = targets[:max(0, min(args.limit, 5000))]
     verified = []
     statuses = {}
     stamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
@@ -384,7 +429,7 @@ def main():
             return row, None, 'deferred_time_budget'
         return verify_one(row)
 
-    with ThreadPoolExecutor(max_workers=max(1, min(args.workers, 8))) as pool:
+    with profile_cache(), ThreadPoolExecutor(max_workers=max(1, min(args.workers, 8))) as pool:
         futures = [pool.submit(bounded_verify, row) for row in targets]
         for future in as_completed(futures):
             candidate, record, status = future.result()
@@ -394,6 +439,7 @@ def main():
             statuses[status] = statuses.get(status, 0) + 1
             candidate['verified_at'] = stamp
             candidate['verification_status'] = status
+            candidate['verifier_version'] = VERIFIER_VERSION
             if record:
                 verified.append(record)
                 candidate['review_status'] = 'verified_direct_profile'
@@ -409,6 +455,7 @@ def main():
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     report = {
         'schema': 2,
+        'verifier_version': VERIFIER_VERSION,
         'updated_at': stamp,
         'candidates_total': len(queue),
         'attempted_this_run': attempted,

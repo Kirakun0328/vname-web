@@ -94,14 +94,18 @@ def candidate_url(value):
     host = (u.hostname or '').lower().removeprefix('www.').removeprefix('m.')
     if u.scheme != 'https' or u.username or u.password:
         return None
+    if host == 'youtu.be':
+        video = u.path.strip('/')
+        return 'https://www.youtube.com/watch?v=' + video if VIDEO_RE.fullmatch(video) else None
     if host == 'youtube.com':
         path = urllib.parse.unquote(u.path).rstrip('/')
         if path == '/watch':
             video = urllib.parse.parse_qs(u.query).get('v', [''])[0]
             return 'https://www.youtube.com/watch?v=' + video if VIDEO_RE.fullmatch(video) else None
-        match = re.fullmatch(r'/shorts/([\w-]{11})', path)
+        match = re.fullmatch(r'/(?:shorts|live)/([\w-]{11})', path)
         if match:
-            return 'https://www.youtube.com/shorts/' + match.group(1)
+            return ('https://www.youtube.com/shorts/' + match.group(1) if path.startswith('/shorts/')
+                    else 'https://www.youtube.com/watch?v=' + match.group(1))
     account = canonical_account(value)
     if not account:
         return None

@@ -1,0 +1,108 @@
+name: Collect verified creators toward 60000
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/collect-to-target.yml'
+      - 'scripts/collection-goal.json'
+      - 'scripts/reviewed-community-submissions-2026-09-09-4.json'
+  schedule:
+    - cron: '13 */4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dictionary-writer
+  cancel-in-progress: ${{ github.event_name == 'push' }}
+jobs:
+  discover-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check target and campaign budget
+        id: campaign
+        run: python scripts/run_target_campaign.py --check-only
+      - name: Save stop reason
+        if: steps.campaign.outputs.run == 'false'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python scripts/run_target_campaign.py --commit
+      - name: Validate discovery safeguards
+        if: steps.campaign.outputs.run == 'true'
+        run: python -m unittest discover -s tests
+      - name: Prepare SearXNG
+        if: steps.campaign.outputs.run == 'true'
+        env:
+          CONFIGURED_SEARXNG_URL: ${{ vars.SEARXNG_URL }}
+        run: |
+          if [ -n "$CONFIGURED_SEARXNG_URL" ]; then
+            echo "SEARXNG_URL=$CONFIGURED_SEARXNG_URL" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          mkdir -p "$RUNNER_TEMP/vname-searxng"
+          cat > "$RUNNER_TEMP/vname-searxng/settings.yml" <<'YAML'
+          use_default_settings:
+            engines:
+              keep_only: [youtube, duckduckgo, brave, bing]
+          general:
+            debug: false
+            instance_name: vname-ci-searxng
+          search:
+            safe_search: 0
+            formats: [html, json]
+          server:
+            secret_key: vname-ci-ephemeral-not-public
+            limiter: false
+            public_instance: false
+            image_proxy: false
+          YAML
+          docker run -d --name vname-searxng \
+            -p 127.0.0.1:18080:8080 \
+            -v "$RUNNER_TEMP/vname-searxng:/etc/searxng:rw" \
+            ghcr.io/searxng/searxng:2026.9.8-3fdc6d753@sha256:8bc27439bd3e201d493d1b6668c9d67a89b1d669af4d50c6f411b06c4fbc8de2
+          for i in $(seq 1 40); do
+            if curl --max-time 10 -fsS 'http://127.0.0.1:18080/search?q=VTuber&format=json' >/dev/null; then
+              echo 'SEARXNG_URL=http://127.0.0.1:18080' >> "$GITHUB_ENV"
+              exit 0
+            fi
+            sleep 1
+          done
+          exit 1
+      - name: Collect and verify toward target
+        if: steps.campaign.outputs.run == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python -u scripts/run_target_campaign.py --seconds 5400 --commit
+      - name: Preserve collection progress
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: searxng-collection-${{ github.run_id }}
+          path: |
+            scripts/target-campaign-report.json
+            scripts/search-discovery-report.json
+            scripts/searxng-verification-report.json
+            scripts/searxng-candidates.json
+            scripts/collection-report.json
+          retention-days: 14
+      - name: Write collection summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path('scripts/target-campaign-report.json')
+          if p.exists():
+              r=json.loads(p.read_text())
+              with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+                  for key in ('status','target_records','current_listed_records','remaining_to_target','query_families_attempted','new_candidates','new_public_records'):
+                      f.write(f'- {key}: {r.get(key, 0)}\n')
+          PY

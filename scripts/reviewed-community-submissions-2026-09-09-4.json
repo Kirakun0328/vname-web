@@ -1,0 +1,78 @@
+[
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "creator_channel_past_stream_and_explicit_user_submission",
+    "activity_source": "https://www.youtube.com/watch?v=d9tN76cVtmc",
+    "aliases": [
+      "にのまえ・あゆむ",
+      "にのまえあゆむ",
+      "ayumu ninomae"
+    ],
+    "category": "VTuber",
+    "display_name": "にのまえ・あゆむ / ayumu ninomae",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/@ayumu_ninomae_65536",
+    "platform_accounts": [
+      {
+        "id": "channel/UCnJWVi5NY85xkufc-DlZ6YQ",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCnJWVi5NY85xkufc-DlZ6YQ"
+      },
+      {
+        "id": "@ayumu_ninomae_65536",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@ayumu_ninomae_65536"
+      }
+    ],
+    "primary_platform_evidence": "explicit_submitted_broadcast_destination",
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-4.json",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "にのまえあゆむ",
+    "reading_evidence": "Explicit user-forwarded self-submission.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-4.json",
+    "reading_source_kind": "manual",
+    "romanized_name": "ayumu ninomae",
+    "romanized_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-4.json",
+    "source_id": "youtube:UCnJWVi5NY85xkufc-DlZ6YQ",
+    "source_url": "https://www.youtube.com/channel/UCnJWVi5NY85xkufc-DlZ6YQ",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-4.json",
+    "youtube_channel_id": "UCnJWVi5NY85xkufc-DlZ6YQ",
+    "youtube_handle": "@ayumu_ninomae_65536"
+  },
+  {
+    "activity_evidence": "owner_explicitly_approved_listing_exception",
+    "activity_source": "https://web.iriam.app/s/user/B3vR1znMmv",
+    "activity_status": "unconfirmed",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "楓月甘音",
+    "listing_approval_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-4.json",
+    "listing_approved_at": "2026-09-09",
+    "listing_note": "User explicitly approved this individual listing after being informed that prior streaming activity was unconfirmed. No general predebut-policy change.",
+    "listing_status": "user_approved",
+    "name_source": "https://web.iriam.app/s/user/B3vR1znMmv",
+    "platform_accounts": [
+      {
+        "id": "B3vR1znMmv",
+        "platform": "iriam",
+        "url": "https://web.iriam.app/s/user/B3vR1znMmv"
+      }
+    ],
+    "primary_platform_evidence": "explicit_submitted_platform",
+    "primary_platform_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-4.json",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "reading": "ふうづき あまね",
+    "reading_evidence": "Explicit user-forwarded self-submission.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-4.json",
+    "reading_source_kind": "manual",
+    "source_id": "iriam:B3vR1znMmv",
+    "source_url": "https://web.iriam.app/s/user/B3vR1znMmv",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-4.json"
+  }
+]
