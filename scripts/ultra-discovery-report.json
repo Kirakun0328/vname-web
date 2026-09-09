@@ -3,11 +3,11 @@
   "status": "running",
   "requested_query_families": 1800,
   "pages_per_query": 3,
-  "query_families_attempted": 600,
-  "query_requests": 822,
-  "new_candidates": 1496,
-  "new_public_records": 71,
-  "existing_records_enriched": 24,
+  "query_families_attempted": 720,
+  "query_requests": 986,
+  "new_candidates": 1759,
+  "new_public_records": 85,
+  "existing_records_enriched": 30,
   "batches": [
     {
       "number": 1,
@@ -303,8 +303,68 @@
           "verified_direct_profile": 360
         }
       }
+    },
+    {
+      "number": 6,
+      "search": {
+        "status": "ok",
+        "next_query": 720,
+        "updated_at": "2026-09-09T06:14:31.253895+00:00",
+        "query_catalog_size": 5851,
+        "specialty_count": 122,
+        "query_requests": 164,
+        "query_families_attempted": 120,
+        "pages_per_query": 3,
+        "new_candidates": 263,
+        "total_candidates": 3741,
+        "auto_published": 0,
+        "scope": "Search leads only; direct creator identity and activity confirmation required.",
+        "catalogue_id": "6618275ffa41b20c",
+        "catalogue_cursors": {
+          "6618275ffa41b20c": 720
+        },
+        "query_families_requested": 120,
+        "unresponsive_engines": {
+          "brave": 88,
+          "duckduckgo": 88,
+          "google cse": 88,
+          "startpage": 88,
+          "wikipedia": 84,
+          "wikidata": 10,
+          "youtube": 1
+        }
+      },
+      "verification": {
+        "schema": 2,
+        "updated_at": "2026-09-09T06:14:31.386214+00:00",
+        "candidates_total": 3741,
+        "attempted_this_run": 227,
+        "verified_this_run": 32,
+        "verified_unique_profiles": 20,
+        "new_public_records": 14,
+        "existing_records_enriched": 6,
+        "statuses": {
+          "activity_unconfirmed": 36,
+          "no_direct_vtuber_evidence": 73,
+          "verified": 32,
+          "fan_or_clip_channel": 86
+        },
+        "policy": "SearXNG discovery only; publication requires direct public creator/profile verification.",
+        "cumulative_since_checkpoint_fix": {
+          "attempted_this_run": 1348,
+          "verified_this_run": 161,
+          "new_public_records": 85,
+          "existing_records_enriched": 30
+        },
+        "queue_statuses": {
+          "not_confirmed": 1551,
+          "pending_primary_confirmation": 411,
+          "unavailable": 1387,
+          "verified_direct_profile": 392
+        }
+      }
     }
   ],
   "started_at": "2026-09-09T05:18:30.777566+00:00",
-  "updated_at": "2026-09-09T06:09:59.272025+00:00"
+  "updated_at": "2026-09-09T06:20:37.136114+00:00"
 }

@@ -1,28 +1,28 @@
 {
   "status": "ok",
-  "next_query": 600,
-  "updated_at": "2026-09-09T06:03:51.818971+00:00",
+  "next_query": 720,
+  "updated_at": "2026-09-09T06:14:31.253895+00:00",
   "query_catalog_size": 5851,
   "specialty_count": 122,
-  "query_requests": 169,
+  "query_requests": 164,
   "query_families_attempted": 120,
   "pages_per_query": 3,
-  "new_candidates": 366,
-  "total_candidates": 3478,
+  "new_candidates": 263,
+  "total_candidates": 3741,
   "auto_published": 0,
   "scope": "Search leads only; direct creator identity and activity confirmation required.",
   "catalogue_id": "6618275ffa41b20c",
   "catalogue_cursors": {
-    "6618275ffa41b20c": 600
+    "6618275ffa41b20c": 720
   },
   "query_families_requested": 120,
   "unresponsive_engines": {
-    "brave": 89,
-    "duckduckgo": 90,
-    "google cse": 90,
-    "startpage": 90,
-    "wikipedia": 87,
-    "wikidata": 8,
+    "brave": 88,
+    "duckduckgo": 88,
+    "google cse": 88,
+    "startpage": 88,
+    "wikipedia": 84,
+    "wikidata": 10,
     "youtube": 1
   }
 }
