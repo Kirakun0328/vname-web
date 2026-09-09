@@ -1,15 +1,27 @@
 {
   "status": "ok",
-  "message": "Set SEARXNG_URL to an authorized JSON-enabled instance. No search ran.",
-  "next_query": 50,
-  "updated_at": "2026-09-09T02:10:14.925840+00:00",
-  "query_catalog_size": 804,
+  "next_query": 120,
+  "updated_at": "2026-09-09T05:21:52.407934+00:00",
+  "query_catalog_size": 5851,
   "specialty_count": 122,
-  "query_requests": 966,
-  "query_families_attempted": 804,
-  "pages_per_query": 2,
-  "new_candidates": 1746,
-  "total_candidates": 1982,
+  "query_requests": 160,
+  "query_families_attempted": 120,
+  "pages_per_query": 3,
+  "new_candidates": 212,
+  "total_candidates": 2194,
   "auto_published": 0,
-  "scope": "Search/video leads only; direct creator profile fetch and identity/activity confirmation required before publication."
+  "scope": "Search leads only; direct creator identity and activity confirmation required.",
+  "catalogue_id": "6618275ffa41b20c",
+  "catalogue_cursors": {
+    "6618275ffa41b20c": 120
+  },
+  "query_families_requested": 120,
+  "unresponsive_engines": {
+    "brave": 95,
+    "duckduckgo": 95,
+    "google cse": 95,
+    "startpage": 95,
+    "wikipedia": 86,
+    "wikidata": 17
+  }
 }
