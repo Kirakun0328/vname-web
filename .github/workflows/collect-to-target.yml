@@ -10,6 +10,10 @@ on:
   schedule:
     - cron: '13 */2 * * *'
   workflow_dispatch:
+  workflow_run:
+    workflows: ['Update dictionary and publish']
+    types: [completed]
+    branches: [main]
 permissions:
   contents: write
 concurrency:
@@ -17,6 +21,7 @@ concurrency:
   cancel-in-progress: ${{ github.event_name == 'push' }}
 jobs:
   discover-and-verify:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 100
     steps:
