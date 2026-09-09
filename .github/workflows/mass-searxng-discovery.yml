@@ -1,0 +1,49 @@
+name: Mass SearXNG specialist discovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mass-searxng-discovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Discover broad specialist VTuber leads
+        env:
+          SEARXNG_URL: ${{ vars.SEARXNG_URL }}
+        run: python scripts/mass_searxng_discovery.py
+      - name: Verify direct creator profiles batch 1
+        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 6
+      - name: Verify direct creator profiles batch 2
+        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 6
+      - name: Verify direct creator profiles batch 3
+        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 6
+      - name: Re-apply reviewed corrections
+        run: python scripts/update_dictionary.py --reviewed-only
+      - name: Validate
+        run: |
+          node --check data.js
+          node --check extra-data.js
+          node --check platform-data.js
+          node --check app.js
+          node --experimental-vm-modules --test tests/*.cjs
+          python -m unittest discover -s tests
+      - name: Commit verified discoveries
+        run: |
+          if ! git diff --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add extra-data.js platform-data.js scripts/searxng-candidates.json scripts/search-discovery-report.json scripts/searxng-verification-report.json scripts/collection-report.json
+            git commit -m 'Add directly verified SearXNG-discovered VTubers'
+            git push origin HEAD:main
+          fi
