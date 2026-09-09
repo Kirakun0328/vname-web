@@ -1,13 +1,12 @@
 {
-  "schema": 1,
-  "updated_at": "2026-09-09T00:56:00.897092+00:00",
-  "candidates_total": 236,
-  "attempted_this_run": 2,
+  "schema": 2,
+  "updated_at": "2026-09-09T02:34:44.927341+00:00",
+  "candidates_total": 1982,
+  "attempted_this_run": 0,
   "verified_this_run": 0,
+  "verified_unique_profiles": 0,
   "new_public_records": 0,
   "existing_records_enriched": 0,
-  "statuses": {
-    "unavailable:HTTPError": 2
-  },
+  "statuses": {},
   "policy": "SearXNG discovery only; publication requires direct public creator/profile verification."
 }
