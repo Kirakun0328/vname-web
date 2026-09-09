@@ -120,8 +120,11 @@ def main():
     if not 1 <= config['queries_per_batch'] <= 1000 or not 1 <= config['pages'] <= 5:
         raise ValueError('Invalid search batch limits')
     search_seconds = config.get('search_seconds_per_batch', 420)
+    verification_seconds = config.get('verification_seconds_per_batch', 600)
     if not 30 <= search_seconds <= 1200:
         raise ValueError('Invalid search time budget')
+    if not 30 <= verification_seconds <= 1200:
+        raise ValueError('Invalid verification time budget')
     from campaign_queries import QUERIES
     # Traverse this catalogue once; exhausted searches are never reported as
     # successful completion of the independent 60000-record target.
@@ -159,7 +162,8 @@ def main():
     state.update(status='running', run_id=os.environ.get('GITHUB_RUN_ID', 'local'),
                  query_catalogue_size=len(QUERIES), query_budget=config['query_budget'],
                  pages_per_query=config['pages'], queries_per_batch=config['queries_per_batch'],
-                 search_seconds_per_batch=search_seconds)
+                 search_seconds_per_batch=search_seconds,
+                 verification_seconds_per_batch=verification_seconds)
     save(state, args.commit)
     deadline = time.monotonic() + max(120, min(args.seconds, 5400))
     start_count = current
@@ -185,7 +189,7 @@ def main():
             record_batch(state, search, {}, current)
             save(state, args.commit)
             break
-        verification = verify(max(30, min(600, int(deadline - time.monotonic()) - 60)))
+        verification = verify(max(30, min(verification_seconds, int(deadline - time.monotonic()) - 60)))
         current = listed_count()
         record_batch(state, search, verification, current)
         save(state, args.commit)

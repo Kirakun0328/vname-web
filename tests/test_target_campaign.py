@@ -15,6 +15,19 @@ import verify_searxng_candidates as verifier
 
 
 class TargetCampaignTests(unittest.TestCase):
+    def test_current_youtube_header_count_proves_activity_without_recommendation_counts(self):
+        def document(count):
+            metadata = {'contentMetadataViewModel': {'metadataRows': [
+                {'metadataParts': [{'text': {'content': count}}]}]}}
+            data = {'header': {'pageHeaderRenderer': {'content': {'pageHeaderViewModel': {'metadata': metadata}}}}}
+            return '<script>var ytInitialData = ' + json.dumps(data) + ';</script>'
+        for count in ('916 本の動画', '1,234 videos', '1 video'):
+            self.assertEqual(verifier.activity_evidence(document(count), '', 'youtube'),
+                             'public_channel_header_video_count')
+        for count in ('0 videos', '0 本の動画', '1000 subscribers', 'I plan to upload 10 videos'):
+            self.assertIsNone(verifier.activity_evidence(document(count), '', 'youtube'))
+        self.assertIsNone(verifier.activity_evidence('<script>{"lockupViewModel":{"text":"916 videos"}}</script>', '', 'youtube'))
+
     def test_author_hints_prioritize_distinct_people_without_removing_namesakes(self):
         rows = [{'url': 'https://youtube.com/watch?v=' + str(i), 'candidate_author': author}
                 for i, author in enumerate(['Alice', 'Alice', 'Bob', '', 'Alice', 'Carol'])]

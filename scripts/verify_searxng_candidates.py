@@ -36,7 +36,7 @@ AIV = re.compile(r'aivtuber|aituber|ai\s*vtuber|ai\s*v[- ]?tuber|AIライバー|
 VLIVER = re.compile(r'Vライバー|Ｖライバー|バーチャルライバー|vliver|v-liver', re.I)
 REJECT = re.compile(r'切り抜き|切抜|クリップ|まとめ|翻訳|非公式|ファン(?:チャンネル|ch)|応援ch|\b(?:clips?|clipping|highlights?|compilations?|reactions?|reacts?|archive|subbed)\b|\bfan\s+(?:channel|ch)\b|\bvod\s*channel\b|\beng\s*sub\b', re.I)
 FAN_PROFILE = re.compile(r'切り抜き(?:チャンネル|ch|動画を(?:投稿|紹介|制作|作成))|切抜き?(?:チャンネル|ch)|非公式(?:チャンネル|ch)|ファン(?:チャンネル|ch)|応援(?:チャンネル|ch)|\bfan\s+channel\b|\b(?:clips?|clipping|compilation|highlights?|reaction|vod|archive|translation)\s+channel\b|\b(?:post|make|upload|share|translate)\s+(?:(?:short|funny|vtuber|translated)\s+)*(?:clips|compilations|highlights)\b', re.I)
-VERIFIER_VERSION = 2
+VERIFIER_VERSION = 3
 PREDEBUT = re.compile(r'VTuber\s*準備中|Vライバー\s*準備中|デビュー準備中|初配信予定|デビュー予定|pre[- ]?debut', re.I)
 ENDED = re.compile(r'活動終了|活動を終了|引退しました|卒業しました|配信活動を終了', re.I)
 NATIVE_V = {'iriam', 'reality', 'avvy'}
@@ -104,6 +104,20 @@ def activity_evidence(document, description, platform):
             return 'public_channel_uploads'
         if re.search(r'"videoCountText"\s*:\s*\{[^}]*[1-9][0-9,]*', document):
             return 'public_channel_video_count'
+        # The current channel UI renders uploads with lockupViewModel. Read the
+        # channel's own header count, never counts in recommendations or prose.
+        initial = re.search(r'(?:var\s+)?ytInitialData\s*=\s*', document)
+        if initial:
+            try:
+                data = json.JSONDecoder().raw_decode(document[initial.end():])[0]
+                metadata = data['header']['pageHeaderRenderer']['content']['pageHeaderViewModel']['metadata']
+                for row in metadata['contentMetadataViewModel']['metadataRows']:
+                    for part in row.get('metadataParts', []):
+                        text = part.get('text', {}).get('content', '')
+                        if re.fullmatch(r'\s*[1-9][0-9,.]*\s*(?:[KM万億]\s*)?(?:本の動画|videos?)\s*', text, re.I):
+                            return 'public_channel_header_video_count'
+            except (ValueError, KeyError, TypeError):
+                pass
     if re.search(r'配信中|配信しています|配信している|活動中|デビュー済|初配信を終|streaming\s+(?:on|every)|stream\s+(?:on|every)|have\s+streamed', description, re.I):
         return 'creator_profile_describes_started_activity'
     # Retired creators remain eligible when past activity is stated explicitly.
@@ -444,8 +458,10 @@ def main():
         allowed_statuses.add('unavailable')
     PROFILE_CACHE.clear()
     targets = [r for r in queue if (r.get('review_status') in allowed_statuses or
-               (args.recheck_classification and r.get('verifier_version', 1) < VERIFIER_VERSION and
-                r.get('verification_status') in {'fan_or_clip_channel', 'no_direct_vtuber_evidence'}))
+               (args.recheck_classification and (
+                   (r.get('verifier_version', 1) < 2 and r.get('verification_status') in
+                    {'fan_or_clip_channel', 'no_direct_vtuber_evidence'}) or
+                   (r.get('verifier_version', 1) < 3 and r.get('verification_status') == 'activity_unconfirmed'))))
                and r.get('verification_status') not in {'unavailable:HTTP404', 'unavailable:HTTP410'}]
     targets.sort(key=lambda r: r.get('verified_at') or r.get('discovered_at') or '')
     targets = diverse_candidates(targets)
