@@ -1,0 +1,80 @@
+name: Ultra SearXNG VTuber discovery
+on:
+  workflow_dispatch:
+    inputs:
+      query_limit:
+        description: 'Query families to scan this run (recommended 1800; max is catalogue size)'
+        required: true
+        default: '1800'
+      pages:
+        description: 'SearXNG pages per query (1-5; recommended 3)'
+        required: true
+        default: '3'
+permissions:
+  contents: write
+concurrency:
+  group: ultra-searxng-discovery
+  cancel-in-progress: false
+jobs:
+  discover-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate requested scale
+        env:
+          QUERY_LIMIT: ${{ inputs.query_limit }}
+          PAGES: ${{ inputs.pages }}
+        run: |
+          python - <<'PY'
+          import os
+          limit = int(os.environ['QUERY_LIMIT'])
+          pages = int(os.environ['PAGES'])
+          if not 1 <= limit <= 6000:
+              raise SystemExit('query_limit must be between 1 and 6000')
+          if not 1 <= pages <= 5:
+              raise SystemExit('pages must be between 1 and 5')
+          print(f'Ultra discovery requested: {limit} query families x {pages} pages')
+          PY
+      - name: Discover ultra-broad VTuber leads
+        env:
+          SEARXNG_URL: ${{ vars.SEARXNG_URL }}
+          QUERY_LIMIT: ${{ inputs.query_limit }}
+          PAGES: ${{ inputs.pages }}
+        run: python scripts/ultra_searxng_discovery.py --limit "$QUERY_LIMIT" --pages "$PAGES"
+      - name: Verify direct creator profiles batch 1
+        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
+      - name: Verify direct creator profiles batch 2
+        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
+      - name: Verify direct creator profiles batch 3
+        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
+      - name: Verify direct creator profiles batch 4
+        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
+      - name: Verify direct creator profiles batch 5
+        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
+      - name: Re-apply reviewed corrections
+        run: python scripts/update_dictionary.py --reviewed-only
+      - name: Recount dictionary
+        run: python scripts/recount_dictionary.py
+      - name: Validate
+        run: |
+          node --check data.js
+          node --check extra-data.js
+          node --check platform-data.js
+          node --check app.js
+          node --experimental-vm-modules --test tests/*.cjs
+          python -m unittest discover -s tests
+      - name: Commit verified discoveries
+        run: |
+          if ! git diff --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add extra-data.js platform-data.js scripts/searxng-candidates.json scripts/search-discovery-report.json scripts/searxng-verification-report.json scripts/collection-report.json
+            git commit -m 'Add ultra-scale directly verified SearXNG VTubers'
+            git push origin HEAD:main
+          fi
