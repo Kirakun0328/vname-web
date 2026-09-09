@@ -8,8 +8,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=u4P630Ku-Tg",
@@ -33,8 +34,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=uuh9PdzKoKA",
@@ -45,8 +47,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=9i_HwIGvRTY",
@@ -83,8 +86,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=f_t4ehlzAIQ",
@@ -108,8 +112,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=Li3_p8XbMFQ",
@@ -120,8 +125,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=vl7Quu1zVmM",
@@ -158,8 +164,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=jDWGkG72YyQ",
@@ -170,8 +177,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=HRaNc9GQJgo",
@@ -182,8 +190,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=bnN88fLXd2Q",
@@ -207,8 +216,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=QC79HzVGbss",
@@ -232,8 +242,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=b3erPfhKTVY",
@@ -244,8 +255,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=eKrzMmI5k8s",
@@ -254,10 +266,12 @@
     "query": "!yt \"看護師\" VTuber",
     "discovered_at": "2026-09-08T19:19:43.272756+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC_WOBIopwUih0rytRnr_1Ag"
   },
   {
     "url": "https://youtube.com/@sugimeal",
@@ -268,8 +282,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@shiraiyui",
@@ -293,8 +308,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@VTuberMother",
@@ -318,8 +334,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@RWvtubers",
@@ -343,8 +360,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@vtuber1441",
@@ -381,8 +399,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@breaking_news_V",
@@ -432,8 +451,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@VTuberMaskClips",
@@ -444,8 +464,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@u00_Vtuber",
@@ -495,8 +516,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@footballchvtuber3624",
@@ -520,8 +542,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@%E3%81%82%E3%81%BE%E3%81%BF%E3%82%84%E3%81%84%E3%81%8A%E3%82%8A",
@@ -557,8 +580,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@hololive",
@@ -608,8 +632,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@VivariaVirtual",
@@ -646,8 +671,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@yukiyu_shinnrigaku",
@@ -658,8 +684,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:19:58.501971+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@Victor_VTuber",
@@ -720,10 +747,12 @@
     "query": "!yt \"世界史\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCwo-kfEXCTK3XTF28K3k2pw"
   },
   {
     "url": "https://www.youtube.com/watch?v=--jCBSf2VZg",
@@ -734,8 +763,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=ay2S4wI7pz8",
@@ -746,8 +776,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=ArLfkezncUI",
@@ -758,8 +789,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=t6KnpeQ6lgE",
@@ -781,10 +813,12 @@
     "query": "!yt \"世界史\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCwo-kfEXCTK3XTF28K3k2pw"
   },
   {
     "url": "https://www.youtube.com/watch?v=BUDRbjD6wws",
@@ -793,10 +827,12 @@
     "query": "!yt \"世界史\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCwo-kfEXCTK3XTF28K3k2pw"
   },
   {
     "url": "https://www.youtube.com/watch?v=kU0Dcf1aVU4",
@@ -805,10 +841,12 @@
     "query": "!yt \"世界史\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCwo-kfEXCTK3XTF28K3k2pw"
   },
   {
     "url": "https://www.youtube.com/watch?v=bp8MPqh2S2g",
@@ -819,8 +857,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=eZvzxIRT_n4",
@@ -831,8 +870,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=88kAO2YpAa0",
@@ -856,8 +896,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@cafe_history",
@@ -881,8 +922,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@aoki.world.history",
@@ -893,8 +935,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@VTuberHistory",
@@ -918,8 +961,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@%E5%8F%B3%E4%BA%AC%E5%A4%A7%E5%A4%AB%E6%94%BF%E5%85%83",
@@ -943,8 +987,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@Jinnonosekaisigekijo",
@@ -955,8 +1000,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@c-history",
@@ -967,8 +1013,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@2ch-world-history",
@@ -979,8 +1026,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@kirin-v",
@@ -1002,10 +1050,12 @@
     "query": "site:youtube.com/@ \"世界史\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCy0f7r_sn8E_5HL4iYNp85A"
   },
   {
     "url": "https://youtube.com/@Y_Eschool",
@@ -1016,8 +1066,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@thehistoryoftheworld4906",
@@ -1028,8 +1079,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@yuutera",
@@ -1040,8 +1092,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@Worldhistory-ch",
@@ -1052,8 +1105,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@VTuber%E7%99%BB%E9%BE%8D%E9%96%80",
@@ -1077,8 +1131,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@Juken_History",
@@ -1089,8 +1144,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@%E3%82%86%E3%81%A3%E3%81%8F%E3%82%8A%E4%BA%BA%E7%89%A9%E6%AD%B4%E5%8F%B2%E5%AD%A6",
@@ -1101,8 +1157,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@suzuyuu1023",
@@ -1113,8 +1170,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@clan_vtuber",
@@ -1149,10 +1207,12 @@
     "query": "site:youtube.com/@ \"世界史\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCKofJjNEmQ3LwERp3pRVxtw"
   },
   {
     "url": "https://youtube.com/@ilikeedo",
@@ -1163,8 +1223,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@tokiha_shiu",
@@ -1173,10 +1234,12 @@
     "query": "site:youtube.com/@ \"世界史\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCOnPtWuGIz0kTNGcb9FR8xQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=nZzkrtGDsjM",
@@ -1187,8 +1250,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=glAljuAa16w",
@@ -1199,8 +1263,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=5bbSiO4G4PU",
@@ -1211,8 +1276,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=6R0JUs-VHvY",
@@ -1223,8 +1289,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=GW_fRikFE00",
@@ -1235,8 +1302,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=mvFAjuQ8qjw",
@@ -1247,8 +1315,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=4gSGc6o320s",
@@ -1259,8 +1328,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=UsfA4Qwrwjk",
@@ -1271,8 +1341,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=rpm3okWS2j4",
@@ -1281,10 +1352,12 @@
     "query": "!yt \"英語\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCfIjR2neqlh4KT-E0sM3FvQ"
   },
   {
     "url": "https://www.youtube.com/watch?v=BQ9rYbkmQcc",
@@ -1295,8 +1368,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=i_gh_Y9g_AE",
@@ -1307,8 +1381,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=I8IdfOzUEZA",
@@ -1319,8 +1394,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=s1WUbO9mBEs",
@@ -1331,8 +1407,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=DSWBpZF_wII",
@@ -1356,8 +1433,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@vtuberdeenglish2217",
@@ -1368,8 +1446,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@osakanasvtuberenglishclip6573",
@@ -1380,8 +1459,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@KagaLogJP",
@@ -1392,8 +1472,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@%EC%9D%B4%EC%99%80",
@@ -1430,8 +1511,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@esukari_v",
@@ -1455,8 +1537,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@vtubertranslationstv5643",
@@ -1465,10 +1548,12 @@
     "query": "site:youtube.com/@ \"英語\" VTuber",
     "discovered_at": "2026-09-08T19:22:53.308302+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC6iFFkVnml_QDEcPIYG-uDA"
   },
   {
     "url": "https://youtube.com/@lupinusvirtualgamesclippin9866",
@@ -1479,8 +1564,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@seagull-inc",
@@ -1517,8 +1603,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=2-K4ksE8iOg",
@@ -1529,8 +1616,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=B7gRifw8hgQ",
@@ -1541,8 +1629,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=GgIl3jnWgEY",
@@ -1553,8 +1642,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=7DpfCR4y2kA",
@@ -1565,8 +1655,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=eB9j-KGdAAs",
@@ -1577,8 +1668,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=GQg0Dlwrt98",
@@ -1589,8 +1681,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=E4F_SBhNb9s",
@@ -1601,8 +1694,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=LiwNZQpzDiM",
@@ -1613,8 +1707,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=ZXS3PyEu4FA",
@@ -1625,8 +1720,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:23:16.427697+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=-FpfH07xd2g",
@@ -1637,8 +1733,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=hAAmmPZTArE",
@@ -1649,8 +1746,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=OgpDn-cV9AU",
@@ -1674,8 +1772,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=4ibvLY4s0Fk",
@@ -1686,8 +1785,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=8qnvxkvyz40",
@@ -1698,8 +1798,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=aslcA7L5uD4",
@@ -1710,8 +1811,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=BHtZfnba9MM",
@@ -1722,8 +1824,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=9weRggVkpXw",
@@ -1747,8 +1850,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=OTiQ9-aXuSY",
@@ -1772,8 +1876,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=ZfpYQpv96Bw",
@@ -1784,8 +1889,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=UUxsM5D56Ak",
@@ -1796,8 +1902,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=YOAJKrbBk48",
@@ -1806,10 +1913,12 @@
     "query": "!yt \"博物館\" VTuber",
     "discovered_at": "2026-09-08T19:25:04.308025+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCn0bPhgINwJh_2SvHqcjO7Q"
   },
   {
     "url": "https://www.youtube.com/watch?v=sREQ6n_Clto",
@@ -1833,8 +1942,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=VGhGJ5bQt88",
@@ -1845,8 +1955,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=Xpr33SIMaxI",
@@ -1857,8 +1968,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=mTrCdLPgR1U",
@@ -1869,8 +1981,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=BG7X57qdEo0",
@@ -1881,8 +1994,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=JkZIDl8Vc4Q",
@@ -1893,8 +2007,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=fxE5vya89A0",
@@ -1905,8 +2020,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=IDxyFCnWG1U",
@@ -1917,8 +2033,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=FyTLOYV6oI8",
@@ -1929,8 +2046,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=hFHooyQIfi4",
@@ -1939,10 +2057,12 @@
     "query": "!yt \"学芸員\" VTuber",
     "discovered_at": "2026-09-08T19:25:04.308025+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UC8NZiqKx6fsDT3AVcMiVFyA"
   },
   {
     "url": "https://www.youtube.com/watch?v=BJ82iW-gLVg",
@@ -1953,8 +2073,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=zIWZoGPV1Gk",
@@ -1978,8 +2099,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=uHGDuDcM-ks",
@@ -2093,8 +2215,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@kuriemeiku",
@@ -2131,8 +2254,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=syOD77dd8Vs",
@@ -2156,8 +2280,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=-7xm9Eegm2E",
@@ -2207,8 +2332,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=BnIFedPGyGI",
@@ -2219,8 +2345,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=3VLlUGfqMsw",
@@ -2244,8 +2371,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=kDWC_CtmiWc",
@@ -2256,8 +2384,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=TjzJXR92idc",
@@ -2294,8 +2423,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=qnIbh2Zb1FU",
@@ -2306,8 +2436,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=scJP9tS9A1k",
@@ -2316,10 +2447,12 @@
     "query": "!yt \"考古学\" VTuber",
     "discovered_at": "2026-09-08T19:25:04.308025+00:00",
     "discovery_method": "searxng",
-    "review_status": "not_confirmed",
-    "published": false,
-    "verified_at": "2026-09-08T19:25:24.841213+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "review_status": "verified_direct_profile",
+    "published": true,
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "verified",
+    "verifier_version": 2,
+    "verified_source_id": "youtube:UCoOgfDMjgNWkQSH-Azflomw"
   },
   {
     "url": "https://www.youtube.com/watch?v=wQ-uZXE4FFo",
@@ -2342,8 +2475,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=odrie9pynWY",
@@ -2354,8 +2488,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=MCoWSnkL7dU",
@@ -2366,8 +2501,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://www.youtube.com/watch?v=vi-H2zaCipc",
@@ -2378,8 +2514,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "fan_or_clip_channel",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@seri_kisaragi",
@@ -2402,8 +2539,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@hynvvo",
@@ -2427,8 +2565,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@satton_korean101",
@@ -2439,8 +2578,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@Ruchika_chan",
@@ -2451,8 +2591,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@Hangul_TanoKan",
@@ -2463,8 +2604,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@_Ubiba",
@@ -2488,8 +2630,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@lulubelleVT",
@@ -2513,8 +2656,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "no_direct_vtuber_evidence"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "no_direct_vtuber_evidence",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@koumu_Vt",
@@ -2538,8 +2682,9 @@
     "discovery_method": "searxng",
     "review_status": "not_confirmed",
     "published": false,
-    "verified_at": "2026-09-08T19:27:26.523129+00:00",
-    "verification_status": "fan_or_clip_channel"
+    "verified_at": "2026-09-09T07:09:25.677709+00:00",
+    "verification_status": "activity_unconfirmed",
+    "verifier_version": 2
   },
   {
     "url": "https://youtube.com/@Yunei-HKvtuber",
