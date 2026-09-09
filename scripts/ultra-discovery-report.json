@@ -3,11 +3,11 @@
   "status": "running",
   "requested_query_families": 1800,
   "pages_per_query": 3,
-  "query_families_attempted": 120,
-  "query_requests": 160,
-  "new_candidates": 212,
-  "new_public_records": 19,
-  "existing_records_enriched": 4,
+  "query_families_attempted": 240,
+  "query_requests": 325,
+  "new_candidates": 482,
+  "new_public_records": 30,
+  "existing_records_enriched": 11,
   "batches": [
     {
       "number": 1,
@@ -67,8 +67,68 @@
           "verified_direct_profile": 263
         }
       }
+    },
+    {
+      "number": 2,
+      "search": {
+        "status": "ok",
+        "next_query": 240,
+        "updated_at": "2026-09-09T05:32:13.962163+00:00",
+        "query_catalog_size": 5851,
+        "specialty_count": 122,
+        "query_requests": 165,
+        "query_families_attempted": 120,
+        "pages_per_query": 3,
+        "new_candidates": 270,
+        "total_candidates": 2464,
+        "auto_published": 0,
+        "scope": "Search leads only; direct creator identity and activity confirmation required.",
+        "catalogue_id": "6618275ffa41b20c",
+        "catalogue_cursors": {
+          "6618275ffa41b20c": 240
+        },
+        "query_families_requested": 120,
+        "unresponsive_engines": {
+          "brave": 91,
+          "duckduckgo": 91,
+          "google cse": 91,
+          "startpage": 91,
+          "wikipedia": 74,
+          "youtube": 2,
+          "wikidata": 3
+        }
+      },
+      "verification": {
+        "schema": 2,
+        "updated_at": "2026-09-09T05:32:14.076383+00:00",
+        "candidates_total": 2464,
+        "attempted_this_run": 227,
+        "verified_this_run": 25,
+        "verified_unique_profiles": 18,
+        "new_public_records": 11,
+        "existing_records_enriched": 7,
+        "statuses": {
+          "no_direct_vtuber_evidence": 89,
+          "fan_or_clip_channel": 60,
+          "activity_unconfirmed": 53,
+          "verified": 25
+        },
+        "policy": "SearXNG discovery only; publication requires direct public creator/profile verification.",
+        "cumulative_since_checkpoint_fix": {
+          "attempted_this_run": 439,
+          "verified_this_run": 57,
+          "new_public_records": 30,
+          "existing_records_enriched": 11
+        },
+        "queue_statuses": {
+          "not_confirmed": 746,
+          "pending_primary_confirmation": 43,
+          "unavailable": 1387,
+          "verified_direct_profile": 288
+        }
+      }
     }
   ],
   "started_at": "2026-09-09T05:18:30.777566+00:00",
-  "updated_at": "2026-09-09T05:27:34.135637+00:00"
+  "updated_at": "2026-09-09T05:38:19.844646+00:00"
 }
