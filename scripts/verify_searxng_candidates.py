@@ -12,6 +12,9 @@ import datetime
 import html
 import json
 import re
+import threading
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -26,7 +29,7 @@ REPORT = ROOT / 'scripts' / 'searxng-verification-report.json'
 EXTRA = ROOT / 'extra-data.js'
 
 VTUBER = re.compile(r'\bvtuber\b|v[- ]?tuber|virtual\s+youtuber|バーチャル\s*youtuber|バーチャルYouTuber|ＶＴｕｂｅｒ|Vライバー|Ｖライバー|バーチャルライバー|vliver|v-liver|aivtuber|ai\s*vtuber|AIライバー', re.I)
-AIV = re.compile(r'aivtuber|ai\s*vtuber|ai\s*v[- ]?tuber|AIライバー|AI\s*Vライバー', re.I)
+AIV = re.compile(r'aivtuber|aituber|ai\s*vtuber|ai\s*v[- ]?tuber|AIライバー|AI\s*Vライバー', re.I)
 VLIVER = re.compile(r'Vライバー|Ｖライバー|バーチャルライバー|vliver|v-liver', re.I)
 REJECT = re.compile(r'切り抜き|切抜|クリップ|まとめ|翻訳|非公式|ファン(?:チャンネル|ch)?|応援ch|clips?|clipping|highlights?|compilat(?:ion|ions)|reaction|reacts?|fan\s*(?:channel|ch)?|archive|vod\s*channel|eng\s*sub|subbed', re.I)
 PREDEBUT = re.compile(r'VTuber\s*準備中|Vライバー\s*準備中|デビュー準備中|初配信予定|デビュー予定|pre[- ]?debut', re.I)
@@ -34,6 +37,35 @@ ENDED = re.compile(r'活動終了|活動を終了|引退しました|卒業し�
 NATIVE_V = {'iriam', 'reality', 'avvy'}
 VIDEO_RE = re.compile(r'^[\w-]{11}$')
 CHANNEL_RE = re.compile(r'^UC[\w-]{22}$')
+HOST_LOCK = threading.Lock()
+HOST_NEXT = {}
+HOST_BLOCKED = set()
+
+
+def throttle(url):
+    host = urllib.parse.urlsplit(url).hostname
+    with HOST_LOCK:
+        if host in HOST_BLOCKED:
+            raise ValueError('host paused after rate limit or access denial')
+        now = time.monotonic()
+        due = max(now, HOST_NEXT.get(host, now))
+        HOST_NEXT[host] = due + 0.8
+    time.sleep(max(0, due - now))
+
+
+def activity_evidence(document, description, platform):
+    if platform == 'youtube':
+        # Only inspect the channel's upload UI, not recommendation text.
+        if re.search(r'"(?:videoRenderer|gridVideoRenderer|reelItemRenderer)"\s*:', document):
+            return 'public_channel_uploads'
+        if re.search(r'"videoCountText"\s*:\s*\{[^}]*[1-9][0-9,]*', document):
+            return 'public_channel_video_count'
+    if re.search(r'配信中|配信しています|配信している|活動中|デビュー済|初配信を終|streaming\s+(?:on|every)|stream\s+(?:on|every)|have\s+streamed', description, re.I):
+        return 'creator_profile_describes_started_activity'
+    # Retired creators remain eligible when past activity is stated explicitly.
+    if ENDED.search(description):
+        return 'creator_profile_describes_past_activity'
+    return None
 
 
 def clean_text(value):
@@ -73,13 +105,20 @@ def youtube_channel_id(document):
 
 
 def fetch_page(url):
+    throttle(url)
     request = urllib.request.Request(url, headers={
         'User-Agent': 'Mozilla/5.0 (compatible; VName-primary-verifier/1.0; +https://github.com/Kirakun0328/vname-web)',
         'Accept-Language': 'ja,en-US;q=0.7,en;q=0.5',
     })
-    with urllib.request.urlopen(request, timeout=20) as response:
-        raw = response.read(4 * 1024 * 1024 + 1)
-        ctype = response.headers.get('content-type', '')
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            raw = response.read(4 * 1024 * 1024 + 1)
+            ctype = response.headers.get('content-type', '')
+    except urllib.error.HTTPError as error:
+        if error.code in (403, 429):
+            with HOST_LOCK:
+                HOST_BLOCKED.add(urllib.parse.urlsplit(url).hostname)
+        raise
     if len(raw) > 4 * 1024 * 1024:
         raise ValueError('profile page too large')
     match = re.search(r'charset=([\w.-]+)', ctype, re.I)
@@ -159,22 +198,26 @@ def verify_one(candidate):
         if not account:
             return candidate, None, 'invalid_profile_url'
         document = fetch_page(url)
+    except urllib.error.HTTPError as error:
+        return candidate, None, 'unavailable:HTTP' + str(error.code)
     except (OSError, ValueError, UnicodeError) as error:
         return candidate, None, 'unavailable:' + type(error).__name__
 
     title = title_of(document)
     description = description_of(document)
-    searchable = clean_text(title + ' ' + description + ' ' + re.sub(r'<[^>]+>', ' ', document[:700000]))
+    # Related videos and embedded recommendations can mention unrelated people.
+    searchable = clean_text(title + ' ' + description)
     if PREDEBUT.search(searchable):
         return candidate, None, 'predebut'
-    if ENDED.search(searchable):
-        return candidate, None, 'ended'
     if REJECT.search(title + ' ' + description):
         return candidate, None, 'fan_or_clip_channel'
 
     platform = account['platform']
-    if platform not in NATIVE_V and not VTUBER.search(searchable):
+    if platform not in NATIVE_V and not (VTUBER.search(searchable) or AIV.search(searchable)):
         return candidate, None, 'no_direct_vtuber_evidence'
+    activity = activity_evidence(document, description, platform)
+    if not activity:
+        return candidate, None, 'activity_unconfirmed'
     name = clean_name(title, platform)
     if not name:
         return candidate, None, 'name_unavailable'
@@ -199,6 +242,7 @@ def verify_one(candidate):
         'name_source': profile_account['url'],
         'activity_source': profile_account['url'],
         'activity_evidence': 'direct_public_profile_verified_after_searxng_discovery',
+        'activity_detail': activity,
         'activity_checked_at': today,
         'platform_accounts': [profile_account],
         'primary_platforms': [platform],
@@ -318,23 +362,35 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--limit', type=int, default=200)
     parser.add_argument('--workers', type=int, default=5)
+    parser.add_argument('--seconds', type=int, default=1200)
     parser.add_argument('--retry-unavailable', action='store_true', help='Retry profiles that previously failed with a temporary HTTP/network error')
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding='utf-8')) if QUEUE.exists() else []
     allowed_statuses = {'pending_primary_confirmation'}
     if args.retry_unavailable:
         allowed_statuses.add('unavailable')
-    targets = [r for r in queue if r.get('review_status') in allowed_statuses]
+    targets = [r for r in queue if r.get('review_status') in allowed_statuses
+               and r.get('verification_status') not in {'unavailable:HTTP404', 'unavailable:HTTP410'}]
     targets.sort(key=lambda r: r.get('verified_at') or r.get('discovered_at') or '')
     targets = targets[:max(0, min(args.limit, 1500))]
     verified = []
     statuses = {}
     stamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    deadline = time.monotonic() + max(1, args.seconds)
+    attempted = 0
+
+    def bounded_verify(row):
+        if time.monotonic() >= deadline:
+            return row, None, 'deferred_time_budget'
+        return verify_one(row)
 
     with ThreadPoolExecutor(max_workers=max(1, min(args.workers, 8))) as pool:
-        futures = [pool.submit(verify_one, row) for row in targets]
+        futures = [pool.submit(bounded_verify, row) for row in targets]
         for future in as_completed(futures):
             candidate, record, status = future.result()
+            if status == 'deferred_time_budget':
+                continue
+            attempted += 1
             statuses[status] = statuses.get(status, 0) + 1
             candidate['verified_at'] = stamp
             candidate['verification_status'] = status
@@ -355,7 +411,7 @@ def main():
         'schema': 2,
         'updated_at': stamp,
         'candidates_total': len(queue),
-        'attempted_this_run': len(targets),
+        'attempted_this_run': attempted,
         'verified_this_run': len(verified),
         'verified_unique_profiles': unique_profiles,
         'new_public_records': added,
@@ -363,6 +419,13 @@ def main():
         'statuses': statuses,
         'policy': 'SearXNG discovery only; publication requires direct public creator/profile verification.',
     }
+    previous = json.loads(REPORT.read_text(encoding='utf-8')) if REPORT.exists() else {}
+    totals = previous.get('cumulative_since_checkpoint_fix', {})
+    for key in ('attempted_this_run','verified_this_run','new_public_records','existing_records_enriched'):
+        totals[key] = totals.get(key, 0) + report[key]
+    report['cumulative_since_checkpoint_fix'] = totals
+    report['queue_statuses'] = {status:sum(r.get('review_status') == status for r in queue)
+        for status in sorted({r.get('review_status', 'unknown') for r in queue})}
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report, ensure_ascii=False))
 

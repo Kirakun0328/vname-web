@@ -1,24 +1,27 @@
 name: Ultra SearXNG VTuber discovery
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/ultra-searxng-discovery.yml']
   workflow_dispatch:
     inputs:
       query_limit:
-        description: 'Query families to scan this run (recommended 1800; max is catalogue size)'
+        description: 'Query families (1-6000); results checkpoint every 120'
         required: true
         default: '1800'
       pages:
-        description: 'SearXNG pages per query (1-5; recommended 3)'
+        description: 'SearXNG pages per query (1-5)'
         required: true
         default: '3'
 permissions:
   contents: write
 concurrency:
-  group: ultra-searxng-discovery
+  group: dictionary-writer
   cancel-in-progress: false
 jobs:
   discover-and-verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,55 +29,75 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate requested scale
+      - name: Validate discovery safeguards
+        run: python -m unittest discover -s tests
+      - name: Prepare SearXNG
         env:
-          QUERY_LIMIT: ${{ inputs.query_limit }}
-          PAGES: ${{ inputs.pages }}
+          CONFIGURED_SEARXNG_URL: ${{ vars.SEARXNG_URL }}
+        run: |
+          if [ -n "$CONFIGURED_SEARXNG_URL" ]; then
+            echo "SEARXNG_URL=$CONFIGURED_SEARXNG_URL" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          mkdir -p "$RUNNER_TEMP/vname-searxng"
+          cat > "$RUNNER_TEMP/vname-searxng/settings.yml" <<'YAML'
+          use_default_settings:
+            engines:
+              keep_only: [youtube, duckduckgo, brave, bing]
+          general:
+            debug: false
+            instance_name: vname-ci-searxng
+          search:
+            safe_search: 0
+            formats: [html, json]
+          server:
+            secret_key: vname-ci-ephemeral-not-public
+            limiter: false
+            public_instance: false
+            image_proxy: false
+          YAML
+          docker run -d --name vname-searxng \
+            -p 127.0.0.1:18080:8080 \
+            -v "$RUNNER_TEMP/vname-searxng:/etc/searxng:rw" \
+            ghcr.io/searxng/searxng:2026.9.8-3fdc6d753@sha256:8bc27439bd3e201d493d1b6668c9d67a89b1d669af4d50c6f411b06c4fbc8de2
+          for i in $(seq 1 40); do
+            if curl --max-time 10 -fsS 'http://127.0.0.1:18080/search?q=VTuber&format=json' >/dev/null; then
+              echo 'SEARXNG_URL=http://127.0.0.1:18080' >> "$GITHUB_ENV"
+              exit 0
+            fi
+            sleep 1
+          done
+          exit 1
+      - name: Search, verify and save batches
+        env:
+          QUERY_LIMIT: ${{ inputs.query_limit || '1800' }}
+          PAGES: ${{ inputs.pages || '3' }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python -u scripts/run_ultra_sweep.py --limit "$QUERY_LIMIT" --pages "$PAGES" --batch 120 --seconds 7800 --commit
+      - name: Preserve collection progress
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: searxng-collection-${{ github.run_id }}
+          path: |
+            scripts/ultra-discovery-report.json
+            scripts/search-discovery-report.json
+            scripts/searxng-verification-report.json
+            scripts/searxng-candidates.json
+            scripts/collection-report.json
+          retention-days: 14
+      - name: Write collection summary
+        if: always()
         run: |
           python - <<'PY'
-          import os
-          limit = int(os.environ['QUERY_LIMIT'])
-          pages = int(os.environ['PAGES'])
-          if not 1 <= limit <= 6000:
-              raise SystemExit('query_limit must be between 1 and 6000')
-          if not 1 <= pages <= 5:
-              raise SystemExit('pages must be between 1 and 5')
-          print(f'Ultra discovery requested: {limit} query families x {pages} pages')
+          import json, os
+          from pathlib import Path
+          p=Path('scripts/ultra-discovery-report.json')
+          if p.exists():
+              r=json.loads(p.read_text())
+              with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+                  for key in ('status','query_families_attempted','query_requests','new_candidates','new_public_records','existing_records_enriched'):
+                      f.write(f'- {key}: {r.get(key, 0)}\n')
           PY
-      - name: Discover ultra-broad VTuber leads
-        env:
-          SEARXNG_URL: ${{ vars.SEARXNG_URL }}
-          QUERY_LIMIT: ${{ inputs.query_limit }}
-          PAGES: ${{ inputs.pages }}
-        run: python scripts/ultra_searxng_discovery.py --limit "$QUERY_LIMIT" --pages "$PAGES"
-      - name: Verify direct creator profiles batch 1
-        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
-      - name: Verify direct creator profiles batch 2
-        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
-      - name: Verify direct creator profiles batch 3
-        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
-      - name: Verify direct creator profiles batch 4
-        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
-      - name: Verify direct creator profiles batch 5
-        run: python scripts/verify_searxng_candidates.py --limit 1500 --workers 3
-      - name: Re-apply reviewed corrections
-        run: python scripts/update_dictionary.py --reviewed-only
-      - name: Recount dictionary
-        run: python scripts/recount_dictionary.py
-      - name: Validate
-        run: |
-          node --check data.js
-          node --check extra-data.js
-          node --check platform-data.js
-          node --check app.js
-          node --experimental-vm-modules --test tests/*.cjs
-          python -m unittest discover -s tests
-      - name: Commit verified discoveries
-        run: |
-          if ! git diff --quiet; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add extra-data.js platform-data.js scripts/searxng-candidates.json scripts/search-discovery-report.json scripts/searxng-verification-report.json scripts/collection-report.json
-            git commit -m 'Add ultra-scale directly verified SearXNG VTubers'
-            git push origin HEAD:main
-          fi

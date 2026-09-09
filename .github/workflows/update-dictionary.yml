@@ -21,7 +21,7 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: dictionary-update
+  group: dictionary-writer
   cancel-in-progress: false
 jobs:
   update:
@@ -87,17 +87,17 @@ jobs:
             image_proxy: false
           YAML
           docker run -d --name vname-searxng \
-            -p 127.0.0.1:8080:8080 \
+            -p 127.0.0.1:18080:8080 \
             -v "$RUNNER_TEMP/vname-searxng:/etc/searxng:rw" \
             ghcr.io/searxng/searxng:2026.9.8-3fdc6d753@sha256:8bc27439bd3e201d493d1b6668c9d67a89b1d669af4d50c6f411b06c4fbc8de2
           for i in $(seq 1 40); do
-            if curl -fsS 'http://127.0.0.1:8080/search?q=vtuber&format=json' >/dev/null 2>&1; then
+            if curl -fsS 'http://127.0.0.1:18080/search?q=vtuber&format=json' >/dev/null 2>&1; then
               break
             fi
             sleep 1
           done
-          curl -fsS 'http://127.0.0.1:8080/search?q=vtuber&format=json' >/dev/null
-          echo "VNAME_SEARXNG_URL=http://127.0.0.1:8080" >> "$GITHUB_ENV"
+          curl -fsS 'http://127.0.0.1:18080/search?q=vtuber&format=json' >/dev/null
+          echo "VNAME_SEARXNG_URL=http://127.0.0.1:18080" >> "$GITHUB_ENV"
           echo "Started ephemeral local SearXNG"
       - name: Discover broad specialist VTuber candidates with SearXNG
         if: github.event_name != 'push' || github.event.head_commit.message == 'Run broad specialist SearXNG discovery'

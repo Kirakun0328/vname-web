@@ -6,9 +6,11 @@ any public record is created.
 """
 import argparse
 import datetime
+import hashlib
 import json
 import os
 import re
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -135,10 +137,14 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--limit', type=int, default=12, help='number of query families this run')
     parser.add_argument('--pages', type=int, default=1, help='SearXNG pages per query, max 5')
+    parser.add_argument('--seconds', type=int, default=1200, help='checkpoint and stop after this time budget')
+    parser.add_argument('--delay', type=float, default=0.2, help='minimum pause between search requests')
     args = parser.parse_args()
     endpoint = os.environ.get('SEARXNG_URL', '').strip()
     report_path = ROOT / 'scripts/search-discovery-report.json'
     report = json.loads(report_path.read_text(encoding='utf-8')) if report_path.exists() else {}
+    report.pop('message', None)
+    report.pop('error_type', None)
     if not endpoint:
         report.update(status='not_configured', message='Set SEARXNG_URL to an authorized JSON-enabled instance. No search ran.')
         report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
@@ -153,16 +159,39 @@ def main():
     queue_path = ROOT / 'scripts/searxng-candidates.json'
     previous = json.loads(queue_path.read_text(encoding='utf-8')) if queue_path.exists() else []
     queue = {r['url']: r for r in previous if isinstance(r, dict) and r.get('url')}
-    cursor = report.get('next_query', 0) % len(QUERIES)
+    catalogue = hashlib.sha256('\n'.join(QUERIES).encode()).hexdigest()[:16]
+    cursors = report.get('catalogue_cursors', {})
+    cursor = cursors.get(catalogue, 0) % len(QUERIES)
     stamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
     new_count = 0
     searched = 0
+    attempted = 0
+    unresponsive = {}
     status = 'ok'
+    deadline = time.monotonic() + max(1, args.seconds)
     pages = max(1, min(args.pages, 5))
     limit = max(0, min(args.limit, len(QUERIES)))
 
+    def checkpoint():
+        cursors[catalogue] = report.get('next_query', cursor)
+        report.update(status=status, updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            catalogue_id=catalogue, catalogue_cursors=cursors, query_catalog_size=len(QUERIES),
+            specialty_count=len(SPECIALTIES), query_requests=searched,
+            query_families_attempted=attempted, query_families_requested=limit,
+            pages_per_query=pages, new_candidates=new_count, total_candidates=len(queue),
+            unresponsive_engines=unresponsive, auto_published=0,
+            scope='Search leads only; direct creator identity and activity confirmation required.')
+        for path, data in ((queue_path, list(queue.values())), (report_path, report)):
+            tmp = path.with_suffix('.tmp')
+            tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+            tmp.replace(path)
+
     for offset in range(limit):
+        if time.monotonic() >= deadline:
+            status = 'time_budget_reached'
+            break
         idx = (cursor + offset) % len(QUERIES)
+        attempted += 1
         query = QUERIES[idx]
         for pageno in range(1, pages + 1):
             url = endpoint.rstrip('/') + '/search?' + urllib.parse.urlencode({
@@ -173,6 +202,8 @@ def main():
                 'safesearch': 0,
             })
             try:
+                if args.delay > 0:
+                    time.sleep(min(args.delay, 5))
                 request = urllib.request.Request(url, headers={'User-Agent': 'VName-primary-discovery/3.0'})
                 with urllib.request.urlopen(request, timeout=25) as response:
                     raw = response.read(3 * 1024 * 1024 + 1)
@@ -182,6 +213,9 @@ def main():
                 if not isinstance(data.get('results'), list):
                     raise ValueError('Invalid search response')
                 searched += 1
+                for engine in data.get('unresponsive_engines', []):
+                    label = str(engine[0] if isinstance(engine, list) and engine else engine)
+                    unresponsive[label] = unresponsive.get(label, 0) + 1
                 for row in extract(data['results'][:100], query, stamp):
                     if row['url'] not in queue:
                         queue[row['url']] = row
@@ -193,27 +227,14 @@ def main():
                 report['error_type'] = type(error).__name__
                 # Do not rotate instances or evade rate limits.
                 break
-        report['next_query'] = (idx + 1) % len(QUERIES)
+        report['next_query'] = (idx + 1) % len(QUERIES) if status == 'ok' else idx
+        if attempted % 20 == 0 or status != 'ok':
+            checkpoint()
+            print(json.dumps({'progress_queries':attempted,'new_candidates':new_count,'status':status}), flush=True)
         if status != 'ok':
             break
 
-    report.update(
-        status=status,
-        updated_at=stamp,
-        query_catalog_size=len(QUERIES),
-        specialty_count=len(SPECIALTIES),
-        query_requests=searched,
-        query_families_attempted=limit,
-        pages_per_query=pages,
-        new_candidates=new_count,
-        total_candidates=len(queue),
-        auto_published=0,
-        scope='Search/video leads only; direct creator profile fetch and identity/activity confirmation required before publication.',
-    )
-    for path, data in ((queue_path, list(queue.values())), (report_path, report)):
-        tmp = path.with_suffix('.tmp')
-        tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-        tmp.replace(path)
+    checkpoint()
     print(json.dumps(report, ensure_ascii=False))
 
 

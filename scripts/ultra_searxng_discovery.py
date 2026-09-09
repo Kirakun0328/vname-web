@@ -5,6 +5,7 @@ publication still requires direct creator/profile verification by
 verify_searxng_candidates.py.
 """
 import sys
+from itertools import zip_longest
 
 import discover_primary_search as discovery
 import mass_searxng_discovery as mass
@@ -114,7 +115,23 @@ for term in OTHER_PLATFORM_TERMS:
         f'site:kick.com "{term}"',
     ])
 
-discovery.QUERIES = unique(queries)
+# Interleave categories so a bounded run reaches AI creators and every medium
+# before spending its entire budget on YouTube specialties.
+ai_queries = [
+    f'{prefix} "{term}"' for term in
+    ['AIVTuber', 'AITuber', 'AI VTuber', 'AIライバー', 'AI Vライバー',
+     '自律型AI VTuber', 'AIキャラクター 配信', 'AI streamer', 'AI virtual streamer']
+    for prefix in ['!yt', 'site:youtube.com/@', 'site:youtube.com/channel',
+                   'site:twitch.tv', 'site:tiktok.com/@']
+]
+platform_queries = [q for q in queries if any('site:' + domain in q for domain in
+    ['twitch.tv','tiktok.com','web.iriam.app','reality.app','s.avvy.live',
+     'showroom-live.com','17.live','mirrativ.com','twitcasting.tv','nicovideo.jp',
+     'spooncast.net','topia.tv','palmu.me','mixch.tv','pococha.com','whowatch.tv','kick.com'])]
+general_queries = [f'{prefix} "{phrase}"' for phrase in DISCOVERY_PHRASES + INTERNATIONAL_TERMS
+                   for prefix in ['!yt','site:youtube.com/@','site:youtube.com/channel']]
+discovery.QUERIES = unique(q for group in zip_longest(ai_queries, platform_queries,
+                           general_queries, queries) for q in group if q)
 
 if __name__ == '__main__':
     # The workflow supplies --limit/--pages so the catalogue can be traversed

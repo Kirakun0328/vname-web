@@ -46,6 +46,8 @@ def main():
     target=ROOT/'estimated-readings.js';previous=read_object(target) if target.exists() else {}
     queue=[]
     for row in merged.values():
+        # Metadata-only patches can outlive their removed base record.
+        if not isinstance(row.get('display_name'),str) or not row['display_name'].strip():continue
         correction=corrections.get(row['display_name'],{});r={**row,**correction}
         if r.get('reading') and r.get('reading_source') and r.get('reading_source_kind') in ('manual','official','profile_explicit','directory_explicit'):continue
         old=previous.get(r['source_id'],{})
