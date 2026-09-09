@@ -18,8 +18,8 @@
   "consecutive_runs_without_growth": 0,
   "policy": "Count unique published records; every discovered identity requires direct creator evidence. Explicit owner-approved submissions remain separate.",
   "status": "running",
-  "run_id": "34326577474",
-  "updated_at": "2026-09-09T07:58:35.755704+00:00",
+  "run_id": "34327262093",
+  "updated_at": "2026-09-09T08:06:06.451825+00:00",
   "last_batch": {
     "at": "2026-09-09T07:54:47.821327+00:00",
     "query_families_attempted": 181,
