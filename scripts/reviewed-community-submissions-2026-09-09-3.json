@@ -1,0 +1,957 @@
+[
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/channel/UCVJs8_Vuy4rczqckJ8dyA9Q",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "立華ゆり",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCVJs8_Vuy4rczqckJ8dyA9Q",
+    "platform_accounts": [
+      {
+        "id": "channel/UCVJs8_Vuy4rczqckJ8dyA9Q",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCVJs8_Vuy4rczqckJ8dyA9Q"
+      },
+      {
+        "id": "@ゆり猫-s6z",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@%E3%82%86%E3%82%8A%E7%8C%AB-s6z"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.youtube.com/watch?v=6phFquR56gQ"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/watch?v=6phFquR56gQ",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "たてば ゆり",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCVJs8_Vuy4rczqckJ8dyA9Q",
+    "source_url": "https://www.youtube.com/channel/UCVJs8_Vuy4rczqckJ8dyA9Q",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCVJs8_Vuy4rczqckJ8dyA9Q",
+    "youtube_handle": "@ゆり猫-s6z"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://x.com/fuwaru_a/status/2096257527466115525",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "泡玉ふわる",
+    "listing_status": "active",
+    "name_source": "https://web.iriam.app/s/user/t1CQLR7UbA",
+    "platform_accounts": [
+      {
+        "id": "t1CQLR7UbA",
+        "platform": "iriam",
+        "url": "https://web.iriam.app/s/user/t1CQLR7UbA"
+      }
+    ],
+    "platform_sources": {
+      "iriam": "https://x.com/fuwaru_a/status/2096257527466115525"
+    },
+    "platforms": [
+      "iriam"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://x.com/fuwaru_a/status/2096257527466115525",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "reading": "あわだまふわる",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "iriam:t1CQLR7UbA",
+    "source_url": "https://web.iriam.app/s/user/t1CQLR7UbA",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/watch?v=bFWsueewLVM",
+    "aliases": [
+      "満月 トヤ"
+    ],
+    "category": "VTuber",
+    "display_name": "満月トヤ",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCLmDHwhsmv8S5uRaXs6UarA",
+    "platform_accounts": [
+      {
+        "id": "channel/UCLmDHwhsmv8S5uRaXs6UarA",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCLmDHwhsmv8S5uRaXs6UarA"
+      },
+      {
+        "id": "@mituki_toya_",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@mituki_toya_"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.youtube.com/watch?v=bFWsueewLVM"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/watch?v=bFWsueewLVM",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "みつきとや",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCLmDHwhsmv8S5uRaXs6UarA",
+    "source_url": "https://www.youtube.com/channel/UCLmDHwhsmv8S5uRaXs6UarA",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCLmDHwhsmv8S5uRaXs6UarA",
+    "youtube_handle": "@mituki_toya_"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "explicit_self_submission_for_active_TikTok_V_liver_with_creator_profile",
+    "activity_source": "https://www.tiktok.com/@nyantaromalu",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "にゃん太郎丸",
+    "listing_status": "active",
+    "name_source": "https://www.tiktok.com/@nyantaromalu",
+    "platform_accounts": [
+      {
+        "id": "@nyantaromalu",
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@nyantaromalu"
+      }
+    ],
+    "platform_sources": {
+      "tiktok": "https://www.tiktok.com/@nyantaromalu"
+    },
+    "platforms": [
+      "tiktok"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.tiktok.com/@nyantaromalu",
+    "primary_platforms": [
+      "tiktok"
+    ],
+    "profile_verification_source": "https://x.com/nyaaannyann0707/status/2021408590314319954",
+    "reading": "にゃんたろうまる",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "tiktok:@nyantaromalu",
+    "source_url": "https://www.tiktok.com/@nyantaromalu",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://x.com/HAKASE_LGADORU",
+    "aliases": [
+      "博士エルガドル"
+    ],
+    "category": "Vライバー",
+    "display_name": "博士エルガドル🧪💥",
+    "listing_status": "active",
+    "name_source": "https://web.iriam.app/s/user/ibNXLhRYxX",
+    "platform_accounts": [
+      {
+        "id": "ibNXLhRYxX",
+        "platform": "iriam",
+        "url": "https://web.iriam.app/s/user/ibNXLhRYxX"
+      }
+    ],
+    "platform_sources": {
+      "iriam": "https://x.com/HAKASE_LGADORU"
+    },
+    "platforms": [
+      "iriam"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://x.com/HAKASE_LGADORU",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "reading": "はかせ えるがどる",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "iriam:ibNXLhRYxX",
+    "source_url": "https://web.iriam.app/s/user/ibNXLhRYxX",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://x.com/IchinoseRea/status/2090432231659684165",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "一ノ瀬嶺愛",
+    "listing_status": "active",
+    "name_source": "https://web.iriam.app/s/user/fJRu6Z5pOX",
+    "platform_accounts": [
+      {
+        "id": "fJRu6Z5pOX",
+        "platform": "iriam",
+        "url": "https://web.iriam.app/s/user/fJRu6Z5pOX"
+      }
+    ],
+    "platform_sources": {
+      "iriam": "https://x.com/IchinoseRea/status/2090432231659684165"
+    },
+    "platforms": [
+      "iriam"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://x.com/IchinoseRea/status/2090432231659684165",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "reading": "いちのせれあ",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "iriam:fJRu6Z5pOX",
+    "source_url": "https://web.iriam.app/s/user/fJRu6Z5pOX",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/watch?v=TkovhOuVu6Y",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "迷々めい",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCBrmEEtt5DUedMRSqTVjedQ",
+    "platform_accounts": [
+      {
+        "id": "channel/UCBrmEEtt5DUedMRSqTVjedQ",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCBrmEEtt5DUedMRSqTVjedQ"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.youtube.com/watch?v=TkovhOuVu6Y"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/watch?v=TkovhOuVu6Y",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "めいめめい",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCBrmEEtt5DUedMRSqTVjedQ",
+    "source_url": "https://www.youtube.com/channel/UCBrmEEtt5DUedMRSqTVjedQ",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCBrmEEtt5DUedMRSqTVjedQ"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://camp-fire.jp/projects/909335/view",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "音羽ロゼ",
+    "listing_status": "active",
+    "name_source": "https://web.colorsing.com/share/user?user_id=2a23b82a-47fb-417d-86f9-f4233aa80d21",
+    "platform_accounts": [
+      {
+        "id": "2a23b82a-47fb-417d-86f9-f4233aa80d21",
+        "platform": "colorsing",
+        "url": "https://web.colorsing.com/share/user?user_id=2a23b82a-47fb-417d-86f9-f4233aa80d21"
+      }
+    ],
+    "platform_sources": {
+      "colorsing": "https://camp-fire.jp/projects/909335/view"
+    },
+    "platforms": [
+      "colorsing"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://camp-fire.jp/projects/909335/view",
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "reading": "おとわろぜ",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "colorsing:2a23b82a-47fb-417d-86f9-f4233aa80d21",
+    "source_url": "https://web.colorsing.com/share/user?user_id=2a23b82a-47fb-417d-86f9-f4233aa80d21",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://17.live/ja/profile/r/27820352",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "縁結狼",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCwDCuNg8sOpuZJFSkb6iYEg",
+    "platform_accounts": [
+      {
+        "id": "channel/UCwDCuNg8sOpuZJFSkb6iYEg",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCwDCuNg8sOpuZJFSkb6iYEg"
+      },
+      {
+        "id": "c3ea2a79-08b2-4010-980a-7604e31138a6",
+        "platform": "17live",
+        "url": "https://17.live/ja/profile/u/c3ea2a79-08b2-4010-980a-7604e31138a6"
+      }
+    ],
+    "platform_sources": {
+      "17live": "https://17.live/ja/profile/r/27820352",
+      "youtube": "https://17.live/ja/profile/r/27820352"
+    },
+    "platforms": [
+      "youtube",
+      "17live"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://17.live/ja/profile/r/27820352",
+    "primary_platforms": [
+      "youtube",
+      "17live"
+    ],
+    "reading": "えんゆいろう",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCwDCuNg8sOpuZJFSkb6iYEg",
+    "source_url": "https://www.youtube.com/channel/UCwDCuNg8sOpuZJFSkb6iYEg",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCwDCuNg8sOpuZJFSkb6iYEg"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/@ochamanonoko",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "お茶豆のの子",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCo2FD9QkOQD1R9yg_n6fqGA",
+    "platform_accounts": [
+      {
+        "id": "channel/UCo2FD9QkOQD1R9yg_n6fqGA",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCo2FD9QkOQD1R9yg_n6fqGA"
+      },
+      {
+        "id": "@ochamanonoko",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@ochamanonoko"
+      },
+      {
+        "id": "ccbXgs4YBE",
+        "platform": "iriam",
+        "url": "https://web.iriam.app/s/user/ccbXgs4YBE"
+      }
+    ],
+    "platform_sources": {
+      "iriam": "https://www.youtube.com/@ochamanonoko"
+    },
+    "platforms": [
+      "iriam"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/@ochamanonoko",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "reading": "おちゃまののこ",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCo2FD9QkOQD1R9yg_n6fqGA",
+    "source_url": "https://www.youtube.com/channel/UCo2FD9QkOQD1R9yg_n6fqGA",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCo2FD9QkOQD1R9yg_n6fqGA",
+    "youtube_handle": "@ochamanonoko"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://x.com/_yoiroa",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "宵月ろあ",
+    "listing_status": "active",
+    "name_source": "https://www.mirrativ.com/user/132505543",
+    "platform_accounts": [
+      {
+        "id": "132505543",
+        "platform": "mirrativ",
+        "url": "https://www.mirrativ.com/user/132505543"
+      }
+    ],
+    "platform_sources": {
+      "mirrativ": "https://x.com/_yoiroa"
+    },
+    "platforms": [
+      "mirrativ"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://x.com/_yoiroa",
+    "primary_platforms": [
+      "mirrativ"
+    ],
+    "reading": "よいづきろあ",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "mirrativ:132505543",
+    "source_url": "https://www.mirrativ.com/user/132505543",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://hidekisaito.com/",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "Hideki Saito",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCABwasNfJa0OkffDjXmRweg",
+    "platform_accounts": [
+      {
+        "id": "channel/UCABwasNfJa0OkffDjXmRweg",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCABwasNfJa0OkffDjXmRweg"
+      },
+      {
+        "id": "@HidekiSaito",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@HidekiSaito"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://hidekisaito.com/"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://hidekisaito.com/",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "さいとうひでき",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCABwasNfJa0OkffDjXmRweg",
+    "source_url": "https://www.youtube.com/channel/UCABwasNfJa0OkffDjXmRweg",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCABwasNfJa0OkffDjXmRweg",
+    "youtube_handle": "@HidekiSaito"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/@kamizyoyukimura",
+    "aliases": [
+      "神条幸村"
+    ],
+    "category": "VTuber",
+    "display_name": "神条 幸村",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCgcuIrxVdIHgxFeFW-1zHGA",
+    "platform_accounts": [
+      {
+        "id": "channel/UCgcuIrxVdIHgxFeFW-1zHGA",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCgcuIrxVdIHgxFeFW-1zHGA"
+      },
+      {
+        "id": "@kamizyoyukimura",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@kamizyoyukimura"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.youtube.com/@kamizyoyukimura"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/@kamizyoyukimura",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "かみじょう ゆきむら",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCgcuIrxVdIHgxFeFW-1zHGA",
+    "source_url": "https://www.youtube.com/channel/UCgcuIrxVdIHgxFeFW-1zHGA",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCgcuIrxVdIHgxFeFW-1zHGA",
+    "youtube_handle": "@kamizyoyukimura"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/@liris_ch_111",
+    "aliases": [
+      "らいりすch."
+    ],
+    "category": "VTuber",
+    "display_name": "らいりす",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCmqfLJesNaS-wGnVOqwzNHA",
+    "platform_accounts": [
+      {
+        "id": "channel/UCmqfLJesNaS-wGnVOqwzNHA",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCmqfLJesNaS-wGnVOqwzNHA"
+      },
+      {
+        "id": "@liris_ch_111",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@liris_ch_111"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.youtube.com/@liris_ch_111"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/@liris_ch_111",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "らいりす",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCmqfLJesNaS-wGnVOqwzNHA",
+    "source_url": "https://www.youtube.com/channel/UCmqfLJesNaS-wGnVOqwzNHA",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCmqfLJesNaS-wGnVOqwzNHA",
+    "youtube_handle": "@liris_ch_111"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/watch?v=z1folqx-8xU",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "秋々あきる",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCv_GNKcTZdaGPEbFJbiupGw",
+    "official_website": "https://kakuyomu.jp/users/aki3ru",
+    "platform_accounts": [
+      {
+        "id": "channel/UCv_GNKcTZdaGPEbFJbiupGw",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCv_GNKcTZdaGPEbFJbiupGw"
+      },
+      {
+        "id": "@aki3ru",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@aki3ru"
+      },
+      {
+        "id": "Akiaki_Akiru",
+        "platform": "x",
+        "url": "https://x.com/Akiaki_Akiru"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.youtube.com/watch?v=z1folqx-8xU"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/watch?v=z1folqx-8xU",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "あきあき　あきる",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCv_GNKcTZdaGPEbFJbiupGw",
+    "source_url": "https://www.youtube.com/channel/UCv_GNKcTZdaGPEbFJbiupGw",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCv_GNKcTZdaGPEbFJbiupGw",
+    "youtube_handle": "@aki3ru"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/watch?v=GnV_tjr0jG8",
+    "aliases": [
+      "アイドル研修生みるくま"
+    ],
+    "category": "VTuber",
+    "display_name": "みるくま",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCl_ssDZyvSpXgWXRF0jgpjg",
+    "platform_accounts": [
+      {
+        "id": "channel/UCl_ssDZyvSpXgWXRF0jgpjg",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCl_ssDZyvSpXgWXRF0jgpjg"
+      },
+      {
+        "id": "@milkuma214",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@milkuma214"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.youtube.com/watch?v=GnV_tjr0jG8"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/watch?v=GnV_tjr0jG8",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "ミルクマ",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCl_ssDZyvSpXgWXRF0jgpjg",
+    "source_url": "https://www.youtube.com/channel/UCl_ssDZyvSpXgWXRF0jgpjg",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCl_ssDZyvSpXgWXRF0jgpjg",
+    "youtube_handle": "@milkuma214"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.twitch.tv/yzk_unhn",
+    "aliases": [
+      "卯花 柚希",
+      "Unohana Yuzuki"
+    ],
+    "category": "VTuber",
+    "display_name": "卯花柚希",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCwqlLQkl1oh6f5YMY8AkXlg",
+    "platform_accounts": [
+      {
+        "id": "channel/UCwqlLQkl1oh6f5YMY8AkXlg",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCwqlLQkl1oh6f5YMY8AkXlg"
+      },
+      {
+        "id": "@yzk_unhn",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@yzk_unhn"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.twitch.tv/yzk_unhn"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.twitch.tv/yzk_unhn",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "うのはなゆずき",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCwqlLQkl1oh6f5YMY8AkXlg",
+    "source_url": "https://www.youtube.com/channel/UCwqlLQkl1oh6f5YMY8AkXlg",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCwqlLQkl1oh6f5YMY8AkXlg",
+    "youtube_handle": "@yzk_unhn"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://mixch.tv/u/17545137",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "時雨にっけろ",
+    "listing_status": "active",
+    "name_source": "https://mixch.tv/u/17545137",
+    "platform_accounts": [
+      {
+        "id": "17545137",
+        "platform": "mixch",
+        "url": "https://mixch.tv/u/17545137"
+      }
+    ],
+    "platform_sources": {
+      "mixch": "https://mixch.tv/u/17545137"
+    },
+    "platforms": [
+      "mixch"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://mixch.tv/u/17545137",
+    "primary_platforms": [
+      "mixch"
+    ],
+    "reading": "しぐれにっけろ",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "mixch:17545137",
+    "source_url": "https://mixch.tv/u/17545137",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/watch?v=lRxq9osHSrM",
+    "aliases": [
+      "猫又 黒"
+    ],
+    "category": "VTuber",
+    "display_name": "猫又黒",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UC6dYovfmpovaokDFlsd81bA",
+    "platform_accounts": [
+      {
+        "id": "channel/UC6dYovfmpovaokDFlsd81bA",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UC6dYovfmpovaokDFlsd81bA"
+      },
+      {
+        "id": "@nekomatakuro",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@nekomatakuro"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://www.youtube.com/watch?v=lRxq9osHSrM"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/watch?v=lRxq9osHSrM",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "ねこまたくろ",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UC6dYovfmpovaokDFlsd81bA",
+    "source_url": "https://www.youtube.com/channel/UC6dYovfmpovaokDFlsd81bA",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UC6dYovfmpovaokDFlsd81bA",
+    "youtube_handle": "@nekomatakuro"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_note": "Old channel description says preparation; current creator X profile describes completed streams. User requests publication as an active creator.",
+    "activity_source": "https://x.com/MaitsumuMuri",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "迷詰むり",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UCbkjV-roUmEAYs1uOlJJrRA",
+    "platform_accounts": [
+      {
+        "id": "channel/UCbkjV-roUmEAYs1uOlJJrRA",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UCbkjV-roUmEAYs1uOlJJrRA"
+      },
+      {
+        "id": "@maitsumumuri",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@maitsumumuri"
+      }
+    ],
+    "platform_sources": {
+      "youtube": "https://x.com/MaitsumuMuri"
+    },
+    "platforms": [
+      "youtube"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://x.com/MaitsumuMuri",
+    "primary_platforms": [
+      "youtube"
+    ],
+    "reading": "まいつむむり",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UCbkjV-roUmEAYs1uOlJJrRA",
+    "source_url": "https://www.youtube.com/channel/UCbkjV-roUmEAYs1uOlJJrRA",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UCbkjV-roUmEAYs1uOlJJrRA",
+    "youtube_handle": "@maitsumumuri"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://x.com/rokka_608",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "宵月六花",
+    "listing_status": "active",
+    "name_source": "https://web.iriam.app/s/user/3pgoBM790M",
+    "platform_accounts": [
+      {
+        "id": "3pgoBM790M",
+        "platform": "iriam",
+        "url": "https://web.iriam.app/s/user/3pgoBM790M"
+      }
+    ],
+    "platform_sources": {
+      "iriam": "https://x.com/rokka_608"
+    },
+    "platforms": [
+      "iriam"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://x.com/rokka_608",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "reading": "よいづきろっか",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "iriam:3pgoBM790M",
+    "source_url": "https://web.iriam.app/s/user/3pgoBM790M",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://www.youtube.com/@toookonano",
+    "aliases": [],
+    "category": "VTuber",
+    "display_name": "冬湖",
+    "listing_status": "active",
+    "name_source": "https://www.youtube.com/channel/UC1OpcmwYLT93zvxXBTdwNeQ",
+    "platform_accounts": [
+      {
+        "id": "channel/UC1OpcmwYLT93zvxXBTdwNeQ",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UC1OpcmwYLT93zvxXBTdwNeQ"
+      },
+      {
+        "id": "@toookonano",
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@toookonano"
+      },
+      {
+        "id": "toookonano",
+        "platform": "twitch",
+        "url": "https://www.twitch.tv/toookonano"
+      }
+    ],
+    "platform_sources": {
+      "twitch": "https://www.youtube.com/@toookonano"
+    },
+    "platforms": [
+      "twitch"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://www.youtube.com/@toookonano",
+    "primary_platforms": [
+      "twitch"
+    ],
+    "reading": "とうこ",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "youtube:UC1OpcmwYLT93zvxXBTdwNeQ",
+    "source_url": "https://www.youtube.com/channel/UC1OpcmwYLT93zvxXBTdwNeQ",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "youtube_channel_id": "UC1OpcmwYLT93zvxXBTdwNeQ",
+    "youtube_handle": "@toookonano"
+  },
+  {
+    "activity_checked_at": "2026-09-09",
+    "activity_evidence": "reviewed_user_submission_and_public_activity",
+    "activity_source": "https://x.com/takasukiaya/status/2094598042741768321",
+    "aliases": [],
+    "category": "Vライバー",
+    "display_name": "鷹梳あや",
+    "listing_status": "active",
+    "name_source": "https://web.iriam.app/s/user/aHFtyHRhzi",
+    "platform_accounts": [
+      {
+        "id": "aHFtyHRhzi",
+        "platform": "iriam",
+        "url": "https://web.iriam.app/s/user/aHFtyHRhzi"
+      }
+    ],
+    "platform_sources": {
+      "iriam": "https://x.com/takasukiaya/status/2094598042741768321"
+    },
+    "platforms": [
+      "iriam"
+    ],
+    "primary_platform_evidence": "reviewed_self_submission_and_creator_profile",
+    "primary_platform_source": "https://x.com/takasukiaya/status/2094598042741768321",
+    "primary_platforms": [
+      "iriam"
+    ],
+    "reading": "たかすきあや",
+    "reading_evidence": "Explicit user-forwarded self-submission; preserve submitted pronunciation.",
+    "reading_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json",
+    "reading_source_kind": "manual",
+    "source_id": "iriam:aHFtyHRhzi",
+    "source_url": "https://web.iriam.app/s/user/aHFtyHRhzi",
+    "submission_received_at": "2026-09-09",
+    "submission_source": "https://github.com/Kirakun0328/vname-web/blob/main/scripts/reviewed-community-submissions-2026-09-09-3.json"
+  }
+]

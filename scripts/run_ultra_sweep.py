@@ -23,6 +23,29 @@ def read_report(name):
     return json.loads((ROOT / 'scripts' / name).read_text(encoding='utf-8'))
 
 
+def initial_report(target, pages, resume=False):
+    run_id = os.environ.get('GITHUB_RUN_ID', 'local')
+    if resume:
+        report = read_report('ultra-discovery-report.json')
+        if (report.get('requested_query_families') != target or
+                report.get('pages_per_query') != pages or
+                not 0 <= report.get('query_families_attempted', -1) <= target):
+            raise ValueError('Resume settings do not match the saved campaign')
+        report.setdefault('resumed_runs', []).append({
+            'previous_run_id': report['run_id'], 'run_id': run_id,
+            'at_query': report['query_families_attempted'],
+            'resumed_at': datetime.datetime.now(datetime.timezone.utc).isoformat()})
+        report['run_id'] = run_id
+        report['status'] = ('completed' if report['query_families_attempted'] >= target else 'running')
+        return report
+    return {'run_id': run_id, 'status': 'running',
+            'requested_query_families': target, 'pages_per_query': pages,
+            'query_families_attempted': 0, 'query_requests': 0,
+            'new_candidates': 0, 'new_public_records': 0,
+            'existing_records_enriched': 0, 'batches': [],
+            'started_at': datetime.datetime.now(datetime.timezone.utc).isoformat()}
+
+
 def save(report, commit):
     report['updated_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
     tmp = REPORT.with_suffix('.tmp')
@@ -48,19 +71,17 @@ def main():
     parser.add_argument('--batch', type=int, default=120)
     parser.add_argument('--seconds', type=int, default=7800)
     parser.add_argument('--commit', action='store_true')
+    parser.add_argument('--resume', action='store_true', help='Continue the saved campaign and retain its totals')
     args = parser.parse_args()
     if not 1 <= args.limit <= 6000 or not 1 <= args.pages <= 5 or not 1 <= args.batch <= 300:
         raise ValueError('Invalid campaign scale')
     import ultra_searxng_discovery as ultra
     target = min(args.limit, len(ultra.discovery.QUERIES))
     deadline = time.monotonic() + args.seconds
-    report = {'run_id': os.environ.get('GITHUB_RUN_ID', 'local'), 'status': 'running',
-              'requested_query_families': target, 'pages_per_query': args.pages,
-              'query_families_attempted': 0, 'query_requests': 0,
-              'new_candidates': 0, 'new_public_records': 0,
-              'existing_records_enriched': 0, 'batches': [],
-              'started_at': datetime.datetime.now(datetime.timezone.utc).isoformat()}
-    completed = 0
+    report = initial_report(target, args.pages, args.resume)
+    completed = report['query_families_attempted']
+    if args.resume:
+        save(report, args.commit)
     while completed < target and time.monotonic() < deadline - 120:
         remaining = int(deadline - time.monotonic())
         limit = min(args.batch, target - completed)

@@ -57,7 +57,7 @@ def canonical_account(url):
         ('iriam', ('web.iriam.app',), r'/s/user/([\w-]+)'),
         ('reality', ('reality.app',), r'/profile/([\w-]+)'),
         ('17live', ('17.live',), r'/s/u/([\w-]+)'),
-        ('17live', ('17.live',), r'/(?:[a-z]{2}/)?profile/([\w-]+)'),
+        ('17live', ('17.live',), r'/(?:[a-z]{2}/)?profile/(?:[ur]/)?([\w-]+)'),
         ('showroom', ('showroom-live.com',), r'/(?:r/)?([\w-]+)'),
         ('twitcasting', ('twitcasting.tv',), r'/([\w:.-]+)'),
         ('niconico', ('nicovideo.jp', 'sp.nicovideo.jp', 'cas.nicovideo.jp'), r'/user/(\d+)'),
