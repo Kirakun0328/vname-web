@@ -3,11 +3,11 @@
   "status": "running",
   "requested_query_families": 1800,
   "pages_per_query": 3,
-  "query_families_attempted": 840,
-  "query_requests": 1154,
-  "new_candidates": 1997,
-  "new_public_records": 101,
-  "existing_records_enriched": 37,
+  "query_families_attempted": 960,
+  "query_requests": 1320,
+  "new_candidates": 2163,
+  "new_public_records": 110,
+  "existing_records_enriched": 43,
   "batches": [
     {
       "number": 1,
@@ -422,8 +422,67 @@
           "verified_direct_profile": 424
         }
       }
+    },
+    {
+      "number": 8,
+      "search": {
+        "status": "ok",
+        "next_query": 960,
+        "updated_at": "2026-09-09T06:34:53.670087+00:00",
+        "query_catalog_size": 5851,
+        "specialty_count": 122,
+        "query_requests": 166,
+        "query_families_attempted": 120,
+        "pages_per_query": 3,
+        "new_candidates": 166,
+        "total_candidates": 4145,
+        "auto_published": 0,
+        "scope": "Search leads only; direct creator identity and activity confirmation required.",
+        "catalogue_id": "6618275ffa41b20c",
+        "catalogue_cursors": {
+          "6618275ffa41b20c": 960
+        },
+        "query_families_requested": 120,
+        "unresponsive_engines": {
+          "brave": 74,
+          "duckduckgo": 74,
+          "google cse": 74,
+          "startpage": 74,
+          "wikipedia": 74,
+          "youtube": 3
+        }
+      },
+      "verification": {
+        "schema": 2,
+        "updated_at": "2026-09-09T06:34:53.804769+00:00",
+        "candidates_total": 4145,
+        "attempted_this_run": 227,
+        "verified_this_run": 30,
+        "verified_unique_profiles": 15,
+        "new_public_records": 9,
+        "existing_records_enriched": 6,
+        "statuses": {
+          "fan_or_clip_channel": 69,
+          "no_direct_vtuber_evidence": 90,
+          "verified": 30,
+          "activity_unconfirmed": 38
+        },
+        "policy": "SearXNG discovery only; publication requires direct public creator/profile verification.",
+        "cumulative_since_checkpoint_fix": {
+          "attempted_this_run": 1802,
+          "verified_this_run": 223,
+          "new_public_records": 110,
+          "existing_records_enriched": 43
+        },
+        "queue_statuses": {
+          "not_confirmed": 1943,
+          "pending_primary_confirmation": 361,
+          "unavailable": 1387,
+          "verified_direct_profile": 454
+        }
+      }
     }
   ],
   "started_at": "2026-09-09T05:18:30.777566+00:00",
-  "updated_at": "2026-09-09T06:30:51.808250+00:00"
+  "updated_at": "2026-09-09T06:40:59.548339+00:00"
 }
