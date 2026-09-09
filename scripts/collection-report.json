@@ -2,10 +2,10 @@
   "status": "reviewed_only_for_general_vtuber_and_vliver",
   "updated_at": "2026-09-09",
   "records": {
-    "stored": 18192,
-    "listed": 18101,
+    "stored": 18213,
+    "listed": 18122,
     "excluded_predebut": 91,
-    "with_activity_source": 8687
+    "with_activity_source": 8708
   },
   "aivtuber_records": 340,
   "general_bulk_ingestion": {
