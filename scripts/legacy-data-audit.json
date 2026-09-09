@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "scope": "audit_only_general_legacy_sources; AIVTuber sources excluded",
-  "unique_ids": 18264,
+  "unique_ids": 18414,
   "files": {
     "data.js": 9877,
-    "extra-data.js": 7578,
+    "extra-data.js": 7729,
     "platform-data.js": 11705
   },
-  "reviewed_ids": 226,
-  "primary_rechecked_ids": 60,
-  "aivtuber_preserved_ids": 1550,
+  "reviewed_ids": 240,
+  "primary_rechecked_ids": 64,
+  "aivtuber_preserved_ids": 1549,
   "legacy_general_ids_any_evidence": 12804,
   "legacy_general_ids_also_reviewed_primary_or_aiv": 60,
   "legacy_general_ids_without_reviewed_primary_or_aiv": 12744,
-  "ids_without_source_fields": 8917,
+  "ids_without_source_fields": 8916,
   "legacy_families": {
     "hololist": 313,
     "indonesia_kaggle": 227,
@@ -43,7 +43,7 @@
     ],
     [
       "youtube",
-      6065
+      6205
     ],
     [
       "agency-razz",
@@ -54,12 +54,12 @@
       218
     ],
     [
-      "agency-mvirtual",
-      166
+      "iriam",
+      175
     ],
     [
-      "iriam",
-      165
+      "agency-mvirtual",
+      166
     ],
     [
       "agency-ozon",
@@ -71,7 +71,7 @@
     ],
     [
       "aituberlist",
-      140
+      139
     ],
     [
       "aivnav",

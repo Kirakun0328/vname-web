@@ -2,26 +2,26 @@
   "schema": 3,
   "policy": "remove_only_legacy_external_data_without_clear_reuse_terms",
   "protected": {
-    "reviewed": 226,
-    "reviewed_already_materialized": 226,
-    "primary_rechecked": 60,
-    "aiv_related": 1550,
+    "reviewed": 240,
+    "reviewed_already_materialized": 240,
+    "primary_rechecked": 64,
+    "aiv_related": 1549,
     "explicitly_reusable_dataset": 14250,
     "reusable_by_family": {
-      "vdb": 9788,
       "taiwan_archive": 2661,
+      "vdb": 9788,
       "vtuber_1b_pddl": 805,
-      "ayousanz_hf_mit": 143,
       "indonesia_kaggle": 227,
       "wikidata_cc0": 523,
-      "legacy_2019_dataset": 103
+      "legacy_2019_dataset": 103,
+      "ayousanz_hf_mit": 143
     },
     "user_encyclopedia_reference": 55,
     "reference_by_family": {
       "user_encyclopedia": 55
     },
-    "person_scoped_official": 1742,
-    "unique_preexisting": 17719
+    "person_scoped_official": 1752,
+    "unique_preexisting": 17732
   },
   "reusable_licenses": {
     "vdb": {
@@ -90,9 +90,9 @@
   },
   "before": {
     "base": 9877,
-    "extra": 7578,
+    "extra": 7729,
     "platform": 11705,
-    "merged": 18264
+    "merged": 18414
   },
   "removed": {
     "base": 0,
@@ -102,10 +102,10 @@
   },
   "after": {
     "base": 9877,
-    "extra": 7578,
+    "extra": 7729,
     "platform": 11705,
-    "merged": 18264,
-    "aiv_related": 1550,
+    "merged": 18414,
+    "aiv_related": 1549,
     "explicitly_reusable_dataset": 14250,
     "user_encyclopedia_reference": 55
   }
