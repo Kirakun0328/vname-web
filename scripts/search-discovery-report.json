@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "not_configured",
   "message": "Set SEARXNG_URL to an authorized JSON-enabled instance. No search ran.",
   "next_query": 50,
   "updated_at": "2026-09-08T19:27:11.921417+00:00",
