@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "target_records": 60000,
-  "query_catalogue_size": 19815,
-  "query_budget": 19815,
+  "query_catalogue_size": 83727,
+  "query_budget": 83727,
   "starting_listed_records": 18093,
   "current_listed_records": 18151,
   "remaining_to_target": 41849,
@@ -18,8 +18,8 @@
   "consecutive_runs_without_growth": 0,
   "policy": "Count unique published records; every discovered identity requires direct creator evidence. Explicit owner-approved submissions remain separate.",
   "status": "running",
-  "run_id": "34322399609",
-  "updated_at": "2026-09-09T07:54:47.821379+00:00",
+  "run_id": "34326577474",
+  "updated_at": "2026-09-09T07:58:35.755704+00:00",
   "last_batch": {
     "at": "2026-09-09T07:54:47.821327+00:00",
     "query_families_attempted": 181,
@@ -39,5 +39,8 @@
       "unavailable": 3357,
       "verified_direct_profile": 660
     }
-  }
+  },
+  "pages_per_query": 5,
+  "queries_per_batch": 600,
+  "search_seconds_per_batch": 900
 }
