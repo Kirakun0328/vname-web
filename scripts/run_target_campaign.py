@@ -14,7 +14,7 @@ STATE = ROOT / 'scripts/target-campaign-report.json'
 OUTPUTS = ['extra-data.js', 'platform-data.js', 'scripts/searxng-candidates.json',
            'scripts/search-discovery-report.json', 'scripts/searxng-verification-report.json',
            'scripts/collection-report.json', 'scripts/target-campaign-report.json',
-           'scripts/profile-fetch-backoff.json']
+           'scripts/profile-fetch-backoff.json', 'index.html']
 TERMINAL = {'target_reached', 'query_budget_reached', 'deadline_reached',
             'paused_no_growth', 'paused_search_unavailable', 'disabled'}
 
@@ -65,14 +65,17 @@ def save(state, commit):
     tmp.replace(STATE)
     if not commit:
         return
+    from collection_checkpoint import refresh_asset_version, push_checkpoint
+    refresh_asset_version()
     for filename in ('extra-data.js', 'platform-data.js'):
         run('node', '--check', filename)
     run('git', 'add', *OUTPUTS)
     diff = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=ROOT)
     if diff.returncode == 1:
         run('git', 'commit', '-m', 'Save verified progress toward 60000 records')
-        # A concurrent edit must never be overwritten or force-pushed.
-        run('git', 'push', 'origin', 'HEAD:main')
+        push_checkpoint()
+        # Publication may also have incorporated independently submitted names.
+        state.update(read_json(STATE))
     elif diff.returncode:
         raise RuntimeError('Could not inspect campaign changes')
 

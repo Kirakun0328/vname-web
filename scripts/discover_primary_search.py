@@ -139,6 +139,7 @@ def extract(results, query, stamp):
         output.append({
             'url': url,
             'candidate_title': str(result.get('title', ''))[:240],
+            'candidate_author': str(result.get('author', ''))[:240],
             'candidate_snippet': str(result.get('content', ''))[:500],
             'query': query,
             'discovered_at': stamp,
@@ -238,6 +239,8 @@ def main():
                     if row['url'] not in queue:
                         queue[row['url']] = row
                         new_count += 1
+                    elif row.get('candidate_author') and not queue[row['url']].get('candidate_author'):
+                        queue[row['url']]['candidate_author'] = row['candidate_author']
                 if not data['results']:
                     break
             except (OSError, ValueError, TypeError, json.JSONDecodeError) as error:

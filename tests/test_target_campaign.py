@@ -15,6 +15,13 @@ import verify_searxng_candidates as verifier
 
 
 class TargetCampaignTests(unittest.TestCase):
+    def test_author_hints_prioritize_distinct_people_without_removing_namesakes(self):
+        rows = [{'url': 'https://youtube.com/watch?v=' + str(i), 'candidate_author': author}
+                for i, author in enumerate(['Alice', 'Alice', 'Bob', '', 'Alice', 'Carol'])]
+        ordered = verifier.diverse_candidates(rows)
+        self.assertEqual(ordered[:4], [rows[i] for i in (0, 2, 3, 5)])
+        self.assertEqual({r['url'] for r in ordered}, {r['url'] for r in rows})
+
     def test_fan_art_and_clip_permissions_do_not_exclude_the_creator(self):
         self.assertFalse(verifier.fan_channel('Fantasy Alice - YouTube',
                          '個人勢VTuberです。ファンアート #AliceArt。切り抜きOK。配信しています。'))

@@ -6,6 +6,7 @@ on:
       - '.github/workflows/collect-to-target.yml'
       - 'scripts/collection-goal.json'
       - 'scripts/profile_backoff.py'
+      - 'scripts/collection_checkpoint.py'
       - 'scripts/reviewed-community-submissions-2026-09-09-4.json'
   schedule:
     - cron: '13 */2 * * *'
@@ -18,7 +19,7 @@ permissions:
   contents: write
 concurrency:
   group: dictionary-writer
-  cancel-in-progress: ${{ github.event_name == 'push' }}
+  cancel-in-progress: false
 jobs:
   discover-and-verify:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
@@ -93,6 +94,8 @@ jobs:
         with:
           name: searxng-collection-${{ github.run_id }}
           path: |
+            extra-data.js
+            platform-data.js
             scripts/target-campaign-report.json
             scripts/search-discovery-report.json
             scripts/searxng-verification-report.json

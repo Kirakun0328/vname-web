@@ -337,6 +337,26 @@ def canonical_accounts(*groups):
     return output
 
 
+def diverse_candidates(targets):
+    """Check distinct search-result authors first without discarding any leads.
+
+    Author labels affect ordering only; uploader resolution and direct profile
+    verification remain mandatory even when two search results share a label.
+    """
+    seen = set()
+    first, later = [], []
+    for row in targets:
+        author = str(row.get('candidate_author') or '').strip().casefold()
+        identity = (urllib.parse.urlsplit(row['url']).hostname, author) if author else None
+        if identity and identity in seen:
+            later.append(row)
+        else:
+            first.append(row)
+            if identity:
+                seen.add(identity)
+    return first + later
+
+
 def merge_verified(rows):
     extra = read_js(EXTRA, 'VTUBER_EXTRA')
     original_size = EXTRA.stat().st_size
@@ -428,6 +448,7 @@ def main():
                 r.get('verification_status') in {'fan_or_clip_channel', 'no_direct_vtuber_evidence'}))
                and r.get('verification_status') not in {'unavailable:HTTP404', 'unavailable:HTTP410'}]
     targets.sort(key=lambda r: r.get('verified_at') or r.get('discovered_at') or '')
+    targets = diverse_candidates(targets)
     deferred_hosts = sum(backoff.blocked(row['url']) for row in targets)
     targets = [row for row in targets if not backoff.blocked(row['url'])]
     targets = targets[:max(0, min(args.limit, 5000))]
