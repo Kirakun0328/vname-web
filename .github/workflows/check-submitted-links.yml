@@ -1,0 +1,24 @@
+name: Check submitted creator links
+on:
+  push:
+    branches: [codex/community-submissions-20260909]
+    paths: ['scripts/submitted-links-2026-09-09.json', 'scripts/audit_submitted_links.py', '.github/workflows/check-submitted-links.yml']
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/audit_submitted_links.py
+      - name: Save audit on working branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/submitted-links-audit-2026-09-09.json
+          git commit -m 'Record explicitly submitted profile identities'
+          git push origin HEAD:codex/community-submissions-20260909
