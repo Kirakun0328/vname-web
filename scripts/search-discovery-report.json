@@ -1,30 +1,30 @@
 {
   "status": "time_budget_reached",
-  "next_query": 4153,
-  "updated_at": "2026-09-09T14:17:45.654927+00:00",
+  "next_query": 4269,
+  "updated_at": "2026-09-09T14:37:59.891237+00:00",
   "query_catalog_size": 83727,
   "specialty_count": 122,
-  "query_requests": 190,
-  "query_families_attempted": 122,
+  "query_requests": 191,
+  "query_families_attempted": 116,
   "pages_per_query": 5,
-  "new_candidates": 195,
-  "total_candidates": 10476,
+  "new_candidates": 208,
+  "total_candidates": 10684,
   "auto_published": 0,
   "scope": "Search leads only; direct creator identity and activity confirmation required.",
   "catalogue_id": "4683a0ddf143546f",
   "catalogue_cursors": {
     "6618275ffa41b20c": 1200,
     "f3c1a8264db5f837": 601,
-    "4683a0ddf143546f": 4153,
+    "4683a0ddf143546f": 4269,
     "bf4667b907e17e8f": 24
   },
   "query_families_requested": 600,
   "unresponsive_engines": {
-    "duckduckgo": 74,
-    "google cse": 74,
-    "startpage": 74,
-    "wikipedia": 71,
-    "brave": 73
+    "brave": 68,
+    "duckduckgo": 68,
+    "google cse": 68,
+    "startpage": 68,
+    "wikipedia": 63
   },
   "catalogue_migration": {
     "from": "f3c1a8264db5f837",
