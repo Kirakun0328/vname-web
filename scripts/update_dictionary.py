@@ -198,6 +198,10 @@ def refresh_reviewed_only(base, previous, args):
     from broad_sources import preparing
     reviewed = reviewed_profiles()
     updated = merge_reviewed(previous, reviewed, base=base)
+    exclusions_path = ROOT / 'scripts/searxng-profile-exclusions.json'
+    exclusions = json.loads(exclusions_path.read_text()) if exclusions_path.exists() else {}
+    approved_ids = {r['source_id'] for r in reviewed}
+    updated = [r for r in updated if r['source_id'] not in exclusions or r['source_id'] in approved_ids]
     updated = consolidate_duplicates(base, updated)
     platform_path = ROOT / 'platform-data.js'
     platforms = read_js(platform_path, 'VTUBER_PLATFORMS') if platform_path.exists() else []

@@ -1,8 +1,20 @@
-import unittest,sys
+import unittest,sys,json,tempfile
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from discover_primary_search import candidate_url,extract
+from discover_primary_search import candidate_url,extract,additional_candidates
 class SearchDiscoveryTests(unittest.TestCase):
+ def test_saved_research_cannot_supply_publication_approval_or_non_creator_urls(self):
+  with tempfile.TemporaryDirectory() as folder:
+   root=Path(folder);(root/'scripts').mkdir()
+   rows=[{'url':'https://www.youtube.com/@example','discovery_method':'searxng','published':True,
+          'review_status':'verified_direct_profile','reading':'unverified'},
+         {'url':'https://example.com/directory','discovery_method':'searxng'}]
+   (root/'scripts/searxng-additional-leads-test.json').write_text(json.dumps(rows))
+   result=list(additional_candidates(root))
+   self.assertEqual(len(result),1)
+   self.assertFalse(result[0]['published'])
+   self.assertEqual(result[0]['review_status'],'pending_primary_confirmation')
+   self.assertNotIn('reading',result[0])
  def test_primary_urls_only_and_no_tracking_query(self):
   self.assertIsNone(candidate_url('https://vtuber-post.com/ranking_index.html'))
   self.assertIsNone(candidate_url('https://x.com.evil.example/person'))
