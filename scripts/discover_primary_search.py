@@ -82,6 +82,18 @@ QUERIES = BASE_QUERIES + [query for specialty in SPECIALTIES for query in (
 )]
 
 VIDEO_RE = re.compile(r'^[\w-]{11}$')
+PREDECESSOR_QUERIES = []
+
+
+def catalogue_cursor(queries, cursors, predecessor=()):
+    catalogue = hashlib.sha256('\n'.join(queries).encode()).hexdigest()[:16]
+    if catalogue in cursors:
+        return catalogue, cursors[catalogue] % len(queries), None
+    if predecessor and queries[:len(predecessor)] == list(predecessor):
+        previous_id = hashlib.sha256('\n'.join(predecessor).encode()).hexdigest()[:16]
+        if previous_id in cursors:
+            return catalogue, cursors[previous_id] % len(predecessor), previous_id
+    return catalogue, 0, None
 
 
 def candidate_url(value):
@@ -163,9 +175,11 @@ def main():
     queue_path = ROOT / 'scripts/searxng-candidates.json'
     previous = json.loads(queue_path.read_text(encoding='utf-8')) if queue_path.exists() else []
     queue = {r['url']: r for r in previous if isinstance(r, dict) and r.get('url')}
-    catalogue = hashlib.sha256('\n'.join(QUERIES).encode()).hexdigest()[:16]
     cursors = report.get('catalogue_cursors', {})
-    cursor = cursors.get(catalogue, 0) % len(QUERIES)
+    catalogue, cursor, predecessor_id = catalogue_cursor(QUERIES, cursors, PREDECESSOR_QUERIES)
+    if predecessor_id:
+        report['catalogue_migration'] = {'from': predecessor_id, 'to': catalogue,
+                                       'resumed_at_query': cursor}
     stamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
     new_count = 0
     searched = 0

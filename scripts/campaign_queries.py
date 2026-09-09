@@ -44,7 +44,7 @@ TOPICS = ultra.unique(ultra.topics + [
 ])
 
 
-def build_queries():
+def build_base_queries():
     ai = [f'{prefix} "{term}"' for term in AI_TERMS
           for prefix in ['!yt'] + ['site:' + host for host in PLATFORMS]]
     media = [f'site:{host} "{term}" "{topic}"'
@@ -73,9 +73,35 @@ def build_queries():
                          international, historical, ultra.discovery.QUERIES) for q in group if q)
 
 
+BASE_CAMPAIGN_QUERIES = build_base_queries()
+
+
+def build_queries():
+    # Append-only expansion lets the existing search cursor retain its exact
+    # meaning. Do not reshuffle or restart already checked query families.
+    topics = [topic for topic in TOPICS if topic.isascii()]
+    regional = [f'{prefix} {region} "{topic}"'
+                for topic in topics for region in ultra.INTERNATIONAL_TERMS
+                for prefix in ['!yt', 'site:youtube.com/@', 'site:twitch.tv', 'site:tiktok.com/@']]
+    multilingual_media = [f'site:{host} {term} "{topic}"'
+                          for topic in topics for terms in LANGUAGES.values() for term in terms
+                          for host in ['youtube.com/channel', 'tiktok.com/@', 'kick.com', 'chzzk.naver.com']]
+    years = [f'{prefix} {term} "{year}"'
+             for year in reversed(range(2016, 2027))
+             for terms in LANGUAGES.values() for term in terms
+             for prefix in ['!yt', 'site:youtube.com/@', 'site:twitch.tv']]
+    ai_topics = [f'{prefix} {term} "{topic}"'
+                 for topic in topics for term in AI_TERMS
+                 for prefix in ['!yt', 'site:youtube.com/@', 'site:twitch.tv', 'site:tiktok.com/@']]
+    additions = [q for group in zip_longest(regional, multilingual_media, years, ai_topics)
+                 for q in group if q]
+    return ultra.unique([*BASE_CAMPAIGN_QUERIES, *additions])
+
+
 QUERIES = build_queries()
 
 if __name__ == '__main__':
     ultra.discovery.QUERIES = QUERIES
+    ultra.discovery.PREDECESSOR_QUERIES = BASE_CAMPAIGN_QUERIES
     print(f'Campaign query catalogue: {len(QUERIES)} families', flush=True)
     ultra.discovery.main()

@@ -1,9 +1,10 @@
 {
   "enabled": true,
   "target_records": 60000,
-  "query_budget": 60000,
-  "queries_per_batch": 240,
-  "pages": 3,
+  "query_budget": 100000,
+  "queries_per_batch": 600,
+  "pages": 5,
+  "search_seconds_per_batch": 900,
   "max_days": 14,
   "max_runs_without_growth": 3,
   "requested_at": "2026-09-09",

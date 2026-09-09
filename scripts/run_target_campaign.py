@@ -46,7 +46,7 @@ def stopping_reason(config, state, current_count, timestamp):
         return 'disabled'
     if current_count >= config['target_records']:
         return 'target_reached'
-    if state.get('status') in TERMINAL:
+    if state.get('status') in TERMINAL - {'query_budget_reached'}:
         return state['status']
     if state.get('query_families_attempted', 0) >= config['query_budget']:
         return 'query_budget_reached'
@@ -112,6 +112,11 @@ def main():
     config = read_json(CONFIG)
     if not 1 <= config['target_records'] <= 100000 or not 1 <= config['query_budget'] <= 100000:
         raise ValueError('Invalid campaign limits')
+    if not 1 <= config['queries_per_batch'] <= 1000 or not 1 <= config['pages'] <= 5:
+        raise ValueError('Invalid search batch limits')
+    search_seconds = config.get('search_seconds_per_batch', 420)
+    if not 30 <= search_seconds <= 1200:
+        raise ValueError('Invalid search time budget')
     from campaign_queries import QUERIES
     # Traverse this catalogue once; exhausted searches are never reported as
     # successful completion of the independent 60000-record target.
@@ -146,15 +151,20 @@ def main():
             'runs_completed': 0, 'batches_completed': 0, 'consecutive_runs_without_growth': 0,
             'policy': 'Count unique published records; every discovered identity requires direct creator evidence. Explicit owner-approved submissions remain separate.',
         }
-    state.update(status='running', run_id=os.environ.get('GITHUB_RUN_ID', 'local'))
+    state.update(status='running', run_id=os.environ.get('GITHUB_RUN_ID', 'local'),
+                 query_catalogue_size=len(QUERIES), query_budget=config['query_budget'],
+                 pages_per_query=config['pages'], queries_per_batch=config['queries_per_batch'],
+                 search_seconds_per_batch=search_seconds)
     save(state, args.commit)
     deadline = time.monotonic() + max(120, min(args.seconds, 5400))
     start_count = current
-    # Publish a small early checkpoint while recovering old false exclusions.
-    verification = verify(min(120, max(30, int(deadline - time.monotonic()) - 60)), limit=250)
-    current = listed_count()
-    record_batch(state, {}, verification, current)
-    save(state, args.commit)
+    # The first launch recovers old false exclusions. Resumed executions start
+    # searching immediately and verify their queue after each search batch.
+    if state['batches_completed'] == 0:
+        verification = verify(min(120, max(30, int(deadline - time.monotonic()) - 60)), limit=250)
+        current = listed_count()
+        record_batch(state, {}, verification, current)
+        save(state, args.commit)
     while time.monotonic() < deadline - 180:
         reason = stopping_reason(config, state, current, now())
         if reason:
@@ -163,7 +173,7 @@ def main():
         limit = min(config['queries_per_batch'], config['query_budget'] - state['query_families_attempted'])
         run(sys.executable, 'scripts/campaign_queries.py', '--limit', str(limit),
             '--pages', str(config['pages']), '--seconds',
-            str(min(420, max(30, int(deadline - time.monotonic()) - 150))))
+            str(min(search_seconds, max(30, int(deadline - time.monotonic()) - 150))))
         search = read_json(ROOT / 'scripts/search-discovery-report.json')
         if search.get('status') in ('source_unavailable', 'not_configured'):
             state['status'] = 'paused_search_unavailable'

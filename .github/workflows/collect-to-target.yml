@@ -7,7 +7,7 @@ on:
       - 'scripts/collection-goal.json'
       - 'scripts/reviewed-community-submissions-2026-09-09-4.json'
   schedule:
-    - cron: '13 */4 * * *'
+    - cron: '13 */2 * * *'
   workflow_dispatch:
 permissions:
   contents: write
