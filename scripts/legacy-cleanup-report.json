@@ -8,13 +8,13 @@
     "aiv_related": 1569,
     "explicitly_reusable_dataset": 14250,
     "reusable_by_family": {
+      "vtuber_1b_pddl": 805,
       "vdb": 9788,
-      "legacy_2019_dataset": 103,
       "taiwan_archive": 2661,
       "wikidata_cc0": 523,
-      "vtuber_1b_pddl": 805,
+      "indonesia_kaggle": 227,
       "ayousanz_hf_mit": 143,
-      "indonesia_kaggle": 227
+      "legacy_2019_dataset": 103
     },
     "user_encyclopedia_reference": 55,
     "reference_by_family": {

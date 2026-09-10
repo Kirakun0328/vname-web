@@ -1,19 +1,16 @@
 {
   "schema": 2,
   "verifier_version": 3,
-  "updated_at": "2026-09-09T22:23:53.940165+00:00",
+  "updated_at": "2026-09-10T14:51:32.174734+00:00",
   "candidates_total": 13286,
-  "attempted_this_run": 20,
+  "attempted_this_run": 0,
   "deferred_host_backoff": 0,
   "recovered_backoff_candidates": 0,
-  "verified_this_run": 9,
-  "verified_unique_profiles": 8,
-  "new_public_records": 3,
-  "existing_records_enriched": 5,
-  "statuses": {
-    "verified": 9,
-    "no_direct_vtuber_evidence": 11
-  },
+  "verified_this_run": 0,
+  "verified_unique_profiles": 0,
+  "new_public_records": 0,
+  "existing_records_enriched": 0,
+  "statuses": {},
   "policy": "SearXNG discovery only; publication requires direct public creator/profile verification.",
   "cumulative_since_checkpoint_fix": {
     "attempted_this_run": 16204,
