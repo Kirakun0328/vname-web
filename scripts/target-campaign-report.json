@@ -17,9 +17,9 @@
   "batches_completed": 28,
   "consecutive_runs_without_growth": 0,
   "policy": "Count unique published records; every discovered identity requires direct creator evidence. Explicit owner-approved submissions remain separate.",
-  "status": "waiting_next_run",
-  "run_id": "34403776895",
-  "updated_at": "2026-09-09T22:22:17.730735+00:00",
+  "status": "running",
+  "run_id": "34420156414",
+  "updated_at": "2026-09-10T00:10:54.646423+00:00",
   "last_batch": {
     "at": "2026-09-09T22:22:14.337554+00:00",
     "query_families_attempted": 142,
