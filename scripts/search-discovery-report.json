@@ -1,14 +1,14 @@
 {
-  "status": "source_unavailable",
-  "next_query": 0,
-  "updated_at": "2026-09-10T14:51:31.796781+00:00",
+  "status": "ok",
+  "next_query": 24,
+  "updated_at": "2026-09-10T20:51:11.219641+00:00",
   "query_catalog_size": 282,
   "specialty_count": 122,
-  "query_requests": 0,
-  "query_families_attempted": 1,
+  "query_requests": 34,
+  "query_families_attempted": 24,
   "pages_per_query": 2,
-  "new_candidates": 0,
-  "total_candidates": 13286,
+  "new_candidates": 139,
+  "total_candidates": 13425,
   "auto_published": 0,
   "scope": "Search leads only; direct creator identity and activity confirmation required.",
   "catalogue_id": "bcebb4b46754bf30",
@@ -17,15 +17,21 @@
     "f3c1a8264db5f837": 601,
     "4683a0ddf143546f": 6019,
     "bf4667b907e17e8f": 72,
-    "bcebb4b46754bf30": 0
+    "bcebb4b46754bf30": 24
   },
   "query_families_requested": 24,
-  "unresponsive_engines": {},
+  "unresponsive_engines": {
+    "duckduckgo": 18,
+    "startpage": 18,
+    "wikipedia": 18,
+    "brave": 15,
+    "wikidata": 9,
+    "google cse": 10
+  },
   "catalogue_migration": {
     "from": "f3c1a8264db5f837",
     "to": "4683a0ddf143546f",
     "resumed_at_query": 601
   },
-  "imported_research_candidates": 0,
-  "error_type": "URLError"
+  "imported_research_candidates": 0
 }
