@@ -45,6 +45,19 @@ SPECIALTIES = [
 ]
 
 BASE_QUERIES = [
+    # Recent debuts and AI characters; publication still requires direct activity evidence.
+    "!yt 新人VTuber 初配信 2026年9月",
+    "!yt 新人VTuber 初配信 2026年8月",
+    "!yt AIVTuber 初配信 2026",
+    "!yt AITuber デビュー 2026",
+    "site:youtube.com/@ \"AIVTuber\"",
+    "site:youtube.com/@ \"AITuber\"",
+    "!yt \"AI VTuber\" debut 2026",
+    "!yt \"AIキャラクター\" 生配信",
+    "!yt \"新人VTuber\" \"2026/09\"",
+    "!yt \"新人VTuber\" \"2026/08\"",
+    "!yt \"VTuber debut\" \"September 2026\"",
+    "!yt \"VTuber debut\" \"August 2026\"",
     'site:youtube.com/@ "VTuber"',
     'site:youtube.com/@ "新人VTuber"',
     'site:youtube.com/@ "個人勢VTuber"',
