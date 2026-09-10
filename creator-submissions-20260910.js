@@ -12,7 +12,7 @@
     "name_source": "https://t.co/eQVKb7Ddbp",
     "platform_accounts": [],
     "primary_platforms": [],
-    "reading": "ぷくよすけ",
+    "reading": "ぷくのすけ",
     "reading_source": "creator_submission",
     "reading_source_kind": "manual",
     "source_id": "submission:20260910:ぷくのすけ",
