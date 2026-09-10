@@ -44,7 +44,7 @@ SPECIALTIES = [
     'indie', 'science', 'history', 'programming', 'cybersecurity', 'medical', 'law', 'education', 'railway',
 ]
 
-BASE_QUERIES = [
+RECENT_QUERIES = [
     # Recent debuts and AI characters; publication still requires direct activity evidence.
     "!yt 新人VTuber 初配信 2026年9月",
     "!yt 新人VTuber 初配信 2026年8月",
@@ -58,6 +58,9 @@ BASE_QUERIES = [
     "!yt \"新人VTuber\" \"2026/08\"",
     "!yt \"VTuber debut\" \"September 2026\"",
     "!yt \"VTuber debut\" \"August 2026\"",
+]
+
+BASE_QUERIES = [
     'site:youtube.com/@ "VTuber"',
     'site:youtube.com/@ "新人VTuber"',
     'site:youtube.com/@ "個人勢VTuber"',
@@ -89,7 +92,7 @@ BASE_QUERIES = [
 # YouTube-engine searches find specialist videos better than channel-page-only
 # web queries. Each video is only a lead; the verifier resolves it to the
 # uploader channel and confirms that channel directly.
-QUERIES = BASE_QUERIES + [query for specialty in SPECIALTIES for query in (
+QUERIES = RECENT_QUERIES + BASE_QUERIES + [query for specialty in SPECIALTIES for query in (
     f'!yt "{specialty}" VTuber',
     f'site:youtube.com/@ "{specialty}" VTuber',
 )]
