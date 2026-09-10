@@ -3,6 +3,30 @@
 (function () {
   'use strict';
   const submissions = [
+{
+  "source_id": "submission:20260910:蒼海瑞葵",
+  "display_name": "蒼海瑞葵",
+  "reading": "あおいみずき",
+  "reading_source": "creator_submission",
+  "reading_source_kind": "manual",
+  "category": "VTuber",
+  "aliases": [],
+  "source_url": "https://youtube.com/@aoimizuki_vt",
+  "name_source": "https://youtube.com/@aoimizuki_vt",
+  "activity_source": "https://youtube.com/@aoimizuki_vt",
+  "activity_evidence": "creator_submitted_public_profile",
+  "submitted_at": "2026-09-10",
+  "platform_accounts": [
+    {
+      "platform": "youtube",
+      "id": "@aoimizuki_vt",
+      "url": "https://youtube.com/@aoimizuki_vt"
+    }
+  ],
+  "primary_platforms": [
+    "youtube"
+  ]
+},
   {
     "activity_evidence": "creator_submitted_public_profile",
     "activity_source": "https://t.co/eQVKb7Ddbp",
