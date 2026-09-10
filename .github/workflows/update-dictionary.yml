@@ -99,7 +99,7 @@ jobs:
         if: github.event_name != 'push' || github.event.head_commit.message == 'Run broad specialist SearXNG discovery'
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
-            SEARXNG_URL="$VNAME_SEARXNG_URL" python scripts/discover_primary_search.py --limit 24 --pages 2 --seconds 180
+            SEARXNG_URL="$VNAME_SEARXNG_URL" python scripts/discover_primary_search.py --limit 24 --pages 2 --seconds 181
           else
             SEARXNG_URL="$VNAME_SEARXNG_URL" python scripts/discover_primary_search.py --limit 24 --pages 2
           fi
