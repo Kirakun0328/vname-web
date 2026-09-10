@@ -1,4 +1,4 @@
-name: Update dictionary and publish
+name: Update dictionary
 on:
   schedule:
     - cron: '17 */6 * * *' # Recheck individually approved/official profiles.
@@ -18,8 +18,6 @@ on:
       - 'DATA_SOURCES.md'
 permissions:
   contents: write
-  pages: write
-  id-token: write
 concurrency:
   group: dictionary-writer
   cancel-in-progress: false
@@ -27,9 +25,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -151,16 +146,4 @@ jobs:
             git commit -m 'Update dictionary from reviewed open and verified search sources'
             git push origin HEAD:main
           fi
-      - name: Package public files
-        run: |
-          mkdir -p _site/assets _site/scripts
-          cp DATA_SOURCES.md primary-data.js index.html app.js data.js extra-data.js estimated-readings.js platform-data.js platforms.js naming.js name-insights.js ai-model.js site.css naming.css readings.js i18n.js .nojekyll _site/
-          cp assets/naming-robot.png assets/text-to-vrma.png _site/assets/
-          cp community.js _site/
-          cp scripts/registration-config.json _site/scripts/
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - name: Publish updated site
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # GitHub's branch-based Pages build is the sole publisher.
