@@ -23,6 +23,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
+    name: Search and update dictionary
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -41,12 +42,6 @@ jobs:
         run: python scripts/audit_legacy_external_data.py
       - name: Remove unclear legacy external-directory data
         run: python scripts/cleanup_legacy_external.py
-      - name: Import explicitly open VTuber datasets
-        if: github.event_name != 'push' || github.event.head_commit.message == 'Import explicitly open VTuber datasets'
-        run: python scripts/import_open_datasets.py
-      - name: Import CC0 AI VTuber dataset
-        if: github.event_name != 'push' || github.event.head_commit.message == 'Import CC0 AI VTuber dataset'
-        run: python scripts/import_aivtuber_cc0.py
       - name: Apply individually reviewed additions and corrections
         run: python scripts/update_dictionary.py --reviewed-only
       - name: Prepare SearXNG endpoint for discovery
@@ -148,3 +143,60 @@ jobs:
             python -c 'from scripts.collection_checkpoint import push_checkpoint; push_checkpoint()'
           fi
       # GitHub's branch-based Pages build is the sole publisher.
+
+  import-datasets:
+    name: Import dataset (${{ matrix.source }})
+    if: github.event_name != 'push' || github.event.head_commit.message == 'Import explicitly open VTuber datasets' || github.event.head_commit.message == 'Import CC0 AI VTuber dataset'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        source: [open, ai-cc0]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Import open datasets
+        if: matrix.source == 'open'
+        timeout-minutes: 8
+        run: python -u scripts/import_open_datasets.py
+      - name: Import AI CC0 dataset
+        if: matrix.source == 'ai-cc0'
+        timeout-minutes: 8
+        run: python -u scripts/import_aivtuber_cc0.py
+      - name: Validate and save dataset additions
+        env:
+          DATASET_SOURCE: ${{ matrix.source }}
+        run: |
+          node --check extra-data.js
+          node --check platform-data.js
+          if [ "$DATASET_SOURCE" = "open" ]; then
+            report=scripts/open-datasets-report.json
+          else
+            report=scripts/aivtuber-cc0-report.json
+          fi
+          python scripts/recount_dictionary.py
+          python -c 'from scripts.collection_checkpoint import refresh_asset_version; refresh_asset_version()'
+          git add extra-data.js platform-data.js scripts/collection-report.json index.html "$report"
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Import verified $DATASET_SOURCE dataset additions"
+            python -c 'from scripts.collection_checkpoint import push_checkpoint; push_checkpoint()'
+          fi
+      - name: Preserve dataset progress on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dataset-${{ matrix.source }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            extra-data.js
+            platform-data.js
+            scripts/open-datasets-report.json
+            scripts/aivtuber-cc0-report.json
+          retention-days: 7
