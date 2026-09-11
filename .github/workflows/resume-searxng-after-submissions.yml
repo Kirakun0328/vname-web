@@ -1,8 +1,6 @@
 name: Resume SearXNG after community submissions
 on:
-  push:
-    branches: [main]
-    paths: ['scripts/reviewed-community-submissions-2026-09-09-3.json']
+  workflow_dispatch:
 permissions:
   contents: write
 concurrency:
