@@ -853,6 +853,408 @@
     "primary_platforms": [
       "iriam"
     ]
+  },
+  {
+    "source_id": "submission:20260911:龍宮寺玉太郎",
+    "display_name": "龍宮寺玉太郎",
+    "reading": "りゅうぐうじ たまたろう",
+    "reading_source": "https://x.com/RyuTamataro/status/2097781062768451777",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/RyuTamataro",
+    "name_source": "https://x.com/RyuTamataro/status/2097781062768451777",
+    "activity_source": "https://x.com/RyuTamataro",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/RyuTamataro/status/2097781062768451777",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "ryutamataro",
+        "url": "https://x.com/RyuTamataro"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://x.com/RyuTamataro/status/2097781062768451777",
+    "primary_platform_evidence": "user_forwarded_creator_profile_states_iriam"
+  },
+  {
+    "source_id": "submission:20260911:猫屋敷まおか",
+    "display_name": "猫屋敷まおか",
+    "reading": "ねこやしき まおか",
+    "reading_source": "https://x.com/nekomaokachan/status/2097538308507349347",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/nekomaokachan",
+    "name_source": "https://x.com/nekomaokachan/status/2097538308507349347",
+    "activity_source": "https://x.com/nekomaokachan",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/nekomaokachan/status/2097538308507349347",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "nekomaokachan",
+        "url": "https://x.com/nekomaokachan"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://x.com/nekomaokachan/status/2097538308507349347",
+    "primary_platform_evidence": "user_forwarded_creator_profile_states_iriam"
+  },
+  {
+    "source_id": "submission:20260911:蒼藍アオ",
+    "display_name": "蒼藍アオ",
+    "reading": "そらのあお",
+    "reading_source": "https://x.com/02blue_sky20/status/2097536267445739644",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@SoranoAo",
+    "name_source": "https://x.com/02blue_sky20/status/2097536267445739644",
+    "activity_source": "https://www.youtube.com/@SoranoAo",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/02blue_sky20/status/2097536267445739644",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@SoranoAo",
+        "url": "https://www.youtube.com/@SoranoAo"
+      },
+      {
+        "platform": "x",
+        "id": "02blue_sky20",
+        "url": "https://x.com/02blue_sky20"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:エリザ・ローズ",
+    "display_name": "エリザ・ローズ",
+    "reading": "えりざ ろーず",
+    "reading_source": "https://x.com/erizarose85/status/2097517408277909794",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@erizarose",
+    "name_source": "https://x.com/erizarose85/status/2097517408277909794",
+    "activity_source": "https://www.youtube.com/@erizarose",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/erizarose85/status/2097517408277909794",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@erizarose",
+        "url": "https://www.youtube.com/@erizarose"
+      },
+      {
+        "platform": "x",
+        "id": "erizarose85",
+        "url": "https://x.com/erizarose85"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:初心めろ",
+    "display_name": "初心めろ",
+    "reading": "めろ",
+    "reading_source": "https://x.com/mero_tensai/status/2097276570876715140",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [
+      "おさないめろ"
+    ],
+    "source_url": "https://x.com/mero_tensai",
+    "name_source": "https://x.com/mero_tensai/status/2097276570876715140",
+    "activity_source": "https://x.com/mero_tensai",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/mero_tensai/status/2097276570876715140",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "mero_tensai",
+        "url": "https://x.com/mero_tensai"
+      }
+    ],
+    "primary_platforms": [],
+    "reading_note": "Submitted reading is めろ; alternate name おさないめろ retained as an alias."
+  },
+  {
+    "source_id": "submission:20260911:紫月翠炎",
+    "display_name": "紫月翠炎",
+    "reading": "しづきすいか",
+    "reading_source": "https://x.com/sizuki_suika/status/2097189145320038806",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@sizuki_suika",
+    "name_source": "https://x.com/sizuki_suika/status/2097189145320038806",
+    "activity_source": "https://www.youtube.com/@sizuki_suika",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/sizuki_suika/status/2097189145320038806",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@sizuki_suika",
+        "url": "https://www.youtube.com/@sizuki_suika"
+      },
+      {
+        "platform": "x",
+        "id": "sizuki_suika",
+        "url": "https://x.com/sizuki_suika"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:宵月ゆきあ",
+    "display_name": "宵月ゆきあ",
+    "reading": "よいづきゆきあ",
+    "reading_source": "https://x.com/yoiyuki_ch/status/2097187448472391777",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@YukiaYoizuki",
+    "name_source": "https://x.com/yoiyuki_ch/status/2097187448472391777",
+    "activity_source": "https://www.youtube.com/@YukiaYoizuki",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/yoiyuki_ch/status/2097187448472391777",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@YukiaYoizuki",
+        "url": "https://www.youtube.com/@YukiaYoizuki"
+      },
+      {
+        "platform": "x",
+        "id": "yoiyuki_ch",
+        "url": "https://x.com/yoiyuki_ch"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "youtube:UCdPEbKPuRWMlGDOTQYSHJYw",
+    "display_name": "名瀬杏",
+    "reading": "なせあんず",
+    "reading_source": "https://x.com/ymkwq/status/2097187194675044428",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [
+      "Ruliyna"
+    ],
+    "source_url": "https://x.com/ymkwq",
+    "name_source": "https://x.com/ymkwq/status/2097187194675044428",
+    "activity_source": "https://x.com/ymkwq",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/ymkwq/status/2097187194675044428",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "ymkwq",
+        "url": "https://x.com/ymkwq"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:ラフィーリア・スカーレット",
+    "display_name": "ラフィーリア・スカーレット",
+    "reading": "らふぃーりあ すかーれっと",
+    "reading_source": "https://x.com/LafiliaScarlet/status/2097186564472553487",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/LafiliaScarlet",
+    "name_source": "https://x.com/LafiliaScarlet/status/2097186564472553487",
+    "activity_source": "https://x.com/LafiliaScarlet",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/LafiliaScarlet/status/2097186564472553487",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "lafiliascarlet",
+        "url": "https://x.com/LafiliaScarlet"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://x.com/LafiliaScarlet/status/2097186564472553487",
+    "primary_platform_evidence": "user_forwarded_creator_profile_states_iriam"
+  },
+  {
+    "source_id": "submission:20260911:如月秀人",
+    "display_name": "如月秀人",
+    "reading": "きさらぎ しゅうと",
+    "reading_source": "https://x.com/syuto_ksrg/status/2097183462797300117",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://x.com/syuto_ksrg",
+    "name_source": "https://x.com/syuto_ksrg/status/2097183462797300117",
+    "activity_source": "https://x.com/syuto_ksrg",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/syuto_ksrg/status/2097183462797300117",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "syuto_ksrg",
+        "url": "https://x.com/syuto_ksrg"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:紅葉屋カイリ",
+    "display_name": "紅葉屋カイリ",
+    "reading": "もみじや かいり",
+    "reading_source": "https://x.com/kairi_momiji/status/2097174604867612691",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCzvca21lYagX6KygOrF7JKA",
+    "name_source": "https://x.com/kairi_momiji/status/2097174604867612691",
+    "activity_source": "https://www.youtube.com/channel/UCzvca21lYagX6KygOrF7JKA",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/kairi_momiji/status/2097174604867612691",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCzvca21lYagX6KygOrF7JKA",
+        "url": "https://www.youtube.com/channel/UCzvca21lYagX6KygOrF7JKA"
+      },
+      {
+        "platform": "x",
+        "id": "kairi_momiji",
+        "url": "https://x.com/kairi_momiji"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "youtube:UCPPI4pmXg0f4z2ioGkeitRA",
+    "display_name": "羽姫しおり",
+    "reading": "うきひめ しおり",
+    "reading_source": "https://x.com/shiorin_fps/status/2097153814474490071",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://x.com/shiorin_fps",
+    "name_source": "https://x.com/shiorin_fps/status/2097153814474490071",
+    "activity_source": "https://x.com/shiorin_fps",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/shiorin_fps/status/2097153814474490071",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "shiorin_fps",
+        "url": "https://x.com/shiorin_fps"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "agency-spiruna:tsukino_nanase",
+    "display_name": "月乃ななせ",
+    "reading": "つきの ななせ",
+    "reading_source": "https://x.com/Tsukino_nanase/status/2097457815237665148",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/Tsukino_nanase",
+    "name_source": "https://x.com/Tsukino_nanase/status/2097457815237665148",
+    "activity_source": "https://x.com/Tsukino_nanase",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/Tsukino_nanase/status/2097457815237665148",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "tsukino_nanase",
+        "url": "https://x.com/Tsukino_nanase"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:皇ニチカ",
+    "display_name": "皇ニチカ",
+    "reading": "すめらぎ にちか",
+    "reading_source": "https://x.com/sumeragi275/status/2098221788165702131",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCbyjhEB9zq8_lbzO3nFA1CQ",
+    "name_source": "https://x.com/sumeragi275/status/2098221788165702131",
+    "activity_source": "https://www.youtube.com/channel/UCbyjhEB9zq8_lbzO3nFA1CQ",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/sumeragi275/status/2098221788165702131",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCbyjhEB9zq8_lbzO3nFA1CQ",
+        "url": "https://www.youtube.com/channel/UCbyjhEB9zq8_lbzO3nFA1CQ"
+      },
+      {
+        "platform": "twitch",
+        "id": "sumeragi275",
+        "url": "https://www.twitch.tv/sumeragi275"
+      },
+      {
+        "platform": "x",
+        "id": "sumeragi275",
+        "url": "https://x.com/sumeragi275"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:七海海月",
+    "display_name": "七海海月",
+    "reading": "ななみ くらげ",
+    "reading_source": "https://x.com/kurage_jellysea/status/2098039043561079233",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/profile/cfba7be1",
+    "name_source": "https://x.com/kurage_jellysea/status/2098039043561079233",
+    "activity_source": "https://reality.app/profile/cfba7be1",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/kurage_jellysea/status/2098039043561079233",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "cfba7be1",
+        "url": "https://reality.app/profile/cfba7be1"
+      },
+      {
+        "platform": "x",
+        "id": "kurage_jellysea",
+        "url": "https://x.com/kurage_jellysea"
+      }
+    ],
+    "primary_platforms": []
   }
 ];
   const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/\s/g, '');
