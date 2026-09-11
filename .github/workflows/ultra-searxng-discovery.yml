@@ -1,8 +1,5 @@
 name: Ultra SearXNG VTuber discovery
 on:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/ultra-searxng-discovery.yml']
   workflow_dispatch:
     inputs:
       query_limit:
