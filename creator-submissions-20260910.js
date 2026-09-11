@@ -2477,6 +2477,16 @@
         "platform": "x",
         "id": "yatsuyosui",
         "url": "https://x.com/yatsuyosui"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCf6fsq2YBunac3TCYGqKSpg",
+        "url": "https://www.youtube.com/channel/UCf6fsq2YBunac3TCYGqKSpg"
+      },
+      {
+        "platform": "x",
+        "id": "yatsuyo88",
+        "url": "https://x.com/yatsuyo88"
       }
     ],
     "primary_platforms": [],
@@ -2736,6 +2746,1264 @@
     "primary_platform_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
     "primary_platform_evidence": "user_submitted_platform",
     "verification_note": "Notice title accessible; body requires JavaScript. Names and readings supplied by user; personal profile URL not supplied."
+  },
+  {
+    "source_id": "iriam:rKfyo0sZAt",
+    "display_name": "世継世継",
+    "reading": "よつぎせつ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/rKfyo0sZAt?uuid=ea1a933b",
+    "name_source": "https://web.iriam.app/s/user/rKfyo0sZAt?uuid=ea1a933b",
+    "activity_source": "https://web.iriam.app/s/user/rKfyo0sZAt?uuid=ea1a933b",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "rKfyo0sZAt",
+        "url": "https://web.iriam.app/s/user/rKfyo0sZAt?uuid=ea1a933b"
+      },
+      {
+        "platform": "x",
+        "id": "Setu_IRIAM",
+        "url": "https://x.com/Setu_IRIAM"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/rKfyo0sZAt?uuid=ea1a933b",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/rKfyo0sZAt?uuid=ea1a933b",
+      "https://x.com/Setu_IRIAM"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:QCt1zn",
+    "display_name": "キリアム",
+    "reading": "きりあむ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/QCt1zn?uuid=0f354041",
+    "name_source": "https://web.iriam.app/s/user/QCt1zn?uuid=0f354041",
+    "activity_source": "https://web.iriam.app/s/user/QCt1zn?uuid=0f354041",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "QCt1zn",
+        "url": "https://web.iriam.app/s/user/QCt1zn?uuid=0f354041"
+      },
+      {
+        "platform": "x",
+        "id": "KIRIAM_IRIAM",
+        "url": "https://x.com/KIRIAM_IRIAM"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/QCt1zn?uuid=0f354041",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/QCt1zn?uuid=0f354041",
+      "https://x.com/KIRIAM_IRIAM",
+      "https://lit.link/kiriam"
+    ],
+    "match_by_identity_only": true,
+    "official_website": "https://lit.link/kiriam"
+  },
+  {
+    "source_id": "iriam:4NKqZrLVo5",
+    "display_name": "恋彩はるる",
+    "reading": "こいいろはるる",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/4NKqZrLVo5?uuid=a6c912ed",
+    "name_source": "https://web.iriam.app/s/user/4NKqZrLVo5?uuid=a6c912ed",
+    "activity_source": "https://web.iriam.app/s/user/4NKqZrLVo5?uuid=a6c912ed",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "4NKqZrLVo5",
+        "url": "https://web.iriam.app/s/user/4NKqZrLVo5?uuid=a6c912ed"
+      },
+      {
+        "platform": "x",
+        "id": "koiro_haruru",
+        "url": "https://x.com/koiro_haruru"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/4NKqZrLVo5?uuid=a6c912ed",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/4NKqZrLVo5?uuid=a6c912ed",
+      "https://x.com/koiro_haruru",
+      "https://lit.link/k_haruru"
+    ],
+    "match_by_identity_only": true,
+    "official_website": "https://lit.link/k_haruru"
+  },
+  {
+    "source_id": "iriam:9raqT6oviz",
+    "display_name": "久世衒",
+    "reading": "くせてら",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/9raqT6oviz?uuid=bbca10ae",
+    "name_source": "https://web.iriam.app/s/user/9raqT6oviz?uuid=bbca10ae",
+    "activity_source": "https://web.iriam.app/s/user/9raqT6oviz?uuid=bbca10ae",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "9raqT6oviz",
+        "url": "https://web.iriam.app/s/user/9raqT6oviz?uuid=bbca10ae"
+      },
+      {
+        "platform": "x",
+        "id": "KZE_TELA",
+        "url": "https://x.com/KZE_TELA"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/9raqT6oviz?uuid=bbca10ae",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/9raqT6oviz?uuid=bbca10ae",
+      "https://x.com/KZE_TELA"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:wlKx7IY8Qk",
+    "display_name": "夜長月ゆら",
+    "reading": "よながづきゆら",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/wlKx7IY8Qk?uuid=9db8e81a",
+    "name_source": "https://web.iriam.app/s/user/wlKx7IY8Qk?uuid=9db8e81a",
+    "activity_source": "https://web.iriam.app/s/user/wlKx7IY8Qk?uuid=9db8e81a",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "wlKx7IY8Qk",
+        "url": "https://web.iriam.app/s/user/wlKx7IY8Qk?uuid=9db8e81a"
+      },
+      {
+        "platform": "youtube",
+        "id": "@y_yura_17",
+        "url": "https://www.youtube.com/@y_yura_17"
+      },
+      {
+        "platform": "x",
+        "id": "yura_yr01",
+        "url": "https://x.com/yura_yr01"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/wlKx7IY8Qk?uuid=9db8e81a",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/wlKx7IY8Qk?uuid=9db8e81a",
+      "https://www.youtube.com/@y_yura_17",
+      "https://x.com/yura_yr01"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:fV0xlMNKl9",
+    "display_name": "江古田",
+    "reading": "えこだ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/fV0xlMNKl9?uuid=574340a9",
+    "name_source": "https://web.iriam.app/s/user/fV0xlMNKl9?uuid=574340a9",
+    "activity_source": "https://web.iriam.app/s/user/fV0xlMNKl9?uuid=574340a9",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "fV0xlMNKl9",
+        "url": "https://web.iriam.app/s/user/fV0xlMNKl9?uuid=574340a9"
+      },
+      {
+        "platform": "x",
+        "id": "200921i",
+        "url": "https://x.com/200921i"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/fV0xlMNKl9?uuid=574340a9",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/fV0xlMNKl9?uuid=574340a9",
+      "https://x.com/200921i"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:gCZg35CZBE",
+    "display_name": "しゅう",
+    "reading": "しゅう",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/gCZg35CZBE?uuid=b37a231d",
+    "name_source": "https://web.iriam.app/s/user/gCZg35CZBE?uuid=b37a231d",
+    "activity_source": "https://web.iriam.app/s/user/gCZg35CZBE?uuid=b37a231d",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "gCZg35CZBE",
+        "url": "https://web.iriam.app/s/user/gCZg35CZBE?uuid=b37a231d"
+      },
+      {
+        "platform": "x",
+        "id": "iriam_data_lab",
+        "url": "https://x.com/iriam_data_lab"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/gCZg35CZBE?uuid=b37a231d",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/gCZg35CZBE?uuid=b37a231d",
+      "https://x.com/iriam_data_lab",
+      "https://iriam.tools/app/iriam-tools/"
+    ],
+    "match_by_identity_only": true,
+    "official_website": "https://iriam.tools/app/iriam-tools/"
+  },
+  {
+    "source_id": "submission:20260911:フェリーチェ",
+    "display_name": "フェリーチェ",
+    "reading": "ふぇりーちぇ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://lit.link/realityfelice",
+    "name_source": "https://lit.link/realityfelice",
+    "activity_source": "https://lit.link/realityfelice",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [],
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://lit.link/realityfelice",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://lit.link/realityfelice"
+    ],
+    "match_by_identity_only": true,
+    "official_website": "https://lit.link/realityfelice"
+  },
+  {
+    "source_id": "17live:29523792",
+    "display_name": "ゆめはる",
+    "reading": "ゆめはる",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://17.live/ja/profile/r/29523792",
+    "name_source": "https://17.live/ja/profile/r/29523792",
+    "activity_source": "https://17.live/ja/profile/r/29523792",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "29523792",
+        "url": "https://17.live/ja/profile/r/29523792"
+      }
+    ],
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://17.live/ja/profile/r/29523792",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://17.live/ja/profile/r/29523792"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "17live:29358439",
+    "display_name": "めい",
+    "reading": "めい",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://17.live/ja/profile/r/29358439",
+    "name_source": "https://17.live/ja/profile/r/29358439",
+    "activity_source": "https://17.live/ja/profile/r/29358439",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "29358439",
+        "url": "https://17.live/ja/profile/r/29358439"
+      }
+    ],
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://17.live/ja/profile/r/29358439",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://17.live/ja/profile/r/29358439"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "17live:28700160",
+    "display_name": "よぴ",
+    "reading": "よぴ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://17.live/ja/profile/r/28700160",
+    "name_source": "https://17.live/ja/profile/r/28700160",
+    "activity_source": "https://17.live/ja/profile/r/28700160",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "28700160",
+        "url": "https://17.live/ja/profile/r/28700160"
+      }
+    ],
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://17.live/ja/profile/r/28700160",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://17.live/ja/profile/r/28700160"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:cNNJEBTQeB",
+    "display_name": "ルル・クレセント",
+    "reading": "るるくれせんと",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/cNNJEBTQeB?uuid=1551b1e3",
+    "name_source": "https://web.iriam.app/s/user/cNNJEBTQeB?uuid=1551b1e3",
+    "activity_source": "https://web.iriam.app/s/user/cNNJEBTQeB?uuid=1551b1e3",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "cNNJEBTQeB",
+        "url": "https://web.iriam.app/s/user/cNNJEBTQeB?uuid=1551b1e3"
+      },
+      {
+        "platform": "x",
+        "id": "luluv0725",
+        "url": "https://x.com/luluv0725"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/cNNJEBTQeB?uuid=1551b1e3",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/cNNJEBTQeB?uuid=1551b1e3",
+      "https://x.com/luluv0725"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:ogGPOIzpuw",
+    "display_name": "レイ・スフィア",
+    "reading": "れいすふぃあ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/ogGPOIzpuw?uuid=a39f2779",
+    "name_source": "https://web.iriam.app/s/user/ogGPOIzpuw?uuid=a39f2779",
+    "activity_source": "https://web.iriam.app/s/user/ogGPOIzpuw?uuid=a39f2779",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "ogGPOIzpuw",
+        "url": "https://web.iriam.app/s/user/ogGPOIzpuw?uuid=a39f2779"
+      },
+      {
+        "platform": "x",
+        "id": "REI_SPHERE",
+        "url": "https://x.com/REI_SPHERE"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/ogGPOIzpuw?uuid=a39f2779",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/ogGPOIzpuw?uuid=a39f2779",
+      "https://x.com/REI_SPHERE"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:i6DBqLXdNZ",
+    "display_name": "九重ちはや",
+    "reading": "ここのえちはや",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/i6DBqLXdNZ?uuid=1504552a",
+    "name_source": "https://web.iriam.app/s/user/i6DBqLXdNZ?uuid=1504552a",
+    "activity_source": "https://web.iriam.app/s/user/i6DBqLXdNZ?uuid=1504552a",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "i6DBqLXdNZ",
+        "url": "https://web.iriam.app/s/user/i6DBqLXdNZ?uuid=1504552a"
+      },
+      {
+        "platform": "x",
+        "id": "Cy_kokonoe",
+        "url": "https://x.com/Cy_kokonoe"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/i6DBqLXdNZ?uuid=1504552a",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/i6DBqLXdNZ?uuid=1504552a",
+      "https://x.com/Cy_kokonoe"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:G4x94UjrkV",
+    "display_name": "鉋森ルカ",
+    "reading": "かんなもりるか",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/G4x94UjrkV?uuid=a2fd0831",
+    "name_source": "https://web.iriam.app/s/user/G4x94UjrkV?uuid=a2fd0831",
+    "activity_source": "https://web.iriam.app/s/user/G4x94UjrkV?uuid=a2fd0831",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "G4x94UjrkV",
+        "url": "https://web.iriam.app/s/user/G4x94UjrkV?uuid=a2fd0831"
+      },
+      {
+        "platform": "x",
+        "id": "Kannamori_Luka",
+        "url": "https://x.com/Kannamori_Luka"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/G4x94UjrkV?uuid=a2fd0831",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/G4x94UjrkV?uuid=a2fd0831",
+      "https://x.com/Kannamori_Luka"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:9hNfaK5b2F",
+    "display_name": "雨宮睡蓮",
+    "reading": "あまみやすいれん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/9hNfaK5b2F?uuid=590abcf2",
+    "name_source": "https://web.iriam.app/s/user/9hNfaK5b2F?uuid=590abcf2",
+    "activity_source": "https://web.iriam.app/s/user/9hNfaK5b2F?uuid=590abcf2",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "9hNfaK5b2F",
+        "url": "https://web.iriam.app/s/user/9hNfaK5b2F?uuid=590abcf2"
+      },
+      {
+        "platform": "x",
+        "id": "4mamiya5uiren",
+        "url": "https://x.com/4mamiya5uiren"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/9hNfaK5b2F?uuid=590abcf2",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/9hNfaK5b2F?uuid=590abcf2",
+      "https://x.com/4mamiya5uiren"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "iriam:fPfpQhz3A9",
+    "display_name": "好夢",
+    "reading": "よいゆめ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/fPfpQhz3A9?uuid=f66bc925",
+    "name_source": "https://web.iriam.app/s/user/fPfpQhz3A9?uuid=f66bc925",
+    "activity_source": "https://web.iriam.app/s/user/fPfpQhz3A9?uuid=f66bc925",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "fPfpQhz3A9",
+        "url": "https://web.iriam.app/s/user/fPfpQhz3A9?uuid=f66bc925"
+      },
+      {
+        "platform": "x",
+        "id": "YoiYumeIReaMU",
+        "url": "https://x.com/YoiYumeIReaMU"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/fPfpQhz3A9?uuid=f66bc925",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.iriam.app/s/user/fPfpQhz3A9?uuid=f66bc925",
+      "https://x.com/YoiYumeIReaMU"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "17live:4934181",
+    "display_name": "ゆうゆ",
+    "reading": "ゆうゆ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://17.live/ja/profile/r/4934181",
+    "name_source": "https://17.live/ja/profile/r/4934181",
+    "activity_source": "https://17.live/ja/profile/r/4934181",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "4934181",
+        "url": "https://17.live/ja/profile/r/4934181"
+      }
+    ],
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://17.live/ja/profile/r/4934181",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://17.live/ja/profile/r/4934181"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "17live:28273213",
+    "display_name": "海月ゆの",
+    "reading": "みづきゆの",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://17.live/ja/profile/r/28273213",
+    "name_source": "https://17.live/ja/profile/r/28273213",
+    "activity_source": "https://17.live/ja/profile/r/28273213",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "28273213",
+        "url": "https://17.live/ja/profile/r/28273213"
+      }
+    ],
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://17.live/ja/profile/r/28273213",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://17.live/ja/profile/r/28273213"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "youtube:@sakana_O59",
+    "display_name": "さなかさかな",
+    "reading": "さなかさかな",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@sakana_O59",
+    "name_source": "https://www.youtube.com/@sakana_O59",
+    "activity_source": "https://www.youtube.com/@sakana_O59",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@sakana_O59",
+        "url": "https://www.youtube.com/@sakana_O59"
+      },
+      {
+        "platform": "x",
+        "id": "sakana_O59",
+        "url": "https://x.com/sakana_O59"
+      }
+    ],
+    "primary_platforms": [
+      "youtube"
+    ],
+    "primary_platform_source": "https://www.youtube.com/@sakana_O59",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://www.youtube.com/@sakana_O59",
+      "https://x.com/sakana_O59"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "twitcasting:kikkaharuv",
+    "display_name": "菊花はる",
+    "reading": "きっかはる",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://twitcasting.tv/kikkaharuv",
+    "name_source": "https://twitcasting.tv/kikkaharuv",
+    "activity_source": "https://twitcasting.tv/kikkaharuv",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "kikkaharuv",
+        "url": "https://twitcasting.tv/kikkaharuv"
+      },
+      {
+        "platform": "x",
+        "id": "kikkaharuV",
+        "url": "https://x.com/kikkaharuV"
+      }
+    ],
+    "primary_platforms": [
+      "twitcasting"
+    ],
+    "primary_platform_source": "https://twitcasting.tv/kikkaharuv",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://twitcasting.tv/kikkaharuv",
+      "https://x.com/kikkaharuV"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "twitcasting:minatonamiv",
+    "display_name": "湊なみ",
+    "reading": "みなとなみ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://twitcasting.tv/minatonamiv",
+    "name_source": "https://twitcasting.tv/minatonamiv",
+    "activity_source": "https://twitcasting.tv/minatonamiv",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "minatonamiv",
+        "url": "https://twitcasting.tv/minatonamiv"
+      },
+      {
+        "platform": "x",
+        "id": "minatonamiV",
+        "url": "https://x.com/minatonamiV"
+      },
+      {
+        "platform": "youtube",
+        "id": "@minatonamiV",
+        "url": "https://www.youtube.com/@minatonamiV"
+      }
+    ],
+    "primary_platforms": [
+      "twitcasting"
+    ],
+    "primary_platform_source": "https://twitcasting.tv/minatonamiv",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://twitcasting.tv/minatonamiv",
+      "https://x.com/minatonamiV",
+      "https://www.youtube.com/@minatonamiV"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "twitcasting:hutaba0810",
+    "display_name": "チョま",
+    "reading": "ちょま",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://twitcasting.tv/hutaba0810",
+    "name_source": "https://twitcasting.tv/hutaba0810",
+    "activity_source": "https://twitcasting.tv/hutaba0810",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "hutaba0810",
+        "url": "https://twitcasting.tv/hutaba0810"
+      }
+    ],
+    "primary_platforms": [
+      "twitcasting"
+    ],
+    "primary_platform_source": "https://twitcasting.tv/hutaba0810",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://twitcasting.tv/hutaba0810"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "twitcasting:honmaneco",
+    "display_name": "Sh¡O",
+    "reading": "しお",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://twitcasting.tv/honmaneco",
+    "name_source": "https://twitcasting.tv/honmaneco",
+    "activity_source": "https://twitcasting.tv/honmaneco",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "honmaneco",
+        "url": "https://twitcasting.tv/honmaneco"
+      }
+    ],
+    "primary_platforms": [
+      "twitcasting"
+    ],
+    "primary_platform_source": "https://twitcasting.tv/honmaneco",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://twitcasting.tv/honmaneco"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "twitcasting:arare_ara3",
+    "display_name": "あられ",
+    "reading": "あられ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://twitcasting.tv/arare_ara3",
+    "name_source": "https://twitcasting.tv/arare_ara3",
+    "activity_source": "https://twitcasting.tv/arare_ara3",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "arare_ara3",
+        "url": "https://twitcasting.tv/arare_ara3"
+      }
+    ],
+    "primary_platforms": [
+      "twitcasting"
+    ],
+    "primary_platform_source": "https://twitcasting.tv/arare_ara3",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://twitcasting.tv/arare_ara3"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "twitcasting:snowrw1040",
+    "display_name": "白雪。",
+    "reading": "しらゆき",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://twitcasting.tv/snowrw1040",
+    "name_source": "https://twitcasting.tv/snowrw1040",
+    "activity_source": "https://twitcasting.tv/snowrw1040",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "snowrw1040",
+        "url": "https://twitcasting.tv/snowrw1040"
+      }
+    ],
+    "primary_platforms": [
+      "twitcasting"
+    ],
+    "primary_platform_source": "https://twitcasting.tv/snowrw1040",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://twitcasting.tv/snowrw1040"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "twitcasting:chibi_718",
+    "display_name": "緋那ちび",
+    "reading": "ひなちび",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://twitcasting.tv/chibi_718",
+    "name_source": "https://twitcasting.tv/chibi_718",
+    "activity_source": "https://twitcasting.tv/chibi_718",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitcasting",
+        "id": "chibi_718",
+        "url": "https://twitcasting.tv/chibi_718"
+      }
+    ],
+    "primary_platforms": [
+      "twitcasting"
+    ],
+    "primary_platform_source": "https://twitcasting.tv/chibi_718",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://twitcasting.tv/chibi_718"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "youtube:UCrCsK2RQPQkAWk8cBk0fzCg",
+    "display_name": "白黒きんぎょ。",
+    "reading": "しろくろきんぎょ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/kingyo4696",
+    "name_source": "https://x.com/kingyo4696",
+    "activity_source": "https://x.com/kingyo4696",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "kingyo4696",
+        "url": "https://x.com/kingyo4696"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCrCsK2RQPQkAWk8cBk0fzCg",
+        "url": "https://www.youtube.com/channel/UCrCsK2RQPQkAWk8cBk0fzCg"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://x.com/kingyo4696",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://x.com/kingyo4696",
+      "https://www.youtube.com/channel/UCrCsK2RQPQkAWk8cBk0fzCg",
+      "https://lit.link/kingyo4696"
+    ],
+    "match_by_identity_only": true,
+    "official_website": "https://lit.link/kingyo4696"
+  },
+  {
+    "source_id": "colorsing:45f8f1dd-3ecd-4388-b9a7-1f3c5f739551",
+    "display_name": "komo",
+    "reading": "こも",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=45f8f1dd-3ecd-4388-b9a7-1f3c5f739551",
+    "name_source": "https://web.colorsing.com/share/user?user_id=45f8f1dd-3ecd-4388-b9a7-1f3c5f739551",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=45f8f1dd-3ecd-4388-b9a7-1f3c5f739551",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "45f8f1dd-3ecd-4388-b9a7-1f3c5f739551",
+        "url": "https://web.colorsing.com/share/user?user_id=45f8f1dd-3ecd-4388-b9a7-1f3c5f739551"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=45f8f1dd-3ecd-4388-b9a7-1f3c5f739551",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=45f8f1dd-3ecd-4388-b9a7-1f3c5f739551"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "colorsing:43d503b8-931e-4c9c-8a21-bb4c1faec49c",
+    "display_name": "とげ",
+    "reading": "とげ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=43d503b8-931e-4c9c-8a21-bb4c1faec49c",
+    "name_source": "https://web.colorsing.com/share/user?user_id=43d503b8-931e-4c9c-8a21-bb4c1faec49c",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=43d503b8-931e-4c9c-8a21-bb4c1faec49c",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "43d503b8-931e-4c9c-8a21-bb4c1faec49c",
+        "url": "https://web.colorsing.com/share/user?user_id=43d503b8-931e-4c9c-8a21-bb4c1faec49c"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=43d503b8-931e-4c9c-8a21-bb4c1faec49c",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=43d503b8-931e-4c9c-8a21-bb4c1faec49c"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "colorsing:c1623892-202d-464c-bcfb-d20097b113da",
+    "display_name": "ウワサのReyRey",
+    "reading": "うわさのれいれい",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=c1623892-202d-464c-bcfb-d20097b113da",
+    "name_source": "https://web.colorsing.com/share/user?user_id=c1623892-202d-464c-bcfb-d20097b113da",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=c1623892-202d-464c-bcfb-d20097b113da",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "c1623892-202d-464c-bcfb-d20097b113da",
+        "url": "https://web.colorsing.com/share/user?user_id=c1623892-202d-464c-bcfb-d20097b113da"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=c1623892-202d-464c-bcfb-d20097b113da",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=c1623892-202d-464c-bcfb-d20097b113da"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "colorsing:4bb3fca6-fd5b-4d7f-aecd-6a9e2d0d6506",
+    "display_name": "曜",
+    "reading": "よう",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=4bb3fca6-fd5b-4d7f-aecd-6a9e2d0d6506",
+    "name_source": "https://web.colorsing.com/share/user?user_id=4bb3fca6-fd5b-4d7f-aecd-6a9e2d0d6506",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=4bb3fca6-fd5b-4d7f-aecd-6a9e2d0d6506",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "4bb3fca6-fd5b-4d7f-aecd-6a9e2d0d6506",
+        "url": "https://web.colorsing.com/share/user?user_id=4bb3fca6-fd5b-4d7f-aecd-6a9e2d0d6506"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=4bb3fca6-fd5b-4d7f-aecd-6a9e2d0d6506",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=4bb3fca6-fd5b-4d7f-aecd-6a9e2d0d6506"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "colorsing:adb38633-f420-47a3-b6ed-087688a51038",
+    "display_name": "おみタン",
+    "reading": "おみたん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=adb38633-f420-47a3-b6ed-087688a51038",
+    "name_source": "https://web.colorsing.com/share/user?user_id=adb38633-f420-47a3-b6ed-087688a51038",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=adb38633-f420-47a3-b6ed-087688a51038",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "adb38633-f420-47a3-b6ed-087688a51038",
+        "url": "https://web.colorsing.com/share/user?user_id=adb38633-f420-47a3-b6ed-087688a51038"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=adb38633-f420-47a3-b6ed-087688a51038",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=adb38633-f420-47a3-b6ed-087688a51038"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "colorsing:07008d43-bddc-490b-b5a6-b03d8b81a963",
+    "display_name": "Melly",
+    "reading": "めりー",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=07008d43-bddc-490b-b5a6-b03d8b81a963",
+    "name_source": "https://web.colorsing.com/share/user?user_id=07008d43-bddc-490b-b5a6-b03d8b81a963",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=07008d43-bddc-490b-b5a6-b03d8b81a963",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "07008d43-bddc-490b-b5a6-b03d8b81a963",
+        "url": "https://web.colorsing.com/share/user?user_id=07008d43-bddc-490b-b5a6-b03d8b81a963"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=07008d43-bddc-490b-b5a6-b03d8b81a963",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=07008d43-bddc-490b-b5a6-b03d8b81a963"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "colorsing:91b25f64-cac8-4532-a98d-297b6eb4eeb7",
+    "display_name": "叶きりん",
+    "reading": "かのうきりん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=91b25f64-cac8-4532-a98d-297b6eb4eeb7",
+    "name_source": "https://web.colorsing.com/share/user?user_id=91b25f64-cac8-4532-a98d-297b6eb4eeb7",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=91b25f64-cac8-4532-a98d-297b6eb4eeb7",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "91b25f64-cac8-4532-a98d-297b6eb4eeb7",
+        "url": "https://web.colorsing.com/share/user?user_id=91b25f64-cac8-4532-a98d-297b6eb4eeb7"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=91b25f64-cac8-4532-a98d-297b6eb4eeb7",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=91b25f64-cac8-4532-a98d-297b6eb4eeb7"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "colorsing:136ec8b2-1703-4678-8bf0-5b58f17e60f9",
+    "display_name": "TAiCHi SiNG",
+    "reading": "たいちしんぐ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=136ec8b2-1703-4678-8bf0-5b58f17e60f9",
+    "name_source": "https://web.colorsing.com/share/user?user_id=136ec8b2-1703-4678-8bf0-5b58f17e60f9",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=136ec8b2-1703-4678-8bf0-5b58f17e60f9",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "136ec8b2-1703-4678-8bf0-5b58f17e60f9",
+        "url": "https://web.colorsing.com/share/user?user_id=136ec8b2-1703-4678-8bf0-5b58f17e60f9"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=136ec8b2-1703-4678-8bf0-5b58f17e60f9",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=136ec8b2-1703-4678-8bf0-5b58f17e60f9"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "colorsing:406fb7c2-8747-40df-8543-fb65fd134113",
+    "display_name": "mizukin",
+    "reading": "みずきん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.colorsing.com/share/user?user_id=406fb7c2-8747-40df-8543-fb65fd134113",
+    "name_source": "https://web.colorsing.com/share/user?user_id=406fb7c2-8747-40df-8543-fb65fd134113",
+    "activity_source": "https://web.colorsing.com/share/user?user_id=406fb7c2-8747-40df-8543-fb65fd134113",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "colorsing",
+        "id": "406fb7c2-8747-40df-8543-fb65fd134113",
+        "url": "https://web.colorsing.com/share/user?user_id=406fb7c2-8747-40df-8543-fb65fd134113"
+      }
+    ],
+    "primary_platforms": [
+      "colorsing"
+    ],
+    "primary_platform_source": "https://web.colorsing.com/share/user?user_id=406fb7c2-8747-40df-8543-fb65fd134113",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://web.colorsing.com/share/user?user_id=406fb7c2-8747-40df-8543-fb65fd134113"
+    ],
+    "match_by_identity_only": true
+  },
+  {
+    "source_id": "17live:2583728",
+    "display_name": "17LIVE_VLIVER公式",
+    "reading": "いちななぶいらいばーこうしき",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://17.live/ja/profile/r/2583728",
+    "name_source": "https://17.live/ja/profile/r/2583728",
+    "activity_source": "https://17.live/ja/profile/r/2583728",
+    "activity_evidence": "user_submitted_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "17live",
+        "id": "2583728",
+        "url": "https://17.live/ja/profile/r/2583728"
+      }
+    ],
+    "primary_platforms": [
+      "17live"
+    ],
+    "primary_platform_source": "https://17.live/ja/profile/r/2583728",
+    "primary_platform_evidence": "user_submitted_primary_platform",
+    "source_profiles": [
+      "https://17.live/ja/profile/r/2583728"
+    ],
+    "match_by_identity_only": true,
+    "entity_type": "official_account"
   }
 ];
   const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/\s/g, '');
@@ -2746,7 +4014,7 @@
     const accounts = new Set(submitted.platform_accounts.map(accountKey));
     const matches = layers.flat().filter(row =>
       row.source_id === submitted.source_id ||
-      normalize(row.display_name) === normalize(submitted.display_name) ||
+      (!submitted.match_by_identity_only && normalize(row.display_name) === normalize(submitted.display_name)) ||
       (row.platform_accounts || []).some(account => accounts.has(accountKey(account)))
     );
     if (!matches.length) {
