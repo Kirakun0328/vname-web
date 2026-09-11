@@ -1282,7 +1282,10 @@
       }
     ],
     "primary_platforms": [],
-    "submission_note": ""
+    "submission_note": "",
+    "debut_date": "2026-09-05",
+    "debut_date_evidence": "user_submitted",
+    "activity_status": "active"
   },
   {
     "source_id": "submission:20260911:茶々守ゆら",
@@ -1375,6 +1378,193 @@
     ],
     "primary_platforms": [],
     "submission_note": "2026/5/5デビュー（申請情報）"
+  },
+  {
+    "source_id": "submission:20260911:SESERI",
+    "display_name": "SESERI",
+    "reading": "せせり",
+    "reading_source": "https://x.com/seseri_no_shio/status/2097142855643058272",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@seseri_no_shio",
+    "name_source": "https://x.com/seseri_no_shio/status/2097142855643058272",
+    "activity_source": "https://www.youtube.com/@seseri_no_shio",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/seseri_no_shio/status/2097142855643058272",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@seseri_no_shio",
+        "url": "https://www.youtube.com/@seseri_no_shio"
+      },
+      {
+        "platform": "x",
+        "id": "seseri_no_shio",
+        "url": "https://x.com/seseri_no_shio"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "community:b2defbe44a05b05c0b9402812d7ebd683e34974f7e939333f11b64a1d93df34d",
+    "display_name": "虹星ラガーLX",
+    "reading": "にじぼしらがーえるいくす",
+    "reading_source": "https://x.com/ragar108777/status/2097011364913193143",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCsQDVyQnOm1V3YU01dQxmxQ",
+    "name_source": "https://x.com/ragar108777/status/2097011364913193143",
+    "activity_source": "https://www.youtube.com/channel/UCsQDVyQnOm1V3YU01dQxmxQ",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/ragar108777/status/2097011364913193143",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCsQDVyQnOm1V3YU01dQxmxQ",
+        "url": "https://www.youtube.com/channel/UCsQDVyQnOm1V3YU01dQxmxQ"
+      },
+      {
+        "platform": "x",
+        "id": "ragar108777",
+        "url": "https://x.com/ragar108777"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:東雲啓",
+    "display_name": "東雲啓",
+    "reading": "しののめけい",
+    "reading_source": "https://x.com/kei_sinonome",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://x.com/kei_sinonome",
+    "name_source": "https://x.com/kei_sinonome",
+    "activity_source": "https://x.com/kei_sinonome",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/kei_sinonome",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "kei_sinonome",
+        "url": "https://x.com/kei_sinonome"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:雪桜ひすい",
+    "display_name": "雪桜ひすい",
+    "reading": "せおひすい",
+    "reading_source": "https://x.com/seohi_1016",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/seohi_1016",
+    "name_source": "https://x.com/seohi_1016",
+    "activity_source": "https://x.com/seohi_1016",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/seohi_1016",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "seohi_1016",
+        "url": "https://x.com/seohi_1016"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://x.com/seohi_1016",
+    "primary_platform_evidence": "user_forwarded_creator_profile_states_platform"
+  },
+  {
+    "source_id": "submission:20260911:汐風まいる",
+    "display_name": "汐風まいる",
+    "reading": "しおかぜまいる",
+    "reading_source": "https://x.com/maiy_create",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/maiy_create",
+    "name_source": "https://x.com/maiy_create",
+    "activity_source": "https://x.com/maiy_create",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/maiy_create",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "maiy_create",
+        "url": "https://x.com/maiy_create"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://x.com/maiy_create",
+    "primary_platform_evidence": "user_forwarded_creator_profile_states_platform"
+  },
+  {
+    "source_id": "submission:20260911:人間好きの魔王様",
+    "display_name": "人間好きの魔王様",
+    "reading": "にんげんすきのまおうさま",
+    "reading_source": "https://x.com/N1ngen_love/status/2098307426428792898",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/N1ngen_love",
+    "name_source": "https://x.com/N1ngen_love/status/2098307426428792898",
+    "activity_source": "https://x.com/N1ngen_love",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/N1ngen_love/status/2098307426428792898",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "n1ngen_love",
+        "url": "https://x.com/N1ngen_love"
+      }
+    ],
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://x.com/N1ngen_love/status/2098307426428792898",
+    "primary_platform_evidence": "user_forwarded_creator_profile_states_platform"
+  },
+  {
+    "source_id": "submission:20260911:雨流々いろは",
+    "display_name": "雨流々いろは",
+    "reading": "あまるるいろは",
+    "reading_source": "https://x.com/amaruru_iriam/status/2097487322292109482",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://x.com/amaruru_iriam",
+    "name_source": "https://x.com/amaruru_iriam/status/2097487322292109482",
+    "activity_source": "https://x.com/amaruru_iriam",
+    "activity_evidence": "user_forwarded_creator_activity_and_submission",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/amaruru_iriam/status/2097487322292109482",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "amaruru_iriam",
+        "url": "https://x.com/amaruru_iriam"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://x.com/amaruru_iriam/status/2097487322292109482",
+    "primary_platform_evidence": "user_forwarded_creator_profile_states_platform"
   }
 ];
   const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/\s/g, '');
