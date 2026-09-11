@@ -939,7 +939,7 @@
   {
     "source_id": "submission:20260911:エリザ・ローズ",
     "display_name": "エリザ・ローズ",
-    "reading": "えりざ ろーず",
+    "reading": "えりざろーず",
     "reading_source": "https://x.com/erizarose85/status/2097517408277909794",
     "reading_source_kind": "manual",
     "category": "VTuber",
@@ -1124,7 +1124,7 @@
   {
     "source_id": "submission:20260911:紅葉屋カイリ",
     "display_name": "紅葉屋カイリ",
-    "reading": "もみじや かいり",
+    "reading": "もみじやかいり",
     "reading_source": "https://x.com/kairi_momiji/status/2097174604867612691",
     "reading_source_kind": "manual",
     "category": "VTuber",
@@ -1198,7 +1198,7 @@
   {
     "source_id": "submission:20260911:皇ニチカ",
     "display_name": "皇ニチカ",
-    "reading": "すめらぎ にちか",
+    "reading": "すめらぎにちか",
     "reading_source": "https://x.com/sumeragi275/status/2098221788165702131",
     "reading_source_kind": "manual",
     "category": "VTuber",
@@ -1231,7 +1231,7 @@
   {
     "source_id": "submission:20260911:七海海月",
     "display_name": "七海海月",
-    "reading": "ななみ くらげ",
+    "reading": "ななみくらげ",
     "reading_source": "https://x.com/kurage_jellysea/status/2098039043561079233",
     "reading_source_kind": "manual",
     "category": "Vライバー",
@@ -1255,6 +1255,126 @@
       }
     ],
     "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:雪宮しえる",
+    "display_name": "雪宮しえる",
+    "reading": "ゆきみやしえる",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCrcIIk7Z_t2BeFyqHufrpow",
+    "name_source": "https://www.youtube.com/channel/UCrcIIk7Z_t2BeFyqHufrpow",
+    "activity_source": "https://www.youtube.com/channel/UCrcIIk7Z_t2BeFyqHufrpow",
+    "activity_evidence": "user_submitted_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCrcIIk7Z_t2BeFyqHufrpow",
+        "url": "https://www.youtube.com/channel/UCrcIIk7Z_t2BeFyqHufrpow"
+      },
+      {
+        "platform": "twitch",
+        "id": "yukimiya_sieru",
+        "url": "https://www.twitch.tv/yukimiya_sieru"
+      }
+    ],
+    "primary_platforms": [],
+    "submission_note": ""
+  },
+  {
+    "source_id": "submission:20260911:茶々守ゆら",
+    "display_name": "茶々守ゆら",
+    "reading": "ちゃちゃもりゆら",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@chachamori_yura",
+    "name_source": "https://www.youtube.com/@chachamori_yura",
+    "activity_source": "https://www.youtube.com/@chachamori_yura",
+    "activity_evidence": "owner_explicitly_approved_listing_exception",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@chachamori_yura",
+        "url": "https://www.youtube.com/@chachamori_yura"
+      }
+    ],
+    "primary_platforms": [],
+    "submission_note": "年内デビュー予定（申請情報）",
+    "listing_status": "user_approved",
+    "activity_status": "predebut"
+  },
+  {
+    "source_id": "submission:20260911:甘桜ほっぺ",
+    "display_name": "甘桜ほっぺ",
+    "reading": "あまおうほっぺ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/shorts/VlNzBRINowA",
+    "name_source": "https://www.youtube.com/shorts/VlNzBRINowA",
+    "activity_source": "https://www.youtube.com/shorts/VlNzBRINowA",
+    "activity_evidence": "owner_explicitly_approved_listing_exception",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [],
+    "primary_platforms": [],
+    "submission_note": "9/26初配信予定（申請情報）",
+    "listing_status": "user_approved",
+    "activity_status": "predebut"
+  },
+  {
+    "source_id": "submission:20260911:合歓木やすみ",
+    "display_name": "合歓木やすみ",
+    "reading": "ねむのきやすみ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://x.com/Nemunoki_Yasumi",
+    "name_source": "https://x.com/Nemunoki_Yasumi",
+    "activity_source": "https://x.com/Nemunoki_Yasumi",
+    "activity_evidence": "owner_explicitly_approved_listing_exception",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "nemunoki_yasumi",
+        "url": "https://x.com/Nemunoki_Yasumi"
+      }
+    ],
+    "primary_platforms": [],
+    "submission_note": "9/12初配信予定（申請情報）",
+    "listing_status": "user_approved",
+    "activity_status": "predebut"
+  },
+  {
+    "source_id": "submission:20260911:音羽桜幽",
+    "display_name": "音羽桜幽",
+    "reading": "おとはさゆ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://x.com/otoha_sayu4",
+    "name_source": "https://x.com/otoha_sayu4",
+    "activity_source": "https://x.com/otoha_sayu4",
+    "activity_evidence": "user_submitted_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "otoha_sayu4",
+        "url": "https://x.com/otoha_sayu4"
+      }
+    ],
+    "primary_platforms": [],
+    "submission_note": "2026/5/5デビュー（申請情報）"
   }
 ];
   const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/\s/g, '');
