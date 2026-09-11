@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "scope": "audit_only_general_legacy_sources; AIVTuber sources excluded",
-  "unique_ids": 20168,
+  "unique_ids": 20207,
   "files": {
     "data.js": 9877,
-    "extra-data.js": 9489,
+    "extra-data.js": 9528,
     "platform-data.js": 11705
   },
   "reviewed_ids": 240,
   "primary_rechecked_ids": 65,
-  "aivtuber_preserved_ids": 1569,
+  "aivtuber_preserved_ids": 1580,
   "legacy_general_ids_any_evidence": 12804,
   "legacy_general_ids_also_reviewed_primary_or_aiv": 60,
   "legacy_general_ids_without_reviewed_primary_or_aiv": 12744,
@@ -43,7 +43,7 @@
     ],
     [
       "youtube",
-      7958
+      7997
     ],
     [
       "agency-razz",
