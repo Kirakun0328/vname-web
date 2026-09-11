@@ -3,30 +3,30 @@
 (function () {
   'use strict';
   const submissions = [
-{
-  "source_id": "submission:20260910:蒼海瑞葵",
-  "display_name": "蒼海瑞葵",
-  "reading": "あおいみずき",
-  "reading_source": "creator_submission",
-  "reading_source_kind": "manual",
-  "category": "VTuber",
-  "aliases": [],
-  "source_url": "https://youtube.com/@aoimizuki_vt",
-  "name_source": "https://youtube.com/@aoimizuki_vt",
-  "activity_source": "https://youtube.com/@aoimizuki_vt",
-  "activity_evidence": "creator_submitted_public_profile",
-  "submitted_at": "2026-09-10",
-  "platform_accounts": [
-    {
-      "platform": "youtube",
-      "id": "@aoimizuki_vt",
-      "url": "https://youtube.com/@aoimizuki_vt"
-    }
-  ],
-  "primary_platforms": [
-    "youtube"
-  ]
-},
+  {
+    "source_id": "submission:20260910:蒼海瑞葵",
+    "display_name": "蒼海瑞葵",
+    "reading": "あおいみずき",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://youtube.com/@aoimizuki_vt",
+    "name_source": "https://youtube.com/@aoimizuki_vt",
+    "activity_source": "https://youtube.com/@aoimizuki_vt",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-10",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@aoimizuki_vt",
+        "url": "https://youtube.com/@aoimizuki_vt"
+      }
+    ],
+    "primary_platforms": [
+      "youtube"
+    ]
+  },
   {
     "activity_evidence": "creator_submitted_public_profile",
     "activity_source": "https://t.co/eQVKb7Ddbp",
@@ -97,22 +97,6 @@
     "reading_source_kind": "manual",
     "source_id": "submission:20260910:暁美りぜ",
     "source_url": "https://t.co/4odSUHSq3D",
-    "submitted_at": "2026-09-10"
-  },
-  {
-    "activity_evidence": "creator_submitted_public_profile",
-    "activity_source": "https://t.co/Rv3wGeK8eu",
-    "aliases": [],
-    "category": "Vライバー",
-    "display_name": "ひかり︎✦︎.*",
-    "name_source": "https://t.co/Rv3wGeK8eu",
-    "platform_accounts": [],
-    "primary_platforms": [],
-    "reading": "ひかり",
-    "reading_source": "creator_submission",
-    "reading_source_kind": "manual",
-    "source_id": "submission:20260910:ひかり✦.*",
-    "source_url": "https://t.co/Rv3wGeK8eu",
     "submitted_at": "2026-09-10"
   },
   {
@@ -593,6 +577,282 @@
     "source_id": "submission:20260910:n_ull",
     "source_url": "https://youtube.com/@n_ull000",
     "submitted_at": "2026-09-10"
+  },
+  {
+    "source_id": "submission:20260911:起田ねむ",
+    "display_name": "起田ねむ",
+    "reading": "おきたねむ",
+    "reading_source": "https://x.com/nemu_okita/status/2098263046632456253",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@nemu_okita",
+    "name_source": "https://x.com/nemu_okita/status/2098263046632456253",
+    "activity_source": "https://www.youtube.com/@nemu_okita",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/nemu_okita/status/2098263046632456253",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@nemu_okita",
+        "url": "https://www.youtube.com/@nemu_okita"
+      },
+      {
+        "platform": "colorsing",
+        "id": "d62972c8-b084-442a-89dc-478fbdf19582",
+        "url": "https://web.colorsing.com/share/user?user_id=d62972c8-b084-442a-89dc-478fbdf19582"
+      }
+    ],
+    "primary_platforms": [
+      "youtube",
+      "colorsing"
+    ]
+  },
+  {
+    "source_id": "agency-atoms:Minamiamakawa",
+    "display_name": "天河みなみ",
+    "reading": "あまかわ みなみ",
+    "reading_source": "https://x.com/minami_Atoms/status/2098242899960041748",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/profile/db74d2d2",
+    "name_source": "https://x.com/minami_Atoms/status/2098242899960041748",
+    "activity_source": "https://reality.app/profile/db74d2d2",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/minami_Atoms/status/2098242899960041748",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "db74d2d2",
+        "url": "https://reality.app/profile/db74d2d2"
+      },
+      {
+        "platform": "youtube",
+        "id": "channel/UCx4CcKFQfULlZBdZQxz_p0A",
+        "url": "https://www.youtube.com/channel/UCx4CcKFQfULlZBdZQxz_p0A"
+      }
+    ],
+    "primary_platforms": [
+      "reality",
+      "youtube"
+    ]
+  },
+  {
+    "source_id": "submission:20260911:ティ・オ",
+    "display_name": "ティ・オ",
+    "reading": "てぃお",
+    "reading_source": "https://x.com/Game_Index_hima/status/2098230631679631531",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@hima_tio",
+    "name_source": "https://x.com/Game_Index_hima/status/2098230631679631531",
+    "activity_source": "https://www.youtube.com/@hima_tio",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/Game_Index_hima/status/2098230631679631531",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@hima_tio",
+        "url": "https://www.youtube.com/@hima_tio"
+      }
+    ],
+    "primary_platforms": [
+      "youtube"
+    ]
+  },
+  {
+    "source_id": "agency-mvirtual:yoimiya-gato",
+    "display_name": "宵宮ガト",
+    "reading": "よいみやがと",
+    "reading_source": "https://x.com/yoimiya__gato/status/2098153573129572429",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/profile/279a20a0",
+    "name_source": "https://x.com/yoimiya__gato/status/2098153573129572429",
+    "activity_source": "https://reality.app/profile/279a20a0",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/yoimiya__gato/status/2098153573129572429",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "279a20a0",
+        "url": "https://reality.app/profile/279a20a0"
+      }
+    ],
+    "primary_platforms": [
+      "reality"
+    ],
+    "activity_status": "unconfirmed",
+    "listing_note": "Owner explicitly approved inclusion despite reported preparation status on 2026-09-11.",
+    "listing_status": "user_approved"
+  },
+  {
+    "source_id": "submission:20260911:かぷちいぬ",
+    "display_name": "かぷちいぬ",
+    "reading": "かぷちいぬ",
+    "reading_source": "https://x.com/ka_puchiwawawa/status/2098103498135294332",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/profile/8cfdaa76",
+    "name_source": "https://x.com/ka_puchiwawawa/status/2098103498135294332",
+    "activity_source": "https://reality.app/profile/8cfdaa76",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/ka_puchiwawawa/status/2098103498135294332",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "8cfdaa76",
+        "url": "https://reality.app/profile/8cfdaa76"
+      }
+    ],
+    "primary_platforms": [
+      "reality"
+    ]
+  },
+  {
+    "source_id": "submission:20260910:ひかり✦.*",
+    "display_name": "ひかり✦.*",
+    "reading": "ひかり",
+    "reading_source": "https://x.com/HIKARI_698/status/2098084265573638352",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [
+      "ひかり︎✦︎.*"
+    ],
+    "source_url": "https://reality.app/profile/b1cdb306",
+    "name_source": "https://x.com/HIKARI_698/status/2098084265573638352",
+    "activity_source": "https://reality.app/profile/b1cdb306",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/HIKARI_698/status/2098084265573638352",
+    "platform_accounts": [
+      {
+        "platform": "reality",
+        "id": "b1cdb306",
+        "url": "https://reality.app/profile/b1cdb306"
+      }
+    ],
+    "primary_platforms": [
+      "reality"
+    ]
+  },
+  {
+    "source_id": "submission:20260911:夢乃るあ",
+    "display_name": "夢乃るあ",
+    "reading": "ゆめのるあ",
+    "reading_source": "https://x.com/RuaYumeno/status/2098081335005069422",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@RuaYumeno._.019",
+    "name_source": "https://x.com/RuaYumeno/status/2098081335005069422",
+    "activity_source": "https://www.youtube.com/@RuaYumeno._.019",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/RuaYumeno/status/2098081335005069422",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@RuaYumeno._.019",
+        "url": "https://www.youtube.com/@RuaYumeno._.019"
+      }
+    ],
+    "primary_platforms": [
+      "youtube"
+    ]
+  },
+  {
+    "source_id": "submission:20260911:雪ノ瀬澪桜",
+    "display_name": "雪ノ瀬澪桜",
+    "reading": "ゆきのせ みおう",
+    "reading_source": "https://x.com/yukinose_mio/status/2098067892617286082",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@yukinose_miou",
+    "name_source": "https://x.com/yukinose_mio/status/2098067892617286082",
+    "activity_source": "https://www.youtube.com/@yukinose_miou",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/yukinose_mio/status/2098067892617286082",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@yukinose_miou",
+        "url": "https://www.youtube.com/@yukinose_miou"
+      },
+      {
+        "platform": "twitch",
+        "id": "yukinosemio",
+        "url": "https://www.twitch.tv/yukinosemio"
+      }
+    ],
+    "primary_platforms": [
+      "youtube",
+      "twitch"
+    ]
+  },
+  {
+    "source_id": "submission:20260911:音凪由良",
+    "display_name": "音凪由良",
+    "reading": "おとなぎゆら",
+    "reading_source": "https://x.com/Yura_Otonagi/status/2098062725561942486",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCmv_NESaa_Y0CB_Q9SFr9BQ",
+    "name_source": "https://x.com/Yura_Otonagi/status/2098062725561942486",
+    "activity_source": "https://www.youtube.com/channel/UCmv_NESaa_Y0CB_Q9SFr9BQ",
+    "activity_evidence": "creator_submitted_public_profile",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/Yura_Otonagi/status/2098062725561942486",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCmv_NESaa_Y0CB_Q9SFr9BQ",
+        "url": "https://www.youtube.com/channel/UCmv_NESaa_Y0CB_Q9SFr9BQ"
+      }
+    ],
+    "primary_platforms": [
+      "youtube"
+    ]
+  },
+  {
+    "source_id": "submission:20260911:すべすべまんじゅうがに",
+    "display_name": "すべすべまんじゅうがに",
+    "reading": "",
+    "reading_source": "",
+    "reading_source_kind": "",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/kDlGjRTk6s?uuid=6412d838",
+    "name_source": "https://x.com/SBMN_Crab/status/2098065391163761113",
+    "activity_source": "https://web.iriam.app/s/user/kDlGjRTk6s?uuid=6412d838",
+    "activity_evidence": "owner_explicitly_approved_listing_exception",
+    "activity_status": "unconfirmed",
+    "listing_status": "user_approved",
+    "listing_note": "Owner explicitly approved inclusion despite reported IRIAM preparation status on 2026-09-11. Reading not submitted.",
+    "submitted_at": "2026-09-11",
+    "submission_source": "https://x.com/SBMN_Crab/status/2098065391163761113",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "kDlGjRTk6s",
+        "url": "https://web.iriam.app/s/user/kDlGjRTk6s?uuid=6412d838"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ]
   }
 ];
   const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/\s/g, '');
