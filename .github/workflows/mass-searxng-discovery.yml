@@ -1,9 +1,5 @@
 name: Mass SearXNG specialist discovery
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/mass-searxng-discovery.yml'
   workflow_dispatch:
 permissions:
   contents: write
