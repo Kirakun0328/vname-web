@@ -1565,6 +1565,1177 @@
     ],
     "primary_platform_source": "https://x.com/amaruru_iriam/status/2097487322292109482",
     "primary_platform_evidence": "user_forwarded_creator_profile_states_platform"
+  },
+  {
+    "source_id": "submission:20260911:してはる",
+    "display_name": "してはる",
+    "reading": "してはる",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@shiteharu",
+    "name_source": "https://www.youtube.com/@shiteharu",
+    "activity_source": "https://www.youtube.com/@shiteharu",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@shiteharu",
+        "url": "https://www.youtube.com/@shiteharu"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:漆瀬レイ",
+    "display_name": "漆瀬レイ",
+    "reading": "ななせれい",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@Ray_Nanase",
+    "name_source": "https://www.youtube.com/@Ray_Nanase",
+    "activity_source": "https://www.youtube.com/@Ray_Nanase",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@Ray_Nanase",
+        "url": "https://www.youtube.com/@Ray_Nanase"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:孵卵リリス",
+    "display_name": "孵卵リリス",
+    "reading": "ふらんりりす",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [
+      "FuranLilith Ch."
+    ],
+    "source_url": "https://x.com/furanlilith",
+    "name_source": "https://x.com/furanlilith",
+    "activity_source": "https://x.com/furanlilith",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "furanlilith",
+        "url": "https://x.com/furanlilith"
+      }
+    ],
+    "primary_platforms": [],
+    "official_website": "https://furan-lilith.com/",
+    "source_profiles": [
+      "https://x.com/furanlilith",
+      "https://furan-lilith.com/"
+    ]
+  },
+  {
+    "source_id": "youtube:UCOuaCgLWUPRwQtnX78Cat5w",
+    "display_name": "宵吸あけル",
+    "reading": "よきゅうあける",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@YokyuAkeru",
+    "name_source": "https://www.youtube.com/@YokyuAkeru",
+    "activity_source": "https://www.youtube.com/@YokyuAkeru",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@YokyuAkeru",
+        "url": "https://www.youtube.com/@YokyuAkeru"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:月城ぬん",
+    "display_name": "月城ぬん",
+    "reading": "つきしろぬん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@daitenshi-nun",
+    "name_source": "https://www.youtube.com/@daitenshi-nun",
+    "activity_source": "https://www.youtube.com/@daitenshi-nun",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@daitenshi-nun",
+        "url": "https://www.youtube.com/@daitenshi-nun"
+      },
+      {
+        "platform": "twitch",
+        "id": "pan_nunnun",
+        "url": "https://www.twitch.tv/pan_nunnun"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "youtube:UC6gtJE_ZRXkagU4g_ewB2FQ",
+    "display_name": "狗乃わん",
+    "reading": "いぬのわん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@inuno_wan",
+    "name_source": "https://www.youtube.com/@inuno_wan",
+    "activity_source": "https://www.youtube.com/@inuno_wan",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@inuno_wan",
+        "url": "https://www.youtube.com/@inuno_wan"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:宮守しず",
+    "display_name": "宮守しず",
+    "reading": "みやもりしず",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@Miyamori_sizz",
+    "name_source": "https://www.youtube.com/@Miyamori_sizz",
+    "activity_source": "https://www.youtube.com/@Miyamori_sizz",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@Miyamori_sizz",
+        "url": "https://www.youtube.com/@Miyamori_sizz"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "youtube:UCtHW4oPqj8rmECPWQt_HYKA",
+    "display_name": "甘野氷",
+    "reading": "あまのこおり",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@amanokoori",
+    "name_source": "https://www.youtube.com/@amanokoori",
+    "activity_source": "https://www.youtube.com/@amanokoori",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@amanokoori",
+        "url": "https://www.youtube.com/@amanokoori"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "youtube:UCEsRLZ-x3RJKPspN8gwKqjg",
+    "display_name": "乃音月菜",
+    "reading": "ののるな",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@NonoRuna",
+    "name_source": "https://www.youtube.com/@NonoRuna",
+    "activity_source": "https://www.youtube.com/@NonoRuna",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@NonoRuna",
+        "url": "https://www.youtube.com/@NonoRuna"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:響枷凛音",
+    "display_name": "響枷凛音",
+    "reading": "ひびかせりんね",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/u02NUhARnz?uuid=77d90eb0",
+    "name_source": "https://web.iriam.app/s/user/u02NUhARnz?uuid=77d90eb0",
+    "activity_source": "https://web.iriam.app/s/user/u02NUhARnz?uuid=77d90eb0",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "u02NUhARnz",
+        "url": "https://web.iriam.app/s/user/u02NUhARnz?uuid=77d90eb0"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:涼暮リリ",
+    "display_name": "涼暮リリ",
+    "reading": "すずくれりり",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/LxbgDfBg0z?uuid=2ca05bb8",
+    "name_source": "https://web.iriam.app/s/user/LxbgDfBg0z?uuid=2ca05bb8",
+    "activity_source": "https://web.iriam.app/s/user/LxbgDfBg0z?uuid=2ca05bb8",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "LxbgDfBg0z",
+        "url": "https://web.iriam.app/s/user/LxbgDfBg0z?uuid=2ca05bb8"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:天導ライカ",
+    "display_name": "天導ライカ",
+    "reading": "てんどうらいか",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@TendouRaika",
+    "name_source": "https://www.youtube.com/@TendouRaika",
+    "activity_source": "https://www.youtube.com/@TendouRaika",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@TendouRaika",
+        "url": "https://www.youtube.com/@TendouRaika"
+      },
+      {
+        "platform": "x",
+        "id": "TendouRaika",
+        "url": "https://x.com/TendouRaika"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "youtube:UCOZvymJrEDhlINeeTJ1SGjQ",
+    "display_name": "炭酸水",
+    "reading": "たんさんすい",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@tansansuichan",
+    "name_source": "https://www.youtube.com/@tansansuichan",
+    "activity_source": "https://www.youtube.com/@tansansuichan",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@tansansuichan",
+        "url": "https://www.youtube.com/@tansansuichan"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:月ノ音かのん",
+    "display_name": "月ノ音かのん",
+    "reading": "つきのねかのん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.twitch.tv/kano0on",
+    "name_source": "https://www.twitch.tv/kano0on",
+    "activity_source": "https://www.twitch.tv/kano0on",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitch",
+        "id": "kano0on",
+        "url": "https://www.twitch.tv/kano0on"
+      }
+    ],
+    "primary_platforms": [
+      "twitch"
+    ],
+    "primary_platform_source": "https://www.twitch.tv/kano0on",
+    "primary_platform_evidence": "user_submitted_primary_streaming_platform"
+  },
+  {
+    "source_id": "submission:20260911:東和正",
+    "display_name": "東和正",
+    "reading": "あずまかずまさ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [
+      "Azuma Kazumasa(JP Vtuber)"
+    ],
+    "source_url": "https://x.com/Azuma_Kazumasa",
+    "name_source": "https://x.com/Azuma_Kazumasa",
+    "activity_source": "https://x.com/Azuma_Kazumasa",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "Azuma_Kazumasa",
+        "url": "https://x.com/Azuma_Kazumasa"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://x.com/Azuma_Kazumasa",
+      "https://note.com/azusaki_channel"
+    ],
+    "official_website": "https://note.com/azusaki_channel"
+  },
+  {
+    "source_id": "submission:20260911:時雨ミト",
+    "display_name": "時雨ミト",
+    "reading": "しぐれみと",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@shiguremito",
+    "name_source": "https://www.youtube.com/@shiguremito",
+    "activity_source": "https://www.youtube.com/@shiguremito",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@shiguremito",
+        "url": "https://www.youtube.com/@shiguremito"
+      },
+      {
+        "platform": "x",
+        "id": "mito_shigure",
+        "url": "https://x.com/mito_shigure"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:ナナホシナナ",
+    "display_name": "ナナホシナナ",
+    "reading": "ななほしなな",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@nanahoshinana77",
+    "name_source": "https://www.youtube.com/@nanahoshinana77",
+    "activity_source": "https://www.youtube.com/@nanahoshinana77",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@nanahoshinana77",
+        "url": "https://www.youtube.com/@nanahoshinana77"
+      },
+      {
+        "platform": "x",
+        "id": "nanahoshinana77",
+        "url": "https://x.com/nanahoshinana77"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "youtube:UCNomdKfjGPeJCo3bXaHHPGw",
+    "display_name": "蓮希るい",
+    "reading": "はすきるい",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@HasukiCh",
+    "name_source": "https://www.youtube.com/@HasukiCh",
+    "activity_source": "https://www.youtube.com/@HasukiCh",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@HasukiCh",
+        "url": "https://www.youtube.com/@HasukiCh"
+      },
+      {
+        "platform": "x",
+        "id": "Hasuki_rui",
+        "url": "https://x.com/Hasuki_rui"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "youtube:UC9NBnxKV0tPz1xlfKcKHw_A",
+    "display_name": "さや",
+    "reading": "さや",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@Saya.Vtuber",
+    "name_source": "https://www.youtube.com/@Saya.Vtuber",
+    "activity_source": "https://www.youtube.com/@Saya.Vtuber",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@Saya.Vtuber",
+        "url": "https://www.youtube.com/@Saya.Vtuber"
+      },
+      {
+        "platform": "x",
+        "id": "SayaVTuberJP",
+        "url": "https://x.com/SayaVTuberJP"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/@Saya.Vtuber",
+      "https://x.com/SayaVTuberJP"
+    ]
+  },
+  {
+    "source_id": "youtube:UCx_1ffdoE_L06OExQGhz6nw",
+    "display_name": "烟花蹦蹦蹦",
+    "reading": "えんか",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [
+      "YanHua",
+      "やんふぁ",
+      "烟花蹦蹦蹦（YanHua）"
+    ],
+    "source_url": "https://www.youtube.com/@ch.0330",
+    "name_source": "https://www.youtube.com/@ch.0330",
+    "activity_source": "https://www.youtube.com/@ch.0330",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@ch.0330",
+        "url": "https://www.youtube.com/@ch.0330"
+      },
+      {
+        "platform": "twitch",
+        "id": "hennie2001",
+        "url": "https://www.twitch.tv/hennie2001"
+      },
+      {
+        "platform": "x",
+        "id": "YH_03_30",
+        "url": "https://twitter.com/YH_03_30"
+      }
+    ],
+    "primary_platforms": [
+      "twitch"
+    ],
+    "source_profiles": [
+      "https://www.youtube.com/@ch.0330",
+      "https://www.twitch.tv/hennie2001",
+      "https://twitter.com/YH_03_30"
+    ],
+    "primary_platform_source": "https://www.twitch.tv/hennie2001",
+    "primary_platform_evidence": "user_submitted_primary_streaming_platform"
+  },
+  {
+    "source_id": "youtube:UCHFykybcXCtwueMFVjYCa-w",
+    "display_name": "秋音Akine",
+    "reading": "あきね",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [
+      "Akine"
+    ],
+    "source_url": "https://www.youtube.com/@Akine9487",
+    "name_source": "https://www.youtube.com/@Akine9487",
+    "activity_source": "https://www.youtube.com/@Akine9487",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@Akine9487",
+        "url": "https://www.youtube.com/@Akine9487"
+      },
+      {
+        "platform": "x",
+        "id": "Akine9487",
+        "url": "https://x.com/Akine9487"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/@Akine9487",
+      "https://x.com/Akine9487"
+    ]
+  },
+  {
+    "source_id": "youtube:UCyqHGoPxqHzRe9ZUtJux7TQ",
+    "display_name": "魔女ルンナ",
+    "reading": "まじょるんな",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@rururunautau",
+    "name_source": "https://www.youtube.com/@rururunautau",
+    "activity_source": "https://www.youtube.com/@rururunautau",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@rururunautau",
+        "url": "https://www.youtube.com/@rururunautau"
+      },
+      {
+        "platform": "x",
+        "id": "rururunautau",
+        "url": "https://twitter.com/rururunautau"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/@rururunautau",
+      "https://twitter.com/rururunautau"
+    ]
+  },
+  {
+    "source_id": "submission:20260911:Tsero",
+    "display_name": "Tsero",
+    "reading": "つぇろ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@00vChannel",
+    "name_source": "https://www.youtube.com/@00vChannel",
+    "activity_source": "https://www.youtube.com/@00vChannel",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@00vChannel",
+        "url": "https://www.youtube.com/@00vChannel"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/@00vChannel"
+    ]
+  },
+  {
+    "source_id": "submission:20260911:Kana Homura",
+    "display_name": "Kana Homura",
+    "reading": "かなほむら",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@kanahomurav.w.y",
+    "name_source": "https://www.youtube.com/@kanahomurav.w.y",
+    "activity_source": "https://www.youtube.com/@kanahomurav.w.y",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@kanahomurav.w.y",
+        "url": "https://www.youtube.com/@kanahomurav.w.y"
+      },
+      {
+        "platform": "x",
+        "id": "Kana_VWY",
+        "url": "https://x.com/Kana_VWY"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/@kanahomurav.w.y",
+      "https://x.com/Kana_VWY"
+    ]
+  },
+  {
+    "source_id": "youtube:UCaNQI1xcU1ZC4W0guaIMgTg",
+    "display_name": "เนื้อทอง",
+    "reading": "ぬあとん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [
+      "Neuatong",
+      "เนื้อทอง（Neuatong）"
+    ],
+    "source_url": "https://www.twitch.tv/lnw_neuatong",
+    "name_source": "https://www.twitch.tv/lnw_neuatong",
+    "activity_source": "https://www.twitch.tv/lnw_neuatong",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "twitch",
+        "id": "lnw_neuatong",
+        "url": "https://www.twitch.tv/lnw_neuatong"
+      },
+      {
+        "platform": "x",
+        "id": "lnw_neuatong",
+        "url": "https://twitter.com/lnw_neuatong"
+      },
+      {
+        "platform": "facebook",
+        "id": "lnwNeuatong",
+        "url": "https://www.facebook.com/lnwNeuatong"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.twitch.tv/lnw_neuatong",
+      "https://twitter.com/lnw_neuatong",
+      "https://www.facebook.com/lnwNeuatong"
+    ]
+  },
+  {
+    "source_id": "youtube:UCoUFv7APM1XOo4TUaWbRekw",
+    "display_name": "Reynard Blanc",
+    "reading": "れいなーどぶらん",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCoUFv7APM1XOo4TUaWbRekw",
+    "name_source": "https://www.youtube.com/channel/UCoUFv7APM1XOo4TUaWbRekw",
+    "activity_source": "https://www.youtube.com/channel/UCoUFv7APM1XOo4TUaWbRekw",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCoUFv7APM1XOo4TUaWbRekw",
+        "url": "https://www.youtube.com/channel/UCoUFv7APM1XOo4TUaWbRekw"
+      },
+      {
+        "platform": "x",
+        "id": "ReynardBlanc",
+        "url": "https://twitter.com/ReynardBlanc"
+      },
+      {
+        "platform": "twitch",
+        "id": "reynardblanc",
+        "url": "https://www.twitch.tv/reynardblanc"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/channel/UCoUFv7APM1XOo4TUaWbRekw",
+      "https://twitter.com/ReynardBlanc",
+      "https://www.twitch.tv/reynardblanc"
+    ]
+  },
+  {
+    "source_id": "submission:20260911:旭川ユカラ",
+    "display_name": "旭川ユカラ",
+    "reading": "あさひかわゆから",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@Yukara_Asahikawa",
+    "name_source": "https://www.youtube.com/@Yukara_Asahikawa",
+    "activity_source": "https://www.youtube.com/@Yukara_Asahikawa",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@Yukara_Asahikawa",
+        "url": "https://www.youtube.com/@Yukara_Asahikawa"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/@Yukara_Asahikawa"
+    ]
+  },
+  {
+    "source_id": "youtube:UCSB9S5M1ktSjDEdmTTOZqkA",
+    "display_name": "白餅だんご",
+    "reading": "しろもちだんご",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCSB9S5M1ktSjDEdmTTOZqkA",
+    "name_source": "https://www.youtube.com/channel/UCSB9S5M1ktSjDEdmTTOZqkA",
+    "activity_source": "https://www.youtube.com/channel/UCSB9S5M1ktSjDEdmTTOZqkA",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCSB9S5M1ktSjDEdmTTOZqkA",
+        "url": "https://www.youtube.com/channel/UCSB9S5M1ktSjDEdmTTOZqkA"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/channel/UCSB9S5M1ktSjDEdmTTOZqkA"
+    ]
+  },
+  {
+    "source_id": "youtube:UCQ1V2VB8G4HyRyiXB9tK3EA",
+    "display_name": "花巻レシュラ",
+    "reading": "はなまきれしゅら",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCQ1V2VB8G4HyRyiXB9tK3EA",
+    "name_source": "https://www.youtube.com/channel/UCQ1V2VB8G4HyRyiXB9tK3EA",
+    "activity_source": "https://www.youtube.com/channel/UCQ1V2VB8G4HyRyiXB9tK3EA",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCQ1V2VB8G4HyRyiXB9tK3EA",
+        "url": "https://www.youtube.com/channel/UCQ1V2VB8G4HyRyiXB9tK3EA"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/channel/UCQ1V2VB8G4HyRyiXB9tK3EA"
+    ]
+  },
+  {
+    "source_id": "youtube:UCCb6VrE657VdNeFqqJhUhXw",
+    "display_name": "沢ところ",
+    "reading": "さわところ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://x.com/TokoTabi",
+    "name_source": "https://x.com/TokoTabi",
+    "activity_source": "https://x.com/TokoTabi",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "TokoTabi",
+        "url": "https://x.com/TokoTabi"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://x.com/TokoTabi",
+      "https://tokotabi.wixsite.com/local",
+      "https://tokotabi.fanbox.cc/"
+    ],
+    "official_website": "https://tokotabi.wixsite.com/local"
+  },
+  {
+    "source_id": "youtube:UCVJX7LicGLfsMdugSZktuFw",
+    "display_name": "西浦めめ",
+    "reading": "にしうらめめ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://lit.link/NishiuraMeme",
+    "name_source": "https://lit.link/NishiuraMeme",
+    "activity_source": "https://lit.link/NishiuraMeme",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://lit.link/NishiuraMeme"
+    ],
+    "official_website": "https://lit.link/NishiuraMeme"
+  },
+  {
+    "source_id": "youtube:UC0cOls3gWjuR51gEHzzH5BQ",
+    "display_name": "九十九みな",
+    "reading": "つくもみな",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UC0cOls3gWjuR51gEHzzH5BQ",
+    "name_source": "https://www.youtube.com/channel/UC0cOls3gWjuR51gEHzzH5BQ",
+    "activity_source": "https://www.youtube.com/channel/UC0cOls3gWjuR51gEHzzH5BQ",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UC0cOls3gWjuR51gEHzzH5BQ",
+        "url": "https://www.youtube.com/channel/UC0cOls3gWjuR51gEHzzH5BQ"
+      },
+      {
+        "platform": "x",
+        "id": "tsukumomina",
+        "url": "https://x.com/tsukumomina"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/channel/UC0cOls3gWjuR51gEHzzH5BQ",
+      "https://x.com/tsukumomina"
+    ]
+  },
+  {
+    "source_id": "youtube:UCPbNU_SENuC_mOOhKOYdnmA",
+    "display_name": "瀬戸兎ゆめ",
+    "reading": "せとうさゆめ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/channel/UCPbNU_SENuC_mOOhKOYdnmA",
+    "name_source": "https://www.youtube.com/channel/UCPbNU_SENuC_mOOhKOYdnmA",
+    "activity_source": "https://www.youtube.com/channel/UCPbNU_SENuC_mOOhKOYdnmA",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "channel/UCPbNU_SENuC_mOOhKOYdnmA",
+        "url": "https://www.youtube.com/channel/UCPbNU_SENuC_mOOhKOYdnmA"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/channel/UCPbNU_SENuC_mOOhKOYdnmA",
+      "https://setousa.fanbox.cc/"
+    ],
+    "official_website": "https://setousa.fanbox.cc/"
+  },
+  {
+    "source_id": "youtube:UCf6fsq2YBunac3TCYGqKSpg",
+    "display_name": "八夜水",
+    "reading": "やつよすい",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://lit.link/yatsuyosui",
+    "name_source": "https://lit.link/yatsuyosui",
+    "activity_source": "https://lit.link/yatsuyosui",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "x",
+        "id": "yatsuyosui",
+        "url": "https://x.com/yatsuyosui"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://lit.link/yatsuyosui",
+      "https://x.com/yatsuyosui"
+    ],
+    "official_website": "https://lit.link/yatsuyosui"
+  },
+  {
+    "source_id": "submission:20260911:にゃおぬこ",
+    "display_name": "にゃおぬこ",
+    "reading": "にゃおぬこ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@nyaonuko",
+    "name_source": "https://www.youtube.com/@nyaonuko",
+    "activity_source": "https://www.youtube.com/@nyaonuko",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@nyaonuko",
+        "url": "https://www.youtube.com/@nyaonuko"
+      },
+      {
+        "platform": "x",
+        "id": "nyaonuko_Vtuber",
+        "url": "https://x.com/nyaonuko_Vtuber"
+      }
+    ],
+    "primary_platforms": [],
+    "source_profiles": [
+      "https://www.youtube.com/@nyaonuko",
+      "https://x.com/nyaonuko_Vtuber"
+    ]
+  },
+  {
+    "source_id": "agency-ozon:modal-akira",
+    "display_name": "橙ノあきら",
+    "reading": "とうのあきら",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/BKB0FyqcYD?uuid=c9210c63",
+    "name_source": "https://web.iriam.app/s/user/BKB0FyqcYD?uuid=c9210c63",
+    "activity_source": "https://web.iriam.app/s/user/BKB0FyqcYD?uuid=c9210c63",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "BKB0FyqcYD",
+        "url": "https://web.iriam.app/s/user/BKB0FyqcYD?uuid=c9210c63"
+      },
+      {
+        "platform": "x",
+        "id": "Orange_OZON",
+        "url": "https://x.com/Orange_OZON"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/BKB0FyqcYD?uuid=c9210c63",
+    "primary_platform_evidence": "user_submitted_platform"
+  },
+  {
+    "source_id": "agency-clover:lyrica",
+    "display_name": "癒月リリカ",
+    "reading": "ゆづきりりか",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/chOzTCCpeM?uuid=d63ef52f",
+    "name_source": "https://web.iriam.app/s/user/chOzTCCpeM?uuid=d63ef52f",
+    "activity_source": "https://web.iriam.app/s/user/chOzTCCpeM?uuid=d63ef52f",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "chOzTCCpeM",
+        "url": "https://web.iriam.app/s/user/chOzTCCpeM?uuid=d63ef52f"
+      },
+      {
+        "platform": "x",
+        "id": "LyRiCa208",
+        "url": "https://x.com/LyRiCa208"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/chOzTCCpeM?uuid=d63ef52f",
+    "primary_platform_evidence": "user_submitted_platform"
+  },
+  {
+    "source_id": "submission:20260911:犬柴王次郎",
+    "display_name": "犬柴王次郎",
+    "reading": "いぬしばおうじろう",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://web.iriam.app/s/user/BHmZUMywfD?uuid=3ac08ef5",
+    "name_source": "https://web.iriam.app/s/user/BHmZUMywfD?uuid=3ac08ef5",
+    "activity_source": "https://web.iriam.app/s/user/BHmZUMywfD?uuid=3ac08ef5",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "iriam",
+        "id": "BHmZUMywfD",
+        "url": "https://web.iriam.app/s/user/BHmZUMywfD?uuid=3ac08ef5"
+      },
+      {
+        "platform": "x",
+        "id": "wanwano_iriam",
+        "url": "https://x.com/wanwano_iriam"
+      }
+    ],
+    "primary_platforms": [
+      "iriam"
+    ],
+    "primary_platform_source": "https://web.iriam.app/s/user/BHmZUMywfD?uuid=3ac08ef5",
+    "primary_platform_evidence": "user_submitted_platform"
+  },
+  {
+    "source_id": "youtube:UCp-8cPCziyRz2OXJWBOjsCQ",
+    "display_name": "さえきやひろ",
+    "reading": "さえきやひろ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "VTuber",
+    "aliases": [],
+    "source_url": "https://www.youtube.com/@yahiro_room",
+    "name_source": "https://www.youtube.com/@yahiro_room",
+    "activity_source": "https://www.youtube.com/@yahiro_room",
+    "activity_evidence": "user_forwarded_creator_profile",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [
+      {
+        "platform": "youtube",
+        "id": "@yahiro_room",
+        "url": "https://www.youtube.com/@yahiro_room"
+      }
+    ],
+    "primary_platforms": []
+  },
+  {
+    "source_id": "submission:20260911:無明みはて",
+    "display_name": "無明みはて",
+    "reading": "むみょうみはて",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "name_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_evidence": "user_forwarded_official_notice_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [],
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "primary_platform_evidence": "user_submitted_platform",
+    "verification_note": "Notice title accessible; body requires JavaScript. Names and readings supplied by user; personal profile URL not supplied."
+  },
+  {
+    "source_id": "agency-321:月焔つきひ",
+    "display_name": "月焔つきひ",
+    "reading": "げつえんつきひ",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "name_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_evidence": "user_forwarded_official_notice_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [],
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "primary_platform_evidence": "user_submitted_platform",
+    "verification_note": "Notice title accessible; body requires JavaScript. Names and readings supplied by user; personal profile URL not supplied."
+  },
+  {
+    "source_id": "submission:20260911:涼暮みんと",
+    "display_name": "涼暮みんと",
+    "reading": "すずくれみんと",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "name_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_evidence": "user_forwarded_official_notice_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [],
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "primary_platform_evidence": "user_submitted_platform",
+    "verification_note": "Notice title accessible; body requires JavaScript. Names and readings supplied by user; personal profile URL not supplied."
+  },
+  {
+    "source_id": "submission:20260911:夜薔薇朔",
+    "display_name": "夜薔薇朔",
+    "reading": "よばらさく",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "name_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_evidence": "user_forwarded_official_notice_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [],
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "primary_platform_evidence": "user_submitted_platform",
+    "verification_note": "Notice title accessible; body requires JavaScript. Names and readings supplied by user; personal profile URL not supplied."
+  },
+  {
+    "source_id": "submission:20260911:猫守ユラ",
+    "display_name": "猫守ユラ",
+    "reading": "ねこもりゆら",
+    "reading_source": "creator_submission",
+    "reading_source_kind": "manual",
+    "category": "Vライバー",
+    "aliases": [],
+    "source_url": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "name_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "activity_evidence": "user_forwarded_official_notice_listing",
+    "submitted_at": "2026-09-11",
+    "platform_accounts": [],
+    "primary_platforms": [
+      "reality"
+    ],
+    "primary_platform_source": "https://reality.app/notice/page/ns5t4cdn9ewg",
+    "primary_platform_evidence": "user_submitted_platform",
+    "verification_note": "Notice title accessible; body requires JavaScript. Names and readings supplied by user; personal profile URL not supplied."
   }
 ];
   const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/\s/g, '');
