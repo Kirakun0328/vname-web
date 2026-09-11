@@ -1,18 +1,5 @@
 name: Collect verified creators toward 60000
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/collect-to-target.yml'
-      - 'scripts/collection-goal.json'
-      - 'scripts/profile_backoff.py'
-      - 'scripts/collection_checkpoint.py'
-      - 'scripts/run_target_campaign.py'
-      - 'scripts/discover_primary_search.py'
-      - 'scripts/verify_searxng_candidates.py'
-      - 'scripts/reviewed-community-submissions-2026-09-09-4.json'
-  schedule:
-    - cron: '13 */2 * * *'
   workflow_dispatch:
 permissions:
   contents: write
