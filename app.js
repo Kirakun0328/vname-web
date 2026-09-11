@@ -27,7 +27,7 @@ function load(data){
  // Platform-only/licensed metadata rows can exist without a display name. They
  // are useful as overlays but are not independently searchable identities.
  records=data.filter(r=>r.display_name&&r.listing_status!=='predebut'&&!preparingName(r.display_name)).map(original=>{
-  const hasOwnReading=original.reading&&original.reading_source&&['official','profile_explicit'].includes(original.reading_source_kind);
+  const hasOwnReading=original.reading&&original.reading_source&&['manual','official','profile_explicit'].includes(original.reading_source_kind);
   const correction=hasOwnReading?undefined:corrections.get(key(original.display_name)),r={...original,...correction,corrected:!!correction};
   Object.assign(r,resolveReading(r));
   r.romanized_name=r.romanized_source?r.romanized_name:'';

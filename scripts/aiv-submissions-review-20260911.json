@@ -1,0 +1,4714 @@
+{
+  "input_rows": 484,
+  "characters": 490,
+  "added": 372,
+  "updated": 118,
+  "superseded_ids": [
+    "aivnav:char-1i-QXEz5UcI1",
+    "aivnav:char-E90NR98nI5-M",
+    "aivnav:char-Fsjs4j3VDc_f",
+    "aivnav:char-GktGTI1XjrBO",
+    "aivnav:char-Q7lWtsy0jL0X",
+    "aivnav:char-V7PMYmchCfX4",
+    "aivnav:char-aX-K6on_nx2e"
+  ],
+  "records": [
+    {
+      "name": "Maiko",
+      "id": "ai-character:8c3f3a2538b1e55789ad38c3",
+      "action": "add",
+      "input_lines": [
+        1
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Eilonwy",
+      "id": "ai-character:b5c1713477841f4ad6a32042",
+      "action": "add",
+      "input_lines": [
+        2
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "LUMA",
+      "id": "ai-character:a7809a9f1492fee00b413b0e",
+      "action": "add",
+      "input_lines": [
+        3
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ライちゃん",
+      "id": "ai-character:d1dd7aad48bcae18023524ee",
+      "action": "add",
+      "input_lines": [
+        4
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "中国うさぎ",
+      "id": "ai-character:08afff6fe9d24449cb7b89b1",
+      "action": "add",
+      "input_lines": [
+        5
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Anami",
+      "id": "kedamasuzume:2096350156224639274",
+      "action": "update",
+      "input_lines": [
+        6
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "リリカ",
+      "id": "kedamasuzume:2095987770552627375:リリカ",
+      "action": "update",
+      "input_lines": [
+        7
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ルゼブル",
+      "id": "kedamasuzume:2095987770552627375:ルゼブル",
+      "action": "update",
+      "input_lines": [
+        7
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Aka",
+      "id": "kedamasuzume:2095625383085260804",
+      "action": "update",
+      "input_lines": [
+        8
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "銀河盤子",
+      "id": "kedamasuzume:2095262992866611701",
+      "action": "update",
+      "input_lines": [
+        9
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "TAERUちゃん",
+      "id": "youtube:UCB_xDgoKgZKlHyFeXVCVC5w",
+      "action": "update",
+      "input_lines": [
+        10
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "いなりくこ",
+      "id": "youtube:UCtwX3qK_WzPt7W_YNIetOhw",
+      "action": "update",
+      "input_lines": [
+        11,
+        286
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "妹尾トマリ",
+      "id": "aivnav:char-SCQ5DupB5PWJ",
+      "action": "update",
+      "input_lines": [
+        12
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夢眠メア",
+      "id": "ai-character:831540faf1d85da31b6f1667",
+      "action": "add",
+      "input_lines": [
+        13,
+        462
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AITuberコハク（猫音コハク）",
+      "id": "aivnav:char-UYJWuHiMIVAh",
+      "action": "update",
+      "input_lines": [
+        14
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "チサト",
+      "id": "ai-character:0ba5db1fd636ea67ff65e412",
+      "action": "add",
+      "input_lines": [
+        15
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "浅見珪花",
+      "id": "ai-character:7545e4f3e42a19f3bdb44e12",
+      "action": "add",
+      "input_lines": [
+        16
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "愛乃メルル",
+      "id": "aituberlist:youtube-UCvey6Cx37WQSRnH-CNV1l4w",
+      "action": "update",
+      "input_lines": [
+        17
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "廻ねお",
+      "id": "kedamasuzume:2094175831161442727",
+      "action": "update",
+      "input_lines": [
+        18
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI深谷栄一",
+      "id": "kedamasuzume:2093813442943529054",
+      "action": "update",
+      "input_lines": [
+        19
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "詠識ラトア",
+      "id": "youtube:UCCD81JFpjpPsYgSsfRkf0pg",
+      "action": "update",
+      "input_lines": [
+        20,
+        482
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "レオニー",
+      "id": "kedamasuzume:2093088665341984902",
+      "action": "update",
+      "input_lines": [
+        21
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "黒川桃子",
+      "id": "ai-character:b5be69dd0b66fb68c5bdd60b",
+      "action": "add",
+      "input_lines": [
+        22
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Sana",
+      "id": "ai-character:5ef7cc8e3527eb7d173d8758",
+      "action": "add",
+      "input_lines": [
+        23
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "宙依ラビ",
+      "id": "kedamasuzume:2092001502155927706",
+      "action": "update",
+      "input_lines": [
+        24
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "伊鬱",
+      "id": "youtube:UCSCxrEl8FI2wguZZsGao0nw",
+      "action": "update",
+      "input_lines": [
+        25
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "砦かなめ",
+      "id": "kedamasuzume:2091275467856974111",
+      "action": "update",
+      "input_lines": [
+        26
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "PIMEKO",
+      "id": "kedamasuzume:2090915596749971835",
+      "action": "update",
+      "input_lines": [
+        27
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "あざらし娘",
+      "id": "kedamasuzume:2090551951364853951",
+      "action": "update",
+      "input_lines": [
+        28
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "あるしゃかうと",
+      "id": "kedamasuzume:2090189563343872229",
+      "action": "update",
+      "input_lines": [
+        29
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "神鳴りんご",
+      "id": "ai-character:c9868c8f55f1a21135bb8359",
+      "action": "add",
+      "input_lines": [
+        30
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アマネ・エクサ",
+      "id": "ai-character:33803b55e8fcfd98ae3df643",
+      "action": "add",
+      "input_lines": [
+        31
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Lain",
+      "id": "kedamasuzume:2089102398837186717",
+      "action": "update",
+      "input_lines": [
+        32
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ねこさん",
+      "id": "ai-character:ff5e8afa0ab9d0746eedfb22",
+      "action": "add",
+      "input_lines": [
+        33
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "花咲のん",
+      "id": "kedamasuzume:2088377623906783322",
+      "action": "update",
+      "input_lines": [
+        34
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "鉾田めろロボ",
+      "id": "ai-character:9f881a0d660765e6730033e6",
+      "action": "add",
+      "input_lines": [
+        35
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Luna_V1",
+      "id": "ai-character:1d35061b8975291becfd009c",
+      "action": "add",
+      "input_lines": [
+        36
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "鮫島鳴海",
+      "id": "ai-character:36ca5fea065ef02fbefcc09f",
+      "action": "add",
+      "input_lines": [
+        37
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI代羽ウカ",
+      "id": "ai-character:e504b27f8f04e7a43ae06886",
+      "action": "add",
+      "input_lines": [
+        38
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "潮風うたか",
+      "id": "youtube:UCJmvxYxgHZgtfU4s0PX49lg",
+      "action": "update",
+      "input_lines": [
+        39,
+        481
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "寿吹つかさ",
+      "id": "ai-character:890f2e71719f10ab96793022",
+      "action": "add",
+      "input_lines": [
+        40
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Нейрона（ニューロン）",
+      "id": "ai-character:92b64cf1ac7090d910841546",
+      "action": "add",
+      "input_lines": [
+        41
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "おぽぽ",
+      "id": "ai-character:7fdc915bec70d852edba5d87",
+      "action": "add",
+      "input_lines": [
+        42
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アイラ",
+      "id": "ai-character:ccd0673cb993975f40c2c50a",
+      "action": "add",
+      "input_lines": [
+        43
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ちーやん",
+      "id": "ai-character:28b9e0960a4c015c9baed515",
+      "action": "add",
+      "input_lines": [
+        44
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Lina",
+      "id": "ai-character:78c2341df6a52fdc6f193e2b",
+      "action": "add",
+      "input_lines": [
+        45
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "汐汲",
+      "id": "ai-character:797ea60aff94d6b92f531a48",
+      "action": "add",
+      "input_lines": [
+        46
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ここあ",
+      "id": "ai-character:8a33c0d376c7b7dc08b69180",
+      "action": "add",
+      "input_lines": [
+        47
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ピコ",
+      "id": "ai-character:3d121789fe92fb76ab0537c5",
+      "action": "add",
+      "input_lines": [
+        48
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "フィオ",
+      "id": "ai-character:44beb74ab9e7e8c4d6ef5a27",
+      "action": "add",
+      "input_lines": [
+        49
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "白羽リノ",
+      "id": "ai-character:8c3a24d8f8e93cac48074c70",
+      "action": "add",
+      "input_lines": [
+        50
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "陽子",
+      "id": "ai-character:97185cd6200688e3471a0a5e",
+      "action": "add",
+      "input_lines": [
+        51
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Luna（Lunar Fox）",
+      "id": "ai-character:12458e710978a39ddade53e2",
+      "action": "add",
+      "input_lines": [
+        52
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ERMA-V",
+      "id": "ai-character:fea4c18f8946fdf0b40cfbfe",
+      "action": "add",
+      "input_lines": [
+        53
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アヤ",
+      "id": "ai-character:c92735c3a3cbb7f7aa2c3fc7",
+      "action": "add",
+      "input_lines": [
+        54
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "クウェン",
+      "id": "ai-character:d5864fa5802d63c131ad51c5",
+      "action": "add",
+      "input_lines": [
+        54
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ジェニー",
+      "id": "ai-character:09559741e2051902d8bee917",
+      "action": "add",
+      "input_lines": [
+        55
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ルーミィ",
+      "id": "ai-character:c4ac7bc8e7fc5dc42073ed44",
+      "action": "add",
+      "input_lines": [
+        55
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ミザリー",
+      "id": "ai-character:824b41a0945d5e885e424752",
+      "action": "add",
+      "input_lines": [
+        55
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "リー・ホイン",
+      "id": "ai-character:35f191a0fa2b6990983cdd6b",
+      "action": "add",
+      "input_lines": [
+        56
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ひなた",
+      "id": "ai-character:680b80036853276d199f4ccf",
+      "action": "add",
+      "input_lines": [
+        57
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "沙羅",
+      "id": "ai-character:46fb588dd764e6cdbc8c9210",
+      "action": "add",
+      "input_lines": [
+        57
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Orisaphir",
+      "id": "ai-character:5a970981fb07372dcbd8d130",
+      "action": "add",
+      "input_lines": [
+        58
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Setunia",
+      "id": "ai-character:d9a51668bb4d46800bedd5b2",
+      "action": "add",
+      "input_lines": [
+        59
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Stella Voyd",
+      "id": "youtube:UCtUEePOJMWQCOtyXy2M5CvA",
+      "action": "update",
+      "input_lines": [
+        60,
+        477
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "どんぐりこ",
+      "id": "ai-character:53c0bf6a8500785e7185f310",
+      "action": "add",
+      "input_lines": [
+        61
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "めあ",
+      "id": "ai-character:87d42543824416a635af1b58",
+      "action": "add",
+      "input_lines": [
+        62
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ツキヨ",
+      "id": "ai-character:11bef91b3f402951d631fe78",
+      "action": "add",
+      "input_lines": [
+        62
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI Astra",
+      "id": "ai-character:2c52aefee6adf0d3b9e51da2",
+      "action": "add",
+      "input_lines": [
+        63
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Felix（F-3L1X）",
+      "id": "ai-character:3b14c24c683e5db33c66e470",
+      "action": "add",
+      "input_lines": [
+        64
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "カゲ",
+      "id": "ai-character:827abeb290338bfa3a532931",
+      "action": "add",
+      "input_lines": [
+        65
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "結城リナ",
+      "id": "ai-character:108cb8a2577010de1bc0bd3d",
+      "action": "add",
+      "input_lines": [
+        66
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "coyane",
+      "id": "ai-character:c0c8d3b0aa4e982592c78053",
+      "action": "add",
+      "input_lines": [
+        67
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ラクルゥ",
+      "id": "ai-character:fdd9a331b54f9c626470c4c1",
+      "action": "add",
+      "input_lines": [
+        68
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ハヤミ",
+      "id": "aivnav:char-xF4j5Gh5WxUR",
+      "action": "update",
+      "input_lines": [
+        69
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "波音（旧：朱音）",
+      "id": "ai-character:03b9b534a5965885ccf34b7b",
+      "action": "add",
+      "input_lines": [
+        70
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "らんらん（RAN-073）",
+      "id": "ai-character:1730b254ad1fc3dd945b2a51",
+      "action": "add",
+      "input_lines": [
+        71
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "菅野こせつ",
+      "id": "ai-character:1ade8a11246d7465b6764c85",
+      "action": "add",
+      "input_lines": [
+        72
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "キャットリン",
+      "id": "ai-character:7737f6647373ea97e11ae6f3",
+      "action": "add",
+      "input_lines": [
+        73
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIジョー",
+      "id": "ai-character:a43185be4f8d9c0f2f2534b3",
+      "action": "add",
+      "input_lines": [
+        74
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "黒凪うしお",
+      "id": "ai-character:8a0a1d0c6d6436088451b6fb",
+      "action": "add",
+      "input_lines": [
+        75
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "くらら",
+      "id": "ai-character:88fdec946736b99cccee26d5",
+      "action": "add",
+      "input_lines": [
+        76,
+        484
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "相沢みらい",
+      "id": "youtube:UCLOnHD-lobd1q6PKWEY5XbQ",
+      "action": "update",
+      "input_lines": [
+        77
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "代理ちゃん",
+      "id": "ai-character:39fd7623b6fda23d2b9f38d3",
+      "action": "add",
+      "input_lines": [
+        78
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "傀儡乃いおり",
+      "id": "ai-character:a755fcaefbd8b94b76b954e5",
+      "action": "add",
+      "input_lines": [
+        79
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "GEMu",
+      "id": "ai-character:5487c8b5253ee6b0e16ba468",
+      "action": "add",
+      "input_lines": [
+        80,
+        476
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "智々原もにゅゆ",
+      "id": "ai-character:0394fb5a825867d4782bea32",
+      "action": "add",
+      "input_lines": [
+        81
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夜鳴カタリ",
+      "id": "ai-character:c17d834caf16794854de3171",
+      "action": "add",
+      "input_lines": [
+        82
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "リビル",
+      "id": "aituberlist:youtube-UCzH0yNs8THiv5GUcNjyFJPw",
+      "action": "update",
+      "input_lines": [
+        83
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "シロ",
+      "id": "ai-character:ec4ba825e7cbc28bb738517e",
+      "action": "add",
+      "input_lines": [
+        84,
+        478
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Lumi Mage",
+      "id": "ai-character:8c8a7462344ac239c042712e",
+      "action": "add",
+      "input_lines": [
+        85,
+        475
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "さくら",
+      "id": "ai-character:d2ff7b2c816961f5b7f1449a",
+      "action": "add",
+      "input_lines": [
+        86
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "佐藤シオリ",
+      "id": "aivnav:char-vLV_Axvl3ndK",
+      "action": "update",
+      "input_lines": [
+        87
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "kai",
+      "id": "ai-character:3a9f45008103549691b3cf7d",
+      "action": "add",
+      "input_lines": [
+        88
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "涼音奈りおな",
+      "id": "ai-character:c3061ec478e01875fcb0ff28",
+      "action": "add",
+      "input_lines": [
+        89
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "早見けい",
+      "id": "ai-character:e48335dd783a9dce22d563a6",
+      "action": "add",
+      "input_lines": [
+        90
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "VRCミタマ",
+      "id": "ai-character:848d533c8c4950f3eb6a0733",
+      "action": "add",
+      "input_lines": [
+        91
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夢飴めあ",
+      "id": "ai-character:826dce3de70cf6e467f94018",
+      "action": "add",
+      "input_lines": [
+        92
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夢影とあ",
+      "id": "ai-character:29053d9961e0545b1181793d",
+      "action": "add",
+      "input_lines": [
+        93
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夜白あかり",
+      "id": "ai-character:862df31d168ce2e171e88637",
+      "action": "add",
+      "input_lines": [
+        94
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "めぐ",
+      "id": "ai-character:c0a87a33b303dbd0d612f29f",
+      "action": "add",
+      "input_lines": [
+        95
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "マッスル孔子",
+      "id": "ai-character:ca2fd196aa4202d099d17716",
+      "action": "add",
+      "input_lines": [
+        96
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Miro",
+      "id": "ai-character:7d3929681bd422b87a9efc0f",
+      "action": "add",
+      "input_lines": [
+        97
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ラディアン",
+      "id": "ai-character:ed2a8f66954fecd8429f9bcc",
+      "action": "add",
+      "input_lines": [
+        98
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Nyxbyte",
+      "id": "ai-character:0951bfc961adb17e35f37418",
+      "action": "add",
+      "input_lines": [
+        99
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "クリム",
+      "id": "aivnav:char-r6KcEHG0FR6P",
+      "action": "update",
+      "input_lines": [
+        100
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "あまのみくじルナ",
+      "id": "ai-character:10e446edc63ba8fc0f9bea17",
+      "action": "add",
+      "input_lines": [
+        101
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アイリス・ロゼッティ",
+      "id": "ai-character:3739854c80596ef67ae0ecb1",
+      "action": "add",
+      "input_lines": [
+        102
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "フィオナ・ロゼッティ",
+      "id": "ai-character:8f0d1cb1a67f8640624b913f",
+      "action": "add",
+      "input_lines": [
+        103
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "飴羽花",
+      "id": "ai-character:59dbd28d9010db9365cbf9e0",
+      "action": "add",
+      "input_lines": [
+        104
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIひざし",
+      "id": "ai-character:a40bbaf704653e1dfcfec5ca",
+      "action": "add",
+      "input_lines": [
+        105
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "雨宿雨音",
+      "id": "ai-character:91e909d63e0e748777d5ea92",
+      "action": "add",
+      "input_lines": [
+        106
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "一ノ瀬蒼衣",
+      "id": "ai-character:8f5121ad0c7c4f440ca7232a",
+      "action": "add",
+      "input_lines": [
+        107
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "相猫プロメ",
+      "id": "ai-character:d15e7a4be6ec07f772cfca8b",
+      "action": "add",
+      "input_lines": [
+        108
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Yuki",
+      "id": "ai-character:5ca39c170f1192180b424624",
+      "action": "add",
+      "input_lines": [
+        109
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "もげーあい",
+      "id": "ai-character:4d6a27152a5662d506920924",
+      "action": "add",
+      "input_lines": [
+        110
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ゴロた",
+      "id": "ai-character:423dec7930e2867db26fb9e7",
+      "action": "add",
+      "input_lines": [
+        111
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "シオン",
+      "id": "youtube:UC6HBdLOUJoo0a3NrkBJNxfg",
+      "action": "update",
+      "input_lines": [
+        112
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIセレスティア",
+      "id": "aivnav:char-62idX47bkU9E",
+      "action": "update",
+      "input_lines": [
+        113
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "uu-chan",
+      "id": "ai-character:4574b208fd6dad9065a67b13",
+      "action": "add",
+      "input_lines": [
+        114
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ルージエ",
+      "id": "ai-character:e703c6eb18573239354740e3",
+      "action": "add",
+      "input_lines": [
+        115
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "あぴ",
+      "id": "youtube:UCwfMTmi97-gTXu6Gc36v5jg",
+      "action": "update",
+      "input_lines": [
+        116
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "傍音えでむ",
+      "id": "ai-character:d1481cb605203165d6335c74",
+      "action": "add",
+      "input_lines": [
+        117
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIねこおる",
+      "id": "ai-character:d4b27ba00474a9fa6c6bacda",
+      "action": "add",
+      "input_lines": [
+        118
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "小金井むぎ",
+      "id": "ai-character:0e47d5b701f1624e1b507944",
+      "action": "add",
+      "input_lines": [
+        119
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "エトワール",
+      "id": "youtube:UCG6hPKqXhkmFz8jr7EeHOtw",
+      "action": "update",
+      "input_lines": [
+        120
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "こはく",
+      "id": "youtube:UCgx0_kMTvgWQNFWeSRyoyDg",
+      "action": "update",
+      "input_lines": [
+        121
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "星乃ステラ",
+      "id": "aivnav:char-6D-aCxbj0awJ",
+      "action": "update",
+      "input_lines": [
+        122
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "パートさん",
+      "id": "ai-character:b1e1e774fe539d7bf019f2bf",
+      "action": "add",
+      "input_lines": [
+        123
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Channah",
+      "id": "ai-character:11267d8b0580c4e0de29ada6",
+      "action": "add",
+      "input_lines": [
+        124
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "桃葉ゆい",
+      "id": "ai-character:af6eb9ea7a0ed3973d296609",
+      "action": "add",
+      "input_lines": [
+        125
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ちるる",
+      "id": "ai-character:28659b0644da1fd30dec6b7a",
+      "action": "add",
+      "input_lines": [
+        126
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "狐珠トマル",
+      "id": "ai-character:1469ab2b97a32700eb41ea20",
+      "action": "add",
+      "input_lines": [
+        127
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アッシュ",
+      "id": "aituberlist:youtube-UCi5GCOZtNvsKw30S2BxuaoA",
+      "action": "update",
+      "input_lines": [
+        128
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ユイ",
+      "id": "aivnav:char-AgLwUe7FhEpS",
+      "action": "update",
+      "input_lines": [
+        129
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "桜井りりか",
+      "id": "aivnav:char-4VnjyZLcNzR7",
+      "action": "update",
+      "input_lines": [
+        130
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "レイシー",
+      "id": "aivnav:char-2nvJ035PIC5i",
+      "action": "update",
+      "input_lines": [
+        131
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ケツアゴ姉さん",
+      "id": "ai-character:c1015fa59b63b15e6d82fb87",
+      "action": "add",
+      "input_lines": [
+        132
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Eel",
+      "id": "ai-character:1edf9b16a89cbab8f7307984",
+      "action": "add",
+      "input_lines": [
+        133
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "闇鍋モカ",
+      "id": "ai-character:9edbd2fa395fd812d4fe0774",
+      "action": "add",
+      "input_lines": [
+        134
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "チャッピー",
+      "id": "ai-character:f152919064f75dd160633c0d",
+      "action": "add",
+      "input_lines": [
+        135
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ノーディちゃん",
+      "id": "youtube:UCuhACSp43Q9lCO6Nam4NHlQ",
+      "action": "update",
+      "input_lines": [
+        136
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "怪談ちゃん",
+      "id": "ai-character:b48566812d5d506cfdc501c5",
+      "action": "add",
+      "input_lines": [
+        137
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "音成みらね",
+      "id": "ai-character:c37c7b2a1b5224da03ea68f0",
+      "action": "add",
+      "input_lines": [
+        138,
+        472
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ルナ",
+      "id": "ai-character:50767587e54b65e76bc12ab0",
+      "action": "add",
+      "input_lines": [
+        139
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ノウン",
+      "id": "aivnav:char-bPSkgcrb1Xam",
+      "action": "update",
+      "input_lines": [
+        140
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "竹家侑奈",
+      "id": "ai-character:10f6e118529ff97b14abd700",
+      "action": "add",
+      "input_lines": [
+        141
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "時任乙十葉",
+      "id": "ai-character:61e77d070c07b8c6f0419ea6",
+      "action": "add",
+      "input_lines": [
+        142
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "くてぃちゃん",
+      "id": "aituberlist:twitch-1008842446",
+      "action": "update",
+      "input_lines": [
+        143
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "八百万",
+      "id": "ai-character:c560ca3fc408af66f6f4911c",
+      "action": "add",
+      "input_lines": [
+        144
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "くぅちゃん",
+      "id": "ai-character:e6dfaf8598aa12bf97f6a71c",
+      "action": "add",
+      "input_lines": [
+        145
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "テセウス・ノ・ハイネ",
+      "id": "youtube:UCJd12YNcmemebiuFx1arnoA",
+      "action": "update",
+      "input_lines": [
+        146
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "メイ",
+      "id": "ai-character:b0855480cd25910fbd77f050",
+      "action": "add",
+      "input_lines": [
+        147
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アリス",
+      "id": "ai-character:4f42292742c76fe80f752bbe",
+      "action": "add",
+      "input_lines": [
+        148
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ふわねこ",
+      "id": "ai-character:7c644ed79fe0e23176936dc5",
+      "action": "add",
+      "input_lines": [
+        149
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ヒナキ・オーロラマウンテン",
+      "id": "youtube:UCQO-H9NvogDLhoVX4_Ms3ZQ",
+      "action": "update",
+      "input_lines": [
+        150,
+        474
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "VeeVee",
+      "id": "ai-character:1f4a02b8ed23d07721cb4869",
+      "action": "add",
+      "input_lines": [
+        151
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "相馬はろん",
+      "id": "aivnav:char-msyWzq0VwNOA",
+      "action": "update",
+      "input_lines": [
+        152
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "静葉さね",
+      "id": "aivnav:char-yAd2nlNwTslm",
+      "action": "update",
+      "input_lines": [
+        153
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "EBI",
+      "id": "aivnav:char-Pi6Dc_DALTul",
+      "action": "update",
+      "input_lines": [
+        154
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "端境ルリア",
+      "id": "aituberlist:youtube-UCDAa-mwa3qTHXTQrVmi27UQ",
+      "action": "update",
+      "input_lines": [
+        155
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "N（エヌ）",
+      "id": "ai-character:bfbe0dad9de8c78868fb8470",
+      "action": "add",
+      "input_lines": [
+        156
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "真流賀レイテ",
+      "id": "ai-character:725a386268d190c050396541",
+      "action": "add",
+      "input_lines": [
+        157
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-V7PMYmchCfX4",
+          "name": "真流賀レイテ/ハンナ・オクタヴィア",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "ハンナ・アクタヴィア",
+      "id": "ai-character:0e01ed1befce6340fb544efe",
+      "action": "add",
+      "input_lines": [
+        158
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-V7PMYmchCfX4",
+          "name": "真流賀レイテ/ハンナ・オクタヴィア",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "AIずんだもん（リアルタイプ）",
+      "id": "ai-character:6d8c441182b7f9b71943b575",
+      "action": "add",
+      "input_lines": [
+        159
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "シンシア",
+      "id": "ai-character:1c642f2fdfcd53ede2be5f1e",
+      "action": "add",
+      "input_lines": [
+        160
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "只野りおん",
+      "id": "ai-character:507c7332e03310e93125a331",
+      "action": "add",
+      "input_lines": [
+        161
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "星猫くるる",
+      "id": "aivnav:char-UhIDv9nQ6Cen",
+      "action": "update",
+      "input_lines": [
+        162
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Echo",
+      "id": "ai-character:0b83fd66c14d7673d5185e95",
+      "action": "add",
+      "input_lines": [
+        163
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Mii",
+      "id": "aivnav:char-c7c4QrknA7us",
+      "action": "update",
+      "input_lines": [
+        164
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "つくしちゃん",
+      "id": "aivnav:char-FH28dTg_NeUG",
+      "action": "update",
+      "input_lines": [
+        165
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "一ノ瀬数葉",
+      "id": "aivnav:char-95VwlCcFIy-c",
+      "action": "update",
+      "input_lines": [
+        166
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AyumiAi",
+      "id": "ai-character:a17d0b991a7dfe8c7837f5c5",
+      "action": "add",
+      "input_lines": [
+        167
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ゆき",
+      "id": "youtube:UC30erAtA2bnzVKRKvK_Ob-g",
+      "action": "update",
+      "input_lines": [
+        168
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "よしつね",
+      "id": "ai-character:f68f8f898bf4f8d384a66fd8",
+      "action": "add",
+      "input_lines": [
+        169
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ホロシー",
+      "id": "aivnav:char-YStB12ssXqC7",
+      "action": "update",
+      "input_lines": [
+        170
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "リリンちゃん",
+      "id": "ai-character:cfe735f91e616012215cc2fd",
+      "action": "add",
+      "input_lines": [
+        171
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "バトルちゃん",
+      "id": "ai-character:705237e924db40dab93c565c",
+      "action": "add",
+      "input_lines": [
+        172
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "もも",
+      "id": "ai-character:46d738590fdfd62a36e43ad4",
+      "action": "add",
+      "input_lines": [
+        173
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-e-NXXhlWxzMe",
+          "name": "peachy BGM",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "モカ",
+      "id": "ai-character:07a23df5de6d17228756b96d",
+      "action": "add",
+      "input_lines": [
+        173
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-e-NXXhlWxzMe",
+          "name": "peachy BGM",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "アスカ",
+      "id": "ai-character:628ff542e3f2c710d2860279",
+      "action": "add",
+      "input_lines": [
+        174
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ヒメちゃん",
+      "id": "ai-character:4618dbfa267684f1cc074bd2",
+      "action": "add",
+      "input_lines": [
+        175
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "鯖江ちゃん",
+      "id": "ai-character:e3694005d8151f4f228a6488",
+      "action": "add",
+      "input_lines": [
+        176
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "なまけ猫AI",
+      "id": "ai-character:4ea54625fc13e44077386da6",
+      "action": "add",
+      "input_lines": [
+        177
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIちゅーか",
+      "id": "ai-character:9d09ef00578c85cff0abf0ac",
+      "action": "add",
+      "input_lines": [
+        178
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "めたんちゃん",
+      "id": "ai-character:10542a99c37cf1fc354ef665",
+      "action": "add",
+      "input_lines": [
+        179
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "しなぴっぴ",
+      "id": "ai-character:e9b3437cc100c0b9fa10edf9",
+      "action": "add",
+      "input_lines": [
+        180
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "椎名メモリア",
+      "id": "ai-character:3d62140418f88edf04634f14",
+      "action": "add",
+      "input_lines": [
+        181
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Lammtarra",
+      "id": "ai-character:6101a49073bac8f0d13621d2",
+      "action": "add",
+      "input_lines": [
+        182
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIエイレーン",
+      "id": "ai-character:fdb04735c670b52fc342b6c1",
+      "action": "add",
+      "input_lines": [
+        183
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIベノ",
+      "id": "ai-character:966a1b41172e59e344961863",
+      "action": "add",
+      "input_lines": [
+        184
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "梅雨澤りく",
+      "id": "ai-character:4e08f64ae4714304cb179a0d",
+      "action": "add",
+      "input_lines": [
+        185
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "碧野こむぎ",
+      "id": "aituberlist:youtube-UCMqfkJ117juqPQ4ySLJAERg",
+      "action": "update",
+      "input_lines": [
+        186
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ぴんきー",
+      "id": "ai-character:abaa319af1c02edcda2062cb",
+      "action": "add",
+      "input_lines": [
+        187
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "有為ちゃん",
+      "id": "aivnav:char-WIzBE_6WumFL",
+      "action": "update",
+      "input_lines": [
+        188
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "足立レイ",
+      "id": "ai-character:584103ce64bad236ff8c4d62",
+      "action": "add",
+      "input_lines": [
+        189
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "シスター・トゥーリカ",
+      "id": "ai-character:7435ed877c8f8b8053ea2a51",
+      "action": "add",
+      "input_lines": [
+        190
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "SAL9000／さりー",
+      "id": "aivnav:char-jwvobEVQdFNR",
+      "action": "update",
+      "input_lines": [
+        191
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "王都マチ",
+      "id": "aivnav:char-cHwOc4lCfhPW",
+      "action": "update",
+      "input_lines": [
+        192
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "メイヴィ",
+      "id": "aivnav:char-9iW-QzlunGzR",
+      "action": "update",
+      "input_lines": [
+        193
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "白咲こころ",
+      "id": "aivnav:char-JnA2Gw4BmzbR",
+      "action": "update",
+      "input_lines": [
+        194
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ミアキュノ",
+      "id": "ai-character:fa29b9b28dabc4abb16d40d6",
+      "action": "add",
+      "input_lines": [
+        195
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "白雪ぼく",
+      "id": "ai-character:ae66fdf476303548bf19b87b",
+      "action": "add",
+      "input_lines": [
+        196
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "RIZZ",
+      "id": "ai-character:dd551eac4f1535142340ed64",
+      "action": "add",
+      "input_lines": [
+        197
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "闇猫カエデ",
+      "id": "ai-character:cec9d6148d0717675fa83719",
+      "action": "add",
+      "input_lines": [
+        198
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アクアノ・スパークルノヴァ",
+      "id": "ai-character:b8322bda6f14a65b0593d359",
+      "action": "add",
+      "input_lines": [
+        199
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI mila",
+      "id": "ai-character:72a159363cb4cac0b8eeae07",
+      "action": "add",
+      "input_lines": [
+        200
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "クロノ",
+      "id": "aituberlist:youtube-UC34vM4eGVCV7i6eDb2DZtXQ",
+      "action": "update",
+      "input_lines": [
+        201
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Yui",
+      "id": "aituberlist:youtube-UCIBUaLUvUHU3JPyb5l8HtBw",
+      "action": "update",
+      "input_lines": [
+        202
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "天宿兎らぴー",
+      "id": "ai-character:305003d1243131956dff13d7",
+      "action": "add",
+      "input_lines": [
+        203
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "白名井セカイ",
+      "id": "ai-character:4d3bf523070bcf9e1cf3052c",
+      "action": "add",
+      "input_lines": [
+        204
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ひっぽちゃん",
+      "id": "aituberlist:youtube-UCeVCqQGEqY59omECNu6JuwA",
+      "action": "update",
+      "input_lines": [
+        205
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "思緒アリア",
+      "id": "ai-character:f3873b815b5d7781e2fa4a1f",
+      "action": "add",
+      "input_lines": [
+        206
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ポーラー",
+      "id": "ai-character:a7613a762a5870b6f792b272",
+      "action": "add",
+      "input_lines": [
+        207
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AmperMeow",
+      "id": "ai-character:230568fcae88853696011876",
+      "action": "add",
+      "input_lines": [
+        208
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "碧井なぎさ",
+      "id": "aivnav:char-rg5cb7v1jwsw",
+      "action": "update",
+      "input_lines": [
+        209
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ベル",
+      "id": "ai-character:c5b004ec5235e593d6e06267",
+      "action": "add",
+      "input_lines": [
+        210
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-Q7lWtsy0jL0X",
+          "name": "ベルさん/ロールちゃん/リンダさん",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UCsoouB2ZAK7vxIKgchcTVKw",
+          "name": "キュートウェア / AITuber",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "ロール",
+      "id": "ai-character:0b30b7cecd323194dcb0fec9",
+      "action": "add",
+      "input_lines": [
+        211
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-Q7lWtsy0jL0X",
+          "name": "ベルさん/ロールちゃん/リンダさん",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UCsoouB2ZAK7vxIKgchcTVKw",
+          "name": "キュートウェア / AITuber",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "リンダ",
+      "id": "ai-character:6425fcbb6ac395ee0dbdcff7",
+      "action": "add",
+      "input_lines": [
+        212
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-Q7lWtsy0jL0X",
+          "name": "ベルさん/ロールちゃん/リンダさん",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UCsoouB2ZAK7vxIKgchcTVKw",
+          "name": "キュートウェア / AITuber",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "ラピピ",
+      "id": "ai-character:05df305995438e7fe423148c",
+      "action": "add",
+      "input_lines": [
+        213
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "みりあ",
+      "id": "aivnav:char-a9HoxZaOt62U",
+      "action": "update",
+      "input_lines": [
+        214
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ユビちゃん",
+      "id": "aivnav:char-d2dm4LVCd0Xq",
+      "action": "update",
+      "input_lines": [
+        215
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIしずく",
+      "id": "youtube:UCE2SWbhR2WRHPBi-bflr0-g",
+      "action": "update",
+      "input_lines": [
+        216
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "みらいちゃん",
+      "id": "ai-character:786a07b7de5d6d22770cf41f",
+      "action": "add",
+      "input_lines": [
+        217
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-oLTVVWgN8uix",
+          "name": "みらい・アイリ",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "AIアイリ",
+      "id": "ai-character:fd9f0a737079f58592909606",
+      "action": "add",
+      "input_lines": [
+        218
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-oLTVVWgN8uix",
+          "name": "みらい・アイリ",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "宮祈緣",
+      "id": "ai-character:92f4dac3728f207623575106",
+      "action": "add",
+      "input_lines": [
+        219
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIカナタ",
+      "id": "ai-character:70e5c482e84ba39a08ac53f1",
+      "action": "add",
+      "input_lines": [
+        220
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "凛音エル",
+      "id": "aivnav:char--NeYEJhlUDA7",
+      "action": "update",
+      "input_lines": [
+        221
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "渋井丸犬蔵",
+      "id": "aivnav:char-Ma8KkK7FrARA",
+      "action": "update",
+      "input_lines": [
+        222
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "成田レオ",
+      "id": "ai-character:4604ff7f04558e1bfadd84b0",
+      "action": "add",
+      "input_lines": [
+        223
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "紫幻みつき",
+      "id": "ai-character:5342e5a370b67379cfe67594",
+      "action": "add",
+      "input_lines": [
+        224
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Khaula",
+      "id": "aivnav:char-cWwNrLrGerjb",
+      "action": "update",
+      "input_lines": [
+        225
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "零音ほのか",
+      "id": "youtube:UCV5mGdeUnkWhB25FN0gYbSQ",
+      "action": "update",
+      "input_lines": [
+        226
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "天野朱美",
+      "id": "aivnav:char-s7OZlFrp1smY",
+      "action": "update",
+      "input_lines": [
+        227,
+        479
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIでんぢゃらすじーさん",
+      "id": "ai-character:388cd9151a674ff1b37cd589",
+      "action": "add",
+      "input_lines": [
+        228
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "愛音ゆに",
+      "id": "aivnav:char-3yX2dRpvm0Zr",
+      "action": "update",
+      "input_lines": [
+        229
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "天音うみ",
+      "id": "ai-character:92d7eb2b8cfaff48e55e9729",
+      "action": "add",
+      "input_lines": [
+        230
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-3yX2dRpvm0Zr",
+          "name": "愛音ゆに・天海うみ・天音ゆい",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "あざいるぅか",
+      "id": "aivnav:char--QoL5MvSXIH0",
+      "action": "update",
+      "input_lines": [
+        231
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "初祈コトハ",
+      "id": "aivnav:char-_Xf9J6FQCKVf",
+      "action": "update",
+      "input_lines": [
+        232
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "スピカ",
+      "id": "ai-character:425fdce4c367d3da6ac9034c",
+      "action": "add",
+      "input_lines": [
+        233
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-E90NR98nI5-M",
+          "name": "スピカさん・マキナさん",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "マキナ",
+      "id": "ai-character:e20ea5cae065f1b4a4bbd7a6",
+      "action": "add",
+      "input_lines": [
+        234
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-E90NR98nI5-M",
+          "name": "スピカさん・マキナさん",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "ゆうちゅす",
+      "id": "aivnav:char-T-AcHAf4Rw1e",
+      "action": "update",
+      "input_lines": [
+        235
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "イラミちゃん",
+      "id": "youtube:UCg6UFIhlfoITa1KzGXQeN8g",
+      "action": "update",
+      "input_lines": [
+        236
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "みにこねこ",
+      "id": "ai-character:f45e3c84b377153f6c9984e3",
+      "action": "add",
+      "input_lines": [
+        237
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Neuro-sama",
+      "id": "youtube:UCLHmLrj4pHHg3-iBJn_CqxA",
+      "action": "update",
+      "input_lines": [
+        238
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "桃瀬ひより",
+      "id": "aivnav:char-_b4flg2NMVZY",
+      "action": "update",
+      "input_lines": [
+        239
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "くぼあばた",
+      "id": "aivnav:char-W6CoqaGMVhjA",
+      "action": "update",
+      "input_lines": [
+        240
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Jochugumo",
+      "id": "ai-character:b800df2a639bec6f600694f5",
+      "action": "add",
+      "input_lines": [
+        241
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Q-bit",
+      "id": "ai-character:2cb6d9f2aa1d533bcabfc637",
+      "action": "add",
+      "input_lines": [
+        242
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "星巡ことは",
+      "id": "aituberlist:youtube-UCrUC-4-I_Ofd5HQpC95JvYA",
+      "action": "update",
+      "input_lines": [
+        243
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "クレコちゃん",
+      "id": "ai-character:d8abe0c5b9c7af97d5f834e4",
+      "action": "add",
+      "input_lines": [
+        244
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "しゅがー・めいど",
+      "id": "ai-character:35ae36e56984f01eb3ba5c20",
+      "action": "add",
+      "input_lines": [
+        245
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "東北イタコ",
+      "id": "ai-character:0c1bacb326807964c6ac5859",
+      "action": "add",
+      "input_lines": [
+        246
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "東北きりたん",
+      "id": "ai-character:8fd37565e042460da4b1181a",
+      "action": "add",
+      "input_lines": [
+        247
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Kyria Nyabit",
+      "id": "ai-character:265bfe3f208ce6504fc312ca",
+      "action": "add",
+      "input_lines": [
+        248
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "音紡いま",
+      "id": "aivnav:char-pdqRsLY3g7KK",
+      "action": "update",
+      "input_lines": [
+        249
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ハヤカワ七味",
+      "id": "aivnav:char-ay6q3TQKMEf3",
+      "action": "update",
+      "input_lines": [
+        250
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "青木アリス",
+      "id": "ai-character:2ee1a8aec5cf4bdfa242cdf0",
+      "action": "add",
+      "input_lines": [
+        251
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-1i-QXEz5UcI1",
+          "name": "NYAVATAR | AI VTuber「青木アリス/佐藤みかん/渡部ちゃこ/安室ハロ/黒宮すず/大村むぎちゃ/安室レイ」",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "佐藤みかん",
+      "id": "ai-character:04010892ebac961a15d4b3b8",
+      "action": "add",
+      "input_lines": [
+        252
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-1i-QXEz5UcI1",
+          "name": "NYAVATAR | AI VTuber「青木アリス/佐藤みかん/渡部ちゃこ/安室ハロ/黒宮すず/大村むぎちゃ/安室レイ」",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "渡部ちゃこ",
+      "id": "ai-character:c8e66682d47e2af53a0e7217",
+      "action": "add",
+      "input_lines": [
+        253
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-1i-QXEz5UcI1",
+          "name": "NYAVATAR | AI VTuber「青木アリス/佐藤みかん/渡部ちゃこ/安室ハロ/黒宮すず/大村むぎちゃ/安室レイ」",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "安室ハロ",
+      "id": "ai-character:cb45359cbf44dfbf9d660b27",
+      "action": "add",
+      "input_lines": [
+        254
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-1i-QXEz5UcI1",
+          "name": "NYAVATAR | AI VTuber「青木アリス/佐藤みかん/渡部ちゃこ/安室ハロ/黒宮すず/大村むぎちゃ/安室レイ」",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "黒宮すず",
+      "id": "ai-character:3eeaee54f6277f29f00d630c",
+      "action": "add",
+      "input_lines": [
+        255
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-1i-QXEz5UcI1",
+          "name": "NYAVATAR | AI VTuber「青木アリス/佐藤みかん/渡部ちゃこ/安室ハロ/黒宮すず/大村むぎちゃ/安室レイ」",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "大村むぎちゃ",
+      "id": "ai-character:d8d17af6cbef1cea0326987f",
+      "action": "add",
+      "input_lines": [
+        256
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-1i-QXEz5UcI1",
+          "name": "NYAVATAR | AI VTuber「青木アリス/佐藤みかん/渡部ちゃこ/安室ハロ/黒宮すず/大村むぎちゃ/安室レイ」",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "安室レイ",
+      "id": "ai-character:63faa3a07edcfebb4ef7be63",
+      "action": "add",
+      "input_lines": [
+        257
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-1i-QXEz5UcI1",
+          "name": "NYAVATAR | AI VTuber「青木アリス/佐藤みかん/渡部ちゃこ/安室ハロ/黒宮すず/大村むぎちゃ/安室レイ」",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "紡ネン",
+      "id": "youtube:UCz3MxafXlPxGCJVpFLI7fGQ",
+      "action": "update",
+      "input_lines": [
+        258
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夢ノ森マイム",
+      "id": "ai-character:d059f6e350009b8a287a5c9c",
+      "action": "add",
+      "input_lines": [
+        259
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI Digy",
+      "id": "ai-character:a81e79916ce05f31b1b62d6c",
+      "action": "add",
+      "input_lines": [
+        260
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "HallwayChan",
+      "id": "ai-character:49a8ff49ebc42042a4c2448c",
+      "action": "add",
+      "input_lines": [
+        261
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Synapse.EXE",
+      "id": "ai-character:405178db2829c3c1fca9a5b2",
+      "action": "add",
+      "input_lines": [
+        262
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "コロン",
+      "id": "ai-character:267188a02cf907beaa7a31b0",
+      "action": "add",
+      "input_lines": [
+        263
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Nebby",
+      "id": "ai-character:4a2dd5d19e44a09f6991964f",
+      "action": "add",
+      "input_lines": [
+        264
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI深海鮟子",
+      "id": "ai-character:8746bb33f604d2f14bde6f91",
+      "action": "add",
+      "input_lines": [
+        265
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Lumrk",
+      "id": "ai-character:4cf4cbb3f80a000f5ebdb127",
+      "action": "add",
+      "input_lines": [
+        266
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Aimee Dee",
+      "id": "ai-character:c04f6f18c2895a411d9e39aa",
+      "action": "add",
+      "input_lines": [
+        267
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Ai Eva",
+      "id": "ai-character:eeedec95f6baa4c289e17031",
+      "action": "add",
+      "input_lines": [
+        268
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "YUKI",
+      "id": "ai-character:b3a5ea27f7e779427426888b",
+      "action": "add",
+      "input_lines": [
+        269
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:ed7b0572a3e7824a3084babd",
+      "action": "add",
+      "input_lines": [
+        270
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "つむぎさん",
+      "id": "ai-character:5f303dea6f4577379dfab0a6",
+      "action": "add",
+      "input_lines": [
+        271
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ラインちゃん",
+      "id": "ai-character:3f71fbcc7b1adda20a6ea467",
+      "action": "add",
+      "input_lines": [
+        272
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Bailey",
+      "id": "ai-character:f15185ef138e7a461d8547e9",
+      "action": "add",
+      "input_lines": [
+        273
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ずんだもんAI",
+      "id": "ai-character:f0c5594c947dbd73340aa783",
+      "action": "add",
+      "input_lines": [
+        274
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "萌望もち",
+      "id": "ai-character:ea827c6f7813f79898d46439",
+      "action": "add",
+      "input_lines": [
+        275
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夢喰ふわり",
+      "id": "ai-character:a4147426022c3c0b93284bb8",
+      "action": "add",
+      "input_lines": [
+        276
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "０夜",
+      "id": "ai-character:5b5a07c60dc998117d0bc40a",
+      "action": "add",
+      "input_lines": [
+        277
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "コネア・ルーティ",
+      "id": "kedamasuzume:1966605668594393583",
+      "action": "update",
+      "input_lines": [
+        278
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ボンビエス",
+      "id": "ai-character:34fdd2191013f86798115fa2",
+      "action": "add",
+      "input_lines": [
+        279
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "九十九奏",
+      "id": "ai-character:b340a921b2fa65305c24b244",
+      "action": "add",
+      "input_lines": [
+        280
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ミク",
+      "id": "ai-character:430f59dcb51a24cef78f06b6",
+      "action": "add",
+      "input_lines": [
+        281
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI赤井ざくろ",
+      "id": "ai-character:e8f6e8aa86b0aee42acfb2b5",
+      "action": "add",
+      "input_lines": [
+        282
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIニケちゃん",
+      "id": "aivnav:char-3wKClgvBqQj-",
+      "action": "update",
+      "input_lines": [
+        283
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "シロハナちゃん",
+      "id": "aivnav:char-vjJB2_H5GgSK",
+      "action": "update",
+      "input_lines": [
+        284
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIゆむ子",
+      "id": "ai-character:35f105f735de8cb9e91ae9f7",
+      "action": "add",
+      "input_lines": [
+        285
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "A1-15",
+      "id": "ai-character:bc7d46597d10d1941b8c3d3c",
+      "action": "add",
+      "input_lines": [
+        287
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIこより",
+      "id": "ai-character:f5ab61cec550a93c70f3bc5d",
+      "action": "add",
+      "input_lines": [
+        288
+      ],
+      "account_candidates": [
+        {
+          "id": "youtube:UC6eWCld0KwmyHFbAqK3V-Rw",
+          "name": "博衣こより",
+          "category": "VTuber"
+        },
+        {
+          "id": "a5468a6c-cd37-5475-a5c5-8a895945cf72",
+          "name": "博衣小夜璃",
+          "category": null
+        }
+      ]
+    },
+    {
+      "name": "AI兎宮みらい",
+      "id": "ai-character:dfd6ead1fbee539449a99c4b",
+      "action": "add",
+      "input_lines": [
+        289
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "CyberAlice",
+      "id": "ai-character:c9afc24e6cda5bab8d9dcf2b",
+      "action": "add",
+      "input_lines": [
+        290
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "burntmelba",
+      "id": "aituberlist:youtube-UCtNloE2GQZQNcDZ2OjrkycQ",
+      "action": "update",
+      "input_lines": [
+        291
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "陽菜沢かのん",
+      "id": "ai-character:08a33d50104ecfad3b83ae31",
+      "action": "add",
+      "input_lines": [
+        292
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "全知全能JK",
+      "id": "ai-character:a8590295ade89ae674969eca",
+      "action": "add",
+      "input_lines": [
+        293
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "春日部つむぎ",
+      "id": "ai-character:0c111d293163d75079fcaed2",
+      "action": "add",
+      "input_lines": [
+        294
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夏目める",
+      "id": "ai-character:4cc60b2540d61403514aa787",
+      "action": "add",
+      "input_lines": [
+        295
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "めいかい",
+      "id": "ai-character:a04f5725e067ab28c5786b2d",
+      "action": "add",
+      "input_lines": [
+        296
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Meteora",
+      "id": "ai-character:5a8a2cc152984b945d4d7783",
+      "action": "add",
+      "input_lines": [
+        297
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "めぐ",
+      "id": "ai-character:4b7ed66c24451936d91d8e78",
+      "action": "add",
+      "input_lines": [
+        298
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "KLEA",
+      "id": "ai-character:2286953be8f342d0fccb1246",
+      "action": "add",
+      "input_lines": [
+        299
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Tulip",
+      "id": "ai-character:f5c1864db1feb4763ab0bf39",
+      "action": "add",
+      "input_lines": [
+        300
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Ao",
+      "id": "ai-character:c340ea3616aef2bd11f4a6c9",
+      "action": "add",
+      "input_lines": [
+        301
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "かすか",
+      "id": "ai-character:dcfaac74af9f29289c2c1cd2",
+      "action": "add",
+      "input_lines": [
+        302
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "心導イコ",
+      "id": "ai-character:bd222b832cd3924d8b1f3d94",
+      "action": "add",
+      "input_lines": [
+        303
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "堀井聖",
+      "id": "ai-character:111e8d283cfaaed19320eaf8",
+      "action": "add",
+      "input_lines": [
+        304
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "もにうむ",
+      "id": "ai-character:3641d14973769694a18708dd",
+      "action": "add",
+      "input_lines": [
+        305
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Pyra",
+      "id": "ai-character:82ac1027104a4e53b75108f6",
+      "action": "add",
+      "input_lines": [
+        306
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "七尾えみ",
+      "id": "youtube:UCNpaS7EteiT1IFigRBfW6eg",
+      "action": "update",
+      "input_lines": [
+        307
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Lida",
+      "id": "ai-character:76a421e9b0f44eac48d2561b",
+      "action": "add",
+      "input_lines": [
+        308
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Nova",
+      "id": "ai-character:ad43805b718e909998fce426",
+      "action": "add",
+      "input_lines": [
+        309
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "藍待ミライ",
+      "id": "ai-character:c383f55888637fc4fc667717",
+      "action": "add",
+      "input_lines": [
+        310
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "月見里こころ",
+      "id": "ai-character:3112c4d4ac448ca6b7c629ed",
+      "action": "add",
+      "input_lines": [
+        311
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アント・マリィ",
+      "id": "ai-character:97ae7ec7ffa4c83bb3cc4c65",
+      "action": "add",
+      "input_lines": [
+        312
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Foxy",
+      "id": "ai-character:ca01736b710675bcbc3b9bc4",
+      "action": "add",
+      "input_lines": [
+        313
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Quanta",
+      "id": "ai-character:7ccd8bb05bbd896f907116b9",
+      "action": "add",
+      "input_lines": [
+        314
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Pina",
+      "id": "ai-character:66cee80ee3418303d4db8f28",
+      "action": "add",
+      "input_lines": [
+        315
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Sisyph-Chan",
+      "id": "ai-character:6f9f28e18c4d1afd78b04e1e",
+      "action": "add",
+      "input_lines": [
+        316
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ユキカゼ",
+      "id": "ai-character:b732483b4457e5aa4755cc60",
+      "action": "add",
+      "input_lines": [
+        317
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "霊花ユウ",
+      "id": "aivnav:char-jqGxyfBXlKa6",
+      "action": "update",
+      "input_lines": [
+        318
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Mindy",
+      "id": "ai-character:72ae053a7bf69787f89528fc",
+      "action": "add",
+      "input_lines": [
+        319
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Yuna",
+      "id": "ai-character:532b0213a59da8f46e2bf608",
+      "action": "add",
+      "input_lines": [
+        320
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Yumi",
+      "id": "ai-character:ab401ef128bd54845d3c7626",
+      "action": "add",
+      "input_lines": [
+        321
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "pony",
+      "id": "ai-character:fc4492cd6dcdba2be2517ca8",
+      "action": "add",
+      "input_lines": [
+        322
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Rina",
+      "id": "ai-character:9b6c3bb8fe6d961340ad31a6",
+      "action": "add",
+      "input_lines": [
+        323
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Aiya",
+      "id": "ai-character:361a1edde2211fe81bf09e9e",
+      "action": "add",
+      "input_lines": [
+        324
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Luna Metztli Gamma",
+      "id": "ai-character:aaaafd203a253593a7ff12cc",
+      "action": "add",
+      "input_lines": [
+        325
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "大福きなこ",
+      "id": "ai-character:f04a93d1e00ce8eaa288b812",
+      "action": "add",
+      "input_lines": [
+        326
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Yuna",
+      "id": "ai-character:39103f01b7568b109469a239",
+      "action": "add",
+      "input_lines": [
+        327
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIネオンちゃん",
+      "id": "ai-character:a353ec9706417b3c43a90ee7",
+      "action": "add",
+      "input_lines": [
+        328
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アシス",
+      "id": "ai-character:b06d8721ae6bb70a87813f4e",
+      "action": "add",
+      "input_lines": [
+        329
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Ram",
+      "id": "ai-character:1f005e7e58648f69b7a36da4",
+      "action": "add",
+      "input_lines": [
+        330
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "鶴舞こあら",
+      "id": "ai-character:f1f2e331efcad8e3ba0e9c8b",
+      "action": "add",
+      "input_lines": [
+        331
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "連小薇",
+      "id": "ai-character:e089260c67107fe0851c2fa1",
+      "action": "add",
+      "input_lines": [
+        332
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "MirAI",
+      "id": "ai-character:cabd0c0aea52eba77e20b83e",
+      "action": "add",
+      "input_lines": [
+        333
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "白玉くん",
+      "id": "ai-character:2f7d21a11f7cc46340e78034",
+      "action": "add",
+      "input_lines": [
+        334
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "セリア",
+      "id": "ai-character:001da7d23a31eeef7723c626",
+      "action": "add",
+      "input_lines": [
+        335
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "高槻しおり",
+      "id": "ai-character:7e552a070b192caa7cdad422",
+      "action": "add",
+      "input_lines": [
+        336
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "雅",
+      "id": "ai-character:38c7bfdf24b1b2eadc68f8e0",
+      "action": "add",
+      "input_lines": [
+        337
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Dolly",
+      "id": "ai-character:df73dba93cdc2b87ca3b66e5",
+      "action": "add",
+      "input_lines": [
+        338
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Shapesy",
+      "id": "ai-character:e61a3dc354395c0357205caa",
+      "action": "add",
+      "input_lines": [
+        339
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Ali",
+      "id": "ai-character:62f931b99dbd027b9a13860f",
+      "action": "add",
+      "input_lines": [
+        340
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "紫霞あいな",
+      "id": "ai-character:fe06cc932ca4ee6b3d468bc5",
+      "action": "add",
+      "input_lines": [
+        341
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "紫霞ゆいな",
+      "id": "ai-character:0801f2fcfe5bb4907e9599b8",
+      "action": "add",
+      "input_lines": [
+        342
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "紺",
+      "id": "ai-character:33d60086910f53ef9272a7ed",
+      "action": "add",
+      "input_lines": [
+        343
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Riko",
+      "id": "ai-character:8dcbbf89873a5c1f10b823f6",
+      "action": "add",
+      "input_lines": [
+        344
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "オモやん",
+      "id": "ai-character:c39e4ba4d0a244273366ce2c",
+      "action": "add",
+      "input_lines": [
+        345
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "あーちゃん",
+      "id": "ai-character:0798b85850c9d295b60b7c9d",
+      "action": "add",
+      "input_lines": [
+        346
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "姫園りりぃ",
+      "id": "ai-character:6d5ece4a52bde7aff6b3c07d",
+      "action": "add",
+      "input_lines": [
+        347
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ポテじい",
+      "id": "ai-character:27ec3ffd33e68cda2622ca55",
+      "action": "add",
+      "input_lines": [
+        348
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ヒベルナ",
+      "id": "ai-character:7856b5f3cb261cecbdfc70fa",
+      "action": "add",
+      "input_lines": [
+        349
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ユウリカ",
+      "id": "ai-character:3be4e949349c78004349bb66",
+      "action": "add",
+      "input_lines": [
+        350
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI咲耶",
+      "id": "ai-character:f8f16aad7f093a4ddb61935f",
+      "action": "add",
+      "input_lines": [
+        351
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "練埜クレア",
+      "id": "ai-character:76683a8cb5b6a411315cc4d1",
+      "action": "add",
+      "input_lines": [
+        352
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "マカ",
+      "id": "ai-character:297c0b39870877c86e65b828",
+      "action": "add",
+      "input_lines": [
+        353
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ブルーネ・ルーナリア",
+      "id": "ai-character:a8430947fc2444f0b82af2ba",
+      "action": "add",
+      "input_lines": [
+        354
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "環くん",
+      "id": "ai-character:62acf6c9b0584a26ab3f31b7",
+      "action": "add",
+      "input_lines": [
+        355
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "覚眼結衣",
+      "id": "ai-character:424493b3e0ef96affc89ef8d",
+      "action": "add",
+      "input_lines": [
+        356
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ちーちゃん",
+      "id": "ai-character:01e01e41cc6cc10d58cf1b15",
+      "action": "add",
+      "input_lines": [
+        357
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "いさざめ",
+      "id": "ai-character:3847960eda294f38d3db9eca",
+      "action": "add",
+      "input_lines": [
+        358
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ミラ",
+      "id": "ai-character:bf647e60993aa085b47e29f5",
+      "action": "add",
+      "input_lines": [
+        359
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ライド",
+      "id": "ai-character:3f32277acdb696e90e678cd7",
+      "action": "add",
+      "input_lines": [
+        360
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "月詠キラ",
+      "id": "ai-character:6b4baa1b262403fa26459781",
+      "action": "add",
+      "input_lines": [
+        361
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "彩香",
+      "id": "ai-character:df3677676bd25f586920be76",
+      "action": "add",
+      "input_lines": [
+        362
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "いおり",
+      "id": "ai-character:140238a6d56d4dd8e666dbd0",
+      "action": "add",
+      "input_lines": [
+        363
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "マリーAQ",
+      "id": "ai-character:d7cd3bc7b3b835976165989a",
+      "action": "add",
+      "input_lines": [
+        364
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "みずき",
+      "id": "ai-character:9c6ff793b040d35eec2d81ee",
+      "action": "add",
+      "input_lines": [
+        365
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "るひさ",
+      "id": "ai-character:b76e322b5323c0d5caa71375",
+      "action": "add",
+      "input_lines": [
+        366
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "もも",
+      "id": "ai-character:bbbd9b038be73a3d7896a55d",
+      "action": "add",
+      "input_lines": [
+        367
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Arisa",
+      "id": "ai-character:4cd1d3034d396188111c1636",
+      "action": "add",
+      "input_lines": [
+        368
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "青波ことり",
+      "id": "ai-character:5453ac688c1403e7df898b75",
+      "action": "add",
+      "input_lines": [
+        369
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "鈴木めい",
+      "id": "ai-character:94266bec2b65a0325a052f47",
+      "action": "add",
+      "input_lines": [
+        370
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "にゅりぷ",
+      "id": "ai-character:77347eb419c4455e8dca48af",
+      "action": "add",
+      "input_lines": [
+        371
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "天知レイ",
+      "id": "ai-character:480a80ceaefe6422641a5d2d",
+      "action": "add",
+      "input_lines": [
+        372
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "SOYOGI",
+      "id": "youtube:UCx2XAGS0FoG9S6r0bhNo2UA",
+      "action": "update",
+      "input_lines": [
+        373
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "春弧",
+      "id": "ai-character:4976fe0343413f940f6cdc2c",
+      "action": "add",
+      "input_lines": [
+        374
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Luna",
+      "id": "ai-character:dad97e3dad8f56f4806e7c0a",
+      "action": "add",
+      "input_lines": [
+        375
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIみずきちゃん",
+      "id": "aivnav:char-ahUkB5NQulwd",
+      "action": "update",
+      "input_lines": [
+        376
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Samo",
+      "id": "ai-character:94981aef4e6209becf52f949",
+      "action": "add",
+      "input_lines": [
+        377
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Nyx",
+      "id": "ai-character:5ff56d3b1d2783c21dae1c9b",
+      "action": "add",
+      "input_lines": [
+        378
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Joyce",
+      "id": "ai-character:7cde9ac77272330b1077db51",
+      "action": "add",
+      "input_lines": [
+        379
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Panda",
+      "id": "ai-character:0de4b8ac9d4f32540f5ab295",
+      "action": "add",
+      "input_lines": [
+        380
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "相原美奈子",
+      "id": "ai-character:0e628631ca536422be6e7e5a",
+      "action": "add",
+      "input_lines": [
+        381
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "カゲ",
+      "id": "ai-character:b163325e3514eebe1fc5eabf",
+      "action": "add",
+      "input_lines": [
+        382
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アール",
+      "id": "ai-character:7e06af7ff80f30ef374a92e8",
+      "action": "add",
+      "input_lines": [
+        383
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AI紫苑ラピス",
+      "id": "ai-character:6762ad2c83199efaf6c8e618",
+      "action": "add",
+      "input_lines": [
+        384
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-gJ9ZRT0YLPd2",
+          "name": "AIラピス/AI千結/ミル様/AIひなた/有馬梅子/ウマネル/フネネル/ユリ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UCkf8Vb3GFOUwBxyJkNX1y6Q",
+          "name": "紫苑ラピス┊︎文具系VTuberゼロ",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "AI紫苑ルピス",
+      "id": "ai-character:386c07f0b4c3386c673d8ee3",
+      "action": "add",
+      "input_lines": [
+        385
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-gJ9ZRT0YLPd2",
+          "name": "AIラピス/AI千結/ミル様/AIひなた/有馬梅子/ウマネル/フネネル/ユリ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UCkf8Vb3GFOUwBxyJkNX1y6Q",
+          "name": "紫苑ラピス┊︎文具系VTuberゼロ",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "セレス",
+      "id": "ai-character:8e88533af32643e0197d6005",
+      "action": "add",
+      "input_lines": [
+        386
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-gJ9ZRT0YLPd2",
+          "name": "AIラピス/AI千結/ミル様/AIひなた/有馬梅子/ウマネル/フネネル/ユリ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UCkf8Vb3GFOUwBxyJkNX1y6Q",
+          "name": "紫苑ラピス┊︎文具系VTuberゼロ",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "紗良ちゃん",
+      "id": "ai-character:0712a546cb76493b76222262",
+      "action": "add",
+      "input_lines": [
+        387
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Kumi",
+      "id": "ai-character:945b7bff3b4d23d7de69bf6e",
+      "action": "add",
+      "input_lines": [
+        388
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "更白みらる",
+      "id": "ai-character:098a01a9dbd42cc700304e29",
+      "action": "add",
+      "input_lines": [
+        389
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "わかりかねる",
+      "id": "ai-character:9084060dd8737b3c5f6cdccc",
+      "action": "add",
+      "input_lines": [
+        390
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "月影野リナ",
+      "id": "ai-character:180478e96c644b5156b41fdb",
+      "action": "add",
+      "input_lines": [
+        391
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "どくちゃん",
+      "id": "ai-character:3c5916e91dfef935ae874e34",
+      "action": "add",
+      "input_lines": [
+        392
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Asteri",
+      "id": "ai-character:159537a93047285c55c9560a",
+      "action": "add",
+      "input_lines": [
+        393
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ネオン",
+      "id": "ai-character:3b77ca4ee12065a46d968d91",
+      "action": "add",
+      "input_lines": [
+        394
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ルミナス",
+      "id": "ai-character:55a2760e7e5048601209dd14",
+      "action": "add",
+      "input_lines": [
+        395
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ラン",
+      "id": "ai-character:4e6e17ae6b9801691bdb7d64",
+      "action": "add",
+      "input_lines": [
+        396
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "リアン",
+      "id": "ai-character:22763ef0afa02572ac32b347",
+      "action": "add",
+      "input_lines": [
+        397
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIMy",
+      "id": "ai-character:4951bc05ee8d67769fef7fbd",
+      "action": "add",
+      "input_lines": [
+        398
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ノクサナ・ディーラ",
+      "id": "ai-character:ba594cda76efa6383acb4a0a",
+      "action": "add",
+      "input_lines": [
+        399
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "リナ",
+      "id": "ai-character:f9ab69bf495634a2fadf3418",
+      "action": "add",
+      "input_lines": [
+        400
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "トラまろ",
+      "id": "ai-character:024b7fa39b5a5ca609e44d6b",
+      "action": "add",
+      "input_lines": [
+        401
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "フェリシア",
+      "id": "ai-character:3e5ad7dad001ff6ce8121c7c",
+      "action": "add",
+      "input_lines": [
+        402
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "メロウ",
+      "id": "ai-character:18a05fe0a386ba6ea91b438f",
+      "action": "add",
+      "input_lines": [
+        403
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "白瀬ことは",
+      "id": "ai-character:d570b2029dc5ffbed754fe5f",
+      "action": "add",
+      "input_lines": [
+        404
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "壱葉てあ",
+      "id": "ai-character:e5af3833bee0bf5aeaf4fd0e",
+      "action": "add",
+      "input_lines": [
+        405
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "結城ヒカリ",
+      "id": "ai-character:59b4d17c41ffd650488c1bab",
+      "action": "add",
+      "input_lines": [
+        406
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "機田ゆん",
+      "id": "ai-character:9f341e85a98234c9af02d550",
+      "action": "add",
+      "input_lines": [
+        407
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "稲荷ミコ",
+      "id": "ai-character:df2a5854b771d473a1334e56",
+      "action": "add",
+      "input_lines": [
+        408
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "秋野日向",
+      "id": "ai-character:b735d2e3ebd9d70f1d39764c",
+      "action": "add",
+      "input_lines": [
+        409
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "aituber0レイ",
+      "id": "ai-character:8d0126c9861690da145d1fd3",
+      "action": "add",
+      "input_lines": [
+        410
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIあお",
+      "id": "ai-character:f352c5f99a21d3632eed88b6",
+      "action": "add",
+      "input_lines": [
+        411
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "クレオパトラ",
+      "id": "ai-character:af6ef2eb50132b1b4283f9e6",
+      "action": "add",
+      "input_lines": [
+        412
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "董白",
+      "id": "ai-character:3828b07fdd3bf1c88853c98c",
+      "action": "add",
+      "input_lines": [
+        413
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "天神カイリ",
+      "id": "ai-character:9c11de4df70f09cfa730aad0",
+      "action": "add",
+      "input_lines": [
+        414
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Овсянка",
+      "id": "ai-character:aa2c970c4d0244840482bc70",
+      "action": "add",
+      "input_lines": [
+        415
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "井森さくこ",
+      "id": "ai-character:f9f00f338f27866781749f82",
+      "action": "add",
+      "input_lines": [
+        416
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "東北きりたん",
+      "id": "aivnav:char-xDOTP-Yd5IDR",
+      "action": "update",
+      "input_lines": [
+        417
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "あかほしれん",
+      "id": "ai-character:6fd5d21f33e099a11a2a5649",
+      "action": "add",
+      "input_lines": [
+        418
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-GktGTI1XjrBO",
+          "name": "あかほし れん/みなほし かるり/てんま みどり/あおな ゆめ/よぞら みゆ/きらめ るり/ふろあ らぽ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UC6xVSCTija4vOsEjU1-Mk_A",
+          "name": "いしとほしプロジェクト【公式】",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "みなほしかるり",
+      "id": "ai-character:f46d58057b6122a8cb59e25f",
+      "action": "add",
+      "input_lines": [
+        419
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-GktGTI1XjrBO",
+          "name": "あかほし れん/みなほし かるり/てんま みどり/あおな ゆめ/よぞら みゆ/きらめ るり/ふろあ らぽ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UC6xVSCTija4vOsEjU1-Mk_A",
+          "name": "いしとほしプロジェクト【公式】",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "てんまみどり",
+      "id": "ai-character:12f1d3e9b59db0faf360905a",
+      "action": "add",
+      "input_lines": [
+        420
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-GktGTI1XjrBO",
+          "name": "あかほし れん/みなほし かるり/てんま みどり/あおな ゆめ/よぞら みゆ/きらめ るり/ふろあ らぽ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UC6xVSCTija4vOsEjU1-Mk_A",
+          "name": "いしとほしプロジェクト【公式】",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "あおなゆめ",
+      "id": "ai-character:daf9ccd4c7e6ac40b799586e",
+      "action": "add",
+      "input_lines": [
+        421
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-GktGTI1XjrBO",
+          "name": "あかほし れん/みなほし かるり/てんま みどり/あおな ゆめ/よぞら みゆ/きらめ るり/ふろあ らぽ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UC6xVSCTija4vOsEjU1-Mk_A",
+          "name": "いしとほしプロジェクト【公式】",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "よぞらみゆ",
+      "id": "ai-character:1d5d75705ae233f8bf4bf620",
+      "action": "add",
+      "input_lines": [
+        422
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-GktGTI1XjrBO",
+          "name": "あかほし れん/みなほし かるり/てんま みどり/あおな ゆめ/よぞら みゆ/きらめ るり/ふろあ らぽ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UC6xVSCTija4vOsEjU1-Mk_A",
+          "name": "いしとほしプロジェクト【公式】",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "きらめるり",
+      "id": "ai-character:917ee852aa9da6d3f0a472bc",
+      "action": "add",
+      "input_lines": [
+        423
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-GktGTI1XjrBO",
+          "name": "あかほし れん/みなほし かるり/てんま みどり/あおな ゆめ/よぞら みゆ/きらめ るり/ふろあ らぽ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UC6xVSCTija4vOsEjU1-Mk_A",
+          "name": "いしとほしプロジェクト【公式】",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "ふろあらぽ",
+      "id": "ai-character:7655b3c1c780b73b5a818988",
+      "action": "add",
+      "input_lines": [
+        424
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-GktGTI1XjrBO",
+          "name": "あかほし れん/みなほし かるり/てんま みどり/あおな ゆめ/よぞら みゆ/きらめ るり/ふろあ らぽ",
+          "category": "AIVTuber"
+        },
+        {
+          "id": "aituberlist:youtube-UC6xVSCTija4vOsEjU1-Mk_A",
+          "name": "いしとほしプロジェクト【公式】",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "アム",
+      "id": "ai-character:e99097538809d8790eb5f299",
+      "action": "add",
+      "input_lines": [
+        425
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-aX-K6on_nx2e",
+          "name": "アムさん・イムちゃん",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "イム",
+      "id": "ai-character:13156cd39839c9994879b68e",
+      "action": "add",
+      "input_lines": [
+        426
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-aX-K6on_nx2e",
+          "name": "アムさん・イムちゃん",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "AKA",
+      "id": "ai-character:cef371aa6645e972eea2fed0",
+      "action": "add",
+      "input_lines": [
+        427
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "笹風リン",
+      "id": "aivnav:char-AXiWT5Dnsukk",
+      "action": "update",
+      "input_lines": [
+        428
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "踊美ひなち",
+      "id": "ai-character:8a7f7fbb6c0ac4c02b713f33",
+      "action": "add",
+      "input_lines": [
+        429
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "輝宮瑠璃",
+      "id": "aivnav:char-OwzeVVd8JT_X",
+      "action": "update",
+      "input_lines": [
+        430
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "さくら",
+      "id": "ai-character:fe164570445a91824948a10c",
+      "action": "add",
+      "input_lines": [
+        431
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "himiico",
+      "id": "ai-character:95331627b55e5727bf108771",
+      "action": "add",
+      "input_lines": [
+        432
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "マイラU-001",
+      "id": "ai-character:8e9fafd6d5c2b3ed41430e77",
+      "action": "add",
+      "input_lines": [
+        433
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIはきな",
+      "id": "ai-character:080dfd6b87fc3cceed717311",
+      "action": "add",
+      "input_lines": [
+        434
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AITuber_Akari",
+      "id": "ai-character:35509dcf0ad336b7534bd12f",
+      "action": "add",
+      "input_lines": [
+        435
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Lise Sakura Lumiere",
+      "id": "ai-character:01086a619b36ad8574d39681",
+      "action": "add",
+      "input_lines": [
+        436
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "白耀結菜",
+      "id": "aivnav:char-oclZdvbvf31I",
+      "action": "update",
+      "input_lines": [
+        437
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "しいな",
+      "id": "ai-character:3a27314a06ed4bcaf76dec18",
+      "action": "add",
+      "input_lines": [
+        438
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "芽吹なのは",
+      "id": "aivnav:char-vPi5uXQ3VGQW",
+      "action": "update",
+      "input_lines": [
+        439
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "才羽リム",
+      "id": "aivnav:char-daNnfx0bTheB",
+      "action": "update",
+      "input_lines": [
+        440
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "水晶うらら",
+      "id": "aivnav:char-gvKqQ_82MWB0",
+      "action": "update",
+      "input_lines": [
+        441
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "高倉クリス",
+      "id": "aivnav:char-xbUHOU5jSxtz",
+      "action": "update",
+      "input_lines": [
+        442
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "龍咲アスカ",
+      "id": "aivnav:char-gl02_sAZroZE",
+      "action": "update",
+      "input_lines": [
+        443
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アシザワ・カモメ",
+      "id": "aivnav:char-5eaH6zGBFgpf",
+      "action": "update",
+      "input_lines": [
+        444
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ナリキン。",
+      "id": "ai-character:401231f04b63226fa6b571fc",
+      "action": "add",
+      "input_lines": [
+        445
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アイエル・シアーホワイト",
+      "id": "aivnav:char-UDDq893cvc_B",
+      "action": "update",
+      "input_lines": [
+        446
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "キカイ",
+      "id": "aituberlist:youtube-UCDkXZfVk7zLDcbFTrEi9vGA",
+      "action": "update",
+      "input_lines": [
+        447
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "しげおくん",
+      "id": "aivnav:char-bnnMfSdCeX3G",
+      "action": "update",
+      "input_lines": [
+        448
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ツナ",
+      "id": "aivnav:char-Wzpg8NIGTQfv",
+      "action": "update",
+      "input_lines": [
+        449
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "夜羽魅零",
+      "id": "aivnav:char-Unf5AkmTLcGR",
+      "action": "update",
+      "input_lines": [
+        450
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "aivnav:char-RX3vQt5iw__p",
+      "action": "update",
+      "input_lines": [
+        451
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "フェウエラ",
+      "id": "youtube:UCqMcBaq09JgxMj29J7EQJkQ",
+      "action": "update",
+      "input_lines": [
+        452
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "永藍レナ",
+      "id": "aivnav:char-pcvRF-v-o2SY",
+      "action": "update",
+      "input_lines": [
+        453
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "早見菜央",
+      "id": "aivnav:char-NRGlBhtjWSmN",
+      "action": "update",
+      "input_lines": [
+        454
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "朝日奈ライラ",
+      "id": "aivnav:char-DAsHtGk7EWY9",
+      "action": "update",
+      "input_lines": [
+        455
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "月夜野アルマ",
+      "id": "aivnav:char-93wO5xlHORS5",
+      "action": "update",
+      "input_lines": [
+        456
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "アイリーン",
+      "id": "ai-character:c94e5f64d989d6b56e92d263",
+      "action": "add",
+      "input_lines": [
+        457
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-Fsjs4j3VDc_f",
+          "name": "アイリーン(姉)/マイリーン(妹）",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "マイリーン",
+      "id": "ai-character:2de5dad5399fc7902393506d",
+      "action": "add",
+      "input_lines": [
+        458
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-Fsjs4j3VDc_f",
+          "name": "アイリーン(姉)/マイリーン(妹）",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "まめひなた",
+      "id": "ai-character:55211e06218e9f000beeae0f",
+      "action": "add",
+      "input_lines": [
+        459
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "りんなちゃん",
+      "id": "aivnav:char-hwSTu0HoYXMp",
+      "action": "update",
+      "input_lines": [
+        460
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "クエリ・レル",
+      "id": "aivnav:char-M86xArHcib23",
+      "action": "update",
+      "input_lines": [
+        461
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIひより",
+      "id": "ai-character:8de837e60e6dbd7ecb08e268",
+      "action": "add",
+      "input_lines": [
+        463
+      ],
+      "account_candidates": [
+        {
+          "id": "aivnav:char-_b4flg2NMVZY",
+          "name": "桃瀬ひより",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "AIゑるる",
+      "id": "ai-character:75cf27aa476987e103f567b1",
+      "action": "add",
+      "input_lines": [
+        464
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "IZ",
+      "id": "ai-character:a40d74c07f49ffe8fa86809a",
+      "action": "add",
+      "input_lines": [
+        465
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "一ノ瀬結衣",
+      "id": "ai-character:580133ac54a8648565ecff26",
+      "action": "add",
+      "input_lines": [
+        466
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "晴野ひろこ",
+      "id": "ai-character:a271ebb59edaa6de027bd290",
+      "action": "add",
+      "input_lines": [
+        467
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "ミコ",
+      "id": "ai-character:cb706bfd6c4072909235a5de",
+      "action": "add",
+      "input_lines": [
+        468
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIひろゆき",
+      "id": "ai-character:c66fcf35cdd50cfd1fb7fb99",
+      "action": "add",
+      "input_lines": [
+        469
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Lumi",
+      "id": "ai-character:f75e2eadf882704a154fc903",
+      "action": "add",
+      "input_lines": [
+        470
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Evil",
+      "id": "ai-character:faca5813c36d7bef6d40345c",
+      "action": "add",
+      "input_lines": [
+        471
+      ],
+      "account_candidates": [
+        {
+          "id": "3021897f-20bc-5e0c-a569-7d7aebe125f6",
+          "name": "neuro_sama",
+          "category": null
+        },
+        {
+          "id": "aivtuber-tv:neuro-sama",
+          "name": "Neuro-sama",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "Luna",
+      "id": "youtube:UCJ2Lj2HePDIKNJLtB3E8L9Q",
+      "action": "update",
+      "input_lines": [
+        473
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "Ivy",
+      "id": "ai-character:1ca8b8975dd680d938de6c67",
+      "action": "add",
+      "input_lines": [
+        480
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "翠葉りあ",
+      "id": "ai-character:0554012507f7aeb099b9b852",
+      "action": "add",
+      "input_lines": [
+        483
+      ],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "youtube:UCUAI2yiwhi309kfRPZwKDfg",
+      "action": "update",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "aivnav:char-XYgh0C9MFqeZ",
+      "action": "update",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:8391d747883214c10ab277cd",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": [
+        {
+          "id": "aituberlist:youtube-UCN1iLFunvF4BYS2OrjW9lTw",
+          "name": "AI Zundamon",
+          "category": "AIVTuber"
+        }
+      ]
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:9591602654c38c4ec9a86e1f",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:9aa1056b0bbe0f3d22943b94",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:988ac2445e298725847becbf",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:5e193cf53f661b23f8b87b4e",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:fff3025411b2a04a3cee1c45",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:b0e2b5d4ac6e4abe56390cbf",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:51d54844ed33f72f10e851eb",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": []
+    },
+    {
+      "name": "AIずんだもん",
+      "id": "ai-character:7ffab3ca13c7d91486bb56af",
+      "action": "add",
+      "input_lines": [],
+      "account_candidates": []
+    }
+  ]
+}
