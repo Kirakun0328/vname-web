@@ -32,7 +32,7 @@ function load(data){
   Object.assign(r,resolveReading(r));
   r.romanized_name=r.romanized_source?r.romanized_name:'';
   const media=window.VNamePlatforms.details(r);
-  return {...r,media,keys:[r.display_name,r.reading,r.romanized_name,...(r.aliases||[])].map(key)};
+  return {...r,media,keys:[r.display_name,r.reading,r.romanized_name,r.channel_title,r.youtube_handle,...(r.aliases||[])].map(key)};
  });
  $('count').textContent=`収録 ${records.length.toLocaleString()} 件`;
  buildPlatformFilters();
@@ -76,7 +76,16 @@ function renderCard({r,type}){
  const note=element('div','note');
  const sources=[...(r.platform_accounts||[]).filter(a=>a.platform==='x'&&/^https:\/\/(?:x|twitter)\.com\/[A-Za-z0-9_]{1,15}$/.test(a.url||'')).map(a=>['本人のX',a.url]),...(r.name_source?[['名前の確認元',r.name_source]]:[]),...(r.reading&&!r.reading_inferred?[['読みの出典',r.reading_source]]:[]),['掲載元',r.activity_source||r.source_url||(r.source_id.startsWith('youtube:')?'https://vtuber-post.com/database_detail.html?id='+r.source_id.slice(8):'https://vdb.vtbs.moe/')],['活動媒体の出典',media.primarySource]];
  for(const [label,url] of sources)if(sourceLink(url))note.append(link(label,url));
- details.append(note);article.append(top,name,reading,platformLinks,details);return article;
+ details.append(note);article.append(top,name,reading);
+ if(r.channel_title){
+  const channel=element('div','card-channel');channel.append(element('span','card-channel-label','YouTubeチャンネル'));
+  const account=window.VNamePlatforms?.account(r.youtube_url);
+  channel.append(account?link(r.channel_title,account.url,'card-channel-name'):element('span','card-channel-name',r.channel_title));
+  const identifier=r.youtube_handle||r.youtube_channel_id;
+  if(identifier)channel.append(element('span','card-channel-handle',identifier));
+  article.append(channel);
+ }
+ article.append(platformLinks,details);return article;
 }
 function render(){
  const box=$('results');box.replaceChildren();
